@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/images/GPlately%2BpyGMT.png" alt="GPlately + pyGMT" width="360">
+</p>
+
 # Extending pyGMT into Deep Time via GPlately
 
 An open, reproducible tutorial suite of **15 Jupyter notebooks** that couples
