@@ -1,0 +1,20 @@
+name: gplately-pygmt
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.10
+  - gplately
+  - pygmt
+  - jupyterlab
+  - panel
+  - matplotlib
+  - cartopy
+  - xarray
+  - pandas
+  - numpy
+  - shapely
+  - geopandas
+  - pyarrow         # for parquet caches (T10)
+  - imageio         # for T03 animations
+  - ffmpeg          # for T03 MP4 encoding
+  - pip

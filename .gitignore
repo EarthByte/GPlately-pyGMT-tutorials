@@ -1,0 +1,69 @@
+# === Plate Model Manager caches & reconstructed-data downloads ===
+# (gplately_data, gplately_data/, cache/, reveal_panel_cache_v*/, zircon_panel_cache_v*/, panel_cache/)
+gplately_data/
+**/gplately_data/
+cache/
+**/cache/
+*panel_cache*/
+**/*panel_cache*/
+
+# === Jupyter ===
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+*.ipynb_meta
+
+# === Python ===
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+
+# === OS / editor ===
+.DS_Store
+**/.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# === Local environment files ===
+.env
+*.local
+
+# === Paper-build artefacts (the build script regenerates them) ===
+paper/Extending_pyGMT_into_Deep_Time.docx
+paper/Extending_pyGMT_into_Deep_Time_AGU.docx
+
+# === Animation frame directories ===
+litho_frames/
+litho_recon_frames/
+pmm_frames/
+seabed_frames/
+**/litho_frames/
+**/litho_recon_frames/
+**/pmm_frames/
+**/seabed_frames/
+videos/
+**/videos/
+
+# === Generated media — keep the source code that builds them ===
+*.mp4
+*.gif
+*.webm
+plate_motion.*
+rotating_earth*
+litho_thickness*
+
+# === Log files ===
+*.log
+**/*.log
+
+# === Shell scripts dropped by interactive runs ===
+**/rotating_earth_main.sh
+
+# === Internal / not for public repo ===
+CLAUDE.md
+CHANGELOG.md
+tutorial_brainstorm.md
