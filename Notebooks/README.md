@@ -45,7 +45,7 @@ jupyter lab
 | T11 | [Metamorphic zircons through deep time](T11_Metamorphic_Zircons_Reconstructed.ipynb) | postgrad | ★★★ | drafted |
 | T12 | [Detrital-zircon paleo-distance to the nearest subduction zone](T12_Detrital_Zircon_Distance_to_Subduction.ipynb) | postgrad | ★★★ | drafted |
 | T13 | [REVEAL tomography slices with reconstructed plate boundaries](T13_REVEAL_Tomography_Slices.ipynb) | postgrad | ★★★ | drafted |
-| T14 | [Plate-boundary convergence + deforming-region strain rates](T14_Plate_Convergence_Strain_Rates.ipynb) | postgrad | ★★★ | drafted |
+| T14 | [Paleo-strain rate maps](T14_Paleo_Strain_Rate_Maps.ipynb) | postgrad | ★★★ | drafted |
 | T15 | [Paleo-σHmax along the Andean subduction zone](T15_Paleo_SHmax_Subduction.ipynb) | postgrad | ★★★ | drafted |
 
 All 15 are currently "drafted" — they parse as valid Jupyter notebooks with

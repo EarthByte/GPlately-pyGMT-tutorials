@@ -15,8 +15,8 @@ three research-grade flagship workflows:
 - **T13** — REVEAL tomography slices with reconstructed plate boundaries
   overlaid at sinking-rate-derived ages, exposing the slab-graveyard signal
   in the deep mantle.
-- **T14** — Plate-boundary convergence statistics combined with deforming-
-  region strain rates inside topological networks.
+- **T14** — Paleo-strain rate maps inside topological deforming-plate
+  networks, reconstructed through time.
 - **T15** — Paleo-σHmax computation along subduction zones, a Python port of
   the Stephan et al. (2023) `tectonicr` method applied to deep time.
 
