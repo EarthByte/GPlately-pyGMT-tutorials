@@ -67,3 +67,7 @@ litho_thickness*
 CLAUDE.md
 CHANGELOG.md
 tutorial_brainstorm.md
+
+# === Per-notebook figure outputs ===
+outputs/
+**/outputs/
