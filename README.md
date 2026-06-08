@@ -10,7 +10,7 @@ with [pyGMT](https://www.pygmt.org/) (publication-quality maps, charts, and
 scientific plots).
 
 The suite is sequenced as a teaching ladder from undergraduate primer (T01) to
-three research-grade flagship workflows at the climax:
+three research-grade flagship workflows:
 
 - **T13** — REVEAL tomography slices with reconstructed plate boundaries
   overlaid at sinking-rate-derived ages, exposing the slab-graveyard signal
