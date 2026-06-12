@@ -1,0 +1,14 @@
+This file contains the February 2005 updated Global Paleomagnetic Database (Version 4.6). 
+GPMDB 4.6 contains data published up to December 2004 and includes new geochronological scale.
+The GPMDB database is compiled and contributed by:
+
+	Sergei A. Pisarevsky
+	Tectonics Special Research Centre
+	School of Earth and Geographical Sciences
+	The University of Western Australia
+	35 Stirling Highway, Crawley 6009 WA
+	Australia
+	Tel.: +61 8 9380 7844/1921
+	Fax: +61 8 9380 1090
+	E-mail: spisarevsky@tsrc.uwa.edu.au
+
