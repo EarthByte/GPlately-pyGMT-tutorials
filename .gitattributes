@@ -1,0 +1,12 @@
+# Git LFS opt-in for large committed notebooks (outputs preserved).
+#
+# After running `git lfs install` once on the machine, uncomment the
+# pattern below to send any notebook larger than ~5 MB to LFS. Smaller
+# notebooks stay in regular git. Most notebooks will not need this.
+#
+# Notebooks/T14_Paleo_Strain_Rate_Maps.ipynb filter=lfs diff=lfs merge=lfs -text
+# Notebooks/*Animation*.ipynb               filter=lfs diff=lfs merge=lfs -text
+#
+# Generic catch-all: track any committed nc/png/mp4 in data/ with LFS.
+# data/**/*.nc  filter=lfs diff=lfs merge=lfs -text
+# data/**/*.mp4 filter=lfs diff=lfs merge=lfs -text
