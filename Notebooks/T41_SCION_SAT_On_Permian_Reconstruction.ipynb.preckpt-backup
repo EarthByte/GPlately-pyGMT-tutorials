@@ -1,0 +1,194 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# T41 \u2014 SCION end-Permian SAT on a reconstructed paleo-Earth\n",
+    "\n",
+    "**Takes the SCION 252 Ma surface-air temperature field at 1120 ppm CO\u2082 (Merdith *et al.*) and overlays it on the reconstructed paleo-Earth at 252 Ma using GPlately's plate-reconstruction frame. Bridges the GCM-internal climate signal into the reconstruction-first workflow used throughout the rest of the suite \u2014 same pattern as T38 (HadCM3) but at a Phanerozoic time-slice where plate motion is large enough to matter.**\n",
+    "\n",
+    "## What this notebook produces\n",
+    "\n",
+    "GCM output is published in the GCM's own model frame \u2014 usually a fixed paleogeography that doesn't update as the plate model evolves. SCION uses the Merdith 252 Ma paleogeography as input, so the SAT field is already in 252 Ma coordinates \u2014 but the *plate boundaries* and *coastlines* drawn on top in pyGMT come from the GPlately reconstruction, which can be swapped between published plate models. This notebook produces the side-by-side reconstructed Earth + SAT map that lets the reader see exactly which continent each climate feature sits on.\n",
+    "\n",
+    "**Audience**: postgrad \u2192 researcher.\n",
+    "**Difficulty**: \u2605\u2605\u2605.\n",
+    "\n",
+    "## Learning objectives\n",
+    "\n",
+    "- Load a GCM SAT field on a regular lat/lon grid and roll the longitudes to the pyGMT convention.\n",
+    "- Stack the reconstructed plate-boundary network on top of a published GCM raster using the suite's standard continuous-backbone pattern.\n",
+    "- Recognise the limits of \"overlay\" \u2014 GCM grid is the model's paleogeography, GPlately frame is the reconstruction; they need to be from the same family for the overlay to be internally consistent.\n",
+    "\n",
+    "## Prerequisites and runtime\n",
+    "\n",
+    "- **Plate model**: Merdith 2021 (covers 250 Ma onward).\n",
+    "- **Data**: `data/scion_permian/scion_252Ma_equilibrium.nc` (bundled).\n",
+    "- **Python**: `gplately`, `pygmt`, `pygplates`, `xarray`, `numpy`.\n",
+    "- **Runtime**: < 1 minute.\n",
+    "\n",
+    "## Why Merdith 2021 (paleomagnetic frame), not M\u00fcller 2022 (mantle frame)\n",
+    "\n",
+    "M\u00fcller 2022 \u2014 and the M\u00fcller 2019 / Cao 2024 lineage in general \u2014 uses a *mantle / moving-hotspot* absolute reference frame for the past ~100 Ma and a TPW-corrected paleomagnetic frame for older times. In deep time, neither component is appropriate for paleo-climate work: paleo-latitudes inferred from a mantle frame are systematically offset from the *paleomagnetic* frame that paleoclimate evidence (e.g. evaporites, glacial tills, coal swamps) is actually constrained in.\n",
+    "\n",
+    "For the end-Permian snapshot here we use **Merdith 2021**, an independent Phanerozoic-to-Neoproterozoic model built in the paleomagnetic frame. The reconstructed coastlines will appear at different latitudes than they would in M\u00fcller 2022 \u2014 this gap IS the rotation-frame uncertainty in late-Paleozoic paleo-geography, and using Merdith 2021 brings the gplately reconstruction into the same absolute frame as the SCION climate field.\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "metadata": {},
+   "execution_count": null,
+   "outputs": [],
+   "source": [
+    "# Defensive cwd fix: when Jupyter runs this notebook from Notebooks/, the\n",
+    "# `data/...` relative paths used below would not resolve. Step up to the\n",
+    "# suite root once so every `data/...` literal in the rest of the notebook\n",
+    "# finds its file. Idempotent \u2014 only runs if `../data` exists and `./data`\n",
+    "# doesn't.\n",
+    "import os as _os\n",
+    "from pathlib import Path as _Path\n",
+    "if _Path(\"../data\").exists() and not _Path(\"data\").exists():\n",
+    "    _os.chdir(\"..\")\n",
+    "\n",
+    "# Cell 1 \u2014 imports\n",
+    "import numpy as np, xarray as xr\n",
+    "import gplately, pygmt, pygplates\n",
+    "from plate_model_manager import PlateModelManager\n",
+    "from pathlib import Path\n",
+    "from IPython.display import display, HTML\n",
+    "\n",
+    "# Library versions (printed for reproducibility)\n",
+    "try:\n",
+    "    print(f\"gplately {gplately.__version__}  pygmt {pygmt.__version__}  pygplates {pygplates.__version__}\")\n",
+    "except Exception as _e:\n",
+    "    print(f\"version probe failed: {_e}\")\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": "## Configuration"
+  },
+  {
+   "cell_type": "code",
+   "metadata": {},
+   "execution_count": null,
+   "outputs": [],
+   "source": [
+    "# === USER CONFIGURATION =====================================================\n",
+    "SCION_NC             = \"data/scion_permian/scion_252Ma_equilibrium.nc\"\n",
+    "MODEL_NAME           = \"Merdith2021\"\n",
+    "RECONSTRUCTION_TIME  = 252.0\n",
+    "CO2_PPM              = 1120          # end-Permian best estimate\n",
+    "ANCHOR_PLATE_ID      = 0\n",
+    "SAT_RANGE            = (-40, 40)\n",
+    "# ============================================================================\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": "## 1. Load the SCION SAT field at the chosen CO\u2082 level"
+  },
+  {
+   "cell_type": "code",
+   "metadata": {},
+   "execution_count": null,
+   "outputs": [],
+   "source": "# Cell 2 \u2014 load SCION\nds = xr.open_dataset(SCION_NC)\nsat = ds[\"SAT\"].sel(co2_ppm=CO2_PPM)\n# Roll 0..360 \u2192 -180..180 for pyGMT\nsat_da = sat.assign_coords(longitude=((sat.longitude + 180) % 360 - 180)).sortby(\"longitude\")\nprint(f\"SAT field: {sat_da.shape}  range {sat_da.values.min():.1f} \u2014 {sat_da.values.max():.1f} \u00b0C  ({CO2_PPM} ppm)\")\n"
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": "## 2. Load the plate model and build the reconstruction frame"
+  },
+  {
+   "cell_type": "code",
+   "metadata": {},
+   "execution_count": null,
+   "outputs": [],
+   "source": "# Cell 3 \u2014 load plate model\npmm   = PlateModelManager()\nmodel = pmm.get_model(MODEL_NAME, data_dir=\"./gplately_data\")\nrecon = gplately.PlateReconstruction(\n    rotation_model=model.get_rotation_model(),\n    topology_features=model.get_topologies(),\n    static_polygons=model.get_static_polygons())\nengine = gplately.PygmtPlotEngine()\ngplot  = gplately.PlotTopologies(\n    plate_reconstruction=recon,\n    coastlines=model.get_coastlines(),\n    continents=model.get_continental_polygons(),\n    COBs=model.get_COBs(),\n    time=float(RECONSTRUCTION_TIME))\n"
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": "## 3. Render SCION SAT under the reconstructed plate boundaries"
+  },
+  {
+   "cell_type": "code",
+   "metadata": {},
+   "execution_count": null,
+   "outputs": [],
+   "source": "# Cell 4 \u2014 render\nfig = pygmt.Figure()\nfig.basemap(region=\"d\", projection=\"W0/22c\", frame=[\"af\"])\npygmt.makecpt(cmap=\"vik\", series=[SAT_RANGE[0], SAT_RANGE[1], 1], background=\"o\")\nfig.grdimage(sat_da, cmap=True)\nfig.colorbar(frame=\"af+lSurface air temperature (\u00b0C)\",\n             position=\"JBC+w14c/0.35c+h+o0/1.2c\")\n\n# Continuous plate-boundary backbone first, then styled subduction teeth + ridges.\nengine.plot_geo_data_frame(fig, gplot.get_all_topological_sections(),\n                           pen=\"0.6p,gray30\")\n(_tl, _tr) = gplot.get_subduction_direction()\nengine.plot_subduction_zones(fig, _tl, _tr, color=\"black\")\n\n# Coastlines from the GPlately reconstruction (NOT the SCION input geography).\n# These are the M\u00fcller2022 coastlines at 252 Ma; they should overlap the SCION\n# landsea_mask but expect cosmetic differences where the two paleogeography\n# definitions disagree.\nengine.plot_geo_data_frame(fig, gplot.get_coastlines(),\n                           pen=\"0.4p,white\")\n\nfig.text(text=f\"{RECONSTRUCTION_TIME:.0f} Ma  SCION {CO2_PPM} ppm  ({MODEL_NAME} frame)\",\n         position=\"TL\", offset=\"0.25c/-0.25c\", justify=\"TL\",\n         font=\"14p,Helvetica-Bold,black\",\n         fill=\"white\", pen=\"0.6p,gray40\")\nfig.show(width=1100)\ndisplay(HTML('<div style=\"height:1cm\"></div>'))\n"
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": "## 4. Cross-check \u2014 SCION's own paleogeography next to the GPlately frame\n\nBoth `landsea_mask` (PLASIM) and `coastlines` (GPlately) describe 252 Ma \u2014 but they're from different sources. If they disagree by more than coastal pixels, the overlay is internally inconsistent and the SAT-feature \u2192 continent mapping in the previous figure cannot be taken literally."
+  },
+  {
+   "cell_type": "code",
+   "metadata": {},
+   "execution_count": null,
+   "outputs": [],
+   "source": "# Cell 5 \u2014 overlay check\nlsmask = ds[\"landsea_mask\"].sel(co2_ppm=CO2_PPM)\nlsmask_rolled = lsmask.assign_coords(longitude=((lsmask.longitude + 180) % 360 - 180)).sortby(\"longitude\")\n\nfig = pygmt.Figure()\nfig.basemap(region=\"d\", projection=\"W0/22c\", frame=[\"af\"])\npygmt.makecpt(cmap=\"gray\", series=[0, 1, 0.05], reverse=True)\nfig.grdimage(lsmask_rolled, cmap=True, transparency=40)\nfig.colorbar(frame=\"af+lSCION landsea_mask (1=land)\",\n             position=\"JBC+w10c/0.3c+h+o0/1.2c\")\nengine.plot_geo_data_frame(fig, gplot.get_coastlines(),\n                           pen=\"1.0p,red\")\nfig.text(text=f\"{RECONSTRUCTION_TIME:.0f} Ma   gray=SCION land   red={MODEL_NAME} coastlines\",\n         position=\"TL\", offset=\"0.25c/-0.25c\", justify=\"TL\",\n         font=\"12p,Helvetica-Bold,black\",\n         fill=\"white\", pen=\"0.6p,gray40\")\nfig.show(width=1100)\n"
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## What the figure shows\n",
+    "\n",
+    "A Mollweide paleo-Earth at `RECONSTRUCTION_TIME` Ma with two overlays:\n",
+    "\n",
+    "- **Gray, semi-transparent** \u2014 the SCION landsea mask (`landsea_mask = 1` = land) interpolated onto the snapshot age.\n",
+    "- **Red lines** \u2014 `MODEL_NAME` (Zahirovic 2022) reconstructed coastlines at the same age.\n",
+    "\n",
+    "Where the two overlays agree, gray land sits behind red coastlines \u2014 both models put landmass in the same place. Where they disagree:\n",
+    "\n",
+    "- **Red coastlines with no gray underneath** \u2014 Zahirovic 2022 places a continent that SCION's landsea grid does not see (typically because SCION's grid resolution is coarser, or because SCION uses a different geographic compilation entirely).\n",
+    "- **Gray land with no red coastline crossing it** \u2014 SCION places land that Zahirovic 2022 does not (usually small land bridges or shelf areas).\n",
+    "\n",
+    "The figure is a sanity check before driving any analysis: SCION's surface-temperature field is only meaningful on the points where the model agrees the surface is land. Substantial disagreement here would prompt a re-projection step before extracting SCION SAT onto Z22 paleo-positions.\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Extend this\n",
+    "\n",
+    "- **Sweep the CO\u2082.** Change `CO2_PPM` to 17920 and re-run \u2014 the runaway end-Permian scenario; the polar regions become ice-free and the SAT contrast across the Pangean centre flattens.\n",
+    "- **Different paleogeography family.** SCION's input geography is from a particular Merdith 2022 reconstruction. Swap `MODEL_NAME` to `Cao2024` or `Zahirovic2022` and the overlay-check panel will show by how much the two frames disagree.\n",
+    "- **Cross-reference T42.** T42 quantifies the CO\u2082-temperature sensitivity in GCM-internal coordinates. T41 places one of those snapshots on the GPlately reconstruction \u2014 closing the loop between climate-system response and paleogeographic context.\n",
+    "\n",
+    "## References\n",
+    "\n",
+    "- Mills, B.J.W., Donnadieu, Y., Godd\u00e9ris, Y. (2021). Spatial continuous integration of Phanerozoic global biogeochemistry and climate. *Gondwana Research* 100, 73-86.\n",
+    "- M\u00fcller, R.D. et al. (2022). A tectonic-rules-based mantle reference frame since 1 billion years ago. *Solid Earth* 13, 1127-1159.\n",
+    "- Merdith, A.S. et al. (2022). A continuous, kinematic full-plate motion model from 1 Ga to present. *Earth-Science Reviews* 214, 103477.\n",
+    "- Mather, B.R. et al. (2024). GPlately. *Geoscience Data Journal* 11, 3-10.\n",
+    "- Tian, D., Uieda, L., Leong, W.J., Fr\u00f6hlich, Y., Schlitzer, W., Grund, M., Jones, M., Toney, L., Yao, J., Magen, Y., Tong, J.-H., Ngo, L., Materna, K., Belem, A., Newton, T., Anant, A., Ziebarth, M., Quinn, J. & Wessel, P. (2024). PyGMT: A Python interface for the Generic Mapping Tools. *Zenodo*. https://doi.org/10.5281/zenodo.10578540\n",
+    "- Wessel, P., Luis, J.F., Uieda, L., Scharroo, R., Wobbe, F., Smith, W.H.F. & Tian, D. (2019). The Generic Mapping Tools version 6. *Geochemistry, Geophysics, Geosystems* 20(11), 5556\u20135564. https://doi.org/10.1029/2019GC008515\n",
+    "- Chin, M., Mather, B.R. & M\u00fcller, R.D. (2024). Plate Model Manager: A Python package for downloading and managing plate reconstruction models. *Journal of Open Source Software* 9(101), 7090. https://doi.org/10.21105/joss.07090\n",
+    "- Merdith, A.S., Williams, S.E., Collins, A.S., Tetley, M.G., Mulder, J.A., Blades, M.L., Young, A., Armistead, S.E., Cannon, J., Zahirovic, S. & M\u00fcller, R.D. (2021). Extending full-plate tectonic models into deep time: Linking the Neoproterozoic and the Phanerozoic. *Earth-Science Reviews* 214, 103477. https://doi.org/10.1016/j.earscirev.2020.103477\n",
+    "- Crameri, F. (2018). Scientific colour maps. *Zenodo*. https://doi.org/10.5281/zenodo.1243862\n"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "name": "python",
+   "version": "3.11"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}

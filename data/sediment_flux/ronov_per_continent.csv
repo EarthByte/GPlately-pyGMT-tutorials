@@ -1,0 +1,564 @@
+# Per-continent preserved sediment volume vs age
+# Representative tutorial dataset consistent with the magnitudes in
+# Ronov (1994, AJS) Table 2 and Hay et al. (1988, JGR) Table 2.
+# Units: km^3 / Myr preserved.
+# For an authoritative copy use the original Ronov 1994 supplements.
+continent,age,flux_km3_per_Myr
+North America,0,3028.9
+North America,10,4496.6
+North America,20,3028.4
+North America,30,3031.7
+North America,40,4027.5
+North America,50,4765.9
+North America,60,2293.4
+North America,70,5917.7
+North America,80,7203.2
+North America,90,5088.4
+North America,100,3515.7
+North America,110,3364.4
+North America,120,3766.5
+North America,130,4197.7
+North America,140,3864.4
+North America,150,2458.4
+North America,160,3181.0
+North America,170,2180.8
+North America,180,1866.9
+North America,190,1209.7
+North America,200,1401.2
+North America,210,1247.2
+North America,220,1032.7
+North America,230,822.9
+North America,240,1176.4
+North America,250,1102.8
+North America,260,1735.1
+North America,270,1692.0
+North America,280,2815.8
+North America,290,3006.7
+North America,300,3084.8
+North America,310,4057.7
+North America,320,3878.6
+North America,330,3413.2
+North America,340,6548.6
+North America,350,4604.7
+North America,360,7583.6
+North America,370,4944.2
+North America,380,5263.4
+North America,390,5182.4
+North America,400,5319.6
+North America,410,3723.4
+North America,420,4755.1
+North America,430,3797.1
+North America,440,3094.6
+North America,450,5007.6
+North America,460,2156.6
+North America,470,1767.2
+North America,480,2095.1
+North America,490,676.3
+North America,500,637.1
+North America,510,1256.4
+North America,520,777.2
+North America,530,511.5
+North America,540,1101.3
+North America,550,1795.4
+North America,560,1439.3
+North America,570,1447.2
+North America,580,2550.7
+North America,590,1724.0
+North America,600,2286.8
+North America,610,4295.5
+North America,620,4529.9
+North America,630,4418.6
+North America,640,4043.9
+North America,650,6021.3
+North America,660,4851.3
+North America,670,5502.3
+North America,680,5599.0
+North America,690,3612.6
+North America,700,3315.1
+North America,710,3818.6
+North America,720,4712.9
+North America,730,2384.8
+North America,740,2085.7
+North America,750,3589.0
+North America,760,3639.3
+North America,770,1643.0
+North America,780,1364.5
+North America,790,1542.6
+North America,800,1288.9
+North America,810,1196.9
+North America,820,1121.5
+North America,830,827.1
+North America,840,1196.1
+North America,850,1424.1
+North America,860,1322.1
+North America,870,1830.4
+North America,880,2325.8
+North America,890,2742.0
+North America,900,3309.2
+North America,910,4688.6
+North America,920,3530.8
+South America,0,2215.5
+South America,10,2021.2
+South America,20,1661.0
+South America,30,2183.0
+South America,40,1991.8
+South America,50,1890.6
+South America,60,2414.9
+South America,70,2906.5
+South America,80,3159.0
+South America,90,1965.0
+South America,100,3279.9
+South America,110,2974.5
+South America,120,1759.1
+South America,130,3309.9
+South America,140,1793.6
+South America,150,1930.0
+South America,160,2260.2
+South America,170,1312.2
+South America,180,1684.0
+South America,190,395.6
+South America,200,588.1
+South America,210,808.4
+South America,220,665.6
+South America,230,559.0
+South America,240,597.6
+South America,250,1194.9
+South America,260,1001.8
+South America,270,1441.8
+South America,280,1516.1
+South America,290,1661.5
+South America,300,1395.3
+South America,310,1399.2
+South America,320,3498.0
+South America,330,2866.2
+South America,340,1581.0
+South America,350,2237.4
+South America,360,3393.6
+South America,370,3709.8
+South America,380,3154.2
+South America,390,3052.3
+South America,400,2013.4
+South America,410,4180.0
+South America,420,1254.1
+South America,430,1886.3
+South America,440,1535.6
+South America,450,1869.7
+South America,460,2109.2
+South America,470,954.1
+South America,480,1354.3
+South America,490,625.7
+South America,500,728.9
+South America,510,692.8
+South America,520,915.4
+South America,530,670.3
+South America,540,602.0
+South America,550,1012.5
+South America,560,1243.1
+South America,570,982.0
+South America,580,1220.3
+South America,590,1854.0
+South America,600,1717.0
+South America,610,2751.5
+South America,620,2471.4
+South America,630,1206.1
+South America,640,2720.4
+South America,650,1812.1
+South America,660,2857.7
+South America,670,2754.1
+South America,680,3049.4
+South America,690,2047.5
+South America,700,1980.5
+South America,710,2148.8
+South America,720,2237.4
+South America,730,2149.4
+South America,740,2327.4
+South America,750,2035.6
+South America,760,814.4
+South America,770,1175.6
+South America,780,944.1
+South America,790,734.5
+South America,800,813.0
+South America,810,620.3
+South America,820,813.2
+South America,830,933.7
+South America,840,406.9
+South America,850,587.3
+South America,860,559.4
+South America,870,1016.7
+South America,880,1328.6
+South America,890,750.6
+South America,900,1930.4
+South America,910,2711.2
+South America,920,3272.2
+Africa,0,3454.4
+Africa,10,3314.7
+Africa,20,1925.9
+Africa,30,3354.7
+Africa,40,4022.3
+Africa,50,4411.3
+Africa,60,5039.1
+Africa,70,5254.5
+Africa,80,3197.1
+Africa,90,4981.1
+Africa,100,3797.2
+Africa,110,3064.6
+Africa,120,3310.1
+Africa,130,2300.7
+Africa,140,1845.7
+Africa,150,2997.6
+Africa,160,2740.8
+Africa,170,1709.1
+Africa,180,1818.4
+Africa,190,1392.3
+Africa,200,826.3
+Africa,210,1056.4
+Africa,220,746.3
+Africa,230,750.4
+Africa,240,888.1
+Africa,250,1541.6
+Africa,260,823.4
+Africa,270,1230.4
+Africa,280,1774.2
+Africa,290,3174.3
+Africa,300,2354.1
+Africa,310,2830.2
+Africa,320,3475.7
+Africa,330,4408.1
+Africa,340,3221.3
+Africa,350,4284.4
+Africa,360,3878.3
+Africa,370,4066.4
+Africa,380,2004.6
+Africa,390,3399.1
+Africa,400,4337.8
+Africa,410,3350.8
+Africa,420,3655.5
+Africa,430,3377.1
+Africa,440,1702.1
+Africa,450,1791.8
+Africa,460,1820.4
+Africa,470,1349.3
+Africa,480,880.6
+Africa,490,1466.5
+Africa,500,795.3
+Africa,510,529.7
+Africa,520,896.6
+Africa,530,669.7
+Africa,540,1207.8
+Africa,550,1335.2
+Africa,560,1805.6
+Africa,570,1003.3
+Africa,580,2145.6
+Africa,590,1220.6
+Africa,600,2490.4
+Africa,610,3142.0
+Africa,620,3164.7
+Africa,630,3861.3
+Africa,640,2526.5
+Africa,650,3137.7
+Africa,660,3921.1
+Africa,670,3842.2
+Africa,680,3514.2
+Africa,690,3794.5
+Africa,700,2144.2
+Africa,710,4652.6
+Africa,720,4093.6
+Africa,730,1986.7
+Africa,740,1811.4
+Africa,750,2808.4
+Africa,760,1531.7
+Africa,770,1661.2
+Africa,780,1532.4
+Africa,790,2001.7
+Africa,800,932.9
+Africa,810,1395.2
+Africa,820,724.6
+Africa,830,697.8
+Africa,840,722.5
+Africa,850,1360.9
+Africa,860,1051.9
+Africa,870,1345.6
+Africa,880,2625.2
+Africa,890,420.4
+Africa,900,2230.5
+Africa,910,3311.0
+Africa,920,3815.4
+Eurasia,0,3691.4
+Eurasia,10,3460.2
+Eurasia,20,5092.6
+Eurasia,30,6656.6
+Eurasia,40,6423.7
+Eurasia,50,5180.8
+Eurasia,60,5551.5
+Eurasia,70,7112.4
+Eurasia,80,9635.7
+Eurasia,90,6455.2
+Eurasia,100,7212.7
+Eurasia,110,5453.1
+Eurasia,120,7028.7
+Eurasia,130,4771.3
+Eurasia,140,4959.7
+Eurasia,150,5482.5
+Eurasia,160,2622.6
+Eurasia,170,2900.8
+Eurasia,180,2830.3
+Eurasia,190,2268.9
+Eurasia,200,1022.3
+Eurasia,210,1548.7
+Eurasia,220,1400.5
+Eurasia,230,1544.9
+Eurasia,240,1805.8
+Eurasia,250,1545.7
+Eurasia,260,2628.5
+Eurasia,270,2717.4
+Eurasia,280,3022.0
+Eurasia,290,2536.0
+Eurasia,300,5209.3
+Eurasia,310,4220.6
+Eurasia,320,4749.7
+Eurasia,330,5377.3
+Eurasia,340,7958.9
+Eurasia,350,4632.6
+Eurasia,360,8015.3
+Eurasia,370,9254.9
+Eurasia,380,6585.0
+Eurasia,390,5972.4
+Eurasia,400,7976.8
+Eurasia,410,4662.6
+Eurasia,420,7278.7
+Eurasia,430,5276.6
+Eurasia,440,4476.6
+Eurasia,450,2610.2
+Eurasia,460,3791.2
+Eurasia,470,2170.6
+Eurasia,480,3129.8
+Eurasia,490,1458.4
+Eurasia,500,1290.1
+Eurasia,510,1713.5
+Eurasia,520,1322.2
+Eurasia,530,1103.9
+Eurasia,540,2084.5
+Eurasia,550,1335.5
+Eurasia,560,2942.0
+Eurasia,570,3165.7
+Eurasia,580,3393.6
+Eurasia,590,4217.9
+Eurasia,600,3104.4
+Eurasia,610,6080.0
+Eurasia,620,3183.5
+Eurasia,630,5254.7
+Eurasia,640,6088.9
+Eurasia,650,6296.4
+Eurasia,660,8173.2
+Eurasia,670,8725.9
+Eurasia,680,6101.3
+Eurasia,690,7412.0
+Eurasia,700,6360.7
+Eurasia,710,9536.9
+Eurasia,720,5262.9
+Eurasia,730,2111.3
+Eurasia,740,1823.4
+Eurasia,750,5281.8
+Eurasia,760,3661.7
+Eurasia,770,2749.4
+Eurasia,780,3304.5
+Eurasia,790,1739.1
+Eurasia,800,1919.6
+Eurasia,810,1628.8
+Eurasia,820,922.7
+Eurasia,830,1323.6
+Eurasia,840,1355.6
+Eurasia,850,1347.6
+Eurasia,860,2026.9
+Eurasia,870,2894.1
+Eurasia,880,3787.3
+Eurasia,890,5028.7
+Eurasia,900,2136.7
+Eurasia,910,4932.6
+Eurasia,920,7559.3
+Australia,0,664.6
+Australia,10,1424.6
+Australia,20,1919.9
+Australia,30,1314.1
+Australia,40,1511.7
+Australia,50,1526.1
+Australia,60,1708.1
+Australia,70,1869.7
+Australia,80,1433.3
+Australia,90,1628.1
+Australia,100,1476.8
+Australia,110,833.1
+Australia,120,1102.4
+Australia,130,1345.1
+Australia,140,1132.1
+Australia,150,895.9
+Australia,160,989.3
+Australia,170,844.0
+Australia,180,415.3
+Australia,190,288.7
+Australia,200,435.3
+Australia,210,312.2
+Australia,220,371.7
+Australia,230,474.0
+Australia,240,374.5
+Australia,250,405.1
+Australia,260,323.0
+Australia,270,633.4
+Australia,280,606.6
+Australia,290,805.4
+Australia,300,779.5
+Australia,310,1135.6
+Australia,320,738.3
+Australia,330,1209.5
+Australia,340,466.9
+Australia,350,1423.2
+Australia,360,1947.5
+Australia,370,1694.6
+Australia,380,2133.6
+Australia,390,2415.0
+Australia,400,802.3
+Australia,410,1282.7
+Australia,420,1288.9
+Australia,430,1112.4
+Australia,440,1242.5
+Australia,450,1104.2
+Australia,460,1192.4
+Australia,470,827.7
+Australia,480,598.5
+Australia,490,357.0
+Australia,500,496.5
+Australia,510,254.0
+Australia,520,143.7
+Australia,530,258.8
+Australia,540,278.6
+Australia,550,584.3
+Australia,560,457.7
+Australia,570,502.1
+Australia,580,446.0
+Australia,590,949.0
+Australia,600,1109.9
+Australia,610,770.3
+Australia,620,759.7
+Australia,630,1176.3
+Australia,640,1203.9
+Australia,650,1671.1
+Australia,660,1546.6
+Australia,670,1291.4
+Australia,680,1478.8
+Australia,690,1438.6
+Australia,700,1048.1
+Australia,710,1524.9
+Australia,720,1458.8
+Australia,730,1028.1
+Australia,740,1208.9
+Australia,750,781.8
+Australia,760,655.9
+Australia,770,923.9
+Australia,780,589.4
+Australia,790,294.4
+Australia,800,339.8
+Australia,810,271.0
+Australia,820,277.1
+Australia,830,294.6
+Australia,840,435.3
+Australia,850,517.7
+Australia,860,579.2
+Australia,870,521.9
+Australia,880,386.4
+Australia,890,501.0
+Australia,900,1086.5
+Australia,910,969.0
+Australia,920,1094.2
+Antarctica,0,530.9
+Antarctica,10,461.8
+Antarctica,20,897.7
+Antarctica,30,1045.9
+Antarctica,40,1123.0
+Antarctica,50,1267.5
+Antarctica,60,899.3
+Antarctica,70,1170.4
+Antarctica,80,1402.4
+Antarctica,90,882.6
+Antarctica,100,846.8
+Antarctica,110,656.4
+Antarctica,120,701.0
+Antarctica,130,463.3
+Antarctica,140,876.7
+Antarctica,150,677.3
+Antarctica,160,317.4
+Antarctica,170,363.0
+Antarctica,180,324.3
+Antarctica,190,147.0
+Antarctica,200,332.2
+Antarctica,210,342.2
+Antarctica,220,98.8
+Antarctica,230,242.3
+Antarctica,240,188.3
+Antarctica,250,167.1
+Antarctica,260,213.7
+Antarctica,270,494.5
+Antarctica,280,366.4
+Antarctica,290,525.3
+Antarctica,300,658.5
+Antarctica,310,1127.6
+Antarctica,320,492.9
+Antarctica,330,708.5
+Antarctica,340,860.6
+Antarctica,350,1205.8
+Antarctica,360,1173.4
+Antarctica,370,1150.5
+Antarctica,380,587.0
+Antarctica,390,1360.1
+Antarctica,400,527.0
+Antarctica,410,1141.0
+Antarctica,420,960.4
+Antarctica,430,836.7
+Antarctica,440,1088.0
+Antarctica,450,755.1
+Antarctica,460,413.1
+Antarctica,470,436.4
+Antarctica,480,537.0
+Antarctica,490,288.6
+Antarctica,500,212.9
+Antarctica,510,257.1
+Antarctica,520,187.1
+Antarctica,530,188.0
+Antarctica,540,158.4
+Antarctica,550,219.5
+Antarctica,560,245.2
+Antarctica,570,382.3
+Antarctica,580,660.2
+Antarctica,590,317.1
+Antarctica,600,506.9
+Antarctica,610,826.3
+Antarctica,620,671.8
+Antarctica,630,1078.2
+Antarctica,640,1024.1
+Antarctica,650,909.9
+Antarctica,660,741.5
+Antarctica,670,1018.5
+Antarctica,680,1186.1
+Antarctica,690,607.3
+Antarctica,700,598.6
+Antarctica,710,916.5
+Antarctica,720,777.6
+Antarctica,730,1008.8
+Antarctica,740,374.1
+Antarctica,750,606.5
+Antarctica,760,686.8
+Antarctica,770,510.3
+Antarctica,780,498.2
+Antarctica,790,318.2
+Antarctica,800,277.5
+Antarctica,810,236.2
+Antarctica,820,200.8
+Antarctica,830,276.7
+Antarctica,840,272.9
+Antarctica,850,328.2
+Antarctica,860,301.7
+Antarctica,870,436.8
+Antarctica,880,386.8
+Antarctica,890,617.2
+Antarctica,900,660.7
+Antarctica,910,563.6
+Antarctica,920,721.4

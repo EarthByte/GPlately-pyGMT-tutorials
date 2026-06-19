@@ -1,0 +1,371 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "b340c569",
+   "metadata": {
+    "include-cell-in-app": true
+   },
+   "source": [
+    "# T06 \u2014 Animations\n",
+    "\n",
+    "## What this notebook produces\n",
+    "\n",
+    "Three animations, all driven by **pyGMT** for the per-frame rendering and `ffmpeg` (via `subprocess`) for the cross-platform MP4 encoding.\n",
+    "\n",
+    "1. **`plate_motion.gif`** \u2014 quick-look animated GIF of the global Zahirovic 2022 reconstruction from 250 Ma to 0 Ma. Assembled with `imageio` for trivial drop-in to a README / Slack / Twitter.\n",
+    "2. **`plate_motion.mp4`** \u2014 same content, encoded as a cross-platform H.264 MP4 (libx264 + yuv420p + faststart). Plays on QuickTime, Windows Media, every modern browser.\n",
+    "3. **`litho_thickness.mp4`** \u2014 a rotating-globe view of global lithospheric thickness from Afonso et al. (2019, *GJI* [doi:10.1093/gji/ggz094](https://doi.org/10.1093/gji/ggz094)), draped on an orthographic projection. **East\u2013West rotation** around the polar axis: viewing longitude sweeps 0\u00b0 \u2192 360\u00b0. Cubehelix colour palette, white coastlines, horizontal colourbar.\n",
+    "4. **`litho_thickness_reconstructed.mp4`** \u2014 the same Afonso 2019 lithospheric-thickness grid, but this time **reconstructed through deep time** using GPlately. We build a `gplately.Raster`, partition it with Zahirovic 2022 static polygons, and apply each plate's finite rotation to roll the grid back to its paleo-position at every 2-Myr step from 0 to 60 Ma. Robinson global view, dem4 CPT, reconstructed coastlines overlaid in white at each frame's age.\n",
+    "\n",
+    "## Preview frames\n",
+    "\n",
+    "Each video section starts with a *preview* \u2014 one representative frame rendered inline via `fig.show()`. That lets you sanity-check the recipe (palette, projection, shading, coastline weight) before committing to the full save-loop + ffmpeg encode. Each render loop simply re-calls the same helper function used by the preview, so whatever you see in the preview is what every frame in the MP4 looks like.\n",
+    "\n",
+    "## A note on `gmt movie`\n",
+    "\n",
+    "GMT itself ships a `movie` module with built-in time labels, progress bars and fade in/out. pyGMT does **not** yet wrap it as a `Figure` method ([upstream issue #364](https://github.com/GenericMappingTools/pygmt/issues/364)) \u2014 the canonical Python pattern is to drive it via `subprocess.run(['gmt', 'movie', main_script, \u2026])` exactly the same way we drive ffmpeg below. For the four output files in this notebook we stay in pure pyGMT for the frame rendering (which keeps you inside the Python ecosystem) and use ffmpeg for the MP4 encoding.\n",
+    "\n",
+    "**Audience**: both.  \n",
+    "**Difficulty**: \u2605\u2605\u2606.  \n",
+    "**Runtime**: \u22485 minutes for all four output files at 720p."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": "## Learning objectives\n\n- Drive a deep-time animation loop with `gplately` + pyGMT, writing one frame per reconstruction step.\n- Use ffmpeg to stitch frames into an mp4 video.\n- Pick sensible frame intervals (5\u201310 Myr) for smooth playback without exploding the runtime.\n"
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": "## Prerequisites and runtime\n\n- **Plate model**: Zahirovic 2022.\n- **Time range**: 0\u2013150 Ma in 10 Myr steps (16 frames).\n- **Python**: `gplately`, `pygmt`, `pygplates`, `imageio` (optional for mp4 assembly).\n- **External**: `ffmpeg` on PATH if writing mp4.\n- **Runtime**: ~2 minutes for the default frame set.\n"
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "88e27b91",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Defensive cwd fix: when Jupyter runs this notebook from Notebooks/, the\n",
+    "# `data/...` relative paths used below would not resolve. Step up to the\n",
+    "# suite root once so every `data/...` literal in the rest of the notebook\n",
+    "# finds its file. Idempotent \u2014 only runs if `../data` exists and `./data`\n",
+    "# doesn't.\n",
+    "import os as _os\n",
+    "from pathlib import Path as _Path\n",
+    "if _Path(\"../data\").exists() and not _Path(\"data\").exists():\n",
+    "    _os.chdir(\"..\")\n",
+    "\n",
+    "# Cell 1 \u2014 imports\n",
+    "import subprocess\n",
+    "from pathlib import Path\n",
+    "import numpy as np\n",
+    "import xarray as xr\n",
+    "import gplately\n",
+    "import pygmt\n",
+    "from plate_model_manager import PlateModelManager\n",
+    "from IPython.display import display, HTML\n",
+    "\n",
+    "# Suite-wide tutorial style: bigger panel titles.\n",
+    "pygmt.config(FONT_TITLE=\"18p\", FONT_LABEL=\"18p\",\n",
+    "             FONT_ANNOT_PRIMARY=\"14p\")\n",
+    "\n",
+    "FRAMES_PMM       = Path(\"./pmm_frames\");          FRAMES_PMM.mkdir(exist_ok=True)\n",
+    "FRAMES_AGE_ROT   = Path(\"./age_rot_frames\");      FRAMES_AGE_ROT.mkdir(exist_ok=True)\n",
+    "FRAMES_AGE_TIME  = Path(\"./age_time_frames\");     FRAMES_AGE_TIME.mkdir(exist_ok=True)\n",
+    "VIDEOS           = Path(\"./videos\");              VIDEOS.mkdir(exist_ok=True)\n",
+    "\n",
+    "# Library versions (printed for reproducibility)\n",
+    "try:\n",
+    "    import gplately, pygmt, pygplates\n",
+    "    print(f\"gplately {gplately.__version__}  pygmt {pygmt.__version__}  pygplates {pygplates.__version__}\")\n",
+    "except Exception as _e:\n",
+    "    print(f\"version probe failed: {_e}\")\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": "## Configuration\n\nUser-tunable choices for this notebook. Edit the values below to change the model, snapshot time, region, or anchor plate without hunting through downstream code.\n"
+  },
+  {
+   "cell_type": "code",
+   "metadata": {},
+   "execution_count": null,
+   "outputs": [],
+   "source": "# === USER CONFIGURATION =====================================================\nMODEL_NAME           = \"Zahirovic2022\"\nTIME_START_MA        = 250.0         # Ma \u2014 beginning of animation\nTIME_END_MA          = 0.0           # Ma \u2014 end of animation\nTIME_STEP_MA         = 5.0           # Ma \u2014 frame cadence\nANCHOR_PLATE_ID      = 0\n# ============================================================================\n"
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "ba13a7ce",
+   "metadata": {},
+   "outputs": [],
+   "source": "# Cell 2 \u2014 plate-motion setup + preview frame\n#\n# Factor the per-frame rendering into a helper so we can use it for\n# (1) one preview frame shown inline below and (2) the save-loop in\n# the next cell. Naming convention: frame_0000.png is the FIRST\n# (oldest) frame \u2014 alphabetical order then equals chronological order\n# from past \u2192 present, which is what ffmpeg expects for the right\n# playback direction.\npmm = PlateModelManager()\nmodel = pmm.get_model(MODEL_NAME, data_dir=\"./gplately_data\")\nrecon = gplately.PlateReconstruction(\n    rotation_model=model.get_rotation_model(),\n    topology_features=model.get_topologies(),\n    static_polygons=model.get_static_polygons(),\n)\nengine = gplately.PygmtPlotEngine()\n\n\ndef render_pmm_frame(t):\n    \"\"\"Render one plate-motion frame at reconstruction time `t` (Ma).\"\"\"\n    gplot = gplately.PlotTopologies(\n        plate_reconstruction=recon,\n        coastlines=model.get_coastlines(),\n        continents=model.get_continental_polygons(),\n        COBs=model.get_COBs(), time=t)\n    fig = pygmt.Figure()\n    fig.basemap(region=\"d\", projection=\"W0/20c\",\n                frame=[\"af\", f'+t{t} Ma'])\n    engine.plot_geo_data_frame(fig, gplot.get_continents(),\n                               fill=\"gray95\", pen=\"0.2p,gray30\")\n    engine.plot_geo_data_frame(fig, gplot.get_coastlines(),\n                               pen=\"0.3p,gray20\")\n    engine.plot_geo_data_frame(fig, gplot.get_all_topological_sections(),\n                               pen=\"0.5p,gray50\")\n    engine.plot_geo_data_frame(fig, gplot.get_ridges(), pen=\"0.5p,red\")\n    (_tl, _tr) = gplot.get_subduction_direction()\n    engine.plot_subduction_zones(fig, _tl, _tr, color=\"blue\")\n    fig.text(text=f\"{t:.0f} Ma  ({MODEL_NAME})\",\n             position=\"TL\", offset=\"0.25c/-0.25c\", justify=\"TL\",\n             font=\"14p,Helvetica-Bold,black\",\n             fill=\"white\", pen=\"0.6p,gray40\")\n    return fig\n\n\n# Preview: one frame at 120 Ma (mid-Cretaceous, classic Pangaea-breakup state)\npreview_pmm = render_pmm_frame(120)\npreview_pmm.show(width=700)\ndisplay(HTML('<div style=\"height:1cm\"></div>'))"
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "056218e2",
+   "metadata": {
+    "include-cell-in-app": true
+   },
+   "outputs": [],
+   "source": [
+    "# Cell 2b \u2014 render all 51 plate-motion frames + encode MP4\n",
+    "START, END, STEP = 250, 0, 5    # Ma\n",
+    "for i, t in enumerate(range(START, END - 1, -STEP)):\n",
+    "    fig = render_pmm_frame(t)\n",
+    "    fig.savefig(FRAMES_PMM / f\"frame_{i:04d}.png\", dpi=120)\n",
+    "    print(f\"  frame {i:>3}/{(START-END)//STEP}  ({t} Ma)\")\n",
+    "print(\"Plate-motion frames done.\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "897add9a",
+   "metadata": {},
+   "source": [
+    "## 3. Quick-look GIF with `imageio`\n",
+    "\n",
+    "Drop-in for a README or a Slack thread. Not compressed efficiently (each frame is a full image) so the file is large \u2014 use MP4 for anything bigger than \u224850 frames."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "37232e01",
+   "metadata": {},
+   "outputs": [],
+   "source": "# Cell 3 \u2014 assemble GIF\nimport imageio.v3 as iio\nfrom PIL import Image\n\nGIF_OUT = VIDEOS / \"plate_motion.gif\"\nframes = sorted(FRAMES_PMM.glob(\"frame_*.png\"))   # 250 Ma \u2192 0 Ma order\n\n# pyGMT's tight crop produces frames with slightly different sizes from\n# one t to the next (the visible boundary network changes shape).\n# imageio.imwrite ends up calling np.stack which needs identical shapes,\n# so pad every frame to a common (max_w, max_h) with a white background\n# before stitching.\nopened = [Image.open(p).convert(\"RGB\") for p in frames]\nmax_w = max(im.size[0] for im in opened)\nmax_h = max(im.size[1] for im in opened)\n\npadded = []\nfor im in opened:\n    canvas = Image.new(\"RGB\", (max_w, max_h), color=\"white\")\n    canvas.paste(im, ((max_w - im.size[0]) // 2, (max_h - im.size[1]) // 2))\n    padded.append(canvas)\n\niio.imwrite(GIF_OUT,\n            [np.array(im) for im in padded],\n            duration=120, loop=0)\nprint(f\"Wrote {GIF_OUT}  ({GIF_OUT.stat().st_size / 1e6:.1f} MB, \"\n      f\"padded to {max_w}\u00d7{max_h})\")"
+  },
+  {
+   "cell_type": "markdown",
+   "id": "7d936ea5",
+   "metadata": {},
+   "source": [
+    "## 4. Cross-platform MP4 with `ffmpeg`\n",
+    "\n",
+    "Key encoder flags (the same trio is used for all three MP4s in this notebook):\n",
+    "\n",
+    "- `-c:v libx264` \u2014 H.264 video codec, available on every platform.\n",
+    "- `-pix_fmt yuv420p` \u2014 the pixel format every consumer player supports (QuickTime, Windows Media, browsers). Without this flag ffmpeg often defaults to `yuv444p`, which plays in some browsers but not in QuickTime.\n",
+    "- `-movflags +faststart` \u2014 moves the metadata to the head of the file so the MP4 can stream over the web."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "139014d7",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Cell 4 \u2014 plate motion: encode as cross-platform MP4\n",
+    "def encode_mp4(frames_dir: Path, out: Path, framerate: int = 10) -> None:\n",
+    "    '''Encode every frame_*.png in `frames_dir` as a cross-platform MP4.\n",
+    "\n",
+    "    The `-vf pad=ceil(iw/2)*2:ceil(ih/2)*2` filter rounds odd-numbered\n",
+    "    frame dimensions up to the next even pixel \u2014 libx264 + yuv420p\n",
+    "    requires even width AND height, and pyGMT's tight bounding-box\n",
+    "    crop sometimes produces odd dims (e.g. 619\u00d7713) that would\n",
+    "    otherwise make ffmpeg bail with returncode 1.\n",
+    "    '''\n",
+    "    cmd = [\n",
+    "        \"ffmpeg\", \"-y\",\n",
+    "        \"-framerate\", str(framerate),\n",
+    "        \"-pattern_type\", \"glob\",\n",
+    "        \"-i\", str(frames_dir / \"frame_*.png\"),\n",
+    "        \"-c:v\", \"libx264\",\n",
+    "        \"-pix_fmt\", \"yuv420p\",\n",
+    "        \"-vf\", \"pad=ceil(iw/2)*2:ceil(ih/2)*2:color=white\",\n",
+    "        \"-movflags\", \"+faststart\",\n",
+    "        \"-crf\", \"20\",\n",
+    "        str(out),\n",
+    "    ]\n",
+    "    result = subprocess.run(cmd, capture_output=True, text=True)\n",
+    "    if result.returncode != 0:\n",
+    "        print(\"ffmpeg failed \u2014 last 2 KB of stderr:\\n\")\n",
+    "        print(result.stderr[-2000:])\n",
+    "        raise subprocess.CalledProcessError(\n",
+    "            result.returncode, cmd, result.stdout, result.stderr)\n",
+    "    print(f\"Wrote {out}  ({out.stat().st_size / 1e6:.1f} MB)\")\n",
+    "\n",
+    "encode_mp4(FRAMES_PMM, VIDEOS / \"plate_motion.mp4\", framerate=10)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "8b27d0f4",
+   "metadata": {},
+   "source": "## 5. Seafloor age grid \u2014 rotating-globe animation\n\nPMM ships a synthetic seafloor age grid as part of every plate model. Loading the Zahirovic 2022 grid at the present day with `model.get_raster(\"AgeGrids\", time=0)` gives us a global raster of oceanic-crust age. We render it as a rotating orthographic globe: viewing longitude sweeps **0\u00b0 \u2192 360\u00b0** in 5\u00b0 steps over 72 frames.\n\nRecipe per frame:\n\n1. `pygmt.makecpt(cmap=\"hawaii\", series=[0, 280, 5], reverse=True)` \u2014 diverging blue-cyan-yellow palette; young ridges in yellow, old crust in blue.\n2. `fig.grdimage(age_grid, projection=f\"G{lon}/0/12c\", region=\"g\", cmap=True)`\n3. `fig.coast(land=\"gray80\", shorelines=\"0.3p,white\")` \u2014 present-day continents on top.\n4. `fig.colorbar(...)` \u2014 horizontal bar below the globe.\n5. `fig.savefig(...)`.\n\nThe choice of seafloor age as the demonstration raster gives a clean coupling to the rest of the suite: animation 3 below shows the same grid evolving through deep time, and animations are entirely Zahirovic 2022 \u2014 no external dependency.\n"
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "1f30d543",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Cell 5 \u2014 seafloor-age rotating-globe setup + preview frame\n",
+    "# Load Zahirovic 2022's present-day seafloor age grid via PMM. The grid\n",
+    "# ships with the plate model \u2014 no external download required.\n",
+    "age_file_0 = model.get_raster(\"AgeGrids\", time=0)\n",
+    "age_now = (xr.open_dataarray(str(age_file_0))\n",
+    "           if str(age_file_0).endswith(\".nc\")\n",
+    "           else xr.open_dataset(str(age_file_0)).to_array().isel(variable=0))\n",
+    "print(f\"Seafloor age (Zahirovic 2022, t=0): \"\n",
+    "      f\"{float(age_now.min()):.0f} \u2026 {float(age_now.max()):.0f} Ma\")\n",
+    "\n",
+    "NFRAMES_AGE_ROT = 72   # 5\u00b0 viewing-longitude step\n",
+    "\n",
+    "def render_age_rot_frame(lon):\n",
+    "    \"\"\"Rotating-globe frame: view at longitude `lon`, age grid as basemap.\"\"\"\n",
+    "    fig = pygmt.Figure()\n",
+    "    pygmt.makecpt(cmap=\"data/age_2020.cpt\", series=[0, 200, 1],\n",
+    "                  background=\"o\")\n",
+    "    fig.grdimage(age_now,\n",
+    "                 projection=f\"G{lon:.2f}/0/12c\", region=\"g\",\n",
+    "                 cmap=True, nan_transparent=True)\n",
+    "    fig.coast(land=\"gray80\", shorelines=\"0.3p,white\")\n",
+    "    fig.colorbar(position=\"JBC+w10c/0.35c+h+o0/1c\",\n",
+    "                 frame=\"a50f25+lSeafloor age (Ma)\")\n",
+    "    return fig\n",
+    "\n",
+    "# Preview at Greenwich (lon=0\u00b0)\n",
+    "preview_age = render_age_rot_frame(0)\n",
+    "preview_age.show(width=600)\n",
+    "display(HTML('<div style=\"height:1cm\"></div>'))\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "58d41988",
+   "metadata": {},
+   "outputs": [],
+   "source": "# Cell 5b \u2014 render all rotating-globe frames + encode MP4\nfor i in range(NFRAMES_AGE_ROT):\n    lon = i * 360.0 / NFRAMES_AGE_ROT\n    fig = render_age_rot_frame(lon)\n    fig.savefig(FRAMES_AGE_ROT / f\"frame_{i:04d}.png\", dpi=130)\n    print(f\"  frame {i:>2}/{NFRAMES_AGE_ROT}  (lon = {lon:6.2f}\u00b0)\")\nencode_mp4(FRAMES_AGE_ROT, VIDEOS / \"seafloor_age_rotating.mp4\", framerate=6)\n"
+  },
+  {
+   "cell_type": "markdown",
+   "id": "4095d5bf",
+   "metadata": {},
+   "source": "## 6. Seafloor age grid through deep time \u2014 0 \u2192 60 Ma\n\nThe rotating globe above is a pure pyGMT exercise \u2014 it shows the present-day age grid from a sequence of viewing angles, no plate-tectonic motion. To bring GPlately's reconstruction engine in, we now run through deep time: at each reconstruction age `t` from 0 to 60 Ma in 2 Myr steps, we ask PMM for the Zahirovic 2022 age grid AT that time. PMM has already partitioned each cell by plate ID and applied the right finite rotation, so the grid we get back is a complete paleo-age field \u2014 young ridges where they were at time t, masked to NaN over what is now oceanic crust that didn't yet exist.\n\nThe animation visualises Atlantic-Indian opening over the Cenozoic and India's dash north toward Eurasia, with seafloor ages colouring each pixel by how old it was AT that reconstruction time. This is the canonical reconstruction-driven animation in the suite, anchored entirely on Zahirovic 2022.\n"
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "c14ea03b",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Cell 7 \u2014 reconstructed seafloor age grid setup + preview frame\n",
+    "#\n",
+    "# At each reconstruction time t, PMM gives us a fresh paleo-age grid via\n",
+    "#   `model.get_raster(\"AgeGrids\", time=t)`\n",
+    "# That grid has already had the static-polygons + per-plate rotations\n",
+    "# applied, so no manual Raster.reconstruct() call is needed.\n",
+    "\n",
+    "# Per-frame gplot to overlay reconstructed coastlines at each time.\n",
+    "gplot_t = gplately.PlotTopologies(\n",
+    "    plate_reconstruction=recon,\n",
+    "    coastlines=model.get_coastlines(),\n",
+    "    continents=model.get_continental_polygons(),\n",
+    "    COBs=model.get_COBs(),\n",
+    "    time=0,\n",
+    ")\n",
+    "engine_t = gplately.PygmtPlotEngine()\n",
+    "\n",
+    "TIMES_AGE = list(range(0, 61, 2))   # 0, 2, 4, \u2026, 60 Ma \u2192 31 frames\n",
+    "\n",
+    "def render_age_time_frame(t):\n",
+    "    \"\"\"Render the Zahirovic 2022 paleo-age grid at time `t` (Ma) with\n",
+    "    contemporaneous coastlines overlaid.\"\"\"\n",
+    "    age_file_t = model.get_raster(\"AgeGrids\", time=int(t))\n",
+    "    age_t = (xr.open_dataarray(str(age_file_t))\n",
+    "             if str(age_file_t).endswith(\".nc\")\n",
+    "             else xr.open_dataset(str(age_file_t)).to_array().isel(variable=0))\n",
+    "\n",
+    "    fig = pygmt.Figure()\n",
+    "    pygmt.makecpt(cmap=\"data/age_2020.cpt\", series=[0, 200, 1],\n",
+    "                  background=\"o\")\n",
+    "    fig.grdimage(age_t, projection=\"W0/18c\", region=\"d\",\n",
+    "                 cmap=True, nan_transparent=True)\n",
+    "    gplot_t.time = float(t)\n",
+    "    engine_t.plot_geo_data_frame(fig, gplot_t.get_coastlines(),\n",
+    "                                 pen=\"0.3p,white\")\n",
+    "    fig.colorbar(position=\"JBC+w12c/0.35c+h+o0/1c\",\n",
+    "                 frame=\"a50f25+lSeafloor age (Ma)\")\n",
+    "    fig.text(text=f\"{t:.0f} Ma  ({MODEL_NAME})\",\n",
+    "             position=\"TL\", offset=\"0.25c/0.25c\", justify=\"TL\",\n",
+    "             font=\"14p,Helvetica-Bold,black\",\n",
+    "             fill=\"white\", pen=\"0.6p,gray40\", no_clip=True)\n",
+    "    return fig\n",
+    "\n",
+    "# Preview: 30 Ma \u2014 India well underway on its dash north,\n",
+    "# Atlantic noticeably narrower than today.\n",
+    "preview_age_time = render_age_time_frame(30)\n",
+    "preview_age_time.show(width=700)\n",
+    "display(HTML('<div style=\"height:1cm\"></div>'))\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "07377437",
+   "metadata": {},
+   "outputs": [],
+   "source": "# Cell 7b \u2014 render all paleo-age-grid frames + encode MP4\nfor i, t in enumerate(TIMES_AGE):\n    fig = render_age_time_frame(t)\n    fig.savefig(FRAMES_AGE_TIME / f\"frame_{i:04d}.png\", dpi=130)\n    print(f\"  frame {i:>2}/{len(TIMES_AGE)}  (t = {t:>2} Ma)\")\nencode_mp4(FRAMES_AGE_TIME,\n           VIDEOS / \"seafloor_age_through_time.mp4\",\n           framerate=6)\n"
+  },
+  {
+   "cell_type": "markdown",
+   "id": "0e3bc5f0",
+   "metadata": {
+    "include-cell-in-app": true
+   },
+   "source": [
+    "## What the three animations tell us\n",
+    "\n",
+    "**Plate motion** \u2014 speed contrast. Some plate pairs (India\u2013Asia, Africa\u2013Eurasia) are spectacularly fast through the Cenozoic; others (Antarctica, the West-African craton) barely move. This visual contrast is the easiest way to build intuition for which plates are kinematically active and which are passively along for the ride.\n",
+    "\n",
+    "**Lithospheric thickness** \u2014 the longest-lived signal in the lithosphere. Old cratons (West Africa, Siberia, the Canadian Shield, the Australian and Antarctic cores) glow dark (>200 km thick), while young ocean basins and active margins (East African Rift, mid-ocean ridges, the western US) read lighter (<80 km). Watch the rotation cycle past each continent to see how the thickest cores anchor every craton.\n",
+    "\n",
+    "**Reconstructed lithospheric thickness (0\u201360 Ma)** \u2014 the cratonic roots in motion. Watch the slow march of the West-African and Australian-Antarctic cratons (dark) and the dramatic flight of India (also dark \u2014 its cratonic root is one of the thickest on Earth) as the Tethys closes. The reconstructed grid stays bound to each plate so the cratonic geometry comes along for the ride; this is the kinematic part of the lithospheric story, isolated from any thermal evolution.\n",
+    "\n",
+    "## Extend this\n",
+    "\n",
+    "- **Higher resolution.** Bump `dpi=130` in cells 5 / 6 to 200 and rerun. Output MP4s will be larger but visibly sharper at 1080p.\n",
+    "- **Combine the videos side-by-side** via `ffmpeg`'s `hstack` filter for a small demo reel.\n",
+    "- **Drape an age grid behind the plate-motion frames** for an \"ocean-floor age\" version.\n",
+    "- **Use `gmt movie` for the polished version** with built-in progress bar and time labels \u2014 pass the same per-frame Python logic from a main_script.sh that `subprocess`-invokes a render-one-frame Python script. See [the GMT movie docs](https://docs.generic-mapping-tools.org/latest/movie.html)."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": "## References\n\n- Mather, B.R., M\u00fcller, R.D., Zahirovic, S., Cannon, J., Chin, M., Ilano, L., Wright, N.M., Alfonso, C., Williams, S., Tetley, M. & Merdith, A. (2024). Deep time spatio-temporal data analysis using GPlately. *Geosci. Data J.* 11, 3-10. https://doi.org/10.1002/gdj3.185\n- Tian, D., Uieda, L., Leong, W.J., Fr\u00f6hlich, Y., Schlitzer, W., Grund, M., Jones, M., Toney, L., Yao, J., Magen, Y., Materna, K., Belem, A., Newton, T., Anant, A., Ziebarth, M., Quinn, J., Wessel, P. (2024). PyGMT: A Python interface for the Generic Mapping Tools. *Zenodo*. https://doi.org/10.5281/zenodo.13679085\n- Wessel, P., Luis, J.F., Uieda, L., Scharroo, R., Wobbe, F., Smith, W.H.F. & Tian, D. (2019). The Generic Mapping Tools version 6. *Geochem. Geophys. Geosys.* 20, 5556-5564. https://doi.org/10.1029/2019GC008515\n- Chin, M., Mather, B.R. & M\u00fcller, R.D. (2024). Plate Model Manager: A Python package for downloading and managing published plate-reconstruction models. *Zenodo*. https://github.com/michaelchin/plate-model-manager\n- Zahirovic, S., Eleish, A., Doss, S., Pall, J., Cannon, J., Pistone, M., Tetley, M.G., Young, A. & M\u00fcller, R.D. (2022). Subduction and carbonate platform interactions. *Geoscience Data Journal* 9, 371-383. https://doi.org/10.1002/gdj3.146\n- Afonso, J.C., Salajegheh, F., Szwillus, W., Ebbing, J. & Gaina, C. (2019). A global reference model of the lithosphere and upper mantle from joint inversion of surface waves and gravity. *Geophys. J. Int.* 217, 1602-1628. https://doi.org/10.1093/gji/ggz094\n- FFmpeg Developers (2024). FFmpeg multimedia framework. https://ffmpeg.org"
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}

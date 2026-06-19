@@ -1,0 +1,213 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# T45 \u2014 Global porphyry-Cu paleo-prospectivity through subduction kinematics\n",
+    "\n",
+    "**A pyGMT modernisation of the Butterworth et al. (2021) spatio-temporal subduction-kinematics methodology applied to a global porphyry-Cu compilation. Reconstructs each deposit to its mineralisation age under Zahirovic 2022, samples reconstructed convergence rate / subduction-zone proximity / segment age at the paleo-position, and builds the per-deposit feature stack used by reconstruction-driven ML prospectivity classifiers.**\n",
+    "\n",
+    "## What this notebook produces\n",
+    "\n",
+    "T44 and T40 each focus on a regional porphyry province (SW Pacific arc; Andean margin). T45 zooms out to the global compilation and asks the methodological question: when porphyry deposits form, what subduction kinematics is contemporaneously active above them? The notebook reconstructs 120 deposits spanning ~400 Ma to present, samples a kinematic feature stack at each paleo-position, and renders (i) a global paleo-Earth map at three representative ages showing the deposit distribution under the contemporaneous subduction geometry, (ii) histograms of per-deposit paleo-distance to nearest trench and reconstructed convergence rate at the closest trench segment, and (iii) the bivariate scatter of distance versus convergence rate that anchors the Butterworth et al. (2021) prospectivity classifier.\n",
+    "\n",
+    "**Audience**: postgrad \u2192 researcher.\n",
+    "**Difficulty**: \u2605\u2605\u2605.\n",
+    "\n",
+    "## Learning objectives\n",
+    "\n",
+    "- Reconstruct a global ore-deposit compilation under a published plate model at each deposit's individual mineralisation age.\n",
+    "- Sample reconstructed subduction-zone segments for kinematic properties (convergence rate, segment age) at the closest segment to each deposit using `pygplates.tessellate_subduction_zones`.\n",
+    "- Build a per-deposit feature stack ready for a reconstruction-driven prospectivity classifier.\n",
+    "- Recognise the spatio-temporal envelope (\"porphyry-generating distance \u00d7 convergence rate\" window) that the global compilation occupies.\n",
+    "\n",
+    "## Prerequisites and runtime\n",
+    "\n",
+    "- **Plate model**: Zahirovic 2022.\n",
+    "- **Data**: `data/porphyry_cu_global/global_porphyry_cu.csv` \u2014 bundled tutorial compilation, 120 deposits.\n",
+    "- **Python**: `gplately`, `pygmt`, `pygplates`, `pandas`, `numpy`, `matplotlib`.\n",
+    "- **Runtime**: ~2 minutes (per-deposit reconstruction + per-deposit kinematic sampling)."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": "## Data availability\n\nThis notebook reads the bundled global porphyry-Cu compilation at `data/porphyry_cu_global/global_porphyry_cu.csv`. The top 30 entries are canonical supergiants/giants drawn from the published literature; the remaining ~90 are synthetic mid-tier deposits that fill out the spatio-temporal field for tutorial purposes. For production-scale work, replace with one of:\n\n- **Mutschler et al. (1999)**: USGS Open-File Report 99-556 \u2014 `https://pubs.usgs.gov/of/1999/of99-556/`\n- **Singer et al. (2008)**: USGS DDS-75 porphyry-Cu compilation \u2014 `https://pubs.usgs.gov/dds/2005/75/`\n- **EarthByte porphyry_copper_spatiotemporal_exploration**: the Butterworth et al. (2021) study repository at `https://github.com/EarthByte/porphyry_copper_spatiotemporal_exploration`."
+  },
+  {
+   "cell_type": "code",
+   "metadata": {},
+   "execution_count": null,
+   "outputs": [],
+   "source": [
+    "# Defensive cwd fix: when Jupyter runs this notebook from Notebooks/, the\n",
+    "# `data/...` relative paths used below would not resolve. Step up to the\n",
+    "# suite root once so every `data/...` literal in the rest of the notebook\n",
+    "# finds its file. Idempotent \u2014 only runs if `../data` exists and `./data`\n",
+    "# doesn't.\n",
+    "import os as _os\n",
+    "from pathlib import Path as _Path\n",
+    "if _Path(\"../data\").exists() and not _Path(\"data\").exists():\n",
+    "    _os.chdir(\"..\")\n",
+    "\n",
+    "# Cell 1 \u2014 imports\n",
+    "import numpy as np, pandas as pd, matplotlib.pyplot as plt\n",
+    "import gplately, pygmt, pygplates\n",
+    "from plate_model_manager import PlateModelManager\n",
+    "from IPython.display import display, HTML\n",
+    "\n",
+    "# Library versions (printed for reproducibility)\n",
+    "try:\n",
+    "    print(f\"gplately {gplately.__version__}  pygmt {pygmt.__version__}  pygplates {pygplates.__version__}\")\n",
+    "except Exception as _e:\n",
+    "    print(f\"version probe failed: {_e}\")\n",
+    "\n",
+    "# matplotlib equivalent of pyGMT's 'hawaii' (cmcrameri).\n",
+    "# Falls back to plasma_r if cmcrameri isn't installed in\n",
+    "# the conda env, so the matplotlib panels still render.\n",
+    "try:\n",
+    "    import cmcrameri.cm as _cmc\n",
+    "    AGE_CMAP_MPL = _cmc.hawaii_r\n",
+    "except ImportError:\n",
+    "    AGE_CMAP_MPL = \"plasma_r\"\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": "## Configuration"
+  },
+  {
+   "cell_type": "code",
+   "metadata": {},
+   "execution_count": null,
+   "outputs": [],
+   "source": "# === USER CONFIGURATION =====================================================\nDEPOSITS_CSV   = \"data/porphyry_cu_global/global_porphyry_cu.csv\"\nMODEL_NAME     = \"Zahirovic2022\"\nSNAPSHOT_TIMES = (10.0, 50.0, 150.0)   # Ma \u2014 three representative paleo-maps\nANCHOR_PLATE_ID = 0\nTRENCH_SAMPLE_SPACING_DEG = 2.0        # spacing for trench sampling\nNEAR_TRENCH_KM = 1000.0                # distance cutoff for \"near-trench\"\n# ============================================================================\n"
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": "## 1. Load the global compilation"
+  },
+  {
+   "cell_type": "code",
+   "metadata": {},
+   "execution_count": null,
+   "outputs": [],
+   "source": "# Cell 2 \u2014 load\ndep = pd.read_csv(DEPOSITS_CSV, comment=\"#\")\ndep.columns = [c.strip() for c in dep.columns]\nprint(f\"  loaded {len(dep)} deposits | ages {dep.age_ma.min():.0f}\u2013{dep.age_ma.max():.0f} Ma | {dep.commodity.nunique()} commodity classes\")\ndep.head()\n"
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": "## 2. Reconstruct each deposit to its mineralisation age"
+  },
+  {
+   "cell_type": "code",
+   "metadata": {},
+   "execution_count": null,
+   "outputs": [],
+   "source": "# Cell 3 \u2014 per-deposit paleo-positions\npmm   = PlateModelManager()\nmodel = pmm.get_model(MODEL_NAME, data_dir=\"./gplately_data\")\nrecon = gplately.PlateReconstruction(\n    rotation_model=model.get_rotation_model(),\n    topology_features=model.get_topologies(),\n    static_polygons=model.get_static_polygons())\n\npaleo_lons, paleo_lats = [], []\nfor _, row in dep.iterrows():\n    pt = gplately.Points(recon, [row[\"lon\"]], [row[\"lat\"]])\n    rlon, rlat = pt.reconstruct(float(row[\"age_ma\"]), return_array=True)\n    paleo_lons.append(float(rlon[0])); paleo_lats.append(float(rlat[0]))\ndep[\"paleo_lon\"] = paleo_lons\ndep[\"paleo_lat\"] = paleo_lats\nprint(f\"  reconstructed {len(dep)} deposits\")\n"
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": "## 3. Per-deposit kinematic sampling at the closest contemporaneous trench"
+  },
+  {
+   "cell_type": "code",
+   "metadata": {},
+   "execution_count": null,
+   "outputs": [],
+   "source": "# Cell 4 \u2014 sample trench segments at each deposit's paleo-position\ndef sample_kinematics(age_ma, plon, plat):\n    \"\"\"At reconstruction time age_ma, find the closest trench segment to\n    (plon, plat) and return (distance_km, convergence_rate_mm_yr,\n    closest_trench_lon, closest_trench_lat).\"\"\"\n    trench_data = recon.tessellate_subduction_zones(\n        float(age_ma), tessellation_threshold_radians=np.deg2rad(TRENCH_SAMPLE_SPACING_DEG))\n    if trench_data is None or len(trench_data) == 0:\n        return (np.nan, np.nan, np.nan, np.nan)\n    # tessellate_subduction_zones returns: lon, lat, conv_velocity, conv_obliquity,\n    #   trench_velocity, trench_obliquity, segment_length, trench_normal_azimuth,\n    #   subducting_plate_id, overriding_plate_id\n    t_lons    = trench_data[:, 0]\n    t_lats    = trench_data[:, 1]\n    conv_rate = trench_data[:, 2]   # mm/yr\n    # Spherical distance from (plon, plat) to every trench sample\n    p = pygplates.PointOnSphere(plat, plon)\n    dists = np.array([\n        pygplates.GeometryOnSphere.distance(p, pygplates.PointOnSphere(la, lo)) * 6371.0\n        for lo, la in zip(t_lons, t_lats)])\n    idx = int(np.argmin(dists))\n    return float(dists[idx]), float(conv_rate[idx]), float(t_lons[idx]), float(t_lats[idx])\n\nprint(\"  sampling kinematics \u2014 this is the slow cell (~30s for 120 deposits)...\")\nresults = [sample_kinematics(r.age_ma, r.paleo_lon, r.paleo_lat) for r in dep.itertuples()]\ndep[[\"trench_dist_km\",\"conv_rate_mmyr\",\"trench_lon\",\"trench_lat\"]] = results\nprint(f\"  median trench distance: {dep.trench_dist_km.median():.0f} km\")\nprint(f\"  median conv. rate at closest trench: {dep.conv_rate_mmyr.median():.0f} mm/yr\")\nprint(f\"  % within {NEAR_TRENCH_KM:.0f} km of a trench: {100*(dep.trench_dist_km < NEAR_TRENCH_KM).mean():.0f} %\")\n"
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": "## 4. Three paleo-Earth maps with deposits + contemporaneous subduction"
+  },
+  {
+   "cell_type": "code",
+   "metadata": {},
+   "execution_count": null,
+   "outputs": [],
+   "source": "# Cell 5 \u2014 render\nengine = gplately.PygmtPlotEngine()\nfor t in SNAPSHOT_TIMES:\n    gplot = gplately.PlotTopologies(\n        plate_reconstruction=recon,\n        coastlines=model.get_coastlines(),\n        continents=model.get_continental_polygons(),\n        COBs=model.get_COBs(), time=float(t))\n    window = dep[(dep.age_ma >= t - 5) & (dep.age_ma <= t + 5)]\n\n    fig = pygmt.Figure()\n    fig.basemap(region=\"d\", projection=\"W0/22c\", frame=[\"af\"])\n    engine.plot_geo_data_frame(fig, gplot.get_continents(),\n                               fill=\"gray90\", pen=\"0.3p,gray40\")\n    engine.plot_geo_data_frame(fig, gplot.get_all_topological_sections(),\n                               pen=\"0.5p,gray50\")\n    (_tl, _tr) = gplot.get_subduction_direction()\n    engine.plot_subduction_zones(fig, _tl, _tr, color=\"blue\")\n\n    if len(window) > 0:\n        pygmt.makecpt(cmap=\"hawaii\",\n                      series=[dep.age_ma.min(), dep.age_ma.max(), 1], reverse=True)\n        fig.plot(x=window[\"paleo_lon\"], y=window[\"paleo_lat\"],\n                 style=\"c0.28c\", fill=window[\"age_ma\"], cmap=True,\n                 pen=\"0.5p,black\")\n        fig.colorbar(frame=\"af+lDeposit age (Ma)\",\n                     position=\"JBC+w12c/0.35c+h+o0/1.2c\")\n\n    fig.text(text=f\"{t:.0f} Ma  global porphyry-Cu  ({MODEL_NAME})\",\n             position=\"TL\", offset=\"0.25c/-0.25c\", justify=\"TL\",\n             font=\"14p,Helvetica-Bold,black\",\n             fill=\"white\", pen=\"0.6p,gray40\")\n    fig.show(width=1100)\n    display(HTML('<div style=\"height:1cm\"></div>'))\n"
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": "## 5. Distance + convergence-rate envelope"
+  },
+  {
+   "cell_type": "code",
+   "metadata": {},
+   "execution_count": null,
+   "outputs": [],
+   "source": [
+    "# Cell 6 \u2014 kinematic envelope: histogram + bivariate scatter\n",
+    "valid = dep.dropna(subset=[\"trench_dist_km\",\"conv_rate_mmyr\"])\n",
+    "\n",
+    "fig, axes = plt.subplots(1, 3, figsize=(15, 4.5))\n",
+    "axes[0].hist(valid.trench_dist_km, bins=np.arange(0, 5000, 200),\n",
+    "             color=\"steelblue\", edgecolor=\"black\", alpha=0.85)\n",
+    "axes[0].axvline(NEAR_TRENCH_KM, color=\"firebrick\", lw=1.5, ls=\"--\",\n",
+    "                label=f\"{NEAR_TRENCH_KM:.0f} km cutoff\")\n",
+    "axes[0].set_xlabel(\"Paleo-distance to nearest trench (km)\", fontsize=11)\n",
+    "axes[0].set_ylabel(\"Deposits\", fontsize=11); axes[0].grid(True, alpha=0.5); axes[0].legend()\n",
+    "\n",
+    "axes[1].hist(valid.conv_rate_mmyr, bins=np.arange(0, 200, 10),\n",
+    "             color=\"darkorange\", edgecolor=\"black\", alpha=0.85)\n",
+    "axes[1].set_xlabel(\"Convergence rate at closest trench (mm/yr)\", fontsize=11)\n",
+    "axes[1].set_ylabel(\"Deposits\", fontsize=11); axes[1].grid(True, alpha=0.5)\n",
+    "\n",
+    "axes[2].scatter(valid.trench_dist_km, valid.conv_rate_mmyr,\n",
+    "                c=valid.age_ma, cmap=AGE_CMAP_MPL, s=40,\n",
+    "                edgecolor=\"black\", linewidth=0.5)\n",
+    "axes[2].axvline(NEAR_TRENCH_KM, color=\"firebrick\", lw=1.0, ls=\"--\", alpha=0.7)\n",
+    "axes[2].set_xlabel(\"Paleo-distance to trench (km)\", fontsize=11)\n",
+    "axes[2].set_ylabel(\"Convergence rate (mm/yr)\", fontsize=11)\n",
+    "axes[2].set_title(\"Porphyry-generating kinematic envelope\", fontsize=12)\n",
+    "axes[2].grid(True, alpha=0.5)\n",
+    "\n",
+    "plt.suptitle(f\"Global porphyry-Cu kinematic envelope ({MODEL_NAME})\", fontsize=14, fontweight=\"bold\")\n",
+    "plt.tight_layout(); plt.show()\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Extend this\n",
+    "\n",
+    "- **ML prospectivity.** The feature stack computed here \u2014 distance + convergence rate + age \u2014 is the input to the Butterworth et al. (2021) random-forest classifier. Add slab obliquity, trench velocity, and overriding-plate identity from `tessellate_subduction_zones` columns 3\u20135, 7, and 9 for the full feature set.\n",
+    "- **Commodity filter.** Restrict to `commodity == \"Cu-Au\"` and re-run. The kinematic envelope shifts \u2014 Cu-Au tends to higher-convergence-rate windows than Cu-only.\n",
+    "- **Cross-reference T44 and T40.** T44 is a regional SW-Pacific zoom on this same workflow; T40 is the Cordilleran zoom. T45 generalises both.\n",
+    "\n",
+    "## References\n",
+    "\n",
+    "- Butterworth, N., Steinberg, D., M\u00fcller, R.D., Williams, S., Merdith, A.S. & Hardy, S. (2021). Tectonic environments of South American porphyry copper magmatism through time revealed by spatiotemporal data mining. *Tectonics* 40, e2020TC006273. https://doi.org/10.1029/2020TC006273\n",
+    "- Sillitoe, R.H. (2010). Porphyry copper systems. *Economic Geology* 105(1), 3\u201341. https://doi.org/10.2113/gsecongeo.105.1.3\n",
+    "- Mutschler, F.E., Ludington, S. & Bookstrom, A.A. (1999). Giant porphyry-related metal camps of the world \u2014 a database. *USGS Open-File Report* 99-556.\n",
+    "- Singer, D.A., Berger, V.I. & Moring, B.C. (2008). Porphyry copper deposits of the world: Database and grade and tonnage models. *USGS Open-File Report* 2008-1155.\n",
+    "- Zahirovic, S., Eleish, A., Doss, S., Pall, J., Cannon, J., Pistone, M., Tetley, M.G., Young, A. & M\u00fcller, R.D. (2022). Subduction and carbonate platform interactions. *Geoscience Data Journal* 9, 371\u2013383. https://doi.org/10.1002/gdj3.146\n",
+    "- Mather, B.R., M\u00fcller, R.D., Zahirovic, S., Cannon, J., Chin, M., Ilano, L., Wright, N.M., Alfonso, C., Williams, S., Tetley, M. & Merdith, A. (2024). Deep time spatio-temporal data analysis using GPlately. *Geoscience Data Journal* 11(1), 3\u201310. https://doi.org/10.1002/gdj3.185\n",
+    "- Tian, D., Uieda, L., Leong, W.J., et al. (2024). PyGMT: A Python interface for the Generic Mapping Tools. *Zenodo*. https://doi.org/10.5281/zenodo.10578540\n",
+    "- Wessel, P., Luis, J.F., Uieda, L., Scharroo, R., Wobbe, F., Smith, W.H.F. & Tian, D. (2019). The Generic Mapping Tools version 6. *Geochemistry, Geophysics, Geosystems* 20(11), 5556\u20135564. https://doi.org/10.1029/2019GC008515\n",
+    "- Chin, M., Mather, B.R. & M\u00fcller, R.D. (2024). Plate Model Manager: A Python package for downloading and managing plate reconstruction models. *Journal of Open Source Software* 9(101), 7090. https://doi.org/10.21105/joss.07090"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "name": "python",
+   "version": "3.11"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}

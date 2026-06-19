@@ -1,0 +1,329 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "include-cell-in-app": true
+   },
+   "source": [
+    "# T08 \u2014 Plate-tectonic diagnostics through deep time\n",
+    "\n",
+    "**A pyGMT + Cao 2024 port of the upstream Seton, Williams, Domeier, Collins & Sigloch (2023) `Figure6/CombinedTimeSeries.ipynb`.**\n",
+    "\n",
+    "## What this notebook produces\n",
+    "\n",
+    "**Four** time-series charts of the deep-time plate-tectonic state from 500 Ma to present (x-axis reversed so 0 Ma sits on the right, per palaeo-time convention):\n",
+    "\n",
+    "1. **Crustal production at mid-ocean ridges** (km\u00b2 Myr\u207b\u00b9), split into global total, Pacific + Panthalassa, Atlantic, and Indian Ocean basins.\n",
+    "2. **Total subduction-zone length** (km).\n",
+    "3. **Number of modelled rigid plates + deforming networks** in the topology snapshot.\n",
+    "4. **Paleo-latitudes** of representative North American (plate ID 101), Indian (501), and Australian (801) cratonic centroids.\n",
+    "\n",
+    "All four metrics are computed on the fly from the Cao 2024 plate model via `gplately` + `pygplates`. Results are cached to a single parquet under `./cache/` so re-runs are instant.\n",
+    "\n",
+    "The upstream notebook is at <https://github.com/siwill22/Deconstructing-Plate-Tectonic-Reconstructions/blob/main/Figure6/CombinedTimeSeries.ipynb>. We **modernise** it by: (i) dropping the `gprm` + `helper_functions.py` dependencies in favour of current `gplately` + `plate_model_manager`; (ii) replacing the pre-computed CSV with on-the-fly tessellation against **Cao 2024** per user directive (covers 0\u20131.8 Ga); (iii) replacing matplotlib with native pyGMT.\n",
+    "\n",
+    "**Audience**: postgraduate.  \n",
+    "**Difficulty**: \u2605\u2605\u2605.  \n",
+    "**Runtime**: ~10\u201325 min for the first run (the metric most-expensive is the per-time topology resolution for the plate count + subduction tessellation). Subsequent runs load the parquet cache in <1 s."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": "## Learning objectives\n\n- Compute global plate-tectonic diagnostics (mean plate speed, ridge length, trench length, age of subducting crust) for a swept time range.\n- Render each diagnostic as a time series with pyGMT.\n- Recognise how diagnostics jump at plate-reorganisation events.\n"
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": "## Prerequisites and runtime\n\n- **Plate model**: Zahirovic 2022.\n- **Time range**: 0\u2013250 Ma in 10 Myr steps.\n- **Python**: `gplately`, `pygmt`, `pygplates`, `numpy`, `pandas`.\n- **Runtime**: ~2 minutes (one snapshot per step).\n"
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Defensive cwd fix: when Jupyter runs this notebook from Notebooks/, the\n",
+    "# `data/...` relative paths used below would not resolve. Step up to the\n",
+    "# suite root once so every `data/...` literal in the rest of the notebook\n",
+    "# finds its file. Idempotent \u2014 only runs if `../data` exists and `./data`\n",
+    "# doesn't.\n",
+    "import os as _os\n",
+    "from pathlib import Path as _Path\n",
+    "if _Path(\"../data\").exists() and not _Path(\"data\").exists():\n",
+    "    _os.chdir(\"..\")\n",
+    "\n",
+    "# Cell 1 \u2014 imports\n",
+    "from pathlib import Path\n",
+    "import numpy as np, pandas as pd, pygplates, gplately, pygmt\n",
+    "from plate_model_manager import PlateModelManager\n",
+    "from IPython.display import display, HTML\n",
+    "\n",
+    "pygmt.config(FONT_TITLE=\"14p\", FONT_LABEL=\"11p\",\n",
+    "             FONT_ANNOT_PRIMARY=\"9p\")   # smaller fonts: the 4.5cm plot height leaves no room for 16p labels\n",
+    "# Library versions (printed for reproducibility)\n",
+    "try:\n",
+    "    import gplately, pygmt, pygplates\n",
+    "    print(f\"gplately {gplately.__version__}  pygmt {pygmt.__version__}  pygplates {pygplates.__version__}\")\n",
+    "except Exception as _e:\n",
+    "    print(f\"version probe failed: {_e}\")\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": "## Configuration\n\nUser-tunable choices for this notebook. Edit the values below to change the model, snapshot time, region, or anchor plate without hunting through downstream code.\n"
+  },
+  {
+   "cell_type": "code",
+   "metadata": {},
+   "execution_count": null,
+   "outputs": [],
+   "source": "# === USER CONFIGURATION =====================================================\nMODEL_NAME           = \"Cao2024\"\nTIME_START_MA        = 0.0           # Ma \u2014 youngest snapshot\nTIME_END_MA          = 250.0         # Ma \u2014 oldest snapshot\nTIME_STEP_MA         = 10.0          # Ma \u2014 diagnostic sampling cadence\nANCHOR_PLATE_ID      = 0\n# ============================================================================\n"
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Plate-pair definitions per ocean basin\n",
+    "\n",
+    "Each ocean basin is identified by a list of `(left_plate_id, right_plate_id)` pairs. A spreading segment is assigned to a basin if BOTH of its plate IDs are in that basin's pair list (in either order \u2014 we test both directions). The lists are inherited verbatim from Seton et al. (2023) `Figure6/CombinedTimeSeries.ipynb` and were derived for the M\u00fcller 2021 plate-ID framework. The same IDs carry over to Cao 2024.\n",
+    "\n",
+    "For a different plate model whose IDs don't match, either remap the IDs by hand or replace the plate-pair filter with a geographic-bounding-box filter (like T09 for the South American margin). The bounding-box approach is more robust across models; the plate-pair approach is more precise within the M\u00fcller / Cao family."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Cell 2 \u2014 plate-pair lists per ocean basin (verbatim from Seton et al. 2023)\n",
+    "atlantic_plate_pairs = [\n",
+    "    [201, 701], [101, 714], [701, 101], [201, 714], [714, 201],\n",
+    "    [101, 102], [102, 301], [101, 301], [101, 304], [101, 317],\n",
+    "    [802, 101], [818, 815], [201, 802]]\n",
+    "\n",
+    "indian_plate_pairs = [\n",
+    "    [701, 802], [801, 802], [511, 801], [511, 802], [701, 501],\n",
+    "    [701, 702], [501, 802], [704, 501], [702, 802], [774, 801],\n",
+    "    [511, 709], [503, 701], [673, 7250], [664, 676], [702, 501],\n",
+    "    [501, 801]]\n",
+    "\n",
+    "# Combined Pacific + Panthalassa\n",
+    "pacific_plate_pairs = [\n",
+    "    [901, 902], [901, 911], [901, 804], [901, 910], [901, 909],\n",
+    "    [909, 902], [901, 903], [901, 924], [909, 911], [911, 804],\n",
+    "    [911, 802], [802, 901], [922, 911], [923, 911], [699, 608],\n",
+    "    [659, 608], [870, 823], [829, 836], [830, 847], [646, 677],\n",
+    "    [0, 0], [901, 982], [814, 901], [901, 926], [902, 926],\n",
+    "    [926, 919], [902, 908], [982, 983], [983, 981], [983, 901],\n",
+    "    [901, 919], [990, 926], [902, 919], [919, 908], [908, 901],\n",
+    "    [908, 982], [908, 984], [919, 983], [903, 918], [986, 982],\n",
+    "    [986, 983], [986, 987], [984, 908], [903, 918]]"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Define the four per-time metrics + the unit conversion\n",
+    "\n",
+    "**Crustal production at MORs** is computed as `arc_length \u00d7 spreading_rate \u00d7 |cos(obliquity)|` summed over segments. The natural output is in `degree \u00d7 cm yr\u207b\u00b9`. To convert to **km\u00b2 Myr\u207b\u00b9** we multiply by\n",
+    "\n",
+    "$$ \\text{factor} = \\underbrace{\\frac{\\pi}{180} \\cdot R_\\oplus}_{\\text{1\u00b0 of arc in km}} \\cdot \\underbrace{10}_{\\text{1 cm yr}^{-1} = 10\\text{ km Myr}^{-1}} \\approx 111.195 \\times 10 = 1111.95 $$\n",
+    "\n",
+    "with `R_earth = 6371 km`. So a per-segment contribution of `arc_length [\u00b0] \u00d7 spreading_rate [cm/yr] \u00d7 cos(obliq)` becomes `arc_length [\u00b0] \u00d7 spreading_rate [cm/yr] \u00d7 cos(obliq) \u00d7 1112 [km\u00b2 Myr\u207b\u00b9]`.\n",
+    "\n",
+    "**Total subduction-zone length** at time `t` is the sum of segment arc lengths returned by `recon.tessellate_subduction_zones(t)`, converted to km via the same `111.195 km / \u00b0` factor.\n",
+    "\n",
+    "**Number of modelled plates** is the number of resolved topological boundaries (closed plates + deforming networks) returned by `pygplates.resolve_topologies(...)`.\n",
+    "\n",
+    "**Paleo-latitudes** are obtained by reconstructing three representative present-day cratonic-centroid points to each `t` using `gplately.Points` with the standard cratonic plate IDs."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": "# Cell 3 \u2014 load Cao 2024 + four per-time metric helpers\npmm   = PlateModelManager()\nmodel = pmm.get_model(MODEL_NAME, data_dir=\"./gplately_data\")\nrecon = gplately.PlateReconstruction(\n    rotation_model=model.get_rotation_model(),\n    topology_features=model.get_topologies(),\n    static_polygons=model.get_static_polygons())\n\n# Conversion constants\nR_EARTH_KM       = 6371.0\nKM_PER_DEG_ARC   = (np.pi / 180.0) * R_EARTH_KM                  # \u2248 111.195\nKM2_MYR_FACTOR   = KM_PER_DEG_ARC * 10.0                          # \u2248 1111.95 \u2014 see markdown above\n\n# tessellate_mid_ocean_ridges column layouts (gplately/PTT version-dependent)\nMOR_COLS_BY_NCOLS = {\n    8:  [\"lon\", \"lat\", \"spreading_rate\", \"spreading_obliq\",\n         \"arc_length\", \"normal_azimuth\", \"left_plate_id\", \"right_plate_id\"],\n    7:  [\"lon\", \"lat\", \"spreading_rate\", \"spreading_obliq\",\n         \"arc_length\", \"left_plate_id\", \"right_plate_id\"],\n    4:  [\"lon\", \"lat\", \"spreading_rate\", \"arc_length\"],\n    10: [\"lon\", \"lat\", \"spreading_rate\", \"spreading_obliq\",\n         \"normal_rate\", \"normal_obliq\", \"arc_length\",\n         \"normal_azimuth\", \"left_plate_id\", \"right_plate_id\"],\n}\n\ndef crustal_production_km2_myr(t, plate_pairs=None):\n    \"\"\"Crustal production rate (km\u00b2 Myr\u207b\u00b9) at reconstruction time `t`,\n    optionally restricted to a per-basin plate-pair list.\"\"\"\n    arr = recon.tessellate_mid_ocean_ridges(\n        time=float(t), tessellation_threshold_radians=0.01,\n        output_obliquity_and_normal_and_left_right_plates=True,\n        anchor_plate_id=0)\n    if len(arr) == 0:\n        return 0.0\n    n_cols = arr.shape[1]\n    if n_cols not in MOR_COLS_BY_NCOLS:\n        raise ValueError(\n            f\"Unexpected MOR tessellation shape {arr.shape}. \"\n            f\"Known layouts: {sorted(MOR_COLS_BY_NCOLS.keys())}.\")\n    df = pd.DataFrame(arr, columns=MOR_COLS_BY_NCOLS[n_cols])\n    if \"spreading_obliq\" in df.columns:\n        seg = (df[\"arc_length\"] * df[\"spreading_rate\"] *\n               np.abs(np.cos(np.radians(df[\"spreading_obliq\"]))))\n    else:\n        seg = df[\"arc_length\"] * df[\"spreading_rate\"]\n    if plate_pairs is not None:\n        if \"left_plate_id\" not in df.columns:\n            raise RuntimeError(\n                \"gplately did not return plate IDs; basin filter unavailable.\")\n        pp_set = {tuple(sorted(p)) for p in plate_pairs}\n        sorted_pairs = list(zip(\n            df[[\"left_plate_id\", \"right_plate_id\"]].min(axis=1),\n            df[[\"left_plate_id\", \"right_plate_id\"]].max(axis=1)))\n        mask = np.array([sp in pp_set for sp in sorted_pairs])\n        seg = seg[mask]\n    return float(seg.sum()) * KM2_MYR_FACTOR\n\ndef total_subduction_length_km(t):\n    \"\"\"Sum of arc-length of every active subduction segment at time `t`, in km.\"\"\"\n    arr = recon.tessellate_subduction_zones(\n        time=float(t), tessellation_threshold_radians=0.01,\n        anchor_plate_id=0)\n    if len(arr) == 0:\n        return 0.0\n    # tessellate_subduction_zones returns 10 columns; arc_length is col 6\n    return float(arr[:, 6].sum()) * KM_PER_DEG_ARC\n\ndef n_modelled_plates(t):\n    \"\"\"Number of resolved topological objects (rigid plates + deforming\n    networks) in the Cao 2024 topology snapshot at time `t`.\"\"\"\n    resolved = []\n    pygplates.resolve_topologies(\n        recon.topology_features, recon.rotation_model,\n        resolved, float(t))\n    return len(resolved)\n\n# Representative cratonic centroids (present-day coords) and M\u00fcller/Cao IDs\nCRATON_REFS = [\n    (\"North America\", 101, -100.0,  43.0),   # central Laurentia (rough)\n    (\"India\",         501,   78.0,  22.0),   # central peninsular India\n    (\"Australia\",     801,  134.0, -25.0),   # central Australia\n]\n_paleo_pts = gplately.Points(\n    plate_reconstruction=recon,\n    lons=[c[2] for c in CRATON_REFS],\n    lats=[c[3] for c in CRATON_REFS],\n    plate_id=[c[1] for c in CRATON_REFS])\n\ndef paleo_latitudes(t):\n    \"\"\"Paleo-latitudes of the three cratonic centroids at time `t`. Returns\n    (lat_NA, lat_India, lat_Australia) \u2014 np.nan where a plate ID is not\n    defined in Cao 2024 at the requested time.\"\"\"\n    try:\n        plon, plat = _paleo_pts.reconstruct(\n            time=float(t), return_array=True)\n        return tuple(plat)\n    except Exception:\n        return (np.nan, np.nan, np.nan)"
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Cell 4 \u2014 compute (or load) the full multi-metric time series\n",
+    "TIME_MIN  = 0\n",
+    "TIME_MAX  = 500     # Ma \u2014 Cao 2024 covers 0-1800; reasonable upper bound\n",
+    "TIME_STEP = 10      # Myr\n",
+    "\n",
+    "CACHE_DIR  = Path(\"./cache\"); CACHE_DIR.mkdir(exist_ok=True)\n",
+    "# v2 cache layout includes the new metrics (subduction length, plate count,\n",
+    "# paleo-latitudes). Bumping the filename forces a re-run.\n",
+    "CACHE_PATH = CACHE_DIR / (\n",
+    "    f\"kinematics_v2_Cao2024_{TIME_MIN}-{TIME_MAX}Ma_\"\n",
+    "    f\"step{TIME_STEP}.parquet\")\n",
+    "\n",
+    "if CACHE_PATH.exists():\n",
+    "    cp = pd.read_parquet(CACHE_PATH)\n",
+    "    print(f\"Loaded cache: {len(cp)} time steps from {CACHE_PATH.name}\")\n",
+    "else:\n",
+    "    print(f\"Cache miss \u2014 computing {TIME_MAX // TIME_STEP + 1} time steps. \"\n",
+    "          f\"This takes ~10\u201325 min.\")\n",
+    "    times = np.arange(TIME_MIN, TIME_MAX + TIME_STEP, TIME_STEP)\n",
+    "    rows = []\n",
+    "    for t in times:\n",
+    "        plat = paleo_latitudes(t)\n",
+    "        rows.append({\n",
+    "            \"time\":         int(t),\n",
+    "            \"prod_global\":  crustal_production_km2_myr(t),\n",
+    "            \"prod_pacific\": crustal_production_km2_myr(t, pacific_plate_pairs),\n",
+    "            \"prod_atlantic\":crustal_production_km2_myr(t, atlantic_plate_pairs),\n",
+    "            \"prod_indian\":  crustal_production_km2_myr(t, indian_plate_pairs),\n",
+    "            \"sub_length_km\":total_subduction_length_km(t),\n",
+    "            \"n_plates\":     n_modelled_plates(t),\n",
+    "            \"plat_NA\":      plat[0],\n",
+    "            \"plat_India\":   plat[1],\n",
+    "            \"plat_Aus\":     plat[2],\n",
+    "        })\n",
+    "        if int(t) % 50 == 0:\n",
+    "            print(f\"  {int(t):>3} Ma \u2014 \"\n",
+    "                  f\"prod {rows[-1]['prod_global']/1e6:.2f}e6 km\u00b2/Myr \u00b7 \"\n",
+    "                  f\"sub_len {rows[-1]['sub_length_km']:.0f} km \u00b7 \"\n",
+    "                  f\"n_plates {rows[-1]['n_plates']} \u00b7 \"\n",
+    "                  f\"plat(NA,IN,AU) = ({plat[0]:.0f}, {plat[1]:.0f}, {plat[2]:.0f})\")\n",
+    "    cp = pd.DataFrame(rows)\n",
+    "    cp.to_parquet(CACHE_PATH)\n",
+    "    print(f\"Wrote {CACHE_PATH.name}\")\n",
+    "cp.head()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": "## Plot 1 \u2014 Crustal production (km\u00b2 Myr\u207b\u00b9)\n\nA 3-band rolling mean is applied to each curve to suppress noise from the per-time-step tessellation. The x-axis runs **right-to-left** (0 Ma on the right, oldest time on the left), per paleo-time convention."
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": "# Cell 5 \u2014 Plot 1: crustal production per basin\nsmoothed = cp.set_index(\"time\").rolling(3, min_periods=1, center=True).mean()\n\n# Fit y-axis to the data: for non-negative metrics anchor at 0 if any\n# series touches zero (Atlantic/Indian start at 0 pre-rifting), otherwise\n# pad both ends by 5 % of the range so the curves don't sit on the frame.\n_y = smoothed[[\"prod_global\", \"prod_pacific\", \"prod_atlantic\", \"prod_indian\"]].values\n_y_lo, _y_hi = float(_y.min()), float(_y.max())\n_pad = 0.05 * (_y_hi - _y_lo)\n_y_lo = 0.0 if _y_lo < _pad else _y_lo - _pad\n_y_hi += _pad\n\nfig = pygmt.Figure()\nfig.basemap(\n    region=[TIME_MIN, TIME_MAX, _y_lo, _y_hi],\n    projection=\"X-18c/4.5c\",  # negative width \\u2192 reversed x-axis; 4.5cm tall\n    frame=[\"xaf+lReconstruction time (Ma)\",\n           \"yaf+lCrustal production (km\\u00b2 Myr\\u207b\\u00b9)\",\n           \"WSrt+tCrustal production at MORs \\u2014 Cao 2024 (global + ocean basins)\"])\n\nfig.plot(x=smoothed.index, y=smoothed[\"prod_global\"],\n         pen=\"2p,black\",       label=\"Global\")\nfig.plot(x=smoothed.index, y=smoothed[\"prod_pacific\"],\n         pen=\"1.8p,royalblue\", label=\"Pacific + Panthalassa\")\nfig.plot(x=smoothed.index, y=smoothed[\"prod_atlantic\"],\n         pen=\"1.8p,orange\",    label=\"Atlantic\")\nfig.plot(x=smoothed.index, y=smoothed[\"prod_indian\"],\n         pen=\"1.8p,seagreen\",  label=\"Indian\")\nfig.legend(position=\"JTR+jTR+o0.3c\", box=\"+gwhite@40+p0.5p,gray50\")\nfig.text(text=f\"0\u2013250 Ma  ({MODEL_NAME})\",\n         position=\"TL\", offset=\"0.25c/-0.25c\", justify=\"TL\",\n         font=\"14p,Helvetica-Bold,black\",\n         fill=\"white\", pen=\"0.6p,gray40\")\nfig.show(width=1100)\ndisplay(HTML('<div style=\"height:1cm\"></div>'))"
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "include-cell-in-app": true
+   },
+   "source": "## Plot 2 \u2014 Total subduction-zone length (km)\n\nSummed across every active trench segment in the Cao 2024 topology snapshot at each time step. A peak in this curve marks a time of dense global subduction (typical at supercontinent assembly + dispersal events); a trough marks intervals when only a few long arcs were active."
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": "# Cell 6 \u2014 Plot 2: total subduction-zone length\n_y    = smoothed[\"sub_length_km\"].values\n_y_lo, _y_hi = float(np.nanmin(_y)), float(np.nanmax(_y))\n_pad  = 0.05 * (_y_hi - _y_lo)\n_y_lo = max(0.0, _y_lo - _pad)\n_y_hi += _pad\n\nfig = pygmt.Figure()\nfig.basemap(\n    region=[TIME_MIN, TIME_MAX, _y_lo, _y_hi],\n    projection=\"X-18c/4.5c\",\n    frame=[\"xaf+lReconstruction time (Ma)\",\n           \"yaf+lTotal subduction-zone length (km)\",\n           \"WSrt+tTotal subduction-zone length \\u2014 Cao 2024\"])\nfig.plot(x=smoothed.index, y=smoothed[\"sub_length_km\"],\n         pen=\"2p,firebrick\")\nfig.text(text=f\"0\u2013250 Ma  ({MODEL_NAME})\",\n         position=\"TL\", offset=\"0.25c/-0.25c\", justify=\"TL\",\n         font=\"14p,Helvetica-Bold,black\",\n         fill=\"white\", pen=\"0.6p,gray40\")\nfig.show(width=1100)\ndisplay(HTML('<div style=\"height:1cm\"></div>'))"
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": "## Plot 3 \u2014 Number of modelled plates\n\nCounts every resolved topological object (closed rigid plate boundaries + deforming networks) in the Cao 2024 model at each time. Rises are typically driven by ocean-basin fragmentation; falls are driven by plate amalgamation at supercontinent assembly."
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": "# Cell 7 \u2014 Plot 3: number of plates\n_y    = cp[\"n_plates\"].values\n_y_lo, _y_hi = float(_y.min()), float(_y.max())\n_pad  = max(2.0, 0.05 * (_y_hi - _y_lo))   # at least 2-plate padding\n_y_lo = max(0.0, _y_lo - _pad)\n_y_hi += _pad\n\nfig = pygmt.Figure()\nfig.basemap(\n    region=[TIME_MIN, TIME_MAX, _y_lo, _y_hi],\n    projection=\"X-18c/4.5c\",\n    frame=[\"xaf+lReconstruction time (Ma)\",\n           \"yaf+lNumber of modelled plates + networks\",\n           \"WSrt+tNumber of resolved topological plates \\u2014 Cao 2024\"])\nfig.plot(x=cp[\"time\"], y=cp[\"n_plates\"],\n         pen=\"2p,purple4\")\nfig.text(text=f\"0\u2013250 Ma  ({MODEL_NAME})\",\n         position=\"TL\", offset=\"0.25c/-0.25c\", justify=\"TL\",\n         font=\"14p,Helvetica-Bold,black\",\n         fill=\"white\", pen=\"0.6p,gray40\")\nfig.show(width=1100)\ndisplay(HTML('<div style=\"height:1cm\"></div>'))"
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Plot 4 \u2014 Paleo-latitudes of North America, India, Australia\n",
+    "\n",
+    "We reconstruct three representative present-day cratonic centroids (M\u00fcller/Cao plate IDs 101 = Laurentia, 501 = India, 801 = Australia) to each time step and plot the resulting paleo-latitudes. The 0\u00b0 equator is shown as a dashed grey line for reference.\n",
+    "\n",
+    "These curves are the kinematic signatures of:\n",
+    "- **North America's** Mesozoic\u2013Cenozoic rotation and modest northward drift\n",
+    "- **India's** rapid northward migration from Gondwana (~150 Ma) culminating in the Eocene Asia collision\n",
+    "- **Australia's** post-rift northward drift from the Antarctic margin (~45 Ma onwards)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": "# Cell 8 \u2014 Plot 4: paleo-latitudes\n_y = cp[[\"plat_NA\", \"plat_India\", \"plat_Aus\"]].values\n_y = _y[~np.isnan(_y)]\n_y_lo, _y_hi = float(_y.min()), float(_y.max())\n_pad = max(3.0, 0.05 * (_y_hi - _y_lo))\n_y_lo -= _pad\n_y_hi += _pad\n# Make sure the equator (0\\u00b0) is inside the range for visual anchoring\n_y_lo = min(_y_lo, -2.0)\n_y_hi = max(_y_hi, 2.0)\n\nfig = pygmt.Figure()\nfig.basemap(\n    region=[TIME_MIN, TIME_MAX, _y_lo, _y_hi],\n    projection=\"X-18c/4.5c\",\n    frame=[\"xaf+lReconstruction time (Ma)\",\n           \"yaf+lPaleo-latitude (\\u00b0)\",\n           \"WSrt+tPaleo-latitudes of cratonic centroids \\u2014 Cao 2024\"])\n# Equator reference\nfig.plot(x=[TIME_MIN, TIME_MAX], y=[0, 0], pen=\"0.6p,gray60,--\")\nfig.plot(x=cp[\"time\"], y=cp[\"plat_NA\"],\n         pen=\"2p,darkorange\",  label=\"North America (101)\")\nfig.plot(x=cp[\"time\"], y=cp[\"plat_India\"],\n         pen=\"2p,royalblue\",   label=\"India (501)\")\nfig.plot(x=cp[\"time\"], y=cp[\"plat_Aus\"],\n         pen=\"2p,forestgreen\", label=\"Australia (801)\")\nfig.legend(position=\"JTL+jTL+o0.3c\", box=\"+gwhite@40+p0.5p,gray50\")\nfig.text(text=f\"0\u2013250 Ma  ({MODEL_NAME})\",\n         position=\"TL\", offset=\"0.25c/-0.25c\", justify=\"TL\",\n         font=\"14p,Helvetica-Bold,black\",\n         fill=\"white\", pen=\"0.6p,gray40\")\nfig.show(width=1100)\ndisplay(HTML('<div style=\"height:1cm\"></div>'))"
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### How to read the four panels together\n",
+    "\n",
+    "- **Pre-Pangea (\u2273 200 Ma):** crustal production is concentrated in Panthalassa; subduction is correspondingly high; plate count is moderate; the three cratonic centroids are clustered in the southern hemisphere as part of Gondwana.\n",
+    "- **Pangea breakup (~200\u201380 Ma):** Atlantic and Indian basin curves rise from zero; new plates appear (plate-count tick up); India begins its rapid northward sprint while Australia and North America drift more sedately; subduction length rises with all the new active trenches.\n",
+    "- **Cenozoic (last ~65 Ma):** the four metrics stabilise toward modern values; India arrives in the northern hemisphere and decelerates after the Eocene Asian collision; subduction-zone length is at its modern global high.\n",
+    "\n",
+    "Beyond ~410 Ma the Cao 2024 model is less well-constrained; treat the curves as first-order estimates only."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Extend this\n",
+    "\n",
+    "- **Larger time window.** Bump `TIME_MAX` to 1000 or 1800 (the Cao 2024 limit) to push the diagnostics into the Precambrian. Expect sparser data and more NaNs in the paleo-latitude columns as plate IDs become undefined.\n",
+    "- **More basins.** Add Tethys, Rheic, Asian basin plate-pair lists (full lists in the upstream Seton 2023 notebook).\n",
+    "- **More cratons.** Extend `CRATON_REFS` with e.g. East Antarctica (plate ID 802), Africa (701), Siberia (401), or South America (201) and re-run.\n",
+    "- **Different plate model.** Swap `Cao2024` for `M\u00fcller2022` or `Merdith2021`. Plate IDs carry over within the M\u00fcller / Cao family; for other model families either remap IDs by hand or switch to geographic bounding-box basin filtering (cf. T09).\n",
+    "- **Pair with T09.** T09 charts the *age* of crust at trenches (the consumption side); this notebook charts *production* at ridges and *subduction length* (the consumption side again, kinematically). Together they let you sketch a global oceanic-crustal-turnover mass balance through deep time.\n",
+    "- **Per-trench convergence-flux integration.** Multiply trench segment lengths by their convergence rates (also returned by `tessellate_subduction_zones`) to derive a subduction *volume* flux instead of a length."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "include-cell-in-app": true
+   },
+   "source": [
+    "## References\n",
+    "\n",
+    "- Cao, X., Collins, A. S., Pisarevsky, S., Flament, N., Li, S., Hasterok, D., & M\u00fcller, R. D. (2024). A deep-time Phanerozoic to Proterozoic plate motion model at 1\u00b0 resolution. *Earth System Science Data*, 16, 4007\u20134032. https://doi.org/10.5194/essd-16-4007-2024\n",
+    "- Chin, M., Mather, B. R., & M\u00fcller, R. D. (2024). Plate Model Manager: A Python package for downloading and managing published plate-reconstruction models. *Zenodo*. https://github.com/michaelchin/plate-model-manager\n",
+    "- Mather, B. R., M\u00fcller, R. D., Zahirovic, S., Cannon, J., Chin, M., Ilano, L., Wright, N. M., Alfonso, C., Williams, S., Tetley, M., & Merdith, A. (2024). Deep time spatio-temporal data analysis using GPlately. *Geoscience Data Journal* 11, 3\u201310. https://doi.org/10.1002/gdj3.185\n",
+    "- Seton, M., Williams, S. E., Domeier, M., Collins, A. S., & Sigloch, K. (2023). Deconstructing plate tectonic reconstructions. *Nature Reviews Earth & Environment*, 4, 185\u2013204. https://doi.org/10.1038/s43017-022-00384-8 \u2014 concept source for the per-basin crustal-production filter and the diagnostic time-series ensemble reproduced here. Upstream code at <https://github.com/siwill22/Deconstructing-Plate-Tectonic-Reconstructions/blob/main/Figure6/CombinedTimeSeries.ipynb>.\n",
+    "- Tian, D., Uieda, L., Leong, W. J., Fr\u00f6hlich, Y., Schlitzer, W., Grund, M., Jones, M., Toney, L., Yao, J., Magen, Y., Materna, K., Belem, A., Newton, T., Anant, A., Ziebarth, M., Quinn, J., & Wessel, P. (2024). PyGMT: A Python interface for the Generic Mapping Tools. *Zenodo*. https://doi.org/10.5281/zenodo.13679085\n",
+    "- Wessel, P., Luis, J. F., Uieda, L., Scharroo, R., Wobbe, F., Smith, W. H. F., & Tian, D. (2019). The Generic Mapping Tools version 6. *Geochemistry, Geophysics, Geosystems*, 20, 5556\u20135564. https://doi.org/10.1029/2019GC008515"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 4
+}

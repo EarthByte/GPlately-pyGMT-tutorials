@@ -1,0 +1,234 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "6d0300a3",
+   "metadata": {
+    "include-cell-in-app": true
+   },
+   "source": [
+    "# T01 \u2014 Hello, deep time\n",
+    "\n",
+    "**A first paleo-geographic map rendered with GPlately + pyGMT.** This is the anchor tutorial for the GPlately \u00d7 pyGMT integration.\n",
+    "\n",
+    "## What this notebook produces\n",
+    "\n",
+    "A single global paleo-geographic map at 50 Ma \u2014 Robinson projection, with reconstructed continents, coastlines, mid-ocean ridges, transforms, and subduction zones drawn from the Zahirovic et al. (2022) plate model. An optional bonus cell at the end renders the same snapshot through Cartopy so you can compare the two cartographic stacks side by side.\n",
+    "\n",
+    "## What you will learn\n",
+    "\n",
+    "1. How to load a published plate-motion model via the [Plate Model Manager](https://pypi.org/project/plate-model-manager/) and inspect what files come with it.\n",
+    "2. How to build a `gplately.PlateReconstruction` and a `gplately.PlotTopologies` snapshot at a target reconstruction time.\n",
+    "3. How to push those geometries onto a `pygmt.Figure` via `gplately.PygmtPlotEngine`, with the suite-standard continuous topology backbone and styled ridges / trenches on top.\n",
+    "4. (Optional) How the same data renders through GPlately's default matplotlib / Cartopy engine, and why pyGMT is usually the better choice for publication figures.\n",
+    "\n",
+    "**Audience**: undergraduate / new-to-GPlately.  \n",
+    "**Prerequisites**: a `gplately` conda environment that also includes `pygmt`. Internet access is required on first run so that `plate_model_manager` can download and cache the Zahirovic 2022 plate model.  \n",
+    "**Runtime**: \u224830 seconds on first run, \u224810 seconds thereafter."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": "## Learning objectives\n\n- Install GPlately + pyGMT and confirm versions in cell 1.\n- Fetch a plate model with `plate_model_manager` (no manual download).\n- Render a global paleo-Earth map at a chosen reconstruction age with continents, coastlines, and topological plate boundaries.\n- Recognise the continuous-backbone pattern for drawing complete plate-boundary networks.\n"
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": "## Prerequisites and runtime\n\n- **Plate model**: Zahirovic 2022 (default for the suite).\n- **Reconstruction time**: 50 Ma snapshot (change to taste).\n- **Python**: `gplately`, `pygmt`, `pygplates`, `plate_model_manager`.\n- **Runtime**: < 1 minute on a laptop; first run downloads the plate model (~50 MB).\n"
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "49c5f820",
+   "metadata": {
+    "include-cell-in-app": true
+   },
+   "outputs": [],
+   "source": [
+    "# Defensive cwd fix: when Jupyter runs this notebook from Notebooks/, the\n",
+    "# `data/...` relative paths used below would not resolve. Step up to the\n",
+    "# suite root once so every `data/...` literal in the rest of the notebook\n",
+    "# finds its file. Idempotent \u2014 only runs if `../data` exists and `./data`\n",
+    "# doesn't.\n",
+    "import os as _os\n",
+    "from pathlib import Path as _Path\n",
+    "if _Path(\"../data\").exists() and not _Path(\"data\").exists():\n",
+    "    _os.chdir(\"..\")\n",
+    "\n",
+    "# Cell 1 \u2014 imports and version check\n",
+    "import gplately\n",
+    "import pygmt\n",
+    "from plate_model_manager import PlateModelManager\n",
+    "from IPython.display import display, HTML\n",
+    "\n",
+    "print(f\"gplately         {gplately.__version__}\")\n",
+    "\n",
+    "# Suite-wide tutorial style: bigger panel titles, 1cm gap between figures.\n",
+    "pygmt.config(FONT_TITLE=\"18p\", FONT_LABEL=\"18p\",\n",
+    "             FONT_ANNOT_PRIMARY=\"14p\")\n",
+    "print(f\"pygmt            {pygmt.__version__}\")\n",
+    "print()\n",
+    "print(\"Full pyGMT / GMT stack:\")\n",
+    "pygmt.show_versions()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": "## Configuration\n\nUser-tunable choices for this notebook. Edit the values below to change the model, snapshot time, region, or anchor plate without hunting through downstream code.\n"
+  },
+  {
+   "cell_type": "code",
+   "metadata": {},
+   "execution_count": null,
+   "outputs": [],
+   "source": "# === USER CONFIGURATION =====================================================\nMODEL_NAME           = \"Zahirovic2022\"\nRECONSTRUCTION_TIME  = 50.0          # Ma \u2014 the snapshot rendered below\nANCHOR_PLATE_ID      = 0             # 0 = mantle reference frame\n# ============================================================================\n"
+  },
+  {
+   "cell_type": "markdown",
+   "id": "465be640",
+   "metadata": {},
+   "source": "## 1. Load a published plate motion model\n\n`PlateModelManager` is a one-call download manager for published reconstructions. The first time you call `get_model`, it downloads and unpacks the model archive into `data_dir`. Subsequent calls reuse the cache.\n\nWe use **Zahirovic et al. (2022)** as the default model throughout this tutorial suite. It covers \u2248410 Ma to present at 1-Myr resolution, has self-consistent topological plate boundaries, and is the standard reference for deep-time work in the EarthByte group."
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "e32fecb0",
+   "metadata": {},
+   "outputs": [],
+   "source": "# Cell 2 \u2014 fetch the Zahirovic 2022 model\npmm = PlateModelManager()\nmodel = pmm.get_model(MODEL_NAME, data_dir=\"./gplately_data\")\n\nprint(\"Files available in the Zahirovic 2022 model:\")\nfor getter in (\"get_rotation_model\", \"get_topologies\",\n               \"get_coastlines\", \"get_continental_polygons\", \"get_COBs\"):\n    try:\n        path = getattr(model, getter)()\n        print(f\"  {getter:<28} \u2192 {path}\")\n    except Exception as exc:\n        print(f\"  {getter:<28} \u2192 not available ({exc})\")"
+  },
+  {
+   "cell_type": "markdown",
+   "id": "2ccda437",
+   "metadata": {},
+   "source": [
+    "## 2. Build the reconstruction and a 50 Ma snapshot\n",
+    "\n",
+    "`PlateReconstruction` wraps the rotation model + topology features and provides the kinematic backbone (point reconstructions, velocity calculations, distances). `PlotTopologies` is a *time-pinned* snapshot \u2014 give it a reconstruction time and it exposes the coastlines, COBs, and topology geometries for that age as GeoDataFrames you can hand to any plotting library."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "ca00c070",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Cell 3 \u2014 build PlateReconstruction + PlotTopologies @ 50 Ma\n",
+    "RECONSTRUCTION_TIME = 50  # Ma\n",
+    "\n",
+    "reconstruction = gplately.PlateReconstruction(\n",
+    "    rotation_model=model.get_rotation_model(),\n",
+    "    topology_features=model.get_topologies(),\n",
+    "    static_polygons=model.get_static_polygons(),\n",
+    ")\n",
+    "\n",
+    "gplot = gplately.PlotTopologies(\n",
+    "    plate_reconstruction=reconstruction,\n",
+    "    coastlines=model.get_coastlines(),\n",
+    "    continents=model.get_continental_polygons(),\n",
+    "    COBs=model.get_COBs(),\n",
+    "    time=RECONSTRUCTION_TIME,\n",
+    ")\n",
+    "\n",
+    "print(f\"Reconstruction time: {gplot.time} Ma\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "1672afd9",
+   "metadata": {},
+   "source": "## 3. Render the 50 Ma snapshot with pyGMT\n\nWe push the GeoDataFrames returned by `PlotTopologies` onto a `pygmt.Figure` via `gplately.PygmtPlotEngine`. The figure layers, in draw order:\n\n- **Continents** \u2014 grey fill (`gray95`) with a thin dark-grey outline.\n- **Coastlines** \u2014 dark-grey lines on top of the continent fill.\n- **Continuous plate-boundary backbone** \u2014 every resolved boundary segment in mid-grey, so ridges, transforms and trenches share a consistent base.\n- **Mid-ocean ridges** \u2014 bright red lines layered on top of the backbone.\n- **Transforms** \u2014 goldenrod lines.\n- **Subduction zones** \u2014 blue lines with GMT \"teeth\" on the upper-plate side.\n\n*Note on figure size.* `20c` sets the **paper** width of the map \u2014 i.e. the size it would have if you ran `fig.savefig(\"map.pdf\")` and printed the PDF. The size you see *on screen* in the notebook is controlled separately by the inline preview width. By default pyGMT renders the preview at about 500 pixels wide, which on a high-DPI display looks roughly half the paper size. We pass `width=900` to `fig.show()` below to bring the preview close to its true 20 cm."
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "4fd3454b",
+   "metadata": {
+    "include-cell-in-app": true
+   },
+   "outputs": [],
+   "source": "# Cell 4 \u2014 render a paleo-map with pyGMT\nengine = gplately.PygmtPlotEngine()\nfig = pygmt.Figure()\n\nfig.basemap(\n    region=\"d\",                          # whole globe\n    projection=\"R0/20c\",                 # Robinson, 20 cm wide\n    frame=[\"af\", f'+t{RECONSTRUCTION_TIME} Ma paleogeographic map'],\n)\n\n# Continents (filled)\nengine.plot_geo_data_frame(fig, gplot.get_continents(),\n                           fill=\"gray95\", pen=\"0.2p,gray30\")\n\n# Coastlines (line)\nengine.plot_geo_data_frame(fig, gplot.get_coastlines(),\n                           pen=\"0.4p,gray20\")\n\n# Mid-ocean ridges\n# Continuous plate-boundary backbone (incl. \"other\" segments\n# that aren't classified as ridge / transform / subduction \u2014 these are\n# the connection points that would otherwise leave gaps in the network).\n# Draw this FIRST so ridges, transforms and trenches render on top with\n# their distinctive colours. Pattern follows the Dixon A24 reference.\nengine.plot_geo_data_frame(fig, gplot.get_all_topological_sections(),\n                           pen=\"0.5p,gray50\")\n\nengine.plot_geo_data_frame(fig, gplot.get_ridges(),\n                           pen=\"0.6p,red\")\n\n# Transforms\nengine.plot_geo_data_frame(fig, gplot.get_transforms(),\n                           pen=\"0.5p,goldenrod\")\n\n# Subduction zones (with the GMT \"teeth\" courtesy of PygmtPlotEngine)\n_tl, _tr = gplot.get_subduction_direction()\nengine.plot_subduction_zones(fig, _tl, _tr, color=\"blue\")\n\nfig.text(text=f\"{RECONSTRUCTION_TIME:.0f} Ma  ({MODEL_NAME})\",\n         position=\"TL\", offset=\"0.25c/-0.25c\", justify=\"TL\",\n         font=\"14p,Helvetica-Bold,black\",\n         fill=\"white\", pen=\"0.6p,gray40\")\nfig.show(width=900)\n\ndisplay(HTML('<div style=\"height:1cm\"></div>'))"
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": "### What the 50 Ma map shows\n\nLook at where each continent has been rotated. At 50 Ma:\n\n- **India** is still \u22481500 km south of Asia \u2014 the Tethys is open and active Tethyan subduction zones cut across what is now southern Asia.\n- **Australia** has just begun pulling away from Antarctica; the Southern Ocean is a narrow strip.\n- **The North Atlantic** is open from the Bay of Biscay northward, but Greenland still sits close to Norway.\n- **The Drake Passage** between South America and Antarctica is closed or only barely open.\n- **The Pacific** is dominated by the Izanagi-Farallon-Kula plate system; spreading ridges (red) cut a long zig-zag across the basin and subduction zones (blue with teeth) ring the Pacific margins on both sides.\n\nThe grey \"backbone\" lines that connect the red ridges and blue trenches are the \"other\" topology segments \u2014 the connection points that close each resolved plate polygon. Drawing this layer first makes the boundary network look continuous instead of broken."
+  },
+  {
+   "cell_type": "markdown",
+   "id": "645db973",
+   "metadata": {},
+   "source": [
+    "## 4. (Optional) Side-by-side with Cartopy\n",
+    "\n",
+    "For comparison: the *same* `PlotTopologies` object can render through GPlately's default matplotlib/Cartopy engine. Run the cell below to see the difference. Notice that pyGMT typically renders cleaner subduction teeth, sharper line work, and more publication-friendly typography out of the box.\n",
+    "\n",
+    "Skip this cell if you don't have Cartopy installed \u2014 it isn't required for any of the other tutorials."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "92c0818d",
+   "metadata": {
+    "include-cell-in-app": true
+   },
+   "outputs": [],
+   "source": "# Cell 5 \u2014 same 50 Ma snapshot, rendered with Cartopy for comparison\nimport matplotlib.pyplot as plt\nimport cartopy.crs as ccrs\n\nfig_cp, ax = plt.subplots(\n    figsize=(14, 7),\n    subplot_kw={\"projection\": ccrs.Robinson(central_longitude=0)},\n)\nax.set_global()\nax.gridlines(linestyle=\":\", linewidth=0.4)\nax.set_title(f\"{RECONSTRUCTION_TIME} Ma \u2014 rendered with Cartopy\")\n\n# Note: Cartopy uses matplotlib colour names, not GMT's. Greyscale strings\n# like \"0.3\" map to the GMT \"gray30\" tone.\ngplot.plot_continents(ax, facecolor=\"0.95\", edgecolor=\"0.3\")\ngplot.plot_coastlines(ax, color=\"0.2\")\n# Continuous topology backbone first (catches the \"other\" connection segments)\ngplot.plot_all_topological_sections(ax, color=\"0.5\", linewidth=0.5)\ngplot.plot_ridges(ax, color=\"red\")\ngplot.plot_transforms(ax, color=\"goldenrod\")\ngplot.plot_subduction_teeth(ax, color=\"blue\")\n\nplt.show()"
+  },
+  {
+   "cell_type": "markdown",
+   "id": "d872a7f4",
+   "metadata": {
+    "include-cell-in-app": true
+   },
+   "source": [
+    "## What the map tells us\n",
+    "\n",
+    "The 50 Ma snapshot is a particular moment in the Cenozoic re-organisation of plate boundaries. Spend a minute reading what's happening in each ocean basin \u2014 Tethyan subduction, Atlantic opening, Indian-Ocean spreading \u2014 and notice how different the Pacific looks with Izanagi still alive. This is exactly the kind of context that motivates deep-time work in everything that follows in the suite.\n",
+    "\n",
+    "## Extend this\n",
+    "\n",
+    "A few directions to try:\n",
+    "\n",
+    "- **Change the time.** Set `RECONSTRUCTION_TIME = 200` for Pangaea, `100` for the mid-Cretaceous, `0` for present-day.\n",
+    "- **Change the projection.** Replace `R0/20c` with `W0/20c` (Mollweide), `H0/20c` (Hammer), `G0/0/20c` (orthographic from 0\u00b0N 0\u00b0E), or `S0/-90/20c` (south polar stereographic). See pyGMT's [projections reference](https://www.pygmt.org/latest/projections/index.html).\n",
+    "- **Add Earth relief.** Drape `pygmt.datasets.load_earth_relief(\"10m\")` underneath the paleo-coastlines. See **T15**.\n",
+    "- **Animate.** Wrap this whole notebook in a loop over `range(0, 201, 5)` and assemble the frames into a GIF. That's exactly the recipe in **T06**.\n",
+    "\n",
+    "Notebooks that build directly on this one: **T03** (projection cookbook), **T13** (velocity vectors on the same basemap), **T13\u2013T15** (reconstructed zircon datasets plotted with the same engine).\n",
+    "\n",
+    "*Note on figure size.* `20c` sets the **paper** width of the map \u2014 i.e. the size it would have if you ran `fig.savefig(\"map.pdf\")` and printed the PDF. The size you see *on screen* in the notebook is controlled separately by the inline preview width. By default pyGMT renders the preview at about 500 pixels wide, which on a high-DPI display looks roughly half the paper size. We pass `width=900` to `fig.show()` below to bring the preview close to its true 20 cm."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": "## References\n\n- Mather, B.R., M\u00fcller, R.D., Zahirovic, S., Cannon, J., Chin, M., Ilano, L., Wright, N.M., Alfonso, C., Williams, S., Tetley, M. & Merdith, A. (2024). Deep time spatio-temporal data analysis using GPlately. *Geosci. Data J.* 11, 3-10. https://doi.org/10.1002/gdj3.185\n- M\u00fcller, R.D., Cannon, J., Qin, X., Watson, R.J., Gurnis, M., Williams, S., Pfaffelmoser, T., Seton, M., Russell, S.H.J. & Zahirovic, S. (2018). GPlates: Building a virtual Earth through deep time. *Geochem. Geophys. Geosys.* 19, 2243-2261. https://doi.org/10.1029/2018GC007584\n- Tian, D., Uieda, L., Leong, W.J., Fr\u00f6hlich, Y., Schlitzer, W., Grund, M., Jones, M., Toney, L., Yao, J., Magen, Y., Materna, K., Belem, A., Newton, T., Anant, A., Ziebarth, M., Quinn, J., Wessel, P. (2024). PyGMT: A Python interface for the Generic Mapping Tools. *Zenodo*. https://doi.org/10.5281/zenodo.13679085\n- Wessel, P., Luis, J.F., Uieda, L., Scharroo, R., Wobbe, F., Smith, W.H.F. & Tian, D. (2019). The Generic Mapping Tools version 6. *Geochem. Geophys. Geosys.* 20, 5556-5564. https://doi.org/10.1029/2019GC008515\n- Chin, M., Mather, B.R. & M\u00fcller, R.D. (2024). Plate Model Manager: A Python package for downloading and managing published plate-reconstruction models. *Zenodo*. https://github.com/michaelchin/plate-model-manager\n- Zahirovic, S., Eleish, A., Doss, S., Pall, J., Cannon, J., Pistone, M., Tetley, M.G., Young, A. & M\u00fcller, R.D. (2022). Subduction and carbonate platform interactions. *Geoscience Data Journal* 9, 371-383. https://doi.org/10.1002/gdj3.146"
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}

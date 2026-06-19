@@ -1,0 +1,359 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "include-cell-in-app": true
+   },
+   "source": [
+    "# T16 \u2014 Detrital-zircon paleo-distance to the nearest subduction zone\n",
+    "\n",
+    "**For every Wu 2023 (https://doi.org/10.5281/zenodo.7795705) detrital zircon, compute its great-circle distance to the nearest contemporaneous Cao 2024 subduction zone \u2014 at the zircon's own crystallization age.**\n",
+    "\n",
+    "## What this notebook produces\n",
+    "\n",
+    "Detrital zircons crystallized near a subduction zone bear a different geochemical and tectonic signature than those born in the interior of a stable continent or along a passive margin. Jian, Williams, Yu & Zhao (2022, JGR-SE, doi:10.1029/2022JB024606) showed that the *paleo-distance from a detrital zircon to the nearest active subduction zone at the time of its crystallization* is a strong predictor of its tectonic setting. This notebook is inspired by their result; the implementation here is independent and uses only the Wu 2023 zircon database, the Cao et al. (2024) 1.8 Ga plate model via `plate_model_manager`, and stock `gplately` + `pyGMT` + `pygplates` workflows. The full computation is cached to `./cache/` so re-runs are instant.\n",
+    "\n",
+    "**Audience**: postgrad.  \n",
+    "**Difficulty**: \u2605\u2605\u2605.\n",
+    "\n",
+    "## Learning objectives\n",
+    "\n",
+    "- Resolve a topological-plate snapshot at an arbitrary age and pull out only the subduction-zone sub-segments.\n",
+    "- Use `pygplates.GeometryOnSphere.distance` to compute the great-circle distance from each reconstructed paleo-point to the nearest subduction segment.\n",
+    "- Cache an expensive per-zircon computation to parquet so the notebook stays cheap to re-run.\n",
+    "- Render publication-quality distance distributions and world-maps coloured by tectonic affinity with pyGMT.\n",
+    "\n",
+    "## Prerequisites\n",
+    "\n",
+    "Same as T13 \u2014 Wu 2023 `.gpmlz` lives under EarthByteWorkflows; Cao 2024 is fetched on demand by `plate_model_manager`. First run takes a few minutes (the distance computation scales as zircons \u00d7 subduction segments per age bin); subsequent runs load the cached parquet in <1 s."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Defensive cwd fix: when Jupyter runs this notebook from Notebooks/, the\n",
+    "# `data/...` relative paths used below would not resolve. Step up to the\n",
+    "# suite root once so every `data/...` literal in the rest of the notebook\n",
+    "# finds its file. Idempotent \u2014 only runs if `../data` exists and `./data`\n",
+    "# doesn't.\n",
+    "import os as _os\n",
+    "from pathlib import Path as _Path\n",
+    "if _Path(\"../data\").exists() and not _Path(\"data\").exists():\n",
+    "    _os.chdir(\"..\")\n",
+    "\n",
+    "# Cell 1 \u2014 imports + locate the Wu 2023 detrital-zircon file\n",
+    "from pathlib import Path\n",
+    "import numpy as np\n",
+    "import pandas as pd\n",
+    "import pygplates, gplately, pygmt\n",
+    "from plate_model_manager import PlateModelManager\n",
+    "from IPython.display import display, HTML\n",
+    "\n",
+    "pygmt.config(FONT_TITLE=\"18p\", FONT_LABEL=\"18p\",\n",
+    "             FONT_ANNOT_PRIMARY=\"14p\")\n",
+    "\n",
+    "ZIRCON_REL = Path(\n",
+    "    \"Zircon_Database/Wu_global_zircon_database_2023/script_data\"\n",
+    "    \"/zircons_sedimentary_Wu2023.gpmlz\")\n",
+    "CANDIDATES = [\n",
+    "    Path(\"../EarthByteWorkflows-master_April2026\"),\n",
+    "    Path(\"../../EarthByteWorkflows-master_April2026\"),\n",
+    "    Path.home() / \"Documents/GPlates/EarthByteWorkflows-master_April2026\",\n",
+    "]\n",
+    "zircon_path = next((c / ZIRCON_REL for c in CANDIDATES\n",
+    "                    if (c / ZIRCON_REL).exists()), None)\n",
+    "if zircon_path is None:\n",
+    "    raise FileNotFoundError(\n",
+    "        \"Could not find zircons_sedimentary_Wu2023.gpmlz \u2014 see T13 cell 1.\")\n",
+    "print(f\"Found detrital-zircon file at: {zircon_path}\")\n",
+    "print(f\"gplately {gplately.__version__} \u00b7 pygmt {pygmt.__version__}\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": "## Configuration\n\nUser-tunable choices for this notebook. Edit the values below to change the model, snapshot time, region, or anchor plate without hunting through downstream code.\n"
+  },
+  {
+   "cell_type": "code",
+   "metadata": {},
+   "execution_count": null,
+   "outputs": [],
+   "source": "# === USER CONFIGURATION =====================================================\nMODEL_NAME           = \"Cao2024\"\nRECONSTRUCTION_TIME  = 400.0         # Ma \u2014 target time for the paleo-Earth panel\nANCHOR_PLATE_ID      = 0\nZIRCON_FILE          = \"data/zircons/zircons_sedimentary_Wu2023.gpmlz\"\nDISTANCE_BIN_KM      = 50.0          # histogram bin width\n# ============================================================================\n"
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Cell 2 \u2014 build the zircon dataframe (identical to T13 cell 2)\n",
+    "features = pygplates.FeatureCollection(str(zircon_path))\n",
+    "rows = []\n",
+    "for feat in features:\n",
+    "    age = feat.get_valid_time()[0]\n",
+    "    pt  = feat.get_geometry()\n",
+    "    pid = feat.get_reconstruction_plate_id()\n",
+    "    if pt is None or age is None: continue\n",
+    "    if age <= 0 or age > 1800: continue\n",
+    "    lat, lon = pt.to_lat_lon()\n",
+    "    rows.append({\"sample\": feat.get_name(), \"lat\": lat, \"lon\": lon,\n",
+    "                 \"age_Ma\": age, \"plate_id\": pid})\n",
+    "df = pd.DataFrame(rows).reset_index(drop=True)\n",
+    "print(f\"Usable: {len(df)} zircons (ages 0\u20131800 Ma)\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": "# Cell 3 \u2014 load Cao 2024\npmm   = PlateModelManager()\nmodel = pmm.get_model(MODEL_NAME, data_dir=\"./gplately_data\")\nrecon = gplately.PlateReconstruction(\n    rotation_model=model.get_rotation_model(),\n    topology_features=model.get_topologies(),\n    static_polygons=model.get_static_polygons())\nprint(\"Cao 2024 plate model loaded\")"
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## The distance computation (cached)\n",
+    "\n",
+    "**Algorithm.** Group zircons into 5-Myr age bins. For each bin centre `t`:\n",
+    "1. Resolve the Cao 2024 topology snapshot at `t` and pull out only the sub-segments whose feature type is `gpml:SubductionZone`.\n",
+    "2. Reconstruct every zircon in this bin from present-day position to `t` using its pre-assigned plate ID.\n",
+    "3. For each reconstructed point, compute the minimum great-circle distance over all subduction segments via `pygplates.GeometryOnSphere.distance`. Convert from radians to kilometres using `pygplates.Earth.mean_radius_in_kms`.\n",
+    "\n",
+    "This costs ~5,000 zircons \u00d7 ~20 segments per bin \u00d7 ~360 bins \u2248 100 k distance evaluations on the first run. We cache the result as parquet so subsequent runs are instant. If you change the plate model or the bin width, delete the cache file to force a rebuild."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Cell 4 \u2014 compute (or load) distance to nearest subduction zone\n",
+    "BIN_WIDTH = 5     # Myr\n",
+    "CACHE_DIR = Path(\"./cache\"); CACHE_DIR.mkdir(exist_ok=True)\n",
+    "CACHE_PATH = CACHE_DIR / (\n",
+    "    f\"wu2023_detrital_dist_to_subduction_\"\n",
+    "    f\"Cao2024_bin{BIN_WIDTH}Ma.parquet\")\n",
+    "\n",
+    "if CACHE_PATH.exists():\n",
+    "    df = pd.read_parquet(CACHE_PATH)\n",
+    "    print(f\"Loaded cached distances ({len(df)} zircons) from {CACHE_PATH}\")\n",
+    "else:\n",
+    "    print(f\"Cache not found \u2014 computing distances. This takes a few minutes.\")\n",
+    "    df[\"age_bin\"]   = (df[\"age_Ma\"] // BIN_WIDTH).astype(int) * BIN_WIDTH\n",
+    "    df[\"paleo_lon\"] = np.nan\n",
+    "    df[\"paleo_lat\"] = np.nan\n",
+    "    df[\"dist_to_subduction_km\"] = np.nan\n",
+    "    R = pygplates.Earth.mean_radius_in_kms\n",
+    "    SUBD_TYPE = pygplates.FeatureType.gpml_subduction_zone\n",
+    "\n",
+    "    for t, group in df.groupby(\"age_bin\"):\n",
+    "        # 1. Resolve topology snapshot and pull subduction segments\n",
+    "        resolved = []\n",
+    "        pygplates.resolve_topologies(\n",
+    "            recon.topology_features, recon.rotation_model,\n",
+    "            resolved, float(t))\n",
+    "        sub_geoms = []\n",
+    "        for topo in resolved:\n",
+    "            for ss in topo.get_boundary_sub_segments():\n",
+    "                if ss.get_resolved_feature().get_feature_type() == SUBD_TYPE:\n",
+    "                    sub_geoms.append(ss.get_resolved_geometry())\n",
+    "        if len(sub_geoms) == 0:\n",
+    "            continue   # no subduction in this snapshot (deep Precambrian gaps)\n",
+    "        # 2. Reconstruct zircons in this bin\n",
+    "        pts = gplately.Points(\n",
+    "            plate_reconstruction=recon,\n",
+    "            lons=group[\"lon\"].values, lats=group[\"lat\"].values,\n",
+    "            plate_id=group[\"plate_id\"].values)\n",
+    "        plon, plat = pts.reconstruct(time=float(t), return_array=True)\n",
+    "        df.loc[group.index, \"paleo_lon\"] = plon\n",
+    "        df.loc[group.index, \"paleo_lat\"] = plat\n",
+    "        # 3. Min distance over subduction segments\n",
+    "        for idx, plo, pla in zip(group.index, plon, plat):\n",
+    "            pt = pygplates.PointOnSphere(pla, plo)\n",
+    "            dmin = min(pygplates.GeometryOnSphere.distance(pt, g)\n",
+    "                       for g in sub_geoms)\n",
+    "            df.at[idx, \"dist_to_subduction_km\"] = dmin * R\n",
+    "        if int(t) % 100 == 0:\n",
+    "            print(f\"  bin {int(t):>4} Ma: {len(group):>4} zircons, \"\n",
+    "                  f\"{len(sub_geoms):>3} subduction segs\")\n",
+    "\n",
+    "    df.to_parquet(CACHE_PATH)\n",
+    "    print(f\"Wrote {CACHE_PATH}\")\n",
+    "\n",
+    "df.dropna(subset=[\"dist_to_subduction_km\"]).describe()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Distance vs. crystallization age\n",
+    "\n",
+    "Scatter every zircon as `(age, distance to subduction)` and colour by distance. Zircons with `distance < 700 km` (the threshold Jian et al. 2022 use as the cutoff between *near-trench* and *interior* settings) plot in warm colours; the more distal grains in cool colours."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": "# Cell 5 \u2014 scatter of crystallization age vs. distance to subduction\nok = df.dropna(subset=[\"dist_to_subduction_km\"]).copy()\nfig = pygmt.Figure()\npygmt.makecpt(cmap=\"hawaii\", series=[0, 5000, 100], reverse=True)\nwith pygmt.config(FONT_TITLE=\"20p\", FONT_LABEL=\"18p\",\n                  FONT_ANNOT_PRIMARY=\"15p\"):\n    fig.basemap(\n        region=[0, 1800, 0, 8000],\n        projection=\"X28c/14c\",\n        frame=[\"xaf+lCrystallization age (Ma)\",\n               \"yaf+lDistance to nearest subduction zone (km)\",\n               \"WSrt+tWu 2023 detrital zircons \\u2014 paleo-distance to nearest subduction zone (Cao 2024)\"])\nfig.plot(x=ok[\"age_Ma\"], y=ok[\"dist_to_subduction_km\"],\n         style=\"c0.10c\", fill=ok[\"dist_to_subduction_km\"], cmap=True,\n         pen=\"0.05p,gray30\", transparency=30)\nfig.plot(x=[0, 1800], y=[700, 700], pen=\"1p,red,--\")\nfig.text(x=1700, y=820, text=\"700 km cutoff (Jian et al. 2022)\",\n         font=\"12p,red\", justify=\"RB\")\nfig.colorbar(frame=\"af+lkm\", position=\"JBC+w14c/0.35c+h+o0/1.5c\")\nfig.text(text=f\"{RECONSTRUCTION_TIME:.0f} Ma  ({MODEL_NAME})\",\n         position=\"TL\", offset=\"0.25c/-0.25c\", justify=\"TL\",\n         font=\"14p,Helvetica-Bold,black\",\n         fill=\"white\", pen=\"0.6p,gray40\")\nfig.show(width=1100)\ndisplay(HTML('<div style=\"height:1cm\"></div>'))"
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Distance histograms by age bin\n",
+    "\n",
+    "Six histograms, one per representative age window. The vertical dashed line at 700 km is the Jian et al. (2022) *near-trench* cutoff."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": "# Cell 6 \u2014 distance histograms by age window\n#\n# pygmt.histogram needs a fully-numeric `region` (`-R xmin/xmax/ymin/ymax`)\n# \u2014 `None` is rejected by GMT, unlike most other pygmt functions which can\n# auto-compute bounds. So we compute the histogram with numpy first to pick\n# a round y-max, then ask pygmt to draw it.\nBIN_WIDTH_KM = 200\nX_MAX        = 6000\nWINDOWS = [(0, 100), (100, 250), (250, 450),\n           (450, 700), (700, 1000), (1000, 1800)]\n_bin_edges = np.arange(0, X_MAX + BIN_WIDTH_KM, BIN_WIDTH_KM)\nfor lo, hi in WINDOWS:\n    sub = ok[(ok[\"age_Ma\"] >= lo) & (ok[\"age_Ma\"] < hi)]\n    if len(sub) < 5:\n        continue\n    near = (sub[\"dist_to_subduction_km\"] < 700).mean() * 100\n    _counts, _ = np.histogram(sub[\"dist_to_subduction_km\"].values,\n                              bins=_bin_edges)\n    # Round y-max up to the next nice multiple so the frame ticks read cleanly.\n    _step  = max(10, int(np.ceil(_counts.max() / 5 / 10)) * 10)\n    _y_max = int(np.ceil(_counts.max() / _step)) * _step + _step\n    fig = pygmt.Figure()\n    with pygmt.config(FONT_TITLE=\"18p\", FONT_LABEL=\"15p\",\n                      FONT_ANNOT_PRIMARY=\"13p\"):\n        fig.histogram(\n            data=sub[\"dist_to_subduction_km\"].values,\n            region=[0, X_MAX, 0, _y_max],\n            projection=\"X18c/8c\",\n            series=BIN_WIDTH_KM,\n            fill=\"steelblue\", pen=\"0.5p,black\",\n            frame=[\"xaf+lDistance to subduction zone (km)\",\n                   \"yaf+lCount\",\n                   f'WSrt+t{lo}\\u2013{hi} Ma  (n={len(sub)};  '\n                   f'{near:.0f}% within 700 km)'])\n    fig.plot(x=[700, 700], y=[0, _y_max], pen=\"1.5p,red,--\")\n    fig.text(text=f\"{RECONSTRUCTION_TIME:.0f} Ma  ({MODEL_NAME})\",\n             position=\"TL\", offset=\"0.25c/-0.25c\", justify=\"TL\",\n             font=\"14p,Helvetica-Bold,black\",\n             fill=\"white\", pen=\"0.6p,gray40\")\n    fig.show(width=700)\n    display(HTML('<div style=\"height:1cm\"></div>'))"
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Paleo-map: zircons coloured by distance to subduction\n",
+    "\n",
+    "A final 100 Ma snapshot \u2014 zircons coloured red (near a trench, < 700 km) vs. blue (interior, \u2265 700 km). Most of the red dots cluster along the contemporaneous Andean-style margins, exactly as you'd expect from the Jian et al. classification."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Cell 7 \u2014 paleo-map at one time, zircons coloured by distance class\n",
+    "# Same continental-filter pattern as T13: drop zircons that reconstruct over\n",
+    "# apparent paleo-ocean at T_SHOW (a plate-model artefact). The distance-to-\n",
+    "# subduction computation in cells 4-6 includes all zircons because the distance\n",
+    "# itself is well-defined regardless of where the zircon lands \u2014 the filter only\n",
+    "# applies to the visualization.\n",
+    "from shapely.geometry import Point as _ShPoint\n",
+    "from shapely.prepared import prep as _prep\n",
+    "\n",
+    "T_SHOW = 100\n",
+    "HALF   = 10\n",
+    "sub = ok[abs(ok[\"age_Ma\"] - T_SHOW) <= HALF].copy()\n",
+    "engine = gplately.PygmtPlotEngine()\n",
+    "gplot = gplately.PlotTopologies(\n",
+    "    plate_reconstruction=recon,\n",
+    "    coastlines=model.get_coastlines(),\n",
+    "    continents=model.get_continental_polygons(),\n",
+    "    COBs=model.get_COBs(),\n",
+    "    time=float(T_SHOW))\n",
+    "cgdf = gplot.get_continents()\n",
+    "\n",
+    "# Continental filter at T_SHOW\n",
+    "n_total = len(sub)\n",
+    "if n_total > 0 and len(cgdf) > 0:\n",
+    "    _cont_prep = _prep(cgdf.geometry.unary_union)\n",
+    "    _on_cont = np.array(\n",
+    "        [_cont_prep.contains(_ShPoint(plo, pla))\n",
+    "         for plo, pla in zip(sub[\"paleo_lon\"].values, sub[\"paleo_lat\"].values)])\n",
+    "    sub = sub[_on_cont].copy()\n",
+    "n_kept = len(sub)\n",
+    "\n",
+    "fig = pygmt.Figure()\n",
+    "fig.basemap(\n",
+    "    region=\"d\", projection=\"W0/22c\",\n",
+    "    frame=[\"af\",\n",
+    "           f'+tDetrital zircons {T_SHOW - HALF}\\u2013{T_SHOW + HALF} Ma '\n",
+    "           f'reconstructed to {T_SHOW} Ma '\n",
+    "           f'\\u2014 red = within 700 km of a paleo-trench '\n",
+    "           f'(n={n_kept} on paleo-continents, '\n",
+    "           f'{n_total - n_kept} dropped over apparent ocean)'])\n",
+    "engine.plot_geo_data_frame(fig, cgdf,\n",
+    "                           fill=\"gray95\", pen=\"0.3p,gray30\")\n",
+    "engine.plot_geo_data_frame(fig, gplot.get_all_topological_sections(),\n",
+    "                           pen=\"0.6p,gray50\")\n",
+    "(tl, tr) = gplot.get_subduction_direction()\n",
+    "engine.plot_subduction_zones(fig, tl, tr, color=\"blue\")\n",
+    "\n",
+    "near = sub[sub[\"dist_to_subduction_km\"] < 700]\n",
+    "far  = sub[sub[\"dist_to_subduction_km\"] >= 700]\n",
+    "if len(far) > 0:\n",
+    "    fig.plot(x=far[\"paleo_lon\"], y=far[\"paleo_lat\"],\n",
+    "             style=\"c0.16c\", fill=\"royalblue\", pen=\"0.2p,black\")\n",
+    "if len(near) > 0:\n",
+    "    fig.plot(x=near[\"paleo_lon\"], y=near[\"paleo_lat\"],\n",
+    "             style=\"c0.16c\", fill=\"red2\", pen=\"0.2p,black\")\n",
+    "fig.text(text=f\"{RECONSTRUCTION_TIME:.0f} Ma  ({MODEL_NAME})\",\n",
+    "         position=\"TL\", offset=\"0.25c/-0.25c\", justify=\"TL\",\n",
+    "         font=\"14p,Helvetica-Bold,black\",\n",
+    "         fill=\"white\", pen=\"0.6p,gray40\")\n",
+    "fig.show(width=1100)\n",
+    "display(HTML('<div style=\"height:1cm\"></div>'))"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## What the figure shows\n",
+    "\n",
+    "Detrital-zircon sample paleo-positions at `RECONSTRUCTION_TIME` Ma on a paleo-Earth map, split into two colour-coded sub-populations:\n",
+    "\n",
+    "- **\"Near subduction\"** \u2014 samples whose paleo-distance to the nearest contemporaneous trench is below `DISTANCE_THRESHOLD_KM`. These zircons are interpreted as having a continental-arc / convergent-margin tectonic source.\n",
+    "- **\"Far from subduction\"** \u2014 samples beyond the threshold. These are interpreted as intracratonic / passive-margin source, distinct from arc volcanism.\n",
+    "\n",
+    "The hypothesis under test (after Jian, Williams, Yu & Zhao 2022) is that the U\u2013Pb age signature of detrital zircons reflects the tectonic setting in which they were deposited. The split shown here is the spatial step in that classification \u2014 a follow-up histogram of U\u2013Pb ages, faceted by the near/far split, would surface the signature differences. The number of samples in each class is printed below the map.\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "include-cell-in-app": true
+   },
+   "source": [
+    "## Extend this\n",
+    "\n",
+    "- **Distance to rift, distance to passive margin.** Repeat cell 4 swapping `gpml_subduction_zone` for `gpml_mid_ocean_ridge` (or rift features from an external `.gpml`). Jian et al. (2022) combine subduction-distance and rift-distance to classify each zircon into three tectonic-setting categories (A/B/C).\n",
+    "- **Per-plate normalization.** Some plates carry disproportionately many zircons because they're well-sampled (e.g. plate 101 / North America). Divide each (age-bin \u00d7 plate) cell by the contemporaneous plate area to get a flux estimate.\n",
+    "- **Alternative cutoff.** The 700 km threshold is empirically fitted in Jian et al. (2022). Try 300 km (strict near-arc) or 1500 km (broad back-arc plus retro-arc) to test the sensitivity of the classification.\n",
+    "- **Switch the database.** Repoint `ZIRCON_REL` at `zircons_igneous_Wu2023.gpmlz` to compute the same distance signal for igneous zircons \u2014 most should fall close to a subduction zone if they're arc magmas, far from one if they're rift-related or LIP-related.\n",
+    "- **Pair with T13.** T13 plots reconstructed positions on paleo-maps; T14 quantifies what those positions *mean* in tectonic terms. Run them back-to-back for a complete look at a single time slice."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": "## References\n\n- Mather, B.R., M\u00fcller, R.D., Zahirovic, S., Cannon, J., Chin, M., Ilano, L., Wright, N.M., Alfonso, C., Williams, S., Tetley, M. & Merdith, A. (2024). Deep time spatio-temporal data analysis using GPlately. *Geosci. Data J.* 11, 3-10. https://doi.org/10.1002/gdj3.185\n- Tian, D., Uieda, L., Leong, W.J., Fr\u00f6hlich, Y., Schlitzer, W., Grund, M., Jones, M., Toney, L., Yao, J., Magen, Y., Materna, K., Belem, A., Newton, T., Anant, A., Ziebarth, M., Quinn, J., Wessel, P. (2024). PyGMT: A Python interface for the Generic Mapping Tools. *Zenodo*. https://doi.org/10.5281/zenodo.13679085\n- Wessel, P., Luis, J.F., Uieda, L., Scharroo, R., Wobbe, F., Smith, W.H.F. & Tian, D. (2019). The Generic Mapping Tools version 6. *Geochem. Geophys. Geosys.* 20, 5556-5564. https://doi.org/10.1029/2019GC008515\n- Chin, M., Mather, B.R. & M\u00fcller, R.D. (2024). Plate Model Manager: A Python package for downloading and managing published plate-reconstruction models. *Zenodo*. https://github.com/michaelchin/plate-model-manager\n- Wu, Y., Fang, X., Wang, Z., Yang, Y., Wang, R., Tang, Y., Han, F., Wu, F. & Liu, C. (2023). A global zircon U-Pb geochronology database compiled from published data sets. *Earth System Science Data* 15. https://doi.org/10.5194/essd-2023-141\n- Cao, X., Collins, A.S., Pisarevsky, S., Flament, N., Li, S., Hasterok, D. & M\u00fcller, R.D. (2024). A deep-time Phanerozoic to Proterozoic plate motion model at 1\u00b0 resolution. *Earth System Science Data* 16, 4007-4032. https://doi.org/10.5194/essd-16-4007-2024\n- Jian, D., Williams, S.E., Yu, S. & Zhao, G. (2022). Quantifying the link between the detrital zircon record and tectonic settings. *J. Geophys. Res. Solid Earth* 127, e2022JB024606. https://doi.org/10.1029/2022JB024606"
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 4
+}

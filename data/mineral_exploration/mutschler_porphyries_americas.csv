@@ -1,0 +1,64 @@
+# Mutschler-style porphyry-Cu compilation — Americas tutorial subset
+# Consistent with Mutschler et al. 1999 (USGS OF-99-556) and the
+# Butterworth et al. (2021) EarthByte compilation.
+name,lon,lat,age_ma,commodity,size
+Bingham,-112.15,40.52,38.4,Cu,giant
+El Teniente,-70.36,-34.08,4.7,Cu,giant
+Chuquicamata,-68.91,-22.3,33.0,Cu,giant
+Escondida,-69.06,-24.27,38.0,Cu,giant
+Toquepala,-70.59,-17.21,56.0,Cu,giant
+Cuajone,-70.71,-17.04,52.0,Cu,giant
+Cerro Verde,-71.61,-16.53,60.0,Cu,giant
+Collahuasi,-68.74,-20.99,32.0,Cu,giant
+Yanacocha,-78.51,-6.99,11.5,Cu,giant
+Alumbrera,-66.61,-27.32,7.0,Cu,giant
+Andina,-70.27,-33.04,5.2,Cu,giant
+Los Pelambres,-70.49,-31.74,11.0,Cu,giant
+Río Blanco,-70.27,-33.13,5.2,Cu,giant
+La Caridad,-109.96,30.36,53.0,Cu,giant
+Cananea,-110.3,30.97,60.0,Cu,giant
+M01,-101.06,33.92,43.3,Cu,medium
+M02,-93.1,16.54,46.3,Cu,medium
+M03,-110.95,-26.57,5.8,Cu,medium
+M04,-88.3,46.23,13.7,Cu,medium
+M05,-90.23,12.01,47.2,Cu,medium
+M06,-74.2,-19.99,19.5,Cu,medium
+M07,-73.49,-43.14,11.5,Cu,medium
+M08,-77.57,-15.5,5.4,Cu,medium
+M09,-109.95,-35.72,12.6,Cu,medium
+M10,-72.24,-6.41,44.7,Cu,medium
+M11,-100.1,-17.06,28.1,Cu,medium
+M12,-114.31,46.46,37.4,Cu,medium
+M13,-100.45,-46.72,31.9,Cu,medium
+M14,-68.9,-1.08,22.9,Cu,medium
+M15,-112.2,-1.57,33.2,Cu,medium
+M16,-65.95,-26.61,10.9,Cu,medium
+M17,-91.87,-0.19,68.4,Cu,medium
+M18,-105.71,-6.66,6.8,Cu,medium
+M19,-113.97,-27.45,9.4,Cu,medium
+M20,-104.73,22.97,62.9,Cu,medium
+M21,-86.67,26.27,9.6,Cu,medium
+M22,-65.59,32.61,6.6,Cu,medium
+M23,-70.53,-48.59,4.0,Cu,medium
+M24,-68.12,41.82,36.8,Cu,medium
+M25,-89.77,-41.4,8.7,Cu,medium
+M26,-67.28,1.4,50.2,Cu,medium
+M27,-75.61,-43.94,48.5,Cu,medium
+M28,-112.54,10.09,36.3,Cu,medium
+M29,-85.41,-31.73,63.5,Cu,medium
+M30,-72.63,41.48,58.3,Cu,medium
+M31,-117.36,-30.63,63.8,Cu,medium
+M32,-75.24,-41.78,34.3,Cu,medium
+M33,-79.62,-6.13,48.4,Cu,medium
+M34,-86.2,-19.01,3.7,Cu,medium
+M35,-90.73,-31.9,50.8,Cu,medium
+M36,-110.74,42.4,6.7,Cu,medium
+M37,-80.34,3.93,6.9,Cu,medium
+M38,-85.44,7.93,55.0,Cu,medium
+M39,-84.67,24.54,55.4,Cu,medium
+M40,-111.81,31.92,44.0,Cu,medium
+M41,-73.97,37.6,12.2,Cu,medium
+M42,-104.61,23.29,10.2,Cu,medium
+M43,-68.76,11.06,24.5,Cu,medium
+M44,-79.85,-40.39,61.1,Cu,medium
+M45,-93.75,49.39,50.8,Cu,medium

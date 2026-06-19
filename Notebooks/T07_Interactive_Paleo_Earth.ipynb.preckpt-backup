@@ -1,0 +1,125 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "46eb345e",
+   "metadata": {
+    "include-cell-in-app": true
+   },
+   "source": [
+    "# T07 \u2014 Interactive paleo-Earth with Panel + pyGMT\n",
+    "\n",
+    "**A scrollable time slider that re-renders a pyGMT figure each time you move it.**\n",
+    "\n",
+    "## What this notebook produces\n",
+    "\n",
+    "A **Panel widget** with a time slider running from 200 Ma to 0 Ma. The pyGMT global-Mollweide paleo-map under the slider re-renders to disk when the time changes; the browser then displays the cached PNG. A pre-render cell produces every 10 Myr frame up-front so slider interactions feel snappy.\n",
+    "\n",
+    "**Audience**: both.  \n",
+    "**Difficulty**: \u2605\u2605\u2605."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": "## Learning objectives\n\n- Wire a pyGMT renderer into a `panel` slider so the user can scrub reconstruction time interactively.\n- Cache the model load outside the render callback so dragging the slider is fast.\n- Recognise where `panel` belongs in the GPlately + pyGMT stack (interactive exploration; not animation export).\n"
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": "## Prerequisites and runtime\n\n- **Plate model**: Zahirovic 2022.\n- **Time range**: 0\u2013250 Ma slider.\n- **Python**: `gplately`, `pygmt`, `panel`, `pygplates`.\n- **Runtime**: < 30 s to render the first frame; each slider drag re-renders in ~1 s.\n- **Display**: needs a notebook frontend that supports `panel` widgets (JupyterLab or Notebook).\n"
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "743f19ea",
+   "metadata": {
+    "include-cell-in-app": true
+   },
+   "outputs": [],
+   "source": [
+    "# Defensive cwd fix: when Jupyter runs this notebook from Notebooks/, the\n",
+    "# `data/...` relative paths used below would not resolve. Step up to the\n",
+    "# suite root once so every `data/...` literal in the rest of the notebook\n",
+    "# finds its file. Idempotent \u2014 only runs if `../data` exists and `./data`\n",
+    "# doesn't.\n",
+    "import os as _os\n",
+    "from pathlib import Path as _Path\n",
+    "if _Path(\"../data\").exists() and not _Path(\"data\").exists():\n",
+    "    _os.chdir(\"..\")\n",
+    "\n",
+    "# Cell 1 \u2014 install hint\n",
+    "# Requires panel >= 1.0 \u2014 `conda install -c conda-forge panel`\n",
+    "import panel as pn\n",
+    "pn.extension()\n",
+    "# Library versions (printed for reproducibility)\n",
+    "try:\n",
+    "    import gplately, pygmt, pygplates\n",
+    "    print(f\"gplately {gplately.__version__}  pygmt {pygmt.__version__}  pygplates {pygplates.__version__}\")\n",
+    "except Exception as _e:\n",
+    "    print(f\"version probe failed: {_e}\")\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": "## Configuration\n\nUser-tunable choices for this notebook. Edit the values below to change the model, snapshot time, region, or anchor plate without hunting through downstream code.\n"
+  },
+  {
+   "cell_type": "code",
+   "metadata": {},
+   "execution_count": null,
+   "outputs": [],
+   "source": "# === USER CONFIGURATION =====================================================\nMODEL_NAME           = \"Zahirovic2022\"\nTIME_MIN_MA          = 0.0           # Ma \u2014 slider lower bound\nTIME_MAX_MA          = 250.0         # Ma \u2014 slider upper bound\nTIME_STEP_MA         = 5.0           # Ma \u2014 slider tick\nDEFAULT_TIME_MA      = 50.0          # Ma \u2014 initial slider value\nANCHOR_PLATE_ID      = 0\n# ============================================================================\n"
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "9c168f87",
+   "metadata": {},
+   "outputs": [],
+   "source": "# Cell 2 \u2014 pre-render frames to disk (fast slider afterwards)\nimport gplately, pygmt\nfrom pathlib import Path\nfrom plate_model_manager import PlateModelManager\nfrom IPython.display import display, HTML\n\n# Suite-wide tutorial style: bigger panel titles, 1cm gap between figures.\npygmt.config(FONT_TITLE=\"18p\", FONT_LABEL=\"18p\",\n             FONT_ANNOT_PRIMARY=\"14p\")\n\npmm = PlateModelManager(); model = pmm.get_model(MODEL_NAME, data_dir=\"./gplately_data\")\nrecon = gplately.PlateReconstruction(\n    rotation_model=model.get_rotation_model(),\n    topology_features=model.get_topologies(),\n    static_polygons=model.get_static_polygons())\nengine = gplately.PygmtPlotEngine()\n\nCACHE = Path(\"./panel_cache\"); CACHE.mkdir(exist_ok=True)\nfor t in range(0, 201, 10):\n    f = CACHE / f\"frame_{t:03d}.png\"\n    if f.exists(): continue\n    gplot = gplately.PlotTopologies(plate_reconstruction=recon,\n        coastlines=model.get_coastlines(),\n        continents=model.get_continental_polygons(),\n        COBs=model.get_COBs(), time=t)\n    fig = pygmt.Figure()\n    fig.basemap(region=\"d\", projection=\"W0/16c\", frame=[\"af\", f'+t{t} Ma'])\n    engine.plot_geo_data_frame(fig, gplot.get_continents(),\n                               fill=\"gray95\", pen=\"0.2p,gray30\")\n    engine.plot_geo_data_frame(fig, gplot.get_coastlines(), pen=\"0.3p,gray20\")\n    # Continuous plate-boundary backbone (incl. \"other\" segments\n    # that aren't classified as ridge / transform / subduction \u2014 these are\n    # the connection points that would otherwise leave gaps in the network).\n    # Draw this FIRST so ridges, transforms and trenches render on top with\n    # their distinctive colours. Pattern follows the Dixon A24 reference.\n    engine.plot_geo_data_frame(fig, gplot.get_all_topological_sections(),\n                               pen=\"0.5p,gray50\")\n\n    (_tl, _tr) = gplot.get_subduction_direction()\n    engine.plot_subduction_zones(fig, _tl, _tr, color=\"blue\")\n    fig.text(text=f\"{t:.0f} Ma  ({MODEL_NAME})\",\n             position=\"TL\", offset=\"0.25c/-0.25c\", justify=\"TL\",\n             font=\"14p,Helvetica-Bold,black\",\n             fill=\"white\", pen=\"0.6p,gray40\")\n    fig.savefig(f, dpi=100)\nprint(\"cached.\")"
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "2eac146c",
+   "metadata": {
+    "include-cell-in-app": true
+   },
+   "outputs": [],
+   "source": "# Cell 3 \u2014 panel slider\n#\n# Preload every frame's PNG bytes into a dict in memory, then mutate\n# a single `pn.pane.PNG`'s `.object` attribute on every slider change\n# via `slider.param.watch`. This is the most reliable Panel pattern\n# for a file-backed image switcher \u2014 it sidesteps:\n#  \u2022 file-vs-URL caching at the browser layer (we never reference a\n#    file path; the image content is updated in-memory)\n#  \u2022 Panel's lazy reactive re-execution (`watch` fires synchronously)\n#  \u2022 disk I/O cost on every drag of the slider\nimport io\nfrom pathlib import Path\n\n# Preload all frames as bytes so slider updates are instant.\nframe_bytes = {}\nfor _t in range(0, 201, 10):\n    _path = CACHE / f\"frame_{_t:03d}.png\"\n    if _path.exists():\n        frame_bytes[_t] = _path.read_bytes()\nprint(f\"Preloaded {len(frame_bytes)} frames\")\n\nslider = pn.widgets.IntSlider(\n    name=\"Age (Ma)\", start=0, end=200, step=10, value=0,\n)\nimage_pane = pn.pane.PNG(object=frame_bytes[0], width=700)\n\ndef _update_image(event):\n    if event.new in frame_bytes:\n        image_pane.object = frame_bytes[event.new]\n\nslider.param.watch(_update_image, \"value\")\n\npn.Column(image_pane, slider)"
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": "## Extend this\n\n- **Switch the plate model.** Replace `Zahirovic2022` with another `plate_model_manager` model (e.g. `Cao2024` for 1.8 Ga coverage) and re-render the cached frames into a new cache directory.\n- **Add a second slider.** Lay out an additional `pn.widgets.Select` to switch between plate models or projection presets and update the basemap accordingly.\n- **Wider time span.** Drop the slider step from 10 Myr to 5 Myr for a smoother scrub at the cost of a longer pre-render."
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": "## References\n\n- Mather, B.R., M\u00fcller, R.D., Zahirovic, S., Cannon, J., Chin, M., Ilano, L., Wright, N.M., Alfonso, C., Williams, S., Tetley, M. & Merdith, A. (2024). Deep time spatio-temporal data analysis using GPlately. *Geosci. Data J.* 11, 3-10. https://doi.org/10.1002/gdj3.185\n- Tian, D., Uieda, L., Leong, W.J., Fr\u00f6hlich, Y., Schlitzer, W., Grund, M., Jones, M., Toney, L., Yao, J., Magen, Y., Materna, K., Belem, A., Newton, T., Anant, A., Ziebarth, M., Quinn, J., Wessel, P. (2024). PyGMT: A Python interface for the Generic Mapping Tools. *Zenodo*. https://doi.org/10.5281/zenodo.13679085\n- Wessel, P., Luis, J.F., Uieda, L., Scharroo, R., Wobbe, F., Smith, W.H.F. & Tian, D. (2019). The Generic Mapping Tools version 6. *Geochem. Geophys. Geosys.* 20, 5556-5564. https://doi.org/10.1029/2019GC008515\n- Chin, M., Mather, B.R. & M\u00fcller, R.D. (2024). Plate Model Manager: A Python package for downloading and managing published plate-reconstruction models. *Zenodo*. https://github.com/michaelchin/plate-model-manager\n- Zahirovic, S., Eleish, A., Doss, S., Pall, J., Cannon, J., Pistone, M., Tetley, M.G., Young, A. & M\u00fcller, R.D. (2022). Subduction and carbonate platform interactions. *Geoscience Data Journal* 9, 371-383. https://doi.org/10.1002/gdj3.146\n- Holoviz authors (2024). Panel: A high-level app and dashboarding solution for Python. https://panel.holoviz.org"
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}

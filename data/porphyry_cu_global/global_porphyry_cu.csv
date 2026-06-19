@@ -1,0 +1,126 @@
+# Global porphyry-Cu (and Cu-Au) deposit compilation — tutorial subset.
+# Top 30 entries are canonical supergiants/giants from the published literature.
+# Remaining ~90 are synthetic mid-tier entries to fill out the spatio-temporal field.
+# For full datasets see: Mutschler 1999 (USGS OF-99-556), Singer 2008 (USGS DDS-75),
+# Cooke 2005, USGS MRDS, GSA Sedex/VMS/Porphyry compilations.
+name,lon,lat,age_ma,commodity,tier
+Chuquicamata,-68.91,-22.3,33.0,Cu,supergiant
+Escondida,-69.06,-24.27,38.0,Cu,supergiant
+El Teniente,-70.36,-34.08,4.7,Cu,supergiant
+Andina-Río Blanco,-70.27,-33.13,5.2,Cu,giant
+Collahuasi,-68.74,-20.99,32.0,Cu,giant
+Los Pelambres,-70.49,-31.74,11.0,Cu,giant
+Cerro Verde,-71.61,-16.53,60.0,Cu,giant
+Toquepala,-70.59,-17.21,56.0,Cu,giant
+Cuajone,-70.71,-17.04,52.0,Cu,large
+Yanacocha,-78.51,-6.99,11.5,Au-Cu,giant
+Alumbrera,-66.61,-27.32,7.0,Cu-Au,large
+Bingham,-112.15,40.52,38.4,Cu,giant
+Morenci,-109.36,33.07,60.0,Cu,supergiant
+Pebble,-155.27,60.07,90.0,Cu-Au,supergiant
+Cananea,-110.3,30.97,60.0,Cu,giant
+La Caridad,-109.96,30.36,53.0,Cu,giant
+Grasberg,137.1,-4.06,3.5,Cu-Au,supergiant
+Ok Tedi,141.1,-5.2,1.2,Cu-Au,giant
+Frieda River,141.9,-4.92,13.0,Cu-Au,large
+Wafi-Golpu,146.5,-7.4,5.0,Cu-Au,large
+Panguna,155.4,-6.32,5.5,Cu-Au,giant
+Reko Diq,62.16,29.1,14.0,Cu-Au,giant
+Sungun,46.65,38.71,21.0,Cu,large
+Almalyk,69.71,40.85,303.0,Cu-Au,supergiant
+Erdenet,104.1,49.04,238.0,Cu-Mo,giant
+Oyu Tolgoi,106.85,43.0,373.0,Cu-Au,supergiant
+Bor,22.1,44.07,113.0,Cu,giant
+Majdanpek,21.94,44.42,86.0,Cu,large
+Ridder-Sokol,83.51,50.34,376.0,Cu-Pb-Zn,giant
+Sar Cheshmeh,55.86,29.95,12.5,Cu,giant
+P001,-69.51,-38.59,375.7,Cu,medium
+P002,-106.08,22.21,98.3,Cu,medium
+P003,139.98,-9.33,325.9,Cu,medium
+P004,73.62,34.98,18.7,Cu,medium
+P005,88.18,47.36,180.6,Cu,medium
+P006,17.07,48.6,78.3,Cu,medium
+P007,-90.42,-14.83,55.7,Cu,medium
+P008,-120.13,29.85,59.2,Cu,medium
+P009,154.32,-3.07,108.4,Cu,medium
+P010,68.02,34.5,97.5,Cu,medium
+P011,108.1,40.08,5.1,Cu,medium
+P012,25.41,42.54,20.7,Cu,medium
+P013,-64.78,6.77,25.8,Cu,medium
+P014,-114.74,19.48,42.9,Cu,medium
+P015,147.07,-8.34,30.0,Cu,medium
+P016,70.88,40.26,296.2,Cu,medium
+P017,79.43,49.57,146.7,Cu,medium
+P018,29.8,45.57,26.9,Cu,medium
+P019,-63.72,-14.86,75.0,Cu,medium
+P020,-106.06,27.47,221.3,Cu,medium
+P021,137.59,-5.37,192.3,Cu,medium
+P022,69.22,34.79,169.1,Cu,medium
+P023,97.13,46.0,83.4,Cu,medium
+P024,15.01,40.46,74.1,Cu,medium
+P025,-68.68,4.13,21.6,Cu,medium
+P026,-111.59,33.95,75.6,Cu,medium
+P027,159.7,-0.18,40.6,Cu,medium
+P028,42.17,35.86,58.3,Cu,medium
+P029,70.67,52.48,78.9,Cu,medium
+P030,18.19,49.84,147.9,Cu,medium
+P031,-58.44,3.81,108.3,Cu,medium
+P032,-119.34,22.02,24.5,Cu,medium
+P033,156.6,-1.5,193.6,Cu,medium
+P034,41.22,33.5,187.1,Cu,medium
+P035,94.18,51.63,395.3,Cu,medium
+P036,26.3,42.05,121.2,Cu,medium
+P037,-86.69,-26.34,203.9,Cu,medium
+P038,-113.55,46.77,2.8,Cu,medium
+P039,149.0,-0.44,81.3,Cu,medium
+P040,62.54,28.34,0.4,Cu,medium
+P041,83.85,42.75,61.6,Cu,medium
+P042,19.89,49.75,0.6,Cu,medium
+P043,-93.68,4.42,11.6,Cu,medium
+P044,-101.95,38.35,48.4,Cu,medium
+P045,134.37,-2.71,11.8,Cu,medium
+P046,66.49,42.93,74.6,Cu,medium
+P047,60.09,45.04,2.8,Cu,medium
+P048,15.52,44.59,54.4,Cu,medium
+P049,-86.74,-22.83,136.7,Cu,medium
+P050,-106.87,28.1,135.2,Cu,medium
+P051,152.62,-13.77,344.6,Cu,medium
+P052,74.03,39.94,31.3,Cu,medium
+P053,64.58,53.76,308.9,Cu,medium
+P054,22.78,44.27,61.2,Cu,medium
+P055,-69.61,-48.78,159.6,Cu,medium
+P056,-112.17,54.53,63.8,Cu,medium
+P057,146.96,-12.02,255.8,Cu,medium
+P058,60.92,44.53,161.4,Cu,medium
+P059,101.95,45.36,50.3,Cu,medium
+P060,28.0,47.13,12.3,Cu,medium
+P061,-74.54,12.93,16.2,Cu,medium
+P062,-106.19,29.86,178.4,Cu,medium
+P063,133.56,-12.3,116.5,Cu,medium
+P064,47.74,28.93,49.4,Cu,medium
+P065,103.95,52.9,52.2,Cu,medium
+P066,18.62,45.62,23.4,Cu,medium
+P067,-68.87,-49.68,187.4,Cu,medium
+P068,-108.24,55.07,85.6,Cu,medium
+P069,147.78,2.57,35.6,Cu,medium
+P070,60.58,39.0,143.5,Cu,medium
+P071,60.18,50.0,99.0,Cu,medium
+P072,15.04,48.48,214.8,Cu,medium
+P073,-60.13,-34.73,362.1,Cu,medium
+P074,-124.68,26.52,96.4,Cu,medium
+P075,162.52,-12.47,35.5,Cu,medium
+P076,41.86,36.67,38.7,Cu,medium
+P077,61.83,42.91,304.2,Cu,medium
+P078,27.48,44.5,37.8,Cu,medium
+P079,-91.84,-0.35,24.2,Cu,medium
+P080,-128.63,19.35,205.5,Cu,medium
+P081,135.58,-2.07,151.6,Cu,medium
+P082,56.65,33.33,66.1,Cu,medium
+P083,77.59,42.03,35.3,Cu,medium
+P084,22.17,48.64,2.0,Cu,medium
+P085,-62.74,11.87,86.6,Cu,medium
+P086,-129.34,18.16,73.1,Cu,medium
+P087,148.23,2.73,153.4,Cu,medium
+P088,64.19,28.51,382.3,Cu,medium
+P089,109.16,47.87,228.8,Cu,medium
+P090,29.02,45.66,0.0,Cu,medium

@@ -1,0 +1,269 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# T26 \u2014 Predicted paleolatitude from an APWP vs a `gplately` paleo-site\n",
+    "\n",
+    "**Compute paleolatitude at one location through the Cenozoic two ways \u2014 from the bundled Torsvik et al. (2012) Phanerozoic global APWP (paleomagnetic reference frame) and from a `gplately` reconstruction of the same site in the Zahirovic 2022 plate model (mantle / moving-hotspot reference frame) \u2014 and compare. The gap between the two curves is a measure of true polar wander at the site over the time window.**\n",
+    "\n",
+    "## What this notebook produces\n",
+    "\n",
+    "A single locality \u2014 by default Cape Verde Islands (16\u00b0N, -25\u00b0E) on the African plate (701) \u2014 swept through reconstruction ages from 0 to 100 Ma. At each age we compute the paleolatitude of the site two ways:\n",
+    "\n",
+    "1. **APWP** (bundled, *paleomagnetic frame*): paleolat from the great-circle distance between the site and the interpolated Torsvik et al. (2012) global APWP pole at that age. Longitudes are unwrapped before interpolation so values either side of the 0/360 cut do not produce a spurious mid-arc pole.\n",
+    "2. **gplately Zahirovic 2022** (*mantle / moving-hotspot frame*): paleolat from `gplately.Points.reconstruct(time, return_array=True)`. Z22 inherits the M\u00fcller 2019 absolute reference frame, which is moving-hotspot for 0\u2013100 Ma and TPW-corrected paleomagnetic for >100 Ma.\n",
+    "\n",
+    "The two paleolatitudes are plotted as a function of age. The gap between them is an estimate of *true polar wander* at the site over the time window \u2014 the rotation of the lithosphere + mantle relative to the spin axis that the mantle frame does not see but the paleomagnetic frame does. For the Cape Verde site over 0\u2013100 Ma the integrated TPW signal is on the order of 5\u201310\u00b0.\n",
+    "\n",
+    "The notebook also demonstrates the **longitudes-first return-order gotcha** in `Points.reconstruct(return_array=True)` \u2014 unpacking as `(rlats, rlons)` silently mis-plots the site into the wrong hemisphere.\n",
+    "\n",
+    "**Audience**: postgrad.\n",
+    "**Difficulty**: \u2605\u2605\u2606.\n",
+    "\n",
+    "## Learning objectives\n",
+    "\n",
+    "- Load a tabulated APWP and compute the predicted paleolatitude at an arbitrary site/age from the pole\u2013site great-circle distance (`paleolat = 90 - p`), with proper longitude unwrapping.\n",
+    "- Use `gplately.Points.reconstruct(time, return_array=True)` to compute the paleo-position of a present-day point at the same set of ages.\n",
+    "- Identify which **absolute reference frame** each curve lives in (mantle/moving-hotspot vs. paleomagnetic) and read the inter-curve gap as a TPW estimate.\n",
+    "- Avoid the lon-first return-order gotcha.\n",
+    "\n",
+    "## Prerequisites and runtime\n",
+    "\n",
+    "- Plate model: Zahirovic 2022 default (0\u2013410 Ma covers the Cenozoic).\n",
+    "- Python: `gplately`, `pygmt`, `numpy`, `pandas`.\n",
+    "- Bundled data: `data/paleomag/torsvik2012_laurentia_apwp.csv` (Phanerozoic global APWP, 701/spin-axis frame, Torsvik et al. 2012).\n",
+    "- Runtime: a few seconds end-to-end.\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "metadata": {},
+   "execution_count": null,
+   "outputs": [],
+   "source": [
+    "# Defensive cwd fix: when Jupyter runs this notebook from Notebooks/, the\n",
+    "# `data/...` relative paths used below would not resolve. Step up to the\n",
+    "# suite root once so every `data/...` literal in the rest of the notebook\n",
+    "# finds its file. Idempotent \u2014 only runs if `../data` exists and `./data`\n",
+    "# doesn't.\n",
+    "import os as _os\n",
+    "from pathlib import Path as _Path\n",
+    "if _Path(\"../data\").exists() and not _Path(\"data\").exists():\n",
+    "    _os.chdir(\"..\")\n",
+    "\n",
+    "# Cell 1 \u2014 imports\n",
+    "import numpy as np, pandas as pd\n",
+    "import gplately, pygmt, pygplates\n",
+    "from plate_model_manager import PlateModelManager\n",
+    "from IPython.display import display, HTML\n",
+    "# Library versions (printed for reproducibility)\n",
+    "try:\n",
+    "    import gplately, pygmt, pygplates\n",
+    "    print(f\"gplately {gplately.__version__}  pygmt {pygmt.__version__}  pygplates {pygplates.__version__}\")\n",
+    "except Exception as _e:\n",
+    "    print(f\"version probe failed: {_e}\")\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": "## Configuration \u2014 change the site + age range here"
+  },
+  {
+   "cell_type": "code",
+   "metadata": {},
+   "execution_count": null,
+   "outputs": [],
+   "source": [
+    "# === USER CONFIGURATION =====================================================\n",
+    "MODEL_NAME = \"Zahirovic2022\"\n",
+    "SITE_LON, SITE_LAT = -25.0, 16.0      # Cape Verde, Africa plate (701)\n",
+    "PLATE_LABEL        = \"Africa (plate 701)\"   # human-readable label for the figure stamp\n",
+    "AGES = np.arange(0, 101, 5)           # Ma \u2014 sweep from 0 to 100 Ma\n",
+    "# ============================================================================\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## 1. APWP-predicted paleolatitude at the site\n",
+    "\n",
+    "We load the bundled Torsvik et al. (2012) global APWP, interpolate the pole position to each requested age (with longitudes unwrapped first), and compute the predicted paleolatitude at the site from the pole\u2013site great-circle distance:\n",
+    "\n",
+    "$$\\text{paleolat} \\;=\\; 90^\\circ - \\arccos\\!\\bigl(\\sin\\phi_s\\sin\\phi_p + \\cos\\phi_s\\cos\\phi_p\\cos(\\lambda_p - \\lambda_s)\\bigr)$$\n",
+    "\n",
+    "This APWP-derived paleolatitude is implicitly in the **paleomagnetic reference frame**: the pole is the spin-axis direction at the moment of magnetisation expressed in present-day coordinates, and the great-circle distance recovers paleolatitude directly.\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "metadata": {},
+   "execution_count": null,
+   "outputs": [],
+   "source": [
+    "# Cell 2 \u2014 APWP-predicted paleolatitude at the site (Torsvik 2012, paleomag frame)\n",
+    "# Bundled Torsvik et al. (2012) Phanerozoic global APWP in the 701 /\n",
+    "# spin-axis reference frame. Pole position is interpolated to each age\n",
+    "# (longitudes unwrapped first to avoid the 0/360 cut), then paleolat\n",
+    "# is computed from the pole\u2013site great-circle distance:\n",
+    "#   p (deg)  = great-circle distance from site to pole\n",
+    "#   paleolat = 90 - p   (axial-dipole approximation)\n",
+    "APWP_CSV = \"data/paleomag/torsvik2012_laurentia_apwp.csv\"\n",
+    "\n",
+    "\n",
+    "def _paleolat_from_pole(site_lat, site_lon, pole_lat, pole_lon):\n",
+    "    slat, slon = np.radians(site_lat), np.radians(site_lon)\n",
+    "    plat, plon = np.radians(pole_lat), np.radians(pole_lon)\n",
+    "    cosp = (np.sin(slat) * np.sin(plat)\n",
+    "            + np.cos(slat) * np.cos(plat) * np.cos(plon - slon))\n",
+    "    return 90.0 - np.degrees(np.arccos(np.clip(cosp, -1.0, 1.0)))\n",
+    "\n",
+    "\n",
+    "apwp_table = pd.read_csv(APWP_CSV, comment=\"#\")\n",
+    "apwp_age   = apwp_table[\"age\"].values.astype(float)\n",
+    "apwp_plat  = apwp_table[\"pole_lat\"].values.astype(float)\n",
+    "apwp_plon_unwrapped = np.degrees(np.unwrap(np.radians(\n",
+    "    apwp_table[\"pole_lon\"].values.astype(float))))\n",
+    "\n",
+    "torsvik_paleolats = []\n",
+    "for t in AGES:\n",
+    "    pole_lat_t = float(np.interp(float(t), apwp_age, apwp_plat))\n",
+    "    pole_lon_t = float(np.interp(float(t), apwp_age, apwp_plon_unwrapped)) % 360.0\n",
+    "    torsvik_paleolats.append(float(_paleolat_from_pole(\n",
+    "        SITE_LAT, SITE_LON, pole_lat_t, pole_lon_t)))\n",
+    "torsvik_paleolats = np.array(torsvik_paleolats)\n",
+    "\n",
+    "apwp = pd.DataFrame({\"age\": AGES.astype(float),\n",
+    "                     \"paleolat_torsvik\": torsvik_paleolats})\n",
+    "apwp_label = \"APWP Torsvik 2012 (paleomag frame)\"\n",
+    "print(f\"Torsvik 2012 paleolat range: \"\n",
+    "      f\"{apwp['paleolat_torsvik'].min():.2f}\u00b0 to \"\n",
+    "      f\"{apwp['paleolat_torsvik'].max():.2f}\u00b0\")\n",
+    "apwp.head()\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": "## 2. Reconstruction-predicted paleolatitude at the site\n\n`gplately.Points.reconstruct(time, return_array=True)` returns the (lon, lat) of a present-day point reconstructed back to the requested time. **The order is longitudes first** \u2014 unpacking as `(rlats, rlons)` silently mis-plots the site into a different hemisphere. This is one of the gotchas we filed upstream as a GPlately doc clarification."
+  },
+  {
+   "cell_type": "code",
+   "metadata": {},
+   "execution_count": null,
+   "outputs": [],
+   "source": "# Cell 3 \u2014 reconstruction-predicted paleolatitudes\npmm   = PlateModelManager()\nmodel = pmm.get_model(MODEL_NAME, data_dir=\"./gplately_data\")\nrecon = gplately.PlateReconstruction(\n    rotation_model=model.get_rotation_model(),\n    topology_features=model.get_topologies(),\n    static_polygons=model.get_static_polygons(),\n)\npt = gplately.Points(recon, [SITE_LON], [SITE_LAT])\n\nrecon_paleolats = []\nfor t in AGES:\n    rlons, rlats = pt.reconstruct(float(t), return_array=True)   # lons first!\n    recon_paleolats.append(float(rlats[0]))\nrecon_paleolats = np.array(recon_paleolats)\n"
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## 3. Compare APWP-predicted and reconstruction-predicted paleolatitudes\n",
+    "\n",
+    "The plot below shows two paleolatitude tracks:\n",
+    "\n",
+    "- **Torsvik 2012 APWP** (black solid) \u2014 bundled, *paleomagnetic frame*.\n",
+    "- **gplately Zahirovic 2022** (red dashed) \u2014 *mantle / moving-hotspot frame* (default rotation file).\n",
+    "\n",
+    "The gap between them is an estimate of *true polar wander* (TPW) at the site over the time window. Re-running with the Z22 paleomagnetic-frame rotation file (Extend this #1) would collapse the gap to within a few degrees.\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "metadata": {},
+   "execution_count": null,
+   "outputs": [],
+   "source": [
+    "# Cell 4 \u2014 comparison plot\n",
+    "# Auto-fit the y-axis to actual data range.\n",
+    "combined = np.concatenate([apwp[\"paleolat_torsvik\"].values, recon_paleolats])\n",
+    "combined = combined[np.isfinite(combined)]\n",
+    "y_lo = float(np.floor(combined.min() - 1.0))\n",
+    "y_hi = float(np.ceil (combined.max() + 1.0))\n",
+    "\n",
+    "deg = \"\\260\"  # GMT degree symbol (avoids backslashes inside f-strings)\n",
+    "\n",
+    "fig = pygmt.Figure()\n",
+    "fig.basemap(region=[float(AGES.min()), float(AGES.max()), y_lo, y_hi],\n",
+    "            projection=\"X18c/9c\",\n",
+    "            frame=[\"xaf+lAge (Ma)\", f\"yaf+lPaleolatitude ({deg}N)\", \"WSrt\"])\n",
+    "\n",
+    "# Black solid \u2014 Torsvik 2012 APWP (paleomag frame)\n",
+    "fig.plot(x=apwp[\"age\"], y=apwp[\"paleolat_torsvik\"],\n",
+    "         pen=\"1.5p,black\", label=apwp_label)\n",
+    "\n",
+    "# Red dashed \u2014 gplately Zahirovic 2022 default rotation (mantle / moving-\n",
+    "# hotspot frame for 0\u2013100 Ma)\n",
+    "fig.plot(x=AGES, y=recon_paleolats,\n",
+    "         pen=\"1.5p,red,-\",\n",
+    "         label=f\"gplately {MODEL_NAME} (default; mantle frame, 0\\u2013100 Ma)\")\n",
+    "\n",
+    "fig.legend(position=\"JTR+jTR+o0.2c\", box=\"+gwhite+p0.5p,gray50\")\n",
+    "fig.text(text=f\"{SITE_LAT:.1f}{deg}N, {SITE_LON:.1f}{deg}E  ({PLATE_LABEL})\",\n",
+    "         position=\"TL\", offset=\"0.25c/-0.25c\", justify=\"TL\",\n",
+    "         font=\"14p,Helvetica-Bold,black\",\n",
+    "         fill=\"white\", pen=\"0.6p,gray40\")\n",
+    "fig.show(width=900)\n",
+    "display(HTML('<div style=\"height:1cm\"></div>'))\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## What the figure shows\n",
+    "\n",
+    "Two paleolatitude tracks for the Cape Verde site (16\u00b0N, 25\u00b0W), 0\u2013100 Ma:\n",
+    "\n",
+    "- **Black solid: APWP Torsvik 2012 (paleomagnetic frame).** At each age, the site's paleolatitude is computed as 90\u00b0 minus the great-circle distance from the site to the interpolated Torsvik 2012 paleomagnetic pole at that age. By construction, this curve is in the spin-axis (paleomagnetic) reference frame \u2014 the only assumption is that the African plate has been rigid and that the Torsvik 2012 APWP correctly captures Africa's apparent polar wander.\n",
+    "- **Red dashed: gplately Zahirovic 2022, default rotation file (mantle / moving-hotspot frame).** At each age, the present-day site is reconstructed through Zahirovic 2022's rotation chain for plate 701, anchored on the spin axis (plate 0). Z22 inherits the M\u00fcller 2019 absolute frame, which is moving-hotspot for 0\u2013100 Ma \u2014 so this curve sits in the *mantle* reference frame.\n",
+    "\n",
+    "**What to read off the figure:**\n",
+    "\n",
+    "- *Overall trend.* Both curves should show Cape Verde drifting from a lower paleolatitude in the past toward its present 16\u00b0N as Africa moves northward through the Cenozoic. The exact magnitude depends on plate model and APWP compilation but is typically 4\u20136\u00b0 of northward latitudinal motion over 0\u2013100 Ma.\n",
+    "- *Gap between the curves.* The persistent few-degree offset between the black and red lines is an estimate of *true polar wander* (TPW) at the site over the time window \u2014 the wholesale rotation of the lithosphere + mantle relative to the spin axis that the mantle frame does not see but the paleomagnetic frame does. For Cape Verde over 0\u2013100 Ma the integrated TPW signal is on the order of 5\u201310\u00b0.\n",
+    "- *Reference-frame swap (Extend this #1).* Re-running with the Z22 paleomagnetic-frame rotation file would put both curves in the same absolute frame and collapse the gap to within a degree or two (residual = APWP-fit differences between Torsvik 2012 and what Z22 uses internally).\n",
+    "\n",
+    "If the two curves cross or diverge in the wrong direction, the most common causes are the lon-first return-order gotcha in `Points.reconstruct(return_array=True)` (always unpack as `rlons, rlats = \u2026`) and an interpolation glitch in the APWP pole longitudes (which is why we unwrap before interpolating in Cell 2).\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Extend this\n",
+    "\n",
+    "- **Swap the Z22 reference frame.** Zahirovic 2022 inherits two alternative absolute reference frames from M\u00fcller 2019 \u2014 the default moving-hotspot / mantle frame and a TPW-corrected paleomagnetic frame. Pass the paleomag-frame rotation file to `gplately.PlateReconstruction(rotation_model=...)` and re-run; the red line should collapse onto the APWP.\n",
+    "- **Sweep latitudes.** Run the same comparison for an equatorial site and a high-latitude site. The TPW signal at the site depends on its latitude.\n",
+    "- **Swap plate models.** Compare `\"Zahirovic2022\"` vs `\"Muller2022\"` vs `\"Merdith2021\"`. The model-to-model spread bounds the APWP-fit uncertainty given the reconstruction.\n",
+    "- **Cross-reference T27.** T27 does the same predicted-vs-observed paleolatitude test for a single key pole at one age (the synthetic Osler 1.1 Ga pole consistent with the loaded model); this notebook does it as a function of age for one site.\n",
+    "\n",
+    "## References\n",
+    "\n",
+    "- Torsvik, T.H., Van der Voo, R., Preeden, U., Mac Niocaill, C., Steinberger, B., Doubrovine, P.V., van Hinsbergen, D.J.J., Domeier, M., Gaina, C., Tohver, E., Meert, J.G., McCausland, P.J.A. & Cocks, L.R.M. (2012). Phanerozoic polar wander, palaeogeography and dynamics. *Earth-Science Reviews* 114, 325\u2013368. https://doi.org/10.1016/j.earscirev.2012.06.007\n",
+    "- M\u00fcller, R.D., Zahirovic, S., Williams, S.E., Cannon, J., Seton, M., Bower, D.J., Tetley, M.G., Heine, C., Le Breton, E., Liu, S., Russell, S.H.J., Yang, T., Leonard, J. & Gurnis, M. (2019). A global plate model including lithospheric deformation along major rifts and orogens since the Triassic. *Tectonics* 38, 1884\u20131907. https://doi.org/10.1029/2018TC005462\n",
+    "- Mather, B.R. et al. (2024). Deep time spatio-temporal data analysis using GPlately. *Geoscience Data Journal* 11, 3\u201310.\n",
+    "- Tian, D., Uieda, L., Leong, W.J., et al. (2024). PyGMT: A Python interface for the Generic Mapping Tools. *Zenodo*. https://doi.org/10.5281/zenodo.10578540\n",
+    "- Wessel, P., Luis, J.F., Uieda, L., Scharroo, R., Wobbe, F., Smith, W.H.F. & Tian, D. (2019). The Generic Mapping Tools version 6. *Geochemistry, Geophysics, Geosystems* 20(11), 5556\u20135564. https://doi.org/10.1029/2019GC008515\n",
+    "- Chin, M., Mather, B.R. & M\u00fcller, R.D. (2024). Plate Model Manager: A Python package for downloading and managing plate reconstruction models. *Journal of Open Source Software* 9(101), 7090. https://doi.org/10.21105/joss.07090\n",
+    "- Zahirovic, S., Eleish, A., Doss, S., Pall, J., Cannon, J., Pistone, M., Tetley, M.G., Young, A. & M\u00fcller, R.D. (2022). Subduction and carbonate platform interactions. *Geoscience Data Journal* 9, 371\u2013383. https://doi.org/10.1002/gdj3.146\n"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "name": "python",
+   "version": "3.11"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}

@@ -1,0 +1,24 @@
+# Sediment-hosted Cu deposits — intracontinental Cu provinces.
+# These deposits formed in cratonic basin settings, NOT at active subduction zones.
+# Major districts: Central African Copperbelt, Kupferschiefer (Europe), Udokan,
+# Dzhezkazgan, Midcontinent Rift (USA), Corocoro, plus Proterozoic Mt Isa-style.
+# For full inventories: Hitzman et al. (2010), Brown (2014) IAGOD compilation.
+name,lon,lat,age_ma,country,host_formation
+Konkola,27.85,-12.41,880.0,Zambia,Roan Group
+Nchanga,27.86,-12.52,880.0,Zambia,Roan Group
+Mufulira,28.27,-12.55,880.0,Zambia,Roan Group
+Kolwezi,25.48,-10.71,880.0,DRC,Roan Group
+Tenke-Fungurume,26.32,-10.6,880.0,DRC,Roan Group
+Mutanda,26.83,-10.85,880.0,DRC,Roan Group
+Lubin,16.2,51.4,257.0,Poland,Kupferschiefer
+Polkowice,16.13,51.5,257.0,Poland,Kupferschiefer
+Mansfeld,11.45,51.55,257.0,Germany,Kupferschiefer
+Sangerhausen,11.3,51.47,257.0,Germany,Kupferschiefer
+Udokan,118.3,55.95,1860.0,Russia,Udokan Formation
+Dzhezkazgan,67.71,47.78,305.0,Kazakhstan,Zhezkazgan Suite
+White Pine,-89.59,46.75,1075.0,USA,Nonesuch Shale
+Keweenaw,-88.16,47.3,1090.0,USA,Portage Lake Volcanics
+Corocoro,-68.31,-17.18,30.0,Bolivia,Beleño Sandstone
+Khetri,75.78,27.96,1000.0,India,Delhi Supergroup
+Mount Isa,139.5,-20.72,1670.0,Australia,Urquhart Shale
+Dugald River,139.99,-20.62,1640.0,Australia,Pmh Group

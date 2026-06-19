@@ -1,0 +1,10 @@
+# Five paleomagnetic poles from different cratons for T23.
+# All Phanerozoic, host-plate IDs match Zahirovic 2022 conventions.
+# Values are representative; replace with your own pole table to
+# reproduce any specific study.
+pole_label,pole_lon,pole_lat,age_ma,plate_id
+Newark Supergroup (NAm),101.0,62.0,200.0,101
+Karoo dolerites (Africa),264.0,72.0,183.0,701
+Paraná LIP (S. America),88.0,84.5,132.0,201
+Deccan Traps (India),282.0,37.0,65.0,501
+Mt Eclipse (Australia),338.0,35.0,62.0,801

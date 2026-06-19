@@ -1,0 +1,34 @@
+# Early Eocene SST proxy compilation — tutorial-scale subset (25 sites)
+# Drawn from published primary sources: Hollis et al. 2009, 2012; Bijl et al. 2009, 2013;
+#   Pearson et al. 2007; Cramwinckel et al. 2018; Sluijs et al. 2008, 2011;
+#   Inglis et al. 2017; Frieling et al. 2014, 2017; Evans et al. 2018; Tripati 2003;
+#   John et al. 2008; Keating-Bitonti et al. 2011.
+# Compiled as in the DeepMIP synthesis: Hollis et al. (2019) GMD 12, 3149-3206,
+#   doi:10.5194/gmd-12-3149-2019.
+# For production-scale work fetch the full DeepMIP compilation at https://www.deepmip.org/data-eocene/
+site_name,lon,lat,age_Ma,sst_C,sst_err_C,proxy_type,reference
+DSDP_277,173.4,-52.2,52.0,26.0,2.0,TEX86,Hollis 2009
+ODP_1172,149.9,-43.9,54.0,27.5,2.5,TEX86,Bijl 2009
+ODP_1172,149.9,-43.9,50.0,28.7,2.5,TEX86,Bijl 2009
+ODP_959,-2.7,3.6,53.0,32.0,1.5,TEX86,Cramwinckel 2018
+ODP_959,-2.7,3.6,50.0,35.0,1.5,TEX86,Cramwinckel 2018
+ODP_865,-179.6,18.4,53.0,32.0,1.5,Mg_Ca,Pearson 2007
+ODP_865,-179.6,18.4,50.0,33.0,1.5,Mg_Ca,Pearson 2007
+Tanzania,40.0,-10.0,51.0,31.5,1.5,clumped,Evans 2018
+DSDP_550,-13.4,48.5,53.0,23.0,2.0,TEX86,Inglis 2017
+DSDP_401,-8.8,47.4,54.0,22.0,2.0,TEX86,Inglis 2017
+Waipara,172.5,-43.0,54.0,25.0,2.0,TEX86,Hollis 2009
+Waipara,172.5,-43.0,50.0,27.0,2.0,TEX86,Hollis 2009
+Hampden,170.8,-45.5,54.0,26.0,2.0,TEX86,Hollis 2009
+Mead_Stream,173.7,-42.0,53.0,26.5,2.0,TEX86,Hollis 2012
+SACS_East,58.0,-75.0,54.0,24.0,2.5,TEX86,Bijl 2013
+ODP_913,-10.0,74.0,54.0,22.5,2.5,TEX86,Sluijs 2008
+ODP_690,-1.0,-65.0,56.0,22.0,2.0,TEX86,Sluijs 2011
+Lomonosov,0.0,86.0,56.0,23.0,2.5,TEX86,Sluijs 2008
+Tawanui,177.0,-40.0,50.0,28.0,2.0,TEX86,Hollis 2009
+Kumara_2,171.5,-42.5,53.0,27.0,2.0,TEX86,Hollis 2009
+Aktulagay,56.0,46.0,55.0,24.5,2.5,TEX86,Frieling 2014
+Bass_River,-74.4,39.6,56.0,30.0,2.0,Mg_Ca,John 2008
+ODP_1051,-77.0,30.0,54.0,30.0,1.5,Mg_Ca,Tripati 2003
+ODP_998,-78.7,19.5,51.0,32.5,1.5,TEX86,Frieling 2017
+Hatchetigbee,-88.0,31.0,50.0,31.0,2.0,Mg_Ca,Keating-Bitonti 2011

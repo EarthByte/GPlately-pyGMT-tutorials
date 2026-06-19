@@ -1,0 +1,282 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "include-cell-in-app": true
+   },
+   "source": [
+    "# T17 \u2014 REVEAL tomography slices with reconstructed plate boundaries\n",
+    "\n",
+    "**Are the deep slabs imaged in seismic tomography the ghosts of past subduction zones?**\n",
+    "\n",
+    "## What this notebook produces\n",
+    "\n",
+    "A single worked example map at 1500 km depth through the REVEAL (https://reveal.sciencesconf.org/) global full-waveform-inversion model (Thrastarson et al., 2024), overlain with reconstructed paleo-trenches from the Zahirovic et al. (2022) plate model at the time corresponding to that depth under a two-layer slab-sinking-speed model (faster in the upper mantle, slower in the lower mantle \u2014 see Section 2 below). The example map is followed by a T07-style Panel slider that scrubs through **ten bundled depth slices** (500, 650, 850, 1000, 1250, 1500, 1750, 2000, 2250, 2500 km) \u2014 each renders a fresh reconstruction at its sinking-rate-derived age and the corresponding REVEAL slice, so dragging the slider walks you back through the slab-graveyard history of the mantle.\n",
+    "\n",
+    "Where the reconstructed teeth sit directly on blue (fast) tomographic patches, the slab-graveyard signal is direct: today's deep, cold anomaly is the relic of past subduction at that geographic position. Where teeth sit over plain (mean) tomography, the match fails \u2014 possibly because the assumed sinking rate is wrong for that slab, possibly because the reconstruction model is wrong for that age, possibly both.\n",
+    "\n",
+    "**Audience**: postgraduate.  \n",
+    "**Difficulty**: \u2605\u2605\u2605.  \n",
+    "**Runtime**: a few seconds for the worked-example map; ~1\u20132 min for the 10-frame Panel pre-render the first time."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Learning objectives\n",
+    "\n",
+    "- Load REVEAL (https://reveal.sciencesconf.org/) global tomography depth slices as `xarray.DataArray` and render them with pyGMT `grdimage`.\n",
+    "- Map a chosen depth slice to a reconstruction age using the Butterworth 2014 two-layer slab-sinking model (5 cm/yr upper, 1.3 cm/yr lower).\n",
+    "- Overlay reconstructed subduction zones on the slice and explain the dVs\u2013trench alignment as imaged sinking slabs.\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Prerequisites and runtime\n",
+    "\n",
+    "- **Plate model**: Zahirovic 2022.\n",
+    "- **Tomography**: REVEAL (https://reveal.sciencesconf.org/) global slices, bundled at `data/reveal_tomography/`.\n",
+    "- **Depth**: 1500 km \u2192 ~80 Ma reconstruction (per the 2-layer sinking model).\n",
+    "- **Python**: `gplately`, `pygmt`, `pygplates`, `xarray`, `numpy`.\n",
+    "- **Runtime**: ~1 minute.\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Defensive cwd fix: when Jupyter runs this notebook from Notebooks/, the\n",
+    "# `data/...` relative paths used below would not resolve. Step up to the\n",
+    "# suite root once so every `data/...` literal in the rest of the notebook\n",
+    "# finds its file. Idempotent \u2014 only runs if `../data` exists and `./data`\n",
+    "# doesn't.\n",
+    "import os as _os\n",
+    "from pathlib import Path as _Path\n",
+    "if _Path(\"../data\").exists() and not _Path(\"data\").exists():\n",
+    "    _os.chdir(\"..\")\n",
+    "\n",
+    "# Cell 1 \u2014 imports + locate the bundled REVEAL depth slices\n",
+    "from pathlib import Path\n",
+    "import xarray as xr, numpy as np, gplately, pygmt\n",
+    "from plate_model_manager import PlateModelManager\n",
+    "from IPython.display import display, HTML\n",
+    "\n",
+    "# Suite-wide tutorial style: bigger panel titles, 1 cm gap between figures.\n",
+    "pygmt.config(FONT_TITLE=\"18p\", FONT_LABEL=\"18p\",\n",
+    "             FONT_ANNOT_PRIMARY=\"14p\")\n",
+    "\n",
+    "# Three pre-extracted REVEAL depth slices ship with this tutorial under\n",
+    "# data/reveal_tomography/. Each is a single-variable netcdf of vsv\n",
+    "# perturbation (dVs in %) relative to the depth-slice mean \u2014 the standard\n",
+    "# tomography display variable. Source: REVEAL global full-waveform\n",
+    "# inversion model (Thrastarson et al. 2024,\n",
+    "# https://doi.org/10.1785/0120230273); we sliced their 99-depth model file\n",
+    "# once and saved three representative depths to keep the bundle small\n",
+    "# (~800 kB each, 99% smaller than the original 394 MB file).\n",
+    "DATA_CANDIDATES = [\n",
+    "    Path(\"./data/reveal_tomography\"),\n",
+    "    Path(\"../data/reveal_tomography\"),\n",
+    "]\n",
+    "REVEAL_DIR = next((c for c in DATA_CANDIDATES if c.exists()), None)\n",
+    "if REVEAL_DIR is None:\n",
+    "    raise FileNotFoundError(\n",
+    "        \"data/reveal_tomography/ not found \u2014 the depth slices ship with \"\n",
+    "        \"this tutorial suite. Run Jupyter from the project root or Notebooks/.\"\n",
+    "    )\n",
+    "AVAILABLE_DEPTHS = sorted(int(p.stem.split(\"_\")[-1].rstrip(\"km\"))\n",
+    "                          for p in REVEAL_DIR.glob(\"REVEAL_dvs_*km.nc\"))\n",
+    "print(f\"Bundled REVEAL slices: {AVAILABLE_DEPTHS} km\")\n",
+    "# Library versions (printed for reproducibility)\n",
+    "try:\n",
+    "    import gplately, pygmt, pygplates\n",
+    "    print(f\"gplately {gplately.__version__}  pygmt {pygmt.__version__}  pygplates {pygplates.__version__}\")\n",
+    "except Exception as _e:\n",
+    "    print(f\"version probe failed: {_e}\")\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": "## Configuration\n\nUser-tunable choices for this notebook. Edit the values below to change the model, snapshot time, region, or anchor plate without hunting through downstream code.\n"
+  },
+  {
+   "cell_type": "code",
+   "metadata": {},
+   "execution_count": null,
+   "outputs": [],
+   "source": "# === USER CONFIGURATION =====================================================\nMODEL_NAME           = \"Zahirovic2022\"\nDEPTH_KM             = 1500.0        # depth slice rendered (km)\nV_UPPER_CMYR         = 5.0           # Butterworth 2014: upper-mantle slab sinking\nV_LOWER_CMYR         = 1.3           # Butterworth 2014: lower-mantle slab sinking\nRECONSTRUCTION_TIME  = 80.0          # Ma \u2014 corresponds to 1500 km via two-layer model\nANCHOR_PLATE_ID      = 0\n# ============================================================================\n"
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": "## 2. From tomographic depth to reconstruction age \u2014 a depth-dependent slab-sinking model\n\nOverlaying *reconstructed* paleo-trenches on a *present-day* tomographic slice requires a depth-to-age mapping. Slab sinking speeds are commonly parameterised as **depth dependent**, with faster descent through the upper mantle than through the lower mantle.\n\nFor the **upper mantle**, published estimates span ~1.5\u20136 cm/yr (Domeier et al. 2016), with values around 3\u20135 cm/yr most often adopted in geodynamic models. For the **lower mantle**, sinking is markedly slower: empirical compilations give 1.2 \u00b1 0.3 cm/yr (van der Meer et al. 2010) and 1.3 \u00b1 0.3 cm/yr (Butterworth et al. 2014), and geodynamic models converge on similar values.\n\nWe adopt **Butterworth et al. (2014)** as the default in this notebook: **5 cm/yr in the upper mantle and 1.3 cm/yr in the lower mantle**, with the transition at the 660 km discontinuity. The helper below accepts both speeds as keyword arguments so you can sweep across the published ranges to see how robust the overlay is to the choice.\n\n**Single-rate simplification.** Because the lower mantle is much thicker than the upper mantle (660 km of upper mantle vs ~2240 km of lower mantle down to the core-mantle boundary), most of the transit time in any deep-mantle slab descent is spent in the lower mantle. If you want a single-rate approximation rather than the two-layer model, use the **lower-mantle value (~1.3 cm/yr)** as the proxy for the whole mantle. Using the upper-mantle value (3\u20135 cm/yr) as a whole-mantle rate is far too fast and would produce reconstruction ages that are unrealistically young at deep tomographic slices.\n\nUnder the default two-layer model the ten bundled depths map to:\n\n| Depth | Mantle layer | Reconstruction age |\n|---|---|---|\n| 500 km | upper mantle / above 660 | \u224810 Ma |\n| 650 km | base of transition zone | \u224813 Ma |\n| 850 km | upper lower mantle | \u224828 Ma |\n| 1000 km | upper lower mantle | \u224839 Ma |\n| 1250 km | mid lower mantle | \u224859 Ma |\n| 1500 km | mid lower mantle | \u224878 Ma |\n| 1750 km | mid lower mantle | \u224897 Ma |\n| 2000 km | lower mantle | \u2248116 Ma |\n| 2250 km | deep lower mantle | \u2248136 Ma |\n| 2500 km | near CMB / above the LLSVPs | \u2248155 Ma |"
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": "# Cell 2 \u2014 depth_to_age helper (two-layer slab-sinking model)\ndef depth_to_age(depth_km, v_upper_cmyr=5.0, v_lower_cmyr=1.3,\n                 transition_km=660.0):\n    \"\"\"Convert a mantle depth (km) to the reconstruction age (Ma) at which\n    a sinking slab would have detached at the trench, using a two-layer\n    sinking-speed model. Defaults follow Butterworth et al. (2014):\n    5 cm/yr upper mantle, 1.3 cm/yr lower mantle, transition at 660 km.\n    The lower-mantle value can also be used as a single-rate proxy for\n    the whole mantle (most slab transit time is in the lower mantle).\n    1 cm/yr = 10 km/Myr.\n    \"\"\"\n    v_upper_kmyr = v_upper_cmyr * 10.0     # cm/yr \u2192 km/Myr\n    v_lower_kmyr = v_lower_cmyr * 10.0\n    if depth_km <= transition_km:\n        return depth_km / v_upper_kmyr\n    upper_time = transition_km / v_upper_kmyr\n    lower_time = (depth_km - transition_km) / v_lower_kmyr\n    return upper_time + lower_time\n\n# Print the mapping for the bundled depths so the table above is reproduced\n# from real arithmetic, not from a hand-typed cheatsheet.\nfor d in AVAILABLE_DEPTHS:\n    print(f\"  {d:>5} km  \u2192  {depth_to_age(d):.1f} Ma\")"
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## 3. Rendering helper\n",
+    "\n",
+    "One `pygmt.Figure()` per panel (house style \u2014 no `pygmt.subplot`). The render order is:\n",
+    "\n",
+    "1. Basemap with the title set to `\"REVEAL (https://reveal.sciencesconf.org/) dVs at D km + reconstructed trenches at T Ma\"`.\n",
+    "2. `pygmt.makecpt(cmap=\"vik\", series=[-3, 3, 0.05], reverse=True)` \u2014 a fixed \u00b13 % diverging palette so the three depths are visually comparable.\n",
+    "3. `fig.grdimage(slice_da, cmap=True)` \u2014 the tomographic slice.\n",
+    "4. A horizontal colour bar at the bottom of the figure.\n",
+    "5. The continuous-backbone plate-boundary pattern in grey on top of the tomography.\n",
+    "6. Reconstructed subduction teeth in black on top of the backbone.\n",
+    "\n",
+    "Blue (fast) tomographic regions = cold, dense subducted-slab remnants. Red (slow) = hot mantle (plumes, upwellings)."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": "# Cell 3 \u2014 load Zahirovic 2022 + rendering helper\npmm   = PlateModelManager()\nmodel = pmm.get_model(MODEL_NAME, data_dir=\"./gplately_data\")\nrecon = gplately.PlateReconstruction(\n    rotation_model=model.get_rotation_model(),\n    topology_features=model.get_topologies(),\n    static_polygons=model.get_static_polygons())\nengine = gplately.PygmtPlotEngine()\n\ndef render_reveal_map(depth_km, projection=\"W0/22c\",\n                       v_upper=5.0, v_lower=1.3):\n    \"\"\"Return a pyGMT figure: REVEAL slice at `depth_km` + reconstructed\n    trenches at the corresponding sinking-rate-derived age.\"\"\"\n    recon_time = depth_to_age(depth_km, v_upper, v_lower)\n    slice_file = REVEAL_DIR / f\"REVEAL_dvs_{depth_km}km.nc\"\n    slice_da   = xr.open_dataarray(slice_file)\n\n    fig = pygmt.Figure()\n    fig.basemap(\n        region=\"d\", projection=projection,\n        frame=[\"af\",\n               f'+tREVEAL dVs at {depth_km} km + reconstructed trenches at '\n               f'{recon_time:.0f} Ma  '\n               f'(v_upper={v_upper} cm/yr, v_lower={v_lower} cm/yr)'])\n    pygmt.makecpt(cmap=\"vik\", series=[-3, 3, 0.05], reverse=True,\n                  background=\"o\")\n    fig.grdimage(slice_da, cmap=True)\n    fig.colorbar(frame=\"af+ldVs (%)\",\n                 position=\"JBC+w14c/0.35c+h+o0/1c\")\n\n    gplot = gplately.PlotTopologies(\n        plate_reconstruction=recon,\n        coastlines=model.get_coastlines(),\n        continents=model.get_continental_polygons(),\n        COBs=model.get_COBs(), time=float(recon_time))\n    # Continuous plate-boundary backbone first (incl. \"other\" segments),\n    # then styled subduction teeth on top.\n    engine.plot_geo_data_frame(fig, gplot.get_all_topological_sections(),\n                               pen=\"0.5p,gray50\")\n    (_tl, _tr) = gplot.get_subduction_direction()\n    engine.plot_subduction_zones(fig, _tl, _tr, color=\"black\")\n    return fig"
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": "## 4. One worked example \u2014 1500 km, mid lower mantle\n\nA single example plot at **1500 km depth** (mid lower mantle), which under the two-layer sinking-speed model corresponds to a reconstruction time of \u224878 Ma. The Panel slider in Section 5 below covers all ten bundled depths interactively, so we don't need to render every static depth as its own large figure here \u2014 the slider does that on demand.\n\nAt \u224878 Ma, blue (fast) patches that sit directly under reconstructed paleo-trenches are the slab-graveyard signal. Look in particular at the western Pacific and along the proto-Andean margin, where Late-Cretaceous subduction was vigorous and the corresponding slabs are now imaged at this depth."
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": "# Cell 4 \u2014 render one worked example at 1500 km (mid lower mantle, ~78 Ma)\nfig = render_reveal_map(1500, projection=\"W0/22c\")\nfig.text(text=f\"{RECONSTRUCTION_TIME:.0f} Ma  ({MODEL_NAME})\",\n         position=\"TL\", offset=\"0.25c/-0.25c\", justify=\"TL\",\n         font=\"14p,Helvetica-Bold,black\",\n         fill=\"white\", pen=\"0.6p,gray40\")\nfig.show(width=1100)\ndisplay(HTML('<div style=\"height:1cm\"></div>'))"
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## 5. Interactive depth slider\n",
+    "\n",
+    "Same pattern as T07 (and T13\u2013T15): pre-render every frame to disk, preload the PNG bytes into a Python dict, and switch the displayed image by mutating a single `pn.pane.PNG`'s `.object` attribute on every slider change. The slider is *discrete* \u2014 it snaps to one of the ten available depths \u2014 because the REVEAL (https://reveal.sciencesconf.org/) bundle ships with ten depth slices spanning the lower mantle (500 \u2192 2500 km in 250-km increments, plus 650 km at the transition zone). The pre-render takes ~30 s the first time; subsequent runs are instant. To add even more depths, run the bundled extraction code against the upstream `Models/REVEAL.nc` file and drop additional `REVEAL_dvs_*km.nc` files into `data/reveal_tomography/`."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Cell 5 \u2014 pre-render PNG frames for the slider\n",
+    "import panel as pn\n",
+    "pn.extension()\n",
+    "\n",
+    "CACHE = Path(\"./reveal_panel_cache_v1\"); CACHE.mkdir(exist_ok=True)\n",
+    "for depth_km in AVAILABLE_DEPTHS:\n",
+    "    f = CACHE / f\"reveal_{depth_km:04d}km.png\"\n",
+    "    if f.exists(): continue\n",
+    "    fig = render_reveal_map(depth_km, projection=\"W0/16c\")\n",
+    "    fig.savefig(f, dpi=100)\n",
+    "    print(f\"  rendered {depth_km} km \u2192 {depth_to_age(depth_km):.0f} Ma\")\n",
+    "print(f\"cached {len(AVAILABLE_DEPTHS)} frames in {CACHE}\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "include-cell-in-app": true
+   },
+   "outputs": [],
+   "source": [
+    "# Cell 6 \u2014 Panel slider\n",
+    "frame_bytes = {}\n",
+    "for depth_km in AVAILABLE_DEPTHS:\n",
+    "    p = CACHE / f\"reveal_{depth_km:04d}km.png\"\n",
+    "    if p.exists():\n",
+    "        frame_bytes[depth_km] = p.read_bytes()\n",
+    "print(f\"Preloaded {len(frame_bytes)} frames into memory\")\n",
+    "\n",
+    "# DiscreteSlider snaps to the three available depths, with labels that\n",
+    "# include the sinking-rate-derived reconstruction age so the learner sees\n",
+    "# the depth \u2192 age conversion in the slider itself.\n",
+    "options = {\n",
+    "    f\"{d} km  \u2192  {depth_to_age(d):.0f} Ma\": d for d in AVAILABLE_DEPTHS\n",
+    "}\n",
+    "slider = pn.widgets.DiscreteSlider(\n",
+    "    name=\"Depth (sinking-rate-derived age shown)\",\n",
+    "    options=options, value=AVAILABLE_DEPTHS[0])\n",
+    "image_pane = pn.pane.PNG(object=frame_bytes[AVAILABLE_DEPTHS[0]], width=900)\n",
+    "\n",
+    "def _update_image(event):\n",
+    "    if event.new in frame_bytes:\n",
+    "        image_pane.object = frame_bytes[event.new]\n",
+    "slider.param.watch(_update_image, \"value\")\n",
+    "\n",
+    "pn.Column(image_pane, slider)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## Extend this\n",
+    "\n",
+    "- **Sweep the sinking rate.** Call `render_reveal_map(depth_km, v_upper=..., v_lower=...)` with the published range bounds (Domeier 2016: 1.5\u20136 cm/yr upper, 1.1\u20131.9 cm/yr lower; van der Meer 2010 / Butterworth 2014: 1.2\u20131.3 cm/yr lower). The reconstructed-trench overlay will shift in time accordingly \u2014 slabs that move on/off the blue patches bound the plausible sinking-rate range for each region.\n",
+    "- **Different plate model.** Swap `Zahirovic2022` for `Cao2024` to see the trench positions through Precambrian times when REVEAL (https://reveal.sciencesconf.org/) still resolves slab structure. The lower-mantle slices (1500\u20132500 km) reach back beyond Zahirovic's 410 Ma horizon, so a deep-time model is needed there.\n",
+    "- **Extract more depth slices.** The bundled `data/reveal_tomography/` ships three depths (650, 1500, 2500 km) for size reasons. Run the bundled extraction code against the upstream `Models/REVEAL.nc` file to add depth slices of your own choosing (e.g., 410 km transition zone, 1000 km mid-upper-lower transition, 2890 km core-mantle boundary). Drop the new netCDFs into `data/reveal_tomography/` and the slider will pick them up automatically.\n",
+    "- **Quantify the agreement.** Compute a per-trench-segment distance between the reconstructed teeth and the nearest +1 % isocontour in the tomographic slice. Aggregate over time to obtain a region-by-region goodness-of-fit metric for the depth-to-age model."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {
+    "include-cell-in-app": true
+   },
+   "source": [
+    "## References\n",
+    "\n",
+    "- Butterworth, N. P., Talsma, A. S., M\u00fcller, R. D., Seton, M., Bunge, H.-P., Schuberth, B. S. A., Shephard, G. E., & Heine, C. (2014). Geological, tomographic, kinematic and geodynamic constraints on the dynamics of sinking slabs. *Journal of Geodynamics*, 73, 1\u201313. https://doi.org/10.1016/j.jog.2013.10.006\n",
+    "- Chin, M., Mather, B. R., & M\u00fcller, R. D. (2024). Plate Model Manager: A Python package for downloading and managing published plate-reconstruction models. *Zenodo*. https://github.com/michaelchin/plate-model-manager\n",
+    "- Domeier, M., Doubrovine, P. V., Torsvik, T. H., Spakman, W., & Bull, A. L. (2016). Global correlation of lower mantle structure and past subduction. *Geophysical Research Letters*, 43, 4945\u20134953. https://doi.org/10.1002/2016GL068827\n",
+    "- Flament, N., Williams, S., M\u00fcller, R. D., Gurnis, M., & Bower, D. J. (2017). Origin and evolution of the deep thermochemical structure beneath Eurasia. *Nature Communications*, 8, 14164. https://doi.org/10.1038/ncomms14164\n",
+    "- Mather, B. R., M\u00fcller, R. D., Zahirovic, S., Cannon, J., Chin, M., Ilano, L., Wright, N. M., Alfonso, C., Williams, S., Tetley, M., & Merdith, A. (2024). Deep time spatio-temporal data analysis using GPlately. *Geoscience Data Journal*, 11, 3\u201310. https://doi.org/10.1002/gdj3.185\n",
+    "- Thrastarson, S., van Driel, M., Krischer, L., Boehm, C., Afanasiev, M., van Herwaarden, D.-P., & Fichtner, A. (2024). REVEAL (https://reveal.sciencesconf.org/): A global full-waveform inversion model. *Bulletin of the Seismological Society of America*, 114, 1392\u20131419. https://doi.org/10.1785/0120230273\n",
+    "- Tian, D., Uieda, L., Leong, W. J., Fr\u00f6hlich, Y., Schlitzer, W., Grund, M., Jones, M., Toney, L., Yao, J., Magen, Y., Materna, K., Belem, A., Newton, T., Anant, A., Ziebarth, M., Quinn, J., & Wessel, P. (2024). PyGMT: A Python interface for the Generic Mapping Tools. *Zenodo*. https://doi.org/10.5281/zenodo.13679085\n",
+    "- van der Meer, D. G., Spakman, W., van Hinsbergen, D. J. J., Amaru, M. L., & Torsvik, T. H. (2010). Towards absolute plate motions constrained by lower-mantle slab remnants. *Nature Geoscience*, 3, 36\u201340. https://doi.org/10.1038/ngeo708\n",
+    "- Wessel, P., Luis, J. F., Uieda, L., Scharroo, R., Wobbe, F., Smith, W. H. F., & Tian, D. (2019). The Generic Mapping Tools version 6. *Geochemistry, Geophysics, Geosystems*, 20, 5556\u20135564. https://doi.org/10.1029/2019GC008515\n",
+    "- Zahirovic, S., Eleish, A., Doss, S., Pall, J., Cannon, J., Pistone, M., Tetley, M. G., Young, A., & M\u00fcller, R. D. (2022). Subduction and carbonate platform interactions. *Geoscience Data Journal*, 9, 371\u2013383. https://doi.org/10.1002/gdj3.146"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 4
+}

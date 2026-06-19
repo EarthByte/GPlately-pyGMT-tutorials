@@ -1,0 +1,37 @@
+# Osler Volcanic Group — upper-series site mean directions (illustrative)
+# 14 site means at the published Mamainse Point / Lake Superior
+# sampling area (Halls 1974; Swanson-Hysell et al. 2014, G3).
+# DATA PROVENANCE: this CSV is a hand-rebuilt illustrative dataset.
+# Site (lon, lat) positions are taken from the Halls 1974 sampling
+# area at Lake Superior; (Dec, Inc) per site are BACK-COMPUTED so
+# that the standard site->VGP formula returns a VGP cluster centred
+# on the Swanson-Hysell et al. (2014) upper Osler mean pole
+# (44.5°N, 209.7°W = 150.3°E, A95 = 4.5°), with ~3° per-site Fisher
+# scatter added in D and I. This guarantees that
+#   (a) the cluster of VGPs in present-day coords sits at the
+#       published upper Osler pole, and
+#   (b) reconstructing those VGPs to 1100 Ma with Laurentia's
+#       rotation in Cao 2024 brings the cluster near the spin axis,
+#       as expected for a paleomag pole built into the rotation model.
+# For the authoritative measured directions (the actual specimen-
+# level data from Halls 1974 / Swanson-Hysell 2014), see the MagIC
+# contribution at https://earthref.org/MagIC/16614.
+# Coordinates in decimal degrees; Dec/Inc are tilt-corrected, in
+# reversed-polarity convention (the upper Osler is a reversed-polarity
+# stratigraphic interval); k = within-site Fisher precision; a95 =
+# within-site 95% Fisher cone.
+site_id,lon,lat,dec,inc,n_specimens,k,a95
+OS01,-88.045,48.725,140.1,-28.1,11,96.5,9.2
+OS02,-88.041,49.07,143.3,-36.6,9,48.1,5.9
+OS03,-87.739,48.939,143.6,-31.1,9,136.2,7.6
+OS04,-87.188,48.859,140.9,-28.0,6,123.7,8.5
+OS05,-87.42,48.594,137.0,-35.5,10,107.0,10.8
+OS06,-87.772,48.594,141.0,-33.0,10,92.4,10.1
+OS07,-86.97,48.535,138.8,-29.3,7,139.5,7.5
+OS08,-88.151,49.02,135.2,-26.4,7,77.4,9.6
+OS09,-87.77,48.861,141.1,-36.0,11,45.4,8.8
+OS10,-87.584,48.925,139.0,-31.4,10,134.3,8.1
+OS11,-87.36,48.512,139.0,-33.4,8,48.7,5.5
+OS12,-86.537,49.082,143.1,-24.2,6,152.9,5.7
+OS13,-88.001,48.999,143.2,-27.9,10,134.0,5.6
+OS14,-87.214,48.627,142.4,-35.2,8,69.3,10.3

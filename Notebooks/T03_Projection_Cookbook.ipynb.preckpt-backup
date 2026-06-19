@@ -1,0 +1,291 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "18266e0d",
+   "metadata": {
+    "include-cell-in-app": true
+   },
+   "source": [
+    "# T03 \u2014 Projection cookbook\n",
+    "\n",
+    "**Eight different map projections of the same reconstructed coastlines at 90 Ma.**\n",
+    "\n",
+    "## What this notebook produces\n",
+    "\n",
+    "Eight standalone `pygmt.Figure` panels of the same 90 Ma snapshot, each rendered in a different map projection: Robinson, Mollweide, Hammer, Sinusoidal, Mercator-clipped, orthographic, south-polar stereographic, and azimuthal equidistant. The data is identical in every panel \u2014 only the projection (and where necessary the region clip) changes \u2014 so the differences you see are pure cartographic-distortion differences.\n",
+    "\n",
+    "## What you will learn\n",
+    "\n",
+    "1. How to write a projection helper that takes `(projection, title, region)` and renders one panel.\n",
+    "2. Why mixed-aspect-ratio projections can't share a `pygmt.subplot` cell, and how the one-figure-per-projection pattern sidesteps that.\n",
+    "3. Why **Mercator** needs a region clip (`\u00b180\u00b0` lat) and **polar stereographic** wants a hemisphere clip \u2014 i.e. when the GMT `region` and `projection` arguments are coupled.\n",
+    "\n",
+    "**Audience**: undergraduate.  \n",
+    "**Difficulty**: \u2605\u2606\u2606.  \n",
+    "**Runtime**: \u224830 s."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "9a63bb5f",
+   "metadata": {},
+   "source": [
+    "## Learning objectives\n",
+    "\n",
+    "- Render the same reconstructed Earth in six pyGMT projection families (Robinson, Mollweide, Hammer, orthographic, polar stereographic, Mercator).\n",
+    "- Understand when each projection is appropriate (global vs. regional, equator-centred vs. pole-centred).\n",
+    "- Switch projections by editing one string \u2014 the rest of the rendering pipeline stays unchanged.\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "439ee506",
+   "metadata": {},
+   "source": [
+    "## Prerequisites and runtime\n",
+    "\n",
+    "- **Plate model**: Zahirovic 2022.\n",
+    "- **Reconstruction time**: 50 Ma (representative late-Eocene snapshot).\n",
+    "- **Python**: `gplately`, `pygmt`, `pygplates`.\n",
+    "- **Runtime**: ~1 minute (six small maps).\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "089e2981",
+   "metadata": {
+    "include-cell-in-app": true
+   },
+   "outputs": [],
+   "source": [
+    "# Defensive cwd fix: when Jupyter runs this notebook from Notebooks/, the\n",
+    "# `data/...` relative paths used below would not resolve. Step up to the\n",
+    "# suite root once so every `data/...` literal in the rest of the notebook\n",
+    "# finds its file. Idempotent \u2014 only runs if `../data` exists and `./data`\n",
+    "# doesn't.\n",
+    "import os as _os\n",
+    "from pathlib import Path as _Path\n",
+    "if _Path(\"../data\").exists() and not _Path(\"data\").exists():\n",
+    "    _os.chdir(\"..\")\n",
+    "\n",
+    "# Cell 1 \u2014 imports\n",
+    "import gplately\n",
+    "import pygmt\n",
+    "from plate_model_manager import PlateModelManager\n",
+    "from IPython.display import display, HTML\n",
+    "\n",
+    "print(f\"gplately {gplately.__version__} \u00b7 pygmt {pygmt.__version__}\")\n",
+    "\n",
+    "# Suite-wide tutorial style: bigger panel titles, 1cm gap between figures.\n",
+    "pygmt.config(FONT_TITLE=\"18p\", FONT_LABEL=\"18p\",\n",
+    "             FONT_ANNOT_PRIMARY=\"14p\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "0f4d7d01",
+   "metadata": {},
+   "source": [
+    "## Configuration\n",
+    "\n",
+    "User-tunable choices for this notebook. Edit the values below to change the model, snapshot time, region, or anchor plate without hunting through downstream code.\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "70cd34b3",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# === USER CONFIGURATION =====================================================\n",
+    "MODEL_NAME           = \"Zahirovic2022\"\n",
+    "RECONSTRUCTION_TIME  = 50.0          # Ma \u2014 common snapshot across all projections\n",
+    "ANCHOR_PLATE_ID      = 0\n",
+    "REGION_GLOBAL        = [-180, 180, -80, 80]\n",
+    "REGION_POLAR_SOUTH   = [-180, 180, -90, -30]\n",
+    "# ============================================================================\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "08f5c4b1",
+   "metadata": {},
+   "source": [
+    "## Set up a single 90 Ma snapshot\n",
+    "\n",
+    "We pick 90 Ma \u2014 well after the Atlantic opens but before the Indian collision \u2014 to give the map enough motion to be visually interesting."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "b39e566e",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Cell 2 \u2014 build the snapshot once\n",
+    "TIME = 90  # Ma\n",
+    "\n",
+    "pmm = PlateModelManager()\n",
+    "model = pmm.get_model(MODEL_NAME, data_dir=\"./gplately_data\")\n",
+    "\n",
+    "recon = gplately.PlateReconstruction(\n",
+    "    rotation_model=model.get_rotation_model(),\n",
+    "    topology_features=model.get_topologies(),\n",
+    "    static_polygons=model.get_static_polygons(),\n",
+    ")\n",
+    "gplot = gplately.PlotTopologies(\n",
+    "    plate_reconstruction=recon,\n",
+    "    coastlines=model.get_coastlines(),\n",
+    "    continents=model.get_continental_polygons(),\n",
+    "    COBs=model.get_COBs(),\n",
+    "    time=TIME,\n",
+    ")\n",
+    "engine = gplately.PygmtPlotEngine()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "93dbf04c",
+   "metadata": {},
+   "source": [
+    "## A helper that plots the same data on any projection\n",
+    "\n",
+    "We define a single function and then call it eight times with different `projection` strings.\n",
+    "\n",
+    "See pyGMT's [projections reference](https://www.pygmt.org/latest/projections/index.html) for the full string syntax. The patterns used below:\n",
+    "\n",
+    "| String           | Projection                              |\n",
+    "|------------------|-----------------------------------------|\n",
+    "| `R0/15c`         | Robinson, centred at 0\u00b0, 15 cm wide      |\n",
+    "| `W0/15c`         | Mollweide                                |\n",
+    "| `H0/15c`         | Hammer                                   |\n",
+    "| `N0/15c`         | Sinusoidal                                |\n",
+    "| `M0/15c`         | Mercator (cylindrical)                    |\n",
+    "| `G0/0/15c`       | Orthographic from (0\u00b0N, 0\u00b0E)              |\n",
+    "| `S0/-90/15c`     | South polar stereographic                 |\n",
+    "| `E0/0/15c`       | Azimuthal equidistant from (0\u00b0N, 0\u00b0E)     |"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "0ed89be5",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Cell 3 \u2014 projection helper\n",
+    "def draw_panel(fig, projection, title, region):\n",
+    "    fig.basemap(region=region, projection=projection,\n",
+    "                frame=[\"af\", f'+t{title}'])\n",
+    "    engine.plot_geo_data_frame(fig, gplot.get_continents(),\n",
+    "                               fill=\"gray95\", pen=\"0.2p,gray30\")\n",
+    "    engine.plot_geo_data_frame(fig, gplot.get_coastlines(), pen=\"0.3p,gray20\")\n",
+    "    # Continuous plate-boundary backbone (incl. \"other\" segments\n",
+    "    # that aren't classified as ridge / transform / subduction \u2014 these are\n",
+    "    # the connection points that would otherwise leave gaps in the network).\n",
+    "    # Draw this FIRST so ridges, transforms and trenches render on top with\n",
+    "    # their distinctive colours. Pattern follows the Dixon A24 reference.\n",
+    "    engine.plot_geo_data_frame(fig, gplot.get_all_topological_sections(),\n",
+    "                               pen=\"0.5p,gray50\")\n",
+    "\n",
+    "    engine.plot_geo_data_frame(fig, gplot.get_ridges(), pen=\"0.5p,red\")\n",
+    "    (_tl, _tr) = gplot.get_subduction_direction()\n",
+    "    engine.plot_subduction_zones(fig, _tl, _tr,\n",
+    "                                 color=\"blue\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "8e4018d9",
+   "metadata": {},
+   "source": [
+    "## Render eight panels\n",
+    "\n",
+    "We render each projection in its own `pygmt.Figure` and let the notebook scroll through them. *Why not a single `pygmt.subplot`?* GMT's `subplot` allocates every cell the same width and height, but the projections below have two very different aspect ratios \u2014 pseudo-cylindrical projections (Robinson, Mollweide, Hammer, Sinusoidal) are roughly **2 : 1** (wide and short), while the circular projections (Mercator-clipped, orthographic, polar stereographic, azimuthal equidistant) are roughly **1 : 1** (square). Mixing both classes into one uniform-cell subplot makes the frame size disagree with the map size \u2014 the canonical fix is to drop `subplot` and render one figure per projection."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "57b0a48b",
+   "metadata": {},
+   "source": [
+    "### What the eight panels reveal\n",
+    "\n",
+    "Scroll the eight figures and pay attention to what each projection trades off:\n",
+    "\n",
+    "- **Robinson, Mollweide, Hammer, Sinusoidal** are *equal-area* or near-equal-area pseudo-cylindrical projections. They are the default choice for global paleo-maps because they preserve continent sizes faithfully.\n",
+    "- **Mercator** is *conformal* (preserves local angles) but wildly area-distorting at high latitudes. Hence the \u00b180\u00b0 clip \u2014 without it the projection diverges at the poles.\n",
+    "- **Orthographic** is what a paleo-Earth looks like from space: the visible hemisphere is rendered, the back hemisphere is clipped. Useful for \"globe view\" hero shots.\n",
+    "- **Polar stereographic** is the conventional choice for Antarctic/Arctic close-ups \u2014 it is conformal at the pole.\n",
+    "- **Azimuthal equidistant** preserves distances *from a chosen centre point*. Useful for trajectory analyses (e.g. plate-motion trajectories around an Euler pole)."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "89770c22",
+   "metadata": {},
+   "outputs": [],
+   "source": "# Cell 4 \u2014 eight projections, one figure\n# (projection, panel title, region)\n# Most projections work happily with region=\"d\" (the whole globe). Mercator\n# blows up if the region includes the poles (GMT error: \"Cannot include\n# south/north poles with Mercator projection\"), so we clip it at \u00b180\u00b0. For\n# the south-polar stereographic we choose a south-polar cap to avoid\n# unnecessary north-hemisphere distortion.\nPROJECTIONS = [\n    (\"R0/15c\",     \"Robinson\",                          \"d\"),\n    (\"W0/15c\",     \"Mollweide\",                         \"d\"),\n    (\"H0/15c\",     \"Hammer\",                            \"d\"),\n    (\"N0/15c\",     \"Sinusoidal\",                        \"d\"),\n    (\"M0/15c\",     \"Mercator\",                          [-180, 180, -80, 80]),\n    (\"G0/0/15c\",   \"Orthographic (0\u00b0N, 0\u00b0E)\",           \"d\"),\n    (\"S0/-90/15c\", \"South-polar stereographic\",         [-180, 180, -90, -30]),\n    (\"E0/0/15c\",   \"Azimuthal equidistant (0\u00b0N, 0\u00b0E)\",  \"d\"),\n]\n\n# We render each projection as its own pygmt.Figure rather than packing all\n# eight into a single pygmt.subplot. The reason: pygmt.subplot allocates\n# identical cell dimensions to every panel, but the eight projections in\n# PROJECTIONS fall into two aspect-ratio classes \u2014 pseudo-cylindrical\n# (Robinson, Mollweide, Hammer, Sinusoidal) at roughly 2:1, and\n# circular/square (Mercator-clipped, orthographic, polar stereographic,\n# azimuthal equidistant) at roughly 1:1. A uniform cell can't host both\n# without either overflowing or padding heavily, which is what produced the\n# overlapping-frame mess in earlier drafts. One figure per projection is the\n# clean answer and also the canonical pyGMT pattern for a cookbook.\nprint(f\"{TIME} Ma \u2014 same data, eight projections\")\nfor proj, title, region in PROJECTIONS:\n    fig = pygmt.Figure()\n    draw_panel(fig, proj, title, region)\n    fig.text(text=f\"{RECONSTRUCTION_TIME:.0f} Ma  ({MODEL_NAME})\",\n             position=\"TL\", offset=\"0.25c/0.25c\", justify=\"TL\",\n             font=\"14p,Helvetica-Bold,black\",\n             fill=\"white\", pen=\"0.6p,gray40\",\n             no_clip=True)\n    fig.show(width=750)\n    display(HTML('<div style=\"height:1cm\"></div>'))"
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b0e49094",
+   "metadata": {
+    "include-cell-in-app": true
+   },
+   "source": [
+    "## What the cookbook tells us\n",
+    "\n",
+    "Every map projection lies \u2014 the only choice is *which* lies you are willing to tolerate. For deep-time paleo-Earth work the most common workflow is: global summary panels in Robinson or Mollweide; regional zooms in Mercator-clipped (mid-latitudes), polar stereographic (polar regions), or orthographic (continent-in-its-own-globe). The other four exist for niche cases.\n",
+    "\n",
+    "## Extend this\n",
+    "\n",
+    "- **Compare ages.** Re-run the whole notebook with `TIME = 200` (Pangaea) and `TIME = 0` (present-day) and notice which projections handle the polar continents best.\n",
+    "- **Add a graticule of small circles** around the Pacific Euler pole at 90 Ma to visualise plate-motion trajectories \u2014 see **T12**.\n",
+    "- **Render the difference.** Plot two reconstructions (e.g. Zahirovic 2022 vs Merdith 2021) on the same projection and difference them \u2014 that's **T04**."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "73c66470",
+   "metadata": {
+    "include-cell-in-app": true
+   },
+   "source": [
+    "## References\n",
+    "\n",
+    "- Mather, B.R., M\u00fcller, R.D., Zahirovic, S., Cannon, J., Chin, M., Ilano, L., Wright, N.M., Alfonso, C., Williams, S., Tetley, M. & Merdith, A. (2024). Deep time spatio-temporal data analysis using GPlately. *Geosci. Data J.* 11, 3-10. https://doi.org/10.1002/gdj3.185\n",
+    "- Tian, D., Uieda, L., Leong, W.J., Fr\u00f6hlich, Y., Schlitzer, W., Grund, M., Jones, M., Toney, L., Yao, J., Magen, Y., Materna, K., Belem, A., Newton, T., Anant, A., Ziebarth, M., Quinn, J., Wessel, P. (2024). PyGMT: A Python interface for the Generic Mapping Tools. *Zenodo*. https://doi.org/10.5281/zenodo.13679085\n",
+    "- Wessel, P., Luis, J.F., Uieda, L., Scharroo, R., Wobbe, F., Smith, W.H.F. & Tian, D. (2019). The Generic Mapping Tools version 6. *Geochem. Geophys. Geosys.* 20, 5556-5564. https://doi.org/10.1029/2019GC008515\n",
+    "- Chin, M., Mather, B.R. & M\u00fcller, R.D. (2024). Plate Model Manager: A Python package for downloading and managing published plate-reconstruction models. *Zenodo*. https://github.com/michaelchin/plate-model-manager\n",
+    "- Zahirovic, S., Eleish, A., Doss, S., Pall, J., Cannon, J., Pistone, M., Tetley, M.G., Young, A. & M\u00fcller, R.D. (2022). Subduction and carbonate platform interactions. *Geoscience Data Journal* 9, 371-383. https://doi.org/10.1002/gdj3.146"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
