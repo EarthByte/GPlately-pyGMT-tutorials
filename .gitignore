@@ -135,3 +135,6 @@ Notebooks/kimmeridgian_figs/
 # This auto-generated rot file lives at TWO different paths in different runs
 /data/Zahirovic2022_with_gpmdb_frame.rot
 **/Zahirovic2022_with_gpmdb_frame.rot
+
+# === Per-notebook checkpoint-restore backups (created by claude during 2026-06-19 recovery) ===
+*.preckpt-backup
