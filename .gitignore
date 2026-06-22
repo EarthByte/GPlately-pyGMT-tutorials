@@ -138,3 +138,7 @@ Notebooks/kimmeridgian_figs/
 
 # === Per-notebook checkpoint-restore backups (created by claude during 2026-06-19 recovery) ===
 *.preckpt-backup
+
+# Per-notebook PMM caches (e.g. _pmm_cache_t38_src/) — auto-populated, never commit
+_pmm_cache*/
+**/_pmm_cache*/
