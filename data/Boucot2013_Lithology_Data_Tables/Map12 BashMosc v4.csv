@@ -1,0 +1,571 @@
+LithologyCode,LithNumber,OldIDNumber,,LAT,NS,LONG,EW,Continent,Country,,GeogComments,LMU,Period,Stage,AgeComments,Lithology,Formation,LithComments,PrimaryReference,SeeAlso
+E,1,E1306,,26,N,8,E,Africa,Algeria,,Fort-Polingnac Basin in eastern Algeria,Middle,Pennsylvanian,Westphlian(upper Namurian),,Gypsum,,,Dubois et al.(1959),"see also Perrodon,Teissereno(1965) upper Namurian"
+E,2,E1307,,27,N,9,E,Africa,Algeria,,Illizi Basin,L - M,Pennsylvanian,Bashkirian-Moscovian,,Evaporites,El Adeb,,Legrand-Blain(1985),see also Busson(1970)
+E,3,E1308,,27,N,13,E,Africa,Libya,,Libyan side of the Algerian frontier at several places including the southern Rhadames Basin,,Pennsylvanian,Upper Assedjefar,,Anhydrites,Tiguentourine,in the subsurface,"Bellini,Massa(1980)",
+E,4,E1309,,25,N,13,E,Africa,Libya,,Murzuq Basin,Lower,Pennsylvanian,Late Namurian thru Moscovian,,Anhydrites,Dembaba,,"Bellini,Massa(1980)","see also Grubic et al.(1991),Jakovljevic,(1984) & Komarnicki[later Namurian thru Moscovian],(1984), with anaclime beds"
+E,5,E1309.2,,25.9,N,10.8,E,Africa,Libya,,,Lower,Pennsylvanian,Moscovian,,Evaporites,Bashkirian Dembaba and overlying Moscovian beds,analcimolite beds,"Youshah,El Hatimi(2000)",see also Hallett(2002)
+E,6,E1309.1,,25,N,15,E,Africa,Niger,,Djado Basin,Lower,Pennsylvanian,,,Evaporites,Dembaba,,"Mergl,Massa(2000)",
+E,7,E1310,,43,N,89,E,Asia,China,,Tarim:Tuokesun,L - M - U?,Pennsylvanian,,Upper Carboniferous,Gypsum,Shangshuyuan,gypsum beds,Kiao Zhuo-ting et al.(1990),
+E,8,E1311,,43,N,93.5,E,Asia,China,,Tarim:Hami,L - M - U?,Pennsylvanian,,Upper Carboniferous,Gypsum,Shangshuyuan,gypsum beds,Kiao Zhuo-ting et al.(1990),
+E,9,E1312,,38.8,N,80.8,E,Asia,China,,"Tarim:Hetian,Xinjiang",Lower,Pennsylvanian,Bashkirian,,Gypsum,Kalashayi,,Wu(1991),
+E,10,E1313,,39.8,N,78.6,E,Asia,China,,"Tarim:Bachu,Xinjiang",Lower,Pennsylvanian,Bashkirian,,Gypsum,Kalashayi,,Wu(1991),
+E,11,E1314,,41.3,N,79.9,E,Asia,China,,"Tarim:Turpan,Xinjiang",Lower,Pennsylvanian,,"""Middle Carboniferous""",Gypsum,,,Wu(1991),
+E,12,E1314.1,,43.8,N,82.5,E,Asia,China,,"Tarim:Nileke,Xinjiang",Lower,Pennsylvanian,,"""Middle Carboniferous""",Gypsum,Yeleimodun,,Wu(1991),
+E,13,E1315,,30.1,N,80.1,E,Asia,China,,"Tarim:Awati,Xinjiang",Lower,Pennsylvanian,,,Evaporites,Kalashayi,,The Xinjiang Regional Stratigraphic Chart(1981),
+E,14,E1316,,39.3,N,77.8,E,Asia,China,,"Tarim:Maigaiti,Xinjiang",Lower,Pennsylvanian,,,Evaporites,Kalashayi,,The Xinjiang Regional Stratigraphic Chart(1981),
+E,15,E1317,,40.5,N,83.3,E,Asia,China,,"Tarim:West Mangar,Xinjiang",Lower,Pennsylvanian,,,Evaporites,Kalashayi,,unpublished information,
+E,16,E1318,,40.5,N,84.7,E,Asia,China,,"Tarim:south of Luntai,Xinjiang",Lower,Pennsylvanian,,,Evaporites,Kalashayi,,unpublished information,
+E,17,E1319,,39.1,N,80.7,E,Asia,China,,"Tarim:Hetian,Xinjiang",Lower,Pennsylvanian,,,Evaporites,Kalashayi,,unpublished information,
+E,18,E1320,,41.5,N,83.3,E,Asia,China,,"Tarim:Luntai,Xinjiang",Lower,Pennsylvanian,,,Evaporites,Kalashayi,,unpublished information,
+E,19,E1321,,39,N,95,E,Asia,China,,Chaidam:Subei at the eastern end of Kazakhstan plate,L - M - U?,Pennsylvanian,,Upper Carboniferous,Gypsum,Yanghukou,"with coals on the nearby on the Chaidam plate ,in the Yanghukou Fm",Wang Zhen-ji(1990),
+E,20,E1322,,36,N,105,E,Asia,China,,N. China:Jingyuan,L - M - U?,Pennsylvanian,,Upper Carboniferous,Evaporites,,,Wang Zhen-ji(1990),
+E,21,E1323,,36.6,N,102.4,E,Asia,China,,"N. China:Tianzhu,Gansu",Lower,Pennsylvanian,Bashkirian,,Anhydrites,Lushu,,The Gansu Regional Geological Survey Team(1987),
+E,22,E1324,,38.5,N,99.6,E,Asia,China,,"N. China:Qilian,Qinghai",Lower,Pennsylvanian,,"""Middle Carboniferous""",Anhydrites,,,The Qinghai Regional Stratigraphic Chart(1980),
+E,23,E1325,,39.6,N,110.6,E,Asia,China,,"N. China:Junggar Banner,Neimongol",Lower,Pennsylvanian,,,Gypsum,Benchi,,The Bureau of Geology and Mineral Resources of Neimongol Autonomous Region(1991),
+E,24,E1326,,30.3,N,107.4,E,Asia,China,,"S. China:Dianjiang,Sichuan",Lower,Pennsylvanian,,,Gypsum,Weining,,The Bureau of Geology and Mineral Resources of Sichuan Province(1991),
+E,25,E1327,,46,N,68,E,Asia,C. I. S.(frm USSR),,Gzhelian Chu-Sarysu,Lower,Pennsylvanian,Bashkirian,,Evaporites,,,"Zharkov(1981, Figs. 9,21, pp. 37-42, 52-53)",see also Cook et al.(1994)
+E,26,E1328,,42,N,75,E,Asia,C. I. S.(frm USSR),,Mid Tien Shan,Lower,Pennsylvanian,Bashkirian,,Evaporites,,,"Zharkov(1981, Figs. 9,21, pp. 37-42, 52-53)",
+E,27,E1329,,51,N,69,E,Asia,C. I. S.(frm USSR),,Teniz,Lower,Pennsylvanian,Bashkirian,,Evaporites,,,"Zharkov(1981, Figs. 9,21, pp. 37-42, 52-53)",
+E,28,E1330,,44,N,77,E,Asia,C. I. S.(frm USSR),,Tyup Basins,Lower,Pennsylvanian,Bashkirian,,Evaporites,,,"Zharkov(1981, Figs. 9,21, pp. 37-42, 52-53)",
+E,29,E1330.3,,44,N,68,E,,,,,,,,,,,,,
+E,30,E1330.1,,37.5,N,55.2,E,Asia,Iran,,,Middle,Pennsylvanian,Moscovian,,Evaporites,Gheselghaleh,,Stampfi(1978),
+E,31,E1330.2,,17.5,N,101.5,E,Asia,Thailand,,Loei region of northeast Thailand,Middle,Pennsylvanian,Moscovian,,Gypsum,,,Fontaine et al.(1997),
+E,32,E1331,,-18,S,125,E,Australia,,,Fitzroy Basin,L - M - U?,Pennsylvanian,,,Evaporites,Anderson,,Zharkov(1981),"see Brown et al.(1968(, p. 164 Anderson Fm"
+E,33,E1332,,-20,S,122,E,Australia,,,Canning Basin,L - M - U?,Pennsylvanian,,,Evaporites,Anderson,,"Wells(1980, p.8)",
+E,34,E1333,,74,N,19,E,Europe,,,Bear Island,Lower,Pennsylvanian,Bashkirian,,Evaporites,Fusuline,indirect evidence of evaporites,"Folk,Siedlecka(1974)",
+E,35,E1334,,67,N,57,E,Europe,C. I. S.(frm USSR),,Pechora-Novaya Zemlya Basin,Lower,Pennsylvanian,,basal Pennsylvanian,Evaporites,,,"Zharkov(1981, Figs. 9,21, pp. 49-51)",
+E,36,E1335,,55,N,38,E,Europe,C. I. S.(frm USSR),,East European Platform Moscow Syneclise,Middle,Pennsylvanian,Moscovian-Orenburgian,,Evaporites,,,"Zharkov(1981, Figs. 9,21, pp. 49-51)",
+E,37,E1336,,53,N,59,E,Europe,C. I. S.(frm USSR),,East Uralian area,Lower,Pennsylvanian,Bashkirian,,Evaporites,,,"Zharkov(1981, Figs. 9,21, pp. 49-51)(p.119)",
+E,38,E1337,,48,N,57,E,Europe,C. I. S.(frm USSR),,southern Urals,L - M - U?,Pennsylvanian,,,Evaporites,,,"Masse,Vachard(1996)",
+E,39,E1337.1,,68,N,49,E,Europe,C. I. S.(frm USSR),,Kolguev Island,Lower?,Pennsylvanian,,Middle Carboniferous,Anhydrites,,,Preobrazhenskaya et al.(1995),
+E,40,E1338,,72,N,25,E,Europe,Norway,,Nordkapp Basin off the noerthern coast of Norway,L - M,Pennsylvanian,Bashkirian to Moscovian,,Evaporites,,based on seismic data,"Stemmerik,Worsley(1989)","see also Johansen et al.(1993, Fig. 5);see also Wood et al.(1989)"
+E,41,E1339,,60,N,11,E,Europe,Norway,,Asker in the Oslo region,L - M - U?,Pennsylvanian,,,Anhydrites,Kolsas,,Olaussen(1981b),
+E,42,E1340,,78,N,15,E,Europe,Svalbard,,,L - M - U?,Pennsylvanian,,,Evaporites,,,Holliday(1966),see Major et al.(1956) for additional information
+E,43,E1342.1,,78,N,18,E,Europe,Svalbard,,,L - M,Pennsylvanian,Bashkirian-Moscovian(Moscovian),,Evaporites,Minkinfjellet(Hyrnefjellet),,"Harland(1997, p.310)",
+E,44,E1341,,43,N,-6,W,Europe,Spain,,Asturias,Lower,Pennsylvanian,Namurian B,,Evaporites,,,Gonzales Lastra(1978),
+E,45,E1342,,42.6,N,-1.5,W,Europe,Spain,,,Lower,Pennsylvanian,Namurian ,,Evaporites,,magnesite,Velasco et al.(1987),
+E,46,E1343,,57,N,-117,W,N. America,Canada,,Alberta:Peace River Embayment area,L - M - U?,Pennsylvanian,,,Evaporites,,,"Douglas et al.(1970, Fig. VIII-23)",
+E,47,E1344,,80,N,-90,W,N. America,Canada,,Arctic:Sverdrup Basin,Lower,Pennsylvanian,,see Mississippian section,Evaporites,Otto Fiord,,Davies(1973),
+E,48,E1345,,77,N,-83,W,N. America,Canada,,Arctic:Ellesmere Island,Middle,Pennsylvanian,Moscovian,,Evaporites,,,"Claypool et al.(1980,Appendix)",
+E,49,E1345.1,,76,N,-83,W,N. America,Canada,,Arctic:Ellesmere Island,Lower,Pennsylvanian,Namurian or Bashkirian,,Evaporites,,,"Claypool et al.(1980,Appendix)",
+E,50,"E1345,2",,81,N,-84,W,,,,,,,,,,,,,
+E,51,E1346,,82,N,-20,W,N. America,Canada,,Greenland:northern Greenland,M - U,Pennsylvanian,Moscovian to Gzhelian,,Evaporites,"Foldedal,Kap Jungerson(including th Ingolf Fjord Member)",,"Stemmerik,Hakansson(1989)",
+E,52,E1346.1,,81,N,-15,W,N. America,Canada,,Greenland:northern Greenland,M - U,Pennsylvanian,Moscovian to Gzhelian,,Evaporites,Foldedal and the underlying Ingolf Member,,Stemmerik(1989),
+E,53,E1347,,37,N,-109,W,N. America,United States,,Colorado and Utah:Paradox Basin,Middle,Pennsylvanian,Desmoinesian,,Evaporites,Paradox,,Hite(1968),
+E,54,E1348,,42,N,-108,W,N. America,United States,,Colorado and Utah:,Middle?,Pennsylvanian,,,Evaporites,,,Johnson et al.(1992),
+E,55,E1348.1,,38.5,N,-105.6,W,N. America,United States,,Colorado and Utah: Eagle Basin,Middle?,Pennsylvanian,,,Evaporites,"Minturn,Belden",,Taylor et al.(1975),
+E,56,E1349,,44,N,-85,W,N. America,United States,,Michigan Basin,Middle?,Pennsylvanian,,,Evaporites,Allegheneyan evaporites in the Grand River Fm,,"Wanless,Shideler(1975)",
+E,57,E1350,,42,N,-104,W,N. America,United States,,Nebraska & Wyoming,M - U,Pennsylvanian,,,Evaporites,Minnelusa,,Johnson et al.(1989),
+E,58,E1351,,47,N,-104,W,N. America,United States,,Williston Basin:on the U.S. side,Middle?,Pennsylvanian,,,Evaporites,Minnelusa,,Reed(1963),
+E,59,E1352,,-11,S,-66.5,W,S. America,Bolivia,,Pando Department,Lower,Pennsylvanian,(Zone 20)Morrowan,(per Mamet),Anhydrites,,from wells in Pando Department,Isaacson et al.(1995),see also Vavrdova et al.(1996)
+E,60,E1353,,-4,S,-68,W,S. America,Brazil,,Solimoes Basin,Lower?,Pennsylvanian,,,Evaporites,(Caruari),,Caputo(1991),(see also Silva(1988) Caruari Fm)
+E,61,E1354,,-5,S,-45,W,S. America,Brazil,,Parnaiba Basin,M - U,Pennsylvanian,Westphlian D-early Stephanian,,Evaporites,Piaui,,"Petri,Fulfaro(1983, p. 111-112)",
+E,62,E1355,,-15,S,-72,W,S. America,Peru,,,L - M - U?,Pennsylvanian,,,Evaporites,Atokan Tarma Group,,"Benavides(1968, p. 255-259)",
+E,63,E1356,,8,N,-72,W,S. America,Venezula,,,M - U,Pennsylvanian,"Moscovian,Kasimovian,Gzhelian",also Early Permian,Evaporites,Palmarito,,"Benavides(1968, p.258)",
+CA,64,"CA1356,1",,55,N,38,E,,,,,,,,,,,,,
+CA,65,CA1357,,53,N,7.5,E,Europe,Germany,,northwestern Germany,M - U,Pennsylvanian,Westphalian(D) and Stephanian,,Calcretes,,regional intermingling of the calcretes with lateritic type ferrasols,"Selter(1989, Fig. 8)",
+CA,66,CA1358,,49,N,11,E,Europe,Germany,,,M - U,Pennsylvanian,Westphalian and Stephanian,,Calcretes,Bechtsrieth,,Dill(1992),
+CA,67,CA1359,,52,N,7,E,Europe,Netherlands,,,M - U,Pennsylvanian,Westphalian(D) to (questionable Stephanian),,Calcretes,,"questionable Stephanian calcrete from Well De Lutte-6(Rossler,1995 does not question them)",Van der Zwan et al.(1993),see also Pagnier and van Tongeren(1996)
+CA,68,CA1360,,60,N,11,E,Europe,Norway,,,Middle,Pennsylvanian,Moscovian,,Calcretes,Kolsas,calcrete-bearing,Olaussen et al.(1994),
+CA,69,CA1361,,78,N,15,E,Europe,"Svalbard,Bear Ise.",,Svalbard,Lower,Pennsylvanian,Bashkirian,,Calcretes,,,Ludwig(1990),
+CA,70,CA1362,,74,N,19,E,Europe,"Svalbard,Bear Ise.",,Bjornoya,Lower,Pennsylvanian,Bashkirian,,Calcretes,,,"Gjeberg,Steel(1981)",
+CA,71,CA1363,,53,N,-2,W,United Kingdom,England,,,Middle,Pennsylvanian,Westphalian D,,Calcretes,Halesowen,,"Glover,Powell(1996)",
+CA,72,CA1363.1,,54,N,2.5,E,United Kingdom,England,,southern North Sea,Middle,Pennsylvanian,late Westphalian,,Calcretes,,,Cameron et al.(1992),
+CA,73,CA1364,,78,N,-85,W,N. America,Canada,,Arctic:southwestern Ellesmere Island,Lower,Pennsylvanian,Bashkirian-Orenburgian,,Calcretes,Canyon Fiord,,"Theriault,Desrochers(1993)","see also Beauchamp,Theriault(1994)Grinnell Peninsula"
+CA,74,CA1365,,77,N,-95.25,W,N. America,Canada,,Arctic:Grinnell Island,Lower,Pennsylvanian,Bashkirian-Orenburgian,,Calcretes,,,"Theriault,Desrochers(1993)","see also Beauchamp,Theriault(1994)Grinnell Peninsula"
+CA,75,CA1366,,78.5,N,-84,W,N. America,Canada,,Arctic:southwestern Ellesmere Island,Lower,Pennsylvanian,Bashkirian,,Calcretes,Canyon Fiord,,"Theriault,Desrochers(1994)",
+CA,76,CA1366.1,,76.5,N,-94,W,N. America,Canada,,Arctic:northern Devon Island,Lower?,Pennsylvanian,,,Calcretes,,,Mayr et al.(1998),
+CA,77,CA1367,,46,N,-64,W,N. America,Canada,,New Brunswick,Middle,Pennsylvanian,Westphalian A,,Calcretes,Boss Point,,"Plint,Browne(1994)",
+CA,78,CA1368,,46,N,-60,W,N. America,Canada,,Nova Scotia:Sydney area,M - U,Pennsylvanian,Westphalian D to Stephanian,,Calcretes,,pedogenic calcretes intimately associated in cyclothems with coals,"Tandon,Gibling(1994)",
+CA,79,CA1368.1,,48.5,N,-64.25,W,N. America,Canada,,Qubec,Lower,Pennsylvanian,Namurian,,Calcretes,Cannes de Roche,,Rust(1979),
+CA,80,CA1369,,33,N,-112,W,N. America,United States,,Arizona,Lower,Pennsylvanian,,,Calcretes,Black Prince Limestone,,"Goldhammer,Elmore(1984)",
+CA,81,CA1370,,36,N,-95,W,N. America,United States,,Arkansas,Lower,Pennsylvanian,between Morrowan and the underlying L. Mississippian,,Calcretes,,,Webb(1994),
+CA,82,CA1371,,38,N,-96,W,N. America,United States,,Kansas:eastern Kansas,L - M - U?,Pennsylvanian,,,Calcretes,Sniabar Limestone,,Watney et al.(1989),
+CA,83,CA1372,,38,N,-110,W,N. America,United States,,Utah:southeastern Utah,Middle,Pennsylvanian,,,Calcretes,Hermosa,,Loope(1988),
+CA,84,CA1373,,39,N,-81,W,N. America,United States,,West Virginia,Lower,Pennsylvanian,,basal Pennsylvanian,Calcretes,Breathitt,,Chestnut(1989),"see also Cecil,Englund(1989)"
+CA,85,CA1374,,42,N,-106,W,N. America,United States,,Wyoming and Colorado,L - M - U?,Pennsylvanian,,,Calcretes,Fountain,,"Loope,Schnitt(1980)",
+CA,86,CA1375,,39,N,-105,W,N. America,United States,,Wyoming and Colorado:Front Range of Colorado and southeastern Wyoming,L - M - U?,Pennsylvanian,,,Calcretes,Fountain,,"Langford,Fishbaugh(1984)and Loope(1988)",
+T,87,T1376,,19.5,N,45.5,E,Asia,Arabia,,southern Saudi Arabia,M - U,Pennsylvanian,Westphalian or early Stepanian to Sakmarian,,Tillites,,,McClure et al.(1988),
+T,88,T1376.1,,27,N,45.5,E,Asia,Nepal,,"central Nepal ,(Spiti)",L - M,Pennsylvanian,"Bashkirian/Moscovian,(Moscovian)",,Tillites,Bangba Diamictite,"diamictites,(dropstones)",Garzanti et al.(1998),
+T,89,T1377,,-34,S,151,E,Australia,New South Wales,,,L - M,Pennsylvanian,"Namurian,(possibly early Westphalian)",,Tillites,,,"Dickins(1985a) (Dickins(written comm.,1994; 1996, )with a possibility for E. Westphlian as well)",
+T,90,T1378,,-23,S,-64,W,S. America,"Argentina,adj. S. Bolivia",,,Lower ,Pennsylvanian,(later Namurian-Westphalian)early Pennsylvanian,latest Mississippian,Tillites,Tarija,,Fernandez Garrasino(in Hambrey and Harland(1981),(see also Lopez-Gamundi et al.(1992) who places these beds in the later Namurian-Westphalian and Lopez-Gamundi and Martinez(2000)) 
+T,91,T1379,,-32,S,-69,W,S. America,"Argentina,adj. S. Bolivia",,Mendoza and San Juan Provinces,Middle,Pennsylvanian,Westphalian,,Tillites,,,"Amos and Lopez Gamundi(in Hambrey and Harland,1981)",also Lopez-Gamundi et al.(1992)
+T,92,T1380,,-43,S,-71,W,S. America,"Argentina,adj. S. Bolivia",,Patagonian Basin,L - M,Pennsylvanian,(Namurian-Westphalian)Westphalian,,Tillites,(Pampa de Tepuel),diamictites,"Amos and Lopez Gamundi(in Hambrey and Harland,1981)","(see also Lopez-Gamundi et al.(1992)and Saravia,Jones(1999),Namurian-Westphalian Pampa de Tepuel Fm and Gonzalez(1993))"
+T,93,T1381,,-29,S,-68,W,S. America,"Argentina,adj. S. Bolivia",,near Famatina,L - M - U?,Pennsylvanian,,,Tillites,,,"Limarino,Gutierrez(1990)",
+T,94,T1382,,-30,S,-68,W,S. America,"Argentina,adj. S. Bolivia",,Paganzo Basin,L - M,Pennsylvanian,Namurian-Westphalian,,Tillites,,diamictites,Lopez-Gamundi et al.(1993),"see also Cesari,Limarino(2002)"
+D,95,D1383,,66,N,150,E,Asia,C. I. S.(frm USSR),,Kolyma River region,L - M - U?,Pennsylvanian,,,Dropstones,,"pebbly mudstones,some 30 cm cobbles",Epshteyn(1981a in Hambrey and Harland),
+D,96,D1384,,66.3,N,158.5,E,Asia,C. I. S.(frm USSR),,Berezovka River region,L - M - U?,Pennsylvanian,,,Dropstones,,"pebbly mudstones,some 30 cm cobbles",Epshteyn(1981a in Hambrey and Harland),
+G,97,G1384.1,,-44,S,-70,W,S. America,Argentina,,Chubut Province,Middle,Pennsylvanian,Westphlian,,Glendonites,Las Salinas,,Gonzales(1980),
+C,98,C1385,,35,N,-1,W,Africa,Algeria,,Oranais,L - M - U?,Pennsylvanian,,,Coals,,,Deleau(1945),
+C,99,C1386,,32,N,-4,W,Africa,Algeria,,"Abadla Basin,Mezarif Basin,Bechar-Kenadza Basin",Middle,Pennsylvanian,Westphlian,,Coals,,,Petroconsultants(1977),"see also Feys,Fabre(1966),Feys(1965)"
+C,100,C1387,,28,N,-8,W,Africa,Algeria,,Tindouf Basin,Middle,Pennsylvanian,Westphlian and Stephanian,,Coals,,,"Gorsky et al.(1967, sheet 13)",
+C,101,C1388,,34,N,-32,W,Africa,Algeria,,Jerada,Middle,Pennsylvanian,Westphlian,,Coals,,,"Gorsky et al.(1967, sheet 13)",
+C,102,C1389,,30,N,32,E,Africa,Egypt,,Suez region,L - M - U?,Pennsylvanian,,,Coals,"""Safa""",,Petroconsultants(1977),
+C,103,C1390,,34,N,-3,W,Africa,Morocco,,Djerada region,Middle,Pennsylvanian,Westphlian,,Coals,,,Owodenko(1947),
+C,104,C1391,,31,N,-5,W,Africa,Morocco,,Hammada du Guir,Lower,Pennsylvanian,Namurian,,Coals,,,Petroconsultants(1977),
+C,105,C1391.1,,34.5,N,-2,W,Africa,Morocco,,Jerada,Middle,Pennsylvanian,Westphlian,,Coals,,,Izart et al. (1998),
+C,106,C1392,,13,N,104,E,Asia,China,,Cambodia:Tonle Sap Basin,L - M - U?,Pennsylvanian,,,Coals,,,Vysotsky et al.(1994),
+C,107,C1393,,30,N,90,E,Asia,China,,"Xizang:Tanggula Shan,Tanggula subregion,Qiangtang Region-Tibet",L - M - U?,Pennsylvanian,,undivided Pennsylvania,Coals,,,"Taner,Meyerhoff(1990, Table 2)",
+C,108,C1394,,32,N,96,E,Asia,China,,Xizang:Donga,L - M - U?,Pennsylvanian,,Upper Carboniferous,Coals,,,Wang Zhen-ji(1990),
+C,109,C1395,,41,N,79,E,Asia,China,,Tarim and Xinjiang:Aheqi,L - M - U?,Pennsylvanian,,Upper Carboniferous,Coals,,,Wang Zhen-ji(1990),
+C,110,C1396,,44,N,89.5,E,Asia,China,,"Tarim and Xinjiang:Qitai,Xinjiang",Lower,Pennsylvanian,Bashkirian,,Coals,Bataimaneiyishan,,Li et al.(1994),
+C,111,C1397,,41.1,N,80.2,E,Asia,China,,"Tarim and Xinjiang:Aksu,Xinjiang",Middle,Pennsylvanian,Moscovian,,Coals,Bijingtawy,,Li et al.(1994),
+C,112,C1398,,41.2,N,79.2,E,Asia,China,,"Tarim and Xinjiang:Wushi,Xinjiang",Middle,Pennsylvanian,Moscovian,,Coals,Bijingtawu,,Li et al.(1994)
+C,113,C1399,,38.4,N,80.8,E,Asia,China,,"Tarim and Xinjiang:Mazataige,Xinjiang",Lower,Pennsylvanian,Bashkirian,,Coals,Kalawuyi,,The Xinjiang Regional Statagraphic Chart(1981)
+C,114,C1400,,38,N,102,E,Asia,China,,Chaidam:Yongchang,L - M - U?,Pennsylvanian,,,Coals,"Jiaan,Daquan",,Wang Zhen-ji(1990)
+C,115,C1401,,39,N,94,E,Asia,China,,Chaidam:Aksai,L - M - U?,Pennsylvanian,,,Coals,,,Wang Zhen-ji(1990)
+C,116,C1402,,39,N,100,E,Asia,China,,Chaidam:Sunan,L - M - U?,Pennsylvanian,,,Coals,,,Wang Zhen-ji(1990)
+C,117,C1403,,38,N,102,E,Asia,China,,Chaidam:Qilian,L - M - U?,Pennsylvanian,,,Coals,,,Wang Zhen-ji(1990)
+C,118,C1404,,40,N,97,E,Asia,China,,Chaidam:Yumen,L - M - U?,Pennsylvanian,,,Coals,,,Wang Zhen-ji(1990)
+C,119,C1405,,36,N,105,E,Asia,China,,N. China:Jingyuan,L - M - U?,Pennsylvanian,,,Coals,,,Yang Jing-zhi et al.(1982)
+C,120,C1406,,38,N,105,E,Asia,China,,N. China:Zhongwei,L - M - U?,Pennsylvanian,,,Coals,,,Yang Jing-zhi et al.(1982)
+C,121,C1407,,39,N,101,E,Asia,China,,N. China:Shandan,Middle,Pennsylvanian,Westphalian,,Coals,Yanghukou,,Grabau(1924)
+C,122,C1408,,41.5,N,108.1,E,Asia,China,,N. China:Wulate Banner-Shiguaizi,L - M - U?,Pennsylvanian,,,Coals,"Shetai,Shuanmazhung",,Wang Zhen-ji(1990)
+C,123,C1409,,42,N,109,E,Asia,China,,N. China:Wulate Banner-Shiguaizi,L - M - U?,Pennsylvanian,,,Coals,"Shetai,Shuanmazhung",,Wang Zhen-ji(1990)
+C,124,C1410,,42.5,N,109.5,E,Asia,China,,N. China:Wulate Banner-Shiguaizi,L - M - U?,Pennsylvanian,,,Coals,"Shetai,Shuanmazhung",,Wang Zhen-ji(1990)
+C,125,C1411,,35.5,N,110.5,E,Asia,China,,N. China:Hancheng,L - M - U?,Pennsylvanian,,,Coals,Penchi,,Wang Zhen-ji(1990)
+C,126,C1412,,38,N,112.5,E,Asia,China,,"N. China:Shanxi Province mainly from the Xinshui Basin,including Gujiao,Taiyuan",L - M - U?,Pennsylvanian,,,Coals,Penchi,,Wang Zhen-ji(1990)
+C,127,C1413,,38,N,113.5,E,Asia,China,,"N. China:Xinshui Basin,Yuxian",L - M - U?,Pennsylvanian,,,Coals,Penchi,,Wang Zhen-ji(1990)
+C,128,C1414,,38,N,114,E,Asia,China,,"N. China:Xinshui Basin,Jinjing",L - M - U?,Pennsylvanian,,,Coals,Penchi,,Wang Zhen-ji(1990)
+C,129,C1415,,36.5,N,112.5,E,Asia,China,,"N. China:Xinshui Basin,Jiaokou",L - M - U?,Pennsylvanian,,,Coals,Penchi,,Wang Zhen-ji(1990)
+C,130,C1416,,36,N,112,E,Asia,China,,"N. China:Xinshui Basin,Fengxi,Yicheng",L - M - U?,Pennsylvanian,,,Coals,Penchi,,Wang Zhen-ji(1990)
+C,131,C1417,,35,N,112,E,Asia,China,,"N. China:Xinshui Basin,Yuanqi",L - M - U?,Pennsylvanian,,,Coals,Penchi,,Wang Zhen-ji(1990)
+C,132,C1418,,35.5,N,113,E,Asia,China,,"N. China:Xinshui Basin, Jincheng",L - M - U?,Pennsylvanian,,,Coals,Penchi,,Wang Zhen-ji(1990)
+C,133,C1419,,40,N,113,E,Asia,China,,"N. China:Xinshi Basin,Datong",L - M - U?,Pennsylvanian,,,Coals,Penchi,,Wang Zhen-ji(1990)
+C,134,C1420,,39,N,118,E,Asia,China,,"N. China:Xinshi Basin, Ningwu",L - M - U?,Pennsylvanian,,,Coals,Penchi,,Wang Zhen-ji(1990)
+C,135,C1421,,35,N,113,E,Asia,China,,"N. China:Xinshui Basin,Jiaozuo",L - M - U?,Pennsylvanian,,,Coals,Penchi,,Wang Zhen-ji(1990)
+C,136,C1422,,40,N,116,E,Asia,China,,"N. China:Xinshui Basin,western Beijing",L - M - U?,Pennsylvanian,,,Coals,Penchi,,Wang Zhen-ji(1990)
+C,137,C1423,,39.5,N,118,E,Asia,China,,"N. China:Hebei Province,Kaiping",L - M - U?,Pennsylvanian,,,Coals,"Kaiping,Zhaogezhuang",,Wang Zhen-ji(1990)
+C,138,C1424,,40.5,N,117.5,E,Asia,China,,"N. China:Hebei Province,Xinlong",L - M - U?,Pennsylvanian,,,Coals,"Kaiping,Zhaogezhuang",,Wang Zhen-ji(1990)
+C,139,C1425,,40,N,119.5,E,Asia,China,,"N. China:Hebei Province,Funing-Shanhaiguan",L - M - U?,Pennsylvanian,,,Coals,"Kaiping,Zhaogezhuang",,Wang Zhen-ji(1990)
+C,140,C1426,,41,N,124,E,Asia,China,,N. China:northeast China-Benxi,L - M - U?,Pennsylvanian,,,Coals,Penchi,,Wang Zhen-ji(1990)
+C,141,C1427,,42,N,126.3,E,Asia,China,,N. China:Northeast China-Hunjiang,L - M - U?,Pennsylvanian,,,Coals,Penchi,,Wang Zhen-ji(1990)
+C,142,C1428,,34,N,113,E,Asia,China,,N. China:Yiyuan and Luoyang Coal Fields,L - M - U?,Pennsylvanian,,,Coals,Penchi,,Beijing Acad. Coal Sci.(1959)
+C,143,C1429,,42,N,126,E,Asia,China,,N. China:Tonghua coal fields,L - M - U?,Pennsylvanian,,,Coals,Penchi,,Beijing Acad. Coal Sci.(1959)
+C,144,C1430,,41,N,110,E,Asia,China,,N. China,L - M - U?,Pennsylvanian,,,Coals,Shuanmazhuang coal series and other units,,"Shan-Guan Xiong,Wang Zeng-yin(1987)",
+C,145,C1431,,39,N,109,E,Asia,China,,N. China:Jungar Coal Field-Nei Mongol,L - M - U?,Pennsylvanian,,,Coals,Penchi,,He Xi-lin et al.(1987),see also Zhao Xia(1987)
+C,146,C1432,,35,N,117,E,Asia,China,,N. China:Taozhuang and Zhaozhuang Coal Fields,L - M - U?,Pennsylvanian,,,Coals,Penchi,,Beijing Acad. Coal Sci.(1959),
+C,147,C1433,,32,N,116,E,Asia,China,,N. China:Gushi-Shongcheng-Jinzhai area,M - U,Pennsylvanian,,Upper Carboniferous,Coals,"Yangxiaozhuang,Shuangshitou",,Wang Zhen-ji(1990),
+C,148,C1434,,41.2,N,109.2,E,Asia,China,,"N. China:Wulate Front Banner,Neimongol",Middle,Pennsylvanian,Moscovian,,Coals,Yutai,,Wang Zhen-ji(1990),
+C,149,C1435,,40.7,N,113.2,E,Asia,China,,"N. China:Chahaer Right-Front Banner, Neimongol",Middle,Pennsylvanian,Moscovian,,Coals,Shanmazhuan,,The Bureau of Geology and Mineral Resources of Neimongol Autonomous Region(1991),
+C,150,C1436,,39.3,N,106.2,E,Asia,China,,"N. China:Wuda,Neimongol",Middle,Pennsylvanian,Moscovian,,Coals,Yanghugou,,Wang et al.(1990),
+C,151,C1436.1,,38.8,N,105.7,E,Asia,China,,"N. China:Alax Left Banner,Neimongol",Middle,Pennsylvanian,Moscovian,,Coals,Yanghugou,,The Bureau of Geology and Mineral Resources of Neimongol Autonomous Region(1991),
+C,152,C1437,,39.8,N,111.6,E,Asia,China,,N. China:Junggar Banner,Middle,Pennsylvanian,Moscovian,,Coals,Benchi,,The Bureau of Geology and Mineral Resources of Neimongol Autonomous Region(1991),
+C,153,C1438,,39.2,N,106.2,E,Asia,China,,"N. China:Hulutai,Neimongol",Middle,Pennsylvanian,Moscovian,,Coals,Benchi,,Li et al.(1994),
+C,154,C1439,,45.5,N,131.8,E,Asia,China,,"N. China:Mishan,Heilongjiang",Middle,Pennsylvanian,Moscovian,,Coals,Zhenzishan,,Li et al.(1994),
+C,155,C1440,,41.4,N,128.1,E,Asia,China,,"N. China:Changbai,Jilin",Middle,Pennsylvanian,Moscovian,,Coals,Benchi,,Li et al.(1994),
+C,156,C1441,,41.3,N,119.4,E,Asia,China,,"N. China:Lingyuan,Liaoning",Middle,Pennsylvanian,Moscovian,,Coals,Benchi,,The Bureau of Geology and Mineral Resources of Liaoning Province1989),
+C,157,C1442,,35.9,N,110.8,E,Asia,China,,"N. China:Ningxiang,Shanxi",Middle,Pennsylvanian,Moscovian,,Coals,Benchi,,Li et al.(1994),
+C,158,C1443,,35.7,N,113.2,E,Asia,China,,"N. China:Lingchuan,Shanxi",Middle,Pennsylvanian,Moscovian,,Coals,Benchi,,The Bureau of Geology and Mineral Resources of Shanxi Province(1989),
+C,159,C1444,,36.2,N,111.6,E,Asia,China,,"N. China:Hongtong,Shanxi",Middle,Pennsylvanian,Moscovian,,Coals,Benchi,,The Bureau of Geology and Mineral Resources of Shanxi Province(1989),
+C,160,C1445,,36.8,N,111.8,E,Asia,China,,"N. China:Lingshi,Shanxi",Middle,Pennsylvanian,Moscovian,,Coals,Benchi,,The Bureau of Geology and Mineral Resources of Shanxi Province(1989)
+C,161,C1446,,35.1,N,111.2,E,Asia,China,,"N. China:Xiaxian,Shanxi",Middle,Pennsylvanian,Moscovian,,Coals,Benchi,,The Bureau of Geology and Mineral Resources of Shanxi Province(1989)
+C,162,C1447,,35.9,N,112.8,E,Asia,China,,"N. China:Shangyin,Shanxi",Middle,Pennsylvanian,Moscovian,,Coals,Benchi,,The Bureau of Geology and Mineral Resources of Shanxi Province(1989)
+C,163,C1448,,35.5,N,112.4,E,Asia,China,,"N. China:Fucheng,Shanxi",Middle,Pennsylvanian,Moscovian,,Coals,Benchi,,The Bureau of Geology and Mineral Resources of Shanxi Province(1989)
+C,164,C1449,,35.6,N,110.7,E,Asia,China,,"N. China:Hejin,Shanxi",Middle,Pennsylvanian,Moscovian,,Coals,Benchi,,The Bureau of Geology and Mineral Resources of Shanxi Province(1989)
+C,165,C1450,,36.8,N,118,E,Asia,China,,"N. China:Zibo,Shandong",Middle,Pennsylvanian,Moscovian,,Coals,Benchi,,The Bureau of Geology and Mineral Resources of Shanxi Province(1989)
+C,166,C1451,,35.4,N,115.9,E,Asia,China,,"N. China:Liaocheng,Shandong",Middle,Pennsylvanian,Moscovian,,Coals,Benchi,,The Bureau of Geology and Mineral Resources of Shandong Province(1991)
+C,167,C1452,,36.2,N,117.6,E,Asia,China,,"N. China:Laiwu,Shandong",Middle,Pennsylvanian,Moscovian,,Coals,Benchi,,The Bureau of Geology and Mineral Resources of Shandong Province(1991)
+C,168,C1453,,36.2,N,116.7,E,Asia,China,,"N. China:Feicheng,Shandong",Middle,Pennsylvanian,Moscovian,,Coals,Benchi,,The Bureau of Geology and Mineral Resources of Shandong Province(1991)
+C,169,C1454,,35.8,N,117.6,E,Asia,China,,"N. China:Xinwen,Shandong",Middle,Pennsylvanian,Moscovian,,Coals,Benchi,,The Bureau of Geology and Mineral Resources of Shandong Province(1991)
+C,170,C1455,,37.7,N,118.1,E,Asia,China,,"N. China:Zhanhua,Shandong",Middle,Pennsylvanian,Moscovian,,Coals,Benchi,,The Bureau of Geology and Mineral Resources of Shandong Province(1991)
+C,171,C1456,,35.4,N,116.9,E,Asia,China,,"N. China:Zhouxian,Shandong",Middle,Pennsylvanian,Moscovian,,Coals,Benchi,,The Bureau of Geology and Mineral Resources of Shandong Province(1991)
+C,172,C1457,,35.1,N,117.1,E,Asia,China,,"N. China:Tengzhou,Shandong",Middle,Pennsylvanian,Moscovian,,Coals,Benchi,,The Bureau of Geology and Mineral Resources of Shandong Province(1991)
+C,173,C1458,,35,N,118.3,E,Asia,China,,"N. China:Lingyi,Shandong",Middle,Pennsylvanian,Moscovian,,Coals,Benchi,,The Bureau of Geology and Mineral Resources of Shandong Province(1991)
+C,174,C1459,,35.5,N,118.8,E,Asia,China,,"N. China:Luxian,Shandong",Middle,Pennsylvanian,Moscovian,,Coals,Benchi,,The Bureau of Geology and Mineral Resources of Shandong Province(1991)
+C,175,C1460,,35.5,N,116.8,E,Asia,China,,"N. China:Yanzhou,Shandong",Middle,Pennsylvanian,Moscovian,,Coals,Benchi,,The Bureau of Geology and Mineral Resources of Shandong Province(1991)
+C,176,C1461,,35.4,N,116.5,E,Asia,China,,"N. China:Jining,Shandong",Middle,Pennsylvanian,Moscovian,,Coals,Benchi,,The Bureau of Geology and Mineral Resources of Shandong Province(1991)
+C,177,C1462,,35.8,N,114.1,E,Asia,China,,"N. China:Hebi,Henan",Middle,Pennsylvanian,Moscovian,,Coals,Benchi,,The Bureau of Geology and Mineral Resources of Henan Province(1989)
+C,178,C1463,,41,N,118.6,E,Asia,China,,"N. China:Pingquan,Hebei",Middle,Pennsylvanian,Moscovian,,Coals,Benchi,,The Bureau of Geology and Mineral Resources of Henan Province(1989)
+C,179,C1464,,39.2,N,106.3,E,Asia,China,,"N. China:Shitanjing,Ningxia",Middle,Pennsylvanian,Moscovian,,Coals,Benchi,,Li et al.(1994)
+C,180,C1465,,38.4,N,105.8,E,Asia,China,,"N. China:Yinchuan,Ningxia",Middle,Pennsylvanian,Moscovian,,Coals,Yanghugou,,Wang et al.(1990)
+C,181,C1466,,37.8,N,95.3,E,Asia,China,,"N. China:Delingha,Qinghai",Lower,Pennsylvanian,Bashkirian,,Coals,Keluke,,The Bureau of Geology and Mineral Resources of Qinghai Province(1991)
+C,182,C1467,,37,N,97.6,E,Asia,China,,"N. China:Wulan,Qinghai",Lower,Pennsylvanian,Bashkirian,,Coals,Keluke,,The Bureau of Geology and Mineral Resources of Qinghai Province(1991)
+C,183,C1468,,36.7,N,104.7,E,Asia,China,,"N. China:Jingyuan,Gansu",Lower,Pennsylvanian,Bashkirian,,Coals,Hongtuwa,,Li et al.(1994)
+C,184,C1469,,37.1,N,104,E,Asia,China,,"N. China:Jingtai,Gansu",L - M?,Pennsylvanian,Bashkirian/Mosovian?,,Coals,"Hongtuwa,Yanghugou",,Li et al.(1994)
+C,185,C1470,,37.9,N,102.6,E,Asia,China,,"N. China:Wuwei,Gansu",Middle,Pennsylvanian,Moscovian,,Coals,Yanghugou,,Li et al.(1994)
+C,186,C1471,,39.7,N,98.4,E,Asia,China,,"N. China:Jiuquan,Gansu",Middle,Pennsylvanian,Moscovian,,Coals,Yanghugou,,Li et al.(1994)
+C,187,C1472,,35.3,N,103.8,E,Asia,China,,"N. China:Lingtiao,Gansu",Lower,Pennsylvanian,Bashkirian,,Coals,Chaoliangyi,,The Gansu Regional Geological Survey Team(1987)
+C,188,C1473,,34.8,N,104.4,E,Asia,China,,"N. China:Zhangxian,Gansu",Lower,Pennsylvanian,Bashkirian,,Coals,Chaoliangyi,,The Gansu Regional Geological Survey Team(1987)
+C,189,C1474,,34.5,N,105.9,E,Asia,China,,"N. China:Tianshui,Gansu",Lower,Pennsylvanian,Bashkirian,,Coals,Chaoliangyi,,Li et al.(1994)
+C,190,C1475,,35.3,N,103.6,E,Asia,China,,"N. China:Kangle,Gansu",Lower,Pennsylvanian,Bashkirian,,Coals,Chaoliangyi,,Li et al.(1994)
+C,191,C1476,,34.7,N,104.8,E,Asia,China,,"N. China:Wushan,Gansu",Lower,Pennsylvanian,Bashkirian,,Coals,Chaoliangyi,,Li et al.(1994)
+C,192,C1477,,33.9,N,106.5,E,Asia,China,,N. China:Fengxian<Gansu,Lower,Pennsylvanian,Bashkirian,,Coals,Chaoliangyi,,Li et al.(1994)
+C,193,C1478,,34.1,N,108.6,E,Asia,China,,"N. China:Huxian,Shaanxi",Lower,Pennsylvanian,Bashkirian,,Coals,Chaoliangyi,,The Bureau of Geology and Mineral Resources of Shaanxi Province(1989)
+C,194,C1479,,35.4,N,110.4,E,Asia,China,,"N. China:Hancheng,Shaanxi",Middle,Pennsylvanian,Moscovian,,Coals,Benchi,,The Bureau of Geology and Mineral Resources of Shaanxi Province(1989)
+C,195,C1480,,36.5,N,109.4,E,Asia,China,,"N. China:Yanan,Shaanxi",Middle,Pennsylvanian,Moscovian,,Coals,Benchi,,The Bureau of Geology and Mineral Resources of Shaanxi Province(1989)
+C,196,C1481,,35.1,N,109.9,E,Asia,China,,"N. China:Chengcheng,Shaanxi",Middle,Pennsylvanian,Moscovian,,Coals,Benchi,,The Bureau of Geology and Mineral Resources of Shaanxi Province(1989)
+C,197,C1482,,37.4,N,110.7,E,Asia,China,,"N. China:Wubao,Shaanxi",Middle,Pennsylvanian,Moscovian,,Coals,Benchi,,The Bureau of Geology and Mineral Resources of Shaanxi Province(1989)
+C,198,C1483,,39,N,110,E,Asia,China,,"N. China:Fugu,Shaanxi",Middle,Pennsylvanian,Moscovian,,Coals,Benchi,,The Bureau of Geology and Mineral Resources of Shaanxi Province(1989)
+C,199,C1484,,28,N,117,E,Asia,China,,S. China:Dongxiang,L - M - U?,Pennsylvanian,,,Coals,Zhishan,,The Compiling Group of the Regional Stratagraphic Chart of Jiangxi(1980)
+C,200,C1485,,28,N,114.5,E,Asia,China,,S. China:Pingxiang-Fengyi,L - M - U?,Pennsylvanian,,,Coals,Zhishan,,The Compiling Group of the Regional Stratagraphic Chart of Jiangxi(1980)
+C,201,C1486,,26,N,117,E,Asia,China,,S. China:Ningdu,L - M - U?,Pennsylvanian,,,Coals,Zhishan,,The Compiling Group of the Regional Stratagraphic Chart of Jiangxi(1980)
+C,202,C1487,,27,N,115,E,Asia,China,,S. China:Jian,L - M - U?,Pennsylvanian,,,Coals,Zhishan,,The Compiling Group of the Regional Stratagraphic Chart of Jiangxi(1980)
+C,203,C1488,,26,N,114,E,Asia,China,,S. China:Chongyi,L - M - U?,Pennsylvanian,,,Coals,Zhishan,,The Compiling Group of the Regional Stratagraphic Chart of Jiangxi(1980)
+C,204,C1489,,26,N,115,E,Asia,China,,S. China:Yudu,L - M - U?,Pennsylvanian,,,Coals,Zhishan,,The Compiling Group of the Regional Stratagraphic Chart of Jiangxi(1980)
+C,205,C1490,,34,N,116,E,Asia,China,,"S. China:Weixi,Anhui",Middle,Pennsylvanian,Moscovian,,Coals,Benchi,,The Bureau of Geology and Mineral Resources ofSichuan Province(1987)
+C,206,C1491,,30.3,N,107.4,E,Asia,China,,"S. China:Dianjiang,Sichuan",L - M - U?,Pennsylvanian,,,Coals,Weining,,The Bureau of Geology and Mineral Resources of Anhui Province(1987)
+C,207,C1492,,75,N,100,E,Asia,C. I. S.(fm USSR),,Taimyr,L - M - U?,Pennsylvanian,,,Coals,,,Ovechkin(1959)
+C,208,C1493,,69,N,87,E,Asia,C. I. S.(fm USSR),,Norilsk,L - M - U?,Pennsylvanian,,,Coals,,,Ovechkin(1959)
+C,209,C1494,,55,N,83,E,Asia,C. I. S.(fm USSR),,Gorlov,L - M - U?,Pennsylvanian,,,Coals,Gorlov-Balakhankian Suite,,Petroconsultants(1977)
+C,210,C1495,,55,N,86,E,Asia,C. I. S.(fm USSR),,Kuznets Basin,L - M - U?,Pennsylvanian,,,Coals,Gorlov-Balakhankian Suite?,,Petroconsultants(1977)
+C,211,C1496,,66,N,95,E,Asia,C. I. S.(fm USSR),,Tunguska Basin,L - M - U?,Pennsylvanian,,,Coals,Gorlov-Balakhankian Suite?,,Petroconsultants(1977)
+C,212,C1497,,53,N,91,E,Asia,C. I. S.(fm USSR),,Minusinsk Basin,L - M - U?,Pennsylvanian,,,Coals,Khakasskiy Group,,Petroconsultants(1977)
+C,213,C1498,,50,N,73,E,Asia,C. I. S.(fm USSR),,Karaganda,L - M - U?,Pennsylvanian,,,Coals,Khakasskiy Group,,Petroconsultants(1977)
+C,214,C1499,,50.2,N,79.2,E,Asia,C. I. S.(fm USSR),,Irtysh Coalfields,L - M - U?,Pennsylvanian,,,Coals,Bukonskaya Suite,,Petroconsultants(1977)
+C,215,C1500,,50,N,72,E,Asia,C. I. S.(fm USSR),,Zavyalovskoye Coalfield,L - M - U?,Pennsylvanian,,,Coals,Dolinskaya Suite,,The Rijks Geologische Geologische Dienst(1982)
+C,216,C1501,,50,N,72,E,Asia,C. I. S.(fm USSR),,Samarskoye Coalfield,L - M - U?,Pennsylvanian,,,Coals,Dolinskaya Suite,,The Rijks Geologische Geologische Dienst(1982)
+C,217,C1502,,50,N,73,E,Asia,C. I. S.(fm USSR),,Karaganda Basin,L - M - U?,Pennsylvanian,,,Coals,Dolinskaya Suite,,The Rijks Geologische Geologische Dienst(1982)
+C,218,C1503,,52,N,75,E,Asia,C. I. S.(fm USSR),,Ekibastum Basin,L - M - U?,Pennsylvanian,,,Coals,Nadkaragandinskaya Suite,,The Rijks Geologische Geologische Dienst(1982)
+C,219,C1504,,50,N,79,E,Asia,C. I. S.(fm USSR),,Yurokkol Coalfield,L - M - U?,Pennsylvanian,,Upper Carboniferous,Coals,Maytubanskaya Suite,,The Rijks Geologische Geologische Dienst(1982)
+C,220,C1505,,45.5,N,85.5,E,Asia,C. I. S.(fm USSR),,Kendyrlik Coalfield,L - M - U?,Pennsylvanian,,Upper Carboniferous,Coals,Kendyrlikskaya Suite,,The Rijks Geologische Geologische Dienst(1982)
+C,221,C1506,,54,N,83,E,Asia,C. I. S.(fm USSR),,Gorlov Basin,L - M - U,Pennsylvanian,Bashkirian to Gzelian,,Coals,Mazurovskaya and Alykaevskaya Suites,,The Rijks Geologische Geologische Dienst(1982)
+C,222,C1507,,56,N,84,E,Asia,C. I. S.(fm USSR),,Kuznets Basin,L - M - U,Pennsylvanian,Bashkirian to Gzelian,,Coals,Alykayevskaya and Mazurovskaya Suites,,The Rijks Geologische Geologische Dienst(1982)
+C,223,C1508,,53,N,91,E,Asia,C. I. S.(fm USSR),,Minusinsk Basin,L - M - U,Pennsylvanian,Bashkirian to Gzelian,,Coals,"Chernogorskaya,Bezugolnaya,Nizhnebeloyarskaya,Verhnebeloyarskoye Suites",,The Rijks Geologische Geologische Dienst(1982)
+C,224,C1509,,54,N,91,E,Asia,C. I. S.(fm USSR),,Chernogorskoye Coalfield,L - M - U,Pennsylvanian,Bashkirian to Gzelian,,Coals,"Beloyarskaya,Bezuglnaya, and Chenogorskaya Suites",,The Rijks Geologische Geologische Dienst(1982)
+C,225,C1510,,54,N,91,E,Asia,C. I. S.(fm USSR),,Izykhskoye Coalfield,L - M - U,Pennsylvanian,Bashkirian to Gzelian,,Coals,"Verhnebeloyarskote,Nizhnebeloyarskoye,Bezuglnaya and Chernogorskaya Suites",,The Rijks Geologische Geologische Dienst(1982)
+C,226,C1511,,53,N,91,E,Asia,C. I. S.(fm USSR),,Beiskoye Coalfield,L - M - U,Pennsylvanian,Bashkirian to Gzelian,,Coals,"Chernogorskaya, Pobereznaya,Sovkhoznaya,Tashebinskaya,Mairykhskaya Suites",,The Rijks Geologische Geologische Dienst(1982)
+C,227,C1512,,53,N,91,E,Asia,C. I. S.(fm USSR),,Askizskoye Coalfield,M - U,Pennsylvanian,Bashkirian and Moscovian,,Coals,Chernogorskaya Suite,,The Rijks Geologische Geologische Dienst(1982)
+C,228,C1513,,64,N,102,E,Asia,C. I. S.(fm USSR),,Tungusk Basin,M - U,Pennsylvanian,Bashkirian and Moscovian,,Coals,Kataskaya Suite,,The Rijks Geologische Geologische Dienst(1982)
+C,229,C1514,,69.5,N,88,E,Asia,C. I. S.(fm USSR),,Norilsk Region,M - U,Pennsylvanian,Bashkirian and Moscovian,,Coals,Rudninskaya Suite,,The Rijks Geologische Geologische Dienst(1982)
+C,230,C1515,,58,N,95,E,Asia,C. I. S.(fm USSR),,Kokuy Coalfield,M - U,Pennsylvanian,Bashkirian and Moscovian,,Coals,Listvyazhinskaya Suite,,The Rijks Geologische Geologische Dienst(1982)
+C,231,C1516,,58,N,100.5,E,Asia,C. I. S.(fm USSR),,Angara Region,M - U,Pennsylvanian,Bashkirian and Moscovian,,Coals,Listvyazhinskaya Suite,,The Rijks Geologische Geologische Dienst(1982)
+C,232,C1517,,50,N,93,E,Asia,C. I. S.(fm USSR),,Onkazhinskoye Coalfield,M - U,Pennsylvanian,Bashkirian to Moscovian,,Coals,Onkazhinskaya Suite,,The Rijks Geologische Geologische Dienst(1982)
+C,233,C1518,,51,N,93,E,Asia,C. I. S.(fm USSR),,Aktalskoye Coalfield,M - U,Pennsylvanian,Bashkirian to Moscovian,,Coals,Onkazhinskaya Suite,,The Rijks Geologische Geologische Dienst(1982)
+C,234,C1518.1,,33.5,N,57.3,E,Asia,Iran,,,L - M - U?,Pennsylvanian,,prob. U Carboniferous w age uncertian as to its situation within the later Carboniferous,Coals,Sardar,,Stocklin et al.(1965)
+C,235,C1519,,38,N,128,E,Asia,Korea,,South Korea,L - M - U?,Pennsylvanian,,,Coals,,,"Reinemund(1957),Baldwin(1957),Brill(1957)"
+C,236,C1520,,38,N,127,E,Asia,Korea,,North Korea Pyongyang Coalfield,Middle,Pennsylvanian,Moscovian,"(Dr. Liu Lu-jun(oral comm.,1995) Sadong flora shd be E Perm althou Sadong Fm is common corr w M to L Steph to E Perm",Coals,"Hongjeom ""Series"", Lower Sadong Fm",,Chang(1983)
+C,237,C1521,,18,N,103,E,Asia,Laos,,northwest of Vientiane,L - M - U?,Pennsylvanian,,Upper Carboniferous,Coals,,,"Fontaine,Workman(1978)"
+C,238,C1522,,15.5,N,103,E,Asia,Thiland,,northern Thailand,L - M - U?,Pennsylvanian,,Permo-Carboniferous-might be Pennsylvanian or equiv in age to Carboniferous coal known frm the Vientiane region,Coals,,,"Chairangsee et al.(1990), sheet 11; Dubertret(1960);Petroconsultants(1977)"
+C,239,C1523,,41.5,N,32,E,Asia,Turkey,,Zonguldak and adjacent areas,M - U,Pennsylvanian,Westphalian and Stephanian,,Coals,,,"Gorsky et al.(1967, sheet 11); Dubertret(1960);Petroconsultants(1977)"
+C,240,C1524,,37,N,32,E,Asia,Turkey,,"Cukurkoy,Antalya",L - M - U?,Pennsylvanian,,"""small Carbo window,within Creta sediments""-no indication of age;consider regional relations,infer that is Penns than Missi",Coals,,,Petroconsultants(1977),
+C,241,C1525,,-33,S,151.5,E,Australia,New South Wales,,Hunter Valley,Middle,Pennsylvanian,(Westphalian) ,,Coals,"((Seaham,Mount Johnson))","(Dickins(written comm.,1995)discussing Rattigan(1964) sugg that Westphalian coal is present)",Petroconsultants(1977),((Diessel(1975)))
+C,242,C1526,,-31.5,S,152.5,E,Australia,New South Wales,,,Lower,Pennsylvanian,Namurian,,Coals,Mingoletta,,Roberts et al.(1995),
+C,243,C1527,,47,N,13,E,Europe,Austria,,,L - M - U?,Pennsylvanian,,,Coals,,,"Hoehne(1964, Table 2)","see also Petroconsultants(1977),Gialtaleralpen,anthracite at Trogkopfl and Tischlwang"
+C,244,C1526.1,,46.5,N,13.5,E,Europe,Austria,,,L - M,Pennsylvanian,(Westphalian and Stephanian) ,,Coals,,,Selli(1963),"(see also Gorsky et al.(1967),Westphalian and Stephanian,1967, sheet 10)"
+C,245,C1528,,47,N,11,E,Europe,Austria,,Tyrol,L - M - U?,Pennsylvanian,,,Coals,Gschnitz/Brenner,,Petroconsultants(1977),
+C,246,C1528.1,,46.5,N,13,E,Europe,Austria,,Carnic Alps,Lower,Pennsylvanian,Namurian,Namurian to possibly late Visean,Coals,Hochwipfel,,Vai(1976),
+C,247,C1529,,51,N,4,E,Europe,Belgium,,"Southern Basin,Campine Brabant Basin,Dinant Basin(Coalfields of:Herve,Basse-Sambre,Centre,Couchant de Mons,Charleroi,Andenne-Huy,Liege)",L - M - U?,Pennsylvanian,,,Coals,,,The Rijks Geologische Geologische Dienst(1982),Petroconsultants(1997)provide detail for the individual fields
+C,248,C1530,,43.5,N,22.5,E,Europe,Bulgaria,,Dobrudza Basin,Middle,Pennsylvanian,Westphalian ,,Coals,,,Petroconsultants(1977),
+C,249,C1531,,43.5,N,22.5,E,Europe,Bulgaria,,Belogradcik,L - M - U?,Pennsylvanian,,"""Carnboniferous"" which is probably Pennsylvanian",Coals,,,Petroconsultants(1977),
+C,250,C1532,,43,N,23,E,Europe,Bulgaria,,Svoge Coalfield,Middle,Pennsylvanian,Westphalian,,Coals,,,The Rijks Geologische Geologische Dienst(1982),
+C,251,C1533,,51,N,24,E,Europe,C. I. S.(fm USSR),,Lvov-Volyn,Lower,Pennsylvanian,mid-Namurian,,Coals,,,Petroconsultants(1977),
+C,252,C1534,,48,N,39,E,Europe,C. I. S.(fm USSR),,Donets,Lower,Pennsylvanian,mid-Namurian,,Coals,,,Petroconsultants(1977),
+C,253,C1535,,51,N,24,E,Europe,C. I. S.(fm USSR),,Lvov-Volyn,Lower,Pennsylvanian,Bashkirian,,Coals,,,The Rijks Geologische Geologische Dienst(1982),
+C,254,C1536,,50,N,36,E,Europe,C. I. S.(fm USSR),,Dnepr-Donets Coalfields,L - M,Pennsylvanian,Bashkirian and Moscovian,,Coals,,,The Rijks Geologische Geologische Dienst(1982),
+C,255,C1537,,42,N,48,E,Europe,C. I. S.(fm USSR),,Donets Basin,M - U,Pennsylvanian,Moscovian and Kasimovian,,Coals,,,The Rijks Geologische Geologische Dienst(1982),
+C,256,C1538,,52,N,30,E,Europe,C. I. S.(fm USSR),,Pripyat Coalfields,Lower,Pennsylvanian,Bashkirian,,Coals,,,The Rijks Geologische Geologische Dienst(1982),
+C,257,C1539,,52,N,29,E,Europe,C. I. S.(fm USSR),,Zaozernoye Coalfield,Lower,Pennsylvanian,Bashkirian,,Coals,,,The Rijks Geologische Geologische Dienst(1982),
+C,258,C1540,,44,N,41,E,Europe,C. I. S.(fm USSR),,Labinskoye and Tolstobugorskoye Coalfileds,L - M - U,Pennsylvanian,"Bashkirian,Moscovian through Gzelian",,Coals,,,The Rijks Geologische Geologische Dienst(1982),
+C,259,C1541,,43,N,42,E,Europe,C. I. S.(fm USSR),,Bogoslovskoye Coalfield,L - M - U,Pennsylvanian,Bashkirian through Gzelian,,Coals,,,The Rijks Geologische Geologische Dienst(1982),
+C,260,C1541.1,,44,N,42,E,Europe,C. I. S.(fm USSR),,Caucasus Basin,Middle,Pennsylvanian,late Moscovian,,Coals,,,Izart et al.(1998),
+C,261,C1541.2,,48,N,38,E,,,,,,,,,,,,,
+C,262,C1542,,51,N,16,E,Europe,Czech Republic,,"Plezen and Kladno,Dolny Slask",M - U,Pennsylvanian,Westphalian and Stephanian,,Coals,,,"Gorsky et al.(1967, sheet 10)",
+C,263,C1543,,50,N,19,E,Europe,Czech Republic,,Gorny Slask,M - U,Pennsylvanian,Westphalian and Stephanian,,Coals,,,"Gorsky et al.(1967, sheet 10)",
+C,264,C1544,,48,N,-3,W,Europe,France,,central Armorican Basin,L - M - U,Pennsylvanian,Namurian B through Stephanian,,Coals,,,"Ziegler(1998, PL 25)",
+C,265,C1545,,51,N,4,E,Europe,France,,French basin of northern France and adjacent Belgium,L - M,Pennsylvanian,Namurian B through Westphanian,,Coals,,,"Ziegler(1998, PL 24)",
+C,266,C1546,,47,N,-1,W,Europe,France,,Anger,L - U?,Pennsylvanian,Namurian and Stephanian,,Coals,,,"Gorsky et al.(1967,sheet 9)",
+C,267,C1547,,45,N,7,E,Europe,France,,Brianconnais,L - M - U,Pennsylvanian,"Namurian,Westphalian and Stephanian",,Coals,,,"Gorsky et al.(1967,sheet 10)",see also Fabre et al.(1987)
+C,268,C1548,,49,N,6,E,Europe,France,,Lorraine,M - U,Pennsylvanian,Westphalian and Stephanian,,Coals,,,"Gorsky et al.(1967,sheet 10)",
+C,269,C1549,,42,N,9,E,Europe,France,,"Osani,Corsica",Middle,Pennsylvanian,Westphalian,,Coals,,,Petroconsultants(1977),
+C,270,C1550,,43.5,N,6,E,Europe,France,,Osani ,Middle,Pennsylvanian,Westphalian?,,Coals,,,The Rijks Geologische Geologische Dienst(1982),
+C,271,C1551,,49,N,1,E,Europe,France,,Vendee Basin,Middle,Pennsylvanian,Westphalian?,,Coals,,,The Rijks Geologische Geologische Dienst(1982),
+C,272,C1552,,47,N,1,E,Europe,France,,Vendee Basin,L - U?,Pennsylvanian,Namurian and Stephanian,,Coals,,,The Rijks Geologische Geologische Dienst(1982),
+C,273,C1553,,47,N,3,E,Europe,France,,Decize Coalfield,M - U,Pennsylvanian,Westphalian and Stephanian,,Coals,,,The Rijks Geologische Geologische Dienst(1982),
+C,274,C1554,,45,N,7,E,Europe,France,,Brianconnais Coalfield,L - M - U,Pennsylvanian,"Namurian,Westphalian and Stephanian",,Coals,,,The Rijks Geologische Geologische Dienst(1982),
+C,275,C1555,,46,N,7,E,Europe,France,,Taninges Coalfield,Middle,Pennsylvanian,Westphalian,,Coals,,,The Rijks Geologische Geologische Dienst(1982),
+C,276,C1556,,48,N,7,E,Europe,France,,Vosges Basin,M - U,Pennsylvanian,Westphalian and Stephanian,,Coals,,,The Rijks Geologische Geologische Dienst(1982),
+C,277,C1557,,49,N,6,E,Europe,France,,Lorraine Coalfield,L - M - U,Pennsylvanian,"Namurian,Westphalian and Stephanian",,Coals,,,The Rijks Geologische Geologische Dienst(1982),
+C,278,C1558,,51,N,2,E,Europe,France,,Strouanne Coalfield,Middle,Pennsylvanian,Westphalian?,,Coals,,,The Rijks Geologische Geologische Dienst(1982),
+C,279,C1560,,50,N,2,E,Europe,France,,Doullens Basin,Middle,Pennsylvanian,Westphalian?,,Coals,,,The Rijks Geologische Geologische Dienst(1982),
+C,280,C1561,,51,N,3,E,Europe,France,,Nord and Pas de Calais Basin,L - M,Pennsylvanian,Namurian and Westphalian,,Coals,,,The Rijks Geologische Geologische Dienst(1982),
+C,281,C1562,,51,N,13,E,Europe,Germany,,"Saxony,(Thuringia) and Sliesia",L - M - U?,Pennsylvanian,,,Coals,,,"Hoehne(1964, Table 2)",
+C,282,C1563,,49,N,7,E,Europe,Germany,,Saar Basin,M - U,Pennsylvanian,Westphalian and Stephanian,,Coals,,,"Ziegler(1998, PL 25)","see also Hertle,Little(2000)"
+C,283,C1564,,52,N,8,E,Europe,Germany,,Ibbenburen,Middle,Pennsylvanian,Westphalian,,Coals,,,"Gorsky et al.(1967,sheet 6)",
+C,284,C1566,,52,N,7,E,Europe,Germany,,Ruhr,Middle,Pennsylvanian,Westphalian,,Coals,,,"Gorsky et al.(1967, sheet 10)",
+C,285,C1567,,51,N,12,E,Europe,Germany,,Zwickau,Middle,Pennsylvanian,Westphalian,,Coals,,,"Gorsky et al.(1967, sheet 10)",
+C,286,C1568,,51,N,6,E,Europe,Germany,,Aachen,Middle,Pennsylvanian,(Westphalian A and B),(Bernecker et al.(1986) cite Westphalian A and B),Coals,,,Petroconsultants(1977),
+C,287,C1569,,51.5,N,7.5,E,Europe,Germany,,Rhine-Ruhr Coalfield,L - M,Pennsylvanian,upper Namurian and Westphalian,,Coals,,,The Rijks Geologische Geologische Dienst(1982),
+C,288,C1573,,49,N,7,E,Europe,Germany,,Saar Coalfield,Upper,Pennsylvanian,Stephanian,,Coals,,,The Rijks Geologische Geologische Dienst(1982),
+C,289,C1574,,49,N,12,E,Europe,Germany,,northeastern Bavaria,Middle,Pennsylvanian,Westphalian,,Coals,,,Dill et al.(1991),
+C,290,C1574.1,,54.5,N,13.6,E,Europe,Germany,,Rugen subsurface,Middle,Pennsylvanian,Westphalian A,,Coals,,,"Hoth,Wolf(1997)",
+C,291,C1574.2,,38,N,24,E,Europe,Greece,,Tharunia on Euboea,L - M - U?,Pennsylvanian,,,Coals,,,Petroconsultants(1977),
+C,292,C1575,,37,N,23,E,Europe,Greece,,Monemvassia in the Peloponnese,L - M - U?,Pennsylvanian,,,Coals,,,Petroconsultants(1977),
+C,293,C1576,,38,N,26,E,Europe,Greece,,Cardamila on Chios,L - M - U?,Pennsylvanian,,,Coals,,,Petroconsultants(1977),
+C,294,C1577,,52,N,-9,W,Europe,Ireland,,Kanturk,Middle,Pennsylvanian,Westphalian,,Coals,,,Petroconsultants(1977),see also Sevastopulo(2001b)
+C,295,C1578,,54,N,-7,W,Europe,Ireland,,Monaghan Coalfield,Middle,Pennsylvanian,Westphalian,,Coals,,,The Rijks Geologische Geologische Dienst(1982),
+C,296,C1579,,53,N,-7,W,Europe,Ireland,,Leinster Coalfield,Middle,Pennsylvanian,later Namurian andd Westphalian,,Coals,,,The Rijks Geologische Geologische Dienst(1982),
+C,297,C1580,,52.5,N,-8,W,Europe,Ireland,,Slieveardagh Coalfiled,Middle,Pennsylvanian,Westphalian,,Coals,,,The Rijks Geologische Geologische Dienst(1982),
+C,298,C1581,,52.5,N,-8,W,Europe,Ireland,,Crataloe Coalfield,Middle,Pennsylvanian,Westphalian,,Coals,,,The Rijks Geologische Geologische Dienst(1982),
+C,299,C1583,,54.5,N,-7,W,Europe,Ireland,,Coalisland and Annaghone Coalfied,L - M,Pennsylvanian,Westphalian and Namurian,,Coals,,,The Rijks Geologische Geologische Dienst(1982),
+C,300,C1584,,56,N,-7.5,W,Europe,Ireland,,Malin Shelf,L- M,Pennsylvanian,Namurian C and Westphalian A,,Coals,,,Mitchell(1992),
+C,301,C1585,,44,N,8,E,Europe,Italy,,Savoy,M - U,Pennsylvanian,Westphalian and Stephanian,,Coals,,,"Gorsky et al.(1967, sheet 10)",
+C,302,C1586,,44,N,10,E,Europe,Italy,,Pisa,M - U,Pennsylvanian,Westphalian and Stephanian,,Coals,,,"Gorsky et al.(1967, sheet 10)",
+C,303,C1587,,46,N,7,E,Europe,Italy,,Aosta,M - U,Pennsylvanian,(Westphalian and Stephanian),(which Vai(written comm.(1992) says is mainly Westphalian and Stephanian),Coals,,,Petroconsultants(1977),
+C,304,C1587.1,,46.1,N,8.8,E,,,,,,,,,,,,
+C,305,C1588,,53,N,8,E,Europe,Netherlands,Netherlands,northern Netherlands,Middle,Pennsylvanian,Westphalian,,Coals,,,Petroconsultants(1977)
+C,306,C1589,,52,N,5,E,Europe,Netherlands,,Rijsbergen,M - U,Pennsylvanian,upper Westphalian,,Coals,,,"Bless,Paproth(1989, Fig. 8)"
+C,307,C1590,,53,N,6,E,Europe,Netherlands,,"Oostzann,Dwingelo",Middle,Pennsylvanian,upper Westphalian,,Coals,,,"Bless,Paproth(1989, Fig. 8)"
+C,308,C1591,,52,N,6,E,Europe,Netherlands,,Zeddam,Middle,Pennsylvanian,upper Westphalian,,Coals,,,"Bless,Paproth(1989, Fig. 8)"
+C,309,C1592,,51,N,6,E,Europe,Netherlands,,South Limburg Coalfield,L - M,Pennsylvanian,Westphalian and Namurian,,Coals,,,The Rijks Geologische Geologische Dienst(1982)
+C,310,C1593,,51.5,N,6,E,Europe,Netherlands,,Peel-Beatrix Coalfield of the Campine/Brabant Basin,L - M,Pennsylvanian,Westphalian and Namurian,,Coals,,,The Rijks Geologische Geologische Dienst(1982)
+C,311,C1594,,52,N,6.5,E,Europe,Netherlands,,East Gelderland Coalfield of the Northwest German Basin,L - M,Pennsylvanian,Westphalian and Namurian,,Coals,,,The Rijks Geologische Geologische Dienst(1982)
+C,312,C1594.1,,54,N,3,E,Europe,Netherlands,,southern North Sea,Middle,Pennsylvanian,Westphalian ,,Coals,,,Quirk(1997)
+C,313,C1595,,51,N,16,E,Europe,Poland,,"Walbrzych Basin,southwest Poland",L - M - U?,Pennsylvanian,,Upper Carboniferous,Coals,,,"Mastalerz,Mastalerz(1987)"
+C,314,C1596,,51,N,23,E,Europe,Poland,,Liblin Basin,Middle,Pennsylvanian,(Westphalian) ,Upper Carboniferous;(Porzycki (1983) discusses Westphalian coals),Coals,,,Mazak(1987)
+C,315,C1597,,50,N,19,E,Europe,Poland,,Gorny Slask,L - M- U?,Pennsylvanian,,,Coals,,,Petroconsultants(1977)
+C,316,C1598,,40,N,-8.5,W,Europe,Portugal,,Moinho da Ordem,Middle,Pennsylvanian,Westphalian,,Coals,,,"Gorsky et al.(1967, sheet 9)"
+C,317,C1599,,37.5,N,-8.5,W,Europe,Portugal,,Santa Susana,Middle,Pennsylvanian,Westphalian C,,Coals,,,"Wagner,Lemos de Sousa(1983)"
+C,318,C1600,,41.5,N,-8.5,W,Europe,Portugal,,"north of the Douro,near Oporto",Middle,Pennsylvanian,Westphalian,,Coals,,,"Lemos de Sousa,Wagner(1983b)"
+C,319,C1601,,43,N,-5,W,Europe,Spain,,northern Spain,L - M- U?,Pennsylvanian,,,Coals,,,Gignoux(1955)
+C,320,C1602,,43,N,-7,W,Europe,Spain,,northern Spain,L - M- U?,Pennsylvanian,,,Coals,,,"Gorsky et al.(1967, sheet 9)",
+C,321,C1603,,43,N,-4,W,Europe,Spain,,northern Spain,L - M- U?,Pennsylvanian,,,Coals,,,"Gorsky et al.(1967, sheet 9)",
+C,322,C1603.1,,43.5,N,-5,W,Europe,Spain,,Cantabria,Middle,Pennsylvanian,Moscovian  ,,Coals,Cuera Limestones,,"Sanchez de Posada,Fohrer(2001)",
+C,323,C1604,,38,N,-5,W,Europe,Spain,,Pennaroya,Middle,Pennsylvanian,Westphalian,,Coals,,,"Gorsky et al.(1967, sheet 9)",
+C,324,C1606,,39.5,N,-6,W,Europe,Spain,,Villanueva del Rio y Minas,Middle,Pennsylvanian,Westphalian,,Coals,,,Wagner et al.(1983),
+C,325,C1607,,42.5,N,1,E,Europe,Spain,,south -central Pyrenees,Middle,Pennsylvanian,Westphalian D,,Coals,Aguiro,,Nagtegaal(1969b),
+C,326,C1608,,43,N,-4.75,W,Europe,Spain,,Guardo Coalfield,Middle,Pennsylvanian,Westphalian D,,Coals,,,"Wagner,Fernandez-Garcia(1983)",
+C,327,C1608.1,,78,N,18,E,Europe,Svalbard,,,Lower,Pennsylvanian,possibly Bashkirian,,Coals,Hultberget,,"Harland(1997, p.71)",
+C,328,C1609,,47,N,9,E,Europe,Switzerland,,Aar Massif,L - M- U?,Pennsylvanian,,Late Carboniferous,Coals,,anthracite,Franks(1966),
+C,329,C1610,,52,N,-3,W,United Kingdom,Wales,,South Wales,Middle,Pennsylvanian,Westphalian,,Coals,,,Cameron et al.(1992),"see also Gorsky et al.(1967, sheet 5)"
+C,330,C1611,,54,N,-1,W,United Kingdom,England,,north England,Middle,Pennsylvanian,Westphalian,,Coals,,,Ziegler(1988),"see also Gorsky et al.(1967, sheet 7)"
+C,331,C1612,,55,N,-7,W,United Kingdom,England,,Dungannon,L - M,Pennsylvanian,Namurian and Westphalian,,Coals,,,"Gorsky et al.(1967, sheet 5)",
+C,332,C1613,,55,N,-6,W,United Kingdom,England,,Machrihanish,L - M,Pennsylvanian,Namurian and Westphalian,,Coals,,,"Gorsky et al.(1967, sheet 5)",
+C,333,C1614,,53,N,-4,W,United Kingdom,England,,Anglesey,Middle,Pennsylvanian,Westphalian,,Coals,,,"Gorsky et al.(1967, sheet 5)",
+C,334,C1615,,56,N,-4,W,United Kingdom,England,,Midland Valley,Middle,Pennsylvanian,Westphalian,,Coals,,,"Gorsky et al.(1967, sheet 6)",
+C,335,C1616,,53,N,-1,W,United Kingdom,England,,North Staffordshire,Middle,Pennsylvanian,Westphalian,,Coals,,,"Gorsky et al.(1967, sheet 6)",
+C,336,C1617,,53,N,-3,W,United Kingdom,Wales,,North Wales,Middle,Pennsylvanian,Westphalian,,Coals,,,"Gorsky et al.(1967, sheet 6)"
+C,337,C1618,,51,N,1,E,United Kingdom,England,,Kent,Middle,Pennsylvanian,Westphalian,,Coals,,,"Gorsky et al.(1967, sheet 6)"
+C,338,C1619,,56,N,-3,W,United Kingdom,England,,Lothians Coal Basin,Middle,Pennsylvanian,Westphalian,,Coals,,,Petroconsultants(1977)
+C,339,C1620,,56,N,-3.5,W,United Kingdom,England,,Fife Coalfield,Middle,Pennsylvanian,Westphalian,,Coals,,,The Rijks Geologische Geologische Dienst(1982)
+C,340,C1621,,55.5,N,-5.5,W,United Kingdom,England,,"Stirling,Clackmannan,Midlothian,Cental,Central Ayrshire,North Ayrshire,Douglas,Sannquhar,Machrihanish Coalfields",Middle,Pennsylvanian,Westphalian,,Coals,,,The Rijks Geologische Geologische Dienst(1982)
+C,341,C1622,,55.5,N,-5.5,W,United Kingdom,England,,"Cumberland,East",Middle,Pennsylvanian,Westphalian,,Coals,,,The Rijks Geologische Geologische Dienst(1982)
+C,342,C1623,,55,N,-2,W,United Kingdom,England,,Northumberland-Duraham,Middle,Pennsylvanian,Westphalian,,Coals,,,The Rijks Geologische Geologische Dienst(1982)
+C,343,C1624,,54.5,N,-2.5,W,United Kingdom,England,,"Midgeholme,Stainmore",Middle,Pennsylvanian,Westphalian,,Coals,,,The Rijks Geologische Geologische Dienst(1982)
+C,344,C1625,,54.5,N,0.5,?,United Kingdom,England,,Pennine,Middle,Pennsylvanian,Westphalian,,Coals,,,The Rijks Geologische Geologische Dienst(1982)
+C,345,C1626,,54,N,-2.5,W,United Kingdom,England,,Ingleton,Middle,Pennsylvanian,Westphalian,,Coals,,,The Rijks Geologische Geologische Dienst(1982)
+C,346,C1627,,53.5,N,-3,W,United Kingdom,England,,Lancashire,L - M,Pennsylvanian,Namurian and Westphalian,,Coals,,,The Rijks Geologische Geologische Dienst(1982)
+C,347,C1628,,53.5,N,-2,W,United Kingdom,England,,Goyt,L - M,Pennsylvanian,Namurian and Westphalian,,Coals,,,The Rijks Geologische Geologische Dienst(1982)
+C,348,C1629,,53,N,-4.5,W,United Kingdom,England,,Anglesey,Middle,Pennsylvanian,Westphalian,,Coals,,,The Rijks Geologische Geologische Dienst(1982)
+C,349,C1630,,53,N,-3,W,United Kingdom,England,,Flintshire,Middle,Pennsylvanian,Westphalian,,Coals,,,The Rijks Geologische Geologische Dienst(1982)
+C,350,C1631,,53,N,-3,W,United Kingdom,England,,Denbighshire,Middle,Pennsylvanian,Westphalian,,Coals,,,The Rijks Geologische Geologische Dienst(1982)
+C,351,C1632,,53,N,-2,W,United Kingdom,England,,North Staffordshire,Middle,Pennsylvanian,Westphalian,,Coals,,,The Rijks Geologische Geologische Dienst(1982)
+C,352,C1633,,53,N,-2,W,United Kingdom,England,,Goldsitch Moss and Goyt's Moss,L - M,Pennsylvanian,Namurian and Westphalian,,Coals,,,The Rijks Geologische Geologische Dienst(1982)
+C,353,C1634,,53,N,-2,W,United Kingdom,England,,Cheadle,L - M,Pennsylvanian,Namurian and Westphalian,,Coals,,,The Rijks Geologische Geologische Dienst(1982)
+C,354,C1635,,52.5,N,-2,W,United Kingdom,England,,South Staffordshire,Middle,Pennsylvanian,Westphalian,,Coals,,,The Rijks Geologische Geologische Dienst(1982)
+C,355,C1636,,52.5,N,-2.5,W,United Kingdom,England,,Wyre Forest,Middle,Pennsylvanian,Westphalian,,Coals,,,The Rijks Geologische Geologische Dienst(1982)
+C,356,C1637,,52.5,N,-2.5,W,United Kingdom,England,,Cannock,L - M,Pennsylvanian,Namurian and Westphalian,,Coals,,,The Rijks Geologische Geologische Dienst(1982)
+C,357,C1638,,52.5,N,2.5,W,United Kingdom,England,,Clee Hills,Middle,Pennsylvanian,Westphalian,,Coals,,,The Rijks Geologische Geologische Dienst(1982)
+C,358,C1639,,52.5,N,-2.5,W,United Kingdom,England,,Coalbrookedale,Middle,Pennsylvanian,Westphalian,,Coals,,,The Rijks Geologische Geologische Dienst(1982)
+C,359,C1640,,52.5,N,-3,W,United Kingdom,England,,Shewsbury,Middle,Pennsylvanian,Westphalian,,Coals,,,The Rijks Geologische Geologische Dienst(1982)
+C,360,C1641,,52.5,N,-1.5,W,United Kingdom,England,,Leicestershire and South Derbyshire,Middle,Pennsylvanian,Westphalian,,Coals,,,The Rijks Geologische Geologische Dienst(1982)
+C,361,C1642,,52.5,N,-1.5,W,United Kingdom,England,,Warwickshire,Middle,Pennsylvanian,Westphalian,,Coals,,,The Rijks Geologische Geologische Dienst(1982)
+C,362,C1643,,51.5,N,-4,W,United Kingdom,Wales,,South Wales,M - U,Pennsylvanian,Westphalian and Stephanian,,Coals,,,The Rijks Geologische Geologische Dienst(1982)
+C,363,C1644,,51.75,N,-4.5,W,United Kingdom,England,,Pembrokeshire,Middle,Pennsylvanian,Westphalian,,Coals,,,The Rijks Geologische Geologische Dienst(1982)
+C,364,C1645,,52,N,-1.5,W,United Kingdom,England,,Oxfordshire,Middle,Pennsylvanian,Westphalian,,Coals,,,The Rijks Geologische Geologische Dienst(1982)
+C,365,C1646,,52,N,-2.5,W,United Kingdom,England,,Forest of Dean,Middle,Pennsylvanian,Westphalian,,Coals,,,The Rijks Geologische Geologische Dienst(1982)
+C,366,C1647,,52,N,-2.5,W,United Kingdom,England,,Newent,Middle,Pennsylvanian,Westphalian,,Coals,,,The Rijks Geologische Geologische Dienst(1982)
+C,367,C1648,,51.5,N,-2.5,W,United Kingdom,England,,"Somerset,Bristol and Nailsea",Middle,Pennsylvanian,Westphalian,,Coals,,,The Rijks Geologische Geologische Dienst(1982)
+C,368,C1649,,51.5,N,-2.5,W,United Kingdom,England,,Avonmouth and Clapton,Middle,Pennsylvanian,Westphalian,,Coals,,,The Rijks Geologische Geologische Dienst(1982),
+C,369,C1650,,51,N,1,E,United Kingdom,England,,Kent,Middle,Pennsylvanian,Westphalian,,Coals,,,The Rijks Geologische Geologische Dienst(1982),
+C,370,C1650.1,,56,N,-8.5,W,United Kingdom,England,,Donegal Basin,Middle,Pennsylvanian,mid-Westphalian,,Coals,,,Stoker et al.(1993),
+C,371,C1651,,44,N,17,E,Europe,Former Yugoslavia,,Carpathian-Balkan montane belt,L - M - U?,Pennsylvanian,,Upper Carboniferous,Coals,Mlavsko-Pechskii coal basin,,Tsvetichanin(1976),
+C,372,C1652,,44,N,22,E,Europe,Former Yugoslavia,,eastern Serbia,Middle,Pennsylvanian,Westphalian,,Coals,,,Pantic(1961),see also Pantic (1964)
+C,373,C1653,,47,N,-62,W,N. America,Canada,,Gulf of Saint Lawrence,Middle,Pennsylvanian,Westphalian,,Coals,,,Grant(1994),
+C,374,C1654,,46,N,-73,W,N. America,New Brunswick,,southern New Brunswick,L - M - U?,Pennsylvanian,,,Coals,,,"Mckay(1947),Hacquebard(1972),Petroconsultants(1977)",
+C,375,C1655,,48,N,-58,W,N. America,Newfoundland,,southwestern Newfoundland,L - M - U?,Pennsylvanian,,,Coals,,,"Schuchert,Dunbar(1934),Hacquebard(1972),Petroconsultants(1977)",
+C,376,C1656,,49,N,-57,W,N. America,Newfoundland,,Howley Coal Area,L - M - U?,Pennsylvanian,,,Coals,,,Smith(1989),
+C,377,C1657,,52,N,-55,W,N. America,Newfoundland,,shelf north of Newfoundland,Middle,Pennsylvanian,Westphalian,,Coals,Pictou Group,,Mossman(1992),
+C,378,C1657.1,,46,N,-62,W,N. America,Newfoundland,,Red Indian Lake region,Middle,Pennsylvanian,Westphalian A,,Coals,,,Hyde(1995),
+C,379,C1658,,46,N,-62,W,N. America,Nova Scotia,,,L - M - U?,Pennsylvanian,,,Coals,,,"Hacquebard and Donaldson(1968),Hacquebard(1972),Petroconsultants(1977)",
+C,380,C1659,,72,N,-23,W,N. America,Greenland,,Wegener Halvo and Kap Brown areas,L - M,Pennsylvanian,Namurian B-Westphalian C,,Coals,,,Schiener(1976),
+C,381,C1660,,18.5,N,-98,W,N. America,Mexico,,Puebla,Middle,Pennsylvanian,"(Westphalian,probably C or D)","(Mamay(written comm.,1994,)states that the flora is of Westphalian,probably C or D(Desmoinesian age)",Coals,,"Pennsylvanian flora,associated w coal(is a Euramerian flora)",Silva Pineda(1970),
+C,382,C1661,,34,N,-86,W,N. America,United States,,Alabama:Pottsville,Middle,Pennsylvanian,Westphalian A (Westphalian D),"(DiMichele(written comm.,1995)coals are questionably all of Westphalian D age)",Coals,,,Culbertson(1964),
+C,383,C1662,,36,N,-94,W,N. America,United States,,Arkansas,L - M - U?,Pennsylvanian,,,Coals,,,Haley(1960),
+C,384,C1663,,37,N,-106,W,N. America,United States,,Colorado:south-central Colorado,L - M,Pennsylvanian,Bashkirian and Moscovian,"Morrowan,Atokan and Desmoinesian",Coals,,,Beaumont et al.(1971)
+C,385,C1664,,39,N,-105,W,N. America,United States,,Canon City area,Lower,Pennsylvanian,Bashkirian ,Morrowan,Coals,Glen Eyrie Member of the Fountian Fm,,Sutter et al.(1984)
+C,386,C1665,,34,N,-85,W,N. America,United States,,Georgia:northwestern Georgia,L - M - U?,Pennsylvanian,,,Coals,,,"Butts,Gildersleeve(1948)"
+C,387,C1666,,38,N,-90,W,N. America,United States,,Illinois,M - U,Pennsylvanian,(Westphalian A and Stephanian),"(DiMichele(written comm.,1995)states that the coals are Westphalian A and Stephanian) ",Coals,,,Cady(1952)
+C,388,C1667,,39,N,-87,W,N. America,United States,,Indiana,M - U,Pennsylvanian,(Westphalian and Stephanian),"(DiMichele(written comm.,1995)states that the coals are Westphalian and Stephanian) ",Coals,,,Spencer(1953)
+C,389,C1668,,42,N,-92,W,N. America,United States,,Iowa,M - U,Pennsylvanian,(Westphalian C and Stephanian),"(DiMichele(written comm.,1995)states that the coals are Westphalian C and Stephanian) ",Coals,,,Averitt(1949)
+C,390,C1669,,38,N,-96,W,N. America,United States,,Kansas,M - U,Pennsylvanian,(Westphalian C and Stephanian),"(DiMichele(written comm.,1995)states that the coals are Westphalian C and Stephanian) ",Coals,,,Abernathy et al.(1947)
+C,391,C1670,,37,N,-85,W,N. America,United States,,Kentucky,L - M - U,Pennsylvanian,"(Namurian,Westphalian,Stephanian","(DiMichele(written comm.,1995)states that the coals areNamurian, Westphalian, and Stephanian) ",Coals,,,McFarlan(1944)
+C,392,C1671,,39,N,-79,W,N. America,United States,,Maryland,M - U,Pennsylvanian,(Westphalian and Stephanian),"(DiMichele(written comm.,1995)states that the coals are Westphalian and Stephanian) ",Coals,,,Swartz(1922)
+C,393,C1672,,44,N,-85,W,N. America,United States,,Michigan,L - M - U?,Pennsylvanian,,,Coals,,,Cohee et al.(1950)
+C,394,C1673,,34,N,-89,W,N. America,United States,,Mississippi:eastern Mississippi,L - M - U?,Pennsylvanian,,,Coals,,subsurface coal,Bicker(1970)
+C,395,C1674,,39,N,-94,W,N. America,United States,,Missouri,L - M - U?,Pennsylvanian,,,Coals,,,Hinds(1913)
+C,396,C1675,,42,N,-97,W,N. America,United States,,Nebraska:eastern Nebraska,L - M - U?,Pennsylvanian,,,Coals,,,Pepperberg(1910)
+C,397,C1675.1,,36,N,-106,W,N. America,United States,,New Mexico:north-central New Mexico,L - M,Pennsylvanian,Bashkirian and Moscovian,"Morrowan,Atokan and Desmoinesian",Coals,,,Beaumont et al.(1971)
+C,398,C1676,,33,N,-105,W,N. America,United States,,New Mexico:northwest side of the Delaware Basin,L - M,Pennsylvanian,Bashkirian and Moscovian,"Morrowan,Atokan",Coals,,,Beaumont et al.(1971)
+C,399,C1677,,40,N,-82,W,N. America,United States,,Ohio,L- M - U,Pennsylvanian,"(Westphalian and Stephanian, possilby also Namurian)","(DiMichele(written comm.,1995)states that the coals are Westphalian and Stephanian age,and possibly also Namurian) ",Coals,,,"Brant,DeLong(1960)"
+C,400,C1678,,35,N,-97,W,N. America,United States,,Oklahoma,Middle,Pennsylvanian,(Westphalian-Desmoinesian),"(Suneson,Hemish(1994)cite many of the Desmoinesian age coal;DiMichele(written comm.,1995)-coal are Westphalian D)",Coals,,,Trumbull(1957),
+C,401,C1679,,42,N,-78,W,N. America,United States,,Pennsylvania,L - M - U,Pennsylvanian,"(Namurian,Westphalian and Stephanian)","(DiMichele(written comm.,1995)states that the coals are Namurian,Westphalian and Stephanian age)",Coals,,,Ashley(1928),"see also Eggleston et al.(1999),Edmunds et al.(1999),Edmunds(1999b)"
+C,402,C1680,,42,N,-72,W,N. America,United States,,"Rhode Ialand:The Narrangansett Basin,Rhode Island",M - U,Pennsylvanian,(Westphalian and Stephanian),(see also Skehan et al.(1986)Westphalian and Stephanian),Coals,,,Cameron et al.(1979),(see also Skehan et al.(1986)Westphalian and Stephanian)
+C,403,C1681,,37,N,-85,W,N. America,United States,,Tennessee,L - M,Pennsylvanian,"(Namurian,Westphalian )","(DiMichele(written comm.,1995)states that the coals are Namurian and Westphalian  age)",Coals,,,Luther(1959),
+C,404,C1682,,33,N,-98,W,N. America,United States,,Texas,L - M - U?,Pennsylvanian,,,Coals,,,Stenzel(1946),
+C,405,C1683,,37,N,-81,W,N. America,United States,,Virginia,L - M - U?,Pennsylvanian,,,Coals,,,Brown et al.(1952),
+C,406,C1684,,39,N,-81,W,N. America,United States,,West Virginia,L - M - U,Pennsylvanian,"(Namurian,Westphalian and Stephanian)","(DiMichele(written comm.,1995)states that the coals are Namurian,Westphalian and Stephanian age)[for the whole State]",Coals,Breathitt,,Chesnut(1989),
+C,407,C1685,,-33,S,-68,W,S. America,Argentina,,"La Rioja,San Juan",L - M - U?,Pennsylvanian,,,Coals,,,Flores-Williams(1978),
+C,408,C1686,,-45,S,-70,W,S. America,Argentina,,northern and south-central Patagonia,L - M - U?,Pennsylvanian,,,Coals,,,Flores-Williams(1978),
+C,409,C1687,,-28,S,-70,W,S. America,Argentina,,"La Negro and Rio Tambillos,La Rioja",L - M - U?,Pennsylvanian,,,Coals,,,Petroconsultants(1977),
+C,410,C1688,,-30,S,-68,W,S. America,Argentina,,Paganzo Basin,L - U,Pennsylvanian,Westphalian- Stephanian,,Coals,,,Lopez-Gamundi et al.(1993),
+C,411,C1689,,-5,S,-45,W,S. America,Brazil,,west side of the Parnaiba Basin,L - U,Pennsylvanian,Westphalian- Stephanian,,Coals,Piaui,,Machado(1978),
+C,412,C1690,,-15,S,-75,W,S. America,Peru,,,L- M - U?,Pennsylvanian,,,Coals,,,Olive(1978),
+C,413,C1690.1,,-14,S,-76,W,S. America,Peru,,"Paraca,Ica",L- M - U?,Pennsylvanian,,"""Carboniferous""",Coals,,,Petroconsultants(1977),
+B,414,B1691,,41,N,79,E,Asia,China,,Tarim and Xinjiang:Wushi,L- M - U?,Pennsylvanian,,Late Carboniferous,Bauxites,Ayilihe,,Wang Zhen-ji(1990),
+B,415,B1692,,39,N,78,E,Asia,China,,Tarim and Xinjiang:Maigaiti,L- M - U?,Pennsylvanian,,Late Carboniferous,Bauxites,Kalawuyi,,Wang Zhen-ji(1990),
+B,416,B1693,,40,N,85,E,Asia,China,,Tarim and Xinjiang:Mt. Wushibei in Xinjiang,L- M - U?,Pennsylvanian,, Carboniferous,Bauxites,,,Liu Chang-ling(1987)
+B,417,B1694,,40.7,N,77,E,Asia,China,,"Tarim and Xinjiang:Aheqi,Xinjiang",L- M - U?,Pennsylvanian,,,Bauxites,Ayilihe Group,,Wu(1991)
+B,418,B1695,,41.2,N,79.2,E,Asia,China,,"Tarim and Xinjiang:Wushi,Xinjiang",L- M - U?,Pennsylvanian,,,Bauxites,"Kalasula,Aelihe",,"Liao Shi-fan,Liang Tong-rong(1991)"
+B,419,B1696,,40,N,108,E,Asia,China,,N. China:Ordos,Lower,Pennsylvanian,Namurian  ,,Bauxites,base of the Penchi,"note:basal Penchi Fm may be of uppermost Miss age, Huang Ben-hong (oral comm.1994)",Wang Zhen-ji(1990)
+B,420,B1697,,38,N,112,E,Asia,China,,N. China:Taiyuan,Lower,Pennsylvanian,Namurian  ,,Bauxites,base of the Penchi,"note:basal Penchi Fm may be of uppermost Miss age, Huang Ben-hong (oral comm.1994)",Wang Zhen-ji(1990)
+B,421,B1698,,37,N,113,E,Asia,China,,N. China:Jingqin-Yangxuan-Wuxiang area,Lower,Pennsylvanian,Namurian  ,,Bauxites,base of the Penchi,"note:basal Penchi Fm may be of uppermost Miss age, Huang Ben-hong (oral comm.1994)",Wang Zhen-ji(1990)
+B,422,B1699,,38,N,114,E,Asia,China,,N. China:Jingqin-Yangxuan-Wuxiang area,Lower,Pennsylvanian,Namurian  ,,Bauxites,base of the Penchi,"note:basal Penchi Fm may be of uppermost Miss age, Huang Ben-hong (oral comm.1994)",Wang Zhen-ji(1990)
+B,423,B1700,,35,N,113,E,Asia,China,,N. China:Anyang-Xiaozhuo area,Lower,Pennsylvanian,Namurian  ,,Bauxites,base of the Penchi,"note:basal Penchi Fm may be of uppermost Miss age, Huang Ben-hong (oral comm.1994)",Wang Zhen-ji(1990)
+B,424,B1701,,36,N,114,E,Asia,China,,N. China:Anyang-Xiaozhuo area,Lower,Pennsylvanian,Namurian  ,,Bauxites,base of the Penchi,"note:basal Penchi Fm may be of uppermost Miss age, Huang Ben-hong (oral comm.1994)",Wang Zhen-ji(1990)
+B,425,B1702,,39,N,113.5,E,Asia,China,,N. China:Wutai-Fuping area,Lower,Pennsylvanian,Namurian  ,,Bauxites,base of the Penchi,"note:basal Penchi Fm may be of uppermost Miss age, Huang Ben-hong (oral comm.1994)",Wang Zhen-ji(1990)
+B,426,B1703,,40,N,116,E,Asia,China,,N. China:western Beijing,Lower,Pennsylvanian,Namurian  ,,Bauxites,base of the Penchi,"note:basal Penchi Fm may be of uppermost Miss age, Huang Ben-hong (oral comm.1994)",Wang Zhen-ji(1990)
+B,427,B1704,,39.5,N,118,E,Asia,China,,N. China:Kaiping,Lower,Pennsylvanian,Namurian,,Bauxites,base od the Tangshan,,Wang Zhen-ji(1990)
+B,428,B1705,,41,N,124,E,Asia,China,,N. China:Penchi,L- M - U?,Pennsylvanian,,Late Carboniferous,Bauxites,G bed at the base of the Penchi,,Wang Yu et al.(1954)
+B,429,B1706,,39.25,N,122,E,Asia,China,,N. China:Fuxian-Jianxian area,L- M - U?,Pennsylvanian,,Late Carboniferous,Bauxites,G bed at the base of the Penchi,,Wang Zhen-ji(1990)
+B,430,B1707,,37,N,118,E,Asia,China,,N. China:Zhibo,L- M - U?,Pennsylvanian,,Late Carboniferous,Bauxites,G bed at the base of the Penchi,,Wang Zhen-ji(1990)
+B,431,B1708,,35.5,N,117,E,Asia,China,,N. China:Yanzhou,L- M - U?,Pennsylvanian,,Late Carboniferous,Bauxites,G bed at the base of the Penchi,,Wang Zhen-ji(1990)
+B,432,B1709,,41.5,N,124,E,Asia,China,,N. China:Banxi,L- M - U?,Pennsylvanian,,Late Carboniferous,Bauxites,base of the Penchi,,Gan De-qing(1984)
+B,433,B1710,,37,N,118,E,Asia,China,,N. China:Tangshan,L- M - U?,Pennsylvanian,,Late Carboniferous,Bauxites,base of the Penchi,,Gan De-qing(1984)
+B,434,B1711,,40,N,119,E,Asia,China,,N. China:Luanxian,L- M - U?,Pennsylvanian,,Late Carboniferous,Bauxites,base of the Penchi,,Gan De-qing(1984)
+B,435,B1712,,39,N,112,E,Asia,China,,N. China:Xuangang,L- M - U?,Pennsylvanian,,Late Carboniferous,Bauxites,base of the Penchi,,Gan De-qing(1984)
+B,436,B1713,,39,N,111,E,Asia,China,,N. China:Fugu,L- M - U?,Pennsylvanian,,Late Carboniferous,Bauxites,base of the Penchi,,Gan De-qing(1984)
+B,437,B1714,,40,N,107,E,Asia,China,,N. China:Lhaibowan,L- M - U?,Pennsylvanian,,Late Carboniferous,Bauxites,base of the Penchi,,Gan De-qing(1984)
+B,438,B1715,,36.5,N,107,E,Asia,China,,N. China:Huan,L- M - U?,Pennsylvanian,,Late Carboniferous,Bauxites,base of the Penchi,,Gan De-qing(1984)
+B,439,B1716,,35.5,N,106.5,E,Asia,China,,N. China:Pingliang,L- M - U?,Pennsylvanian,,Late Carboniferous,Bauxites,base of the Penchi,,Gan De-qing(1984)
+B,440,B1717,,35,N,107,E,Asia,China,,N. China:Haibowan,L- M - U?,Pennsylvanian,,Late Carboniferous,Bauxites,base of the Penchi,,Gan De-qing(1984)
+B,441,B1718,,35,N,109.5,E,Asia,China,,N. China:Baaishui,L- M - U?,Pennsylvanian,,Late Carboniferous,Bauxites,base of the Penchi,,Gan De-qing(1984)
+B,442,B1719,,35.5,N,110.5,E,Asia,China,,N. China:Hancheng,L- M - U?,Pennsylvanian,,Late Carboniferous,Bauxites,base of the Penchi,,Gan De-qing(1984)
+B,443,B1720,,35,N,112,E,Asia,China,,N. China:Xinan,L- M - U?,Pennsylvanian,,Late Carboniferous,Bauxites,base of the Penchi,,Gan De-qing(1984)
+B,444,B1721,,35,N,113,E,Asia,China,,N. China:Gongxian,L- M - U?,Pennsylvanian,,Late Carboniferous,Bauxites,base of the Penchi,,Gan De-qing(1984)
+B,445,B1722,,37,N,118,E,Asia,China,,N. China:Zibo,L- M - U?,Pennsylvanian,,Late Carboniferous,Bauxites,base of the Penchi,,Gan De-qing(1984)
+B,446,B1723,,36,N,117,E,Asia,China,,N. China:Xintai,L- M - U?,Pennsylvanian,,Late Carboniferous,Bauxites,base of the Penchi,,Gan De-qing(1984)
+B,447,B1724,,35,N,117.5,E,Asia,China,,N. China:Zhaozhuang,L- M - U?,Pennsylvanian,,Late Carboniferous,Bauxites,base of the Penchi,,Gan De-qing(1984)
+B,448,B1725,,37,N,112,E,Asia,China,,N. China:Xiaoyi,L- M - U?,Pennsylvanian,,Late Carboniferous,Bauxites,base of the Penchi,,Gan De-qing(1984)
+B,449,B1726,,37,N,120,E,Asia,China,,N. China:Jiexiu,L- M - U?,Pennsylvanian,,Late Carboniferous,Bauxites,base of the Penchi,,Gan De-qing(1984)
+B,450,B1727,,38,N,114,E,Asia,China,,N. China:Jingxing,L- M - U?,Pennsylvanian,,Late Carboniferous,Bauxites,base of the Penchi,,Gan De-qing(1984)
+B,451,B1728,,38,N,113.5,E,Asia,China,,N. China:Yangxuan,L- M - U?,Pennsylvanian,,Late Carboniferous,Bauxites,base of the Penchi,,Gan De-qing(1984)
+B,452,B1729,,41,N,123,E,Asia,China,,"N. China:Penhsihu,Liaoning Province",L - M?,Pennsylvanian,,Middle Carboniferous(Hyp.),Bauxites,,kaarst bauxite,"Bardoosy(1982, Appendix 1)"
+B,453,B1730,,38,N,113.5,E,Asia,China,,N. China:Yangquan,L - M?,Pennsylvanian,,Late Carboniferous,Bauxites,,,Liao Shi-fan(1991)
+B,454,B1731,,35,N,113,E,Asia,China,,N. China:Gongxian,L - M?,Pennsylvanian,,Late Carboniferous,Bauxites,,,Liao Shi-fan(1991)
+B,455,B1732,,33,N,113,E,Asia,China,,N. China,L - M?,Pennsylvanian,,"""Middle Carboniferous""",Bauxites,Penchi ,redeposited bauxites,"Chen Ting-zhen,Wang Jin-ding(1987)"
+B,456,B1733,,34.7,N,112.9,E,Asia,China,,N. China:Gongxiang,L - M - U,Pennsylvanian,,,Bauxites,Penchi ,,"Liao Shi-fan,Liang Tong-rong(1991)"
+B,457,B1734,,34.7,N,117,E,Asia,China,,N. China:Yanshi,L- M - U?,Pennsylvanian,,,Bauxites,Penchi ,,"Liao Shi-fan,Liang Tong-rong(1991)"
+B,458,B1735,,34.4,N,113,E,Asia,China,,N. China:Dengfeng,L- M - U?,Pennsylvanian,,,Bauxites,Penchi ,,"Liao Shi-fan,Liang Tong-rong(1991)"
+B,459,B1736,,31.8,N,116.4,E,Asia,China,,N. China:Xinan,L- M - U?,Pennsylvanian,,,Bauxites,Penchi ,,"Liao Shi-fan,Liang Tong-rong(1991)"
+B,460,B1737,,34.7,N,111.7,E,Asia,China,,N. China:Mianchi,L- M - U?,Pennsylvanian,,,Bauxites,Penchi ,,"Liao Shi-fan,Liang Tong-rong(1991)"
+B,461,B1738,,38.4,N,111.1,E,Asia,China,,N. China:Xingxian,L- M - U?,Pennsylvanian,,,Bauxites,Penchi ,,"Liao Shi-fan,Liang Tong-rong(1991)"
+B,462,B1739,,39,N,111,E,Asia,China,,N. China:Baode,L- M - U?,Pennsylvanian,,,Bauxites,Penchi ,,"Liao Shi-fan,Liang Tong-rong(1991)"
+B,463,B1740,,37.4,N,111.9,E,Asia,China,,N. China:Xiaoyi,L- M - U?,Pennsylvanian,,,Bauxites,Penchi ,,"Liao Shi-fan,Liang Tong-rong(1991)"
+B,464,B1741,,37.8,N,113.5,E,Asia,China,,N. China:Yangquan,L- M - U?,Pennsylvanian,,,Bauxites,Penchi ,,"Liao Shi-fan,Liang Tong-rong(1991)"
+B,465,B1742,,25,N,102.7,E,Asia,China,,N. China:Kunming,L- M - U?,Pennsylvanian,,,Bauxites,Penchi ,,"Liao Shi-fan,Liang Tong-rong(1991)"
+B,466,B1743,,24.9,N,102.4,E,Asia,China,,N. China:Anning,L- M - U?,Pennsylvanian,,,Bauxites,Penchi ,,"Liao Shi-fan,Liang Tong-rong(1991)"
+B,467,B1744,,25.2,N,102.4,E,Asia,China,,N. China:Fuming,L- M - U?,Pennsylvanian,,,Bauxites,Penchi ,,"Liao Shi-fan,Liang Tong-rong(1991)"
+B,468,B1745,,25.3,N,103,E,Asia,China,,N. China:Songming,L- M - U?,Pennsylvanian,,,Bauxites,Penchi ,,"Liao Shi-fan,Liang Tong-rong(1991)"
+B,469,B1746,,25.5,N,103.2,E,Asia,China,,N. China:Xundian,L- M - U?,Pennsylvanian,,,Bauxites,Penchi ,,"Liao Shi-fan,Liang Tong-rong(1991)"
+B,470,B1747,,24.9,N,102.8,E,Asia,China,,N. China:Chenggong,L- M - U?,Pennsylvanian,,,Bauxites,Penchi ,,"Liao Shi-fan,Liang Tong-rong(1991)"
+B,471,B1748,,35.4,N,110.4,E,Asia,China,,"N. China:Hancheng,Shanxi",Middle,Pennsylvanian,Moscovian,,Bauxites,Penchi ,,Wang et al.(1990)
+B,472,B1750,,39.5,N,112.3,E,Asia,China,,"N. China:Pinglu,Shanxi",L - M - U?,Pennsylvanian,,,Bauxites,Benchi,,The Bureau of Geology and Mineral Resources of Shanxi Province(1989)
+B,473,B1751,,36.8,N,111.8,E,Asia,China,,"N. China:Lingshi,Shanxi",L - M - U?,Pennsylvanian,,,Bauxites,Benchi,,The Bureau of Geology and Mineral Resources of Shanxi Province(1989)
+B,474,B1752,,35.5,N,111.7,E,Asia,China,,"N. China:Yuanqu,Shanxi",L - M - U?,Pennsylvanian,,,Bauxites,Benchi,,The Bureau of Geology and Mineral Resources of Shanxi Province(1989)
+B,475,B1753,,39.3,N,111.1,E,Asia,China,,"N. China:Hequ,Shanxi",L - M - U?,Pennsylvanian,,,Bauxites,Benchi,,The Bureau of Geology and Mineral Resources of Shanxi Province(1989)
+B,476,B1754,,38.7,N,112.7,E,Asia,China,,"N. China:Yuanping,Shanxi",L - M - U?,Pennsylvanian,,,Bauxites,Benchi,,The Bureau of Geology and Mineral Resources of Shanxi Province(1989)
+B,477,B1755,,34.8,N,111.2,E,Asia,China,,"N. China:Pinglu,Shanxi",L - M - U?,Pennsylvanian,,,Bauxites,Benchi,,The Bureau of Geology and Mineral Resources of Shanxi Province(1989)
+B,478,B1756,,36.5,N,112.3,E,Asia,China,,"N. China:Xinagyuan,Shanxi",L - M - U?,Pennsylvanian,,,Bauxites,Benchi,,The Bureau of Geology and Mineral Resources of Shanxi Province(1989)
+B,479,B1757,,36.6,N,111.5,E,Asia,China,,"N. China:Fenxi,Shanxi",L - M - U?,Pennsylvanian,,,Bauxites,Benchi,,The Bureau of Geology and Mineral Resources of Shanxi Province(1989)
+B,480,B1758,,38.9,N,112.4,E,Asia,China,,"N. China:Xuangang,Shanxi",L - M - U?,Pennsylvanian,,,Bauxites,Benchi,,The Bureau of Geology and Mineral Resources of Shanxi Province(1989)
+B,481,B1759,,36.9,N,111.1,E,Asia,China,,"N. China:Jiaokou,Shanxi",L - M - U?,Pennsylvanian,,,Bauxites,Benchi,,Liao et al.(1991)
+B,482,B1760,,37.6,N,113.7,E,Asia,China,,"N. China:Xiyang,Shanxi",L - M - U?,Pennsylvanian,,,Bauxites,Benchi,,Liao et al.(1991)
+B,483,B1761,,37.3,N,113.5,E,Asia,China,,"N. China:Heshun,Shanxi",L - M - U?,Pennsylvanian,,,Bauxites,Benchi,,Liao et al.(1991)
+B,484,B1762,,38.4,N,111.1,E,Asia,China,,"N. China:Xingxian,Shanxi",L - M - U?,Pennsylvanian,,,Bauxites,Benchi,,Liao et al.(1991)
+B,485,B1763,,36.6,N,111.7,E,Asia,China,,"N. China:Huoxian,Shanxi",L - M - U?,Pennsylvanian,,,Bauxites,Benchi,,Liao et al.(1991)
+B,486,B1764,,35.3,N,111.6,E,Asia,China,,"N. China:Yuanqu,Shanxi",L - M - U?,Pennsylvanian,,,Bauxites,Benchi,,The Bureau of Geology and Mineral Resources of Shanxi Province(1989)
+B,487,B1765,,36.8,N,118.5,E,Asia,China,,"N. China:Zibo,Shanxi",L - M - U?,Pennsylvanian,,,Bauxites,Benchi,,Wang et al.(1990)
+B,488,B1766,,34.1,N,112.8,E,Asia,China,,"N. China:Linglu,Henan",L - M - U?,Pennsylvanian,,,Bauxites,Benchi,,Liao et al.(1991)
+B,489,B1767,,35.5,N,113,E,Asia,China,,"N. China:Boai,Henan",L - M - U?,Pennsylvanian,,,Bauxites,Benchi,,Liao et al.(1991)
+B,490,B1768,,34.1,N,113.4,E,Asia,China,,"N. China:Yuxian,Henan",L - M - U?,Pennsylvanian,,,Bauxites,Benchi,,Liao et al.(1991)
+B,491,B1769,,34.5,N,113.3,E,Asia,China,,"N. China:Mixian,Henan",L - M - U?,Pennsylvanian,,,Bauxites,Benchi,,Liao et al.(1991)
+B,492,B1770,,34.7,N,112.7,E,Asia,China,,"N. China:Yansi,Henan",L - M - U?,Pennsylvanian,,,Bauxites,Benchi,,Liao et al.(1991)
+B,493,B1771,,33.8,N,113,E,Asia,China,,"N. China:Baofong,Henan",L - M - U?,Pennsylvanian,,,Bauxites,Benchi,,Liao et al.(1991)
+B,494,B1772,,34.4,N,116.3,E,Asia,China,,"N. China:Huaobei,Anhui",L - M - U?,Pennsylvanian,,,Bauxites,Benchi,,Wang et al.(1990)
+B,495,B1773,,34,N,116,E,Asia,China,,"N. China:Weixi,Anhui",L - M - U?,Pennsylvanian,,,Bauxites,Benchi,,The Bureau of Geology and Mineral Resources of Annhui Province(1987)
+B,496,B1774,,39.4,N,121.6,E,Asia,China,,"N. China:Fuzhou,Liaoning",L - M - U?,Pennsylvanian,,,Bauxites,Benchi,,The Bureau of Geology and Mineral Resources of Liaonig Province(1989),
+B,497,B1775,,41.2,N,119.3,E,Asia,China,,"N. China:Lingyuan,Liaoing",L - M - U?,Pennsylvanian,,,Bauxites,Benchi,,The Bureau of Geology and Mineral Resources of Liaonig Province(1989),
+B,498,B1776,,40.7,N,120.8,E,Asia,China,,"N. China:Jingxi,Liaoing",L - M - U?,Pennsylvanian,,,Bauxites,Benchi,,The Bureau of Geology and Mineral Resources of Liaonig Province(1989),
+B,499,B1777,,39.6,N,110.8,E,Asia,China,,"N. China:Junggar Banner,Neimongol",L - M - U?,Pennsylvanian,,,Bauxites,Benchi,,The Bureau of Geology and Mineral Resources of Neimongol Autonomous Region(1991),
+B,500,B1778,,25.2,N,102.4,E,Asia,China,,"S. China:Fumin,Yunnan",L - M - U?,Pennsylvanian,,Upper Carboniferous,Bauxites,,,Liao et al.(1991),
+B,501,B1779,,40,N,70,E,Asia,C. I. S.(fm USSR),,"Bukantau,Tamdytau and Nuratau in Central Asia",L - M - U?,Pennsylvanian,,Lower and Middle Carboniferous,Bauxites,,karst bauxite(Cert.),"Bardoosy(1982, Appendix 1)","see also Vrublevskaja et al.(1975), for the Dzhalair deposit"
+B,502,B1780,,55,N,-4,W,Europe,Britain,,,L - M - U?,Pennsylvanian,,,Bauxites,Ayrshire,"Ayrshire bauxite(Bracewell(1962) is actually a bauxite clay,a flint clay,high in kaolinite and silica,than a true bauxite",Monro et al(1983),
+B,503,B1781,,51,N,7,E,Europe,Germany,,Ruhr,Middle,Pennsylvanian,Westphalian,,Bauxites,,tonstein that contains diaspore,"Burger,Stadler(1966)",
+B,504,B1782,,52,N,16,E,Europe,Poland,,,Middle?,Pennsylvanian,,,Bauxites,Polish bauxite,"associated with diaspore-rich beds,overlain by Westphalian beds",Gorzynski(1968),
+B,505,B1783,,38,N,-94,W,N. America,United States,,Missouri,M - U?,Pennsylvanian,,Middle Carboniferous,Bauxites,,karst bauxite(Cert.),"Bardoosy(1982, Appendix 1)",
+B,506,B1784,,38,N,-92,W,N. America,United States,,Missouri,L - M - U?,Pennsylvanian,,,Bauxites,,diaspore deposits,Patterson et al.(1986),
+B,507,B1785,,41,N,-78,E,N. America,United States,,"Pennsylvania,Missouri",L - M - U?,Pennsylvanian,,,Bauxites,,widespead diaspore deposits,Patterson et al.(1986),
+K,508,K1786,,37,N,112.5,E,Asia,China,,N. China:Taiyuan,Middle,Pennsylvanian,Westphalian,,Kaolinites,Taiyuan,kaolinstone,Li Gui-qin(1992),
+K,509,K1787,,37.8,N,113.5,E,Asia,China,,N. China:Yangquan,Lower,Pennsylvanian,late Namurian,,Kaolinites,Penchi ,,Li Gui-qin(1992),
+K,510,K1788,,40,N,113.6,E,Asia,China,,N. China:Datong,Lower,Pennsylvanian,late Namurian,,Kaolinites,Taiyuan,kaolinstone,Zhu Guang-lin(1992),
+K,511,K1789,,36.6,N,114.5,E,Asia,China,,N. China:Handan,Lower,Pennsylvanian,late Namurian,,Kaolinites,Penchi ,,Tao Wei-ping et al.(1984),
+K,512,K1790,,41.3,N,124.1,E,Asia,China,,N. China:Benxi,Middle,Pennsylvanian,Westphalian,,Kaolinites,"Penchi,Taiyuan ",,Tao Wei-ping et al.(1984),
+K,513,K1791,,36.5,N,104.6,E,Asia,China,,N. China:Jingyuan,Middle,Pennsylvanian,Westphalian,,Kaolinites,Taiyuan,,Tao Wei-ping et al.(1984),
+K,514,K1792,,32.6,N,116.9,E,Asia,China,,N. China:Huainan,Middle,Pennsylvanian,Westphalian,,Kaolinites,Taiyuan,,Tao Wei-ping et al.(1984),
+K,515,K1793,,35.8,N,117.6,E,Asia,China,,N. China:Xinwen,Middle,Pennsylvanian,Westphalian,,Kaolinites,Taiyuan,,Tao Wei-ping et al.(1984),
+K,516,K1794,,38.6,N,114.6,E,Asia,China,,N. China:Quyang,Middle,Pennsylvanian,Westphalian,,Kaolinites,Taiyuan,,Tao Wei-ping et al.(1984),
+K,517,K1795,,37.8,N,113.5,E,Asia,China,,"N. China:Yangquan,Shanxi",Middle,Pennsylvanian,Moscovian,,Kaolinites,Benchi,,Li Gui-qin(1992),
+K,518,K1796,,36.6,N,114.5,E,Asia,China,,"N. China:Handan,Hebei",Middle?,Pennsylvanian,Moscovian?,,Kaolinites,Benchi,,Tao Wei-ping et al.(1984),
+K,519,K1797,,39.6,N,118.1,E,Asia,China,,"N. China:Tangshan,Hebei",Middle?,Pennsylvanian,Moscovian?,,Kaolinites,Benchi,,Tao Wei-ping et al.(1984),
+K,520,K1798,,43,N,44,E,Asia,C. I. S.(fm USSR),,North Caucasus,Middle,Pennsylvanian,Westphalian,,Kaolinites,,tonstein,Burger(1978-1980),
+K,521,K1799,,50,N,73,E,Asia,C. I. S.(fm USSR),,Karaganda,Middle,Pennsylvanian,Westphalian,,Kaolinites,,tonstein,Burger(1978-1980),
+K,522,K1800,,55,N,88,E,Asia,C. I. S.(fm USSR),,Kuznetsk,Middle,Pennsylvanian,Westphalian,,Kaolinites,,tonstein,Burger(1978-1980),
+K,523,K1801,,35.5,N,136.75,E,Asia,Japan,,,L - M - U?,Pennsylvanian,,,Kaolinites,Ichinotani,"kaolinitic,hematiferous shale(below the Fuslinella Zone) ",Igo(1961),
+K,524,K1802,,41.5,N,41.5,E,Asia,Turkey,,Eregli-Zonguldak,Middle,Pennsylvanian,Westphalian,,Kaolinites,,tonstein,Burger(1978-1980),see Burger et al.(2000) for details
+K,525,K1803,,50.5,N,4,E,Europe,Belgium,,Campine-Zwartberg,Middle,Pennsylvanian,Westphalian B and C,,Kaolinites,,kaolinitic tonstein ,Scheere(1955),
+K,526,K1804,,43,N,26,E,Europe,Bulgaria,,Dobrudja Basin,Middle,Pennsylvanian,Westphalian,,Kaolinites,,tonstein,Burger(1978-1980),
+K,527,K1805,,42,N,48,E,Europe,C. I. S.(fm USSR),,Donetz Basin ,L - M - U,Pennsylvanian,,,Kaolinites,,and other Soviet tonsteins with their kaolinite,"Zaritsky(1971,1985)",
+K,528,K1806,,42,N,48,E,Europe,C. I. S.(fm USSR),,Kuban(Donetz),L - M - U,Pennsylvanian,Westp B into Steph A(Namur B thru Steph C),,Kaolinites,,tonstein,Hoehne(1964),
+K,529,K1806.1,,44,N,43,E,Europe,C. I. S.(fm USSR),,"Donetz,North Caucasus",Middle,Pennsylvanian,Westphalian,,Kaolinites,,tonstein,Burger(1978-1980),
+K,530,K1806.2,,50,N,75,E,Europe,C. I. S.(fm USSR),,Karaganda,Middle,Pennsylvanian,Westphalian,,Kaolinites,,tonstein,Burger(1978-1980),
+K,531,K1806.3,,57,N,86,E,Europe,C. I. S.(fm USSR),,Kuznetsk,Middle,Pennsylvanian,Westphalian,,Kaolinites,,tonstein,Burger(1978-1980),
+K,532,K1807,,49,N,13,E,Europe,Czech Republic,,Plezen region,Middle,Pennsylvanian,(Westphalian),"(see also Kuzvart,Neuzil(1972),Westphalian)",Kaolinites,,,Kuzvart(1968),
+K,533,K1808,,49,N,7,E,Europe,France,,Adamswiller?,L - M - U?,Pennsylvanian,,,Kaolinites,,"abundant kaolinite,associated with coals, in the Adamswiller borehole","Spears,Kanaris-Sotiriou(1979)",
+K,534,K1809,,49,N,-1,W,Europe,France,,Pas-deCalais,Middle,Pennsylvanian,Westphalian B ,,Kaolinites,Horeb tonstein,,Bouroz et al.(1983),
+K,535,K1810,,54,N,-8,W,Europe,Ireland,,,Lower,Pennsylvanian,Namurian,,Kaolinites,,,Perrin(1971),
+K,536,K1811,,51,N,13,E,Europe,Germany,,Zwickau-Olsnitz area,,,,pre-Pennsylvanian,Kaolinites,pre-Pennsylvanian basement,kaolinitic weathering,"Storr(1975a, p. 33)",
+K,537,K1812,,51,N,13,E,Europe,Germany,,east German coal basins,L - M - U?,Pennsylvanian,,,Kaolinites,,kaolinite-rich tonsteins,"Storr(1975a, p. 52)",
+K,538,K1813,,51,N,7,E,Europe,Germany,,Ruhr,Middle,Pennsylvanian,Westphalian,,Kaolinites,,tonstein,"Spears,Kanaris-Sotiriou(1979)",see also Burger(1964)
+K,539,K1814,,51.5,N,13.5,E,Europe,Germany,,Lugau and Zwickau,Middle,Pennsylvanian,Westphalian D,,Kaolinites,,tonstein,Hoehne(1964),
+K,540,K1814.1,,49,N,7,E,Europe,Germany,,Saar-Lorraine Basin,Middle,Pennsylvanian,Westphalian,,Kaolinites,,kaolinitic tonstein ,"Burger,Wilf(1989)",
+K,541,K1814.2,,54.5,N,13.6,E,Europe,Germany,,subsurface of Rugen,Middle,Pennsylvanian,Westphalian C,,Kaolinites,,subsurface,"Hoth,Wolf(1997)",
+K,542,K1815,,51,N,6,E,Europe,Netherland,,south Limburg,Middle,Pennsylvanian,Westphalian B,,Kaolinites,,kaolinitic tonstein ,Kimpe(1962),
+K,543,K1816,,50,N,19,E,Europe,Poland,,Upper Silesian Coal Basim,Middle,Pennsylvanian,Westphalian,,Kaolinites,,kaolinitic tonstein-tuffs ,"Parachoniak,Srodon(1973)",
+K,544,K1817,,43,N,-6,W,Europe,Spain,,Asturias,Middle,Pennsylvanian,Westphalian,,Kaolinites,,tonstein,Burger(1978-1980),
+K,545,K1818,,38,N,-6,W,Europe,Spain,,Villanueve,Middle,Pennsylvanian,Westphalian,,Kaolinites,,tonstein,Burger(1978-1980),
+K,546,K1819,,53,N,-1,W,United Kingdom,England and Wales,,East Midlands,L - M - U?,Pennsylvanian,,,Kaolinites,,and kaolinitic tonsteins,Strauss(1971),
+K,547,K1820,,53,N,-3,W,United Kingdom,England and Wales,,"Midlands and North England,as well as in Wales",L - M - U?,Pennsylvanian,,,Kaolinites,,,Perrin(1971),
+K,548,K1821,,53.5,N,-1.5,W,United Kingdom,England and Wales,,Pennine Basin,Middle,Pennsylvanian,Westphalian,,Kaolinites,,,Spears(1970),
+K,549,K1822,,56,N,-4,W,United Kingdom,Scotland,,northern England and the Scottish Valley,Middle,Pennsylvanian,Westphalian,,Kaolinites,,kaolinitic tonstein ,"Price,Duff(1969)",
+K,550,K1823,,53,N,-2,W,United Kingdom,Scotland,,northern England and the Scottish Valley,Middle,Pennsylvanian,Westphalian,,Kaolinites,,kaolinitic tonstein ,"Price,Duff(1969)",
+K,551,K1824,,53.5,N,-4,W,United Kingdom,Scotland,,Scottish Midland Valley,L - M - U?,Pennsylvanian,,Upper Carboniferous,Kaolinites,,,Wilson et al.(1972),
+K,552,K1825,,46,N,-60,W,N. America,Canada,,Nova Scotia:Sydney area,Middle,Pennsylvanian,Westphalian,,Kaolinites,Morien Group,kaolinitic-rich beds,Gibling et al.(1985),
+K,553,K1826,,34,N,-87,W,N. America,United States,,Alabama:Cordova,L - M,Pennsylvanian,,Early Pennsylvanian,Kaolinites,,sedimentary kaolinite,"Murray,Patterson(1975)",see also Hosterman et al.(1968)
+K,554,K1827,,39,N,-86,W,N. America,United States,,Pennsylvania,Lower,Pennsylvanian,,basal Pennsylvania,Kaolinites,,basal Pennsylvanian endellite,Callaghan(1948),
+K,555,K1828,,41,N,-94,W,N. America,United States,,Iowa:south-central Iowa,Middle,Pennsylvanian,Westphalian,upper Desmoinesean,Kaolinites,,,Brown et al.(1977),
+K,556,K1829,,38,N,-83,W,N. America,United States,,Kentucky:Olive Hill,Lower,Pennsylvanian,,Early Pennsylvanian,Kaolinites,,,"Murray,Patterson(1975)","see also Patterson,Hosterman(1963),Cecil et al.(1992)"
+K,557,K1830,,39.5,N,-79,W,N. America,United States,,Maryland,L - M - U?,Pennsylvanian,,,Kaolinites,,fire clays,Watts(1922),
+K,558,K1831,,39,N,-91,W,N. America,United States,,Missouri:east-central Missouri,L - M - U?,Pennsylvanian,,,Kaolinites,,sedimentary kaolinite,"Murray,Patterson(1975)",see also McQueen(1943)
+K,559,K1832,,37,N,-92,W,N. America,United States,,Missouri:east-central Missouri,L - M - U?,Pennsylvanian,,,Kaolinites,,sedimentary kaolinite,"Murray,Patterson(1975)",see also McQueen(1943)
+K,560,K1833,,41,N,-81,W,N. America,United States,,Ohio:East Liverpool,Middle,Pennsylvanian,,,Kaolinites,,sedimentary kaolinite,"Murray,Patterson(1975)",sse also Hosterman et al.(1968)
+K,561,K1834,,40.5,N,-81.5,W,N. America,United States,,Ohio:Tuscarawas,L - M,Pennsylvanian,,,Kaolinites,,sedimentary kaolinite,"Murray,Patterson(1975)",
+K,562,K1835,,39,N,-82.5,W,N. America,United States,,Ohio:Oak Hill,L - M,Pennsylvanian,,,Kaolinites,,sedimentary kaolinite,"Murray,Patterson(1975)",
+K,563,K1836,,41,N,-80,W,N. America,United States,,Pennsylvania:Beaver Valley,L - M-  U?,Pennsylvanian,,,Kaolinites,Middle Pottsvile,sedimentary kaolinite,"Murray,Patterson(1975)","see also Hosterman et al.(1968), Williams(1960)"
+K,564,K1837,,41,N,-80,W,N. America,United States,,Pennsylvania:Allegheny,Middle,Pennsylvanian,,,Kaolinites,,sedimentary kaolin,"Murray,Patterson(1975)","see also Hosterman et al.(1968), Williams(1960)"
+K,565,K1838,,41,N,-79,W,N. America,United States,,Pennsylvainia:Clearfield County,L - M ,Pennsylvanian,,Early and Middle  Pennsylvanian,Kaolinites,,sedimentary kaolin,"Murray,Patterson(1975)","see also Hosterman et al.(1968), Williams(1960)"
+K,566,K1839,,40,N,-79.5,W,N. America,United States,,Pennsylvania:Somerset County,L - M,Pennsylvanian,,Early and Middle  Pennsylvanian,Kaolinites,,sedimentary kaolin,"Murray,Patterson(1975)","see also Hosterman et al.(1968), Williams(1960)"
+K,567,K1840,,39,N,-81,W,N. America,United States,,West Virginia:also from (Kanawha),Middle,Pennsylvanian,,,Kaolinites,,residual kaolinite(fire clay),"Cecil,Englund(1989)",
+K,568,K1841,,-30,S,-67,W,S. America,Argentina,,La Rioja,Middle,Pennsylvanian,Westphalian,,Kaolinites,Paganzo Group,"kaolinite associated with coals(see also Lopez-Gamundi et al.(1992),kaolinitic tonstein)","Iniguez,Zalba(1984)",
+K,569,L1842,,54,N,-2,W,United Kingdom,England ,,,Middle,Pennsylvanian,Westphalian,,Lateritic Soil,Etruria ,laterritic soil evidence,Beasley(1988),
+K,570,L1843,,53,N,7.5,E,Europe,Germany,,northwestern Germany,Middle,Pennsylvanian,Westphalian D,,Lateritic Soil,,"ferrasols,emphasizes the regional interlayering of the ferrasols with calcretes","Selter(1989, Fig. 8)",

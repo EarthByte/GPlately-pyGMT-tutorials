@@ -1,0 +1,1670 @@
+001 410.0   90.0    0.0    0.0  000 !	   
+001 1000.0   90.0    0.0    0.0  000 !	   
+003 410.0   90.0    0.0    0.0  005 !	   
+003 1000.0   90.0    0.0    0.0  005 !	   
+004 410.0   90.0    0.0    0.0  005 !	 No true polar wander correction
+004 1000.0   90.0    0.0    0.0  005 !	 No TWPC
+070 410.0   90.0    0.0    0.0  004 !	LGS-TPWC Longitudinal shift-TPW correction, transitioning to no longitudinal shift 
+070 1000.0   90.0    0.0    0.0  004 !	LGS-TPWC Longitudinal shift-TPW correction, no longitudinal shift 
+101 410.0   34.8771  -39.1282   77.6567  714 !NAM-NWA Young et al. (this study)
+101 410.0   33.0732  -36.8559   80.3806  701 !	
+101 430.0   18.1526  -42.9356   85.2506  701 !
+101 520.0   12.3761  -19.0436  128.251  701 !	
+101 520.0   35.01 -157.53 -123.49  003 !	
+101 555.0   40.8 -165.37 -119.32  003 !	
+101 590.0   30.89 -160.89 -134.96  003 !	
+101 615.0   34.14 -158.86 -140.22  003 !	
+101 700.0   44.58  159.82 -180.4  003 !	
+101 780.0   51.1932  138.2637 -169.9312  003 !	
+101 870.0   30.87  146.88 -189.99  003 !	
+101 940.0   44.77  170.26 -205.37  003 !	
+101 940.0   44.77  170.26 -205.37  003 !
+101 1050.0   43.54  179.56 -168.63  003 !
+101 1066.0   49.7419  179.5839 -146.5091  003 ! LAU-AFM
+101 1076.0   46.7483 -167.5888 -154.1052  003 ! LAU-AFM
+101 1091.0   58.7151 -166.4351 -161.293  003 ! LAU-AFM
+101 1100.0   60.9294 -162.0036 -158.5948  003 ! LAU-AFM
+101 1140.0   66.53 -132.9 -151.65  003 !LAU-AFM
+102 410.0   61.76 -132.95  -10.98  101 ! GRN - NAM full fit modification of Hosseinpour et al. 2013 (Barnett-Moore 2015) @absage   OLD ROT 70.4	-94.1	-18.0	101		
+102 1000.0   61.76 -132.95  -10.98  101 !	 Greenland
+103 410.0   66.28 -122.78  -34.99  101 !	"NSL-NAM @REF Domeier_Torsvik_2014 @DOI""10.1016/j.gsf.2014.01.002"""
+103 420.0   66.9 -114.09  -35.05  101 !	"NSL-NAM @REF Domeier_Torsvik_2014 @DOI""10.1016/j.gsf.2014.01.002"""
+103 430.0   67.38 -105.21  -35.43  101 !	"NSL-NAM @REF Domeier_Torsvik_2014 @DOI""10.1016/j.gsf.2014.01.002"""
+103 445.0   34.0  154.0   16.6  101 !	"NSL-NAM  @REF Domeier_Torsvik_2014 @DOI""10.1016/j.gsf.2014.01.002"""
+103 460.0   14.8  137.5   25.56  101 !	"NSL-NAM THT2009 Midway LAU and SIB  @REF Domeier_Torsvik_2014 @DOI""10.1016/j.gsf.2014.01.002"""
+103 600.0   14.8  137.5   25.56  101 !	"NSL-NAM Fauna suggest Alaska and Chkotka half between SIB and LAU  @REF Domeier_Torsvik_2014 @DOI""10.1016/j.gsf.2014.01.002"""
+104 410.0   35.0  -14.0   -1.5  101 !MEX-NAM Mexico-North America FIT Ross & Scotese 1988  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+104 600.0   35.0  -14.0   -1.5  101 !MEX-NAM Ross & Scotese 1988  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"107 410.0  -69.79  101.72    5.98  101 !Rae Craton
+107 410.0  -69.79  101.72    5.98  101 !Rae Craton
+107 1000.0  -69.79  101.72    5.98  101 !Rae Craton
+108 410.0   90.0    0.0    0.0  101 !	West avalonia Domeier 2015
+108 420.0   90.0    0.0    0.0  101 !	Domeier 2015
+108 430.0    6.87  123.36    8.04  101 !	 
+108 450.0  -13.4438  111.121   38.1529  101 !	
+108 489.0   -5.5925  -67.8175  -69.6561  101 !	Domeier 2016 modified slightly
+108 489.0  -57.1619  167.049  -73.5611  714 !	 
+108 500.0  -57.1619  167.049  -73.5611  714 !
+108 650.0  -57.1619  167.049  -73.5611  714 !
+108 750.0   60.5  -44.0   64.7  714 !WAV-WNA @REF Murphy et al., 2004 @DOI"10.1007/s00531-004-0412-9
+109 410.0   64.28  -14.74   78.05  714 !Torsvik et al 2012, 2014
+109 650.0   64.28  -14.74   78.05  714 !Torsvik et al 2012, 2014
+109 700.0   65.8824  -22.2119   76.6299  714 !
+109 990.0   65.8824  -22.2119   76.6299  714 !Slight alter from Torsvik et al 2012, 2014 to account for Bassaride Belt
+110 410.0   90.0    0.0    0.0  101 !ALR-NAM	Alpha Ridge/Cordillera-North America Alvey test model 6-Mar  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+110 600.0   90.0    0.0    0.0  101 !ALR-NAM  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+111 410.0   24.82   60.8    8.3  101 !MNR-NAM Mendeleyev Ridge-North America  modified after Alvey et al. 2008		   @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+111 600.0   24.82   60.8    8.3  101 !MNR-NAM  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+112 410.0   90.0    0.0    0.0  113 !CHP-NWR Chukchi Cap-Northwind Ridge        @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+112 600.0   90.0    0.0    0.0  113 !CHP-NWR  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+113 410.0  -74.62   18.27  -23.99  103 !NWR-NAM Northwind Ridge-North America  modified after Alvey et al. 2008  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+113 600.0  -74.62   18.27  -23.99  103 !NWR-NAM  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+114 410.0   56.99  145.4   13.74  301 !LMN-EUR @REF Gaina_++_2002 @absage @DOI"10.1016/S0012-81X(02)00499-5"    @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+114 600.0   56.99  145.4   13.74  301 !101 ! LMN-NAM   @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+120 410.0    7.0   35.0   -3.5  101 !CAIN-NAM Switch to emulate Ellesmerian  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+120 600.0    7.0   35.0   -3.5  101 !CAIN-NAM THT2009											   @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+121 410.0    1.7506   -0.2113   -1.216  101 !ELA-NAM cross over for 1000-410 Ma model ASM
+121 1000.0    1.7506   -0.2113   -1.216  101 !Pearya South
+122 410.0   64.7 -111.1   -2.91  123 !ELB-ELC @REF Lawver_++_1990 @DOI"10.1007/978-94-009-2029-3_3" @xo_ys  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+122 600.0   64.7 -111.1   -2.91  123 !ELB-ELC 					    @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+123 410.0  -11.0 -127.9   -1.0  124 !ELC-ELD @REF Lawver_++_1990 @DOI"10.1007/978-94-009-2029-3_3"  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+123 600.0  -11.0 -127.9   -1.0  124 !ELC-ELD    @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+124 410.0   90.0    0.0    0.0  120 !ELD-CAIN North Ellesmere Island (Pearya)-Canadian Arctic Islands North      @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+124 600.0   90.0    0.0    0.0  120 !ELD-CAIN   @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+131 410.0   22.59 -110.66   39.41  101 !CCO-NAM Cache Creek Ocean Shephard et al., GS13 @absage updated KJM  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+131 600.0   22.59 -110.66   39.41  101 !CCO-NAM Cache Creek Ocean Shephard et al., GS13 @absage updated KJM  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+132 410.0   90.0    0.0    0.0  131 !CCO Flank 2-CCO Cache Creek Ocean Shephard et al., GS13 @absage     @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+132 600.0   90.0    0.0    0.0  131 !CCO Flank 2-CCO Cache Creek Ocean Shephard et al., GS13 @absage     @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+141 410.0    7.0   35.0   -3.0  121 !CAIS-ELA  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+141 600.0    7.0   35.0   -3.0  121 !CAIS-ELA THT2009  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+154 410.0   71.87   97.94   -2.0  101 !LPA-NAM   @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+154 600.0   71.87   97.94   -2.0  101 !LPA-NAM Keep off west coast of NAM		   @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+154 1000.0   71.87   97.94   -2.0  101 !LPA-NAM Keep off west coast of NAM		   @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+155 410.0   51.61 -147.6   33.73  103 !FARW-NSL	Farewell Terrane-North Slope Alaska  Keep close to Arctic Alaska  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+155 600.0   51.61 -147.6   33.73  103 !FARW-NSL Farewell Terrane close to AA  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+16101 410.0   90.0    0.0    0.0  16104 !STK-YTT Stikinia Terrane - Yukon-Tanana Terrane @REF Shephard_++_2013, @DOI"10.1016/j.earscirev.2013.05.012"       
+16101 600.0   90.0    0.0    0.0  16104 !STK-YTT  
+16102 410.0   90.0    0.0    0.0  16104 !QES-YTT Quesnellia Terrane - Yukon-Tanana Terrane @REF Shephard_++_2013, @DOI"10.1016/j.earscirev.2013.05.012"       
+16102 600.0   90.0    0.0    0.0  16104 !QES-YTT  
+16103 410.0   90.0    0.0    0.0  101 !SMT-NAM Slide Mountain Terrane-North America @REF Shephard_++_2013, @DOI"10.1016/j.earscirev.2013.05.012"       
+16103 600.0   90.0    0.0    0.0  101 !SMT-NAM 
+16104 410.0  -71.834 -112.4024    2.1969  101 !YTT-NAM Yukon-Tanana rifts from Laurentian margin Nelson et al. 2006  @absage      
+16104 600.0  -71.834 -112.4024    2.1969  101 !YTT-NAM    
+16105 410.0   90.0    0.0    0.0  101 !YTUP-NAM Yukon-Tanana UPLAND - North America @REF Shephard_++_2013, @DOI"10.1016/j.earscirev.2013.05.012"        
+16105 600.0   90.0    0.0    0.0  101 !YTUP-NAM  
+16106 410.0   90.0    0.0    0.0  101 !CSR-NAM Cassiar Terrane-North America @REF Shephard_++_2013, @DOI"10.1016/j.earscirev.2013.05.012"        
+16106 600.0   90.0    0.0    0.0  101 !CSR-NAM 
+16107 410.0   90.0    0.0    0.0  101 !KOO-NAM Kootenay Terrane-North America @REF Shephard_++_2013, @DOI"10.1016/j.earscirev.2013.05.012"       
+16107 600.0   90.0    0.0    0.0  101 !KOO-NAM  
+16110 410.0   90.0    0.0    0.0  16111 !WRG-ALX Wrangellia Terrane- Alexander Terrane       
+16110 600.0   90.0    0.0    0.0  16111 !WRG-ALX  
+16111 410.0   45.2554  -39.145  -66.6674  302 !ALX-BAL Rifting of Alexander from Baltica (following Klakas Orogeny), @REF Matthews_et_al_2016 @DOI"10.1016/j.gloplacha.2016.10.002" @absage  
+16111 600.0   45.2554  -39.145  -66.6674  302 !ALX-BAL @REF Matthews_et_al_2016 @DOI"10.1016/j.gloplacha.2016.10.002"
+16112 410.0   90.0    0.0    0.0  16110 !PNT-WRG Peninsular Terrane-Wrangellia Terrane @REF Shephard_++_2013, @DOI"10.1016/j.earscirev.2013.05.012"    
+16112 600.0   90.0    0.0    0.0  16110 !PNT-WRG  
+16113 410.0   90.0    0.0    0.0  101 !CCT-NAM Cache Creek Terrane-North America @REF Shephard_++_2013, @DOI"10.1016/j.earscirev.2013.05.012"
+16113 600.0   90.0    0.0    0.0  101 !CCT-NAM  
+16122 410.0   90.0    0.0    0.0  126 !CHG2-TBG Chugach Terrane2 - Talkeetna-Bonanza Subduction Zone  Seton et al., 2012 @REF Shephard_++_2013, @DOI"10.1016/j.earscirev.2013.05.012"      
+16122 600.0   90.0    0.0    0.0  126 !CHG2-TBG 
+16150 410.0   27.07   50.89   22.97  16111 !AXB-ALX Alexander BAB isochron rotations-Alexander Terrane, @REF Matthews_et_al_2016 @DOI"10.1016/j.gloplacha.2016.10.002"  
+16150 600.0   27.07   50.89   22.97  16111 !AXB-ALX Alexander BAB isochron rotations-Alexander Terrane, @REF Matthews_et_al_2016 @DOI"10.1016/j.gloplacha.2016.10.002" 
+16151 410.0   90.0    0.0    0.0  902 !TCCO-AXB Trapped Farallon crust in Cache Creek-Farallon, @REF Matthews_et_al_2016 @DOI"10.1016/j.gloplacha.2016.10.002" 
+16151 600.0   90.0    0.0    0.0  902 !TCCO-AXB Trapped Farallon crust in Cache Creek-Farallon, @REF Matthews_et_al_2016 @DOI"10.1016/j.gloplacha.2016.10.002"
+16152 410.0   90.0    0.0    0.0  101 !TALX-NAM iso rot - trapped crust from Alexander BAB-Farallon, @REF Matthews_et_al_2016 @DOI"10.1016/j.gloplacha.2016.10.002"  
+16152 600.0   90.0    0.0    0.0  101 !TALX-NAM iso rot - trapped crust from Alexander BAB-Farallon, @REF Matthews_et_al_2016 @DOI"10.1016/j.gloplacha.2016.10.002" 
+173 410.0   90.0    0.0    0.0  101 !	Domeier 2015 - polygon disappears at 410 Ma?
+173 450.0   12.9559  -86.42   19.6  101 !	Dashwoods and correlatives_Domeier 2015
+173 460.0   33.3148  -92.0   10.48  101 !	Domeier 2015
+173 470.0   49.25  -64.6    6.07  101 !	Domeier 2015
+173 480.0   62.0557  -36.23    6.71  101 !	Domeier 2015
+173 490.0   62.1589    2.6    9.01  101 !	Domeier 2015
+173 500.0   61.2467   18.96    9.66  101 !	Domeier 2015
+173 510.0   55.9049   23.9   11.86  101 !	Domeier 2015
+1731 410.0   90.0    0.0    0.0  154 !PUM-LPA Purcell Mountains-Laurentia Parautochthon  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+1731 600.0   90.0    0.0    0.0  154 !PUM-LPA	@absage										   @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+176 410.0   24.7499 -157.3592    2.217  178 !EKL-RMG East Klamath - Roberts Mnt and Golkonda @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002" @absage  
+176 600.0   24.7499 -157.3592    2.217  178 !EKL-RMG East Klamath - Roberts Mnt and Golkonda @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002" 
+178 410.0   71.87   97.94   -4.1  101 !Mojave
+178 410.0   90.0    0.0    0.0  101 !Mojave
+178 1000.0   90.0    0.0    0.0  101 !Mojave
+18102 410.0   90.0    0.0    0.0  103 !RUBY-NSL Ruby Terrane-North Slope Seton et al., 2012 @REF Shephard_++_2013, @DOI"10.1016/j.earscirev.2013.05.012"    
+18102 600.0   90.0    0.0    0.0  103 !RUBY-NSL  
+18103 410.0   90.0    0.0    0.0  103 !ANG-NSL Angayucham Terrane-North Slope Seton et al., 2012 @REF Shephard_++_2013, @DOI"10.1016/j.earscirev.2013.05.012"
+18103 600.0   90.0    0.0    0.0  103 !ANG-NSL  
+18104 410.0   90.0    0.0    0.0  103 !FWT-NSL Farewell Terrane-North Slope Seton et al., 2012 @REF Shephard_++_2013, @DOI"10.1016/j.earscirev.2013.05.012"   
+18104 600.0   90.0    0.0    0.0  103 !FWT-NSL 
+18106 410.0   90.0    0.0    0.0  103 !KOY-NSL Koyukuk Terrane-North Slope Seton et al., 2012 @REF Shephard_++_2013, @DOI"10.1016/j.earscirev.2013.05.012"
+18106 600.0   90.0    0.0    0.0  103 !KOY-NSL18202 410.0   90.0    0.0    0.0  112 !SNCB-CHP Southern North Chukchi Basin-Chukchi Cap @REF Shephard_++_2013, @DOI"10.1016/j.earscirev.2013.05.012"
+18202 600.0   90.0    0.0    0.0  112 !SNCB-CHP 
+18203 410.0   90.0    0.0    0.0  112 !NCB-CHP North Chukchi Basin-Chukchi cap @REF Shephard_++_2013, @DOI"10.1016/j.earscirev.2013.05.012"
+18203 600.0   90.0    0.0    0.0  112 !NCB-CHP  
+183 410.0   90.0    0.0    0.0  108 !MEG-AVA Meguma-Avalonia  
+183 600.0   90.0    0.0    0.0  108 !MEG-AVA Meguma-Avalonia  
+184 410.0   90.0    0.0    0.0  108 !GAN-AVA Ganderia-Avalonia
+184 410.0   90.0    0.0    0.0  101 !	Ganderia_Domeier 2015
+184 430.0   90.0    0.0    0.0  101 !	Domeier 2015 
+184 450.0   29.1845  -76.6991  -26.0447  101 !	
+184 489.0   -0.7138  -68.7155  -66.3721  101 !	
+184 489.0   52.5945   -7.9965   72.9976  714 ! Domeier 2016
+184 600.0   52.5945   -7.9965   72.9976  714 !
+184 600.0  -39.9614  -16.5274    6.4453  108 !
+184 700.0  -39.9614  -16.5274    6.4453  108 !
+184 750.0  -39.9614  -16.5274    6.4453  108 !
+1841 410.0   90.0    0.0    0.0  184 !Ganderia on North American craton at present day
+1841 750.0   90.0    0.0    0.0  184 !
+185 410.0   90.0    0.0    0.0  108 !CAR-AVA Carolinia-Avalonia  
+185 410.0   90.0    0.0    0.0  101 !	Carolinia_Domeier 2015
+185 440.0   90.0    0.0    0.0  101 !	Domeier 2015
+185 450.0   27.2  149.27    3.97  101 !	 
+185 489.0   -6.7055  -68.032  -70.4519  101 !	
+185 489.0  -58.1878  166.056  -74.192  714 !
+185 600.0  -58.1878  166.056  -74.192  714 !
+185 600.0   56.0585  150.82    1.525  108 !CAR-EAV @REF Murphy et al., 2004 @DOI"10.1007/s00531-004-0412-17
+185 650.0   56.0585  150.82    1.525  108 !CAR-EAV @REF Murphy et al., 2004 @DOI"10.1007/s00531-004-0412-17
+185 750.0   56.0585  150.82    1.525  108 !CAR-EAV @REF Murphy et al., 2004 @DOI"10.1007/s00531-004-0412-18
+1005 410.0   90.0    0.0    0.0  101 !	
+1005 700.0  -13.65  -17.12   -9.66  101 !	
+1005 900.0   90.0    0.0    0.0  101 !	
+1005 1000.0   90.0    0.0    0.0  101 !	
+1007 410.0   90.0    0.0    0.0  005 !	Popelogan-Victoria arc_Domeier 2015
+1007 435.0  -34.4482   14.0264 -128.287  184 !	Domeier 2015
+1007 440.0  -36.5084    8.6408 -125.9  184 !	Domeier 2015
+1007 450.0  -35.9933    9.7638 -125.395  184 !	Domeier 2015
+1007 455.0  -35.9912    9.4299 -125.759  184 !	Domeier 2015
+1007 460.0  -36.1653    9.5302 -125.633  184 !	Domeier 2015
+1007 470.0  -38.3905   10.8509 -123.057  184 !	Domeier 2015
+1007 480.0  -39.962   12.5118 -120.982  184 !	Domeier 2015
+1007 490.0  -41.5118   14.5654 -119.232  184 !	Domeier 2015
+1007 500.0   90.0    0.0    0.0  005 !	Domeier 2015
+1018 410.0   90.0    0.0    0.0  005 !	Penobscot arc_Domeier 2015
+1018 460.0  -27.7886   -3.418 -161.868  184 !	Domeier 2015
+1018 470.0  -27.7516   -3.13 -162.133  184 !	Domeier 2015
+1018 475.0  -28.0   -3.38 -161.91  184 !	Domeier 2015
+1018 480.0  -27.6788   -3.578 -162.75  184 !	Domeier 2015
+1018 485.0  -26.3569   -4.16 -163.94  184 !	Domeier 2015
+1018 490.0  -27.07   -3.94 -163.27  184 !	Domeier 2015
+1018 500.0  -28.22   -4.02 -162.18  184 !	Domeier 2015
+201 410.0   51.78  -34.96   53.08  714 !SAM-NWA CHHEI2012 
+201 520.0   51.78  -34.96   53.08  714 !SAM-NWA CHHEI2012 
+201 540.0   51.78  -34.96   53.08  714 !SAM-NWA CHHEI2012  
+201 540.0   49.0492  -31.1977   55.7995  701 !	 
+201 590.0   38.27   51.28   61.98  701 !	
+201 590.0   11.97  -47.01 -110.66  101 !	 
+201 750.0   11.97  -47.01 -110.66  101 !	
+201 1000.0   11.97  -47.01 -110.66  101 !	
+201 1100.0   -2.89  -42.79  -63.9  101 !	
+20113 520.0   59.5854  164.8593   12.5313  201 !
+20113 540.0   90.0    0.0    0.0  201 !Southern Iapetus being subducted under Amazonia
+20113 600.0   90.0    0.0    0.0  201 !Southern Iapetus being subducted under Amazonia
+22011 410.0   90.0    0.0    0.0  201 !	Fold belts between Amazonia and Brasiliano Lineament
+22011 1000.0   90.0    0.0    0.0  201 !	Fold belts between Amazonia and Brasiliano Lineament
+22012 410.0   90.0    0.0    0.0  201 !	Northern Andes
+22012 1000.0   90.0    0.0    0.0  201 !	Northern Andes
+202 410.0   90.0    0.0    0.0  22041 !	Parana Basin
+202 1000.0   90.0    0.0    0.0  22041 !	Parana Basin
+22031 410.0   90.0    0.0    0.0  201 !Pampia
+22031 1000.0   90.0    0.0    0.0  201 !Pampia
+22032 410.0   90.0    0.0    0.0  201 !Pampia
+22032 520.0   90.0    0.0    0.0  201 !Pampia
+22032 520.0   -3.3363  -37.8821  -88.3334  101 !
+22032 590.0   12.7468  -28.4088  -81.0856  101 !
+22032 1000.0   12.7468  -28.4088  -81.0856  101 !
+22034 410.0   90.0    0.0    0.0  201 !Pampia
+22034 410.0   90.0    0.0    0.0  22032 !Pampia
+22034 1000.0   90.0    0.0    0.0  22032 !Pampia
+22041 410.0   90.0    0.0    0.0  201 !	RDLP to Amazonia
+22041 520.0   90.0    0.0    0.0  201 !
+22041 520.0   49.0492  -31.1977   55.7995  701 !	
+22041 550.0   75.9933   12.0098   59.1081  701 !
+22041 590.0   60.71   91.86   91.06  701 !
+22041 590.0   -0.09  120.01  149.52  101 !
+22041 1100.0   -0.09  120.01  149.52  101 !
+22042 410.0   90.0    0.0    0.0  290 !southern RDLP
+22042 410.0   90.0    0.0    0.0  22041 !southern RDLP
+22042 1000.0   90.0    0.0    0.0  22041 !southern RDLP
+22043 410.0   90.0    0.0    0.0  202 !Nico Perez Terrane
+22043 410.0   90.0    0.0    0.0  22041 !Nico Perez Terrane
+22043 1000.0   90.0    0.0    0.0  22041 !Nico Perez Terrane
+206 410.0   90.0    0.0    0.0  201 !SF
+206 520.0   90.0    0.0    0.0  201 !
+206 520.0   49.0492  -31.1977   55.7995  701 !
+206 570.0   49.0492  -31.1977   55.7995  701 !	
+206 620.0  -70.23  100.62  -48.06  701 !	
+206 750.0  -70.23  100.62  -48.06  701 !	
+206 870.0  -70.23  100.6  -48.05  701 !	
+206 870.0  -12.99   22.97  -67.14  201 !	
+206 1000.0  -12.99   22.97  -67.14  201 !	
+22052 410.0   90.0    0.0    0.0  201 !	Borborema
+22052 520.0   90.0    0.0    0.0  201 !
+22052 540.0   90.0    0.0    0.0  201 !
+22052 540.0   50.1848  -33.0235   55.2924  715 !
+22052 570.0   50.1848  -33.0235   55.2924  715 !	 
+22052 1000.0   50.1848  -33.0235   55.2924  715 !	
+22053 410.0   90.0    0.0    0.0  201 !
+22053 520.0   90.0    0.0    0.0  201 !
+22053 520.0   90.0    0.0    0.0  22055 !	
+22053 650.0   90.0    0.0    0.0  22055 !	
+22053 680.0   90.0    0.0    0.0  22055 !
+22053 680.0   64.5013    5.4262   -4.8316  206 !
+22053 750.0  -46.0922  -89.9532   48.1205  206 !
+22053 750.0    0.67  103.22  -30.82  201 !
+22053 1100.0    0.67  103.22  -30.82  201 !
+22054 410.0   90.0    0.0    0.0  201 !
+22054 410.0   90.0    0.0    0.0  206 !Fold belts around SF on eastern side of transbrasiliano lineament
+22054 1000.0   90.0    0.0    0.0  206 !Fold belts around SF on eastern side of transbrasiliano lineament
+22055 410.0   90.0    0.0    0.0  206 !Goias Massif
+22055 650.0   90.0    0.0    0.0  206 !Goias Massif
+22055 680.0   64.5013    5.4262   -4.8316  206 !
+22055 700.0   64.5013    5.4262   -4.8316  206 !
+22055 900.0   64.5013    5.4262   -4.8316  206 !
+22055 1000.0   64.5013    5.4262   -4.8316  206 ! !Goias Massif
+22056 410.0   90.0    0.0    0.0  22052 !PEAL-NBB PEAL-North Borborema
+22056 950.0   90.0    0.0    0.0  22052 !PEAL-NBB PEAL-North Borborema
+22056 1000.0    1.5171  124.2402   17.5205  22052 !PEAL-NBB PEAL-North Borborema
+233 410.0   66.78  -17.5   -6.16  109 !FLS-PDM Florida Straits Block-Piedmont (Florida/Suwannee)  
+233 800.0   66.78  -17.5   -6.16  109 !FLS-PDM
+22601 410.0   90.0    0.0    0.0  2901 !CUY-PAM Cuyania (Precordillera)-Pampia Domeier 2016
+22601 410.0   90.0    0.0    0.0  201 !CUY-AMA Cuyania (Precordillera)-Amazonia Domeier 2016
+22601 450.0   90.0    0.0    0.0  201 !CUY-AMADomeier 2016, recalcualted relative to Amazonia
+22601 500.0   -1.2386  -82.9529  -35.8113  201 !CUY-AMA
+22601 500.0    5.7443  -53.6626 -107.094  101 !CUY-AMA Domeier 2016, recalcualted relative to Laurentia
+22601 510.0    5.7443  -53.6626 -107.094  101 !CUY-AMA Domeier 2016, recalcualted relative to Laurentia
+22601 600.0    5.7443  -53.6626 -107.094  101 !CUY-AMA Domeier 2016, recalcualted relative to Laurentia
+22602 410.0   90.0    0.0    0.0  202 !Cuyania
+22602 410.0   90.0    0.0    0.0  22601 !Cuyania
+22602 1000.0   90.0    0.0    0.0  22601 !Cuyania
+276 410.0   62.58  -39.21   -4.48  281 !SPE-SPW Sandwich Plate East-Sandwich Plate West  Seton et al. 2012 
+276 600.0   62.58  -39.21   -4.48  281 !SPE-SPW Seton et al. 2012 
+278 410.0  -48.13   10.2   -8.05  280 !CSS-BDW Central Scotia Sea South-Burdwood Plate Based Barker 2001 to simulate opening, no magnetics, Muller et al. 2008  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+278 600.0  -48.13   10.2   -8.05  280 !CSS-BDW	@REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+280 410.0   90.0    0.0    0.0  291 !BDW-RAW  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+280 600.0   90.0    0.0    0.0  291 !BDW-DPN  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+28011 410.0   90.0    0.0    0.0  28800 !SPB-DMB South Patagonian Batholith-Deseado Massif Block 
+28011 600.0   90.0    0.0    0.0  28800 !SPB-DMB 
+281 410.0   90.0    0.0    0.0  280 !SPW-BDW	Sandwich Plate West-Burdwood Plate
+281 600.0   90.0    0.0    0.0  280 !SPW-BDW																
+283 410.0  -32.5  -59.58    4.9  290 !NPM-SSP North Patagonian Massif-Salado Subplate  Heine et al. 2013 
+283 600.0  -32.5  -59.58    4.9  290 !NPM-SSP  
+285 410.0   90.0    0.0    0.0  820 !SGR-WSE	South Georgia-Western Scotia Sea @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+285 600.0   90.0    0.0    0.0  820 !SGR-WSE  
+28800 410.0  -78.0734  -48.0229    9.8845  283 !DMB-NPM Arequipa-Antofalla rifting @REF Bahlburg_Herve?_1997 @DOI"10.1130/0016-7606(1997)109<0869:GEATTO>2.3.CO;2"  
+28800 600.0  -78.0734  -48.0229    9.8845  283 !DMB-NPM  
+2881 410.0   90.0    0.0    0.0  28800 !SJUB-DMB San Julian Block-Deseado Massif Block  Heine et al. 2013  
+2881 600.0   90.0    0.0    0.0  28800 !SJUB-DMB  
+28900 410.0   32.88  -30.2   58.4  701 !FIM-AFR Falkland Islands/Malvinas Microplate-Africa  Heine et al. 2013  
+28900 600.0   32.88  -30.2   58.4  701 !FIM-AFR  
+2891 410.0  -47.39  -62.07   -5.0  28900 !NFB-FIM North Falkland Block-Falkland Islands/Malvinas Microplate  Heine et al. 2013  
+2891 600.0  -47.39  -62.07   -5.0  28900 !NFB-FIM 
+290 410.0  -33.02  -60.52    8.5  201 !SSP-SAM 
+290 410.0  -33.02  -60.52    8.5  22041 !	Salado Microplate
+290 1000.0  -33.02  -60.52    8.5  22041 !	Salado Microplate
+2901 410.0   90.0    0.0    0.0  290 !	Pampean Terrane
+2901 410.0  -33.02  -60.52    8.5  22041 !	Pampean Terrane
+2901 1000.0   90.0    0.0    0.0  22041 !	Pampean Terrane
+291 410.0   90.0    0.0    0.0  283 !RAW-NPM Rawson Block-North Patagonian Massif  Heine et al. 2013  
+291 600.0   90.0    0.0    0.0  283 !RAW-NPM 
+29800 410.0   47.93  -33.82   55.89  701 !MEB-AFR Maurice Ewing Bank-Africa  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+29800 600.0   47.93  -33.82   55.89  701 !MEB-AFR CHHEI2012  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+301 410.0   71.41  152.6  -23.68  101 !EUR-NAM THT Final 2006 @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002" - recalculated at 410 Ma for cross over
+301 1100.0   71.41  152.6  -23.68  101 !EUR-NAM THT Final 2006 @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002" - reclaculated from Young (and Matthews?) to prevent any relative rotation post collision?
+302 410.0   90.0    0.0    0.0  301 !BAL-EUR Finetuned longitude 4th ITE	  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+302 430.0   90.0    0.0    0.0  301 !BAL-EUR Finetuned longitude 4th ITE	  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+302 430.0   32.4031 -156.896  -85.4885  003 !	
+302 440.0   30.6346 -131.154 -103.114  003 !
+999 450.0   26.1435 -113.105 -126.97  003 !	
+302 460.0   29.9367 -117.6073 -116.1505  003 !
+302 475.0  -20.8051  109.2212  126.3652  003 !	Calculated interactively by GPlates
+302 520.0   19.07 -127.66 -125.83  003 !	
+302 560.0   15.61  174.61 -131.05  003 !	
+302 600.0   31.4045 -132.824 -175.456  003 !
+999 600.0   33.77 -147.69 -169.48  003 !	
+999 600.0   64.93 -147.56  -38.3  101 !	
+302 600.0   75.8  -95.82  -59.16  101 !	
+302 750.0   75.8  -95.82  -59.16  101 !	
+302 1020.0   75.8  -95.82  -59.16  101 !	
+302 1050.0   62.28 -115.28  -41.53  101 !	
+302 1100.0   56.12 -107.78  -44.22  101 !	
+303 410.0   90.0    0.0    0.0  301 !Northern Scotland/Ireland
+303 430.0   90.0    0.0    0.0  301 !Northern Scotland/Ireland
+303 430.0   71.41  152.6  -23.68  101 !Modified from Torsvik et al. 2012; 2014; Domeier 2016
+303 1100.0   71.41  152.6  -23.68  101 !Torsvik et al 2012, 2014, taken from Domeier 2016
+304 410.0   37.47   -0.55  -13.92  714 !IBR-NWA	Iberia-North West Africa --Young et al. (submitted)
+304 750.0   37.47   -0.55  -13.92  714 !IBR-NWA	Iberia-North West Africa --Young et al. (submitted)
+3041 410.0   90.0    0.0    0.0  304 !OMZ-IBR Ossa-Morena Zone-Iberia
+3041 410.0   37.47   -0.55  -13.92  714 !IOMZ-NWA	Ossa-Morena Zone-North West Africa --Young et al. (submitted)
+3041 750.0   37.47   -0.55  -13.92  714 !IOMZ-NWA	Ossa-Morena Zone-North West Africa --Young et al. (submitted)
+305 410.0   49.6861   -2.7803   62.9448  714 !NCEU-NWA Central Europe (North Armorica and Moldanubia)-North West Africa --Young et al. (submitted)
+305 750.0   49.6861   -2.7803   62.9448  714 !NCEU-NWA Central Europe (North Armorica and Moldanubia)-North West Africa --Young et al. (submitted)
+305 800.0   49.6861   -2.7803   62.9448  714 !NCEU-NWA Central Europe (North Armorica and Moldanubia)-North West Africa --Young et al. (submitted)
+3051 410.0   90.0    0.0    0.0  305 !SCEU-NWA Central Europe (South Armorica and Moldanubia)-North West Africa --Young et al. (submitted)
+3051 410.0   49.6861   -2.7803   62.9448  714 !SCEU-NWA Central Europe (South Armorica and Moldanubia)-North West Africa --Young et al. (submitted)
+3051 750.0   49.6861   -2.7803   62.9448  714 !SCEU-NWA Central Europe (South Armorica and Moldanubia)-North West Africa --Young et al. (submitted)
+3051 800.0   49.6861   -2.7803   62.9448  714 !SCEU-NWA Central Europe (South Armorica and Moldanubia)-North West Africa --Young et al. (submitted)
+306 410.0   44.49   10.28  -29.3  304 !COR-IBR  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+306 600.0   44.49   10.28  -29.3  304 !COR-IBR  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+3061 410.0   52.18  -14.62    2.45  306 !SCOR-COR South Corsica-Corsica Schettino and Turco, 2006   
+3061 600.0   52.18  -14.62    2.45  306 !SCOR-COR    
+3062 410.0   62.3  -50.82    1.29  3063 !SSAR-NSAR South Sardinia-North Sardinia Schettino and Turco, 2006   
+3062 600.0   62.3  -50.82    1.29  3063 !SSAR-NSAR  
+3063 410.0   47.38   12.58  -25.96  304 !NSAR-IBR North Sardinia-Iberia, Schettino and Turco, 2006
+3063 600.0   47.38   12.58  -25.96  304 !NSAR-IBR   
+307 410.0  -26.5 -166.58    7.73  3307 !ADR-APU Adria-Apulia @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+307 800.0  -26.5 -166.58    7.73  3307 !ADR-APU  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+308 410.0   41.18    6.9   -3.6  307 !DIN-ADR Eastern Dinaride Platform-Adria MH2014  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+308 800.0   41.18    6.9   -3.6  307 !DIN-ADR  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+309 410.0   58.13  -45.29    2.32  311 !WSV-BAR switch but with strikeslip to do later  @xo_ys  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+309 430.0   58.13  -45.29    2.32  311 !WSV-BAR switch but with strikeslip to do later  @xo_ys  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+309 430.0   47.24  121.81  -14.15  102 !WSV-GRN Silurian Collision Caledonides  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+309 440.0   -5.96  122.63  -10.9  102 !WSV-GRN  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+309 600.0   -5.96  122.63  -10.9  102 !WSV-GRN  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+311 410.0   54.06  121.77  -14.32  102 !BAR-GRN Barentsia and East Svalbard-Greenland  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+311 410.0   67.28  116.78  -18.83  102 !	@REF Domeier 2016 @DOI"10.1016/j.gr.2015.08.003
+311 430.0   67.28  116.78  -18.83  102 !	@REF Domeier 2016 @DOI"10.1016/j.gr.2015.08.003
+311 435.0   83.4   90.28  -31.06  102 !	@REF Domeier 2016 @DOI"10.1016/j.gr.2015.08.003
+311 440.0   85.85    5.46  -44.95  102 !	@REF Domeier 2016 @DOI"10.1016/j.gr.2015.08.003
+311 1000.0   85.85    5.46  -44.95  102 !	@REF Domeier 2016 @DOI"10.1016/j.gr.2015.08.003
+312 410.0  -33.0566 -170.4006    6.8999  314 !IBR-MGCR Young et al. (this study)
+312 600.0  -33.0566 -170.4006    6.8999  314 !IUA-MGCR
+313 410.0   42.6482   -7.0223  -22.4134  314 !LED-MGCR Young et al. (this study)
+313 600.0   42.6482   -7.0223  -22.4134  314 !LED-MGCR
+314 410.0  -78.7443 -100.8473   -6.0925  315 !	MGCR-ENG KTM_2015
+314 600.0  -78.7443 -100.8473   -6.0925  315 !	MGCR-ENG KTM_2015
+315 410.0   90.0    0.0    0.0  302 !	
+315 440.0   90.0    0.0    0.0  302 !		@REF Domeier 2016 @DOI"10.1016/j.gr.2015.08.003
+999 450.0   53.724 -103.121  -22.1023  302 !	@REF Domeier 2016 @DOI"10.1016/j.gr.2015.08.003
+315 455.0   53.724  -44.8926  -36.8249  302 !
+315 455.0  -85.5252  136.932   56.4495  108 !
+315 489.0  -85.5252  136.932   56.4495  108 !	@REF Domeier 2016 @DOI"10.1016/j.gr.2015.08.003 modified slightly
+315 489.0  -13.7151 -161.797  -35.1734  714 !
+315 550.0  -13.7151 -161.797  -35.1734  714 !
+315 550.0  -85.525  136.9298   56.4496  108 !EAV-WAV East Avalonia-West Avalonia @REF Murphy et al., 2004 @DOI"10.1007/s00531-004-0412-9
+315 700.0  -85.525  136.9298   56.4496  108 !EAV-WAV
+315 750.0  -85.525  136.9298   56.4496  108 !EAV-WAV
+3151 500.0   90.0    0.0    0.0  315 ! Oceanic plate subduction under Avalonia
+3151 600.0   90.0    0.0    0.0  315 ! Oceanic plate subduction under Avalonia
+316 410.0   41.0001  -10.2799 -139.1383  312 !SPZ-IUA Young et al. (this study)
+316 600.0   41.0001  -10.2799 -139.1383  312 !SPZ-IUA
+317 410.0   67.13  155.32  -22.54  101 !POR-NAM	 @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+317 600.0   67.13  155.32  -22.54  101 !POR-NAM	 @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+318 410.0   90.0    0.0    0.0  301 !RKL-NHL  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+318 410.0   71.41  152.6  -23.68  101 !recalculated from Pangea position (slight change)
+318 600.0   71.41  152.6  -23.68  101 !	
+318 1000.0   71.41  152.6  -23.68  101 !	
+319 410.0   90.0    0.0    0.0  301 !STR-EUR Strandja (Mosesia)-Northern European Craton  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+319 430.0   90.0    0.0    0.0  301 !STR-EUR Strandja (Mosesia)-Northern European Craton  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+319 430.0   90.0    0.0    0.0  302 !STR-EUR Strandja (Mosesia)-Northern European Craton  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+319 600.0   90.0    0.0    0.0  302 !STR-EUR JG/LG 1996	 @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+3201 410.0   34.04   -3.39    6.8  304 !MEN-IBR Menorca-Iberia Schettino and Turco, 2006       
+3201 600.0   34.04   -3.39    6.8  304 !MEN-IBR   
+3202 410.0   34.04   -3.39    6.1  304 !MAL-IBR Mallorca-Iberia Schettino and Turco, 2006    
+3202 600.0   34.04   -3.39    6.1  304 !MAL-IBR   
+3203 410.0   24.29  -18.04    0.93  304 !IBZ-IBR Ibiza-Iberia Schettino and Turco, 2006    
+3203 600.0   24.29  -18.04    0.93  304 !IBZ-IBR  
+322 410.0   32.84   -3.36    4.55  306 !CAL-COR Calabria-Corsica  MHV2014  Hosseinpour et al. (2016)
+322 600.0   32.84   -3.36    4.55  306 !CAL-COR MHV2014  
+3222 410.0   90.0    0.0    0.0  3062 !STP-SSR South Tyrrhenian Block-Southern Sardinia MH2014  Hosseinpour et al. (2016)
+3222 600.0   90.0    0.0    0.0  3062 !STP-SSR    
+3223 410.0   90.0    0.0    0.0  3062 !SCH-SSR Sardinian Channel-Southern Sardinia MH2014  Hosseinpour et al. (2016)
+3223 600.0   90.0    0.0    0.0  3062 !SCH-SSR  
+323 410.0  -37.4 -172.6    1.99  7701 !SIC-TUN Sicily-Tunesia  Schettino and Turco, 2011  
+323 600.0  -37.4 -172.6    1.99  7701 !SIC-TUN 
+328 410.0   19.07   -2.88    5.4  308 !DINW-DINP   
+328 800.0   19.07   -2.88    5.4  308 !DINW-DINP   
+329 410.0   90.0    0.0    0.0  304 !Torsvik et al 2012, 2014, taken from Domeier 2016
+329 750.0   90.0    0.0    0.0  304 !Torsvik et al 2012, 2014, taken from Domeier 2016
+330 410.0   24.19   36.2    0.59  331 !TOB-UKB   @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+330 600.0   24.19   36.2    0.59  331 !Torsvik et al 2012, 2014, taken from Domeier 2016
+3307 410.0    0.3873   -5.7324    1.1669  715 !APU-NEA Apulia-Northeast Africa  
+3307 410.0   49.2387   -2.4536  -64.7779  3051 !APU-SCEU Apulia Central Europe (South Armorica and Moldanubia)
+3307 800.0   49.2387   -2.4536  -64.7779  3051 !APU-SCEU
+331 410.0   90.0    0.0    0.0  301 !UKB-NAM United Kingdom Block-North America  Roest & Srivastiva 1989  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+331 410.0   90.0    0.0    0.0  302 !recalculated relative to Baltica
+331 600.0   90.0    0.0    0.0  302 !UKB-NAM Roest & Srivastiva 1989  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+3323 410.0   90.0    0.0    0.0  3307 !PNO-APU Pnormide Platform-Apulia
+3323 600.0   90.0    0.0    0.0  3307 !PNO-APU    
+334 410.0   24.0   14.0   14.0  328 !PES-EDAW Pelso-Eastern Dinaride accretionary wedge  Hosseinpour et al. (2016)  
+334 800.0   24.0   14.0   14.0  328 !PES-EDAW  
+335 410.0   90.0    0.0    0.0  331 !EALP-UKB Eastern (Calcareous) Alps-United Kingdom Block  Muller et al. 2008  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+335 600.0   90.0    0.0    0.0  331 !EALP-UKB JG/LG 1996  @xo_ys	 @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+337 410.0  -36.15   14.41    1.84  334 !TIS-PEL Tisza-Pelso, Schettino and Turco. 2011     
+337 600.0  -36.15   14.41    1.84  334 !TIS-PEL  
+338 410.0   49.25   15.0  -65.0  319 !ROD-STR Schettino and Turco, 2011  
+338 600.0   49.25   15.0  -65.0  319 !ROD-STR Rotations extended back to 600 Ma
+340 410.0  -19.16 -154.96    1.61  337 !SPN-TIS Southern Panonian-Tisza Schettino & Turco 2011 
+340 600.0  -19.16 -154.96    1.61  337 !SPN-TIS Southern Panonian-Tisza Schettino & Turco 2011 
+344 410.0   90.0    0.0    0.0  331 !WALP-UKB Western Alps-United Kingdom Block  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+344 600.0   90.0    0.0    0.0  331 !WALP-UKB JG/LG 1996  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+3446 410.0   90.0    0.0    0.0  346 !GRC-PEL Greece-Peloponnese  
+3446 600.0   90.0    0.0    0.0  346 !GRC-PEL 
+346 410.0   38.62   27.05   -4.95  3307 !PEL-APU Peloponnese-Apulia  Schettino & Turco 2011  
+346 600.0   38.62   27.05   -4.95  3307 !PEL-APU Schettino & Turco 2011  
+347 410.0   35.09   23.41   44.81  346 !CRT-PEL Crete-Peloponnese  Schettino and Turco 2011 
+347 600.0   35.09   23.41   44.81  346 !CRT-PEL Schettino and Turco 2011  
+349 410.0   90.0    0.0    0.0  319 !SMD-STR Serbo/Macedonia-Strandja (Moesia)  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+349 600.0   90.0    0.0    0.0  319 !SMD-STR JG/LG 1996 suture  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+355 410.0   90.0    0.0    0.0  308 !Isochron of AFR-EUR, Vardar Ocean	By MH 05082014 Hosseinpour et al. (2016) 
+355 600.0   90.0    0.0    0.0  308 !Isochron of AFR-EUR, Vardar Ocean	By MH 05082014  Hosseinpour et al. (2016) 
+372 410.0   90.0    0.0    0.0  401 !YWK-SIB Yamal Peninsula (Western Kara Sea)-Siberia  
+372 600.0   90.0    0.0    0.0  401 !YWK-SIB  
+373 410.0   77.0  144.6    4.0  302 !NVS-BAL Novaya-Semya - Baltic Shield Torsvik 2005  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+373 600.0   77.0  144.6    4.0  302 !NVS-BAL Torsvik 2005  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+374 410.0   90.0    0.0    0.0  375 !PER-SAX Perunica-Saxothuringia Young et al. (this study)
+374 600.0   90.0    0.0    0.0  375 !PER-SAX Young et al. (this study)
+375 410.0   90.0    0.0    0.0  305 !SAX-CEU Saxothuringia-Central Europe (Armorica and Moldanubia) Young et al. (this study)
+375 600.0   90.0    0.0    0.0  305 !SAX-CEU Young et al. (this study)
+380 410.0  -22.0041   88.6311  -13.4136  430 !
+380 600.0  -22.0041   88.6311  -13.4136  430 !
+390 410.0   90.0    0.0    0.0  302 !UPB-BAL Accretion South	 @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+390 600.0   90.0    0.0    0.0  302 !UPB-BAL Accretion South	 @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+3002 410.0   90.0    0.0    0.0  302 !	valhalla orogeny stepback
+3002 560.0  -27.31   94.85    2.72  302 !	
+3002 660.0   22.46  -89.51    9.57  302 !	
+3002 800.0   22.46  -89.51    9.57  302 !	
+3002 1000.0   90.0    0.0    0.0  302 !	
+3003 410.0   90.0    0.0    0.0  003 !	Oceanic plate subducting under Baltica
+3003 560.0   43.4573 -148.2175  135.4392  003 !
+3003 585.0   43.7012 -150.66  136.544  003 !
+3003 700.0   43.6875 -159.6455  136.6507  003 !
+3003 720.0   44.1132 -157.9615  140.0812  003 !	
+3003 1000.0   90.0    0.0    0.0  003 !	
+401 410.0   13.5504  123.992   84.8459  301 !	"SIB-EUR Finetune IT5  @REF Domeier_Torsvik_2014 @DOI""10.1016/j.gsf.2014.01.002""  POLE_RECALCULATED-Matthews et al. (this study) "
+401 410.0   34.5626   75.3345   93.9439  003 !	
+999 420.0   47.4395   55.49  102.46  003 !	
+401 433.0   27.5854   45.4881  112.4965  003 !	
+999 450.0   10.5237   35.7942   89.9689  003 !	
+401 460.0    6.1991   52.7152  113.727  003 !
+999 470.0   -7.114   46.1905  114.5603  003 !	
+401 510.0   -7.389   26.1646  129.6481  003 !	
+999 520.0  -10.57   20.35  120.66  003 !	
+401 550.0   34.9 -159.67 -131.14  003 !	
+401 600.0   15.83 -174.59 -120.62  003 !	
+401 630.0  -14.72   -7.89  113.85  003 !	
+401 700.0    1.32  115.03 -101.43  003 !	
+401 700.0   65.41   80.44  132.66  101 !	
+401 760.0   68.42   90.71  131.45  101 !	
+401 800.0   63.089  116.2004  172.2984  101 !	
+401 960.0   63.089  116.2004  172.2984  101 !
+401 1100.0   63.089  116.2004  172.2984  101 !	
+4012 410.0   90.0    0.0    0.0  401 !TMY-SIB Taimyr-Siberia
+4012 600.0   90.0    0.0    0.0  401 !TMY-SIB Taimyr-Siberia
+4012 700.0    5.409 -156.2298   -6.1355  401 !
+4012 800.0    5.409 -156.2298   -6.1355  401 !
+4012 900.0   90.0    0.0    0.0  401 !TMY-SIB
+4012 1000.0   90.0    0.0    0.0  401 !TMY-SIB
+4013 410.0   90.0    0.0    0.0  4014 ! ISK-YNR Isakov Island Arc - Yenesei Ridge
+4013 600.0   90.0    0.0    0.0  4014 ! ISK-YNR
+4013 650.0   15.4262  105.4771    6.4847  4014 ! ISK-YNR
+4013 700.0   15.4262  105.4771    6.4847  4014 ! ISK-YNR
+4013 1000.0   90.0    0.0    0.0  4014 ! ISK-YNR
+4014 410.0   90.0    0.0    0.0  401 !YNR-SIB Yenesei Ridge-Siberia
+4014 720.0   90.0    0.0    0.0  401 !YNR-SIB
+4014 780.0   81.1209   91.6737  -32.4309  401 !
+4014 1000.0   81.1209   91.6737  -32.4309  401 !
+4100  0.0   90.0    0.0    0.0  401 !AMR-SIB Amuria-Siberia AMURIA / CENTRAL MONGOLIAN TERRANES
+4100 410.0  -27.3  -70.22   20.66  401 !AMR-SIB @REF Domeier 2018 @DOI"10.1016/j.gsf.2017.11.012"
+4100 450.0  -22.66  -61.01   11.81  401 !AMR-SIB @REF Domeier 2018 @DOI"10.1016/j.gsf.2017.11.012"
+4100 480.0  -22.66  -61.01   11.81  401 !AMR-SIB @REF Domeier 2018 @DOI"10.1016/j.gsf.2017.11.012"
+4100 480.0  -22.659  -61.014   11.806  4101 !AMR-CMT Amuria-Central Mongolian Terranes @REF Domeier 2018 @DOI"10.1016/j.gsf.2017.11.012"
+4100 600.0  -22.659  -61.014   11.806  4101 !AMR-CMT@REF Domeier 2018 @DOI"10.1016/j.gsf.2017.11.012"
+4101  0.0   90.0    0.0    0.0  401 !CMT-SIB Central Mongolian Terranes-Siberia @REF Domeier 2018 @DOI"10.1016/j.gsf.2017.11.012"
+4101 480.0   90.0    0.0    0.0  401 !CMT-SIB @REF Domeier 2018 @DOI"10.1016/j.gsf.2017.11.012"
+4101 490.0  -57.96  -37.5   -1.5  401 !CMT-SIB @REF Domeier 2018 @DOI"10.1016/j.gsf.2017.11.012"
+4101 500.0  -61.69  -31.93   -2.81  401 !CMT-SIB @REF Domeier 2018 @DOI"10.1016/j.gsf.2017.11.012"
+4101 570.0  -37.3459   31.2104  -10.4889  401 !CMT-SIB extended rotations from Domeier (2018)
+4101 600.0  -37.3459   31.2104  -10.4889  401 !CMT-SIB extended rotations from Domeier (2018)
+402 410.0   -0.83  -15.66  -66.35  302 !KAZ-BAL  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002" POLE_RECALCULATED-@REF Matthews_et_al_2016 @DOI"10.1016/j.gloplacha.2016.10.002"  
+402 420.0  -14.46  -22.57  -70.56  302 !KAZ-BAL  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002" POLE_RECALCULATED-@REF Matthews_et_al_2016 @DOI"10.1016/j.gloplacha.2016.10.002"  
+404 410.0   77.0  144.6   -1.0  302 !KAR-BAL Kara-Baltica @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+404 420.0   77.0  144.6   -1.0  302 !KAR-BAL @REF Domeier 2018 @DOI"10.1016/j.gsf.2017.11.012"
+404 450.0   77.0  144.6   -1.0  302 !KAR-BAL @REF Domeier 2018 @DOI"10.1016/j.gsf.2017.11.012"
+404 467.0   31.6761   86.7527    8.6851  302 !
+404 500.0   51.8124   81.317   21.4722  302 !
+404 700.0   51.8124   81.317   21.4722  302 !
+404 800.0   51.8124   81.317   21.4722  302 !KAR-BAL @REF Domeier 2018 @DOI"10.1016/j.gsf.2017.11.012"
+406 410.0   60.8  162.3  -60.0  401 !KAM-SIB  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+406 600.0   60.8  162.3  -60.0  401 !KAM-SIB  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+410 410.0   65.006  -74.3096  -53.8025  004 !MNG-000 Van der Voo 1993 pmag poles  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+410 422.0   51.61  -86.86  -56.87  004 !MNG-000 Van der Voo 1993 pmag poles  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+42100 410.0  -46.6   38.04   19.36  101 !NSDL-NAM GS12     
+42100 600.0  -46.6   38.04   19.36  101 !NSDL-NAM GS12     
+42101 410.0   90.0    0.0    0.0  42100 !KSI-NSDL GS12        
+42101 600.0   90.0    0.0    0.0  42100 !KSI-NSDL GS12        
+42102 410.0   90.0    0.0    0.0  42100 !NVB-NSDL GS12        
+42102 600.0   90.0    0.0    0.0  42100 !NVB-NSDL GS12        
+42103 410.0   90.0    0.0    0.0  42100 !VTB-NSDL GS12   
+42103 600.0   90.0    0.0    0.0  42100 !VTB-NSDL GS12   
+42150 410.0   90.0    0.0    0.0  42100 !ESM-NSDL GS12       
+42150 600.0   90.0    0.0    0.0  42100 !ESM-NSDL GS12       
+42300 410.0  -84.13   88.04   17.08  43300 !WRA-CKP  
+42300 600.0  -84.13   88.04   17.08  43300 !WRA-CKP  
+430 410.0   20.3393 -170.2159   15.6546  401 !AMU-SIB Young et al. (this study)
+430 420.0   59.8676  -82.09   17.956  401 !	"AMU-SIB @REF Domeier_Torsvik_2014 @DOI""10.1016/j.gsf.2014.01.002"" POLE_RECALCULATED-Matthews et al. (this study)  "
+430 600.0   59.8676  -82.09   17.956  401 !	"AMU-SIB @REF Domeier_Torsvik_2014 @DOI""10.1016/j.gsf.2014.01.002"" POLE_RECALCULATED-Matthews et al. (this study)  "
+43101 410.0   90.0    0.0    0.0  401 !Cenral Verkhoyansk
+43101 1000.0   90.0    0.0    0.0  401 !Cenral Verkhoyansk
+43102 410.0   90.0    0.0    0.0  401 !WVK-SIB  
+43102 600.0   90.0    0.0    0.0  401 !WVK-SIB  
+43200 410.0   78.97  162.1   13.52  401 !KOST-SIB Kolyma-Omolon Superterrane Province general - Siberia @REF Shephard_++_2013, @DOI"10.1016/j.earscirev.2013.05.012"        
+43200 600.0   78.97  162.1   13.52  401 !KOST-SIB GS12        
+43201 410.0   45.06  -91.81    2.6  43200 !OMT-KOST Omolon Terrane - Kolyma-Omolon Superterrane @REF Shephard_++_2013, @DOI"10.1016/j.earscirev.2013.05.012" 
+43201 6000.0   45.06  -91.81    2.6  43200 !OMT-KOST GS12       
+43202 410.0   90.0    0.0    0.0  43200 !CHE-KOST Chersky Range - Kolyma-Omolon Superterrane Province @REF Shephard_++_2013, @DOI"10.1016/j.earscirev.2013.05.012"  
+43202 600.0   90.0    0.0    0.0  43200 !CHE-KOST GS12       
+43203 410.0   90.0    0.0    0.0  43201 !PRK-OMT Prikolyma Terrane - Omolon Terrane @REF Shephard_++_2013, @DOI"10.1016/j.earscirev.2013.05.012"       
+43203 600.0   90.0    0.0    0.0  43201 !PRK-OMT GS12        
+43204 410.0   90.0    0.0    0.0  43200 !OMU-KOST Omulevka Terrane - Kolyma-Omolon Superterrane @REF Shephard_++_2013, @DOI"10.1016/j.earscirev.2013.05.012"        
+43204 600.0   90.0    0.0    0.0  43200 !OMU-KOST GS12        
+43205 410.0   90.0    0.0    0.0  43200 !ALZ-KOST Alazeya Terrane - Kolyma-Omolon Superterrane @REF Shephard_++_2013, @DOI"10.1016/j.earscirev.2013.05.012"        
+43205 600.0   90.0    0.0    0.0  43200 !ALZ-KOST  
+43206 410.0   90.0    0.0    0.0  43201 !OLO-OMT Oloy Terrane - Omolon Terrane @REF Shephard_++_2013, @DOI"10.1016/j.earscirev.2013.05.012"       
+43206 600.0   90.0    0.0    0.0  43201 !OLO-OMT GS12        
+43207 410.0   90.0    0.0    0.0  43201 !YRK-OMT Yarakvaam Terrane - Omolon Terrane @REF Shephard_++_2013, @DOI"10.1016/j.earscirev.2013.05.012"        
+43207 600.0   90.0    0.0    0.0  43201 !YRK-OMT GS12  
+43300 410.0   90.0    0.0    0.0  42100 !CSBP-NSDL Chukotka Peninsula and South Bering Sea Province general-Northern Siberian Shelf De Long Islands @REF Shephard_++_2013, @DOI"10.1016/j.earscirev.2013.05.012" 
+43300 600.0   90.0    0.0    0.0  42100 !CSBP-NSDL  
+43301 410.0   90.0    0.0    0.0  43300 !BSE-CSBP Bering Strait East (Nome Alaska)-Chukotka Peninsula and South Bering Sea Province @REF Shephard_++_2013, @DOI"10.1016/j.earscirev.2013.05.012" 
+43301 600.0   90.0    0.0    0.0  43300 !BSE-CSBP  
+43400 410.0   -2.37   57.35   -3.69  401 !VOP-SIB Viligia/Okhotsk Province 43400 general-Siberia @REF Shephard_++_2013, @DOI"10.1016/j.earscirev.2013.05.012"  
+43400 600.0   -2.37   57.35   -3.69  401 !VOP-SIB GS12   
+44100 410.0   90.0    0.0    0.0  406 !EKAM-KAM East Kamchatka and Vetlovskiy Terranes-Kamchatka peninsula @REF Shephard_++_2013, @DOI"10.1016/j.earscirev.2013.05.012"  
+44100 600.0   90.0    0.0    0.0  406 !EKAM-KAM  
+44101 410.0   90.0    0.0    0.0  43200 !NKAM-KOST North Kamchatka-Kolyma-Omolon Superterrane Province  
+44101 600.0   90.0    0.0    0.0  43200 !NKAM-KOST  
+44102 410.0   90.0    0.0    0.0  44101 !KKAM-NKAM Koryak/Kamchatka-North Kamchatka  
+44102 600.0   90.0    0.0    0.0  44101 !KKAM-NKAM 
+44103 410.0   90.0    0.0    0.0  44101 !KAMO-NKAM East Kamchatka/Okhotsk-North Kamchatka  
+44103 600.0   90.0    0.0    0.0  44101 !KAMO-NKAM  
+446 410.0   10.6962  116.3302  127.5666  801 !BMP-AUS Burma Plate-Australia Heine et al. 2004 *recalculated GS11      
+446 600.0   10.6962  116.3302  127.5666  801 !BMP-AUS Fit Recon Burma-Australia  
+451 410.0   90.0    0.0    0.0  580 !ALA-TRM Alxa-Tarim@ REF I. Metcalfe 2006
+451 500.0   90.0    0.0    0.0  580 !ALA-TRM Alxa-Tarim@ REF I. Metcalfe 2006
+451 550.0  -57.6611 -112.812   31.1456  580 !
+451 550.0   90.0    0.0    0.0  456 !ALA-QIL Alxa-Qilian @ REF I. Metcalfe 2006
+451 1000.0   90.0    0.0    0.0  456 !ALA-QIL @ REF I. Metcalfe 2006
+4511 410.0   90.0    0.0    0.0  451 !Alxa back arc
+4511 450.0   90.0    0.0    0.0  451 !Alxa back arc
+4511 480.0   22.2575  -10.2043   -3.0685  451 !
+4511 520.0   90.0    0.0    0.0  451 !Alxa back arc
+4511 1000.0   90.0    0.0    0.0  451 !Alxa back arc
+453 410.0   90.0    0.0    0.0  430 !HUS-AMU Hutang Uul-Songliao - Amuria  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+453 600.0   90.0    0.0    0.0  430 !HUS-AMU  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+454 410.0   90.0    0.0    0.0  430 !KJB-AMU  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+454 600.0   90.0    0.0    0.0  430 !KJB-AMU  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+456 250.0   90.0    0.0    0.0  580 !	"QIL-NCH Qilian - North China  @REF Domeier_Torsvik_2014 @DOI""10.1076/j.gsf.2014.01.002"""
+456 410.0   90.0    0.0    0.0  580 !	"QIL-NCH  @REF Domeier_Torsvik_2014 @DOI""10.1016/j.gsf.2014.01.002"""
+456 440.0   90.0    0.0    0.0  580 !	"QIL-NCH  @REF Domeier_Torsvik_2014 @DOI""10.1016/j.gsf.2014.01.002"""
+456 450.0   39.1647  102.549   12.0516  580 !
+999 470.0   -3.9823  -70.3866  -10.8631  580 !
+456 480.0  -14.4182  -63.2406  -20.7984  580 !
+456 480.0   65.3956   24.0373   51.6916  602 !
+456 545.0  -73.3872   87.5708  -15.9259  602 !
+456 750.0  -73.3872   87.5708  -15.9259  602 !
+456 1000.0  -65.8227  163.3636  -18.053  602 !
+4561 410.0   90.0    0.0    0.0  456 !QAD-QIL Qadaim-Qilian
+4561 1000.0   90.0    0.0    0.0  456 !QAD-QIL
+457 410.0   90.0    0.0    0.0  580 !KUN-TRM Kunlun-Tarim
+457 440.0   90.0    0.0    0.0  580 !KUN-TRM 
+457 440.0   90.0    0.0    0.0  456 !KUN-TRM 
+457 480.0   55.4499   83.981  -22.8217  456 !
+999 500.0   53.0028  -27.5699   -7.8252  456 !
+999 520.0  -51.0507  -72.7494   51.6304  456 !
+457 530.0   54.8065   98.0714  -52.1267  456 !
+457 530.0   51.25   70.403  -59.4803  505 !
+457 1000.0   51.25   70.403  -59.4803  505 !
+4571 410.0   90.0    0.0    0.0  457 !oceanic plate subducting under Kunlun
+4571 500.0   90.0    0.0    0.0  457 !oceanic plate subducting under Kunlun
+458 410.0   90.0    0.0    0.0  402 !KOI-KAZ Kokchevtav-Ishim - Kazakhstan  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+458 460.0   90.0    0.0    0.0  402 !KOI-KAZ Time of Devonian Magmatism				  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+459 410.0   90.0    0.0    0.0  402 !NTI-KAZ North Tien Shan-Kazakhstan  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+459 410.0  -31.2884  -72.6578   46.1523  580 !
+459 411.0  -44.6472  -85.4201   87.5262  580 !
+459 420.0  -48.8953  -84.4358  100.0346  580 !
+459 440.0  -48.3465  -89.067  103.7348  580 !
+459 470.0  -34.7403  -75.1406   79.6871  580 !
+459 550.0  -55.6012  -47.8074   28.8685  580 !
+459 550.0  -13.3401 -126.389  -53.2626  501 !
+459 750.0  -13.3401 -126.389  -53.2626  501 !
+459 750.0   77.44    0.6682  -17.4528  505 !
+459 1000.0   77.44    0.6682  -17.4528  505 !
+4591 410.0   43.0956   73.8376   37.3029  459 !NTI unfolding
+4591 500.0   43.0956   73.8376   37.3029  459 !
+4591 1000.0   43.0956   73.8376   37.3029  459 !NTI unfolding
+4592 410.0   44.6705   70.4914   79.52  459 !NTI unfolding
+4592 500.0   44.6705   70.4914   79.52  459 !
+4592 1000.0   44.6705   70.4914   79.52  459 !NTI unfolding
+4593 410.0   44.9013   70.7091   88.0229  459 !NTI unfolding
+4593 500.0   44.9013   70.7091   88.0229  459 !
+4593 1000.0   44.9013   70.7091   88.0229  459 !NTI unfolding
+460 410.0   90.0    0.0    0.0  402 !CUI-KAZ Chu-Ili - Kazakhstan  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+460 410.0   90.0    0.0    0.0  459 !
+460 470.0   90.0    0.0    0.0  459 !	
+460 490.0    7.9088  -22.4491   10.5797  459 !
+460 550.0   90.0    0.0    0.0  459 !	
+460 1000.0   90.0    0.0    0.0  459 !
+4601 410.0   45.691   73.5392   45.9392  460 !CUI unfolding
+4601 500.0   45.691   73.5392   45.9392  460 !
+4601 1000.0   45.691   73.5392   45.9392  460 !CUI unfolding
+4602 410.0   47.277   71.1951   94.8252  460 !CUI unfolding
+4602 500.0   47.277   71.1951   94.8252  460 !
+4602 1000.0   47.277   71.1951   94.8252  460 !CUI unfolding
+4603 410.0   90.0    0.0    0.0  460 ! Urumbai, Selety and Erementau zones
+4603 470.0   34.2595  114.6375   18.3858  460 ! Urumbai, Selety and Erementau zones
+4603 510.0   90.0    0.0    0.0  460 ! Urumbai, Selety and Erementau zones
+4603 1000.0   90.0    0.0    0.0  460 ! Urumbai, Selety and Erementau zones
+461 410.0   90.0    0.0    0.0  402 !ATZ-KAZ Atashu-Zhamshi - Kazakhstan  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+461 460.0   90.0    0.0    0.0  402 !ATZ-KAZ Time of Devonian Magmatism  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+462 410.0   90.0    0.0    0.0  402 !TBG-KAZ Tarbagatay Range Terrane-Kazakhstan  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+462 460.0   90.0    0.0    0.0  402 !TBG-KAZ  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+463 410.0   90.0    0.0    0.0  402 !NBA-KAZ North Balkhash-Kazakhstan  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+463 600.0   90.0    0.0    0.0  402 !NBA-KAZ Near end of Orocline  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+464 410.0   90.0    0.0    0.0  402 !JBA-KAZ Junggar-Balkash - Kazakhstan  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+464 600.0   90.0    0.0    0.0  402 !JBA-KAZ Near end of Orocline  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+465 410.0   90.0    0.0    0.0  402 !TOU-KAZ Tourgai-Kazakhstan  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+465 600.0   90.0    0.0    0.0  402 !TOU-KAZ accreted  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+466 410.0   90.0    0.0    0.0  402 !CTI-KAZ Central Tien Shan-Kazakhstan  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+466 410.0  -31.2884  -72.6578   46.1523  580 !CTI-TAR Central Tien Shan-Tarim
+466 410.0   90.0    0.0    0.0  459 !CTI-TAR
+466 470.0   90.0    0.0    0.0  459 !CTI-TAR
+466 470.0  -34.7403  -75.1406   79.6871  580 !
+999 490.0  -58.7212 -162.7813  -16.9578  580 !
+466 520.0   62.4501   70.562   34.2544  580 !CTI-TAR
+466 570.0   62.4501   70.562   34.2544  580 !
+466 750.0   62.4501   70.562   34.2544  580 !
+466 750.0   40.7708   63.9626  160.811  505 !
+466 1000.0   40.7708   63.9626  160.811  505 !
+4661 410.0   41.7096   70.8302   35.2369  466 !CTI unfolding
+4661 500.0   41.7096   70.8302   35.2369  466 !
+4661 1000.0   41.7096   70.8302   35.2369  466 !CTI unfolding
+4662 410.0   42.6177   68.0799   56.3771  466 !CTI unfolding
+4662 500.0   42.6177   68.0799   56.3771  466 !
+4662 1000.0   42.6177   68.0799   56.3771  466 !CTI unfolding
+467 410.0   90.0    0.0    0.0  402 !STI-KAZ South Tien Shan-Kazakhstan  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+467 410.0   90.0    0.0    0.0  466 !STI-KAZ South Tien Shan-Kazakhstan  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+467 600.0   90.0    0.0    0.0  466 !STI-KAZ South Tien Shan-Kazakhstan  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+4671 410.0   90.0    0.0    0.0  467 !STI unfolding
+4671 500.0   39.9339   70.5544   11.1499  467 !
+4671 1000.0   90.0    0.0    0.0  467 !STI unfolding
+4672 410.0   90.0    0.0    0.0  467 !STI unfolding
+4672 500.0   39.7981   69.4509   36.3446  467 !
+4672 1000.0   90.0    0.0    0.0  467 !STI unfolding
+4673 410.0   90.0    0.0    0.0  467 !STI unfolding
+4673 500.0   41.5113   64.6364   83.1176  467 !
+4673 1000.0   90.0    0.0    0.0  467 !STI unfolding
+999 410.0   25.8392   85.9882   63.9858  003 !	466 central tien shan
+999 410.0  -17.4708  -67.6415   28.2855  580 !	466 central tien shan
+999 460.0   17.0959  110.9882  -41.9796  580 !	466 central tien shan
+999 490.0   24.9971  105.1966  -19.3211  580 !	466 central tien shan
+999 520.0   24.9971  105.1966  -19.3211  580 !	466 central tien shan
+468 410.0   90.0    0.0    0.0  402 !WSI-KAZ West Siberian Basin-Kazakhstan  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+468 600.0   90.0    0.0    0.0  402 !WSI-KAZ  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+501 410.0    3.64 -165.79   88.28  802 !IND-ANT
+501 410.0  -28.7615 -136.945   63.0581  701 !	
+501 520.0  -28.7615 -136.945   63.0581  701 !
+501 550.0  -28.7615 -136.945   63.0581  701 !	
+501 650.0  -14.9614 -129.813   55.6592  701 !
+501 650.0   24.4606 -165.435   26.6024  801 !
+501 670.0   24.4606 -165.435   26.6024  801 !
+999 670.0  -39.5378   45.2414   42.729  801 !	
+501 720.0   24.4606 -165.435   26.6024  801 !
+501 720.0  -48.5054   29.6511   56.7205  003 !
+501 750.0  -80.6788  -55.6472   80.5048  003 !
+999 775.0  -79.61  -66.24   79.32  003 !	
+501 810.0  -41.7956  -23.3052   85.4282  003 !
+999 825.0   64.75  148.57  -80.4  003 !	
+501 930.0   45.32  174.48 -102.12  003 !	
+501 1025.0   56.63 -124.17 -114.2  003 !	
+501 1100.0   57.43 -106.87 -113.03  003 !	
+5011 410.0   90.0    0.0    0.0  501 !Greater India?
+5011 1000.0   90.0    0.0    0.0  501 !Greater India?
+5014 410.0   90.0    0.0    0.0  501 !SGT
+5014 520.0   90.0    0.0    0.0  501 !SGT
+5014 520.0   27.8418   43.331  -63.2251  5032 !
+5014 1000.0   27.8418   43.331  -63.2251  5032 !SGT
+502 410.0    9.66   79.95  -43.96  501 !SLK-IND Sri Lanka-India Gibbons 2012  
+502 520.0    9.8   82.9  -24.29  501 !Sri Lanka
+502 520.0    9.8   82.9  -24.29  5014 !Sri Lanka
+502 1100.0    9.8   82.9  -24.29  5014 !Sri Lanka
+5021 410.0   90.0    0.0    0.0  502 !Phanerozoic Sri Lanka
+5021 500.0   90.0    0.0    0.0  502 !Phanerozoic Sri Lanka
+5022 410.0   90.0    0.0    0.0  502 !VJC-SLK Vijayan Complex-Sri Lanka
+5022 1000.0   90.0    0.0    0.0  502 !VJC-SLK
+503 410.0   26.46   21.66   -7.83  709 !Omani Basement (modern day Arabia)
+503 520.0   26.46   21.66   -7.83  709 !Omani Basement (modern day Arabia)
+503 520.0  -29.2235 -133.948  -55.8894  501 !Omani Basement (modern day Arabia)
+503 880.0  -29.2235 -133.948  -55.8894  501 !Omani Basement (modern day Arabia)
+503 1000.0  -29.2235 -133.948  -55.8894  501 !Omani Basement (modern day Arabia)
+50302 410.0   90.0    0.0    0.0  503 !Omani basement
+50302 1000.0   90.0    0.0    0.0  503 !Omani Basement
+5031 410.0   90.0    0.0    0.0  503 !
+5031 410.0   90.0    0.0    0.0  5913 !
+5031 520.0   90.0    0.0    0.0  5913 !	
+5031 650.0   90.0    0.0    0.0  5913 !	
+5031 680.0  -46.3943   68.4206   -5.634  5913 !	
+5031 850.0  -46.3943   68.4206   -5.634  5913 !	
+5031 850.0   73.5835   27.7147   28.7703  715 !	
+5031 870.0   73.5835   27.7147   28.7703  715 !	
+5031 930.0   72.3598   22.8602   31.6999  715 !	
+5031 1000.0   72.3598   22.8602   31.6999  715 !	
+5032 410.0   90.0    0.0    0.0  709 !	
+5032 520.0   90.0    0.0    0.0  709 !Azania
+5032 600.0   90.0    0.0    0.0  709 !Azania
+5032 600.0  -48.85   17.57    1.01  701 !	
+5032 700.0   20.58 -175.97   25.34  701 !	
+5032 850.0   20.58 -175.97   25.34  701 !	
+5032 850.0  -37.0213   62.639   13.7258  5031 !
+5032 900.0  -37.0213   62.639   13.7258  5031 !
+5032 1000.0   21.1568 -125.1309  -11.0161  5031 !	
+5032 1100.0  -59.72 -144.4  -16.03  5031 !	
+5033 410.0   12.3619   40.4544   -8.0813  5032 !Azania (Somalia Plate
+5033 1000.0   12.3619   40.4544   -8.0813  5032 !Azania (Somalia Plate)
+5034 410.0   90.0    0.0    0.0  503 !	Azania (Arabian Plate)-Arabia
+5034 410.0   33.8156   21.4851   -7.6381  701 !
+5034 520.0   33.8156   21.4851   -7.6381  701 !
+5034 520.0  -26.46 -158.34    7.83  5032 !
+5034 1000.0  -26.46 -158.34    7.83  5032 !Azania (Arabia Plate)
+505 410.0   10.3591    8.6883    7.0404  503 !IRN-ARB Muller et al. 2008 @absage  altered Young et al. (this study) to prevent overlap      
+505 600.0   10.3591    8.6883    7.0404  503 !IRN-ARB altered Young et al. (this study) to prevent overlap
+999 650.0  -27.3113   19.7896   13.572  503 !
+505 720.0   10.3591    8.6883    7.0404  503 !
+505 820.0   10.3591    8.6883    7.0404  503 !
+999 850.0  -41.0273   32.9999   21.5114  503 !
+505 1000.0  -14.4577 -173.3407  -20.7976  503 !
+50501 410.0   90.0    0.0    0.0  505 !iso north of Cimmerian terranes  Mller et al. (2016)
+50501 1100.0   90.0    0.0    0.0  505 !iso north of Cimmerian terranes  
+506 410.0  -27.71 -122.77   61.97  505 !AFF-IRN predrift	extension  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+506 1000.0  -27.71 -122.77   61.97  505 !AFF-IRN PM Tuned longitude tht12  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+50601 410.0   90.0    0.0    0.0  506 !HEL-AFF Helmand-Afghanistan (Farah)  
+50601 1000.0   90.0    0.0    0.0  506 !HEL-AFF  
+50602 410.0   90.0    0.0    0.0  50601 !MAK-HEL Makran-Helmand  
+50602 600.0   90.0    0.0    0.0  50601 !MAK-HEL 
+508 410.0   33.0   21.0   -3.0  503 !SIN-ARB  
+508 410.0   30.0516   23.6575  -12.0352  715 !	 Sinai to SM 
+508 520.0   30.0516   23.6575  -12.0352  715 !	 Sinai to SM 
+508 520.0   30.0516   23.6575  -12.0352  5901 !	
+508 710.0   30.0516   23.6575  -12.0352  5901 !	 Sinai to SM 
+508 710.0   30.0516   23.6575  -12.0352  5905 !	 Sinai to SM 
+508 740.0   21.3699   18.6871   23.0917  5905 !	
+508 810.0   20.1176   18.042   23.2239  5905 !	 Sinai to SM 
+508 810.0   32.7628   24.2348   53.6805  715 !	
+508 840.0   32.7628   24.2348   53.6805  715 !	
+508 1000.0   32.7628   24.2348   53.6805  715 !	
+517 410.0   35.71   73.89  -26.12  518 !WKOHA-KOHA West Kohistan Arc - Kohistan Arc Zahirovic et al. (2014)       
+517 600.0   35.71   73.89  -26.12  518 !WKOHA-KOHA Zahirovic et al. (2014)   
+518 410.0  -34.99   15.39   -2.66  529 !KOHA-KOH Kohistan Arc - Kohistan back-arc Zahirovic et al. (2014)  
+518 600.0  -34.99   15.39   -2.66  529 !KOHA-KOH Zahirovic et al. (2014)  
+520 410.0   90.0    0.0    0.0  526 !WPT-EPT Western Pontides-Eastern Pontides MH2014  Hosseinpour et al. (2016)
+520 600.0   90.0    0.0    0.0  526 !WPT-EPT MH2014  
+521 410.0   49.25   15.0  -65.0  301 !SAK-EUR MH2014         
+521 600.0   49.25   15.0  -65.0  301 !SAK-EUR MH2014  
+522 410.0   43.8225   44.2309  -10.5181  715 !MTB-NEA Menderes Taurides Block-NE Africa altered Young et al. (this study) to prevent overlap
+522 600.0   43.8225   44.2309  -10.5181  715 !MTB-NEA   altered Young et al. (this study) to prevent overlap
+525 410.0   32.19   14.06    2.46  522 !KIR-MTB  Kirsehir-Menderes Taurides block Schettino and Turco 2011, MH26012014  Hosseinpour et al. (2016)
+525 600.0   32.19   14.06    2.46  522 !KIR-MTB  Schettino and Turco 2011, MH26012014  
+526 410.0   -6.4524  -43.6432    9.5455  505 !EPT-LUT East Pontides-Lut Merdith 2018
+526 750.0   -6.4524  -43.6432    9.5455  505 !EPT-LUT
+526 750.0  -33.7051 -106.149  133.357  580 !EPT-TAR East Pontides-Tarim
+526 1000.0  -33.7051 -106.149  133.357  580 !EPT-TAR East Pontides-Tarim
+528 410.0   90.0    0.0    0.0  606 !NKOH-LHA North Kohistan back arc-Lhasa Zahirovic et al. (2014)  
+528 600.0   90.0    0.0    0.0  606 !NKOH-LHA Zahirovic et al. (2014)   
+529 410.0   90.0    0.0    0.0  606 !SKOH-LHA South Kohistan back arc-Lhasa    
+529 600.0   90.0    0.0    0.0  606 !SKOH-LHA Zahirovic et al. (2014)   
+53001 410.0  -76.46  -18.63    1.03  606 !CMT3-LHA @absage  
+53001 1100.0  -76.46  -18.63    1.03  606 !CMT3-LHA @absage  
+531 410.0   59.2887  140.0677    6.3753  505 !Isochrons of ARB-IRN Meso Neothetys after introducing intra oceanic subduction zone   
+531 600.0  -59.2887  -39.9323   -6.3753  505 !Isochrons of ARB-IRN Meso Neothetys after introducing intra oceanic subduction zone    
+533 280.0   90.0    0.0    0.0  446 !EMT2-BMP Muller et al. 2008 @absage 
+533 410.0   90.0    0.0    0.0  446 !EMT2-BMP Muller et al. 2008   
+53401 410.0   90.0    0.0    0.0  534 !CMT4-CMT2 @absage  
+53401 1100.0   90.0    0.0    0.0  534 !CMT4-CMT2 @absage  
+544 410.0   50.9334  134.6282    3.9517  522 !Isochron of ARB-IRN, Meso Neo Tethys	By MH 05082014  Hoseinpour et al. (2016)
+544 600.0  -50.9334  -45.3718   -3.9517  522 !Isochron of ARB-IRN, Meso Neo Tethys	By MH 05082014  
+545 410.0   47.79   -0.25  -95.34  505 !Isochron of ARB-IRN, Meso Neo Tethys  By MH 05082014  Hoseinpour et al. (2016)
+545 600.0   47.79   -0.25  -95.34  505 !Isochron of ARB-IRN, Meso Neo Tethys  By MH 05082014 
+554 410.0   90.0    0.0    0.0  518 !LAD-KOHA Ladakh Arc-Kohistan Arc      
+554 600.0   90.0    0.0    0.0  518 !LAD-KOHA Zahirovic et al. (2014)   
+555 410.0   46.76   -4.54  -53.68  521 !Isochron of AFR-EUR, Vardar Ocean  By MH 05082014  Hosseinpour et al. (2016) 
+555 600.0   46.76   -4.54  -53.68  521 !Isochron of AFR-EUR, Vardar Ocean  By MH 05082014  
+5505 950.0   -6.41  -50.36    2.97  5032 !	
+5505 1000.0   81.26  -30.61   -7.21  5032 !	
+5506 900.0   73.73  158.08   19.11  701 !	
+5506 950.0   73.73  158.08   19.11  701 !	
+580 410.0  -31.2884  -72.6578  -46.1523  402 !TRM-KAZ
+580 410.0  -59.7926 -133.095  -85.1085  501 !	
+999 445.0  -29.864 -132.275  -76.1547  501 !
+580 450.0  -31.5508 -143.5276  -77.5118  501 !
+999 460.0  -26.3364 -142.4505  -85.3516  501 !
+580 470.0  -19.8825 -151.3468  -77.5087  501 !
+580 550.0  -38.3826 -121.5619  -67.3366  501 !
+580 600.0  -38.3826 -121.5619  -67.3366  501 !
+580 610.0  -38.3826 -121.5619  -67.3366  501 !
+580 650.0  -38.3826 -121.5619  -67.3366  501 !
+999 720.0  -45.7284 -120.3069 -181.291  501 !
+580 720.0  -47.6503 -121.5206 -184.5723  501 !
+580 730.0  -47.6503 -121.5206 -184.5723  501 !
+580 760.0  -47.6503 -121.5206 -184.5723  501 !
+580 760.0   38.3101   72.4988  129.263  505 !
+580 780.0   39.4677   73.2084  140.6826  505 !
+580 850.0   40.2816   72.8568  126.808  505 !
+580 870.0   40.2816   72.8568  126.808  505 !
+580 1000.0   41.6545   72.2429  106.7892  505 !
+5801 410.0   90.0    0.0    0.0  580 !Ocean subducting under North Tarim
+5801 520.0   90.0    0.0    0.0  580 !Ocean subducting under North Tarim
+5802 410.0   90.0    0.0    0.0  580 !Ocean subducting under North Tarim
+5802 430.0   18.9417  -73.586    5.7939  580 !
+5802 520.0   90.0    0.0    0.0  580 !Ocean subducting under North Tarim
+590 410.0   90.0    0.0    0.0  61601 !NPAM-WQIA North Pamirs-West Qiangtang  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+590 550.0   90.0    0.0    0.0  61601 !NPAM-WQIA  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+591 410.0   90.0    0.0    0.0  61601 !CPAM-WQIA Central Pamirs-West Qaingtang  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+591 550.0   90.0    0.0    0.0  61601 !CPAM-WQIA  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+5901 410.0   90.0    0.0    0.0  715 !	 Tokar Barka to Ab
+5901 520.0   90.0    0.0    0.0  715 !
+5901 600.0   90.0    0.0    0.0  715 !
+5901 650.0  -64.4533   73.945   -7.3865  715 !	 Tokar Barka to Ab
+5901 740.0   55.7831   40.7597   33.6369  715 !	 
+5901 850.0   55.7831   40.7597   33.6369  715 !	 
+59011 410.0   90.0    0.0    0.0  715 !Covered Tokar Barka
+59011 410.0   90.0    0.0    0.0  5901 !Covered Tokar Barka
+59011 1000.0   90.0    0.0    0.0  5901 !Covered Tokar Barka
+999 860.0    1.562  -15.6474   -3.6123  5031 !	 TB to AB
+5902 410.0   90.0    0.0    0.0  715 !	 Haya-TB
+5902 410.0   90.0    0.0    0.0  5901 !	 Haya-TB
+5902 780.0   90.0    0.0    0.0  5901 !	 Haya-TB 
+5902 850.0   90.0    0.0    0.0  5901 !	 Haya-TB
+5903 410.0   90.0    0.0    0.0  715 !	 AD to SMC
+5903 600.0   90.0    0.0    0.0  715 !	 AD to SMC
+5903 650.0    6.6736   37.4846   -6.5073  715 !	 AD to SMC
+5903 750.0    6.6736   37.4846   -6.5073  715 !	 Atmur Delgo to SMC
+5904 410.0   90.0    0.0    0.0  715 !	
+5904 410.0   90.0    0.0    0.0  5902 !	
+5904 780.0   90.0    0.0    0.0  5902 !	
+5904 850.0   41.6451  150.3064   -4.1935  5902 !	GG to Haya 
+5905 410.0   90.0    0.0    0.0  715 !	
+5905 410.0   90.0    0.0    0.0  5904 !	
+5905 725.0   90.0    0.0    0.0  5904 !	
+5905 780.0   23.671  135.2584   -6.6821  5904 !	
+5905 810.0  -28.4596  -41.3013    7.9106  5904 !	
+5906 410.0   90.0    0.0    0.0  503 !	Midyan to Arabia
+5906 410.0   28.9903   24.3803   -9.0436  5905 !	 Midyan
+5906 715.0   28.9903   24.3803   -9.0436  5905 !	 Midyan
+5906 810.0   28.9903   24.3803   -9.0436  5905 !	 Midyan
+59061 410.0   90.0    0.0    0.0  508 !Covered Midyan
+59061 600.0   90.0    0.0    0.0  508 !Covered Midyan	
+59061 600.0   90.0    0.0    0.0  5906 !Covered Midyan	
+59061 1000.0   90.0    0.0    0.0  5906 !Covered Midyan	
+5907 410.0   90.0    0.0    0.0  503 !	Hijaz to Arabia
+5907 410.0   90.0    0.0    0.0  5913 !	 Hijaz to jiddah
+5907 780.0   90.0    0.0    0.0  5913 !	
+5907 780.0   34.3971   22.1324   -7.1743  5904 !	Hijaz
+5907 850.0   34.3971   22.1324   -7.1743  5904 !	Hijaz
+5908 410.0   90.0    0.0    0.0  503 !	Asir to Arabia
+5908 410.0   90.0    0.0    0.0  5907 !	 Asir to Hulfayah 
+5908 680.0   90.0    0.0    0.0  5907 !	 Asir to Hulfayah 
+5908 850.0   90.0    0.0    0.0  5907 !	 Asir to Hulfayah 
+5908 851.0   90.0    0.0    0.0  5907 !	 Asir to Hulfayah    
+5909 410.0   90.0    0.0    0.0  503 !	Ha'il to Arabia
+5909 410.0   90.0    0.0    0.0  5908 !	 Ha'il to Hu
+5909 680.0   90.0    0.0    0.0  5908 !	 Ha'il to Hu 
+5909 780.0   -2.5698   27.895   -1.1291  5908 !	 
+5911 410.0   90.0    0.0    0.0  5031 !	Ad Dawadimi to Arabia
+5911 410.0   90.0    0.0    0.0  5912 !	Ad to Ar
+5911 600.0   90.0    0.0    0.0  5912 !	Ad to Ar
+5911 630.0  -61.6709   80.4728    0.6415  5912 !	
+5912 410.0   90.0    0.0    0.0  5031 !	Ar Rayn to Arabia
+5912 410.0   90.0    0.0    0.0  5031 !	
+5912 600.0   90.0    0.0    0.0  5031 !	
+5912 615.0  -60.7907   85.2005   -1.5169  5031 !	
+5912 700.0   55.1639  -82.8023    2.2836  5031 !	
+5913 410.0   90.0    0.0    0.0  503 !	Jiddah to Arabia
+5913 520.0   90.0    0.0    0.0  503 !	 
+5913 520.0   28.9903   24.3803   -9.0436  5901 !	 
+5913 600.0   28.9903   24.3803   -9.0436  5901 !	 
+5913 650.0   28.9903   24.3803   -9.0436  5901 !	
+5913 740.0   28.9903   24.3803   -9.0436  5901 !	
+5913 850.0   28.9903   24.3803   -9.0436  5901 !	
+5914 410.0   90.0    0.0    0.0  503 !	Asir to Arabia
+5914 410.0   90.0    0.0    0.0  5913 !	 Asir to Jiddah
+5914 780.0   90.0    0.0    0.0  5913 !	 Asir to Jiddah
+5914 850.0   90.0    0.0    0.0  5913 !	 Asir to Jiddah
+5914 850.0   90.0    0.0    0.0  5913 !	 Asir
+5915 410.0   90.0    0.0    0.0  503 !	Tabitha to Arabia
+5915 410.0   90.0    0.0    0.0  5914 !	 Tabitha to asir
+5915 650.0   90.0    0.0    0.0  5914 !	 T to A
+5915 700.0  -44.0004 -174.0492   -0.6467  5914 !	 T to A 
+5916 410.0   90.0    0.0    0.0  503 !	Sa'al Metamorphic Complex to Arabia
+5916 410.0   33.0   21.0    3.0  508 !	Sa'al Metamorphic Complex
+5916 1000.0   33.0   21.0    3.0  508 !	Sa'al Metamorphic Complex
+59161 410.0   90.0    0.0    0.0  715 !	Sa'al Metamorphic Complex to Arabia
+59161 410.0   30.0516   23.6575   12.0352  508 !Sa'al Metamorphic Complex to Arabia
+59161 1000.0   30.0516   23.6575   12.0352  508 !Sa'al Metamorphic Complex	 
+601 410.0  -12.8091  121.122  -23.7509  602 !	North China
+601 410.0  -49.9132    9.5763  -32.7553  8011 !	
+601 430.0    5.0753   45.0994  -24.9427  8011 !
+601 440.0  -30.1149  -90.8223   59.0372  8011 !
+601 450.0  -32.631  -88.6223   88.6152  8011 !
+999 455.0  -34.087  -81.8042  101.8735  8011 !
+999 465.0   34.0075   97.6914 -103.007  8011 !	
+601 475.0   33.9173   95.8726  -81.0787  8011 !
+601 490.0   27.1913  101.8065 -105.0598  8011 !
+601 550.0    9.1923  109.2007  -88.684  8011 !
+601 600.0    9.3347  107.4771  -88.8867  8011 !
+601 650.0    8.8284   83.8712  -67.0453  8011 !	
+601 800.0    8.8284   83.8712  -67.0453  8011 !	
+601 1000.0    8.8284   83.8712  -67.0453  8011 !	
+6013 410.0   90.0    0.0    0.0  601 ! NQL-NCB North Qinling-North China
+6013 440.0   90.0    0.0    0.0  601 ! NQL-NCB
+6013 520.0   14.6701   17.0956   -4.9543  601 ! NQL-NCB
+6013 540.0   90.0    0.0    0.0  601 ! NQL-NCB
+6013 600.0   90.0    0.0    0.0  601 ! NQL-NCB
+6013 930.0   90.0    0.0    0.0  601 ! NQL-NCB
+6013 930.0   48.446  104.379 -122.227  401 !NQL-SIB
+6013 970.0   40.617   98.8563 -179.4202  401 !
+6013 1000.0   40.617   98.8563 -179.4202  401 !NQL-SIB
+60112 410.0   90.0    0.0    0.0  6013 ! Subduction under North Qinling
+60112 500.0   90.0    0.0    0.0  6013 ! Subduction under North Qinling
+6002 420.0  -14.2855   41.8606   -4.7859  601 !	
+6002 520.0   90.0    0.0    0.0  601 !	
+602 410.0   25.9889   59.4059  -36.9367  701 !	
+602 440.0   55.9868    4.0956  -33.1055  701 !
+602 455.0   61.1119  -17.9612  -35.1005  701 !
+999 465.0   41.0901  -53.4646  -32.7371  701 !
+999 470.0   42.9977  -84.7589  -22.4712  701 !
+999 480.0   -6.134  123.3694   38.4887  701 !
+999 490.0  -62.7136 -168.966   40.5891  701 !
+602 550.0  -62.7136 -168.966   40.5891  701 !	
+602 550.0    1.98   74.44   40.29  501 !	
+602 900.0    1.98   74.44   40.29  501 !	
+602 1100.0    1.98   74.44   40.29  501 !	
+6021 410.0   90.0    0.0    0.0  602 !Yangtze
+6021 750.0   90.0    0.0    0.0  602 !	
+6021 900.0   90.0    0.0    0.0  602 !	
+6021 1100.0  -32.87  -33.52   18.53  602 !	
+6023 410.0   90.0    0.0    0.0  602 !Jiangang Orogen
+6023 1000.0   90.0    0.0    0.0  602 !Jiangang Orogen
+6024 410.0   90.0    0.0    0.0  602 !Panxi Hannan Belt
+6024 1000.0   90.0    0.0    0.0  602 !Panxi Hannan Belt
+6025 410.0   90.0    0.0    0.0  602 !Panxi Hannan Belt
+6025 1000.0   90.0    0.0    0.0  602 !Panxi Hannan Belt
+6026 450.0   90.0    0.0    0.0  801 ! Ocean plate subducting under Proto Japan
+6026 455.0   65.1855 -175.827   -8.4573  801 !
+6026 520.0   90.0    0.0    0.0  801 ! Ocean plate subducting under Proto Japan
+6026 1000.0   90.0    0.0    0.0  801 ! Ocean plate subducting under Proto Japan
+60201 410.0  -51.8   43.08    0.92  602 !HAI-SCH  
+60201 520.0  -51.8   43.08    0.92  602 !
+60201 600.0  -51.8   43.08    0.92  602 !
+60201 1000.0  -51.8   43.08    0.92  602 !
+603 410.0   28.1088   93.1706  108.8814  61601 !SBM-WQIA Sibumasu-West Qiangtang @REF Zahirovic_++_InPrep
+603 1000.0   28.1088   93.1706  108.8814  61601 !SBM-WQIA Sibumasu-West Qiangtang @REF Zahirovic_++_InPrep
+60301 410.0   70.9028  -81.5825   -1.4378  604 !SWA-ICB 
+60301 1000.0   70.9028  -81.5825   -1.4378  604 !SWA-ICB 
+60302 410.0   90.0    0.0    0.0  603 !MP2-SBM Malay Peninsula 2-Sino Burma Malaya      
+60302 1000.0   90.0    0.0    0.0  603 !MP2-SBM 
+604 410.0   41.43  143.69  -31.61  602 !ICH-SCH Calculated interactively by GPlates adjusted Young et al. (this study)
+604 450.0   35.48  138.04  -29.37  602 !ICH-SCH ModbyMat (Arbitrary placement)	     @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+604 550.0   25.92  114.33 -114.1  602 !ICH-SCH ModbyMat (Arbitrary placement)		@REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+604 1000.0   25.92  114.33 -114.1  602 !ICH-SCH ModbyMat (Arbitrary placement)		@REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+60401 410.0   90.0    0.0    0.0  604 !SIM-ICH Simao (Metcalfe 1994)-Indochina      
+60401 1000.0   90.0    0.0    0.0  604 !SIM-ICH  
+60402 410.0   90.0    0.0    0.0  60401 !SICH-ICH South Indochina-Indochina following Hall 2002     
+60402 1000.0   90.0    0.0    0.0  60401 !SICH-ICH  
+60403 410.0  -63.56   51.45   -0.08  604 !ICH1-ICH Indochina sliver 1 - Indochina (Khorat platform)  
+60403 1000.0  -63.56   51.45   -0.08  604 !ICH1-ICH  
+60404 410.0  -25.73  -62.87   -1.1  60403 !ICH2-ICH1 Indochina sliver 2 - Indochina sliver 1  
+60404 1000.0  -25.73  -62.87   -1.1  60403 !ICH2-ICH1  
+60405 410.0   15.62 -112.61    1.09  60404 !ICH3-ICH2 Indochina sliver 3 - Indochina sliver 2  
+60405 1000.0   15.62 -112.61    1.09  60404 !ICH3-ICH2  
+60406 410.0  -19.83  -77.57    5.16  60405 !ICH4-ICH3 Indochina sliver 4 - Indochina sliver 3  
+60406 1000.0  -19.83  -77.57    5.16  60405 !ICH4-ICH3	   
+605 410.0  -19.38 -154.66   35.14  769 !ARG-WAR Argo Oceanic Crust-West Argoland Gibbons et al. (2013)
+605 600.0  -19.38 -154.66   35.14  769 !ARG-WAR
+606 410.0   11.62   24.29   -6.7  616 !LHA/STB-EQIA Lhasa/South Tibet-East Qiangtang (this rotation is what the Young model has, we change to new rotation)
+606 410.0  -21.1042  -36.9315  -71.5411  801 !LHA/STB-AUS @REF Zahirovic_++_InPrep
+606 540.0  -21.1042  -36.9315  -71.5411  801 !
+606 540.0  -41.3475  -94.0364  -55.1104  501 !
+606 580.0  -43.7967  -88.7796  -62.4895  501 !
+606 580.0   36.5912  154.851   65.717  801 !
+606 620.0   36.5912  154.851   65.717  801 !
+606 650.0  -33.0531  -34.3375  -66.6152  801 !
+606 750.0  -33.0531  -34.3375  -66.6152  801 !
+606 820.0  -27.2246  -43.2643  -75.4951  801 !
+606 850.0  -27.2246  -43.2643  -75.4951  801 !
+999 900.0  -27.2246  -43.2643  -75.4951  801 !LHA/STB-AUS @REF Zahirovic_++_InPrep
+606 920.0  -27.0034  -37.1921  -73.6016  801 !
+606 1000.0  -27.0034  -37.1921  -73.6016  801 !LHA/STB-AUS @REF Zahirovic_++_InPrep
+60601 410.0   90.0    0.0    0.0  616 !isochrons north of Cimmerian terranes  
+60601 1100.0   90.0    0.0    0.0  616 !isoisochrons north of Cimmerian terranes  
+607 410.0   32.96   91.81  101.37  769 !MAW-WAR @REF Gibbons_++_2012 @DOI"10.1029/2011GC003919"
+607 600.0   32.96   91.81  101.37  769 !MAW-WAR @REF Gibbons_++_2012 @DOI"10.1029/2011GC003919"
+612 410.0   90.0    0.0    0.0  602 !NCS-SCH Northside South China Sea-South China  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+612 1000.0   90.0    0.0    0.0  602 !NCS-SCH  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+613 410.0    7.9   85.7   11.1  612 !SCS-NCS Southside South China Sea (Dangerous Grounds and Reed Bank)-Northside South China Sea  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+613 600.0    7.9   85.7   11.1  612 !SCS-NSC Briais et al. 1993  - relative age  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+614 410.0    0.95  -73.68   77.79  647 !KLM-MLP Kalimantan (Borneo core)-Malay Peninsula (Sibumasu)  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+614 600.0    0.95  -73.68   77.79  647 !KLM-ICH Zahirovic et al. 2014  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+61404 410.0   90.0    0.0    0.0  613 !LUC-SCS Luconia-Southside South China Sea  
+61404 1000.0   90.0    0.0    0.0  613 !LUC-SCS   
+61405 410.0    3.55  -66.27   86.78  736 !EKLM-EJAV 
+61405 600.0    3.55  -66.27   86.78  736 !EKLM-EJAV 
+615 410.0   90.0    0.0    0.0  801 !PNG-AUS Papua New Guinea-Australia  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+615 600.0   90.0    0.0    0.0  801 !PNG-AUS  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+61501 410.0    4.77  -45.83   16.51  615 !BH1-PNG Bird's Head Plate 1 - Papua New Guinea  Heine et al. (2012) 
+61501 1000.0    4.77  -45.83   16.51  615 !BH1-PNG      
+61502 410.0    1.73  -44.3  -19.12  61501 !BH2-BH1 Bird's Head Plate 2 - Bird's Head Plate 1  
+61502 1000.0    1.73  -44.3  -19.12  61501 !BH2-BH1   
+616 410.0  -30.8042 -110.2827  -35.086  501 ! EQIA-IND East Qiangtang (North Qiangtang/North Tibet)-India @REF Zahirovic_++_InPrep
+616 1000.0  -30.8042 -110.2827  -35.086  501 !EQIA-IND  @REF Zahirovic_++_InPrep
+61601 410.0   47.3942  178.675  -10.9776  501 !WQIA-IND West Qiangtang (South Qiangtang)-IND @REF Zahirovic_++_InPrep
+61601 1000.0   47.3942  178.675  -10.9776  501 !WQIA-IND  @REF Zahirovic_++_InPrep
+61602 410.0   90.0    0.0    0.0  606 !AMD-LHA Amdo-Lhasa     
+61602 600.0   90.0    0.0    0.0  606 !AMD-LHA  
+619 410.0   11.79   30.53   -2.59  301 !SIK-EUR Sikhote Alin-Eurasia  Otsuki & Ehiro 1978 @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+619 600.0   11.79   30.53   -2.59  301 !SIK-EUR @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+621 410.0   90.0    0.0    0.0  619 !CSA-SIK Central Sikhote Alin sliver-Sikhote  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+621 600.0   90.0    0.0    0.0  619 !CSA-SIK @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+622 410.0   90.0    0.0    0.0  301 !NSA-EUR North Sikhote Alin sliver-Northern European Craton (Eurasia)  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+622 600.0   90.0    0.0    0.0  301 !NSA-EUR   @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+623 410.0   90.0    0.0    0.0  301 !NMS-EUR Northernmost Sikhote Alin Sliver-Northern European Craton (Eurasia)  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+623 600.0   90.0    0.0    0.0  301 !NMS-EUR		   @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+624 410.0   90.0    0.0    0.0  301 !SAK-EUR Sakhalin-Eurasia  * Rotations deleted GS12  
+624 600.0   90.0    0.0    0.0  301 !SAK-EUR  
+625 410.0   -4.5 -149.96   -2.45  301 !CHK-EUR Central Hokkaido-Northern European Craton (Eurasia)  Otsuki & Ehiro 1979  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+625 600.0   -4.5 -149.96   -2.45  301 !CHK-EUR	 @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+626 410.0   90.0    0.0    0.0  625 !WHK-CHK Western Hokkaido-Central Hokkaido  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+626 600.0   90.0    0.0    0.0  625 !WHK-CHK @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+627 410.0   90.0    0.0    0.0  625 !NEH-CHK Northeast Honshu-Central Hokkaido  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+627 600.0   90.0    0.0    0.0  625 !NEH-CHK	 @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+628 410.0  -13.71 -113.4   -4.06  601 !CHN-NCH Central Honshu-North China Platform  Otsuki & Ehiro 1979  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+628 600.0  -13.71 -113.4   -4.06  601 !CHN-NCH	 @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+629 410.0  -15.4 -113.43   -3.15  601 !KAN-NCH Kanto Region-North China Platform  Otsuki & Ehiro 1979  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+629 600.0  -15.4 -113.43   -3.15  601 !KAN-NCH	  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+630 410.0  -13.71 -113.4   -3.62  601 !NSH-NCH North Southwest Honshu/Kyushu-North China Platform  Otsuki & Ehiro 1979  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+630 600.0  -13.71 -113.4   -3.62  601 !NSH-NCH	  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+631 410.0  -15.4 -113.43   -3.15  601 !SSH-NCH South Southwest Honshu/Kyushu-North China Platform  Otsuki & Ehiro 1979  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+631 600.0  -15.4 -113.43   -3.15  601 !SSH-NCH	 @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+641 410.0   90.0    0.0    0.0  601 !SOJ-NCH Sea of Japan-North China Platform  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+641 600.0   90.0    0.0    0.0  601 !SOJ-NCH	 @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+647 410.0   27.44   81.16   77.27  606 !MLP-LHA interpolated from Muller et al. 2008 
+647 600.0   27.44   81.16   77.27  606 !MLP-LHA Malay Peninsula-Lhasa 
+64701 410.0   90.0    0.0    0.0  647 !MLP2-MLP East Malay Peninsula (east of Bentong-Raub Suture)-Malay Peninsula  
+64701 1000.0   90.0    0.0    0.0  647 !MLP2-MLP  
+657 410.0    4.74  -75.27   78.83  673 !WJAV-SUM West Java-Sumatra, Zahirovic et al. 2014 
+657 600.0    4.74  -75.27   78.83  673 !WJAV-SUM 
+666 410.0    7.99  103.4   72.46  602 !ISEM-BOR Intermediate rotation for Semitau, Zahirovic et al. (2014)      
+666 1000.0    7.99  103.4   72.46  602 !ISEM-BOR   
+667 410.0   64.92   62.71    9.3  615 !ESW-PNG Northeast Sulawesi-Papua New Guinea    
+667 1000.0   64.92   62.71    9.3  615 !ESW-PNG  
+668 410.0    2.06  120.93  -21.2  61405 !WSW-EKLM  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+668 600.0    2.06  120.93  -21.2  61405 !WSW-EKLM  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+670 410.0   83.37 -103.19    9.33  61502 !SLA-BH2 Sula/Banggai-Bird's Head Plate 2  Lee & Lawver 1995 
+670 600.0   83.37 -103.19    9.33  61502 !SLA-BH2  
+673 410.0   90.0    0.0    0.0  647 !SUM-MLP North Sumatra-Malay Peninsula
+673 600.0   90.0    0.0    0.0  647 !SUM-MLP	
+67301 410.0   90.0    0.0    0.0  673 !NWSUM1-SUM Northwest Sumatra1-Sumatra      
+67301 1000.0   90.0    0.0    0.0  673 !NWSUM1-SUM  
+67302 410.0   90.0    0.0    0.0  673 !NWSUM2-SUM Northwest Sumatra2-Sumatra      
+67302 1000.0   90.0    0.0    0.0  673 !NWSUM2-SUM  
+67350 410.0   90.0    0.0    0.0  673 !WOY-SUM
+67350 600.0   90.0    0.0    0.0  673 !WOY-SUM
+67351 410.0   -7.18  148.5    2.67  67350 !BAR-WOY @REF Zahirovic_++_2014 @DOI"10.5194/se-5-227-2014"   
+67351 600.0   -7.18  148.5    2.67  67350 !BAR-WOY @REF Zahirovic_++_2014 @DOI"10.5194/se-5-227-2014"   
+67352 410.0   90.0    0.0    0.0  67350 !WOY-SUM
+67352 600.0   90.0    0.0    0.0  67350 !WOY-SUM
+675 410.0    7.48  -55.32  -36.48  801 !SMB-AUS Sumba-Australia  Zahirovic et al. (2014)  
+675 600.0    7.48  -55.32  -36.48  801 !SMB-AUS  
+681 410.0   90.0    0.0    0.0  61501 !SER-BH1 Seram-Bird's Head Plate 1  after Hall 2002  
+681 600.0   90.0    0.0    0.0  61501 !SER-BH1  
+684 410.0  -38.89   61.58   -0.85  801 !TIM-AUS Timor-Australia  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+684 600.0  -38.89   61.58   -0.85  801 !TIM-AUS  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+698 410.0   90.0    0.0    0.0  801 !CNG-AUS Central New Guinea (Sepik)-Australia  
+698 600.0   90.0    0.0    0.0  801 !CNG-AUS 	
+701 410.0    0.0   99.2017   65.3122  070 !Torsvik and van der Voo (2002), spherical spline option GAD (dipole), calc in GPlates using S Pole reference (calculated at 410 Ma)
+701 409.0    0.0   99.95   64.77  070 !Torsvik and van der Voo (2002), spherical spline option GAD (dipole), calc in GPlates using S Pole reference
+701 419.0    0.0   92.95   70.56  070 !Torsvik and van der Voo (2002), spherical spline option GAD (dipole), calc in GPlates using S Pole reference
+701 429.0    0.0   86.06   83.41  070 !Torsvik and van der Voo (2002), spherical spline option GAD (dipole), calc in GPlates using S Pole reference
+701 439.0    0.0   81.75   98.57  070 !Torsvik and van der Voo (2002), spherical spline option GAD (dipole), calc in GPlates using S Pole reference
+701 450.0    0.0   82.25  111.81  070 !Torsvik and van der Voo (2002), spherical spline option GAD (dipole), calc in GPlates using S Pole reference
+701 459.0    0.0   87.36  118.68  070 !Torsvik and van der Voo (2002), spherical spline option GAD (dipole), calc in GPlates using S Pole reference
+701 470.0    0.0   93.37  122.85  070 !Torsvik and van der Voo (2002), spherical spline option GAD (dipole), calc in GPlates using S Pole reference
+701 481.0    0.0   96.79  122.26  070 !Torsvik and van der Voo (2002), spherical spline option GAD (dipole), calc in GPlates using S Pole reference
+701 489.0    0.0   97.08  119.27  070 !Torsvik and van der Voo (2002), spherical spline option GAD (dipole), calc in GPlates using S Pole reference
+701 500.0    0.0   94.28  114.08  070 !Torsvik and van der Voo (2002), spherical spline option GAD (dipole), calc in GPlates using S Pole reference
+701 510.0    0.0   90.64  107.24  070 !Torsvik and van der Voo (2002), spherical spline option GAD (dipole), calc in GPlates using S Pole reference
+701 510.0    0.0  -89.36 -107.24  003 !	
+701 530.0   15.18   90.87  110.81  003 !	
+701 590.0   12.43   78.66   78.95  003 !	 
+701 700.0  -11.84   34.21  116.07  003 !	
+701 750.0   13.4168 -146.6944 -132.7918  003 !	
+999 750.0  -13.82  137.16  152.37  003 !	
+701 850.0   44.5661 -145.288  -84.9786  003 !
+701 850.0    5.66  164.55  138.2  101 !	
+701 870.0    5.66  164.55  138.2  101 !	
+701 1000.0   12.06  168.88  163.54  101 !	
+77011 410.0   90.0    0.0    0.0  701 !	Zambezi Belt
+77011 1000.0   90.0    0.0    0.0  701 !	Zambezi Belt
+77012 410.0   90.0    0.0    0.0  701 !	Lufilian Belt
+77012 1000.0   90.0    0.0    0.0  701 !	Lufilian Belt
+77013 410.0   90.0    0.0    0.0  701 !	Damara Belt
+77013 1000.0   90.0    0.0    0.0  701 !	Damara Belt
+77014 410.0   90.0    0.0    0.0  701 !	Kaoka Belt
+77014 1000.0   90.0    0.0    0.0  701 !	Kaoka Belt
+77016 410.0   90.0    0.0    0.0  701 !	Yaounde Domain
+77016 1000.0   90.0    0.0    0.0  701 !	Yaounde Domain
+77017 410.0   90.0    0.0    0.0  701 !	Adamawa-Yade Domain
+77017 1000.0   90.0    0.0    0.0  701 !	Adamawa-Yade Domain
+77018 410.0   90.0    0.0    0.0  701 !Western Cameroon
+77018 1000.0   90.0    0.0    0.0  701 !Western Cameroon
+77019 410.0   90.0    0.0    0.0  701 !	Oubanguides
+77019 1000.0   90.0    0.0    0.0  701 !	Oubanguides
+702 410.0  -10.65  -26.45  -42.17  802 !MAD-ANT Muller et al. 2008  @xo_ys  
+702 410.0    9.7457  124.886  -16.0517  701 !
+702 520.0    9.7457  124.886  -16.0517  701 !
+702 520.0  -18.982 -150.098  -61.6053  501 !	 
+702 4600.0  -18.982 -150.098  -61.6053  501 !
+77021 410.0   90.0    0.0    0.0  702 !	Central Madagascar
+77021 520.0   90.0    0.0    0.0  702 !
+77021 520.0   -6.8294  -57.0552   15.7569  5032 !
+77021 1000.0    9.7457  124.886  -16.0517  5032 !Central Madagascar
+77022 410.0   90.0    0.0    0.0  702 !Southern Madagascar
+77022 520.0   90.0    0.0    0.0  702 !
+77022 520.0   -6.8294  -57.0552   15.7569  5032 !
+77022 1000.0   -6.8294  -57.0552   15.7569  5032 !
+77023 410.0   90.0    0.0    0.0  702 !Bemarivo Belt
+77023 410.0   90.0    0.0    0.0  77021 !Bemarivo Belt
+77023 520.0   90.0    0.0    0.0  77021 !
+77023 1000.0   90.0    0.0    0.0  77021 !Bemarivo Belt
+77024  0.0   90.0    0.0    0.0  702 !reworked crust?
+77024 520.0   90.0    0.0    0.0  702 !reworked crust?
+77024 520.0   -6.8294  -57.0552   15.7569  5032 !
+77024 600.0   -6.8294  -57.0552   15.7569  5032 !
+77030 410.0   90.0    0.0    0.0  701 !	
+77030 550.0   90.0    0.0    0.0  701 !	
+77030 650.0  -41.8011  133.347   39.7806  701 !	
+77030 700.0  -41.8011  133.347   39.7806  701 !	
+77030 700.0   15.102  -25.2783 -157.5464  101 !	
+77030 900.0   15.102  -25.2783 -157.5464  101 !KAL-LAU
+77030 1030.0   15.102  -25.2783 -157.5464  101 !KAL-LAU
+77030 1100.0   20.2855  -15.8357 -135.8064  101 !KAL-LAU @REF Mulder et al., this publication
+77030 1140.0   20.2855  -15.8357 -135.8064  101 !KAL-LAU
+77031 410.0   90.0    0.0    0.0  77030 !	Gariep Belt
+77031 1000.0   90.0    0.0    0.0  77030 !	Gariep Belt
+77032 410.0   90.0    0.0    0.0  77030 !	Saladania Belt
+77032 1000.0   90.0    0.0    0.0  77030 !	Saladania Belt
+704 410.0   17.76   24.48  -13.75  702 !SEY-MAD  
+704 410.0   17.65  -13.8   32.26  501 !	 
+704 4600.0   17.65  -13.8   32.26  501 !	
+706 410.0   90.0    0.0    0.0  714 !ORA-NWA Oran Meseta-Northwest Africa  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+706 600.0   90.0    0.0    0.0  714 !ORA-NWA	  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+707 410.0   33.14   -1.08   15.2  3203 !GKAB1-IBZ Grande Kabylie1-Ibiza Schettino and Turco, 2006  
+707 600.0   33.14   -1.08   15.2  3203 !GKAB1-IBZ  
+708 410.0   40.74    5.07   34.63  3062 !PKAB-SSR Petite Kabylie-South Sardinia Schettino and Turco, 2011  
+708 600.0   40.74    5.07   34.63  3062 !PKAB-SSAR  
+70822 410.0   33.14   -1.08   15.2  3203 !GKAB2-IBZ Grande Kabylie2-Ibiza Schettino and Turco, 2006 
+70822 600.0   33.14   -1.08   15.2  3203 !GKAB2-IBZ    
+70833 410.0   33.14   -1.08   13.2  3203 !GKAB3-IBZ Grande Kabylie3-Ibiza Schettino and Turco, 2006  
+70833 600.0   33.14   -1.08   13.2  3203 !GKAB3-IBZ   
+70844 410.0   33.14   -1.08   15.5  3202 !GKAB4-MAL Grande Kabylie4-Mallorca Schettino and Turco, 2006  
+70844 600.0   33.14   -1.08   15.5  3202 !GKAB4-MAL 
+709 410.0  -48.85   17.57    1.01  701 !
+709 520.0  -48.85   17.57    1.01  701 !
+709 1000.0  -48.85   17.57    1.01  701 !Somalia Plate?
+77091 410.0   90.0    0.0    0.0  709 !
+77091 600.0   90.0    0.0    0.0  709 !EAO deformed crust?
+77151  0.0   90.0    0.0    0.0  715 !Meditterranean Sahara
+77151 1000.0   90.0    0.0    0.0  715 !Meditterranean Sahara
+710 410.0   19.0   42.0   -7.7  701 !DAN-AFR, Eagles et al 2002  
+710 600.0   19.0   42.0   -7.7  701 !DAN-AFR, Eagles et al 2002  
+712 410.0   90.0    0.0    0.0  701 !Congo on Mount Victoria Block
+712 1000.0   90.0    0.0    0.0  701 ! Congo on Mount Victoria Block
+713 410.0   90.0    0.0    0.0  701 !Congo on Mozambique Block
+713 1000.0   90.0    0.0    0.0  701 !Congo on Mozambique Block
+77131  0.0   90.0    0.0    0.0  701 !	Congo on Mozambique Block
+77131 1000.0   90.0    0.0    0.0  701 !Congo on Mozambique Block
+771311  0.0   90.0    0.0    0.0  701 !Congo on Mozambique Block
+771311 1000.0   90.0    0.0    0.0  701 !Congo on Mozambique Block
+714 410.0   25.21    5.47    2.87  715 !West Africa
+714 520.0   25.21    5.47    2.87  715 !
+714 540.0   25.21    5.47    2.87  715 !
+714 540.0   51.78  -34.96  -53.08  201 !
+714 550.0  -59.89  158.08   51.51  201 !
+714 590.0  -68.8465 -116.5414   50.6734  201 !
+714 630.0  -68.8465 -116.5414   50.6734  201 !
+999 630.0  -87.46 -136.34   41.71  201 !
+999 640.0  -87.46 -136.34   41.71  201 !
+714 700.0  -68.8465 -116.5414   50.6734  201 !
+714 750.0  -68.8465 -116.5414   50.6734  201 !
+714 850.0   42.27  -27.21  -70.14  201 !
+714 1100.0   42.27  -27.21  -70.14  201 !
+77141 410.0   90.0    0.0    0.0  714 !SNWA-NWA Sahara on NW Africa-North West Africa
+77141 410.0   25.21    5.47    2.87  715 !SNWA-NEA Sahara on NW Africa Plate-North East Africa (Sahara Metacraton)
+77141 1000.0   90.0    0.0    0.0  715 !SNWA-NEA
+77142 410.0   90.0    0.0    0.0  714 !Anti-Atlas
+77142 1000.0   90.0    0.0    0.0  714 !Anti-Atlas
+77143 410.0   90.0    0.0    0.0  714 !NW Africa
+77143 1000.0   90.0    0.0    0.0  714 !NW Africa
+77144 410.0   90.0    0.0    0.0  714 !
+77144 410.0   25.21    5.47    2.87  715 !HOG-NEA Hoggar-North East Africa (Sahara Metacraton) 
+77144 570.0   90.0    0.0    0.0  715 !HOG-NEA
+77144 600.0   -1.88  -22.95    8.22  715 !HOG-NEA
+77144 630.0    8.59  -23.86   15.56  715 !HOG-NEA
+77144 730.0    4.9028    3.3681   32.9401  715 !HOG-NEA
+77144 900.0    4.9028    3.3681   32.9401  715 !HOG-NEA
+77144 1000.0    4.9028    3.3681   32.9401  715 !HOG-NEA
+77144 1100.0    8.59  -23.86   15.56  715 !HOG-NEA
+77145 410.0   90.0    0.0    0.0  77144 !ISL-HOG Iskel Arc-Hoggar
+77145 850.0   90.0    0.0    0.0  77144 !ISL-HOG
+77145 870.0   13.621 -156.3443   -9.2485  77144 !ISL-HOG
+77145 1000.0   13.621 -156.3443   -9.2485  77144 !ISL-HOG
+77146 410.0   90.0    0.0    0.0  77144 ! SET-HOG Serouenout Terrane-Hoggar
+77146 620.0   90.0    0.0    0.0  77144 ! SET-HOG
+77146 700.0   46.5484   -1.082   11.7741  77144 !SET-HOG
+77146 1000.0   90.0    0.0    0.0  77144 !SET-HOG
+77147 410.0   90.0    0.0    0.0  77145 !IGU-ISL Iforas Granulite Unit-Iskel Arc
+77147 650.0   90.0    0.0    0.0  77145 !IGU-ISL
+77147 700.0   -1.7709   90.0561  -11.1814  77145 !IGU-ISL
+77147 870.0   -1.7709   90.0561  -11.1814  77145 !IGU-ISL
+77147 1000.0   -1.7709   90.0561  -11.1814  77145 !IGU-ISL
+77148 410.0   90.0    0.0    0.0  77141 !EHT-SNWA Eastern Hoggar terranes (Djanet, Edembo, Aouzegueur, Barghot) - Sahara on NW Africa
+77148 650.0   90.0    0.0    0.0  77141 !EHT-SNWA
+77148 700.0   64.3774  153.5268   -0.9907  77141 !EHT-SNWA
+77148 750.0   67.4048  170.7676   -2.4853  77141 !EHT-SNWA
+77148 1000.0   67.4048  170.7676   -2.4853  77141 !EHT-SNWA
+77149 410.0   90.0    0.0    0.0  77148 !AIT-EHT Assode and Issalane terranes-Eastern Hoggar terranes (Djanet, Edembo, Aouzegueur, Barghot) -
+77149 580.0   90.0    0.0    0.0  77148 !AIT-EHT
+77149 650.0    4.2144  -83.2434   -2.2021  77148 !AIT-EHT
+77149 1000.0    4.2144  -83.2434   -2.2021  77148 !AIT-EHT
+715 410.0    4.0   34.0    1.61  701 !NEA-CAF North East Africa (Sahara Metacraton)-Central Africa
+715 570.0    4.0   34.0    1.61  701 !
+715 600.0    4.0   34.0    1.61  701 !
+715 630.0   37.62   69.22  -14.74  701 !
+715 850.0  -11.6 -145.74   38.45  701 !
+715 850.0   47.35  -10.23  -62.52  206 !
+715 1000.0   47.35  -10.23  -62.52  206 !
+716 410.0   25.21    5.47   -0.89  714 !ILL-NWA Illumemden platelet-Northwest Africa  
+716 600.0   25.21    5.47   -0.89  714 !ILL-NWA 
+718 410.0   90.0    0.0    0.0  706 !TEL-MOR Tellian(Atlas)-Morocco       
+718 600.0   90.0    0.0    0.0  706 !TEL-MOR 
+720 410.0   90.0    0.0    0.0  304 !ALB-IBR Alboran-Iberia  
+720 600.0   90.0    0.0    0.0  304 !ALB-IBR 
+721 410.0   90.0    0.0    0.0  706 !RIF-ORA Rif-Oran Meseta  
+721 600.0   90.0    0.0    0.0  706 !RIF-ORA 
+723 410.0   90.0    0.0    0.0  701 !BNE-AFR Benue-Africa  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+723 600.0   90.0    0.0    0.0  701 !BNE-AFR  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+7250 410.0   28.2911   91.166   80.9106  606 !WBU-LHA West Burma-Lhasa @REF Zahirovic_++_InPrep
+7250 600.0   28.2911   91.166   80.9106  606 !WBU-LHA West Burma-Lhasa @REF Zahirovic_++_InPrep
+726 410.0   13.72   12.01    3.51  715 !BGR-NEA Bongor Microplate-Northeast Africa  
+726 600.0   13.72   12.01    3.51  715 !BGR-NEA   
+735 410.0    6.1764  109.78   70.8589  613 !SEM-SCS   
+735 600.0    6.1764  109.78   70.8589  613 !SEM-SCS   
+736 410.0   34.53   10.52   49.56  780 !EJAV-NPMOL @REF Zahirovic_++_2014 @DOI"10.5194/se-5-227-2014" 
+736 600.0   34.53   10.52   49.56  780 !EJAV-NPMOL @REF Zahirovic_++_2014 @DOI"10.5194/se-5-227-2014" 
+740 410.0   90.0    0.0    0.0  498 !JUN4-JUN1 Junction Plate 4 - Junction Plate 1 
+740 600.0   90.0    0.0    0.0  498 !JUN4-JUN1 
+760  0.0   90.0    0.0    0.0  701 !	Nigeria-Benin
+760 410.0   90.0    0.0    0.0  701 !	
+760 520.0   90.0    0.0    0.0  701 !	
+760 520.0   46.8  -30.6  -55.9  22052 !	
+760 570.0   46.8  -30.6  -55.9  22052 !	
+760 1100.0   46.8  -30.6  -55.9  22052 !	
+762 410.0    9.05  179.53  -59.81  501 !WAL-IND	Wallaby/W.Cuvier-India Craton	Ana_Gibbons_phd_2011         
+762 600.0    9.05  179.53  -59.81  501 !WAL-IND	Ana_Gibbons_phd_2011       
+763 410.0    7.83  178.6  -58.4  501 !ZEN-IND Zenith Plateau-India Craton, Ana_Gibbons_phd_2011       
+763 600.0    7.83  178.6  -58.4  501 !ZEN-IND 
+765 410.0    8.79  178.68  -59.76  501 !WWQ-IND West Wallaby/Quokka Rise-India Craton	Ana_Gibbons_phd_2011       
+765 600.0    8.79  178.68  -59.76  501 !WWQ-IND  
+770 410.0    4.5125  116.0486  101.4041  801 !EAR-AUS Eastern Argoland-Australia Gibbons et al. (2013)  
+770 600.0    4.5125  116.0486  101.4041  801 !EAR-AUS Gibbons et al. (2013) 
+7701 410.0   90.0    0.0    0.0  715 !TUN-AFR Tunisia-Africa Schettino and Turco, 2011      
+7701 600.0   90.0    0.0    0.0  715 !TUN-AFR MH 28012014 Changed to have No motion before 230Ma   
+774 410.0  -52.11    3.53  -14.54  801 !PER-AUS West Perth Block/Gulden Draak and Batavia Knolls-Australia, Ana Gibbons phd 2011  
+774 600.0  -52.11    3.53  -14.54  801 !PER-AUS Ana Gibbons phd 201
+7750 410.0   90.0    0.0    0.0  715 !
+7750 764.0   90.0    0.0    0.0  715 !Butana to SC
+7750 984.0   90.0    0.0    0.0  715 !Butana to SC
+7750 1000.0   90.0    0.0    0.0  715 !Butana to SC
+7752 410.0   90.0    0.0    0.0  715 !
+7752 410.0   90.0    0.0    0.0  7750 !
+7752 520.0   90.0    0.0    0.0  7750 !
+7752 853.0   90.0    0.0    0.0  7750 !
+77521 410.0   90.0    0.0    0.0  715 !Eastern WES
+77521 410.0   90.0    0.0    0.0  7752 !
+77521 750.0   90.0    0.0    0.0  7752 !
+77521 853.0   40.0936  -60.8385    3.4211  7752 !
+775211 410.0   90.0    0.0    0.0  77521 ! Ocean subducting under Eastern WES
+775211 853.0   90.0    0.0    0.0  77521 ! Ocean subducting under Eastern WES
+7753 410.0   90.0    0.0    0.0  715 !SES
+7753 520.0   90.0    0.0    0.0  715 !
+7753 520.0    4.0   34.0    1.61  701 !	 SES to congo
+7753 890.0    4.0   34.0    1.61  701 !	 SES to congo
+77531 410.0   90.0    0.0    0.0  709 !SES (Somalia Plate)
+77531 520.0   90.0    0.0    0.0  709 !SES (Somalia Plate)
+77531 520.0   41.34   45.6221   -1.3173  7753 !SES (Somalia Plate)
+77531 890.0   41.34   45.6221   -1.3173  7753 !SES (Somalia Plate)
+775311 410.0   90.0    0.0    0.0  77531 ! Ocean subducting under Southern WES
+775311 853.0   90.0    0.0    0.0  77531 ! Ocean subducting under Southern WES
+77710  0.0  -17.93  -66.0  117.14  714 !	
+77710 1100.0  -17.93  -66.0  117.14  714 !	
+780 410.0    7.96   45.59  -31.63  698 !NPMOL-SEP North Proto Molucca Isochrons-Sepik  Zahirovic et al. (2014)  
+780 600.0    7.96   45.59  -31.63  698 !NPMOL-SEP  
+786 410.0   90.0    0.0    0.0  498 !JUN3-JUN1 Junction Plate 3 - Junction Plate 1  
+786 600.0   90.0    0.0    0.0  498 !JUN3-JUN1  
+801 410.0   -3.91   37.9  -30.86  802 !AUS-ANT Williams et al. 2011  
+801 410.0   21.0461  114.359  -54.7605  701 !
+801 520.0   21.0461  114.359  -54.7605  701 !
+999 540.0   29.13  122.63  -54.1  701 !
+801 600.0  -82.2  -85.31   40.49  701 !
+801 635.0  -29.9879 -101.4061   41.575  701 !
+999 650.0  -51.45 -109.01   46.48  701 !
+801 700.0   -4.94  -98.03   57.23  701 !
+801 750.0   13.3392 -113.039   81.136  701 !
+801 750.0   28.38  148.83  112.43  101 !
+801 800.0   37.6599  122.1116  124.0534  101 !
+801 930.0   37.6599  122.1116  124.0534  101 !SAC-LAU SWEAT-AUSWUS configuration @REF Mulder et al., 2018
+801 1070.0   49.9701  143.9316  107.5808  101 !SAC-LAU (adjusted) AUSMEX configuration @REF Wingate et al., 2002 @DOI 10.1046/j.1365-3121.2002.00401.x
+801 1140.0   49.9701  143.9316  107.5808  101 !SAC-LAU 
+8011 410.0   90.0    0.0    0.0  801 ! North Australian Craton
+8011 550.0   90.0    0.0    0.0  801 !
+8011 650.0  -20.0  135.0  -40.0  801 !
+8011 1000.0  -20.0  135.0  -40.0  801 !
+8011 1100.0  -20.0  135.0  -40.0  801 !
+8012 410.0   90.0    0.0    0.0  801 !Delamarian Orogen
+8012 1000.0   90.0    0.0    0.0  801 !Delamarian Orogen
+80121 410.0   90.0    0.0    0.0  802 !Ross Orogen
+80121 1000.0   90.0    0.0    0.0  802 !Ross Orogen
+8013 410.0   90.0    0.0    0.0  801 !Tasmania
+8013 490.0   90.0    0.0    0.0  801 !Tasmania
+8013 530.0   61.7012  -59.6986   50.8972  801 !
+8013 580.0  -65.2316  118.515  -86.4345  801 !
+8013 580.0   36.1646  150.8885  121.1846  101 !
+8013 900.0   36.1646  150.8885  121.1846  101 !
+8013 1140.0   36.1646  150.8885  121.1846  101 !TAS-LAU Tasmania-Laurentia @REF Mulder et al., this publication
+8014 410.0   90.0    0.0    0.0  801 !Mossman  orogen
+8014 1000.0   90.0    0.0    0.0  801 !Mossman orogen
+8015 410.0   90.0    0.0    0.0  801 !Thomson orogen
+8015 1000.0   90.0    0.0    0.0  801 !Thomson orogen
+8016 410.0   90.0    0.0    0.0  801 !Lachlan orogen
+8016 1000.0   90.0    0.0    0.0  801 !Lachlan orogen
+802 410.0    7.8  146.0  -56.8  701 !ANT-AFR Gondwana fit Eagles & Knig 2008 
+802 410.0   -3.91   37.9   30.86  801 !
+802 750.0   -3.91   37.9   30.86  801 !
+802 1100.0   -3.91   37.9   30.86  801 !
+8021  0.0   90.0    0.0    0.0  802 !cTAM-MAW
+8021 900.0   90.0    0.0    0.0  802 !cTAM-MAW
+8021 900.0   21.394  115.455  127.38  101 !cTAM-LAU Central Transantarctic Mountains-Laurentia @REF Mulder et al. this publication
+8021 1070.0   21.394  115.455  127.38  101 !cTAM-LAU
+8021 1140.0   21.394  115.455  127.38  101 !cTAM-LAU
+8022 410.0   90.0    0.0    0.0  802 !Central DML?
+8022 410.0   90.0    0.0    0.0  8024 !Central DML?
+8022 630.0   90.0    0.0    0.0  8024 !
+8022 1000.0   90.0    0.0    0.0  8024 !
+8023 410.0   90.0    0.0    0.0  802 !LHM-MAW Lutzow Holm Bay-Mawson
+8023 410.0   90.0    0.0    0.0  8025 !LHM-TST Lutzow Holm Bay-Toast Terrane (SE DML)
+8023 1000.0   90.0    0.0    0.0  8025 !LHM-TST
+8024 410.0   90.0    0.0    0.0  802 !Grunehogna, Dronning Maud Land
+8024 410.0    7.7999  146.0  -56.8002  77030 !Grunehogna, Dronning Maud Land
+8024 520.0    7.7999  146.0  -56.8002  77030 !Grunehogna, Dronning Maud Land
+8024 1100.0    7.7999  146.0  -56.8002  77030 !Grunehogna, Dronning Maud Land
+8025 410.0   90.0    0.0    0.0  802 !TST-MAW Toast Terrane (SE DML)-Mawson
+8025 410.0   90.0    0.0    0.0  8024 !TST-DML Toast Terrane (SE DML)-Dronning Maud Land (Grunehogna)
+8025 550.0   90.0    0.0    0.0  8024 !
+8025 550.0    6.8871  145.865  -56.2939  5032 !TST-MAW Toast Terrane (SE DML) - Mawson
+8025 1000.0    6.8871  145.865  -56.2939  5032 !TST-MAW
+80251 410.0   90.0    0.0    0.0  8025 !
+80251 650.0    2.0591  119.755   -6.0919  8025 !
+80251 700.0   90.0    0.0    0.0  8025 !
+80251 1000.0   90.0    0.0    0.0  8025 !
+8026 410.0   90.0    0.0    0.0  802 !CLB-MAW Coats Land Block-Mawson
+8026 410.0   90.0    0.0    0.0  8022 !CLB-MAW
+8026 560.0   90.0    0.0    0.0  8022 !CLB-MAW
+8026 560.0    7.7999  146.0  -56.8  77030 !CLB-KAL
+8026 600.0   35.267  166.453  -79.0782  77030 !CLB-KAL
+8026 700.0   35.267  166.453  -79.0782  77030 !CLB-KAL
+8026 700.0  -25.9428 -168.1426  114.8851  101 !101 !CLB-LAU
+8026 900.0  -25.9428 -168.1426  114.8851  101 ! CLB-LAU @REF Loewy et al. 2011@DOI 10.1130/G32029.1
+8026 1100.0  -25.9428 -168.1426  114.8851  101 !CLB-LAU 
+8026 1140.0  -25.9428 -168.1426  114.8851  101 !CLB-LAU
+8027 410.0   90.0    0.0    0.0  802 !Sor Rodane
+8027 1000.0   90.0    0.0    0.0  802 !Sor Rodane
+8028 410.0   90.0    0.0    0.0  802 !unknown - south pole terrane etc.
+8028 410.0   90.0    0.0    0.0  802 !unknown
+8028 1000.0   90.0    0.0    0.0  802 !
+8029 410.0   90.0    0.0    0.0  802 !Ross Orogen? 
+8029 1000.0   90.0    0.0    0.0  802 !Ross Orogen? 
+803 410.0   90.0    0.0    0.0  802 !Indo-Antarctica
+803 410.0    3.64 -165.79  -88.28  501 !
+803 520.0    3.64 -165.79  -88.28  501 !
+803 530.0    3.64 -165.79  -88.28  501 !
+803 1100.0    3.64 -165.79  -88.28  501 !
+8030 410.0   90.0    0.0    0.0  802 !West Antarctica
+8030 1000.0   90.0    0.0    0.0  802 !West Antarctica
+8031 410.0   90.0    0.0    0.0  803 !RKR-IAN Ruker - Indo-Antarctica
+8031 900.0   90.0    0.0    0.0  803 !RKR-IAN Ruker - Indo-Antarctica
+8031 1000.0    0.0687  -25.3755   -4.666  803 !RKR-IAN Ruker - Indo-Antarctica
+804 410.0  -78.76  -46.5    7.72  802 !MBL-ANT Marie Byrd Land-East Antarctica  SW 2013  
+804 600.0  -78.76  -46.5    7.72  802 !MBL-ANT   
+806 410.0   90.0    0.0    0.0  868 !NNZ-CLP North New Zealand-Challenger Plateau 
+806 600.0   90.0    0.0    0.0  868 !NNZ-CLP	 
+807 410.0   90.0    0.0    0.0  879 !SNZ-CHA South New Zealand-Chatham Rise  
+807 600.0   90.0    0.0    0.0  879 !SNZ-CHA 
+813 410.0   63.6  -58.1   58.8  804 !CBP-MBL Campbell Plateau-Marie Byrd Land  Eagles et al. 2004  
+813 540.0   63.6  -58.1   58.8  804 !CBP-MBL Eagles et al. 2004  
+833 410.0    3.27  -42.59   18.34  801 !LHR-AUS Lord Howe Rise-Australia  Gaina et al. (1998)
+833 600.0    3.27  -42.59   18.34  801 !LHR-AUS 
+836 410.0    2.89  -43.55   11.42  801 !LP-AUS	Louisiade Plateau-Australia	Gaina et al. 1999
+836 600.0    2.89  -43.55   11.42  801 !LP-AUS
+851 410.0   11.85   34.55  -24.94  802 !WSTR-ANT Western South Tasman Rise-East Antarctica JW&SW 2011 
+851 490.0   11.85   34.55  -24.94  802 !WSTR-ANT 
+851 530.0  -54.2123   47.9308  -49.3886  802 !
+851 580.0  -73.27   64.6537  -95.6755  802 !WSTR-ANT
+851 580.0   35.9218  147.132  118.825  101 !WSTR-LAU Western South Tasman Rise-Laurentia @REF Mulder et al., 2018
+851 900.0   35.9218  147.132  118.825  101 !WSTR-LAU
+851 900.0  -69.7061   90.4162 -124.7971  8026 !WSTR-CLB Western South Tasman Rise-Coats Land Block
+851 1140.0  -69.7061   90.4162 -124.7971  8026 !WSTR-CLB
+852 410.0   -2.67 -142.6   26.53  802 !ESTR-ANT Eastern South Tasman Rise-East Antarctica 
+852 490.0   -2.67 -142.6   26.53  802 !ESTR-ANT
+852 530.0   56.985 -123.3482   56.951  802 !
+852 590.0  -79.0538   94.699 -119.52  802 !ESTR-ANT
+852 590.0  -42.7178  -44.1868 -119.1064  101 !ESTR-LAU Eastern South Tasman Rise-Laurentia
+852 1000.0  -42.7178  -44.1868 -119.1064  101 !ESTR-LAU
+852 1140.0  -42.7178  -44.1868 -119.1064  005 !f01 !ESTR-LAU
+866 410.0   27.2   92.2   -4.14  801 !CS-AUS Chesterfield Plateau-Australia  Gaina et al. 1998 
+866 600.0   27.2   92.2   -4.14  801 !CS-AUS Gaina et al. 1998  
+867 410.0   -2.66   64.32  -27.89  802 !GSM-ANT Gilbert Seamount Complex-Antarctica Gaina et al. 1998 @absage         
+867 600.0   -2.66   64.32  -27.89  802 !GSM-ANT 
+868 410.0   65.04  108.97   -1.39  833 !CLP-LHR Challenger Plateau-Lord Howe Rise	CG	13/8/96  
+868 600.0   65.04  108.97   -1.39  833 !CLP-LHR CG 13/8/96	
+869 410.0   -0.75  134.44  -11.73  801 !NLHR-AUS Northern Lord Howe Rise-Australia  Gaina et al. 1998  
+869 600.0   -0.75  134.44  -11.73  801 !NLHR-AUS Gaina et al. 1998  
+878 410.0   -2.89  136.45  -10.14  801 !PP-AUS Papuan Plateau-Australia  Gaina et al. 1998  
+878 600.0   -2.89  136.45  -10.14  801 !PP-AUS Gaina et al. 1998  
+879 410.0  -47.5  166.0   -6.25  813 !CHA-CBP Chatham Rise-Campbell Plateau  
+879 600.0  -47.5  166.0   -6.25  813 !CHA-CBP  
+883 410.0   -9.43  135.58  -10.36  801 !NDR-AUS North Dampier Ridge-Australia  Gaina et al. 1998 
+883 600.0   -9.43  135.58  -10.36  801 !NDR-AUS Gaina et al. 1998 
+884 410.0   -9.51  135.94  -10.91  801 !M1DR-AUS Middle 1 Dampier Ridge-Australia  Gaina et al. 1998  
+884 600.0   -9.51  135.94  -10.91  801 !M1DR-AUS Gaina et al. 1998 
+885 410.0   -8.38  135.87  -11.48  801 !M2DR-AUS Middle 2 Dampier Ridge-Australia  Gaina et al. 1998  
+885 600.0   -8.38  135.87  -11.48  801 !M2DR-AUS Gaina et al. 1998    
+886 410.0    2.27  131.96  -10.91  801 !SDR-AUS South Dampier Ridge-Australia  Gaina et al. 1998   
+886 600.0    2.27  131.96  -10.91  801 !SDR-AUS Gaina et al. 1998  
+887 410.0   81.73  -40.96   -2.59  801 !ETP-AUS East Tasman Plateau-Australia  Gaina et al. 1998 
+887 600.0   81.73  -40.96   -2.59  801 !ETP-AUS Gaina et al. 1998  
+888 410.0   -6.85  137.27  -12.21  801 !EPP-AUS Eastern Papuan Plateau-Australia  Gaina et al. 1998	   
+888 600.0   -6.85  137.27  -12.21  801 !EP-AUS Gaina et al. 1998 
+889 410.0   50.56    8.59   -1.66  890 !MR-KP Mellish Rise-Kenn Plateau	Gaina et al. 1998 
+889 600.0   50.56    8.59   -1.66  890 !MR-KP Gaina et al. 1998 
+890 410.0   -9.98  134.33   -6.15  801 !KP-AUS Kenn Plateau-Australia  Gaina et al. 1998
+890 600.0   -9.98  134.33   -6.15  801 !KP-AUS Gaina et al. 1998 
+902 410.0    4.1328  -84.9523  221.208  9000 !FAR-PTJ Young et al. (this study)
+999 420.0    4.1328  -84.9523  221.208  9000 !FAR-PTJ Young et al. (this study)
+902 430.0   -3.4898  -79.7061  219.9769  9000 !
+902 450.0    5.9846  -81.741  223.0714  9000 !
+902 470.0   13.7713  -83.2216  222.8612  9000 !	
+902 490.0   22.8753  -81.6681  225.1458  9000 !
+902 520.0   -1.8528  -85.8772  214.5946  9000 !	FAR-PTJ
+907 410.0   81.57    2.13  -20.59  102 !JMNC-EUR @REF Gaina_++_2009 @DOI"10.1144/0016-76492008-112"
+907 500.0   81.57    2.13  -20.59  102 !JMNC-EUR @REF Gaina_++_2009 @DOI"10.1144/0016-76492008-112"
+919 410.0   74.1116   -1.8276  208.2  9000 !PHX-PTJ Young et al. (this study)
+999 420.0   74.1116   -1.8276  208.2  9000 !PHX-PTJ Young et al. (this study)
+919 450.0   68.2135  -10.1829  211.269  9000 !
+919 470.0   61.4782  -12.8716  214.433  9000 !	
+919 490.0   58.7345  -14.5308  215.087  9000 !
+919 520.0   80.8299   11.4726  206.6566  9000 !	PHX-PTJ
+926 410.0  -28.231  -51.2609  226.6916  9000 !IZA-PTJ Young et al. (this study)
+926 450.0  -32.2542  -52.3602  234.5323  9000 !
+926 470.0  -36.6264  -45.4487  248.7893  9000 !
+926 490.0  -41.4327  -42.2519  257.6447  9000 !
+926 520.0  -26.0535  -50.9256  220.6874  9000 !
+950 410.0   90.0    0.0    0.0  813 !WCPB-CPB Western Campbell Plateau-Campbell Plateau       
+950 450.0   90.0    0.0    0.0  813 !WCPB-CPB	@absage
+951 410.0   90.0    0.0    0.0  201 !SAMT1-SAM South America Terrane 1-South America       
+951 450.0   90.0    0.0    0.0  201 !SAMT1-SAM	@absage  
+952 410.0   90.0    0.0    0.0  201 !SAMT2-SAM South America Terrane 2-South America       
+952 450.0   90.0    0.0    0.0  201 !SAMT2-SAM	@absage  
+953 410.0   90.0    0.0    0.0  201 !SAMT3-SAM South America Terrane 3-South America        
+953 450.0   90.0    0.0    0.0  201 !SAMT3-SAM	@absage 
+954 410.0   90.0    0.0    0.0  201 !SAMT4-SAM South America Terrane 4-South America      
+954 450.0   90.0    0.0    0.0  201 !SAMT4-SAM	@absage 
+955 410.0   90.0    0.0    0.0  201 !SAMT5-SAM South America Terrane 5-South America     
+955 450.0   90.0    0.0    0.0  201 !SAMT5-SAM	@absage 
+6002 410.0   18.88  126.75  -89.49  701 !LGT-AFR  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+6002 420.0   18.88  126.75  -89.49  701 !LGT-AFR  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+6004 410.0    1.8   67.65    0.32  9012 !TPT1-TKN  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002" POLE_RECALCULATED-@REF Matthews_et_al_2016 @DOI"10.1016/j.gloplacha.2016.10.002"  
+6004 420.0    1.8   67.65    0.32  9012 !TPT1-TKN  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002" POLE_RECALCULATED-@REF Matthews_et_al_2016 @DOI"10.1016/j.gloplacha.2016.10.002"  
+6005 410.0   70.12   37.65   78.21  601 !TPT2-NCH  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002" POLE_RECALCULATED-@REF Matthews_et_al_2016 @DOI"10.1016/j.gloplacha.2016.10.002" 
+6005 420.0   70.12   37.65   78.21  601 !TPT2-NCH  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+6006 410.0  -13.91   54.45  -81.43  401 !AKT-SIB @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002" POLE_RECALCULATED-@REF Matthews_et_al_2016 @DOI"10.1016/j.gloplacha.2016.10.002"  
+6006 420.0  -14.61   54.78  -81.14  401 !AKT-SIB @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002" POLE_RECALCULATED-@REF Matthews_et_al_2016 @DOI"10.1016/j.gloplacha.2016.10.002"  
+6007 410.0    7.46  121.75  -86.25  604 !GAT-ICH  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+6007 420.0    7.46  121.75  -86.25  604 !GAT-ICH  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+6008 410.0   66.02  155.59  -17.23  602 !SCAT-SCH  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002" POLE_RECALCULATED-@REF Matthews_et_al_2016 @DOI"10.1016/j.gloplacha.2016.10.002"  
+6008 420.0   66.02  155.59  -17.23  602 !SCAT-SCH  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002" POLE_RECALCULATED-@REF Matthews_et_al_2016 @DOI"10.1016/j.gloplacha.2016.10.002"  
+6009 410.0  -28.44  103.51  -51.89  604 !NCAT-ICH @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002" POLE_RECALCULATED-@REF Matthews_et_al_2016 @DOI"10.1016/j.gloplacha.2016.10.002"  
+6009 420.0  -28.44  103.51  -51.89  604 !NCAT-ICH  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"
+6010 410.0   21.13  177.98   93.81  101 !LST-NAM @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"  POLE_RECALCULATED-@REF Matthews_et_al_2016 @DOI"10.1016/j.gloplacha.2016.10.002"  
+6010 420.0   21.13  177.98   93.81  101 !LST-NAM  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002" POLE_RECALCULATED-@REF Matthews_et_al_2016 @DOI"10.1016/j.gloplacha.2016.10.002"  
+6012 410.0   19.54  -53.66   67.78  701 !KPT-AFR  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002" POLE_RECALCULATED-@REF Matthews_et_al_2016 @DOI"10.1016/j.gloplacha.2016.10.002" 
+6012 420.0   19.54  -53.66   67.78  701 !KPT-AFR  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002" POLE_RECALCULATED-@REF Matthews_et_al_2016 @DOI"10.1016/j.gloplacha.2016.10.002" 
+9000 410.0   -5.84   78.81  -63.36  003 !PTJ
+9000 450.0    9.3209   64.2144  -42.4361  003 !
+999 470.0   -5.0628   72.9916  -38.7148  003 !
+999 480.0   -4.296   63.3603  -42.2832  003 !
+9000 490.0  -11.4644   62.5773  -38.5696  003 !
+9000 520.0  -39.1113   76.4128  -35.2648  003 !
+9006 410.0    6.0274 -173.4453  -33.3582  701 !PT-AFR Young et al. (submitted)									
+9006 420.0   10.8774 -172.1308  -36.0887  701 !PT-AFR Young et al. (submitted)
+9006 1000.0   10.8774 -172.1308  -36.0887  701 !PT-AFR Young et al. (submitted)
+9800 850.0    7.21  -74.26  -19.16  701 !
+9800 1000.0  -27.25   21.95   31.62  701 !
+9801 850.0   -1.0   -8.54   54.64  302 !
+9801 1000.0  -25.69  -21.92   32.45  302 !
+9804 700.0  -40.32   31.59   39.24  003 !Southern Mirovoi Ocean (subducting under Baltica-SF-Iskel)
+9804 780.0  -28.62   28.93   37.32  003 !
+9804 800.0  -64.331  159.2077  134.9908  003 !
+9804 850.0  -61.0262  173.7618  146.815  003 !
+9804 900.0   60.8121   -3.9323 -159.3487  003 !
+9804 950.0   60.0215   -6.7965 -172.4504  003 !
+9804 1000.0   46.3722    1.2881 -172.7674  003 !
+98041 600.0   71.2683 -116.2547  -57.8261  003 ! Central Mirovoi Ocean (subducting under Siberia)
+98041 720.0   62.3853  141.0679  -64.3191  003 !
+98041 750.0   71.2683 -116.2547  -57.8261  003 ! Central Mirovoi Ocean (subducting under Siberia)
+98041 850.0   83.2631 -108.6017  -48.226  003 !
+98041 900.0   85.2726 -105.8728  -31.7339  003 ! Central Mirovoi Ocean (subducting under Siberia)
+98041 950.0   78.4758 -120.7514  -14.6045  003 ! Central Mirovoi Ocean (subducting under Siberia)
+98041 1000.0   18.8446   66.5852    9.1439  003 ! Central Mirovoi Ocean (subducting under Siberia)
+98042 800.0   25.2792   47.129 -107.1514  003 !Northern Mirovoi Ocean (subducting under India)
+98042 870.0   21.9482   41.215 -103.6482  003 !
+98042 930.0   37.471   47.4887  -89.9199  003 !
+98042 930.0   22.2087  -78.8964   11.6587  003 !
+98042 950.0   15.0187  -80.554    7.9301  003 !
+98042 1000.0   90.0    0.0    0.0  003 ! Northern Mirovoi Ocean (subducting under Australia)
+98043 500.0   90.0    0.0    0.0  003 !Oceanic plate subducting under Cadomia-Avalonia-Hoggar
+98043 550.0   75.1748  -75.5848   73.023  003 !
+98043 585.0   57.478  -60.7649   65.3334  003 !
+98043 600.0   48.7743  -58.0084   63.9153  003 !
+98043 660.0   72.4571 -114.2208   10.9328  003 !
+98043 720.0   90.0    0.0    0.0  003 !Oceanic plate subducting under Cadomia-Avalonia-Hoggar
+98043 1000.0   90.0    0.0    0.0  003 !Oceanic plate subducting under Cadomia-Avalonia-Hoggar
+98044 490.0   62.6437  136.5222   52.4157  003 !
+98044 520.0   47.7277 -178.793   60.0984  003 !
+98044 550.0   41.2985  165.308   62.411  003 !
+98044 550.0   41.0595  164.8568   62.5316  003 !
+98044 570.0   39.6241  156.5676   53.6726  003 !
+98044 585.0   41.7582 -170.523   33.7894  003 !
+98044 600.0   45.64 -173.9151   30.537  003 !
+98044 700.0   24.1277 -134.3715   12.0236  003 !
+98044 720.0   90.0    0.0    0.0  003 !
+980441 490.0   62.6437  136.5222   52.4157  003 !plate 98044 at 520 Ma splits in half, change ID to reduce net rotation
+980441 520.0   47.7277 -178.793   60.0984  003 !plate 98044 at 520 Ma splits in half, change ID to reduce net rotation
+98045 800.0   19.7762   41.4181   17.8467  003 !
+98045 850.0   90.0    0.0    0.0  003 !
+9805 780.0   58.84  114.34   23.89  715 !
+9805 870.0   59.53  112.55   18.81  715 !
+9805 930.0   90.0    0.0    0.0  715 !
+9806  0.0   90.0    0.0    0.0  501 !
+9806 780.0  -10.3  -87.44   13.73  501 !
+9806 870.0  -12.57  -85.35   12.87  501 !
+9806 930.0   90.0    0.0    0.0  501 !
+9807  0.0   90.0    0.0    0.0  101 !Mawson Sea
+9807 870.0   51.15   88.09   18.76  101 !
+9807 930.0   90.0    0.0    0.0  101 !
+9808 590.0   22.47  140.63   41.78  715 !
+9808 630.0   19.79  141.55   31.53  715 !
+9808 700.0   19.79  141.55   31.53  715 !
+9808 750.0   90.0    0.0    0.0  715 !SM Ocean
+9809  0.0   90.0    0.0    0.0  501 !India-Siberia Ocean
+9809 600.0   14.37  179.08  -56.32  501 !
+9809 650.1    4.61 -162.07  -33.34  501 !
+9809 700.0   90.0    0.0    0.0  501 !India-Siberia Ocean
+9015 410.0   46.28   73.49  -66.99  101 !SMO-NAM  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"   POLE_RECALCULATED-@REF Matthews_et_al_2016 @DOI"10.1016/j.gloplacha.2016.10.002"  
+9015 420.0   46.28   73.49  -66.99  101 !SMO-NAM  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"   POLE_RECALCULATED-@REF Matthews_et_al_2016 @DOI"10.1016/j.gloplacha.2016.10.002"  
+9016 410.0  -36.16  -31.78   58.03  602 !PAPS-SCH  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"   POLE_RECALCULATED-@REF Matthews_et_al_2016 @DOI"10.1016/j.gloplacha.2016.10.002"
+9016 420.0  -36.16  -31.78   58.03  602 !PAPS-SCH  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"   POLE_RECALCULATED-@REF Matthews_et_al_2016 @DOI"10.1016/j.gloplacha.2016.10.002"
+9017 410.0   11.96 -163.7   85.2  101 !POO-NAM  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"  POLE_RECALCULATED-@REF Matthews_et_al_2016 @DOI"10.1016/j.gloplacha.2016.10.002"
+9017 420.0   11.96 -163.7   85.2  101 !POO-NAM  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"  POLE_RECALCULATED-@REF Matthews_et_al_2016 @DOI"10.1016/j.gloplacha.2016.10.002"
+9019  0.0   90.0    0.0    0.0  005 !NORTH RHEIC
+9019 400.0   90.0    0.0    0.0  005 !From Domeier, 2016
+9019 410.0  -17.19   21.31  -35.35  005 !"
+9019 420.0  -11.35   19.9  -28.14  005 !"
+9019 430.0   -2.22   10.75  -14.97  005 !"
+9019 435.0    1.57   13.21   -8.0  005 !"
+9019 440.0   31.71   65.82   -1.42  005 !"
+9019 450.0   28.69  157.1   -7.19  005 !"
+9019 500.0   90.0    0.0    0.0  005 !"
+9020 410.0   67.59   -5.1   25.52  005 !South Rheic_Domeier 2015
+9020 420.0   42.78  -83.11    0.28  005 !Domeier 2015
+9020 450.0   90.0    0.0    0.0  005 !Domeier 2015
+9021 410.0   90.0    0.0    0.0  005 !western Iapetus_Domeier 2015
+9021 450.0  -53.69   -7.17  111.2  005 !Domeier 2015
+9021 460.0  -49.43    1.15  112.68  005 !Domeier 2015
+9021 470.0  -44.94    9.13  112.3  005 !Domeier 2015
+9021 480.0  -42.57   12.54  114.7  005 !Domeier 2015
+9021 490.0  -40.23   12.2  122.61  005 !Domeier 2015
+9021 500.0  -36.11   18.33  123.34  005 !Domeier 2015
+9021 510.0  -35.47   16.18  134.4  005 !Domeier 2015
+902001 410.0   13.78  -49.81   56.95  701 !GBS-AFR  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"  POLE_RECALCULATED-@REF Matthews_et_al_2016 @DOI"10.1016/j.gloplacha.2016.10.002"  
+902001 420.0   13.78  -49.81   56.95  701 !GBS-AFR  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"  POLE_RECALCULATED-@REF Matthews_et_al_2016 @DOI"10.1016/j.gloplacha.2016.10.002"  
+902003 410.0   40.23   20.43  -99.96  401 !	"MAG-SIB   @REF Domeier_Torsvik_2014 @DOI""10.1016/j.gsf.2014.01.002""  POLE_RECALCULATED-Matthews et al. (this study) "
+902003 415.0   40.71   19.74  -99.96  401 !MAG-SIB   @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"  POLE_RECALCULATED-@REF Matthews_et_al_2016 @DOI"10.1016/j.gloplacha.2016.10.002" 
+902003 420.0   17.59   38.6 -106.23  401 !MAG-SIB    @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"  POLE_RECALCULATED-@REF Matthews_et_al_2016 @DOI"10.1016/j.gloplacha.2016.10.002" 
+902005 410.0   26.0787   69.1306  -36.0498  005 !
+902005 420.0  -58.01   47.56  -24.35  005 !Intra-Paleotethys subduction zone	
+902014 410.0   -9.35  -75.8   64.12  701 !"GAC-AFR   @REF Domeier_Torsvik_2014 @DOI""10.1016/j.gsf.2014.01.002""    POLE_RECALCULATED-Matthews et al. (this study)  "
+902007 410.0   63.3    5.41    0.1  9007 !IPTH2-PTW  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"    POLE_RECALCULATED-@REF Matthews_et_al_2016 @DOI"10.1016/j.gloplacha.2016.10.002"  
+902007 420.0   63.3    5.41    0.1  9007 !IPTH2-PTW  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"    POLE_RECALCULATED-@REF Matthews_et_al_2016 @DOI"10.1016/j.gloplacha.2016.10.002"  
+902009 410.0   90.0    0.0    0.0  60301 !NAN-SKM
+902009 420.0   90.0    0.0    0.0  60301 !NAN-SKM
+902010 410.0  -30.6   61.18   27.09  9014 !PASZ-PAP  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"  POLE_RECALCULATED-@REF Matthews_et_al_2016 @DOI"10.1016/j.gloplacha.2016.10.002" 
+902010 420.0  -30.61   61.18   27.09  9014 !PASZ-PAP  @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"  POLE_RECALCULATED-@REF Matthews_et_al_2016 @DOI"10.1016/j.gloplacha.2016.10.002" 
+902013 410.0   43.2171   81.6538   81.6713  601 !BAB-NCH
+902013 420.0   43.24   81.51   81.74  601 !BAB-NCH
+902014 410.0   -9.35  -75.8   64.12  701 !GAC-AFR   @REF Domeier_Torsvik_2014 @DOI"10.1016/j.gsf.2014.01.002"    POLE_RECALCULATED-@REF Matthews_et_al_2016 @DOI"10.1016/j.gloplacha.2016.10.002"  
+902014 420.0   -9.35  -75.8   64.12  701 !	"GAC-AFR	@REF Domeier_Torsvik_2014 @DOI""10.1016/j.gsf.2014.01.002""  POLE_RECALCULATED-Matthews et al. (this study)  "
+999 410.0   40.23   20.43  -99.96  401 !	"MAG-SIB   @REF Domeier_Torsvik_2014 @DOI""10.1016/j.gsf.2014.01.002""  POLE_RECALCULATED-Matthews et al. (this study) "
+999 415.0   40.23   20.43  -99.96  401 !	"MAG-SIB   @REF Domeier_Torsvik_2014 @DOI""10.1016/j.gsf.2014.01.002""  POLE_RECALCULATED-Matthews et al. (this study) "
+999 450.0   40.23   20.43  -99.96  401 !	"MAG-SIB   @REF Domeier_Torsvik_2014 @DOI""10.1016/j.gsf.2014.01.002""  POLE_RECALCULATED-Matthews et al. (this study) Domeier_Torsvik_2014 @DOI""10.1016/j.gsf.2014.01.002""    POLE_RECALCULATED-Matthews et al. (this study)  "
+1001 410.0   38.21   26.44 -175.51  401 !PKT1-SIB Y18-- ajy implement
+1001 1000.0   38.21   26.44 -175.51  401 !PKT1-SIB Y18-- ajy implement
+9012 410.0   69.4209  -18.6745  -42.0071  1001 !CTO-KAZ Y18-- ajy implement
+9012 1000.0   69.4209  -18.6745  -42.0071  1001 !CTO-KAZ Y18-- ajy implement
+9013 410.0   56.564   53.7504  -81.2345  430 !PAO1-AMU  Young et al. (this study)
+9013 1000.0   56.564   53.7504  -81.2345  430 !PAO1-AMU  Young et al. (this study)
+9014 410.0   90.0    0.0    0.0  9013 !PAO2-PAO1 Young et al. (this study)
+9014 1000.0   90.0    0.0    0.0  9013 !PAO2-PAO1 Young et al. (this study)

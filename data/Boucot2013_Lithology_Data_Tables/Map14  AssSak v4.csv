@@ -1,0 +1,514 @@
+LithologyCode,LithNumber,OldIDNumber,,LAT,NS,LONG,EW,Continent,Country,,GeogComments,LMU,Period,Stage,AgeComments,Lithology,Formation,LithComments,PrimaryReference,SeeAlso
+E,1,E2219.1,,26,N,11,E,Africa,Libya,,western Libya,Lower,Permian,Asselian,,Evaporites,Tiguentourine,,Hallett(2002),
+E,2,E2219,,38.1,N,85.5,E,Asia,China,,Xinjiang:Chemo,L - U?,Permian,,,Evaporites,Yesonggang,,"Zhang,Wu(1991)",
+E,3,E2220,,42.7,N,88.6,E,Asia,China,,"Xinjiang:Tokexun,Xinjiang",Lower,Permian,,,Evaporites,Yesonggang,,"Zhang,Wu(1991)",
+E,4,E2221,,41.2,N,79.2,E,Asia,China,,"Xinjiang:Wushi,Xinjiang",Lower,Permian,,,Evaporites,Nikelachi,,"Zhang,Wu(1991)",
+E,5,E2222,,39.7,N,76.1,E,Asia,China,,"Xinjiang:Atushi,Xinjiang",Lower,Permian,,,Evaporites,Wutankule,,"Zhang,Wu(1991)",
+E,6,E2222.1,,17.5,N,101.75,R,,,,,,,,,,,,,
+E,7,E2223,,-29,S,134,E,Australia,,,S. Australia:Arckaringa Basin,Lower,Permian,,,Evaporites,Stuart Range,,Wells(1980),
+E,8,E2224,,-14,S,124,E,Australia,,,W.Australia:Browse Basin,Lower,Permian,Sakmarian,,Evaporites,,,Wells(1980),
+E,9,E2225,,77,N,67,E,Europe,C. I. S.(frm USSR),,"northeastern North Island,Novaya Zemlya",Lower,Permian,Asselian,,Evaporites,,,Mork(oral comm.(1993),see also Bugge et al.(1995)
+E,10,E2226,,65,N,45,E,Europe,C. I. S.(frm USSR),,East European Platform,Lower?,Permian,,,Evaporites,,,"Zharkov(1984, Fig. 97) ",
+E,11,E2227,,50,N,35,E,Europe,C. I. S.(frm USSR),,East European Platform,Lower?,Permian,,,Evaporites,,,"Zharkov(1984, Fig. 97) ",
+E,12,E2228,,48,N,50,E,Europe,C. I. S.(frm USSR),,East European Platform,Lower?,Permian,,,Evaporites,,,"Zharkov(1984, Fig. 97) ",
+E,13,E2228.1,,51,N,15,E,Europe,Czech Republic,,"Vlcice area, in the Krkonose-piedmont Basin",Lower,Permian,,,Evaporites,,,Prouza et al.(1977),
+E,14,E2229,,49,N,12.5,E,Europe,Germany,, Stockheim Trough,L - U?,Permian,,,Evaporites,Rotliegendes,,"Dill,Botz(1987)",
+E,15,E2230,,47,N,12,E,Europe,Italy,,,Lower,Permian,Asselian-Sakmarian,,Evaporites,,,"Zharkov(1981,pp. 68-69;1984) ",
+E,16,E2231,,72,N,25,E,Europe,Norway,,Nordkapp Basin,Lower,Permian,Sakmarian,"Stemmerik(written comm.,1990)sugg that evaporitic dep in the Nordkapp B. stopped in the Sakmarian",Evaporites,,based on seismic evidence,"Ziegler(1989, Fig. 3)",
+E,17,E2232,,71,N,30,E,Europe,Norway,,Finnmark Platform,Lower,Permian,Asselian,Gzhelian-Asselian,Evaporites,,,Bugge et al.(1995),
+E,18,E2233,,78,N,15,E,Europe,Svalbard,,western Svalbard,Lower,Permian,Asselian and Artinskian,,Evaporites,,,"Ziegler(1988, PL. 22)","see also Steel,Worsley(1984)"
+E,19,E2233.1,,54,N,2,E,United Kingdom,England,,southern North Sea,Lower,Permian,,,Evaporites,Silverpit,,Cameron et al.(1992),
+E,20,E2233.2,,57.8,N,-0.5,W,United Kingdom,Scotland,,Moray Firth region,L - U?,Permian,,,Evaporites,,,Andrews et al.(1990),
+E,21,E2234,,80,N,-80,W,N.America,Canada,,Arctic:central Ellesmereland,Lower,Permian,,,Evaporites,Mt. Bayley,,Davies(1973),see also Wallace et al.(1994)
+E,22,E2235,,35,N,-110,W,N.America,United States,,Arizona:Holbrook Basin,L - U?,Permian,,,Evaporites,upper Supai,,"Peirce,Gerrard(1966)",
+E,23,E2236,,41,N,-104,W,N.America,United States,,Colorado:U.S. part of the Williston Basin and of Alliance Basin,L - U?,Permian,,,Evaporites,,,Maugham(1966),see also Johnson et al.(1989)
+E,24,E2236.1,,45,N,-114,W,N.America,United States,,Idaho:east-central Idaho,L - U?,Permian,,,Evaporites,Juniper Gulch Member-Snaky Canyon,,Rankey(1977),
+E,25,E2237,,38,N,-97,W,N.America,United States,,Kansas,L - U?,Permian,,,Evaporites,Barneston Limestone,evaporitic material,Miller(1996),
+E,26,E2238,,42,N,-104,W,N.America,United States,,Nebraska:western Nebraska,L - U?,Permian,,,Evaporites,Minnelusa,,Maugham(1966),
+E,27,E2239,,41,N,-114,W,N.America,United States,,"Nevada and Utah:S Nevada,(NE Nev. in White Pines,Elko Counties);adj pts of Millard,Juab,Toole Counties,Ut.",Lower,Permian,Sakmarian-Artinskian,"Wolfcamp and earlier Leon.- Spinosa(oral comm.(1995)-Pequop yld conodonts of Wolfcamp,earlier Leonardian age, frm beneath the younger Loray",Evaporites,"Toroweap,Kaibab(Pequop,Loray)",,Johnson et al.(1989),
+E,28,E2240,,36.25,N,-114.6,W,N.America,United States,,Nevada and Utah:Clark County,L - U?,Permian,,,Evaporites,Kailbab Limestone,,Bohannon(1983),
+E,29,E2240.1,,30.5,N,-114.5,W,N.America,United States,,Nevada and Utah,L - U?,Permian,,,Evaporites,Kailbab Limestone,,Longwell(1928),
+E,30,E2241,,48,N,-104,W,N.America,United States,,Nort Dakota:U.S. side of the Williston Basin,L - U?,Permian,,,Evaporites,,,"Anderson,Hansen(1957)",
+E,31,E2242,,33.5,N,-98,W,N.America,United States,,Texas:north-central Texas,L - U?,Permian,,,Evaporites,"Clear Fork Group-Vale,Choza Fms",,Olson(1958),
+E,32,E2243,,-16,S,-69,W,S.America,Bolivia,,Bolivia,Lower,Permian,Sakmarian-Artinskian,upper pt of the Wolfcampian-Leonardian,Evaporites,Copacabana Group,,"Lohmann(1970),Helwig(1972)",
+E,33,E2244,,-3,S,-58,W,S.America,Brazil,,Amazon Basin,Lower,Permian,,,Evaporites,,,Szatmari et al.(1979),
+E,34,E2245,,-3,S,-60,W,S.America,Brazil,,middle and upper Amazon Basins,Lower,Permian,Asselian-Sakmarian?,Upper Pennsylvanian-earlier Permian,Evaporites,Nova Olinda,see also Szatmari et al.(1979)contians much evaporitic material,"Benavides(1968, p. 255-259)","see also Petri,Fulfaro(1983, p. 104-107)"
+E,35,E2246,,-5,S,-45,W,S.America,Brazil,Brazil,Paranaiba Basin,L - U?,Permian,,,Evaporites,"Piaui,Motuca",,"Petri,Fulfaro(1983, p. 104-107);Schobbenhaus et al.(1984);Goes,Feijo(1994) cite Pedra de Fogo Fm of Eopermian age",
+E,36,E2775.1,,-2,S,-43,W,S.America,Brazil,,Barreirinhas Basin,Lower,Permian,,,Evaporites,Pedra de Fogo,,Feijo(1994b),
+E,37,E2247,,8,N,-71,W,S.America,Venezuela,,,Lower,Permian,Asselian-Sakmarian?,Middle Pennsylvanian-Early Permian,Evaporites,Palmarito,,"Benavides(1968, p. 258)",
+CA,38,CA2248,,33,N,-3,W,Africa,Morocco,,Khenifra area,L - U?,Permian,,probable earlier Autunain,Calcretes,,,Lorenz(1988),
+CA,39,CA2248.1,,46.5,N,13,E,Europe,Austria/Italy,,,Lower,Permian,Asselian,,Calcretes,Grenzland,,"Vachard,Kramer(2001)",
+CA,40,CA2249,,50,N,14,E,Europe,Czech Republic,,central Bohemia,Lower,Permian,,"possible Autunian(1993)as well as Saxonian,Thuringian age beds are involved without question",Calcretes,,,Skocek(1974),
+CA,41,CA2250,,49,N,12.5,E,Europe,Germany,, Stockheim Trough,Lower,Permian,Asselian,Rotliegendes,Calcretes,,,"Dill,Botz(1987)",
+CA,42,CA2251,,51,N,13,E,Europe,Germany,,,Lower,Permian,Asselian,Rotliegend Hartendolf,Calcretes, Hartendolf,,"Schneider,Rossler(1995,1996)",
+CA,43,CA2252,,49.5,N,7,E,Europe,Germany,,Saar Nahe Basin,L - U?,Permian,,,Calcretes,Standenbuhl,,"Rossler(written comm.,1996)",
+CA,44,CA2253,,51,N,12,E,Europe,Germany,,Saale Basin,L - U?,Permian,,,Calcretes,"Goldauter,Oberhof,Tambach",,"Rossler(written comm.,1996)",
+CA,45,CA2254,,51.3,N,8.3,E,Europe,Germany,,Ruhr,Lower,Permian,,upper Rotliegend,Calcretes,,,"Rossler(written comm.,1996)",
+CA,46,CA2255,,52,N,5,E,Europe,Germany,,De Lutte and Norddeutschland?,Lower,Permian,,Lower Rotliegend,Calcretes,,De Lutte 6 and Norddeutschland 8 wells,Rossler(1995),
+CA,47,CA2256,,60,N,11,E,Europe,Norway,,,Lower,Permian,,,Calcretes,Brumund Sandstone,with its calcretes,Olaussen et al.(1994),
+CA,48,CA2257,,43,N,0,,Europe,Spain,,Pyrenees,Lower,Permian,,Autunian,Calcretes,Unidad Roja Inferior,"""although you can find some calcrete horizonsin the Unidad Roja Inferior, they are poorly developed""","Blas L. Valero Garces(written comm.,1992)",
+CA,49,CA2258,,38.5,N,-5,W,Europe,Spain,,Sierra Morena,Lower,Permian,,Autunian,Calcretes,,,Aassoumi et al.(1992),
+CA,50,CA2258.1,,46.25,N,-63,W,N.America,Canada,,Prince Edward Island,L - U?,Permian,"Asselian,Sakmarian,Artinskian",possibly Early Permian or ?Artinskian,Calcretes,Orby Head,may include calcrete type root traces,"Van de Poll(1989, p.33)",
+CA,51,CA2259,,39,N,-63,W,N.America,United States,,Kansas:Manhattan area,Lower,Permian,"Asselian,Sakmarian",Wolfcampian,Calcretes,,,Miller et al.(1996),"see also McCahon,Miller(1997) for a natric horizon"
+CA,52,CA2260,,41,N,-97,W,N.America,United States,,Nebraska:southeastern Nebraska,Lower,Permian,,Early Permian,Calcretes,,,Joeckel(1991a),
+CA,53,CA2261,,33,N,-107,W,N.America,United States,,New Mexico:south-central New Mexico,Lower,Permian,,Early Permian,Calcretes,Abo,,Mack et al.(1991),
+CA,54,CA2262,,36,N,-107,W,N.America,United States,,New Mexico:north-central New Mexico,L - U?,Permian,,,Calcretes,Cutler,,"Eberth,Miall(1991)",
+CA,55,CA2263,,34,N,-100,W,N.America,United States,,Texas:north-central Texas,L - U?,Permian,,,Calcretes,,,Chaney et al.(1994),
+CA,56,CA2264,,34,N,-98.5,W,N.America,United States,,Texas,Lower,Permian,"Asselian,Sakmarian",Wolfcampian,Calcretes,"Archer City,Nocona",,Hentz(1988),
+CA,57,CA2264.1,,33.6,N,-99,W,N.America,United States,,Texas,Lower,Permian,"Artinskian,Kungurian",Leonardian,Calcretes,Petrolia,,Hotton et al.(2002),
+CA,58,CA2265,,38,N,-110,W,N.America,United States,,Utah:southeastern Utah,Lower,Permian,"Asselian,Sakmarian",Wolfcampian,Calcretes,Rico,,Loope(1988),
+CA,59,CA2266,,38,N,-81.5,W,N.America,United States,,West Virginia,L - U?,Permian,,,Calcretes,southern part of the Dunkard Series,,Ghosh(1987),
+CA,60,CA2267,,-16,S,-69,W,S.America,Bolivia,,northwestern Bolivia,Lower,Permian,"Asselian,Sakmarian",,Calcretes,Copacabana ,,Isaacson et al.(1993),
+T,61,T2268,,-9,S,18,E,Africa,Angola,,northern Angola,Lower,Permian,,"although unfossiliferous, is possibly of Early Permian age",Tillites,Lutoe Series,,"Rocha-Campos,Dos Santos(in Hambrey and Harland,1981, pp.48-51)",
+T,62,T2269,,-9,S,21,E,Africa,Angola,,northern Angola,Lower,Permian,,"although unfossiliferous, is possibly of Early Permian age",Tillites,Lutoe Series,,"Rocha-Campos,Dos Santos(in Hambrey and Harland,1981, pp.48-51)",
+T,63,T2283,,-5,S,27,E,Africa,Dem Rep of Congo(frm Zaire),,Congo Basin,Lower,Permian,,Early Permian,Tillites,Lukuga Tillite,,"Cahen,Lepersonne(in Hambery and Harland,1981, pp. 43-47)",
+T,64,T2270,,23,N,26,E,Africa,Egypt,,southern Egypt,Lower,Permian,,probable latest Carboniferous to Early Permian age,Tillites,Northern Wadi Malik,diamictites and other glacial rocks,"Klitzch,Wycisk(1987)",
+T,65,T2271,,0,,10,E,Africa,Gabon,,,Lower,Permian,,dated as E. Permian because of similarly dated overlying beds that yield datable spores,Tillites,N'akhom Series of the Karoo System,,"Hambrey(in Hambrey and Harland,1981 pp. 41-42)",
+T,66,T2272,,-23,S,43.75,E,Africa,Madagascar,,,Lower,Permian,,Early Permian date is obtained by lithic correlations to the African mainland,Tillites,Serie glaciere of the Sakoa Group,,"Frakes(in Hambrey and Harland,1981, pp. 61-66)","see also Westscott,Diggens(1998)"
+T,67,T2273,,-15,S,32,E,Africa,Mozambique,,,L - U?,Permian,,,Tillites,Serie Tillitica,,"Rocha-Campos(in Hambrey and Harland,1981, pp.52-54)",see also Vasconcelos and dos Santos(1989)
+T,68,T2274,,-24,S,23,E,Africa,Namibia,,South Kalahari Basin,Lower,Permian,,Early Permian date is obtained by means of fossils,Tillites,,somes striated pavement is present,"Martin(in Hambrey and Harland,1981, pp.61-66)",
+T,69,T2275,,-17,S,13,E,Africa,Namibia,,north of South Kalahari Basin,Lower,Permian,,"correlative,unfossiliferous tillites",Tillites,,,"Martin(in Hambrey and Harland,1981, pp.61-66)",
+T,70,T2276,,-28,S,18,E,Africa,Namibia,,Karasburg Basin,L - U?,Permian,,,Tillites,,,"Martin(in Hambrey and Harland,1981, pp.67-70)",
+T,71,T2277,,-21,S,14,E,Africa,Namibia,,Huab Basin,L - U?,Permian,,,Tillites,Dwyka equivalent,,Horsthemke et al.(1990),
+T,72,T2278,,-33,S,20,E,Africa,South Africa,,Karoo Basin,L - U?,Permian,,,Tillites,Dwyka Tillites,"widespread,complete with glaciated pavements ","Brunn,Stratten(in Hambrey and Harland,1981, pp.71-79)",
+T,73,T2279,,-30,S,19,E,Africa,South Africa,,Karoo Basin,L - U?,Permian,,,Tillites,Dwyka Tillites,"widespread,complete with glaciated pavements ","Brunn,Stratten(in Hambrey and Harland,1981, pp.71-79)",
+T,74,T2280,,-33,S,27,E,Africa,South Africa,,Karoo Basin,L - U?,Permian,,,Tillites,Dwyka Tillites,"widespread,complete with glaciated pavements ","Brunn,Stratten(in Hambrey and Harland,1981, pp.71-79)",
+T,75,T2281,,-27,S,32,E,Africa,South Africa,,Karoo Basin,L - U?,Permian,,,Tillites,Dwyka Tillites,"widespread,complete with glaciated pavements ","Brunn,Stratten(in Hambrey and Harland,1981, pp.71-79)",
+T,76,T2282,,-26,S,30,E,Africa,South Africa,,Karoo Basin,L - U?,Permian,,,Tillites,Dwyka Tillites,"widespread,complete with glaciated pavements ","Brunn,Stratten(in Hambrey and Harland,1981, pp.71-79)",
+T,77,T2282.1,,18,N,26,E,Africa,Sudan,,northwestern Sudan,Lower?,Permian,,"discuss as L Carboniferous, but possibly E Permian in view of the regional picture",Tillites,Northern Wadi Malik,diamictites ,"Klitzch,Wycisk(1987,1989)",
+T,78,T2282.2,,-11,S,38,E,Africa,Tanzania,,Ruhuhu Basin,L - U?,Permian,,,Tillites,Idusi,basal tillites,"Wopfner,Casshyap(1997)","see also Kreuser,Markwort(1989)"
+T,79,T2284,,-19,S,27,E,Africa,Zimbabwe & nearby Zambia,,,Lower,Permian,,dates as close to the Permo-Carboniferous boundary based on fossils from the overlying varvites,Tillites,Dwyka Series,,"Bond(in Hambrey and Harland,1981, pp.55-57)",
+T,80,T2285,,-22,S,30,E,Africa,Zimbabwe & nearby Zambia,,,Lower,Permian,,dated as E. Permian on the basis of fossils frm overlying beds,Tillites,,associated glaciated pavements,"Bond(in Hambrey and Harland,1981, pp.58-60)",
+T,81,T2286,,-84,S,-57,W,Antarctica,,,,L - U?,Permian,,,Tillites,Gale Mudstone,,"Nelson(in Hambrey and Harland,1981, pp.227-229)",
+T,82,T2287,,-84,S,167,E,Antarctica,,,"southern Ross Ice Shelf,in the Transantarctic Mountains",L - U?,Permian,,,Tillites,"Pagoda,Darwin Tillite,Buckeye",associated glaciated pavements,"Frakes(in Hambrey and Harland,1981, pp. 230-232)",
+T,83,T2288,,-77,S,160,E,Antarctica,,,South Victoria Land,L - U?,Permian,,,Tillites,Metchel Tillite,,"Barrett,McKelvey(in Hambrey and Harland,1981, pp. 233-236)",
+T,84,T2289,,-72,S,163,E,Antarctica,,,North Victoria Land,L - U?,Permian,,,Tillites,,,"Laird,Bradshaw(in Hambrey and Harland,1981, pp. 237-240)",
+T,85,T2290,,-78,S,-90,W,Antarctica,,,Ellsworth Mountians,L - U?,Permian,,,Tillites,Whiteout Conglomerate,,"Ojakangas,Matsch(in Hambrey and Harland,1981, pp. 241-244)",
+T,86,T2291,,18,N,44,E,Asia,Arabia,,southwestern Arabia,L - U?,Permian,,palynologically dated,Tillites,upper Wadjid Sandstone,,"McClure,Young(in Hambrey and Harland,1981, pp. 275-277)",
+T,87,T2292,,20,N,57,E,Asia,Arabia,,Haushi area of Oman,L - U?,Permian,,,Tillites,upper Wadjid Sandstone,,"McClure,Young(in Hambrey and Harland,1981, pp. 275-277)","see also Weissbrod,Horowitz(1989)"
+T,88,T2294,,54,N,57,E,Asia,Arabia,,Jebal Akhdar area of Oman,L - U?,Permian,,,Tillites,upper Wadjid Sandstone,,"McClure,Young(in Hambrey and Harland,1981, pp. 275-277)",
+T,89,T2293,,20,N,58,E,Asia,Arabia,,southern Oman,L - U?,Permian,,,Tillites,Al Khlata,evidence for glacial conditions present,Levell et al.(1988),see also Angiolini et al.(1997)
+T,90,T2295.1,,15,N,44,E,Asia,Arabia,,Yemen,L - U?,Permian,,,Tillites,Al Khlata,,"Kruck,Thiele(1983)","see also Weissbrod,Horowitz(1989)"
+T,91,T2295,,19.5,N,45.5,E,Asia,Arabia,,southern Saudi Arabia,Lower,Permian,Sakmarian,,Tillites,,,McClure et al.(1988),
+T,92,T2296,,26,N,73,E,Asia,India,,Peninsular India,L - U?,Permian,,,Tillites,Talcir Boulder Beds,resting on striated pavements-widely dist(referred to in Rajasthan as the Bap and Pokran Boulder Beds),"Ahmad(in Hambrey and Harland,1981, pp.326-330)",
+T,93,T2297,,17,N,81,E,Asia,India,,Peninsular India,L - U?,Permian,,,Tillites,Talcir Boulder Beds,resting on striated pavements-widely dist(referred to in Rajasthan as the Bap and Pokran Boulder Beds),"Ahmad(in Hambrey and Harland,1981, pp.326-330)",
+T,94,T2298,,24,N,88,E,Asia,India,,Peninsular India,L - U?,Permian,,,Tillites,Talcir Boulder Beds,resting on striated pavements-widely dist(referred to in Rajasthan as the Bap and Pokran Boulder Beds),"Ahmad(in Hambrey and Harland,1981, pp.326-330)",
+T,95,T2299,,27,N,92,E,Asia,India,,,L - U?,Permian,,,Tillites,Rangit Pebble Slate,,Raja Rao(1981),see also Trilochan Singh(1993)
+T,96,T2300,,27,N,93.5,E,Asia,India,,,L - U?,Permian,,,Tillites,Rangit Pebble Slate,,Raja Rao(1981),see also Trilochan Singh(1993)
+T,97,T2301,,27,N,95.5,E,Asia,India,,,L - U?,Permian,,,Tillites,Rangit Pebble Slate,,Raja Rao(1981),see also Trilochan Singh(1993)
+T,98,T2302,,34,N,78,E,Asia,India,,,L - U?,Permian,,,Tillites,Ganmachidam,diamictite,Srikantia et al.(1979),
+T,99,T2302.1,,34,N,75,E,Asia,India,,Kashmir,Lower,Permian,Asselian,,Tillites,Tethyan Asselian Agglomeratic Slate,,"Wopfner,Casshyap(1997)",
+T,100,T2303,,27,N,90,E,Asia,Nepal and Sikkim,,,Lower,Permian,,earlier Permian ages,Tillites,"Rangit Pebble Slate,Lachi",diamictites,"Acharya(in Hambrey and Harland,1981, pp.316-325)",
+T,101,T2303.1,,27,N,86,E,Asia,Nepal and Sikkim,,"Tethys Himalaya from India,Nepal and Tibet",Lower,Permian,,,Tillites,,diamictites,Garzanti et al.(1994);Garzanti et al.(1998),
+T,102,T2304,,29,N,84,E,Asia,Nepal and Sikkim,,"Tethys Himalaya from India,Nepal and Tibet",Lower,Permian,,,Tillites,Thini Chu,with associated Glossopteris,Garzanti et al.(1994);Garzanti et al.(1998),
+T,103,T2305,,33,N,72,E,Asia,Pakistan,,Salt Range,L - U?,Permian,,,Tillites,Tobra,,"Teichert(in Hambrey and Harland,1981, pp.278-286)",
+T,104,T2305.1,,-30,S,150,E,Australia,,,New South Wales,L - U?,Permian,,,Tillites,,varied tillites,"McKelvey,Benson,Packham,Herbert(in Hambrey and Harland,1981)",
+T,105,T2306,,-24,S,147,E,Australia,,,Queensland:Galilee and Bowen Basins,L - U?,Permian,,,Tillites,,,"Hambrey(in Hambrey and Harland,1981)",
+T,106,T2307,,-22,S,148,E,Australia,,,Queensland:Galilee and Bowen Basins,L - U?,Permian,,,Tillites,,,"Hambrey(in Hambrey and Harland,1981)",
+T,107,T2308,,-32,S,138,E,Australia,,,"S.Australia:(Arckaringa,Cooper,Denman),((Peddirka)),Polda,Renmark and Troubridge Basins",Lower,Permian,"Asselian-Sakmarian,(Asselian),((prob Asselian))",,Tillites,,,"Harris(in Hambrey and Harland,1981)",
+T,108,T2308.1,,-36,S,138,E,Australia,,,S.Australia: Troubridge Basin,Lower,Permian,Asselian-Sakmarian,,Tillites,Cape Jervis,,"Drexel,Preiss(eds.,1995)",
+T,109,T2308.2,,-34,S,140.5,E,Australia,,,S.Australia:Nadda Basin,Lower,Permian,Asselian-Sakmarian,,Tillites,,,"Drexel,Preiss(eds.,1995)",
+T,110,T2308.3,,-26,S,136,E,Australia,,,"S.Australia:Polda Basin,(Arckaringa,Denman,Cooper Basins)((Pedirka Basin))",Lower,Permian,"Asselian-Sakmarian,(Asselian),((prob Asselian))",,Tillites,"Coolardie,(Boorthanna),((Crown Point))",,"Drexel,Preiss(eds.,1995)",
+T,111,T2309,,-43,S,146,E,Australia,,,Tasmania,Lower,Permian,Asselian,"Hand(1993)provides additional info,while suggesting Asselian",Tillites,,,"Banks(in Hambrey and Harland,1981)",
+T,112,T2310,,-38,S,144,E,Australia,,,Victoria,L - U?,Permian,,,Tillites,,,"O'Brien(in Hambrey and Harland,1981)",
+T,113,T2311,,-14,S,129,E,Australia,,,W.Australia:Bonaparte Gulf,Lower,Permian,,,Tillites,,tilloids,"Dickins(in Hambrey and Harland,1981)",
+T,114,T2312,,-20,S,123,E,Australia,,,W.Australia:Canning Basin,Lower,Permian,,,Tillites,,tilloids,"Towner(in Hambrey and Harland,1981)",
+T,115,T2313,,-25,S,115,E,Australia,,,W.Australia:Carnavon Basin,Lower,Permian,,,Tillites,,tilloids,"Van de Graaf(in Hambrey and Harland,1981)",
+T,116,T2314,,-28,S,115,E,Australia,,,W.Australia:Perth Basin,Lower,Permian,,,Tillites,,tilloids,"Van de Graaf(in Hambrey and Harland,1981)","see also Mory,Iasky(1996)"
+T,117,T2315,,-26,S,128,E,Australia,,,W.Australia:Collie Basin,Lower,Permian,,,Tillites,,tilloids,"Van de Graaf(in Hambrey and Harland,1981)",
+T,118,T2317,,-27,S,-62,W,S.America,Argentina,,Chaco region of northern Argentina,Lower,Permian,,possible latest Pennsylanian-earlier Permian age,Tillites,,diamictites,"Hambrey(in Hambrey and Harland,1981)",
+T,119,T2318,,-32,S,-65,W,S.America,Argentina,,west-central Argentina,Lower,Permian,,,Tillites,Bajo de Velez,,"Amos,Lopez Gamundi(in Hambrey and Harland,1981)",
+T,120,T2319,,-38,S,-62,W,S.America,Argentina,,eastern Argentina,Lower,Permian,,,Tillites,Sauce Grande,,"Amos,Lopez Gamundi(in Hambrey and Harland,1981)",
+T,121,T2320,,-10,S,-37,W,S.America,Brazil,,Sergipe-Alagoas Basin,Lower,Permian,,probably Early Permian,Tillites,,,"Rocha-Campos(in Hambrey and Harland,1981)",
+T,122,T2321,,-11,S,-62,W,S.America,Brazil,,Rondonia,Lower,Permian,,probably Early Permian,Tillites,,,"Rocha-Campos(in Hambrey and Harland,1981)",
+T,123,T2322,,-16,S,-59,W,S.America,Brazil,,Mato Grosso,Lower,Permian,,probably Early Permian,Tillites,,,"Rocha-Campos(in Hambrey and Harland,1981)",
+T,124,T2323,,-23,S,-53,W,S.America,Brazil,,Parana Basin,Lower,Permian,,,Tillites,,,"Rocha-Campos,dos Santos(in Hambrey and Harland,1981)","see also Lopez-Gamundi,Martinez(2000)"
+T,125,T2324,,-52,S,-59,W,S.America,Falkland Islands,,,Lower,Permian,,may be of Early Permian age,Tillites,Lafonian Tillite,,"Frakes(in Hambrey and Harland,1981)",see also Hyam et al.(1997)
+D,126,D2325,,65,N,130,E,Asia,C. I. S. (frm USSR),,western Verkhoyansk region,Lower,Permian,"""Sakmarian""",,Dropstones,,"""glacial-marine sedinments""that include pebbly mudstones w some lg ,boulder size dropstones","Ustritsky(1973, Fig. 1)",
+D,127,D2326,,70,N,60,E,Asia,C. I. S. (frm USSR),,the Pai-Hoi and southern Novaya Zemlya region,Lower,Permian,"""Sakmarian""",,Dropstones,,"""glacial-marine sedinments""that include pebbly mudstones w some lg ,boulder size dropstones","Ustritsky(1973, Fig. 1)",
+D,128,D2327,,-24,S,148,E,Australia,,,Queensland:Springsure area of the Bowen Basin,L - U?,Permian,,,Dropstones,Stanleigh,,"Dickins(written comm.,1994)",
+G,129,G2327.1,,-28.5,S,24,E,Africa,South Africa,,Blaauw Krantz,L - U?,Permian,,,Glendonites,Upper Dwyka Shales,apparently glendonites,"McLachlan,Anderson(1973, p. 43)",
+G,130,G2328,,-34,S,151,E,Australia,,,New South Wales:Sydney Basin,L  - U,Permian,,Lower and Upper Permian,Glendonites,Sydney Basin glendonites,also erratics and lateritic deposits,"Slansky(1985, Fig.2) ",see also Walkom(1913)
+G,131,G2329,,-25,S,150,E,Australia,,,"Queensland:Cracow,350 km NNW of Brisbane",L - U?,Permian,,,Glendonites,,,Wass(1965),
+G,132,G2330,,-42,S,147,E,Australia,,,Tasmania,L - U?,Permian,,,Glendonites,Woody Island Siltstone,,Banks et al.(1955),
+T,133,T2316,,46,N,4,E,Europe,France,,Massif Central,Lower,Permian,,Stephanian-Autunian,Tillites,,"high elevation periglacial phenomena,incl ice crystal impressions",Becq-Giraudon et al.(1996),
+C,134,C2316.1,,-24,S,26,E,Africa,Botswana,,Kalahari Basin,L - U?,Permian,,,Coals,Mosomame,,Cairncross(2001),
+C,135,C2331,,-20,S,45,E,Africa,Madagascar,,,Lower,Permian,mid-Sakmarian,"see also Visser(1995, Table 1, who suggests p. 236, mid-Sakmarian Age;Wescott and Diggens(1998)",Coals,Sakoa Group,,Besairie(1956),
+C,136,C2331.1,,-10,S,36,E,Africa,Malawi,,,Lower,Permian,Artinskian,,Coals,,,Cairncross(2001),
+C,137,C2332,,33,N,-5,W,Africa,Morocco,,Khenifra,Lower,Permian,Autunian,,Coals,,,"Agard et al.(1965),Gorsky et al.(1967, sheet 13)","see also Lorenz(1988),see also Feys(1965)"
+C,138,C2332.1,,-16,S,33.5,E,Africa,Mozambique,,,Lower,Permian,may include some Sakmarian,,Coals,Productive Series at the base of the Ecca,,"Vasconcelos,dos Santos(1989)",
+C,139,C2332.4,,-17,S,35,E,Africa,Mozambique,,,Lower,Permian,Artinskian,,Coals,,,Cairncross(2001),
+C,140,C2818,,-18,S,34,E,Africa,Mozambique,,Zambesi Basin,L - U?,Permian,,,Coals,Ecca Series,,Petroconsultants(1977),"see also Rocha-Campos, in Hambrey and Harland(1981)"
+C,141,C2819,,-13,S,36,E,Africa,Mozambique,,Niassa District in the Karroo,L - U?,Permian,,,Coals,Ecca Series,,Petroconsultants(1977),"see also Rocha-Campos, in Hambrey and Harland(1981)"
+C,142,C2819.1,,-16,S,33.5,E,Africa,Mozambique,,,Lower,Permian,,,Coals,Productive Series at the base of the Ecca,,"Vasconcelos,dos Santos(1989)",
+C,143,C2332.2,,-27,S,17,E,Africa,Namibia,,,Lower,Permian,Artinskian,,Coals,,,Cairncross(2001),
+C,144,C2332.3,,-20,S,13,E,Africa,Namibia,,,Lower,Permian,Artinskian,,Coals,,,Cairncross(2001),
+C,145,C2332.6,,-18,S,17,E,Africa,Namibia,,Owambo Basin,Lower,Permian,Artinskian,Cairncross(2001) assigns to the Artinskian,Coals,Prince Albert  ,,Miller(1997),
+C,146,C2333,,-10.5,S,35,E,Africa,Tanzania,,,Lower,Permian,Sakmarian and Artinskian,,Coals,Mchuchuma,,"Kaaya,Kreuser(1994)",
+C,147,C2333.1,,-11.5,S,38,E,Africa,Tanzania,,southwestern Tanzania,L - U?,Permian,,,Coals,,,"Wolpfer,Casshyap(1997)","see also Kreuser,Markwort(1989)"
+C,148,C2334,,-15,S,25,E,Africa,Zambia,,,Lower,Permian,late Sakmarian to early Artinskian,,Coals,,,Visser(1995),
+C,149,C2336,,41,N,79,E,Asia,China,,Tarim and Xinjing:Kalping,Lower,Permian,,,Coals,Kaipaisileike,,Liao Zhuo-ting et al.(1990),
+C,150,C2337,,41.3,N,80.2,E,Asia,China,,"Tarim and Xinjing:Wensu,Xinjiang",L - U?,Permian,,,Coals,Kuergan,,"Zhang,Wu(1991)",
+C,151,C2338,,42.8,N,93.4,E,Asia,China,,"Tarim and Xinjing:Hami,Xinjiang",L - U?,Permian,,,Coals,Aquikebulake,,Li et al.(1994),
+C,152,C2339,,47.5,N,85.6,E,Asia,China,,"Tarim and Xinjing:Jimunie,Xinjiang",L - U?,Permian,,,Coals,Kalagang,,Li et al.(1994),
+C,153,C2340,,47.1,N,87.5,E,Asia,China,,"Tarim and Xinjing:Fuhai,Xinjiang",L - U?,Permian,,,Coals,Kalagang,,"Zhang,Wu(1991)",
+C,154,C2341,,47.7,N,86.7,E,Asia,China,,"Tarim and Xinjing:Buerjin,Xinjiang",L - U?,Permian,,,Coals,Kalagang,,"Zhang,Wu(1991)",
+C,155,C2342,,44.2,N,93.7,E,Asia,China,,"Tarim and Xinjing:Qitai,Xinjiang",L - U?,Permian,,,Coals,Kalagang,,Li et al.(1994),
+C,156,C2343,,44.9,N,82,E,Asia,China,,"Tarim and Xinjing:Bole,Xinjiang",L - U?,Permian,,,Coals,Wulang Group,,"Zhang,Wu(1991)",
+C,157,C2344,,37,N,82.6,E,Asia,China,,Tarim and Xinjing:MingfongXinjiang,Lower,Permian,,,Coals,,,Li et al.(1994),
+C,158,C2345,,39,N,88.1,E,Asia,China,,"Tarim and Xinjing:Ruoqiang,Xinjiang",Lower,Permian,,,Coals,,,Li et al.(1994),
+C,159,C2346,,38,N,112,E,Asia,China,,N.China:Taiyuan,Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,Sheng Jing-zhang et al.(1982),
+C,160,C2347,,41,N,124,E,Asia,China,,N.China:Bexnxi,Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,Sheng Jing-zhang et al.(1982)
+C,161,C2348,,39.5,N,118,E,Asia,China,,N.China:Tangshan,Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,Zhang Shan-zhen et al.(1987)
+C,162,C2349,,40,N,110,E,Asia,China,,N.China:Baotou,Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,Zhang Shan-zhen et al.(1987)
+C,163,C2350,,35,N,110,E,Asia,China,,N.China:Chengcheng,Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,Zhang Shan-zhen et al.(1987)
+C,164,C2351,,33.5,N,118,E,Asia,China,,N.China:Suxian,Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,Zhang Shan-zhen et al.(1987)
+C,165,C2352,,38,N,112,E,Asia,China,,N.China:Taiyuan,Lower,Permian,,,Coals,Lower Shihhotse,,Zhang Shan-zhen et al.(1987)
+C,166,C2353,,35.5,N,118,E,Asia,China,,N.China:Tangshan,Lower,Permian,,,Coals,Lower Shihhotse,,Zhang Shan-zhen et al.(1987)
+C,167,C2354,,35,N,110,E,Asia,China,,N.China:Chengcheng,Lower,Permian,,,Coals,Lower Shihhotse,,Zhang Shan-zhen et al.(1987)
+C,168,C2355,,34,N,113.5,E,Asia,China,,N.China:Yuxian,Lower,Permian,,,Coals,Lower Shihhotse,,Zhang Shan-zhen et al.(1987)
+C,169,C2356,,33.5,N,117,E,Asia,China,,N.China:Suxian,Lower,Permian,,,Coals,Lower Shihhotse,,Zhang Shan-zhen et al.(1987)
+C,170,C2357,,40,N,110,E,Asia,China,,N.China:Daqingshan,Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,"The Mining Institute of Sichuan,Jiaozhuo,Xian,and Shanxi(1974)"
+C,171,C2358,,40,N,111,E,Asia,China,,N.China:Quingshuihe,Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,"The Mining Institute of Sichuan,Jiaozhuo,Xian,and Shanxi(1974)"
+C,172,C2359,,40,N,113,E,Asia,China,,N.China:Datong,Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,"The Mining Institute of Sichuan,Jiaozhuo,Xian,and Shanxi(1974)"
+C,173,C2360,,40,N,116,E,Asia,China,,N.China:western Beijing,Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,"The Mining Institute of Sichuan,Jiaozhuo,Xian,and Shanxi(1974)"
+C,174,C2361,,42,N,121,E,Asia,China,,N.China:Beipiao,Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,"The Mining Institute of Sichuan,Jiaozhuo,Xian,and Shanxi(1974)"
+C,175,C2362,,37.5,N,111,E,Asia,China,,N.China:Lishi,Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,"The Mining Institute of Sichuan,Jiaozhuo,Xian,and Shanxi(1974)"
+C,176,C2363,,38,N,113.5,E,Asia,China,,N.China:Yangquan,Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,"The Mining Institute of Sichuan,Jiaozhuo,Xian,and Shanxi(1974)"
+C,177,C2364,,38,N,114,E,Asia,China,,N.China:Jingqing,Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,"The Mining Institute of Sichuan,Jiaozhuo,Xian,and Shanxi(1974)"
+C,178,C2365,,37,N,110,E,Asia,China,,N.China:Zibo,Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,"The Mining Institute of Sichuan,Jiaozhuo,Xian,and Shanxi(1974)"
+C,179,C2366,,35.5,N,113,E,Asia,China,,N.China:Jinchang,Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,"The Mining Institute of Sichuan,Jiaozhuo,Xian,and Shanxi(1974)"
+C,180,C2367,,34.5,N,112,E,Asia,China,,N.China:Yiluo,Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,"The Mining Institute of Sichuan,Jiaozhuo,Xian,and Shanxi(1974)"
+C,181,C2368,,35,N,113,E,Asia,China,,N.China:Jiaozhou,Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,"The Mining Institute of Sichuan,Jiaozhuo,Xian,and Shanxi(1974)"
+C,182,C2369,,35.5,N,116.5,E,Asia,China,,N.China:Jining,Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,"The Mining Institute of Sichuan,Jiaozhuo,Xian,and Shanxi(1974)"
+C,183,C2370,,35,N,117.5,E,Asia,China,,N.China:Taozao,Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,"The Mining Institute of Sichuan,Jiaozhuo,Xian,and Shanxi(1974)"
+C,184,C2371,,33,N,117,E,Asia,China,,N.China:Fengtai,Lower,Permian,Artinskian-Kungurian?,Leonardian?,Coals,"Shihhotse,Shansi",,The Compiling Group of the Regional Stratagraphic Chart of Annhui(1978)
+C,185,C2372,,38,N,111,E,Asia,China,,N.China:Liuxian,Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,Lu Zhu-fai et al.(1991)
+C,186,C2373,,37.5,N,111,E,Asia,China,,N.China:Liulin,Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,Lu Zhu-fai et al.(1991)
+C,187,C2374,,38.8,N,101.1,E,Asia,China,,"N.China:Shandan,Gansu",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,Li et al.(1994)
+C,188,C2375,,37.2,N,102.8,E,Asia,China,,"N.China:Tianzhu,Gansu",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,Li et al.(1994)
+C,189,C2376,,37.9,N,102.6,E,Asia,China,,"N.China:Wuwei,Gansu",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,Li et al.(1994)
+C,190,C2377,,38.2,N,101.9,E,Asia,China,,"N.China:Yongchang,Gansu",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,Li et al.(1994)
+C,191,C2378,,37.1,N,104,E,Asia,China,,"N.China:Jingtai,Gansu",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,Li et al.(1994)
+C,192,C2379,,35.5,N,106.6,E,Asia,China,,"N.China:Pingliang,Gansu",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,The Gansu Regional Geologial Survey Team(1978)
+C,193,C2380,,35.2,N,105.2,E,Asia,China,,"N.China:Tongwei,Gansu",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,The Gansu Regional Geologial Survey Team(1978)
+C,194,C2381,,35.5,N,105.7,E,Asia,China,,"N.China:Jingning,Gansu",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,The Gansu Regional Geologial Survey Team(1978)
+C,195,C2382,,36,N,107.8,E,Asia,China,,"N.China:Qingyang,Gansu",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,The Gansu Regional Geologial Survey Team(1978)
+C,196,C2383,,38.9,N,100.4,E,Asia,China,,"N.China:Zhangye,Gansu",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,The Gansu Regional Geologial Survey Team(1978)
+C,197,C2384,,37.4,N,105.6,E,Asia,China,,"N.China:Zhongnig,Ningxia",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,Li et al.(1994)
+C,198,C2385,,39,N,106.3,E,Asia,China,,"N.China:Shizuizi,Ningxia",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,Li et al.(1994)
+C,199,C2386,,37.2,N,109.9,E,Asia,China,,"N.China:Weizhou,Ningxia",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,Li et al.(1994)
+C,200,C2387,,39.5,N,106.7,E,Asia,China,,"N.China:Wuda,Neimongol",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,Li et al.(1994)
+C,201,C2388,,39.6,N,110.3,E,Asia,China,,"N.China:Junggar Banner,Neimongol",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,Li et al.(1994)
+C,202,C2389,,39.2,N,106.2,E,Asia,China,,"N.China:Hulusitai,Neimongol",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,Li et al.(1994)
+C,203,C2390,,38.1,N,100.2,E,Asia,China,,"N.China:Qilian,Qinghai",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,Li et al.(1994)
+C,204,C2391,,35,N,109.1,E,Asia,China,,"N.China:Tongchuan,Shaanxi",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,Li et al.(1994)
+C,205,C2392,,35.4,N,110.4,E,Asia,China,,"N.China:Hancheng,Shaanxi",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,Li et al.(1994)
+C,206,C2393,,39,N,111,E,Asia,China,,"N.China:Fugu,Shaanxi",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,Li et al.(1994)
+C,207,C2394,,35.1,N,109.9,E,Asia,China,,"N.China:Chengcheng,Shaanxi",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,The Bureau of Geology and Mineral Resoures of Shaanxi Province(1989)
+C,208,C2395,,35.9,N,109.3,E,Asia,China,,"N.China:Fuxian,Shaanxi",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,The Bureau of Geology and Mineral Resoures of Shaanxi Province(1989)
+C,209,C2396,,35.5,N,109.2,E,Asia,China,,"N.China:Huangling,Shaanxi",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,The Bureau of Geology and Mineral Resoures of Shaanxi Province(1989)
+C,210,C2397,,34,N,110.1,E,Asia,China,,"N.China:Luinan,Shaanxi",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,The Bureau of Geology and Mineral Resoures of Shaanxi Province(1989)
+C,211,C2398,,39,N,112.2,E,Asia,China,,"N.China:Ningwu,Shaanxi",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,Li et al.(1994)
+C,212,C2399,,40.1,N,113.2,E,Asia,China,,"N.China:Datong,Shanxi",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,Li et al.(1994)
+C,213,C2400,,35.9,N,110.8,E,Asia,China,,"N.China:Xiangnig,Shanxi",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,The Bureau of Geology and Mineral Resoures of Shaanxi Province(1989)
+C,214,C2401,,35.6,N,110.7,E,Asia,China,,"N.China:Hejin,Shanxi",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,The Bureau of Geology and Mineral Resoures of Shaanxi Province(1989)
+C,215,C2402,,38.3,N,111.9,E,Asia,China,,"N.China:Jingle,Shanxi",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,The Bureau of Geology and Mineral Resoures of Shaanxi Province(1989)
+C,216,C2403,,38.7,N,112.7,E,Asia,China,,"N.China:Yuanping,Shanxi",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,The Bureau of Geology and Mineral Resoures of Shaanxi Province(1989)
+C,217,C2404,,39.3,N,112.4,E,Asia,China,,"N.China:Souxian,Shanxi",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,The Bureau of Geology and Mineral Resoures of Shaanxi Province(1989)
+C,218,C2405,,39.5,N,112.2,E,Asia,China,,"N.China:Pinglu,Shanxi",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,The Bureau of Geology and Mineral Resoures of Shaanxi Province(1989)
+C,219,C2406,,39.5,N,112.8,E,Asia,China,,"N.China:Shanyin,Shanxi",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,The Bureau of Geology and Mineral Resoures of Shaanxi Province(1989)
+C,220,C2407,,39.8,N,113.1,E,Asia,China,,"N.China:Huairen,Shanxi",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,The Bureau of Geology and Mineral Resoures of Shaanxi Province(1989)
+C,221,C2408,,39,N,111,E,Asia,China,,"N.China:Baode,Shanxi",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,The Bureau of Geology and Mineral Resoures of Shaanxi Province(1989)
+C,222,C2409,,39.3,N,111.1,E,Asia,China,,"N.China:Hequ,Shanxi",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,The Bureau of Geology and Mineral Resoures of Shaanxi Province(1989)
+C,223,C2410,,37.4,N,110.8,E,Asia,China,,"N.China:Liulin,Shanxi",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,The Bureau of Geology and Mineral Resoures of Shaanxi Province(1989)
+C,224,C2411,,37.8,N,113.5,E,Asia,China,,"N.China:Yangquan,Shanxi",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,The Bureau of Geology and Mineral Resoures of Shaanxi Province(1989)
+C,225,C2412,,35.6,N,112.1,E,Asia,China,,"N.China:Xingshui,Shanxi",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,The Bureau of Geology and Mineral Resoures of Shaanxi Province(1989)
+C,226,C2413,,37.1,N,113.3,E,Asia,China,,"N.China:Zhuoquan,Shanxi",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,The Bureau of Geology and Mineral Resoures of Shaanxi Province(1989)
+C,227,C2414,,37.3,N,113.5,E,Asia,China,,"N.China:Heshun,Shanxi",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,The Bureau of Geology and Mineral Resoures of Shaanxi Province(1989)
+C,228,C2415,,36.1,N,113.1,E,Asia,China,,"N.China:Chengzhi,Shanxi",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,The Bureau of Geology and Mineral Resoures of Shaanxi Province(1989)
+C,229,C2416,,35.7,N,113.2,E,Asia,China,,"N.China:Lingchuan,Shanxi",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,The Bureau of Geology and Mineral Resoures of Shaanxi Province(1989)
+C,230,C2417,,35.5,N,112.4,E,Asia,China,,"N.China:Yangcheng,Shanxi",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,The Bureau of Geology and Mineral Resoures of Shaanxi Province(1989)
+C,231,C2418,,35.5,N,113.1,E,Asia,China,,"N.China:Hucheng,Shanxi",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,Li et al.(1994)
+C,232,C2419,,37.8,N,112.5,E,Asia,China,,"N.China:Taiyuan,Shanxi",Lower,Permian,,,Coals,Lower Shihhotse,,The Bureau of Geology and Mineral Resoures of Shaanxi Province(1989)
+C,233,C2420,,38.7,N,113.2,E,Asia,China,,"N.China:Wutai,Shanxi",Lower,Permian,,,Coals,Lower Shihhotse,,The Bureau of Geology and Mineral Resoures of Shaanxi Province(1989)
+C,234,C2421,,39,N,112.2,E,Asia,China,,"N.China:Ningwu,Shanxi",Lower,Permian,,,Coals,Lower Shihhotse,,The Bureau of Geology and Mineral Resoures of Shaanxi Province(1989)
+C,235,C2422,,39.3,N,111.1,E,Asia,China,,"N.China:Hequ,Shanxi",Lower,Permian,,,Coals,Lower Shihhotse,,The Bureau of Geology and Mineral Resoures of Shaanxi Province(1989)
+C,236,C2423,,38.4,N,111.1,E,Asia,China,,"N.China:Xingxian,Shanxi",Lower,Permian,,,Coals,Lower Shihhotse,,The Bureau of Geology and Mineral Resoures of Shaanxi Province(1989)
+C,237,C2424,,37.4,N,110.8,E,Asia,China,,"N.China:Liulin,Shanxi",Lower,Permian,,,Coals,Lower Shihhotse,,The Bureau of Geology and Mineral Resoures of Shaanxi Province(1989)
+C,238,C2425,,39.5,N,112.4,E,Asia,China,,"N.China:Shangyin,Shanxi",Lower,Permian,,,Coals,Lower Shihhotse,,The Bureau of Geology and Mineral Resoures of Shaanxi Province(1989)
+C,239,C2426,,35.6,N,112.4,E,Asia,China,,"N.China:Xingshui,Shanxi",Lower,Permian,,,Coals,Lower Shihhotse,,The Bureau of Geology and Mineral Resoures of Shaanxi Province(1989)
+C,240,C2427,,39.6,N,113.7,E,Asia,China,,"N.China:Hunyuan,Shanxi",Lower,Permian,,,Coals,Lower Shihhotse,,The Bureau of Geology and Mineral Resoures of Shaanxi Province(1989)
+C,241,C2428,,36.1,N,113.1,E,Asia,China,,"N.China:Changzhi,Shanxi",Lower,Permian,,,Coals,Lower Shihhotse,,The Bureau of Geology and Mineral Resoures of Shaanxi Province(1989)
+C,242,C2429,,37.1,N,113.3,E,Asia,China,,"N.China:Zhuoquan,Shanxi",Lower,Permian,,,Coals,Lower Shihhotse,,The Bureau of Geology and Mineral Resoures of Shaanxi Province(1989)
+C,243,C2430,,35.5,N,112.4,E,Asia,China,,"N.China:Yangcheng,Shanxi",Lower,Permian,,,Coals,Lower Shihhotse,,The Bureau of Geology and Mineral Resoures of Shaanxi Province(1989)
+C,244,C2431,,38.7,N,112.7,E,Asia,China,,"N.China:Yuanping,Shanxi",Lower,Permian,,,Coals,Lower Shihhotse,,The Bureau of Geology and Mineral Resoures of Shaanxi Province(1989)
+C,245,C2432,,39.8,N,113,E,Asia,China,,"N.China:Huairen,Shanxi",Lower,Permian,,,Coals,Lower Shihhotse,,The Bureau of Geology and Mineral Resoures of Shaanxi Province(1989)
+C,246,C2433,,35.3,N,111.7,E,Asia,China,,"N.China:Yuanqu,Shanxi",Lower,Permian,,,Coals,Lower Shihhotse,,The Bureau of Geology and Mineral Resoures of Shaanxi Province(1989)
+C,247,C2434,,35.3,N,111.2,E,Asia,China,,"N.China:Xiaxian,Shanxi",Lower,Permian,,,Coals,Lower Shihhotse,,The Bureau of Geology and Mineral Resoures of Shaanxi Province(1989)
+C,248,C2435,,35.8,N,116.1,E,Asia,China,,"N.China:Liangshang,Shandong",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,The Bureau of Geology and Mineral Resoures of Shadong Province(1991)
+C,249,C2436,,35.7,N,116.5,E,Asia,China,,"N.China:Wengshang,Shandong",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,The Bureau of Geology and Mineral Resoures of Shadong Province(1991)
+C,250,C2437,,35.7,N,116.5,E,Asia,China,,"N.China:Wenshang,Shandong",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,The Bureau of Geology and Mineral Resoures of Shadong Province(1991)
+C,251,C2438,,35.6,N,117.2,E,Asia,China,,"N.China:Sishui,Shandong",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,The Bureau of Geology and Mineral Resoures of Shadong Province(1991)
+C,252,C2439,,35.5,N,117.6,E,Asia,China,,"N.China:Pingyi,Shandong",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,The Bureau of Geology and Mineral Resoures of Shadong Province(1991)
+C,253,C2440,,35.5,N,118.8,E,Asia,China,,"N.China:Luixian,Shandong",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,The Bureau of Geology and Mineral Resoures of Shadong Province(1991)
+C,254,C2441,,36.4,N,115.9,E,Asia,China,,"N.China:Laiocheng,Shandong",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,The Bureau of Geology and Mineral Resoures of Shadong Province(1991)
+C,255,C2442,,37.7,N,118.1,E,Asia,China,,"N.China:Zhanhua,Shandong",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,The Bureau of Geology and Mineral Resoures of Shadong Province(1991)
+C,256,C2443,,35.1,N,117.1,E,Asia,China,,"N.China:Tengzhou,Shandong",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,The Bureau of Geology and Mineral Resoures of Shadong Province(1991)
+C,257,C2444,,36.8,N,118.6,E,Asia,China,,"N.China:Zibo,Shandong",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,The Bureau of Geology and Mineral Resoures of Shadong Province(1991)
+C,258,C2445,,35.5,N,116.8,E,Asia,China,,"N.China:Yanzhou,Shandong",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,The Bureau of Geology and Mineral Resoures of Shadong Province(1991)
+C,259,C2446,,35.2,N,113.4,E,Asia,China,,"N.China:Xiuwu,Henan",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,The Bureau of Geology and Mineral Resoures of Henan Province(1989)
+C,260,C2447,,33.9,N,116.3,E,Asia,China,,"N.China:Yongcheng,Henan",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,The Bureau of Geology and Mineral Resoures of Henan Province(1989)
+C,261,C2448,,34.7,N,111.7,E,Asia,China,,"N.China:Mianchi,Henan",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,The Bureau of Geology and Mineral Resoures of Henan Province(1989)
+C,262,C2449,,34.5,N,112.1,E,Asia,China,,"N.China:Yiyang,Henan",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,The Bureau of Geology and Mineral Resoures of Henan Province(1989)
+C,263,C2451,,33.7,N,113.2,E,Asia,China,,"N.China:Pingdingshan,Henan",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,The Bureau of Geology and Mineral Resoures of Henan Province(1989)
+C,264,C2452,,33,N,114.3,E,Asia,China,,"N.China:Linan,Henan",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,The Bureau of Geology and Mineral Resoures of Henan Province(1989)
+C,265,C2453,,32.7,N,114,E,Asia,China,,"N.China:Queshan,Henan",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,The Bureau of Geology and Mineral Resoures of Henan Province(1989)
+C,266,C2454,,39.6,N,118.2,E,Asia,China,,"N.China:Kaiping,Henan",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,The Bureau of Geology and Mineral Resoures of Henan Province(1989)
+C,267,C2455,,36.4,N,114.2,E,Asia,China,,"N.China:Fengfeng,Henan",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,The Bureau of Geology and Mineral Resoures of Henan Province(1989)
+C,268,C2456,,41.8,N,118.6,E,Asia,China,,"N.China:Pingquan,,Hebei",Lower,Permian,,,Coals,Lower Shihhotse and Shansi,,The Bureau of Geology and Mineral Resoures of Hebei Province(1990)
+C,269,C2457,,40.4,N,117,E,Asia,China,,"N.China:Xinglong,Hebei",Lower,Permian,,,Coals,Lower Shihhotse and Shansi,,The Bureau of Geology and Mineral Resoures of Hebei Province(1990)
+C,270,C2458,,36.4,N,114.2,E,Asia,China,,"N.China:Fengfeng,Hebei",Lower,Permian,,,Coals,Lower Shihhotse,,The Bureau of Geology and Mineral Resoures of Hebei Province(1990)
+C,271,C2459,,39.9,N,119.5,E,Asia,China,,"N.China:Qinghuangdao,Hebei",Lower,Permian,,,Coals,Lower Shihhotse,,The Bureau of Geology and Mineral Resoures of Hebei Province(1990)
+C,272,C2460,,40.7,N,120.8,E,Asia,China,,"N.China:Jingxi,Liaoning",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,The Bureau of Geology and Mineral Resoures of Liaoning Province(1989)
+C,273,C2461,,39.7,N,121.7,E,Asia,China,,"N.China:Fuzhou,Liaoning",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,The Bureau of Geology and Mineral Resoures of Liaoning Province(1989)
+C,274,C2462,,41.2,N,123,E,Asia,China,,"N.China:Liaoyang,Liaoning",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,The Bureau of Geology and Mineral Resoures of Liaoning Province(1989)
+C,275,C2463,,41.2,N,125.3,E,Asia,China,,"N.China:Yuanren,Liaoning",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,The Bureau of Geology and Mineral Resoures of Liaoning Province(1989)
+C,276,C2464,,41.9,N,126.4,E,Asia,China,,"N.China:Hunjiang,Jilin",Lower,Permian,Artinskian-Kungurian,Leonardian,Coals,Shansi,,The Bureau of Geology and Mineral Resoures of Jilin Province(1988)
+C,277,C2465,,29.5,N,119.5,E,Asia,China,,S.China:Tonglu and Jiande,Lower,Permian,,,Coals,,,Sheng Jing-zhang et al.(1982)
+C,278,C2466,,23,N,116,E,Asia,China,,S.China:Yongdong,Lower,Permian,,,Coals,Tingchiashan,,Sheng Jing-zhang et al.(1982)
+C,279,C2467,,23.5,N,117,E,Asia,China,,S.China:Guangzhou,Lower,Permian,,,Coals,Tungtzeeyan,,Sheng Jing-zhang et al.(1982)
+C,280,C2468,,33,N,107,E,Asia,China,,S.China:Nanzheng,Lower,Permian,Asselian,lowermost Permian,Coals,Liangshan,,Sheng Jing-zhang et al.(1982)
+C,281,C2468.1,,32,N,106,E,Asia,China,,S.China:Guangyuan,Lower,Permian,Asselian,lowermost Permian,Coals,Liangshan,,Sheng Jing-zhang et al.(1982)
+C,282,C2469,,26,N,105,E,Asia,China,,S.China:Qinglong,Lower,Permian,Asselian,lowermost Permian,Coals,Liangshan,,Sheng Jing-zhang et al.(1982)
+C,283,C2470,,31,N,111.5,E,Asia,China,,S.China:Yichang,Lower,Permian,Asselian,lowermost Permian,Coals,Liangshan,,Sheng Jing-zhang et al.(1982)
+C,284,C2471,,27,N,103,E,Asia,China,,S.China:Zhaotong,Lower,Permian,Asselian,lowermost Permian,Coals,Liangshan,,Sheng Jing-zhang et al.(1962)
+C,285,C2472,,26,N,105,E,Asia,China,,S.China:Dongchuan,Lower,Permian,Asselian,lowermost Permian,Coals,Liangshan,,Sheng Jing-zhang et al.(1962)
+C,286,C2473,,30.5,N,117.5,E,Asia,China,,S.China:Guichi,Lower,Permian,Asselian,lowermost Permian,Coals,Liangshan,,Sheng Jing-zhang et al.(1962)
+C,287,C2474,,29,N,114.5,E,Asia,China,,S.China:Xueshui,Lower,Permian,Asselian,lowermost Permian,Coals,Liangshan,,Sheng Jing-zhang et al.(1962)
+C,288,C2475,,27,N,104,E,Asia,China,,S.China:Weining,Lower,Permian,Asselian,lowermost Permian,Coals,Liangshan,,Sheng Jing-zhang et al.(1962)
+C,289,C2476,,31,N,120,E,Asia,China,,S.China:Changxing,Lower,Permian,Asselian,lowermost Permian,Coals,Liangshan,,Sheng Jing-zhang et al.(1962)
+C,290,C2477,,28,N,105,E,Asia,China,,S.China:Gongxian,Lower,Permian,Asselian,lowermost Permian,Coals,Liangshan,,Sheng Jing-zhang et al.(1962)
+C,291,C2478,,27.25,N,107.75,E,Asia,China,,S.China:Shiquan-Duyuan Area,Lower,Permian,Asselian,,Coals,Liangshan,,The Stratagraphic and Palaeontological Working Group of Guizhou(1976)
+C,292,C2479,,23.5,N,102,E,Asia,China,,S.China:Mojiang,Lower,Permian,,Lower Permian,Coals,Lower Mide,,Feng Zong-jie et al. (1991)
+C,293,C2480,,27,N,118,E,Asia,China,,S.China,Lower,Permian,Asselian?,Early Permian,Coals,Tungtzeeyan,,Huang Shi-quiang(1987)
+C,294,C2481,,34.1,N,116.9,E,Asia,China,,"S.China:Xiaoxian,Anhui",Lower,Permian,,,Coals,Lower Shihotze and Shansi,,The Bureau of Geology and Mineral Resoures of Anhui Province(1987)
+C,295,C2482,,32.6,N,116.9,E,Asia,China,,S.China:Huainan,Lower,Permian,,,Coals,Lower Shihotze and Shansi,,The Bureau of Geology and Mineral Resoures of Anhui Province(1987)
+C,296,C2483,,30.9,N,117.8,E,Asia,China,,"S.China:Tongling,Anhui",Lower,Permian,,,Coals,Chihsia,,The Bureau of Geology and Mineral Resoures of Anhui Province(1987)
+C,297,C2484,,31.7,N,118.3,E,Asia,China,,"S.China:Hexian,Anhui",Lower,Permian,,,Coals,Chihsia,,The Bureau of Geology and Mineral Resoures of Anhui Province(1987)
+C,298,C2485,,31.7,N,118.1,E,Asia,China,,"S.China:Hanshan,Anhui",Lower,Permian,,,Coals,Chihsia,,The Bureau of Geology and Mineral Resoures of Anhui Province(1987)
+C,299,C2486,,33.9,N,116.7,E,Asia,China,,"S.China:Huaibei,Anhui",Lower,Permian,,,Coals,Lower Shihotze and Shansi,,Li et al.(1994)
+C,300,C2487,,34.2,N,117.1,E,Asia,China,,"S.China:Tongshan,Jiangsu",Lower,Permian,,,Coals,Lower Shihotze ,,The Bureau of Geology and Mineral Resoures of Jiangsu Province(1984)
+C,301,C2488,,31.3,N,120.6,E,Asia,China,,"S.China:Suzhou,Jiangsu",Lower,Permian,,,Coals,Yanqiao,,Li et al.(1994)
+C,302,C2489,,31.5,N,120.3,E,Asia,China,,"S.China:Wusi,Jiangsu",Lower,Permian,,,Coals,Yanqiao,,Li et al.(1994)
+C,303,C2490,,30.1,N,119.2,E,Asia,China,,"S.China:Changhua,Zhenjiang",Lower,Permian,,,Coals,Liangshan,,The Bureau of Geology and Mineral Resoures of Zhejiang Province(1987)
+C,304,C2491,,28.7,N,118.6,E,Asia,China,,"S.China:Jiangshan,Zhejiang",Lower,Permian,,,Coals,Lixian,,Li et al.(1994)
+C,305,C2492,,29.3,N,115.7,E,Asia,China,,"S.China:Dean,Jiangxi",Lower,Permian,,,Coals,Chihsia,,The Bureau of Geology and Mineral Resoures of Jiangxi Province(1984)
+C,306,C2493,,27.1,N,113.9,E,Asia,China,,"S.China:Lianhua,Jiangxi",Lower,Permian,,,Coals,Guanshan,,Li et al.(1994)
+C,307,C2494,,28.2,N,114.9,E,Asia,China,,"S.China:Shanggao,Jianngxi",Lower,Permian,,,Coals,Guanshan,,Li et al.(1994)
+C,308,C2495,,28.1,N,114.4,E,Asia,China,,"S.China:Wanzhai,Jiangxi",Lower,Permian,,,Coals,Guanshan,,Li et al.(1994)
+C,309,C2496,,24.9,N,107.5,E,Asia,China,,"S.China:Nandan,Guangxi",Lower,Permian,,,Coals,Chihsia,,Li et al.(1994)
+C,310,C2497,,24.5,N,110.4,E,Asia,China,,"S.China:Lipu,Guangxi",Lower,Permian,,,Coals,Chihsia,,Li et al.(1994)
+C,311,C2498,,24.6,N,110.6,E,Asia,China,,"S.China:Pingle,Guangxi",Lower,Permian,,,Coals,Chihsia,,Li et al.(1994)
+C,312,C2499,,24.7,N,112.3,E,Asia,China,,"S.China:Lianxian,Guangdong",Lower,Permian,,,Coals,Gutian,,The Bureau of Geology and Mineral Resoures of Guangdong Province(1988)
+C,313,C2500,,24.1,N,115.7,E,Asia,China,,"S.China:Xingning,Guangdong",Lower,Permian,,,Coals,Tongziyan,,The Bureau of Geology and Mineral Resoures of Guangdong Province(1988)
+C,314,C2501,,24.3,N,116.1,E,Asia,China,,"S.China:Meixian,Guangdong",Lower,Permian,,,Coals,Tongziyan,,The Bureau of Geology and Mineral Resoures of Guangdong Province(1988)
+C,315,C2502,,23.9,N,115.7,E,Asia,China,,"S.China:Wuhua,Guangdong",Lower,Permian,,,Coals,Tongziyan,,The Bureau of Geology and Mineral Resoures of Guangdong Province(1988)
+C,316,C2503,,23.7,N,114.6,E,Asia,China,,"S.China:Heyuan,Guangdong",Lower,Permian,,,Coals,Tongziyan,,The Bureau of Geology and Mineral Resoures of Guangdong Province(1988)
+C,317,C2504,,24.3,N,114.4,E,Asia,China,,"S.China:Lianping,Guangdong",Lower,Permian,,,Coals,Tongziyan,,The Bureau of Geology and Mineral Resoures of Guangdong Province(1988)
+C,318,C2505,,25.1,N,113.7,E,Asia,China,,S.China:RenhuaGuangdong,Lower,Permian,,,Coals,Tongziyan,,The Bureau of Geology and Mineral Resoures of Guangdong Province(1988)
+C,319,C2506,,24.8,N,113.6,E,Asia,China,,"S.China:Shaoguan,Guangdong",Lower,Permian,,,Coals,Tongziyan,,The Bureau of Geology and Mineral Resoures of Guangdong Province(1988)
+C,320,C2507,,24.6,N,113.5,E,Asia,China,,"S.China:Qujiang,Guangdong",Lower,Permian,,,Coals,Tongziyan,,The Bureau of Geology and Mineral Resoures of Guangdong Province(1988)
+C,321,C2508,,22.1,N,111.7,E,Asia,China,,"S.China:Yangchun,Guangdong",Lower,Permian,,,Coals,Tongziyan,,The Bureau of Geology and Mineral Resoures of Guangdong Province(1988)
+C,322,C2509,,23,N,112.4,E,Asia,China,,"S.China:Gaoyao,Guangdong",Lower,Permian,,,Coals,Tongziyan,,The Bureau of Geology and Mineral Resoures of Guangdong Province(1988)
+C,323,C2510,,22.2,N,112.7,E,Asia,China,,"S.China:Taishan,Guangdong",Lower,Permian,,,Coals,Tongziyan,,The Bureau of Geology and Mineral Resoures of Guangdong Province(1988)
+C,324,C2511,,29.3,N,110.1,E,Asia,China,,"S.China:Sangzhi,Guangdong",Lower,Permian,,,Coals,Chihsia,,The Bureau of Geology and Mineral Resoures of Hunan Province(1988)
+C,325,C2512,,30,N,114.9,E,Asia,China,,"S.China:Changyang,Hubei",Lower,Permian,,,Coals,Liangshan,,The Bureau of Geology and Mineral Resoures of Hubei Province(1990)
+C,326,C2513,,30.1,N,111.7,E,Asia,China,,"S.China:Songzi,Hubei",Lower,Permian,,,Coals,Liangshan,,The Bureau of Geology and Mineral Resoures of Hubei Province(1990)
+C,327,C2514,,30,N,111.4,E,Asia,China,,"S.China:Tidu,Hubei",Lower,Permian,,,Coals,Liangshan,,The Bureau of Geology and Mineral Resoures of Hubei Province(1990)
+C,328,C2515,,31,N,110.3,E,Asia,China,,"S.China:Badong,Hubei",Lower,Permian,,,Coals,Liangshan,,The Bureau of Geology and Mineral Resoures of Hubei Province(1990)
+C,329,C2516,,30.5,N,109.7,E,Asia,China,,"S.China:Jiangshi,Hubei",Lower,Permian,,,Coals,Liangshan,,The Bureau of Geology and Mineral Resoures of Hubei Province(1990)
+C,330,C2517,,30.7,N,111.3,E,Asia,China,,"S.China:Yichang,Hubei",Lower,Permian,,,Coals,Liangshan,,The Bureau of Geology and Mineral Resoures of Hubei Province(1990)
+C,331,C2518,,31.8,N,111.2,E,Asia,China,,"S.China:Badong,Hubei",Lower,Permian,,,Coals,Liangshan,,The Bureau of Geology and Mineral Resoures of Hubei Province(1990)
+C,332,C2519,,29.6,N,113.8,E,Asia,China,,"S.China:Puchi,Hebei",Lower,Permian,,,Coals,Liangshan,,The Bureau of Geology and Mineral Resoures of Hubei Province(1990)
+C,333,C2520,,31.6,N,113.3,E,Asia,China,,"S.China:Suxian,Hubei",Lower,Permian,,,Coals,Liangshan,,The Bureau of Geology and Mineral Resoures of Hubei Province(1990)
+C,334,C2521,,29.5,N,114.5,E,Asia,China,,"S.China:Chongyang,Hubei",Lower,Permian,,,Coals,Liangshan,,The Bureau of Geology and Mineral Resoures of Hubei Province(1990)
+C,335,C2522,,29.5,N,114.5,E,Asia,China,,"S.China:Tongshan,Hubei",Lower,Permian,,,Coals,Liangshan,,The Bureau of Geology and Mineral Resoures of Hubei Province(1990)
+C,336,C2523,,29.7,N,115.2,E,Asia,China,,"S.China:Yangxin,Hubei",Lower,Permian,,,Coals,Liangshan,,The Bureau of Geology and Mineral Resoures of Hubei Province(1990)
+C,337,C2524,,32,N,111.7,E,Asia,China,,"S.China:Fangxian,Hubei",Lower,Permian,,,Coals,Liangshan,,The Bureau of Geology and Mineral Resoures of Hubei Province(1990)
+C,338,C2525,,32.2,N,110.2,E,Asia,China,,"S.China:Zhushan,Hubei",Lower,Permian,,,Coals,Liangshan,,The Bureau of Geology and Mineral Resoures of Hubei Province(1990)
+C,339,C2526,,25.1,N,117,E,Asia,China,,"S.China:Longyan,Fujian",Lower,Permian,,,Coals,Tongziyan,,The Bureau of Geology and Mineral Resoures of Fujian Province(1985)
+C,340,C2527,,25.9,N,117.3,E,Asia,China,,"S.China:Yongan,Fujian",Lower,Permian,,,Coals,Tongziyan,,The Bureau of Geology and Mineral Resoures of Fujian Province(1985)
+C,341,C2528,,26.7,N,117.4,E,Asia,China,,"S.China:Jiangle,Fujian",Lower,Permian,,,Coals,Tongziyan,,The Bureau of Geology and Mineral Resoures of Fujian Province(1985)
+C,342,C2529,,26.2,N,116.6,E,Asia,China,,"S.China:Ninghua,Fujian",Lower,Permian,,,Coals,Tongziyan,,The Bureau of Geology and Mineral Resoures of Fujian Province(1985)
+C,343,C2530,,25.7,N,116.7,E,Asia,China,,"S.China:Liancheng,Fujian",Lower,Permian,,,Coals,Tongziyan,,The Bureau of Geology and Mineral Resoures of Fujian Province(1985)
+C,344,C2531,,25.1,N,116,E,Asia,China,,"S.China:Wuping,Fujian",Lower,Permian,,,Coals,Tongziyan,,The Bureau of Geology and Mineral Resoures of Fujian Province(1985)
+C,345,C2532,,28,N,110.1,E,Asia,China,,"S.China:Chonxi,Hunan",Lower,Permian,,,Coals,Chihsia,,The Bureau of Geology and Mineral Resoures of Hunan Province(1988)
+C,346,C2533,,25,N,102.7,E,Asia,China,,"S.China:Kunming,Yunnan",Lower,Permian,,,Coals,Liangshan,,The Bureau of Geology and Mineral Resoures of Yunnan Province(1990)
+C,347,C2534,,24.9,N,102.8,E,Asia,China,,"S.China:Chengong,Yunnan",Lower,Permian,,,Coals,Liangshan,,The Bureau of Geology and Mineral Resoures of Yunnan Province(1990)
+C,348,C2535,,27.8,N,105,E,Asia,China,,"S.China:Weixing,Yunnan",Lower,Permian,,,Coals,Liangshan,,The Bureau of Geology and Mineral Resoures of Yunnan Province(1990)
+C,349,C2536,,25.8,N,100.5,E,Asia,China,,"S.China:Binzhou,Yunnan",Lower,Permian,,,Coals,Liangshan,,The Bureau of Geology and Mineral Resoures of Yunnan Province(1990)
+C,350,C2537,,26.9,N,107.9,E,Asia,China,,"S.China:Huangping,Guizhou",Lower,Permian,,,Coals,Liangshan,,"Liao Shi-fan,Liang Tong-rong(1991)"
+C,351,C2538,,74,N,100,E,Asia,C. I. S.(frm USSR),,Taymyr Basin,Lower,Permian,,,Coals,,,Petroconsultants(1977)
+C,352,C2539,,48,N,85,E,Asia,C. I. S.(frm USSR),,"Kenderlyk,Kazakhstan",Lower,Permian,,,Coals,,,Petroconsultants(1977)
+C,353,C2540,,66,N,95,E,Asia,C. I. S.(frm USSR),,Tunguska Basin,Lower,Permian,,,Coals,,,Petroconsultants(1977)
+C,354,C2541,,50.5,N,71,E,Asia,C. I. S.(frm USSR),,Tselinograd area,Lower?,Permian,,,Coals,Kayraktinskaya Suite,,The Rijks Geologische Dienst(1982)
+C,355,C2542,,50,N,78,E,Asia,C. I. S.(frm USSR),,Kaynama Coalfield,Lower,Permian,,Upper Carboniferous/Permian,Coals,Kayraktinskaya Suite,,The Rijks Geologische Dienst(1982)
+C,356,C2543,,50.2,N,79.2,E,Asia,C. I. S.(frm USSR),,Irtysh Coalfield,Lower,Permian,,Upper Carboniferous/Permian,Coals,Kayraktinskaya Suite,,The Rijks Geologische Dienst(1982)
+C,357,C2544,,54,N,83,E,Asia,C. I. S.(frm USSR),,Gorlov Basin,Lower,Permian,Asselian and Sakmarian,,Coals,"Promezhutnochnaya,Ishanovskaya Suites",,The Rijks Geologische Dienst(1982)
+C,358,C2545,,56,N,84,E,Asia,C. I. S.(frm USSR),,Kuznets Basin,Lower,Permian,Asselian and Sakmarian,,Coals,"Ishanovskaya,Promezhutochnaya Suites ",,The Rijks Geologische Dienst(1982)
+C,359,C2546,,53,N,91,E,Asia,C. I. S.(frm USSR),,Minusinsk Basin,Lower,Permian,Asselian and Sakmarian,,Coals,Narylkovskaya Suite,,The Rijks Geologische Dienst(1982)
+C,360,C2547,,54,N,91,E,Asia,C. I. S.(frm USSR),,Chernogorskoye Coalfield,Lower,Permian,Asselian,,Coals,Beloyarskaya Suite,,The Rijks Geologische Dienst(1982)
+C,361,C2548,,54,N,91,E,Asia,C. I. S.(frm USSR),,Izyhskoye Coalfield,Lower,Permian,Asselian and Sakmarian,,Coals,Narylkovskaya Suite,,The Rijks Geologische Dienst(1982)
+C,362,C2549,,53,N,91,E,Asia,C. I. S.(frm USSR),,Beiskoye Coalfield,Lower,Permian,Asselian and Sakmarian,,Coals,Narylkovskaya Suite,,The Rijks Geologische Dienst(1982)
+C,363,C2550,,64,N,102,E,Asia,C. I. S.(frm USSR),,Tunguska Basin,Lower,Permian,Asselian and Sakmarian,,Coals,lower Buruklinskaya Suite,,The Rijks Geologische Dienst(1982)
+C,364,C2551,,69.5,N,88,E,Asia,C. I. S.(frm USSR),,Norilsk Region,Lower,Permian,Asselian and Sakmarian,,Coals,lower Daldykinskaya Suite,,The Rijks Geologische Dienst(1982)
+C,365,C2552,,58,N,95.2,E,Asia,C. I. S.(frm USSR),,Kokuy Coalfiled,Lower,Permian,Asselian and Sakmarian,,Coals,Burguklinskaya Suite,,The Rijks Geologische Dienst(1982)
+C,366,C2553,,58,N,100.5,E,Asia,C. I. S.(frm USSR),,Angara Basin,Lower,Permian,Asselian and Sakmarian,,Coals,lower Buruklinskaya Suite,,The Rijks Geologische Dienst(1982)
+C,367,C2554,,68,N,102,E,Asia,C. I. S.(frm USSR),,Verkhnevilyui Region,Lower,Permian,Asselian and Sakmarian,,Coals,lower Buruklinskaya Suite,,The Rijks Geologische Dienst(1982)
+C,368,C2555,,72,N,108,E,Asia,C. I. S.(frm USSR),,Severo-Anabarskaya Area,Lower,Permian,Asselian and Sakmarian,,Coals,lower Buruklinskaya Suite,,The Rijks Geologische Dienst(1982),
+C,369,C2556,,76,N,100,E,Asia,C. I. S.(frm USSR),,Taymyr Basin,Lower,Permian,Asselian and Sakmarian,,Coals,Evenskaya Suite,,The Rijks Geologische Dienst(1982),
+C,370,C2557,,22,N,85,E,Asia,India,,Orssa,Lower,Permian,,,Coals,,,"Pareek,Bardhan(1985)",
+C,371,C2557.1,,24,N,86,E,Asia,India,,Koel-Damodar Valley basins,Lower,Permian,,,Coals,,,"Casshyap,Tewari(1984)",
+C,372,C2558,,-2,S,103,E,Asia,Indonesia,,"Jambi Province, Sumatra",Lower,Permian,,,Coals,Mengkarang,"see also Fontaine,Gafoer(1989),Mengkarang Fm",Fontaine(1986),
+C,373,C2559,,-1,S,131.5,E,Asia,Indonesia,,Vogelkop,L - U?,Permian,,"the dating is loose, i.e. probably somewhere in the Permian",Coals,Aifam,,"Visser,Hernes(1962)",
+C,374,C2560,,36,N,52,E,Asia,Iran,,Alborz Mountians,Lower,Permian,,,Coals,Dorud,,"Stepanov(1971, Fig, 1)",
+C,375,C2560.1,,36,N,51.3,E,Asia,Iran,,nearby Alborz Moutians,Lower,Permian,,,Coals,Dorud,,Lorenz(1964),
+C,376,C2561,,37,N,128,E,Asia,Korea,,South Korea,Lower,Permian,,,Coals,,,"Reinemund(1957),Baldwin(1957),Brill(1957),Hi(1956)","see also Reedman,Um(1976)"
+C,377,C2562,,37,N,129,E,Asia,Korea,,South Korea,Lower,Permian,,,Coals,,,Petroconsultants(1977),
+C,378,C2563,,35,N,127,E,Asia,Korea,,South Korea,Lower,Permian,,,Coals,,,Petroconsultants(1977),
+C,379,C2564,,39,N,127,E,Asia,Korea,,Pyongyang region,Lower?,Permian,,,Coals,,,Petroconsultants(1977),
+C,380,C2565,,18,N,103,E,Asia,Laos,,west of Ventiane,Lower?,Permian,,"Fontaine(1986)mentions U Carbon, or L Perm; Dang Vu Khuc(written comm.,1994; see also Phan Cu Tien et al.,1991)-coals are M Carniferous",Coals,,,Fontaine(1986),
+C,381,C2566,,16,N,106,E,Asia,Laos,,Vientiane and Salavan,Lower?,Permian,,"Fontaine(1986)mentions U Carbon, or L Perm; Dang Vu Khuc(written comm.,1994; see also Phan Cu Tien et al.,1991)-coals are M Carniferous",Coals,,,Fontaine(1986),
+C,382,C2567,,29,N,84,E,Asia,Nepal ,,,Lower,Permian,Sakmarian-Artinskian?,,Coals,Puchenpra,with coal in the lower member,Garzanti et al.(1994),
+C,383,C2567.1,,34,N,77.5,E,Asia,Pakistan,,Kashmir,Lower,Permian,,,Coals,,,"Gaetani,Garzanti(1991)",
+C,384,C2567.2,,32.8,N,72.5,E,Asia,Pakistan,,Salt Range,Lower,Permian,,,Coals,"Tobra Fm, Warchha Sandstone",,"Kazmi,Jan(1997, pp. 206-207)",
+C,385,C2567.3,,36,N,74.3,E,Asia,Pakistan,,north of Hunza,Lower?,Permian,,,Coals,,,"Kazmi,Jan(1997, p.483)",
+C,386,C2568,,18,N,74.3,E,Asia,Thailand,,,Lower?,Permian,,,Coals,,Anthracite,"Fontaine,Poumot(1988)",
+C,387,C2569,,-34,S,150,E,Australia,New South Wales,,"New South Wales-Victoria,Sydney Basin",Lower?,Permian,,,Coals,,,"Slansky(1985),Flood,Brady(1985) ",
+C,388,C2570,,-31,S,150,E,Australia,New South Wales,,Gunnedah Basin,Lower?,Permian,,,Coals,,,Petroconsultants(1977),
+C,389,C2571,,-23,S,149,E,Australia,Queenland,,Collinsville Coal Measures,Lower?,Permian,,,Coals,Collinsville Coal Measures,,Petroconsultants(1977),
+C,390,C2572,,-23,S,146,E,Australia,Queenland,,Galilee Basin Aramac Coal Measures,Lower?,Permian,,,Coals,Galilee Basin Aramac Coal Measures,,Day et al.(1983),
+C,391,C2573,,-28,S,150,E,Australia,Queenland,,Bowen Basin,Lower?,Permian,,,Coals,Orion,,Day et al.(1983),
+C,392,C2574,,-27,S,142,E,Australia,Queenland,,Cooper Basin and adjacent South Australia,Lower?,Permian,,,Coals,Patchawarra Fm-Gidgealpa Group ,,Battersby(1976),
+C,393,C2575,,-25,S,150,E,Australia,Queenland,,Bowen Basin,Lower?,Permian,,,Coals,Freitag,,"Paten,McDonagh(1976)",
+C,394,C2576,,-29,S,134,E,Australia,,,South Australia:Philippson Trough,Lower?,Permian,,,Coals,,,Petroconsultants(1977),
+C,395,C2576.1,,-26,S,136,E,Australia,,,South Australia:Pedirka Basin,Lower,Permian,Asselian-Sakmarian,,Coals,Puri,,Petroconsultants(1977),
+C,396,C2577,,-22,S,114,E,Australia,,,Western Australia:Carnarvon Basin,Lower,Permian,,,Coals,,,"Hocking(1988, Fig. 11)",
+C,397,C2578,,-29.5,S,115.5,E,Australia,,,Western Australia:Northern Perth Basin,Lower,Permian,Sakmarian,,Coals,Irvin River Coal Measures,"Mory,Iasky(1996) cite the Artinskian Irvin River Coal Measures","Mory,Iasky(1994)",see also Tupper et al.(1994)
+C,398,C2579,,-34,S,115,E,Australia,,,Western Australia:Vasse River Coalfield,Lower,Permian,Sakmarian,,Coals,Sue Coal Measures,,Le Blanc Smith(1990),
+C,399,C2579.1,,48.5,N,15.6,E,Europe,Austria ,,Zobing area,Lower,Permian,latest Sakmarian, early autunian,Coals,,,"Schinder,Hampe(1996)",
+C,400,C2580,,50,N,14,E,Europe,Czech Republic,,the Barrandian,Lower,Permian,Asselian-Sakmarian,Autunian,Coals,,,"Ziegler(1988, PL. 25)"
+C,401,C2581,,49,N,14,E,Europe,Czech Republic,,Rudolvov,Lower,Permian,Asselian-Sakmarian,Autunian,Coals,,,Petroconsultants(1977)
+C,402,C2582,,47,N,5,E,Europe,France,,Massif Central,Lower,Permian,,,Coals,,,"Hoehne(1964, Table 2)"
+C,403,C2583,,45,N,1,E,Europe,France,,Cublac,Lower,Permian,Asselian-Sakmarian,Autunian,Coals,,,The Rijks Geologische Dienst(1982)
+C,404,C2584,,47,N,3,E,Europe,France,,Aumance,Lower,Permian,Asselian-Sakmarian,Autunian,Coals,,,The Rijks Geologische Dienst(1982)
+C,405,C2585,,46,N,4,E,Europe,France,,Bert Coalfield,Lower,Permian,Asselian-Sakmarian,Autunian,Coals,,,The Rijks Geologische Dienst(1982)
+C,406,C2586,,47,N,4,E,Europe,France,,Autun-Epinac Coalfield,Lower,Permian,Asselian-Sakmarian,Autunian,Coals,,,The Rijks Geologische Dienst(1982)
+C,407,C2587,,47,N,4,E,Europe,France,,Aubigny-la-Ronce Coalfield,Lower,Permian,Asselian,Autunian/Stepanian,Coals,,,The Rijks Geologische Dienst(1982)
+C,408,C2588,,43,N,6,E,Europe,France,,Hy`eres,Lower,Permian,,,Coals,,,The Rijks Geologische Dienst(1982)
+C,409,C2589,,51,N,13,E,Europe,Germany,,Dohlen and Zwickau,Lower,Permian,,,Coals,,,"Hoehne(1964, Table 2)"
+C,410,C2590,,49,N,7,E,Europe,Germany,,Saar Basin and from the Saxothuringian Basin east of the Elbe Line,Lower,Permian,Asselian-Sakmarian,Autunian,Coals,,,"Ziegler(1988, PL. 25)"
+C,411,C2591,,50,N,12,E,Europe,Germany,,Stockheim and Erbendorf,Lower,Permian,,,Coals,,,Petroconsultants(1977)
+C,412,C2592,,52,N,11,E,Europe,Germany,,Ilfeld,Lower,Permian,,,Coals,lower Rotliegende,,Petroconsultants(1977)
+C,413,C2593,,51,N,11,E,Europe,Germany,,,Lower,Permian,,,Coals,Thuringian Rotliegende,,Petroconsultants(1977)
+C,414,C2594,,49,N,12.5,E,Europe,Germany,,noertheastern Bavaria,Lower,Permian,Asselian-Sakmarian,Autunian,Coals,,,Dill et al.(1991)
+C,415,C2595,,40,N,9,E,Europe,Italy,,"Seui, Sardinia",Lower,Permian,Asselian-Sakmarian,Autunian,Coals,,Anthracite,Petroconsultants(1977)
+C,416,C2596,,44,N,10,E,Europe,Italy,,Tuscany range,Lower,Permian,,,Coals,Monte Pisano,coal seam deposits,Vai(written comm.(1992),
+C,417,C2596.1,,42.5,N,10.3,E,Europe,Italy,,Elba,Lower,Permian,,Late Carboniferous to Early Permian,Coals,,humid climate fluval to transitional deposits ,Vai(written comm.(1992),
+C,418,C2596.2,,43.5,N,11.3,E,Europe,Italy,,central Tuscany,Lower,Permian,,Late Carboniferous to Early Permian,Coals,,humid climate fluval to transitional deposits ,Vai(written comm.(1992),
+C,419,C2597,,40,N,-8,W,Europe,Portugal,,Bucaco,Lower,Permian,Autunian?,Wagner et al.(1983c) assign the flora to Stephanian C?,Coals,,,Petroconsultants(1977),
+C,420,C2597.1,,41,N,-8,W,Europe,Portugal,,Porto region,Upper,Pennsylvian,,Stephanian,Coals,,,Nieto(2002),
+C,421,C2598,,43,N,0,,Europe,Spain,,,Lower,Permian,Asselian-Sakmarian,Autunian,Coals,,,Virgili et al.(1979),
+C,422,C2599,,39,N,-4,W,Europe,Spain,,Puertolleno,Lower,Permian,Asselian-Sakmarian,Autunian,Coals,,,"Gorsky et al.(1967, sheet 9)",
+C,423,C2600,,38,N,-6,W,Europe,Spain,,Villaneuva de las Minas,Lower,Permian,Asselian-Sakmarian,Autunian,Coals,,,"Gorsky et al.(1967, sheet 9)",
+C,424,C2601,,44,N,16,E,Europe,Former Yugoslavia,,Mlavsko-Pechskii coal basin,Lower?,Permian,,,Coals,,,Tsvetichanin(1976),
+C,425,C2602,,80,N,-90,W,North America,Canada,,Arctic: Melville Island,Lower,Permian,,no younger than Leonardian,Coals,Sabine Bay,,"Ricketts,Embry(1984)",
+C,426,C2603,,34,N,-111,W,North America,United States,,Arizona: eastern Arizona,Lower,Permian,Asselian-Sakmarian,Wolfcampian,Coals,,,Beaumont et al.(1971),
+C,427,C2604,,38,N,-97,W,North America,United States,,Kansas ,Lower,Permian,,,Coals,,,Schoewe(1951),
+C,428,C2605,,39,N,-79,W,North America,United States,,Maryland,Lower,Permian,,,Coals,Dunkard Group,"DiMichele(written comm.,1995)comments that these coals belong to the Dunkard Group",Swartz(1922),
+C,429,C2606,,40,N,-81,W,North America,United States,,Ohio,Lower,Permian,,,Coals,Dunkard Group,,"Brant,DeLong(1960)",
+C,430,C2607,,40,N,-79,W,North America,United States,,Pensylvania:southwestern Pennsylvania and adjacent areas,Lower,Permian,,,Coals,Dunkard Group,,Cecil et al.(1985),see also Edmunds(1999)
+C,431,C2608,,34,N,-100,W,North America,United States,,Texas:north-central Texas,Lower,Permian,,very earliest Wolfcampian,Coals,,,"DiMichele(written comm.,1995)",
+C,432,C2609,,39.6,N,-80,W,North America,United States,,West Virginia:Morgantown area,Lower,Permian,,,Coals,Dunkard Group,,"Presley(1979a,b)"
+C,433,C2610,,-32,S,-68,W,South America,Argentina,,La Rioja Province,Lower,Permian,,,Coals,,,"Volkheimer(1969, p. 559)"
+C,434,C2611,,-43,S,-70,W,South America,Argentina,,"San Juan, Mendoza and Chubut Provinces",Lower,Permian,,,Coals,,,"Volkheimer(1969, p. 559)"
+B,435,B2614,,38,N,112.5,E,Asia,China,,N.China:Taiyuan,Lower,Permian,,,Bauxite,Lower Shihhotse,bauxitic shales,Zhang Shan-zhen et al.(1982)
+B,436,B2615,,41,N,124,E,Asia,China,,N.China: Benxi,Lower,Permian,,,Bauxite,Lower Shihhotse,bauxitic shales,Zhang Shan-zhen et al.(1982)
+B,437,B2616,,41.9,N,126.4,E,Asia,China,,"N.China:Hunjiang,Jilin",Lower,Permian,,,Bauxite,Lower Shihhotse,,The Bureau of Geology and Mineral Resources of Jilin Province(1988) 
+B,438,B2617,,35.5,N,106.6,E,Asia,China,,"N.China:Pingliang,Gansu",Lower,Permian,,,Bauxite,Liangshan,,(unpublished data)
+B,439,B2618,,39.6,N,110.8,E,Asia,China,,"N.China:Junggar Banner,Neimongol",Lower,Permian,,,Bauxite,Shansi,,The Bureau of Geology and Mineral Resources of Neimongol Autonomous Region(1991)
+B,440,B2619,,26,N,108,E,Asia,China,,"S.China:Kveyang(sic. Guiyang),Kweichow(sic. Guizhou) Province",Lower,Permian,,Lower Permian(Hyp.),Bauxite,,,"Bardossy(1982, appendix 1)"
+B,441,B2620,,27.5,N,108.2,E,Asia,China,,S.China:Shiqian,Lower,Permian,,,Bauxite,Liangshan,,"Liao Shi-fan,Liang Tong-rong(1991)"
+B,442,B2621,,26.8,N,107.9,E,Asia,China,,S.China:Huangping,Lower,Permian,,,Bauxite,Liangshan,,"Liao Shi-fan,Liang Tong-rong(1991)"
+B,443,B2622,,30.1,N,102.9,E,Asia,China,,S.China:Lushan,Lower,Permian,,,Bauxite,Liangshan,,"Liao Shi-fan,Liang Tong-rong(1991)"
+B,444,B2623,,31.6,N,104.4,E,Asia,China,,S.China:Anxian,Lower,Permian,,,Bauxite,Liangshan,,"Liao Shi-fan,Liang Tong-rong(1991)"
+B,445,B2624,,32.4,N,105.8,E,Asia,China,,S.China:Guangyuan,Lower,Permian,,,Bauxite,Liangshan,,"Liao Shi-fan,Liang Tong-rong(1991)"
+B,446,B2625,,24,N,105,E,Asia,China,,S.China:Guangnan,Lower,Permian,,,Bauxite,Liangshan,,"Liao Shi-fan,Liang Tong-rong(1991)"
+B,447,B2626,,41.3,N,124.1,E,Asia,China,,S.China:Benxi,Lower,Permian,,,Bauxite,Lushan,,"Liao Shi-fan,Liang Tong-rong(1991)"
+B,448,B2627,,24.5,N,110.4,E,Asia,China,,"S.China:Lipu,Guangxi",Lower,Permian,,,Bauxite,Chihsia,,The Bureau of Geology and Mineral Resources of Guangxi Province(1985) 
+B,449,B2628,,24.6,N,110.6,E,Asia,China,,"S.China:Pingle,Guangxi",Lower,Permian,,,Bauxite,Chihsia,,The Bureau of Geology and Mineral Resources of Guangxi Province(1985) 
+B,450,B2629,,23.1,N,113.2,E,Asia,China,,"S.China:Guangzhou,Guangdong",Lower,Permian,,,Bauxite,Tongziyan,,The Bureau of Geology and Mineral Resources of Guangdong Province(1985) 
+B,451,B2630,,22.2,N,111.7,E,Asia,China,,"S.China:Yangchun,Guangdong",Lower,Permian,,,Bauxite,Tongziyan,,The Bureau of Geology and Mineral Resources of Guangdong Province(1985) 
+B,452,B2631,,26.8,N,107.9,E,Asia,China,,"S.China:Huangping,Guizhou",Lower,Permian,,,Bauxite,Liangshan,,"Liao Shi-fan,Liang Tong-rong(1991)"
+B,453,B2632,,27.7,N,106.9,E,Asia,China,,"S.China:Zunyi,Guizhou",Lower,Permian,,,Bauxite,Liangshan,,"Liao Shi-fan,Liang Tong-rong(1991)"
+B,454,B2633,,27.1,N,105.6,E,Asia,China,,"S.China:Dafang,Guizhou",Lower,Permian,,,Bauxite,Liangshan,,"Liao Shi-fan,Liang Tong-rong(1991)"
+B,455,B2634,,27.3,N,105.3,E,Asia,China,,"S.China:Biji,Guizhou",Lower,Permian,,,Bauxite,Liangshan,,"Liao Shi-fan,Liang Tong-rong(1991)"
+B,456,B2635,,27,N,106,E,Asia,China,,"S.China:Qianxi,Guizhou",Lower,Permian,,,Bauxite,Liangshan,,"Liao Shi-fan,Liang Tong-rong(1991)"
+B,457,B2636,,31.3,N,104.2,E,Asia,China,,"S.China:Mianzhu,Sichuan",Lower,Permian,,,Bauxite,Liangshan,,The Bureau of Geology and Mineral Resources of Sichuan Province(1991) 
+B,458,B2637,,28.8,N,105.4,E,Asia,China,,"S.China:Luzhou,Sichuan",Lower,Permian,,,Bauxite,Liangshan,,The Bureau of Geology and Mineral Resources of Sichuan Province(1991) 
+B,459,B2638,,29.5,N,104.6,E,Asia,China,,"S.China:Weiyuan,Sichuan",Lower,Permian,,,Bauxite,Liangshan,,The Bureau of Geology and Mineral Resources of Sichuan Province(1991) 
+B,460,B2639,,31,N,103.6,E,Asia,China,,"S.China:Guanxian,Sichuan",Lower,Permian,,,Bauxite,Liangshan,,The Bureau of Geology and Mineral Resources of Sichuan Province(1991) 
+B,461,B2640,,29,N,106.6,E,Asia,China,,"S.China:Qijiang,Sichuan",Lower,Permian,,,Bauxite,Liangshan,,The Bureau of Geology and Mineral Resources of Sichuan Province(1991) 
+B,462,B2641,,29.1,N,107,E,Asia,China,,"S.China:Nanchuan,Sichuan",Lower,Permian,,,Bauxite,Liangshan,,The Bureau of Geology and Mineral Resources of Sichuan Province(1991) 
+B,463,B2642,,28,N,105.7,E,Asia,China,,"S.China:Guling,Sichuan",Lower,Permian,,,Bauxite,Liangshan,,The Bureau of Geology and Mineral Resources of Sichuan Province(1991) 
+B,464,B2643,,28.2,N,105.4,E,Asia,China,,"S.China:Xuyong,Sichuan",Lower,Permian,,,Bauxite,Liangshan,,The Bureau of Geology and Mineral Resources of Sichuan Province(1991) 
+B,465,B2644,,31.6,N,104.4,E,Asia,China,,"S.China:Anxian,Sichuan",Lower,Permian,,,Bauxite,Liangshan,,Liao et al.(1991)
+B,466,B2645,,30.1,N,102.9,E,Asia,China,,"S.China:Lushan,Sichuan",Lower,Permian,,,Bauxite,Liangshan,,Liao et al.(1991)
+B,467,B2646,,32.4,N,105.8,E,Asia,China,,"S.China:Guangyuan,Sichuan",Lower,Permian,,,Bauxite,Liangshan,,Liao et al.(1991)
+B,468,B2647,,26.8,N,101.5,E,Asia,China,,"S.China:Yanbian,Sichuan",Lower,Permian,,,Bauxite,Liangshan,,Liao et al.(1991)
+B,469,B2648,,26.6,N,101.7,E,Asia,China,,"S.China:Panzhihua,Sichuan",Lower,Permian,,,Bauxite,Liangshan,,Liao et al.(1991)
+B,470,B2649,,30,N,99.1,E,Asia,China,,"S.China:Batang,Sichuan",Lower,Permian,,,Bauxite,Binfeng,,The Bureau of Geology and Mineral Resources of Sichuan Province(1991) 
+B,471,B2650,,30.3,N,108.9,E,Asia,China,,"S.China:Lichuan,Hubei",Lower,Permian,,,Bauxite,Liangshan,,Liao et al.(1991)
+B,472,B2651,,29.6,N,109.1,E,Asia,China,,"S.China:Xianfong,hubei",Lower,Permian,,,Bauxite,Liangshan,,Liao et al.(1991)
+B,473,B2652,,30.4,N,111.1,E,Asia,China,,"S.China:Changyang,Hubei",Lower,Permian,,,Bauxite,Liangshan,,Liao et al.(1991)
+B,474,B2653,,31.6,N,113.3,E,Asia,China,,"S.China:Suixian,Hubei",Lower,Permian,,,Bauxite,Liangshan,,Liao et al.(1991)
+B,475,B2654,,31.7,N,111.8,E,Asia,China,,"S.China:Nanzhang,Hubei",Lower,Permian,,,Bauxite,Liangshan,,Liao et al.(1991)
+B,476,B2655,,31.7,N,112.2,E,Asia,China,,"S.China:Yichang,Hubei",Lower,Permian,,,Bauxite,Liangshan,,Liao et al.(1991)
+B,477,B2656,,29.9,N,113.9,E,Asia,China,,"S.China:Jiayu,Hubei",Lower,Permian,,,Bauxite,Liangshan,,Liao et al.(1991)
+B,478,B2657,,30,N,114.9,E,Asia,China,,"S.China:Daye,Hubei",Lower,Permian,,,Bauxite,Liangshan,,Liao et al.(1991)
+B,479,B2658,,28,N,110.1,E,Asia,China,,"S.China:Chenxi,Hunan",Lower,Permian,,,Bauxite,Chihsia,,The Bureau of Geology and Mineral Resources of Hunan Province(1988) 
+B,480,B2659,,24,N,105,E,Asia,China,,"S.China:Guangnan,Yunnan",Lower,Permian,,,Bauxite,,,Liao et al.(1991)
+B,481,B2660,,24.6,N,106.5,E,Asia,China,,"S.China:Jinning,Yunnan",Lower,Permian,,,Bauxite,Liangshan,,Liao et al.(1991)
+B,482,B2661,,25.2,N,102.4,E,Asia,China,,"S.China:Fuming,Yunnan",Lower,Permian,,,Bauxite,Liangshan,,Liao et al.(1991)
+B,483,B2662,,24.9,N,102.4,E,Asia,China,,"S.China:Anning,Yunnan",Lower,Permian,,,Bauxite,Liangshan,,Liao et al.(1991)
+B,484,B2663,,25,N,102.7,E,Asia,China,,"S.China:Kunming,Yunnan",Lower,Permian,,,Bauxite,Liangshan,,Liao et al.(1991)
+B,485,B2664,,25.3,N,103,E,Asia,China,,"S.China:Songmin,Yunnan",Lower,Permian,,,Bauxite,Liangshan,,Liao et al.(1991)
+B,486,B2665,,25.5,N,103.2,E,Asia,China,,"S.China:Xundian,Yunnan",Lower,Permian,,,Bauxite,Liangshan,,Liao et al.(1991)
+B,487,B2666,,24.9,N,102.8,E,Asia,China,,"S.China:Chenggong,Yunnan",Lower,Permian,,,Bauxite,Liangshan,,Liao et al.(1991)
+B,488,B2667,,27.8,N,105,E,Asia,China,,"S.China:Weixing,Yunnan",Lower,Permian,,,Bauxite,Liangshan,,The Bureau of Geology and Mineral Resources of Yunnan Province(1990) 
+B,489,B2668,,25.8,N,100.5,E,Asia,China,,"S.China:Bingchuan,Yunnan",Lower,Permian,,,Bauxite,Liangshan,,The Bureau of Geology and Mineral Resources of Yunnan Province(1990) 
+B,490,B2669,,37,N,128,E,Asia,Korea,,,Lower,Permian,,,Bauxite,,,Odokii(1978)
+K,491,K2669.1,,-11.5,S,38,E,Africa,Tanzania,,,Lower,Permian,Sakmarian-Artinskian,,Kaolinite,Mpera Sandstone Menber-Mchuchuma,"basal,kaolinitic","Wopfner,Casshyap(1997)"
+K,492,K2670,,30.3,N,111.4,E,Asia,China,,N.China:Yidou,Lower,Permian,,,Kaolinite,Liangshan,kaolin,Tao Wei-ping et al.(1984)
+K,493,K2671,,35.2,N,113.2,E,Asia,China,,N.China:Jiaozhuo,Lower,Permian,,,Kaolinite,Shihhotese,kaolin,Tao Wei-ping et al.(1984)
+K,494,K2672,,33,N,113.2,E,Asia,China,,N.China:Huaibei,Lower,Permian,,,Kaolinite,Shihhotese,kaolin,Tao Wei-ping et al.(1984)
+K,495,K2673,,32.8,N,116.5,E,Asia,China,,N.China:Guqiao,Lower,Permian,,,Kaolinite,Shihhotese,kaolin,Tao Wei-ping et al.(1984)
+K,496,K2674,,36.7,N,117.5,E,Asia,China,,N.China:Zhangqiu,Lower,Permian,,,Kaolinite,Shihhotese,kaolin,Tao Wei-ping et al.(1984),
+K,497,K2675,,35.1,N,109.5,E,Asia,China,,N.China:Baishui,Lower,Permian,,,Kaolinite,Shihhotese,kaolin,Tao Wei-ping et al.(1984),
+K,498,K2676,,34.9,N,109.6,E,Asia,China,,N.China:Pucheng,Lower,Permian,,,Kaolinite,Shihhotese,kaolin,Tao Wei-ping et al.(1984),
+K,499,K2677,,34.5,N,113.3,E,Asia,China,,N.China:Mixian,Lower,Permian,,,Kaolinite,Shihhotese,kaolin,Tao Wei-ping et al.(1984),
+K,500,K2678,,35.1,N,113,E,Asia,China,,N.China:Boai,Lower,Permian,,,Kaolinite,Shihhotese,kaolin,Tao Wei-ping et al.(1984),
+K,501,K2679,,35,N,109.1,E,Asia,China,,N.China:Tongchuan ,Lower,Permian,,,Kaolinite,Shihhotese,kaolin,Tao Wei-ping et al.(1984),
+K,502,K2680,,34,N,110.1,E,Asia,China,,N.China:Luonan,Lower,Permian,,,Kaolinite,Shihhotese,kaolin,Tao Wei-ping et al.(1984),
+K,503,K2681,,41.3,N,124,E,Asia,China,,N.China:Benxi,Lower,Permian,,,Kaolinite,Shihhotese,kaolin,Tao Wei-ping et al.(1984),"Chen Xu,Boucot investigation,(1994)"
+K,504,K2682,,39.5,N,112.2,E,Asia,China,,"N.China:Pinglu,Shanxi",Lower,Permian,,,Kaolinite,Shihotze,,The Bureau of Geology and Mineral Resources of Shanxi Province(1989) ,
+K,505,K2683,,39.8,N,113.3,E,Asia,China,,"N.China:Huairen,Shanxi",Lower,Permian,,,Kaolinite,Shihotze,,The Bureau of Geology and Mineral Resources of Shanxi Province(1989) ,
+K,506,K2684,,65,N,95,E,Asia,C. I. S.(frm USSR),,Tunguska  ,Lower?,Permian,,,Kaolinite,,,Hoehne(1964),
+K,507,K2685,,56,N,84,E,Asia,C. I. S.(frm USSR),,Kuznetz,Lower?,Permian,,,Kaolinite,,,Hoehne(1964),
+K,508,K2686,,24,N,86,E,Asia,India,,"Iharia,Giridih,Ranigani and Bokaro",Lower?,Permian,,,Kaolinite,,tonstien,Burger(1978-1980),
+K,509,K2687,,47,N,4,E,Europe,France,,Autun-Epinac ,Lower,Permian,Asselian-Sakmarian,Autunian,Kaolinite,,,Burger(1978-1980),
+K,510,K2688,,50,N,14,E,Europe,Czech Republic,,Kladno-Slay and Manetin,Lower,Permian,Asselian-Sakmarian,Autunian,Kaolinite,,,Burger(1978-1980),
+K,511,K2689,,51,N,13,E,Europe,Germany,,Dohlen,Lower,Permian,,,Kaolinite,,,Hoehne(1964),
+K,512,K2690,,49,N,7,E,Europe,Germany,,Saar Nahe region,Lower?,Permian,,,Kaolinite,,kaolinitic tonstein,Heim(1960)
+K,513,K2691,,34,N,-100,W,North America,United States,,Texas:north-central Texas,Lower?,Permian,,,Kaolinite,,"kaolinite,with calcretes in other beds,and plants indicating both xeric and humid environs interbedded",Channey et al.(1994)

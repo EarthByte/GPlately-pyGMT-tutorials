@@ -1,0 +1,210 @@
+LithologyCode,LithNumber,OldIDNumber,,LAT,NS,LONG,EW,Continent,Country,,GeogComments,LMU,Period,Stage,AgeComments,Lithology,Formation,LithComments,PrimaryReference,SeeAlso
+E,1,E1120,,32,N,-4,W,Africa,Algeria,,Tindouf Basin,Upper,Mississippian,,,Evaporites,,,Cavaroc et al.(1976),
+E,2,E1121,,26,N,-2,W,Africa,Algeria,,Hassi-Taibine Reggan Basin,Upper,Mississippian,Serpuklovian,,Evaporites,,,Cavaroc et al.(1976),
+E,3,E1121.1,,25,N,15,E,Africa,Niger,,Djado Basin,Upper,Mississippian,Serpuklovian,,Evaporites,,,"Mergl,Massa(2000)",
+E,4,E1122,,40,N,78,E,Asia,China,,Tarim:Bachu,L - M,Mississippian,,Lower Carboniferous,Evaporites,"Bachu,Kalashayi",,Guan Shi-cong et al.(1984),
+E,5,E1123,,41,N,89,E,Asia,China,,Tarim:Kuluktage,L - M,Mississippian,,Lower Carboniferous,Evaporites,,,Guan Shi-cong et al.(1984),
+E,6,E1124,,41,N,89,E,Asia,China,,Tarim:Kuluktage,L - M,Mississippian,,Lower Carboniferous,Evaporites,,,Guan Shi-cong et al.(1984),
+E,7,E1125,,41.5,N,80,E,Asia,China,,Tarim:Wensu,L - M,Mississippian,,Lower Carboniferous,Gypsum,Yeyungou,,Liao Wei-hua et al.(1990),
+E,8,E1125.1,,40.5,N,77,E,Asia,China,,"Tarim:Holashan,south Tianshan",M - U,Mississippian,,Middle Carboniferous,Gypsum,,,"Liang Yun-hai,Li Wen-quiang(2000)",
+E,9,E1126,,37.5,N,105,E,Asia,China,,Chaidam:Zhongwei,L - M,Mississippian,,Lower Carboniferous,Evaporites,,,Wang Hong-zhen(1985),
+E,10,E1127,,37,N,105,E,Asia,China,,Chaidam:Jingyuan,L - M,Mississippian,,Lower Carboniferous,Evaporites,,,Wang Zhen-ji(1990),
+E,11,E1128,,38,N,96,E,Asia,China,,Chaidam:Erlongbuluke,L - M,Mississippian,,Lower Carboniferous,Evaporites,,,"The Stratigraphic Team of Qilianshan,Academia Sinica(1958)",
+E,12,E1129,,46,N,72,E,Asia,C. I. S.(fm USSR),,Chu-Sarysu,L - M - U,Mississippian,"Tournaisian,Visean,Serpukhovian",,Evaporites,,,"Zharkov(1981, Figs. 9,10,21, pp. 36-42, 113-116)",
+E,13,E1130,,42,N,75,E,Asia,C. I. S.(fm USSR),,Mid-Tein Shan Basin,M - U,Mississippian,"Visean,Serpukhovian",,Evaporites,,,"Zharkov(1981, Figs. 9,10,21, pp. 36-42, 113-116)",
+E,14,E1131,,52,N,95,E,Asia,C. I. S.(fm USSR),,Tuva,L - M - U,Mississippian,,,Evaporites,,analcime bearing lake beds,Buryanova(1960),
+E,15,E1131.1,,16,N,100.75,E,Asia,Thailand,,Phicit-Nakhon Sawon,L - M - U,Mississippian,,Early to Middle Carboniferous,Evaporites,,,Pisutha-Arnold et al.(1997),
+E,16,E1132,,50,N,50,E,Europe,C. I. S.(fm USSR),,East Europeean Volga-Ural Basin,L - M - U,Mississippian,"Tournaisian,Visean,Serpukhovian",,Evaporites,,,"Mork(oral comm.,1993)mentions Serpukhovian On South Island,Novaya Zemlya",see also Bugge et al.(1995)
+E,17,E1132.1,,68,N,49,E,Europe,C. I. S.(fm USSR),,Kolguev Island,L - M - U,Mississippian,,,Anhydrite,,,Preobrazhenskaya et al.(1995),
+E,18,E1133,,72,N,18,E,Europe,Norway,,Nordkapp Basin,M - U,Mississippian,"Visean,Serpukhovian",,Evaporites,,,"Johansen et al.(1993, Fig. 5)",
+E,19,E1133.1,,78,N,32,E,Europe,Svalbard,,,Upper,Mississippian,Serpuklovian,,Evaporites,Munien,,"Harland(1997, p. 72,162)",
+E,20,E1134,,50,N,-100,W,N. America,Canada,,"Alberta,British Columbia,Yukon Terr.,Dist. of Mackenzie,Williston Basin:also Saskatchewan,N. Dakota",M - U,Mississippian,,,Evaporites,,,"Fuller,Porter(1969)",
+E,21,E1135,,50,N,-115,W,N. America,Canada,,"Alberta,British Columbia,Yukon Terr.,Dist. of Mackenzie,Williston Basin:also Southern pt NW Territory",M - U,Mississippian,,,Evaporites,,,Meijer Drees(1986),
+E,22,E1136,,60,N,-125,W,N. America,Canada,,"Alberta,British Columbia,Yukon Terr.,Dist. of Mackenzie,Williston Basin:also Southern pt NW Territory",M - U,Mississippian,,,Evaporites,,,Meijer Drees(1986),
+E,23,E1137,,80,N,-85,W,N. America,Canada,,Arctic:Sverdrup Basin,Upper,Mississippian,,latest Mississipian above older Mississippian and Devonian coals,Evaporites,"Ellesmereland,Axel Heiberg,Amund Ringnes,Ellef Ringnes,Melville Islands",,Davies(1973),
+E,24,E1137.1,,80,N,-90,W,N. America,Canada,,Arctic:Sverdrup Basin,Upper,Mississippian,,latest Mississipian above older Mississippian and Devonian coals,Evaporites,"Ellesmereland,Axel Heiberg,Amund Ringnes,Ellef Ringnes,Melville Islands",,Davies(1973),
+E,25,E1137.2,,76,N,-112,W,N. America,Canada,,Arctic:Sverdrup Basin,Upper,Mississippian,,latest Mississipian above older Mississippian and Devonian coals,Evaporites,"Ellesmereland,Axel Heiberg,Amund Ringnes,Ellef Ringnes,Melville Islands",,Davies(1973),
+E,26,E1137.3,,78,N,-100,W,N. America,Canada,,Arctic:Sverdrup Basin,Upper,Mississippian,,latest Mississipian above older Mississippian and Devonian coals,Evaporites,"Ellesmereland,Axel Heiberg,Amund Ringnes,Ellef Ringnes,Melville Islands",,Davies(1973),
+E,27,E1137.4,,69.5,N,-144,W,N. America,United States,,Alaska:Sadlerochit Mountians,Upper,Mississippian,Chesterian,,Gypsum,Alapah Limestone,gypsum pseudomorphs,Armstrong(1975a),
+E,28,E1137.5,,69.5,N,-146,W,N. America,United States,,Alaska:Sadlerochit Mountians,Upper,Mississippian,Chesterian,,Evaporites,Alapah Limestone,,Gruzlovic(1991),"see also Mamet,Batz,1989,Kayak and lower Alpah formations"
+E,29,E1137.6,,36,N,-87,W,N. America,United States,,Tennessee:eastern Tennessee,Upper,Mississippian,,,Gypsum,Bangor Limestone(strata poss. older than L Miss.coal beds of this region),gypsum pseudomorphs,"Algeo,Rich(1992)",
+E,30,E1137.7,,47,N,-104,W,N. America,United States,,Williston Basin(Montana and Nort Dakota),Upper,Mississippian,,,Evaporites,Big Snowy Group,,Johnson(1989),
+CA,31,CA1138,,37,N,-83,W,N. America,United States,,Kentucky:northeastern Kentucky,L - M - U,Mississippian,,,Calcretes,,,Walls et al.(1975),
+CA,32,CA1139,,41,N,-76,W,N. America,United States,,Pennsylvania,Upper,Mississippian,Chesterian,,Calcretes,Mauch Chunk,,"Mora et al.(1991; Mora et al.,1998)",
+CA,33,CA1140,,36,N,-85,W,N. America,United States,,Tennessee,Upper,Mississippian,Chesterian,,Calcretes,Pennington,,"Caudill et al.(1992,1996)",
+CA,34,CA1141,,39,N,-79,W,N. America,United States,,West Virginia,Upper,Mississippian,Meramecian-Chesterian,,Calcretes,Greenbriar,,"Al-Tawil,Read(1993)","see also Englund et al.,1981, Bluestone Fm"
+CA,35,CA1142,,37.5,N,-81,W,N. America,United States,,West Virginia,Upper,Mississippian,,,Calcretes,Bluestone,,Cecil et al.(1992),
+T,36,T1142.1,,-52,S,-60,W,N. America,Falkland Islands,,West Falkland,Upper,Mississippian,Late Visean-Early Namurian,palynologically dated,Tillites,,diamictite dike,Hyam et al.(1996),
+C,37,C1143,,40,N,82,E,Africa,Egypt,,Sinai,L - M - U,Mississippian,,,Coals,,,"Feys,Fabre(1996;and references therein)",
+C,38,C1144,,40,N,82,E,Asia,China,,Tarim:Tarim Platform,Upper,Mississippian,,Mississippian(C 1-2),Coals,,,Bing Hu et al.(1969),
+C,39,C1145,,37,N,96,E,Asia,China,,Chaidam:Huaitoutala,Upper,Mississippian,,,Coals,Huaitoutala,,"The Stratigraphic Team of Qilianshan,Academia Sinica(1958)",
+C,40,C1146,,41,N,95,E,Asia,China,,Chaidam:Beishan,Upper,Mississippian,,,Coals,Choniukou,,Wang Zhen-ji(1990),
+C,41,C1147,,39,N,109,E,Asia,China,,Chaidam:Sunan,Upper,Mississippian,,,Coals,Choniukou,,Wang Zhen-ji(1990),
+C,42,C1148,,46,N,128,E,Asia,China,,N. China:Yanshou,M - U,Mississippian,,late Early Carboniferous,Coals,,,Wang Hong-zhen(1985),
+C,43,C1149,,37.3,N,105.2,E,Asia,China,,"N. China:Zhongwei,Ningxia",Upper,Mississippian,,,Coals,Hongtuwa,,Wang et al.(1990),
+C,44,C1150,,25,N,116.5,E,Asia,China,,S. China:Shanghang-Yongding area,Upper,Mississippian,,,Coals,Linde,,The Compiling Group of the Regional Stratgraphic Chart of Fujian(1979),
+C,45,C1150.1,,26,N,117,E,Asia,China,,S. China:Qingliu,Upper,Mississippian,,,Coals,Linde,,The Compiling Group of the Regional Stratgraphic Chart of Fujian(1979),
+C,46,C1151,,33,N,112,E,Asia,China,,S. China:Xixiang,L - M - U,Mississippian,,Early  Carboniferous,Coals,Muzhuba Member,,Guan Shi-qiao(1989),
+C,47,C1152,,33.5,N,110,E,Asia,China,,S. China:Shanyang,Upper,Mississippian,,,Coals,Eryuhe,,Wang Zhen-ji(1990),
+C,48,C1153,,30,N,102,E,Asia,China,,S. China:Kangding,Upper,Mississippian,,,Coals,Changyanwo,,Wang Zhen-ji(1990)
+C,49,C1154,,26,N,107,E,Asia,China,,S. China:Huishui,Upper,Mississippian,,,Coals,Xaingbai,,Wang Zhen-ji(1990)
+C,50,C1155,,29,N,118,E,Asia,China,,S. China:Kaihua,Upper,Mississippian,,,Coals,Yejiatang,,Wang Zhen-ji(1990)
+C,51,C1156,,30.5,N,114.5,E,Asia,China,,S. China:Wushan,L - M - U,Mississippian,,Early  Carboniferous,Coals,,,The Compiling Group of the Regional Stratgraphic Chart of central-South China(1974)
+C,52,C1157,,28,N,113.5,E,Asia,China,,S. China:Liuyang-Liling-Zhuzhou-Changsha area,Upper,Mississippian,,,Coals,,,The Compiling Group of the Regional Stratgraphic Chart of central-South China(1974)
+C,53,C1158,,25.5,N,110,E,Asia,China,,S. China:Ningyuan-Jiangyong Area,Upper,Mississippian,,,Coals,Chaishui,,The Compiling Group of the Regional Stratgraphic Chart of central-South China(1974)
+C,54,C1159,,24.5,N,108.5,E,Asia,China,,S. China:Huanjiang-Locheng-Liuzhou area,Upper,Mississippian,,,Coals,Szumen,,The Compiling Group of the Regional Stratgraphic Chart of central-South China(1974)
+C,55,C1160,,25.5,N,113,E,Asia,China,,S. China:Guiyang-Yizhang,L - M - U,Mississippian,,Early  Carboniferous,Coals,,,The Compiling Group of the Regional Stratgraphic Chart of central-South China(1974)
+C,56,C1161,,23,N,111.5,E,Asia,China,,S. China:Loding,L - M - U,Mississippian,,Early  Carboniferous,Coals,,,The Compiling Group of the Regional Stratgraphic Chart of central-South China(1974)
+C,57,C1162,,22,N,110,E,Asia,China,,S. China:Lianjiang-Hepu,Upper,Mississippian,,Early  Carboniferous,Coals,,,The Compiling Group of the Regional Stratgraphic Chart of central-South China(1974)
+C,58,C1163,,24,N,114,E,Asia,China,,S. China:Wengyuan,Upper,Mississippian,,Early  Carboniferous,Coals,,,The Compiling Group of the Regional Stratgraphic Chart of central-South China(1974)
+C,59,C1164,,23,N,113,E,Asia,China,,S. China:Kaoxiao-Kaoche-Huaxian,Upper,Mississippian,,Early  Carboniferous,Coals,,,The Compiling Group of the Regional Stratgraphic Chart of central-South China(1974)
+C,60,C1165,,23,N,114,E,Asia,China,,S. China:Huiyang,Upper,Mississippian,,Early  Carboniferous,Coals,,,The Compiling Group of the Regional Stratgraphic Chart of central-South China(1974)
+C,61,C1166,,32,N,119,E,Asia,China,,S. China:Jorong,Middle,Mississippian,Visean,,Coals,Kaolishan,,Li Han-ming(1989)
+C,62,C1167,,25.25,N,108,E,Asia,China,,S. China:Huanjing-Libo,Upper,Mississippian,,,Coals,Szumen,,Tang Zhong-wei(1991)
+C,63,C1168,,25,N,103,E,Asia,China,,"S. China:Yiliang Coal Field, eastern Yunnan",Middle,Mississippian,Visean,,Coals,Washoushan,,Beijing Acad. Coal Sci.(1959)
+C,64,C1168.1,,21.9,N,108.6,E,Asia,China,,"S. China:Qinzhou,Guangxi",L- M,Mississippian,,Lower Carboniferous,Coals,,,Wu Hao-ruo et al.(2001)
+C,65,C1169,,30,N,90,E,Asia,China,,"Xizang:Tanggula Shan,Tanggula subregion,Qiangtang region(Tbl 2),Qamdo subregion,Qiantag region(Tbl 3),Tibet",L - M - U,Mississippian,,,Coals,,,"Tanner,Meyerhoff(1990)"
+C,66,C1170,,30,N,98,E,Asia,China,,Xizang:Mangkang-Zhuogong,L - M,Mississippian,,Lower Carboniferous,Coals,,,Wang Zhen-ji(1990)
+C,67,C1171,,33,N,95,E,Asia,China,,Xizang:Zaduo,L - M,Mississippian,,Lower Carboniferous,Coals,,,Wang Zhen-ji(1990)
+C,68,C1172,,52,N,74,E,Asia,C. I. S.(fm USSR),,Teniz-Korzhankul Basin,Upper,Mississippian,,,Coals,,,Petroconsultants(1977)
+C,69,C1173,,51,N,73,E,Asia,C. I. S.(fm USSR),,Akzhar,Upper,Mississippian,,,Coals,,,Petroconsultants(1977)
+C,70,C1174,,50,N,73,E,Asia,C. I. S.(fm USSR),,Karaganda Basin,Upper,Mississippian,,,Coals,"Borlin,Karaganda Series",,Petroconsultants(1977)
+C,71,C1175,,50,N,74,E,Asia,C. I. S.(fm USSR),,Kuu-Cheko,Upper,Mississippian,,,Coals,,,Petroconsultants(1977)
+C,72,C1176,,53,N,91,E,Asia,C. I. S.(fm USSR),,Minusinsk Basin,Upper,Mississippian,,,Coals,Khakasskiy Group,,Petroconsultants(1977)
+C,73,C1177,,53.5,N,69.5,E,Asia,C. I. S.(fm USSR),,Kokchetav Coalfield,M - U,Mississippian,Upper Visean/Namurian,,Coals,Karagandinskaya Suite,,The Rijks Geologische Dienst(1982)
+C,74,C1178,,50.5,N,71,E,Asia,C. I. S.(fm USSR),,Tselinograd area,M - U,Mississippian,Upper Visean/Namurian,,Coals,Karagandinskaya Suite,,The Rijks Geologische Dienst(1982)
+C,75,C1179,,53,N,71.5,E,Asia,C. I. S.(fm USSR),,Koksengir Coalfield,M - U,Mississippian,Upper Visean/Namurian,,Coals,Karagandinskaya Suite,,The Rijks Geologische Dienst(1982)
+C,76,C1180,,52,N,72.5,E,Asia,C. I. S.(fm USSR),,Tamsor Coalfield,M - U,Mississippian,Upper Visean/Namurian,,Coals,Karagandinskaya Suite,,The Rijks Geologische Dienst(1982)
+C,77,C1181,,51,N,76.5,E,Asia,C. I. S.(fm USSR),,"Karaganda BasinZhamantuz Coalfield,",M - U,Mississippian,Upper Visean/Namurian,,Coals,Karagandinskaya Suite,,The Rijks Geologische Dienst(1982)
+C,78,C1182,,52,N,74.5,E,Asia,C. I. S.(fm USSR),,Koytas Coalfield,M - U,Mississippian,Visean/Namurian,,Coals,Karagandinskaya Suite,,The Rijks Geologische Dienst(1982)
+C,79,C1183,,54,N,83,E,Asia,C. I. S.(fm USSR),,Gorlov Basin,Upper,Mississippian,Serpuklovian,,Coals,Karagandinskaya Suite,,The Rijks Geologische Dienst(1982)
+C,80,C1184,,56,N,84,E,Asia,C. I. S.(fm USSR),,Kuznets Basin,L - M - U,Mississippian,Tournasian to Serpukhovian,,Coals,"Mozhukhinskaya,Ostrogskaya Suites",,The Rijks Geologische Dienst(1982),
+C,81,C1185,,53,N,91,E,Asia,C. I. S.(fm USSR),,Minusinsk Basin,Upper,Mississippian,Serpuklovian,,Coals,Konglomeratovaya Suite,,The Rijks Geologische Dienst(1982),
+C,82,C1186,,54,N,91,E,Asia,C. I. S.(fm USSR),,Chernogorskoye Coalfield,Upper,Mississippian,Serpuklovian,,Coals,Konglomeratovaya Suite,,The Rijks Geologische Dienst(1982),
+C,83,C1187,,54,N,91,E,Asia,C. I. S.(fm USSR),,Izkhskoye Coalfield,Upper,Mississippian,Serpuklovian,,Coals,Konglomeratovaya Suite,,The Rijks Geologische Dienst(1982),
+C,84,C1188,,53,N,91,E,Asia,C. I. S.(fm USSR),,Beiskoye Coalfield,Upper,Mississippian,Serpuklovian,,Coals,"Sarskaya,Sokhkelskaya Suites",,The Rijks Geologische Dienst(1982),
+C,85,C1189,,53,N,91,E,Asia,C. I. S.(fm USSR),,Askizskoye Coalfield,Upper,Mississippian,Serpuklovian,,Coals,Konglomeratovaya Suite,,The Rijks Geologische Dienst(1982),
+C,86,C1190,,50,N,93,E,Asia,C. I. S.(fm USSR),,Onkazhinskoye Coalfield,Upper,Mississippian,Serpuklovian,,Coals,Onkazhinskaya Suite,,The Rijks Geologische Dienst(1982),
+C,87,C1191,,51,N,93,E,Asia,C. I. S.(fm USSR),,Aktalskoye Coalfield,Upper,Mississippian,Serpuklovian,,Coals,Onkazhinskaya Suite,,The Rijks Geologische Dienst(1982),
+C,88,C1192,,5,N,102.4,E,Asia,Malaysia,,Terengganu,Upper,Mississippian,,Late Mississippian,Coals,,,"Jennings,Lee(1985)",
+C,89,C1193,,47,N,92,E,Asia,Mongolia,,northern Altai,L - M - U,Mississippian,,,Coals,,,"Marinov,Cherepovskiy(1969)",
+C,90,C1194,,17.5,N,102,E,Asia,Thailand,,Na Duang Coal Mine,M - U,Mississippian,Late Visean-Early Namurian,"beds possibly same age as ""M. Carboniferous"" nr Vientiane in neighboring Laos",Coals,,flora,Laveine et al.(1994),
+C,91,C1195,,41.5,N,32,E,Asia,Turkey,,Zonguldak region ,Upper,Mississippian,Namurian A,,Coals,,,Kerey et al.(1986),
+C,92,C1196,,-33,S,152,E,Australia,New South Wales,,,Upper,Mississippian,,,Coals,"Flagstaff,Wallaringa",,Diessel(1975),
+C,93,C1197,,-13,S,143,E,Australia,Queensland,,"Pascoe River District,Cape York Penisula",Upper,Mississippian,,,Coals,Pascoe River Beds,,Petroconsultants(1977),Day et al.(1983) see also Carr(1975) cite them as the Pascoe River Beds
+C,94,C1197.1,,46.5,N,13,E,Europe,Austria,,Carnic Alps,Upper,Mississippian,Namurian to poss latest Visean,,Coals,Hochwipfel Schichten ,,Vai(1976),
+C,95,C1197.2,,46.5,N,13.5,E,Europe,Austria,,Carnic Alps,Upper,Mississippian,"Namurian A-B, and poss latest Visean",,Coals,Hochwipfel Schichten ,,Selli(1963),
+C,96,C1198,,51,N,6,E,Europe,Belgium,,"Coalfields of:Herve,Basse-Sambre,Centre,Couchant de Mons,Charleroi,Andenne-Huy,Liege in the Southern Basin",Upper,Mississippian,Namurian A,,Coals,,,The Rijks Geologische Dienst(1982)
+C,97,C1199,,50,N,5,E,Europe,Belgium,,Campine Coalfield in the Campine Brabant Basin and the Dinant Basin,Upper,Mississippian,Namurian A,,Coals,,,The Rijks Geologische Dienst(1982)
+C,98,C1200,,50,N,36,E,Europe,C. I. S.(fm USSR),,Dnepr-Donets Coalfields,Upper,Mississippian,Visean and Serpukhovian,,Coals,,,The Rijks Geologische Dienst(1982)
+C,99,C1201,,42,N,46,E,Europe,C. I. S.(fm USSR),,Donets Basin,Upper,Mississippian,Visean and Serpukhovian,,Coals,,,The Rijks Geologische Dienst(1982)
+C,100,C1203,,52,N,30,E,Europe,C. I. S.(fm USSR),,Pripyat Coalfields,Upper,Mississippian,Visean and Serpukhovian,,Coals,,,The Rijks Geologische Dienst(1982)
+C,101,C1204,,52,N,29,E,Europe,C. I. S.(fm USSR),,Zaozernoye Coalfiled,Upper,Mississippian,Visean and Serpukhovian,,Coals,,,The Rijks Geologische Dienst(1982)
+C,102,C1204.1,,56,N,84,E,Europe,C. I. S.(fm USSR),,Kuznets Basin,Upper,Mississippian,Serpuklovian,,Coals,Ostrogskaya Suite,,The Rijks Geologische Dienst(1982)
+C,103,C1204.2,,48,N,38,E,,,,,,,,,,,,
+C,104,C1205,,47,N,4,E,Europe,France,,"Autun Basin,northeast of the Massif Central",L - M - U,Mississippian,,,Coals,,,"Feys,Greber(1964)"
+C,105,C1206,,50,N,3,E,Europe,France,,Franch Basin of Northern France,Upper,Mississippian,Namurian A,,Coals,,,"Ziegler(1988, Pl. 24)"
+C,106,C1207,,48,N,1,E,Europe,France,,Chateaulin-Laval Coalfield,Upper,Mississippian,Namurian/Culm,,Coals,,,The Rijks Geologische Dienst(1982)
+C,107,C1208,,47,N,1,E,Europe,France,,Ancenis-Saumur Coalfield,Upper,Mississippian,Culm,,Coals,,,The Rijks Geologische Dienst(1982)
+C,108,C1209,,46,N,2,E,Europe,France,,Chateau-sur-Cher Coalfield,Upper,Mississippian,Culm,,Coals,,,The Rijks Geologische Dienst(1982)
+C,109,C1210,,46,N,4,E,Europe,France,,Roannais Basin,Upper,Mississippian,Culm,,Coals,,,The Rijks Geologische Dienst(1982)
+C,110,C1211,,47,N,4,E,Europe,France,,Poloy Coalfield,Upper,Mississippian,Culm,,Coals,,,The Rijks Geologische Dienst(1982)
+C,111,C1212,,52,N,7,E,Europe,Germany,,Rhenish Massif west of the Rhine,Upper,Mississippian,Serpuklovian(Namurian A),,Coals,,,"Hoehne(1964, Table 2)"
+C,112,C1213,,48,N,8,E,Europe,Germany,,Berghaupten/Dierburg,Upper,Mississippian,,presumbly late Mississippian,Coals,,,Petroconsultants(1977),
+C,113,C1214,,50.75,N,6,E,Europe,Germany,,Achen,Upper,Mississippian,Namurian A,,Coals,,,Bernecker et al.(1986),
+C,114,C1214.1,,46.5,N,13,E,Europe,Italy,,Carnic Alps,Upper,Mississippian,poss Namurian A-B w poss late. Visean,,Coals,,,Selli(1963),
+C,115,C1215,,54.5,N,-7,W,Europe,Ireland,,Dungannon area,Upper,Mississippian,Namurian A,,Coals,,,"Mitchell(1992, Fig. 3)",
+C,116,C1216,,55,N,-6,W,Europe,Ireland,,"Antrim region,Northern Ireland, near the Giant's Causway",Upper,Mississippian,,Brigantian Age,Coals,,,Sevastopulo(written comm.(1990),
+C,117,C1217,,54,N,-8,W,Europe,Ireland,,Lough Allen Coalfield,Upper,Mississippian,Lower Namurian,,Coals,,,Petroconsultants(1977),
+C,118,C1218,,52,N,16,E,Europe,Poland,,southwestern Poland,Upper,Mississippian,Lower Namurian,,Coals,Walbrzych,,"Mastalerz,Smyth(1988)",
+C,119,C1219,,51,N,22.5,E,Europe,Poland,,"Upper Silesian Basin,Lublin Basin,Holy Cross Mountians",Upper,Mississippian,Namurian A,,Coals,,,"Ziegler(1988, Pl. 24)",
+C,120,C1219.1,,71.5,N,28.5,E,Europe,Norway,,Finnmark Platform,Middle,Mississippian,Visean,,Coals,,,Ehrenberg et al.(1998),
+C,121,C1220,,38.5,N,-5.5,W,Europe,Spain,,"Guadiato area,from the Sierra Morena region",Upper,Mississippian,Namurian,,Coals,,,Wagner et al.(1983b),
+C,122,C1221,,75,N,19,E,Europe,"Svalbard,Bear Ise.",,Bear Island,L - M - U,Mississippian,,,Coals,Ursa Sandstone,,Major et al.(1956),
+C,123,C1222,,78,N,12,E,Europe,"Svalbard,Bear Ise.",,western Svalbard,L - M - U,Mississippian,Tournasian to Serpukhovian,,Coals,,,"Ziegler(1988, Pl. 22)",
+C,124,C1223,,55,N,-3,W,United Kingdom,England,,Northern England,L - M - U,Mississippian,,,Coals,,,Johnson(1960),
+C,125,C1224,,54,N,0,W,United Kingdom,England,,East Pennine Coalfield,Upper,Mississippian,Namurian,,Coals,Millstone Grit,,The Rijks Geologische Dienst(1982),
+C,126,C1225,,56,N,4,E,United Kingdom,Scotland,,"Midland Valley,and (Central North Sea)",Upper,Mississippian,Namurian A,,Coals,,,"Ziegler(1988, Pl. 22)(Pl.23)(Pl.22)",
+C,127,C1226,,56,N,-4,W,United Kingdom,Scotland,,,L - M - U,Mississippian,,,Coals,,,"Francis(in Criag,1965)",see also Petrocinsultants(1977)
+C,128,C1227,,55,N,-2,W,United Kingdom,Scotland,,,L - M - U,Mississippian,,,Coals,Machrihanish Limestone Group,,Petroconsultants(1977),
+C,129,C1228,,58,N,-2,W,United Kingdom,Scotland,,Outer Moray Firth basin,L - M - U,Mississippian,,,Coals,,,"Leeder,Boldy(1990)",
+C,130,C1229,,56,N,-3.5,W,United Kingdom,Scotland,,Fife Coalfield,Upper,Mississippian,Namurian A,,Coals,"Upper Limestone Group,Limestone Coal Group",,The Rijks Geologische Dienst(1982),
+C,131,C1230,,55.5,N,-6,W,United Kingdom,Scotland,,"Stirling,Clackmannan,Midlothian,W.Lothian,Central C. Ayrshire,N. Ayrshire,Dailly, Douglas at Machrhanish",Upper,Mississippian,Namurian A,,Coals,"Upper Limestone Group,Limestone Coal Group",,The Rijks Geologische Dienst(1982),
+C,132,C1231,,55,N,-6,W,United Kingdom,Scotland,,Ballycastle,Upper,Mississippian,Namurian,,Coals,"Upper Limestone Group,Limestone Coal Group",,The Rijks Geologische Dienst(1982),
+C,133,C1231.1,,57.7,N,0.4,E,,,,,,,,,,,,,
+C,134,C1232,,61,N,-124,W,N. America,Canada,,Arctic:South Nahanni-Mattson Coalfield,M - U,Mississippian,Visean-Serpukhovian,,Coals,,,The Rijks Geologische Dienst(1982),"see also Potter et al.,(1993)"
+C,135,C1233,,61,N,-135,W,N. America,Canada,,Arctic:Whitehouse Trough,Upper,Mississippian,,,Coals,Kayak,,Smith(1989),
+C,136,C1234,,69,N,-140,E,N. America,Canada,,British Mountians,Upper,Mississippian,,,Coals,Kayak,,Smith(1989),
+C,137,C1235,,37,N,-113,W,N. America,United States,,Arizona:northwestern Arizona,Upper,Mississippian,,Mississiippian-Pennsylvanian,Coals,Surprise Canyon,,Tidwell et al.(1992),
+C,138,C1236,,39,N,-116,W,N. America,United States,,Nevada:Pancake Range,Upper,Mississippian,Chesterian,,Coals,Diamond Peak,,Woody Henry(oral comm.(1992),"see also Poole,Claypool(1984)"
+C,139,C1237,,40,N,-115,W,N. America,United States,,Nevada:Cherry Creek Range,Upper,Mississippian,Chesterian,,Coals,basal Scotty Wash Quartzite,,"Poole,Claypool(1984, p.195)",
+C,140,C1238,,39,N,-113,W,N. America,United States,,Utah:Uinta River-Brush Creek Area,L - M - U,Mississippian,,,Coals,Manning Canyon Shale,,Kinney(1955),
+C,141,C1239,,41,N,-110,W,N. America,United States,,Utah:Daggett County,Upper,Mississippian,,Late Mississippian,Coals,uppermost Miss. Coal frm Beds btwn the underlying Madison overly.Belden,,Schemel(1950),
+C,142,C1240,,41,N,-80,W,N. America,United States,,Pennsylvania:western and northern Pennsylvania,L - M - U,Mississippian,,,Coals,Mauch Chunk,,Presley(1979b),"see also Brezinski, 1999, Burgoon Sandstone"
+C,143,C1241,,37,N,-83,W,N. America,United States,,Virginia:southwestern Virginia,Upper,Mississippian,,Late Mississippian,Coals,Price,,Brown et al.(1952),
+C,144,C1242,,-30,S,-65,W,S. America,Argentina,,Famatina Range,L - M - U,Mississippian,,,Coals,,coal seams,Harrington(1956),
+C,145,C1243,,-30,S,-70,W,S. America,Argentina,,"La Delfina,San Juan Province",L - M - U,Mississippian,,,Coals,,,Petroconsultants(1977),
+C,146,C1244,,-33,S,-70,W,S. America,Argentina,,Calingasta-Uspallata Basin,L - M - U,Mississippian,,,Coals,Maliman,,"Lopez-Gamundi,Rossello(1993)",
+C,147,C1245,,15,N,-67,W,S. America,Bolivia,,northeastern Bolivia,Upper,Mississippian,Serpukhovian,,Coals,Siripaca,,Diaz Martinez et al.(1992),"also Isaacson,Diaz Martinez(1995)"
+C,148,C1246,,-17,S,-68,W,S. America,Bolivia,,Lake Titicaca,M - U,Mississippian,(Visean or Serpukhovian),"""Lower Permian""",Coals,,,Flores-Williams(1978),"(Rosler,1991, oral comm. To Isaacson assigns them to the Visean or Serpukhovian;Isaacson has seen the coals in the field)"
+C,149,C1247,,-17,S,-66,W,S. America,Bolivia,,"Cochabamba,areas of Bolivia",M - U,Mississippian,(Visean or Serpukhovian),"""Lower Permian""",Coals,,,Flores-Williams(1978),"(Rosler,1991, oral comm. To Isaacson assigns them to the Visean or Serpukhovian;Isaacson has seen the coals in the field)"
+C,150,C1248,,-16,S,-69,W,S. America,Bolivia,,,M - U,Mississippian,Late Visean-?Early Namurian,,Coals,Siripaca,,Diaz Martinez et al.(1996),
+C,151,C1249,,-5,S,43,W,S. America,Brazil,,in western Piaui on the eastern side of the Parnaiba Basin,L - M - U,Mississippian,,,Coals,Poti,,Machado(1978),
+C,152,C1250,,5,N,-75,W,S. America,Columbia,,,L - M - U,Mississippian,,,Coals,,,Olson(1956),
+C,153,C1251,,-16,S,-70,W,S. America,Peru,,,L - M - U,Mississippian,,,Coals,Ambo,,Newell et al.(1953),
+B,154,B1252,,40,N,85,E,Asia,China,,"Tarim:Mt. Wushibei,Xinjiang",L - M - U,Mississippian,,Carboniferous,Bauxites,,,Liu Chang-ling(1987),
+B,155,B1252.1,,41,N,79,E,Asia,China,,"Tarim:at the Biedeiert River to Kumalike,South Tianshan,Xinjiang",M - U,Mississippian,,Middle Carboniferous,Bauxites,Ayilihe,,"Liang Yun-hai,Li Wen-qian(2000)",
+B,156,B1253,,31,N,112,E,Asia,China,,S. China:western Hubei,L - M - U,Mississippian,,,Bauxites,,,"Shen Zhi-da,Chen You-neng(1987)",
+B,157,B1254,,30,N,105,E,Asia,China,,S. China:southern Sichuan,L - M - U,Mississippian,,,Bauxites,,,"Shen Zhi-da,Chen You-neng(1987)",
+B,158,B1255,,29.5,N,111,E,Asia,China,,S. China:Shimeng,L - M - U,Mississippian,,,Bauxites,,,The Compiling Group of the Regional Stratgraphic Chart of central-South China(1974),
+B,159,B1256,,27.5,N,107,E,Asia,China,,S. China:Zunyi,L - M  ,Mississippian,,Lower Carboniferous,Bauxites,,,Liu Xun-feng(1990)(are in the collections of the Nanjing Geologial Museum),
+B,160,B1257,,26.5,N,106.5,E,Asia,China,,S. China:Qinzheng,L - M  ,Mississippian,,Lower Carboniferous,Bauxites,,,Liu Xun-feng(1990)(are in the collections of the Nanjing Geologial Museum),
+B,161,B1258,,22.5,N,111.5,E,Asia,China,,S. China:Yunwu Mountians,L - M  ,Mississippian,,Lower Carboniferous,Bauxites,,,Liu Xun-feng(1990)(are in the collections of the Nanjing Geologial Museum),
+B,162,B1259,,27,N,106.5,E,Asia,China,,S. China:Xiuwen,L - M  ,Mississippian,,Lower Carboniferous,Bauxites,,,Liu Xun-feng(1990)(are in the collections of the Nanjing Geologial Museum),
+B,163,B1260,,24,N,117.5,E,Asia,China,,S. China:Zhangpu,L - M  ,Mississippian,,Lower Carboniferous,Bauxites,,,Liu Xun-feng(1990)(are in the collections of the Nanjing Geologial Museum),
+B,164,B1261,,29,N,119,E,Asia,China,,S. China:Jiangshan,L - M  ,Mississippian,,Lower Carboniferous,Bauxites,Yejiatang,,The Regional Geological Survey Team of Jiangshan(during the 1970s),"Han Nei-ren, oral comm.(1991)"
+B,165,B1262,,25,N,102,E,Asia,China,,S. China:Yunnan,L - M - U,Mississippian,,,Bauxites,,,Ikonnikov(1984),
+B,166,B1263,,25,N,107,E,Asia,China,,S. China:Yunnan,Lower,Mississippian,,between the Devonian and the Carboniferous,Bauxites,,,Patterson(1967),
+B,167,B1264,,28,N,116,E,Asia,China,,S. China:Fengcheng,L - M - U,Mississippian,,,Bauxites,,bauxitic siltstone,The Compiling Group of the Regional Stratigraphy Chart of Jiangxi(1980),
+B,168,B1264.1,,27,N,107,E,Asia,China,,"S. China:Shanxi Province, and central Guizhou",L - M - U,Mississippian,,Carboniferous,Bauxites,,,Zhang Shou-yue(1989),
+B,169,B1265,,26.5,N,103,E,Asia,China,,S. China:Kveyang(sic.Guiyang),M - U,Mississippian,,Middle Carboniferous,Bauxites,,karsy bauxite,"Bardossy(1982, Appendix 1)",
+B,170,B1266,,25,N,103,E,Asia,China,,S. China:from near Kunming,L - M - U,Mississippian,,,Bauxites,,,Ikonnikov(1984),
+B,171,B1267,,27.5,N,107,E,Asia,China,,S. China:Zunyi,L - M,Mississippian,,Lower Carboniferous,Bauxites,,,Liao Shi-fan(1991),
+B,172,B1268,,27,N,106.5,E,Asia,China,,S. China:Xiuwen,L - M,Mississippian,,Lower Carboniferous,Bauxites,,,Liao Shi-fan(1991),
+B,173,B1269,,26.5,N,107,E,Asia,China,,S. China:Guiyang,L - M,Mississippian,,Lower Carboniferous,Bauxites,,,Liao Shi-fan(1991),
+B,174,B1270,,27.8,N,106.9,E,Asia,China,,S. China:Zunyi,L - M - U,Mississippian,,,Bauxites,Goujiang,,"Liao Shi-fan,Liang Tong-rong(1991)",
+B,175,B1271,,27,N,107.4,E,Asia,China,,S. China:Wengan,L - M - U,Mississippian,,,Bauxites,,,"Liao Shi-fan,Liang Tong-rong(1991)",
+B,176,B1272,,28.5,N,107.4,E,Asia,China,,S. China:Zhengan,L - M - U,Mississippian,,,Bauxites,,,"Liao Shi-fan,Liang Tong-rong(1991)",
+B,177,B1273,,28.8,N,107.5,E,Asia,China,,S. China:Daozhen,L - M - U,Mississippian,,,Bauxites,,,"Liao Shi-fan,Liang Tong-rong(1991)",
+B,178,B1274,,27.1,N,106.7,E,Asia,China,,S. China:Xifeng,L - M - U,Mississippian,,,Bauxites,,,"Liao Shi-fan,Liang Tong-rong(1991)",
+B,179,B1275,,27,N,106.9,E,Asia,China,,S. China:Kaiyang,L - M - U,Mississippian,,,Bauxites,,,"Liao Shi-fan,Liang Tong-rong(1991)",
+B,180,B1276,,26.8,N,106.5,E,Asia,China,,S. China:Xiuwen,L - M - U,Mississippian,,,Bauxites,,,"Liao Shi-fan,Liang Tong-rong(1991)",
+B,181,B1277,,26.6,N,106.7,E,Asia,China,,S. China:Guiyang,L - M - U,Mississippian,,,Bauxites,,,"Liao Shi-fan,Liang Tong-rong(1991)",
+B,182,B1278,,26.5,N,106.4,E,Asia,China,,S. China:Qingzhen,L - M - U,Mississippian,,,Bauxites,,,"Liao Shi-fan,Liang Tong-rong(1991)",
+B,183,B1279,,26.6,N,105.7,E,Asia,China,,S. China:Zhijin,L - M - U,Mississippian,,,Bauxites,,,"Liao Shi-fan,Liang Tong-rong(1991)",
+B,184,B1280,,27,N,106,E,Asia,China,,S. China:Qianxi,L - M - U,Mississippian,,,Bauxites,,,"Liao Shi-fan,Liang Tong-rong(1991)",
+B,185,B1281,,29.1,N,107,E,Asia,China,,S. China:Nanchuan,L - M - U,Mississippian,,,Bauxites,,,"Liao Shi-fan,Liang Tong-rong(1991)",
+B,186,B1282,,29.3,N,107.7,E,Asia,China,,S. China:Wulong,L - M - U,Mississippian,,,Bauxites,,,"Liao Shi-fan,Liang Tong-rong(1991)",
+B,187,B1283,,28.2,N,110.1,E,Asia,China,,S. China:Luxi,L - M - U,Mississippian,,,Bauxites,,,"Liao Shi-fan,Liang Tong-rong(1991)",
+B,188,B1284,,40,N,74,E,Asia,C. I. S.(fm USSR),,Tien Shan,L - M - U,Mississippian,,,Bauxites,,,Abdullayev(1969),see also Kichnev et al.(1975)
+B,189,B1285,,40,N,70,E,Asia,C. I. S.(fm USSR),,"Bukantan,Tandytau and Nuratau in former Soviet Central Asia",L - M,Mississippian,,,Bauxites,,karsy bauxite(Cert.),"Bardossy(1982, Appendix 1)",
+B,190,B1286,,52,N,23,E,Europe,Poland,,Lublin area of eastern Poland,L - M,Mississippian,,,Bauxites,,lateritic bauxites,Bardossy(1984),
+B,191,B1287,,51,N,17,E,Asia,China,," Nowa Ruda,southwestern Poland",L - M,Mississippian,,,Bauxites,,lateritic bauxites,Bardossy(1984),
+K,192,K1288,,31.3,N,119.8,E,Asia,China,,"Yixing,southern Jiangsu",Upper,Mississippian,,,Kao-Kaolinite,Kaolishan( in this time interv. might be pres. In L. Yangtze reg.),yielded kaolinite(40%)and Illite(60%),Wang Zhong-zhe identified samples collected by Chen Xu and Boucot in 1994,
+K,193,K1289,,29.8,N,119.6,E,Asia,China,,"Tonglu,Zhejiang",Upper,Mississippian,,,Bauxites,Zhuzangwu,yielded kaolinite(45%)and Illite(55%),Wang Zhong-zhe identified samples collected by Chen Xu and Boucot in 1994,
+K,194,K1290,,31,N,119.9,E,Asia,China,,"Changxing,northern Zhejiang",Upper,Mississippian,,,Bauxites,Kaolishan( in this time interv. might be pres. In L. Yangtze reg.),yielded kaolinite(80%)and Illite-montmorillonite(20%),Wang Zhong-zhe identified samples collected by Chen Xu and Boucot in 1994,
+K,195,K1291,,50,N,73,E,Asia,C. I. S.(fm USSR),,Karaganda Basin,Upper,Mississippian,,,Bauxites,,tonstein kaolinites,Zaritsky(1971),
+K,196,K1292,,29,N,33.4,E,Africa,Egypt,,Sinai,Upper,Mississippian,Visean-Namurian A,,Bauxites,Abu Thora,kaolin deposits,El Askary(1992),"Kora(1992)assigns the Abu Thora Fm,including the kaolins a late Visean-Namurian A"
+K,197,K1293,,51,N,5,E,Europe,Belgium,,Campine,Upper,Mississippian,,,Bauxites,,,Burger(1978-1980),
+K,198,K1294,,57,N,34,E,Europe,C. I. S.(fm USSR),,western part of the Moscow Basin,Upper,Mississippian,,,Bauxites,,widespread kaolinite,Vikulova(1964),
+K,199,K1295,,58,N,34,E,Europe,C. I. S.(fm USSR),,"Borovichy area, also similar occurrences Pipyat region of Belarus",Upper,Mississippian,,,Bauxites,,"flint clays, with diaspore and boehmite",Chukhov(1970),
+K,200,K1296,,42,N,46,E,Europe,C. I. S.(fm USSR),,,Upper,Mississippian,Namurian A,,Bauxites,,tonstein ,Hoehne(1964),
+K,201,K1297,,51,N,13,E,Europe,Germany,,upper Silesia and Mahrisch-Ostrau as lower Saxony and Bohemia,Upper,Mississippian,Namurian A,,Bauxites,,tonstein ,Hoehne(1964),
+K,202,K1298,,50,N,18,E,Europe,Germany,,Ostrava,Upper,Mississippian,Namurian A,,Bauxites,,tonstein,"Hess,Lippolt(1986)",
+K,203,K1299,,51,N,22.5,E,Europe,Poland,,Upper Silesian Coal Basin,Upper,Mississippian,Lower Namurian,,Bauxites,,kaolititic tonstein,"Ryszka,Wilk(1974)",
+K,204,K1300,,56,N,-4,W,United Kingdom,Scotland,,Midland Valley,Upper,Mississippian,Namurian A,,Bauxites,,,Hoehne(1964),
+K,205,K1301,,38,N,-108,W,N. America,United States,,Colorado:,Upper,Mississippian,,Chester age,Bauxites,Molas,,Power(1969),
+K,206,K1302,,40,N,-107,W,N. America,United States,,Colorado:,Upper,Mississippian,,,Bauxites,Maroon,,Power(1969),
+K,207,K1303,,39,N,-104,W,N. America,United States,,Colorado:Front Range,Upper,Mississippian,,,Bauxites,Fountain(possibly Glen Eyrie),,Power(1969),
+K,208,K1304,,38,N,-89,W,Asia,,,,,Mississippian,,,Bauxites
+K,209,K1305,,46,N,-112,W,Asia,,,,,Mississippian,,,Bauxites

@@ -1,0 +1,181 @@
+LithologyCode,LithNumber,OldIDNumber,,LAT,NS,LONG,EW,Continent,Country,,GeogComments,LMU,Period,Stage,AgeComments,Lithology,Formation,LithComments,PrimaryReference,SeeAlso
+E,1,E232,,39,N,92,E,Asia,China,,N. China:Tarim-eastern Altun Mountains,Upper,Ordovician,Caradoc,,Gypsum,Lapeiquan,,Gou Jin(1987),
+E,2,E233,,36,N,110,E,Asia,China,,"N. China:northern Shaaxi,S. Shanxi,S.Hebei",L - M,Ordovician,Arenig-Llanvirn,,Gypsum,Machiakou,gypsum and anhydrite,"Chen Jun-yuan(written comm.,1983)","see also Chen Jun-yuan,Teichert(1983)"
+E,3,E234,,36,N,115,E,Asia,China,,"N. China:northern Shaaxi,S. Shanxi,S.Hebei",L - M,Ordovician,Arenig-Llanvirn,,Gypsum,Machiakou,gypsum and anhydrite,"Chen Jun-yuan(written comm.,1983)","see also Chen Jun-yuan,Teichert(1983)"
+E,4,E235,,37,N,110,E,Asia,China,,"N. China:northern Shaaxi,S. Shanxi,S.Hebei",L - M,Ordovician,Arenig-Llanvirn,,Gypsum,Machiakou,gypsum and anhydrite,"Chen Jun-yuan(written comm.,1983)","see also Chen Jun-yuan,Teichert(1983)"
+E,5,E236,,37,N,115,E,Asia,China,,"N. China:northern Shaaxi,S. Shanxi,S.Hebei",L - M,Ordovician,Arenig-Llanvirn,,Gypsum,Machiakou,gypsum and anhydrite,"Chen Jun-yuan(written comm.,1983)","see also Chen Jun-yuan,Teichert(1983)"
+E,6,E237,,36,N,110.5,E,Asia,China,,N. China:Linfen,Lower,Ordovician,,,Gypsum,,,"Chen Jun-yuan(written comm.,1983)","see also Chen Jun-yuan,Teichert(1983)"
+E,7,E238,,36,N,115.5,E,Asia,China,,N. China:Tanggu,Lower,Ordovician,,,Gypsum,,,"Chen Jun-yuan(written comm.,1983)","see also Chen Jun-yuan,Teichert(1983)"
+E,8,E239,,37,N,112,E,Asia,China,,"N. China:Linshi,Shanxi",Lower,Ordovician,,,Gypsum,,,"Ye Lian-jun(1983, Fig. 5-4)",
+E,9,E240,,39,N,111,E,Asia,China,,N. China:Fugu,Lower,Ordovician,,,Halite,,,Zhang Jisen et al.(1991),
+E,10,E241,,37.6,N,108.8,E,Asia,China,,N. China:Jingbian,Lower,Ordovician,,,Evaporite,,,Zhang Jisen et al.(1991),
+E,11,E242,,36.5,N,109.5,E,Asia,China,,N. China:Yenan,Lower,Ordovician,,,Evaporite,,,Zhang Jisen et al.(1991),
+E,12,E243,,38,N,110,E,Asia,China,,N. China:Zhengchuan,Lower,Ordovician,,,Evaporite,,,Zhang Jisen et al.(1991),
+E,13,E244,,38,N,110,E,Asia,China,,N. China:Yenan,Lower,Ordovician,,,Gypsum,,,Zhang Jisen et al.(1991),
+E,14,E245,,36,N,111.5,E,Asia,China,,N. China:Linfen,Lower,Ordovician,,,Gypsum,,,Zhang Jisen et al.(1991),
+E,15,E246,,38.5,N,111,E,Asia,China,,N. China:Xingxian,Lower,Ordovician,,,Halite,,skeletal halite crystals,Zhang Jisen et al.(1991),
+E,16,E247,,38,N,111,E,Asia,China,,N. China:Linxian,Lower,Ordovician,,,Halite,,skeletal halite crystals,Zhang Jisen et al.(1991),
+E,17,E248,,37.4,N,111.2,E,Asia,China,,N. China:Zhongyang,Lower,Ordovician,,,Halite,,skeletal halite crystals,Zhang Jisen et al.(1991),
+E,18,E249,,37.5,N,111,E,Asia,China,,N. China:Lishi,Lower,Ordovician,,,Halite,,skeletal halite crystals,Zhang Jisen et al.(1991),
+E,19,E250,,36.75,N,114.5,E,Asia,China,,N. China:Handan-Xingtai,Lower,Ordovician,,,Evaporite,,evaporite solution breccia,Wei Dong-yen(1989),
+E,20,E251,,37,N,114,E,Asia,China,,N. China:Wuan,Middle,Ordovician,,,Gypsum,Fengfeng,gypsum and anhydrite,Wei Dong-yen(1989),
+E,21,E252,,63,N,115.5,E,Asia,China,,N. China:Fanxian,Lower,Ordovician,1.Caradoc 2.Llanvirn,,Anhydrite,1.Fengfeng 2.Machiakou,,Liu Yin-huan et al.(1991),
+E,22,E253,,35,N,113,E,Asia,China,,N. China:Boai,Lower,Ordovician,Arenig to Llanvirn,,Evaporite,Machiakou,skeletal salt crystals and skeletal gypsum crystals,Liu Yin-huan et al.(1991),
+E,23,E254,,33.5,N,117,E,Asia,China,,N. China:Suxian,Lower,Ordovician,Arenig to Llanvirn,,Halite,Machiakou-Suxian section,salt solution breccia,Chen Xu (recent),remeasured by Fang Yi-ting and others
+E,24,E255,,39.7,N,106.8,E,Asia,China,,N. China:Wuhai,Lower,Ordovician,L. Arenig,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990),
+E,25,E256,,38.4,N,106.2,E,Asia,China,,N. China:Yinchuan,Lower,Ordovician,L. Arenig,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990),
+E,26,E257,,36.9,N,105.9,E,Asia,China,,N. China:Tongxin,Lower,Ordovician,L. Arenig,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990),
+E,27,E258,,36.5,N,107.3,E,Asia,China,,N. China:Huanxian,Lower,Ordovician,L. Arenig,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990),
+E,28,E259,,36,N,108,E,Asia,China,,N. China:Qingyang,Lower,Ordovician,L. Arenig,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990),
+E,29,E260,,34.8,N,106.8,E,Asia,China,,N. China:Longxian,Lower,Ordovician,L. Arenig,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990),
+E,30,E261,,34.5,N,107.3,E,Asia,China,,N. China:Fengxiang,Lower,Ordovician,L. Arenig,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990),
+E,31,E262,,34.9,N,108.9,E,Asia,China,,N. China:Yaoxian,Lower,Ordovician,L. Arenig,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990),
+E,32,E263,,39.4,N,111.5,E,Asia,China,,N. China:Pianguan,Lower,Ordovician,L. Arenig,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,33,E264,,38.4,N,111.1,E,Asia,China,,N. China:Xingxian,Lower,Ordovician,L. Arenig,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,34,E265,,34.5,N,107.8,E,Asia,China,,N. China:Zhengchuan,Lower,Ordovician,L. Arenig,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,35,E266,,37.7,N,110.2,E,Asia,China,,N. China:Mizhi,Lower,Ordovician,L. Arenig,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,36,E267,,37.4,N,111,E,Asia,China,,N. China:Liulin,Lower,Ordovician,L. Arenig,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,37,E268,,37.9,N,111.1,E,Asia,China,,N. China:Zhongyang,Lower,Ordovician,L. Arenig,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,38,E269,,37.1,N,111.8,E,Asia,China,,N. China:Xiaoyi,Lower,Ordovician,L. Arenig,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,39,E270,,37,N,111.9,E,Asia,China,,N. China:Jiexiu,Lower,Ordovician,L. Arenig,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,40,E271,,36.9,N,111.1,E,Asia,China,,N. China:Jiaokou,Lower,Ordovician,L. Arenig,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,41,E272,,36.1,N,111.5,E,Asia,China,,N. China:Linfen,Lower,Ordovician,L. Arenig,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,42,E273,,35.8,N,111.4,E,Asia,China,,N. China:Xiangfen,Lower,Ordovician,L. Arenig,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,43,E274,,35.6,N,110.7,E,Asia,China,,N. China:Hejin,Lower,Ordovician,L. Arenig,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,44,E275,,35.6,N,111.4,E,Asia,China,,N. China:Quwo,Lower,Ordovician,L. Arenig,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,45,E276,,34.6,N,110.7,E,Asia,China,,N. China:Ruicheng,Lower,Ordovician,L. Arenig,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,46,E277,,40,N,113.6,E,Asia,China,,N. China:Datong,Lower,Ordovician,L. Arenig,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,47,E278,,38.7,N,112.7,E,Asia,China,,N. China:Yuanping,Lower,Ordovician,L. Arenig,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,48,E279,,37.8,N,112.5,E,Asia,China,,N. China:Taiyuan,Lower,Ordovician,L. Arenig,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,49,E280,,37.8,N,113.6,E,Asia,China,,N. China:Pingding,Lower,Ordovician,L. Arenig,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,50,E281,,37.8,N,113.5,E,Asia,China,,N. China:Yangquan,Lower,Ordovician,L. Arenig,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,51,E282,,37.6,N,113.7,E,Asia,China,,N. China:Xiyang,Lower,Ordovician,L. Arenig,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,52,E283,,37.1,N,113.3,E,Asia,China,,N. China:Zuoquan,Lower,Ordovician,L. Arenig,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,53,E284,,37.3,N,113.5,E,Asia,China,,N. China:Heshun,Lower,Ordovician,L. Arenig,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,54,E285,,36.5,N,112.3,E,Asia,China,,N. China:Qingyuan,Lower,Ordovician,L. Arenig,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,55,E286,,36,N,113,E,Asia,China,,N. China:Changzhi,Lower,Ordovician,L. Arenig,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,56,E287,,36.2,N,113.4,E,Asia,China,,N. China:Pingshun,Lower,Ordovician,L. Arenig,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,57,E288,,35.7,N,113.2,E,Asia,China,,N. China:Lingchuan,Lower,Ordovician,L. Arenig,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,58,E289,,35.1,N,113,E,Asia,China,,N. China:Boai,Lower,Ordovician,L. Arenig,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,59,E290,,34.4,N,113,E,Asia,China,,N. China:Dengfeng,Lower,Ordovician,L. Arenig,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,60,E291,,33.7,N,112.8,E,Asia,China,,N. China:Lushan,Lower,Ordovician,L. Arenig,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,61,E292,,39.3,N,115.4,E,Asia,China,,N. China:Yixian,Lower,Ordovician,L. Arenig,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,62,E293,,38.6,N,114.6,E,Asia,China,,N. China:Quyang,Lower,Ordovician,L. Arenig,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,63,E294,,38,N,114.1,E,Asia,China,,N. China:Jingjing,Lower,Ordovician,L. Arenig,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,64,E295,,36.7,N,114.1,E,Asia,China,,N. China:Wuan,Lower,Ordovician,L. Arenig,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,65,E296,,34.4,N,114.2,E,Asia,China,,N. China:Fengfeng,Lower,Ordovician,L. Arenig,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,66,E297,,36.8,N,116.2,E,Asia,China,,N. China:Gaotang,Lower,Ordovician,L. Arenig,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,67,E298,,35.8,N,115.4,E,Asia,China,,N. China:Fengxian ,Lower,Ordovician,L. Arenig,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,68,E299,,35.3,N,115.1,E,Asia,China,,N. China:Dongming,Lower,Ordovician,L. Arenig,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,69,E300,,39.9,N,116.4,E,Asia,China,,N. China:Beijing,Lower,Ordovician,L. Arenig,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,70,E301,,36.7,N,117.5,E,Asia,China,,N. China:Zhangqiu,Lower,Ordovician,L. Arenig,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,71,E302,,35.7,N,117.9,E,Asia,China,,N. China:Mengyin,Lower,Ordovician,L. Arenig,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,72,E303,,35.6,N,117.2,E,Asia,China,,N. China:Sishui,Lower,Ordovician,L. Arenig,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,73,E304,,34.2,N,117.1,E,Asia,China,,N. China:Xuzhou,Lower,Ordovician,L. Arenig,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,74,E305,,33.6,N,116.9,E,Asia,China,,N. China:Suxian,Lower,Ordovician,L. Arenig,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,75,E306,,41,N,118.6,E,Asia,China,,N. China:Pingquan,Lower,Ordovician,L. Arenig,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,76,E307,,39.6,N,118.1,E,Asia,China,,N. China:Tangshuan,Lower,Ordovician,L. Arenig,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,77,E308,,37.6,N,118.5,E,Asia,China,,N. China:Kenli,Lower,Ordovician,L. Arenig,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,78,E309,,36.5,N,117.8,E,Asia,China,,N. China:Boshan,Lower,Ordovician,L. Arenig,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,79,E310,,39.4,N,121.4,E,Asia,China,,N. China:Fuzhouwan,Middle,Ordovician,L. Arenig,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,80,E311,,41.3,N,124.1,E,Asia,China,,N. China:Benxi,Middle,Ordovician,L. Arenig,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,81,E312,,38.2,N,109.7,E,Asia,China,,N. China:Yulin,Middle,Ordovician,Llanvirn,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,82,E313,,37.8,N,110.1,E,Asia,China,,N. China:Zhenchuanbu,Middle,Ordovician,Llanvirn,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,83,E314,,37.4,N,110.2,E,Asia,China,,N. China:Suide,Middle,Ordovician,Llanvirn,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,84,E315,,36.8,N,111.8,E,Asia,China,,N. China:Linshi,Middle,Ordovician,Llanvirn,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,85,E316,,36.4,N,111.1,E,Asia,China,,N. China:Puxian,Middle,Ordovician,Llanvirn,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,86,E317,,36.2,N,111.6,E,Asia,China,,N. China:Hongtong,Middle,Ordovician,Llanvirn,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,87,E318,,37.2,N,112.2,E,Asia,China,,N. China:Xiangyuan,Middle,Ordovician,Llanvirn,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,88,E319,,35.6,N,113.3,E,Asia,China,,N. China:Lucheng,Middle,Ordovician,Llanvirn,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,89,E320,,39,N,114.5,E,Asia,China,,N. China:Xingtai,Middle,Ordovician,Llanvirn,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,90,E321,,36.7,N,117.5,E,Asia,China,,N. China:Mingshui,Middle,Ordovician,Llanvirn,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,91,E322,,36.2,N,117.6,E,Asia,China,,N. China:Laiwu,Middle,Ordovician,Llanvirn,,Evaporite,,evaporites and solution breccias,Feng Zhen-zhao et al.(1990)
+E,92,E323,,28,N,104,E,Asia,China,,"S. China:Yanjing and Yongshan,northeastern Yunnan",L - M,Ordovician,Arenig to Llanvirn,,Halite,,skeletal salt ,"Mei Ming-xiang, oral comm., (1993)"
+E,93,E324,,70,N,110,E,Asia,C.I.S (frm USSR),,Siberian Platform:Lena-Yenisei Basin,Middle,Ordovician,,,Evaporite,,,"Zharkov(1981, p. 11, Fig. 18)"
+E,94,E324.1,,70,N,105,E,Asia,C.I.S (frm USSR),,Siberian Platform:Lena-Yenisei Basin,Middle,Ordovician,,,Evaporite,,,"Zharkov(1981, p. 11, Fig. 18)"
+E,95,E324.2,,65,N,125,E,Asia,C.I.S (frm USSR),,Siberian Platform:Lena-Yenisei Basin,Middle,Ordovician,,,Evaporite,,,"Zharkov(1981, p. 11, Fig. 18)"
+E,96,E324.3,,60,N,123,E,Asia,C.I.S (frm USSR),,Siberian Platform:Lena-Yenisei Basin,Middle,Ordovician,,,Evaporite,,,"Zharkov(1981, p. 11, Fig. 18)",
+E,97,E325,,79,N,101,E,Asia,C.I.S (frm USSR),,Siberian Platform:Severnaya Zemlya,L - U,Ordovician,,"Middle and Upper according to Bondarev et al.,(1973)",Evaporite,,,"Zharkov(1981, p. 11, Fig. 18)",
+E,98,E325.1,,68,N,141,E,Asia,,,Yakutia,,,,,,,,,
+E,99,E326,,37,N,128.5,E,Asia,Korea,,,Middle,Ordovician,Llanvirn,,Evaporite,Yeonghueng,evaporite pseudomorphs,"Yoo,Lee(1996)",
+E,100,E327,,39,N,125.8,E,Asia,Korea,,Pyongyang,Upper,Ordovician,Caradoc,,Gypsum,,,"Jong Sun-ju(oral comm.,(1996)",
+E,101,E328,,39.5,N,125.9,E,Asia,Korea,,Sunchon,Upper,Ordovician,Caradoc,,Gypsum,,,"Jong Sun-ju(oral comm.,(1996)",
+E,102,E328.1,,37,N,128,E,Asia,Korea,,,Lower,Ordovician,Arenig,,Gypsum,Makkol,,"Choi et al.,(2001)",
+E,103,E329,,-24,S,133,E,Australia,Northern Territory,,Amadeus Basin,Middle,Ordovician,Llanvirn,(L. Ordovician),Evaporite,Stokes Siltstone (Carmichael Sandstone),,Kennard et al.(1986),
+E,104,E329.1,,-20,S,138,E,Australia,Queensland,,Georgina Basin,L - M,Ordovician,,,Evaporite,Toko Group,,Brown et al.(1968),
+E,105,E329.2,,-41.5,S,146.3,E,Australia,Tasmania,,Mole Creek,L - M,Ordovician,Whiterrockian to Edenian,,Evaporite,Gordon River,evaporite pseudomorphs and length slow chalcedony,"Rao(1990, p. 159-160)",see also Rao(1981)
+E,106,E330,,-20,S,122,E,Australia,,,Western Australia:Canning Basin,Middle,Ordovician,,,Evaporite,Carribady,,"Zharkov(1981, p. 10)",
+E,107,E331,,-20,S,124,E,Australia,,,Western Australia:Canning Basin,Lower,Ordovician,,Early Silurian,Evaporite,,,"Foster,Williams(1991)",see also Williams(1991)
+E,108,E332,,-25,S,130,E,Australia,Northern Territory,,Western Australia:Canning Basin,Middle,Ordovician,Llanvirn,,Anhydrite,"Goldwyer,(Stokes)",,"McTavish,Legg(1976, p. 469)",(see also Laurie et al.(1991))
+E,109,E333,,57,N,25,E,Europe,C.I.S (frm USSR),,Baltic Basin,M - U,Ordovician,,,Evaporite,,,"Zharkov(1981, Figs. 2, 18; 1984)",
+E,110,E334,,58,N,34,E,Europe,C.I.S (frm USSR),,350 km northwest Moscow,Middle,Ordovician,"""Higher Viruan""",,Anhydrite,,,"Jaanusson(1973, p. 21)",
+E,111,E335,,57,N,40,E,Europe,C.I.S (frm USSR),,,Upper,Ordovician,Caradoc,,Evaporite,Mitino,,"Mannil,Meidla(1994)",
+E,112,E336,,66,N,60,E,Europe,C.I.S (frm USSR),,Pechora Urals,Upper,Ordovician,Ashgillian,,Evaporite,,,"Antoshkina(1992, p. 332; 1996, Fig. 1b, late Ashgillian)",
+E,113,E337,,75,N,-95,W,N. America,Canada,,"Arctic:E. and SE. Ellesmere,Cornwallis and Bathhurst Ise.",M - L,Ordovician,,,Evaporite,Bay Fiord,,Davies(1973),
+E,114,E338,,65,N,-125,W,N. America,Canada,,Arctic:Mackenzie Trough,Upper,Ordovician,,,Evaporite,Ronning Group,,"Thorsteinsson(1970, p. 557)","see also Zharkov,1981, pp. 8-9"
+E,115,E339,,62,N,-115,W,N. America,Canada,,Arctic:Northwest Territories,Middle,Ordovician,,,Evaporite,Mirage Point,,"Claypool et al.(1980, Appendix)",
+E,116,E340,,75,N,-110,W,N. America,Canada,,Arctic:Melville Island,M - U,Ordovician,Arenig through Ashgill,,Evaporite,"Eleanor River,Cornwallis Group and Thumb Mountian",,"Fox,Densmore(1992)",
+E,117,E341,,75,N,-92,W,N. America,Canada,,Arctic,Upper,Ordovician,Caradoc to Ashgill,,Anhydrite,Ship Point,,Mayr(1978),
+E,118,E342,,72.5,N,-95,W,N. America,Canada,,Arctic,Upper,Ordovician,,,Anhydrite,Bay Fiord,,Mayr(1978),
+E,119,E343,,75,N,-92,W,N. America,Canada,,Arctic,Middle,Ordovician,,,Anhydrite,Baillarge-Member A,,Mayr(1978),
+E,120,E344,,75,N,-92,W,N. America,Canada,,Arctic,M - L,Ordovician,,,Anhydrite,Baillarge-Member B,,Mayr(1978),
+E,121,E344.1,,75,N,-84,W,N. America,Canada,,Arctic:northern Devon Island,Middle,Ordovician,,,Anhydrite,Bay Fiord,,Mayr et al.(1998),
+E,122,E345,,53,N,-80,W,N. America,Canada,,Moose River and Hudson Bay Basins,Upper,Ordovician,,,Evaporite,,,"Norris,Sandford(1969)",
+E,123,E346,,60,N,-85,W,N. America,Canada,,Hudson Bay Basin,Upper,Ordovician,,,Evaporite,Red Head Rapids equivalent,,"Norris,Sandford(1969)",
+E,124,E347,,65,N,-85,W,N. America,Canada,,Southhampton Island,Upper,Ordovician,Ashgillian,,Evaporite,Port Nelson,,"Dewing,Cooper(1991)",
+E,125,E348,,49,N,-58,W,N. America,Canada,,Newfoundland:western Newfoundland,Middle,Ordovician,,,Evaporite,,"abundant corrensite the ""evaporitic"" clay mineral",Suchecki et al.(1977),
+E,126,E349,,44,N,-77,W,N. America,Canada,,Ontario:southern Ontario,Upper,Ordovician,Caradoc,,Evaporite,Black River equivalent Gull River,shallow water evaporite,Winder(1960),see also Mukherji(1969)
+E,127,E350,,46,N,-78.5,W,N. America,Canada,,Ontario,Upper,Ordovician,Caradoc,,Evaporite,Black River age,evaporites from an impact crater,"Lozej,Beales(1975)",
+E,128,E351,,45,N,-74,W,N. America,Canada,,Quebec,L - M,Ordovician,,,Evaporite,Carillon,gypsum and salt casts,Bernstein(1992),"see also Hofmann,Bolton(1998)"
+E,129,E352,,50,N,-103,W,N. America,Canada,,Williston Basin,M - U,Ordovician,,,Evaporite,Williston Basin,,"McCrossan,Glaister(1996)","see also Zharkov,1981, pp.10"
+E,130,E353,,82.5,N,-30,W,N. America,Canada,,Greenland,Lower,Ordovician,"L. Whiterockian,(Vestervig)",((also Canadian-Whiterockian)),Evaporite,"Cape Webster,(Vestervig Mem-Wandel Valley),((Peary Land))",,"Smith,Bjerreskov(1994)",
+E,131,E354,,35,N,-93,W,N. America,United States,,Arkansas,Middle,Ordovician,,,Evaporite,Plattin and Joachim,some evaporitic materials,"Handford,Moore(1976)",
+E,132,E355,,36,N,-93,W,N. America,United States,,Arkansas:north-central Arkansas,Middle,Ordovician,,,Evaporite,"Plattin, Everton and Joachim",,Young et al.(1972),
+E,133,E356,,37,N,-90,W,N. America,United States,,Illinois:southeastern Missouri and southern Illinois,Middle,Ordovician,,,Evaporite,Jozchim,Dolomite,"Okhravi,Carozzi(1983)",
+E,134,E356.1,,46,N,-86.6,W,N. America,United States,,Michigan,Upper,Ordovician,,,Gypsum," Cabot Head Shale, but now known to be L. Ordovician",,"Ehler,Kesling(1957)",
+E,135,E357,,32,N,-104,W,N. America,United States,,New Mexico,Upper,Ordovician,Ashgillian,,Anhydrite,Aleman,anhydrite nodule-like chert concretions and other evidences of evaporites,"Geeslin,Chafetz(1982)",
+E,136,E358,,33,N,-107,W,N. America,United States,,New Mexico:Sacramento Mountains,Upper,Ordovician,,,Evaporite,"Second Value,Aleman",,Brimberry(1991),
+E,137,E359,,43,N,-79,W,N. America,United States,,New York:Ontario and adjacent New York,Upper,Ordovician,,,Gypsum,Queenston,,Brett et al.(1996),
+E,138,E360,,48,N,-103,W,N. America,United States,,North Dakota:Williston Basin,Upper,Ordovician,,,Evaporite,Red River,,"Warren(1989, p. 75)",
+E,139,E361,,38,N,-85,W,N. America,United States,,"Ohio,Indiana,Kentucky:Richmond",Upper,Ordovician,,,Evaporite,Saluda,indirect evidence(abundant leperditiid ostracodes and absence of most other fauna),Hatfield(1968),
+E,140,E362,,40,N,-79,W,N. America,United States,,Pennsylvania:Somerset County,Middle,Ordovician,,,Evaporite,,,Ryder et al.(1992),
+E,141,E363,,45,N,-87.5,W,N. America,United States,,Wisconsin:Door County,Upper,Ordovician,,Ordovician-Silurian boundary,Gypsum,beneath the mid-Llandovery Mayville,,"Waltman,Stieglitz(1995)",
+E,142,E364,,44,N,-107,W,N. America,United States,,"Wyoming and Montana:Williston Basin,southern Montana",Upper,Ordovician,,,Evaporite,"Red River,Bighorn-Leigh Member","U.Red River equivalents in Wyoming,breccias in southern Montana ",Macomber(1970),
+CA,143,CA365,,45,N,-79,W,N. America,United States,,New York:New  York and adjacent Ontario,Upper,Ordovician,,,Calcrete,Queenston,,Brett et al.(1996),
+CA,144,CA366,,41,N,-77,W,N. America,United States,,Pennsylvania:central Pennsylvania,Upper,Ordovician,,,Calcrete,Potter Mills Clay,,"Feakes,Retallack(1988)",see also Retallack(2001)
+CA,145,CA367,,40,N,-113,W,N. America,United States,,Utah:Spors Mountain,Upper,Ordovician,Maysville,,Calcrete,Ely Springs,"calcrete from their unit 1,",Harris et al.(1995;oral comm.),"see also Harris,Sheehan(1997)"
+T,146,T368,,20,N,5,E,Africa,Algeria,,central Sahara,Upper,Ordovician,Ashgillian,,Tillites,,"widespread tillites,galciated pavements and related glacial pheonmena","Biju-Duval,Deynoux and Rognon(in Hambrey and Harland,1981, pp.99-107)",
+T,147,T368.1,,26,N,5,E,Africa,Algeria,,central Sahara,Upper,Ordovician,Ashgillian,,Tillites,,"widespread tillites,galciated pavements and related glacial pheonmena","Biju-Duval,Deynoux and Rognon(in Hambrey and Harland,1981, pp.99-107)",
+T,148,T369,,21,N,12,E,Africa,"Niger,Mali,  Libya",,central Sahara,Upper,Ordovician,Ashgillian,,Tillites,,"widespread tillites,galciated pavements and related glacial pheonmena","Biju-Duval,Deynoux and Rognon(in Hambrey and Harland,1981, pp.99-107)",
+T,149,T370,,22,N,16,E,Africa,Chad,,central Sahara,Upper,Ordovician,Ashgillian,,Tillites,,"widespread tillites,galciated pavements and related glacial pheonmena","Biju-Duval,Deynoux and Rognon(in Hambrey and Harland,1981, pp.99-107)",
+T,150,T371,,14,N,39,E,Africa,Ethiopia,,,Upper,Ordovician,,,Tillites,Endaga Arbi Tillite,"plus striated, gooved pavement it rests on","Hambrey,Harland(1981, pp. 38-40","but see, Mcclure,Young, in Hambrey,Harland,1981 pp. 275-277"
+T,151,T372,,5,N,-2,W,Africa,Ghana,,coastal Ghana,Upper,Ordovician,,,Tillites,Ajua Group,tillite type beds,"Talbott(in Hambrey,Harland, 1981, pp. 108-112)",
+T,152,T372.1,,28,N,14,E,Africa,Libya,,Djebel Fezzan,Upper,Ordovician,"Caradocian,(Ashgillian)",,Tillites,Melez-Chograne(Memouniat),widespread dropstones,Massa et al.(1977),
+T,153,T373,,15,N,-8,W,Africa,"Mauritania,Rio de Oro,Senegal",,,Upper,Ordovician,,,Tillites,Tichit Group,"related phenomena,some glacial pavements","Deynoux,Trompette(in Hambrey,Harland, 1981, pp. 89-96) ",see also Blanpied et al.(2000)
+T,154,T374,,30,N,-6,W,Africa,Morocco,,Tindouf Basin,Upper,Ordovician,,,Tillites,Hirnantian,,"Destombes(in Hambrey and Harland,1981, pp.84-88)","see also Destombes,1985, for widespread Morocco glacialmarine beds;Hamoumi,2001, cites thewidespread beds of the U. Second Bani Formation"
+T,155,T375,,-32,S,19,E,Africa,South Africa,,,Upper,Ordovician,,,Tillites,Pakhuis,unfossiliferous and one area with striated pavement,"Rust(in Hambrey and Harland,1981, pp.113-117)",
+T,156,T376,,10,N,-12,W,Africa,Sierra Leone,,,Upper,Ordovician,,,Tillites,Saionia Scap Group,glacial-like sediments,"Tucker,Reid(in Hambrey and Harland,1981, pp.97-98)",
+T,157,T377,,29.5,N,36,E,Asia,Jordan,,southern Jordan,Upper,Ordovician,Ashgillian,,Tillites,,and associated phenomena,Abdukader et al.(1993),
+T,158,T378,,27,N,43,E,Asia,Saudi Arabia,,,Upper,Ordovician,Ashgillian,,Tillites,Tabuk,and associated phenomena,McClure(1978),"see also Young in Hambrey,Harland,1981;Vaslet,1989,1990)"
+T,159,T378.2,,25,N,49,E,,,,,,,,,,,,,
+T,160,T378.1,,50,N,14.5,E,Europe,Czech Republic,,,Upper,Ordovician,,,Tillites,Kosov,coarser sandstones and pebbly beds,Havi ek(1982),
+T,161,T379,,49,N,1,W,Europe,France,,Normandy,Upper,Ordovician,Ashgillian,,Tillites,Feuguerolles,,"Dore(in Hambrey and Harland,1981)",
+T,162,T380,,49.5,N,8,W,Europe,Germany,,Thuringia,Upper,Ordovician,Ashgillian,,Tillites,Lederschiefer,pebbly beds,"Steiner,Falk(in Hambrey and Harland,1981)","see Katzung,1999, for an extended discussion of these daimictites while making a strong case for a glacial orgin"
+T,163,T381,,39.6,N,-3,W,Europe,"Portugal,Spain",,,Upper,Ordovician,,,Tillites,,,"Robardet(in Hambrey and Harland,1981)",
+T,164,T382,,45,N,-65,W,N. America,Canada,,Nova Scotia:Annapolis Valley and Yarmouth areas,Upper,Ordovician,Ashgillian,,Tillites,"Haliifax,Kentville",diamictitic conglomerates,"Schenk,Lane(in Hambrey and Harland,1981)",
+T,165,T383,,-24,S,-64,W,S. America,Argentina,,central Andes from NW Argentina to SE Peru,Upper,Ordovician,Ashgillian,"youngest underlying fossils are of Caradoc,oldest overlying are of prob. Llandovery",Tillites,"Zapla,Cancaniri,Mecoyita",consistent with the diamictites being Ashgill age,"Suarez-Soruco,Rocha-Campos(in Hambrey and Harland,1981)",
+T,166,T384,,-18,S,-64,W,S. America,Bolivia,,central Andes from NW Argentina to SE Peru,Upper,Ordovician,Ashgillian,"youngest underlying fossils are of Caradoc,oldest overlying are of prob. Llandovery",Tillites,"Zapla,Cancaniri,Mecoyita",consistent with the diamictites being Ashgill age,"Suarez-Soruco,Rocha-Campos(in Hambrey and Harland,1981)",
+T,167,T385,,-14,S,-68,W,S. America,Bolivia,,central Andes from NW Argentina to SE Peru,Upper,Ordovician,Ashgillian,"youngest underlying fossils are of Caradoc,oldest overlying are of prob. Llandovery",Tillites,"Zapla,Cancaniri,Mecoyita",consistent with the diamictites being Ashgill age,"Suarez-Soruco,Rocha-Campos(in Hambrey and Harland,1981)",
+T,168,T386,,-3,S,-55,W,S. America,Brazil,,Amazon Basin,Upper,Ordovician,Hirnantian,,Tillites,,Llandovery spore tetrads above in the Nhamunda,"Roca-Campos(in Hambrey and Harland,1981)",
+T,169,T386.1,,-16,S,-50,W,S. America,Brazil,,north side of the Parana Basin,Upper,Ordovician,,,Tillites,Vila Maria,diamictites,"Mizusaki et al.(2002, Fig. 2)",
+B,170,B387,,20,N,28,E,Africa,Sudan,,northwestern Sudan,Lower,Silurian,,,Bauxite,Umm Ras,"kaolinites and lateritic beds, some including boehmite and gibbsite",Germann et al.(1993),see also Germann et al.(1994)
+B,171,B388,,51,N,72,E,Asia,C.I.S (frm USSR),,"Tselinograd area,Kasakhstan",Upper,Ordovician,,,Bauxite,,karst bauxite,"Bardossy(1982, Appendix 1)",
+B,172,B389,,50,N,82,E,Asia,C.I.S (frm USSR),,northeastern Kazakhstan,Middle,Ordovician,,,Bauxite,Shagansk deposit,,Murzaliev91984),"in limestones near the Shagan River;see also Nikitin,(1973a,b)"
+K,173,K390,,18,N,-9,W,Africa,Mauritania,,Taoudeni Basin,Upper,Ordovician,,,Kao-Kaolinite,,abundant kaolinite from below L. Ordovician tillite,Chamley et al.(1981),
+K,174,K391,,28.5,N,118,E,Asia,China,,"Yushan, NE Jaingxi",Upper,Ordovician,M. Ashgillian,,Kao-Kaolinite,,kaolinitic mudstone,Chen Xu et al.(1987),
+K,175,K392,,54.5,N,13.5,E,Europe,Germany,,Rugen,M - U,Ordovician,Llanvirn through E. Caradoc,,Kao-Kaolinite,,detrital kaolinite in beds that yielded graptolites,Storr(1975),
+K,176,K393,,50,N,-103,W,N. America,Canada,,Saskatchewan:southeastern Saskatchewan,Middle,Ordovician,,,Kao-Kaolinite,Winnipeg,,Paterson(1971),
+K,177,K393.1,,42,N,-91,W,N. America,United States,,"Illinois,Wisconsin,Iowa and adjacent areas",Middle,Ordovician,,,Kao-Kaolinite,Nada,and minor boehmite associated with oolitic ironstones,"Moore,Hughes(2000)",
+K,178,K394,,45,N,-93,W,N. America,United States,,Minnesota,Middle,Ordovician,,,Kao-Kaolinite,"Glenwood,Decorah",detrital kaolinite ,Parham(1996),"see also Parham,Austin(1967)"
+K,179,K395,,34,N,-97,W,N. America,United States,,Oklahoma: the Arbuckles,Middle,Ordovician,,,Kao-Kaolinite,,limestones that contian kaolinite in the fine fraction,Parham(1996),
+K,180,K396,,-2,S,-58,W,S. America,Brazil,,Amazon Basin,Upper,Ordovician,,customarily assigned to the earllier Silurian,Kao-Kaolinite,"Nhamunda Member-Trombetas,Autas Miram i.e.,Rawtheyan",detrital kaolinite,"Alves,Rodrigues(1985a)",

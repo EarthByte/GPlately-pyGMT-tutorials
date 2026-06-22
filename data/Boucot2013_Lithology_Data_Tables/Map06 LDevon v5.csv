@@ -1,0 +1,77 @@
+LithologyCode,LithNumber,OldIDNumber,,LAT,NS,LONG,EW,Continent,Country,,GeogComments,LMU,Period,Stage,AgeComments,Lithology,Formation,LithComments,PrimaryReference,SeeAlso
+E,1,E470.2,,26,N,11,E,Africa,Libya,,,Lower,Devonian,,,Gypsum,Wan Kasa,,Hallett(2002),
+E,2,E456,,41,N,80,E,Asia,China,,Tarim:Wushi,L - M,Devonian,,,Gypsum,Tangaitaer,,Liao Wei-hua et al.(1990),
+E,3,E457,,40,N,80,E,Asia,China,,Tarim:south of Kalping,Lower,Devonian,,,Gypsum,,,GuanShi-cong et al.(1984),
+E,4,E458,,42.2,N,82,E,Asia,China,,"Tarim:Baicheng,Xinjiang",Lower,Devonian,,,Halite,Togemaiti,glaubers salt,The Xinjiang Regional Stratagraphic Chart(1981),
+E,5,E459,,33.4,N,104.9,E,Asia,China,,"North China:Wudu,Gansu",Lower,Devonian,,,Gypsum,Shangputonggou,,The Gansu Regional Geological Survey Team(1987),
+E,6,E460,,30.7,N,102.7,E,Asia,China,,"South China:Baoxing,Sichuan",Lower,Devonian,,,Gypsum,Yaoji Group,,Wang Zeng0ji et al.(1990),
+E,7,E461,,29.7,N,98.8,E,Asia,China,,"South China:Mangkang,Sichuan",Lower,Devonian,,,Gypsum,Dingzhonglong,,Sich Regional Geological Suvey Team,
+E,8,E462,,80,N,96,E,Asia,C. I. S.(frm USSR),,"Siberian Platform:N. Siberian. Basin,incl .Severnaya Zemlya",L - M,Devonian,"(Emsian,Eifelian)",,Evaporite,(Ruzanov Suite),,"Zharkov(1981, Figs. 5,20, pp. 19-23, 108-109; 1984, Fig. 35)","(see also Egiazarov,1973 Fig. 32, 147)((see also Mark-Kurik,Janvier,1995,Pragian Rusanov, and Mannik et al.,2002,Podemnaya,Lochkovian,Rusanov Frm.-Pragian-Emsian)) "
+E,9,E462.1,,72,N,90,E,Asia,C. I. S.(frm USSR),,"Siberian Platform:N. Siberian. Basin,incl .Severnaya Zemlya",L - M,Devonian,"(Emsian,Eifelian)",,Evaporite,(Ruzanov Suite),,"Zharkov(1981, Figs. 5,20, pp. 19-23, 108-109; 1984, Fig. 35)","(see also Egiazarov,1973 Fig. 32, 147)((see also Mark-Kurik,Janvier,1995,Pragian Rusanov, and Mannik et al.,2002,Podemnaya,Lochkovian,Rusanov Frm.-Pragian-Emsian)) "
+E,10,E462.2,,68,N,100,E,Asia,C. I. S.(frm USSR),,"Siberian Platform:N. Siberian. Basin,incl .Severnaya Zemlya",L - M,Devonian,"(Emsian,Eifelian)",,Evaporite,(Ruzanov Suite),,"Zharkov(1981, Figs. 5,20, pp. 19-23, 108-109; 1984, Fig. 35)","(see also Egiazarov,1973 Fig. 32, 147)((see also Mark-Kurik,Janvier,1995,Pragian Rusanov, and Mannik et al.,2002,Podemnaya,Lochkovian,Rusanov Frm.-Pragian-Emsian)) "
+E,11,E462.3,,73,N,115,E,Asia,C. I. S.(frm USSR),,"Siberian Platform:N. Siberian. Basin,incl .Severnaya Zemlya",L - M,Devonian,"(Emsian,Eifelian)",,Evaporite,(Ruzanov Suite),,"Zharkov(1981, Figs. 5,20, pp. 19-23, 108-109; 1984, Fig. 35)","(see also Egiazarov,1973 Fig. 32, 147)((see also Mark-Kurik,Janvier,1995,Pragian Rusanov, and Mannik et al.,2002,Podemnaya,Lochkovian,Rusanov Frm.-Pragian-Emsian)) "
+E,12,E462.4,,65,N,130,E,Asia,C. I. S.(frm USSR),,"Siberian Platform:N. Siberian. Basin,incl .Severnaya Zemlya",L - M,Devonian,"(Emsian,Eifelian)",,Evaporite,(Ruzanov Suite),,"Zharkov(1981, Figs. 5,20, pp. 19-23, 108-109; 1984, Fig. 35)","(see also Egiazarov,1973 Fig. 32, 147)((see also Mark-Kurik,Janvier,1995,Pragian Rusanov, and Mannik et al.,2002,Podemnaya,Lochkovian,Rusanov Frm.-Pragian-Emsian)) "
+E,13,E463,,62,N,96,E,Asia,C. I. S.(frm USSR),,"Siberian Platform:N. Siberian Basin,incl .Severnaya Zemlya",Lower,Devonian,Pragian-Emsian,,Evaporite,,,"Zharkov(1981, Figs. 5,20, pp. 19-23, 108-109; 1984, Fig. 35)","(see also Egiazarov,1973 Fig. 32, 147)((see also Mark-Kurik,Janvier,1995,Pragian Rusanov, and Mannik et al.,2002,Podemnaya,Lochkovian,Rusanov Frm.-Pragian-Emsian)) "
+E,14,E464,,62,N,138,E,Asia,C. I. S.(frm USSR),,Siberian Platform:Sette Daban,Lower,Devonian,,,Evaporite,,,"Zharkov(1981, Figs. 5,20, pp. 19-23, 108-109; 1984, Fig. 35)","(see also Egiazarov,1973 Fig. 32, 147)((see also Mark-Kurik,Janvier,1995,Pragian Rusanov, and Mannik et al.,2002,Podemnaya,Lochkovian,Rusanov Frm.-Pragian-Emsian)) "
+E,15,E465,,65,N,147,E,Asia,C. I. S.(frm USSR),,Siberian Platforn:Omulevsk Mountians,Lower,Devonian,,,Evaporite,,,"Zharkov(1981, Figs. 5,20, pp. 19-23, 108-109; 1984, Fig. 35)",
+E,16,E466,,69,N,87,E,Asia,C. I. S.(frm USSR),,Siberian Platform:Norilsk District,Lower,Devonian,,,Evaporite,,,"Zharkov(1981, Figs. 5,20, pp. 19-23, 108-109; 1984, Fig. 35)",
+E,17,E467,,74,N,112,E,Asia,C. I. S.(frm USSR),,Siberian Platform:Norilsk District,Lower,Devonian,,,Evaporite,,,"Zharkov(1981, Figs. 5,20, pp. 19-23, 108-109; 1984, Fig. 35)",
+E,18,E468,,62,N,118,E,Asia,C. I. S.(frm USSR),,Siberian Platform:Kempeendyai Depression,Lower,Devonian,,,Evaporite,,,"Zharkov(1981, Figs. 5,20, pp. 19-23, 108-109; 1984, Fig. 35)",
+E,19,E461.1,,74,N,90,E,Asia,C. I. S.(frm USSR),,Siberian Platform:southwestern Taimyr,Lower,Devonian,Lochkovian,,Gypsum,,,"Cherkesova(1988, Fig. 2)",
+E,20,E468.1,,75,N,95,E,Asia,C. I. S.(frm USSR),,Siberian Platform:Taimyr,Lower,Devonian,Lochkovian,,Evaporite,Belyi Kamen Subhorizon,,Cherkesova(1999),
+E,21,E469,,34,N,57,E,Asia,Iran,,"Shirgesht area,north of Kerman",Lower,Devonian,,,Gypsum,Padeha,,Ruttner et al.(1968),
+E,22,E470,,36,N,52,E,Asia,Iran,,Khush-Yeilagh in the Alborz,L - M,Devonian,Emsian or Eifelian,,Gypsum,,,"Janvier(written comm.,1994)",
+E,23,E470.1,,37,N,55,E,Asia,Iran,,a number of localities in the Elburz ,Lower,Devonian,,,Evaporite,Padeha,,Brice et al.(1978),see also Stampfli(1978)
+E,24,E471,,30,N,39,E,Asia,Saudi Arabia,,Al Hudj,Lower,Devonian,,,Evaporite,Jauf,gypsum and salt,"Janvier(written comm.,1994)",
+E,25,E472,,-36,S,145,E,Australia,Victoria,,central Victoria,Lower,Devonian,Pragian,,Evaporite,Lilydale Limestone,evaporite pseudomorphs of calc. after gyp.;calc.nodules pseudo.aft. cauliflower anhy.nod.,"Wall et al.(1995, p. 375;Wall oral comm.,1995)",
+E,26,E473,,-18,S,124,E,Australia,,,Western Australia:Canning Basin,Lower,Devonian,,,Evaporite,,,Wells(1980),
+E,27,E474,,47,N,11,E,Europe,Austria,,to the west of the Russian Platform,Lower,Devonian,earlier E. Devonian,U. Silurian,Evaporite,Black Schist,graptolitic shales,Raith(1990),
+E,28,E475,,59,N,-3,W,United Kingdom,Britain,,,Lower,Devonian,,,Evaporite,Scottish,lacustrine evaporites,Parnell(1986),
+E,29,E475.1,,68,N,60,E,Asia,C. I. S.(frm USSR),,northern pt. of the pre-Uralian Foredeep,Lower,Devonian,Lochkovian,,Evaporite,,,"Sarkh,Rasskazova(1982)",
+E,30,E475.2,,60,N,49,E,Asia,C. I. S.(frm USSR),,Kolguev Island,Lower,Devonian,Pragian-Lochkovian,,Anhydrite,,,Preobrazhenskaya et al.(1995),
+E,31,E476,,48,N,-3,W,Europe,France,,"W. part of the central Armorican Basin,Rade de Brest area",Lower,Devonian,Lochkovian,,Evaporite,Lower Armorican,,"Guillocheau,Rolet(1982, p. 52)",
+E,32,E477,,43.5,N,-6,W,Europe,Spain,,"north coast of Spain,as at Cap Penas",Lower,Devonian,Pragian,,Evaporite,Banugues-Felmin,,"Garcia-Alcalde(1995, p. 21)","see also Zamarreno,1976 for the sedimentological information"
+E,33,E478,,77,N,22,E,Europe,Svalbard,,,Lower,Devonian,Pragian-Emsian,,Gypsum,Wood Bay,gypsum lenses,"Janvier(written comm.,1994)",
+E,34,E479,,78,N,-80,W,N. America,Canada,,Arctic:eastern and southern Ellesmereland,Lower,Devonian,,,Evaporite,,,Davies(1973),
+E,35,E480,,73,N,-97,W,N. America,Canada,,Arctic:eastern Prince of Wales Island,Lower,Devonian,Lochkovian,,Evaporite,Peel Sound,salt casts and gypsum/anhdrite pseudomorphs,Miall(1970),
+E,36,E481,,75,N,-92,W,N. America,Canada,,Arctic:Boothia Uplift region,Lower,Devonian,Lochkovian,,Gypsum,Sophia Sound,,Thorsteinsson(1980),
+E,37,E481.1,,78,N,-88,W,N. America,Canada,,Arctic:southern Devon Island,Lower,Devonian,Emsian,,Gypsum,Strathcona Fiord,,Thorsteinsson(1980),
+E,38,E481.6,,78,N,-88,W,N. America,Canada,,Arctic:southern Ellesmere Island,Lower,Devonian,,,Evaporite,Cross Bay Member-Bird Fiord,,Goodbody(1989),
+E,39,E481.5,,64,N,-124.5,W,N. America,Canada,,"Alberta,Manitoba,Saskatchewan,Yukon Ter.,Dist. of Mackenzie ",Lower,Devonian,,,Evaporite,Bear Rock,"Dehadinni M-43A Well,District of Mackenzie",Meijer-Drees(1980),"see also Williams,1975"
+E,40,E481.2,,68,N,-132,W,N. America,Canada,,"Alberta,Manitoba,Saskatchewan,Yukon Ter.,Dist. of Mackenzie ",Lower,Devonian,,,Evaporite,,varied locales,Meijer-Drees(1993),
+E,41,E481.3,,60.5,N,-124,W,N. America,Canada,,"Alberta,Manitoba,Saskatchewan,Yukon Ter.,Dist. of Mackenzie ",Lower,Devonian,,,Evaporite,,varied locales,Meijer-Drees(1993),
+E,42,E481.4,,60,N,-122,W,N. America,Canada,,"Alberta,Manitoba,Saskatchewan,Yukon Ter.,Dist. of Mackenzie ",Lower,Devonian,,,Evaporite,,varied locales,Meijer-Drees(1993),
+E,43,E482,,60,N,-85,W,N. America,Canada,,Hudson and Moose River Basins,Lower,Devonian,Gedinnian,,Evaporite,Kenogami River,,"Sanford(1974,1987)",
+E,44,E483,,53,N,-80,W,N. America,Canada,,Hudson and Moose River Basins,Lower,Devonian,Gedinnian,,Evaporite,Kenogami River,,"Sanford(1974,1987)",
+E,45,E484,,42,N,-85,W,N. America,United States,,Michigan and adjacent Illinois,Lower,Devonian,Gedinnian,,Evaporite,Bass Islands,,Landes et al.(1945),
+CA,46,CA485,,24,N,102,E,Asia,China,,north-eastern Yunnan,Lower,Devonian,,,Calcrete,,,Boucot et al.(1982),
+CA,47,CA485.1,,56,N,86,E,Asia,C. I. S.(frm USSR),,eastern side of the Salair,Lower,Devonian,,,Calcrete,,,Yolkin et al.(1985),
+CA,48,CA485.2,,-34.8,S,149.9,E,Australia,New South Wales,,,Lower,Devonian,Emsian,,Calcrete,Cavan Bluff Limestone,,Lindley(2000),"see also Lindley,2002, Fig. 5"
+CA,49,CA486,,50,N,6,E,Europe,Belgium,,Gileppe in eastern Belgium,Lower,Devonian,U. Gedinnian,,Calcrete,Gres de Bois d'Ausse,calcareous nodules in red and mottled shales ,"Steemans,Gerrienne(1984; Fig. 2)",
+CA,50,CA487,,50,N,2,E,Europe,France,,Lievin in the Pernes Quarry,Lower,Devonian,Gedinnian,,Calcrete,Pernes,,"Blieck(written comm.,1991)",
+CA,51,CA488,,52.2,N,10.25,E,Europe,Ireland,,Dingle Peninsula,Lower,Devonian,,,Calcrete,Old Red Sandstone-Caherquin Member,,"Todd,Went(1991)",
+CA,52,CA489,,77.5,N,22.5,E,Europe,Svalbard,,,Lower,Devonian,,,Calcrete,Wood Bay,,"Friend(Friend,Moody-Stuart,1978;pers. Comm.,1982)",
+CA,53,CA490,,78,N,16,E,Europe,Svalbard,,,Lower,Devonian,,,Calcrete,Wood Bay,,Reed(1991),"see also Harland,1997, p. 138"
+CA,54,CA491,,53,N,-3,W,United Kingdom,England andWales,,Welsh Borderland,Lower,Devonian,,,Calcrete,,,Allen(1986),
+CA,55,CA492,,53,N,-5,W,United Kingdom,England andWales,,"Pembrokeshire on the S.,thru  Welsh Borderland to Anglesea",Lower,Devonian,Gedinnian through Emsian,,Calcrete,,,Allen(1974),
+CA,56,CA493,,52,N,-5,W,United Kingdom,England andWales,,"Pembrokeshire on the S.,thru  Welsh Borderland to Anglesea",Lower,Devonian,Gedinnian through Emsian,,Calcrete,,,Allen(1974),
+CA,57,CA494,,51,N,-2,W,United Kingdom,England andWales,,Somerset,Lower,Devonian,,,Calcrete,Hamswell,Hamswell borehole,"Chaloner,Richardson(in House et al.,1977)",
+CA,58,CA495,,56,N,-3,W,United Kingdom,England andWales,,the Cheviots and Southern Scotland,Lower,Devonian,Lower ORS,,Calcrete,Lower ORS(Lower Old Red Sandstone),,"Westoll(in House et al.,1977)",
+CA,59,CA496,,52,N,-4,W,United Kingdom,England andWales,,near Carmarthen,Lower,Devonian,,,Calcrete,Senni Beds,,Owen(1995),
+CA,60,CA497,,51,N,-3,W,United Kingdom,England andWales,,northeastern Somerset,Lower,Devonian,,,Calcrete,Lower Old Red Sandstone,,Pick(1964),
+CA,61,CA498,,56,N,-5,W,United Kingdom,Scotland,,the Grampians of Scottland,Lower,Devonian,,,Calcrete,Lower Old Red Sandstone,,Sweet(1986),
+CA,62,CA499,,57,N,-3,W,United Kingdom,Scotland,,Perthshire,Lower,Devonian,,,Calcrete,,,"Friend,Williams(1978, p. 16)","see also Francis et al.,1970, Stirling District"
+CA,63,CA500,,56,N,-4,W,United Kingdom,Scotland,,Strathmore region,Lower,Devonian,,,Calcrete,Lower Old Red Sandstone Pittendriech Limestone,,Parnell(1983a),
+CA,64,CA500.2,,49,N,-64.5,W,N. America,Canada,,Quebec:Gaspe Bay,Lower,Devonian,,,Calcrete,Battery Point,,"Elick(1999, p. A-159)",
+C,65,C501,,56,N,86,E,Asia,C. I. S.(frm USSR),,"Barzas,Kemerovo",Lower,Devonian,Late Lower Devonian,,Coals,,is coal as contrasted w/ a coaly accumulation of plant material needs further study,Petroconsulttants(1977),
+C,66,C501.1,,46.5,N,-60,W,,Nova Scotia,,,,,,,,,,,
+C,67,C502,,49,N,-64.5,W,N. America,Canada,,Quebec:south side of Gaspe Bay,Lower,Devonian,Emsian,,Coals,Battery Point,very thin coal seams,Dawson(1871),
+B,68,B503,,60,N,60,E,Asia,Russia,,eastern slope of the northern Urals,Lower,Devonian,Emsian,,Bauxite,Karpinsk Horizon,karst bauxite,"Snigireva,Nasedkina(1995, Text-fig. 2 and p. 449)","see also Gutkin et al., in Mikhailov, ed.,1987"
+B,69,B503.1,,52.5,N,84,E,Asia,Russia,,Salair,Lower,Devonian,,,Bauxite,Salair,,"Kirpal,Tenyakov(1974)","see also Nagorskii et al.,1958"
+K,70,K504,,29,N,8,E,Africa,Algeria,,Polignac Basin,Lower,Devonian,,,Kao-Kaolinite,,detrital kaolinite,Dunoyer de Segonzac(1969),
+K,71,K504.1,,24.5,N,11,E,Africa,Libya,,,Lower,Devonian,Emsian,,Kao-Kaolinite,Ouan Kasa,,Gale(1984),"see also Jakovljevic,1984"
+K,72,K505,,54,N,-3,W,Europe,Great Britain,,Scottland:northeastern part of Midland Valley of Scottlaand,Lower,Devonian,Downtownnian,,Kao-Kaolinite,,sedimentary kaolinite,Wilson(1971),
+K,73,K506,,42,N,-2,W,Europe,Spain,,Iberian Ranges,Lower,Devonian,Gedinnian,,Kao-Kaolinite,Luesma,detrital kaolinite,Bauluz Lazaro et al.(1995),
+K,74,K507,,48.5,N,-65.5,W,N. America,Canada,,Quebec:C.Gspe-area of the Lake Branch of the Cascapedia R.,Lower,Devonian,Emsian,,Kao-Kaolinite,York River,three samples-detrital kaolinite,"Andre Chagnon(written comm.,1995)",
+K,75,K508,,-24,S,-53,W,S. America,Brazil,,Parana Basin,Lower,Devonian,,,Kao-Kaolinite,Furmas,high percentage of kaolinite,"Ramos,Formoso(1976)","see Dino,Rodrigues,1995,for the spore-based age of the Furnas;Mussa et al.,1996,Gerrienne et al.,2001,Steemans et al.,fot the megascopic flora"
+K,76,K509,,-2,S,-58,W,S. America,Brazil,,Amazon Basin,Lower,Devonian,,,Kao-Kaolinite,,detrital kaolinite,"Alves,Rodrigues(1985a)",

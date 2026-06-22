@@ -1,0 +1,471 @@
+LithologyCode,LithNumber,OldIDNumber,,LAT,NS,LONG,EW,Continent,Country,,GeogComments,LMU,Period,Stage,AgeComments,Lithology,Formation,LithComments,PrimaryReference,SeeAlso
+E,1,E6004,,35.00,N,7.00,E,Africa,Algeria,,northeastern Algeria,Middle,Eocene,,Eocene,Evaporites,,,"Merabet,Popov(1972)",
+E,2,E6004.1,,36.00,N,7.50,E,Africa,Algeria,,Tebessa region,Middle,Eocene,Lutetian,Eocene,Evaporites,,,Faid(1999),
+E,3,E6004.2,,34.50,N,-0.50,E,Africa,Algeria,,eastern Algeria,Middle,Eocene,Lutetian,Eocene,Evaporites,,,"Tabuce et al.(2001, Fig. 1)",
+E,4,E6005,,29.50,N,31.00,E,Africa,Egypt,,Fatum and Gebel Mokattam,Middle,Eocene,,Middle and Late Eocene,Evaporites,,"gypsiferous beds, and celestite nodules at varied horizons",Gingerich(1992),see also Rasmussen et al.(2001)
+E,5,E6006,,30.00,N,34.00,E,Africa,Egypt,,Sinai,Middle,Eocene,,Middle and Upper Eocene,Evaporites,,,Jenkins(1990),
+E,6,E6007,,28.00,N,17.00,E,Africa,Libya,,Sirt Basin,Middle,Eocene,,"see also Lashhlab et al.,(1992),and Anketell,Kumati,(1992), for Upper Eocene",Evaporites,Gir,,Abushagur(1992),
+E,7,E6008,,33.00,N,12.00,E,Africa,Libya,,offshore western Libya,Middle,Eocene,,Middle and Upper Eocene,Evaporites,,,Sbeta(1992),
+E,8,E6009,,32.00,N,-3.00,W,Africa,Morocco,,,Middle,Eocene,,Eocene,Evaporites,,,"Torochaux(1968, p. 110)",
+E,9,E6009.1,,31.00,N,-7.00,W,Africa,Morocco,,,Middle,Eocene,,Late Eocene,Evaporites,Hadida,,Harfi et al.(2001),
+E,10,E6010,,8.00,N,49.00,E,Africa,Somalia,,coastal Somalia,Middle,Eocene,,Eocene,Evaporites,,,Barnes(1976),
+E,11,E6011,,11.00,N,49.00,E,Africa,Somalia,,,Middle,Eocene,,Lower and Early Middle Eocene,Evaporites,Taleh,,Schreiber(1993),
+E,12,E60011.1,,35.00,N,9.00,E,Africa,Tunisia,,central Atlas,L -M -U?,Eocene,,,Evaporites,Jebs,,Bedir et al.(2001),
+E,13,E6012,,38.00,N,117.00,E,Asia,China,,North China:Bohai Bay area,Middle,Eocene,,Upper Eocene,Evaporites,Shehejie Frm-member 3,,Wang Xie-pei et al.(1985),"see also Chen Fe-jing,Zhang Shu-lin,(1991)"
+E,14,E6013,,31.00,N,112.00,E,Asia,China,,North China:within Hubei Province,Middle,Eocene,,Upper Eocene,Evaporites,Shehejie Frm-member 3,,Wang Xie-pei et al.(1985),"see also Chen Fe-jing,Zhang Shu-lin,(1991)"
+E,15,E6014,,39.00,N,107.00,E,Asia,China,,North China:Nei Mongol,Middle,Eocene,,Eocene,Gypsum,,,"Song Zhi-chen,Zhang Da-hua(1990)",
+E,16,E6015,,33.00,N,119.00,E,Asia,China,,North ChinaHonghe,L  - M,Eocene,,Paleocene to Early Eocene to Middle-Late Eocene,Evaporites,Funing,salt ore,Chu Xu-chun(1986)
+E,17,E6016,,35.50,N,115.00,E,Asia,China,,North China:Puyang,M  - U,Eocene,,Late Eocene to Oligocene,Evaporites,,rock salt ore,Chu Xu-chun(1986)
+E,18,E6017,,38.50,N,117.00,E,Asia,China,,North China:eastern Changzhou,M  - U,Eocene,,Late Eocene to Oligocene,Evaporites,,rock salt ore,Chu Xu-chun(1986)
+E,19,E6018,,39.00,N,117.50,E,Asia,China,,North China:Dongying,M  - U,Eocene,,Late Eocene to Oligocene,Evaporites,,rock salt ore,Chu Xu-chun(1986)
+E,20,E6019,,30.40,N,112.80,E,Asia,China,,North China:Hubei Province,M  - U,Eocene,,Upper Eocene to Lower Oligocene,Halites,Qiangjiang,,"Zheng,Wang(1996)"
+E,21,E6021,,34.00,N,113.00,E,Asia,China,,South China:Wuchen Basin in Henan Province,Middle,Eocene,,Late Eocene,Evaporites,,lacustrine evaporites,Zhang You-xun(1983)
+E,22,E6022,,30.50,N,113.00,E,Asia,China,,South China:Quianjiang,Middle,Eocene,,Upper Eocene,Evaporites,Qiangjiang,salt with potash and magnesium salts,Chu Xu-chun(1986)
+E,23,E6023,,32.50,N,113.50,E,Asia,China,,South China:Tongpo,Middle,Eocene,,Middle-Late Eocene,Evaporites,Hetaoyuan,,Chu Xu-chun(1986)
+E,24,E6024,,35.00,N,111.00,E,Asia,China,,South China:Pinglu-Shaanxian,Middle,Eocene,,Late Eocene,Evaporites,Daan,gypsum ore,Chu Xu-chun(1986)
+E,25,E6025,,32.50,N,117.50,E,Asia,China,,South China:Dingyuan,Middle,Eocene,,Eocene(?),Evaporites,Dingyuan,gypsum ore,Chu Xu-chun(1986)
+E,26,E6026,,21.50,N,109.00,E,Asia,China,,South China:Hepu,Middle,Eocene,,Eocene(?),Evaporites,,gypsum ore,Chu Xu-chun(1986)
+E,27,E6027,,23.50,N,113.00,E,Asia,China,,South China:Longgui,Middle,Eocene,,Early Eocene-Late Eocene,Evaporites,,rock salt ore with glaubers salt and gypsum,Chu Xu-chun(1986)
+E,28,E6028,,23.50,N,112.50,E,Asia,China,,South China:Sanshui,Middle,Eocene,,Early Eocene-Late Eocene,Evaporites,,gypsum ore,Chu Xu-chun(1986)
+E,29,E6029,,24.00,N,116.00,E,Asia,China,,South China:Xingning,Middle,Eocene,,Early Eocene-Late Eocene,Evaporites,,gypsum ore,Chu Xu-chun(1986)
+E,30,E6030,,33.00,N,111.50,E,Asia,China,,South China:Xichuan,Middle,Eocene,,Middle-Late Eocene,Evaporites,Dachangfeng,,Chu Xu-chun(1986)
+E,31,E6031,,24.00,N,107.00,E,Asia,China,,South China:Baise Basin,L -M -U?,Eocene,,,Evaporites,Red,nonmarine gypsum,Liu Chang-song et al.(1991)
+E,32,E6020,,31.00,N,98.00,E,Asia,China,,Xizang:Gougjue,Middle,Eocene,,Eocene(?),Evaporites,,gypsum and rock salt,Chu Xu-chun(1986)
+E,33,E6020.1,,36.60,N,101.80,E,Asia,China,,Xizang:Xining,L -M -U?,Eocene,,,Gypsum,Honggou,,Deng Zhong-lin et al.(2000)
+E,34,E6020.2,,36.30,N,102.80,E,Asia,China,,Xizang:Minhe,L -M -U?,Eocene,,,Evaporites,Honggou,,Deng Zhong-lin et al.(2000)
+E,35,E6032,,40.00,N,65.00,E,Asia,C.I.S.(frm U.S.S.R.),,southeastern Cental Asia,M  - U,Eocene,,Eocene-Oligocene,Gypsum,,,Pulatova(1990)
+E,36,E6032.1,,45.00,N,79.00,E,Asia,C.I.S.(frm U.S.S.R.),,,Middle,Eocene,,Late Eocene,Gypsum,Kyzylbulek,,Lucas et al.(1997)
+E,37,E6032.2,,28.00,N,51.00,E,Asia,Iran,,,Middle,Eocene,,Middle Eocene,Evaporites,Kashkan,,"Jones,Racey(1994)"
+E,38,E6032.3,,36.75,N,57.50,E,Asia,Iran,,,Middle,Eocene,,Middle Eocene,Evaporites,Oryan Series,,Lindenberg et al.(1984)
+E,39,E6032.4,,33.00,N,54.00,E,Asia,Iran,,,Middle,Eocene,,Upper Eocene,Evaporites,Pis Kuh,,Perfilev et al.(1984)
+E,40,E5693.2,,36.00,N,52.25,E,Asia,Iran,,,,,,,,,,
+E,41,E6033.1,,36.00,N,42.80,E,Asia,Iraq,,,Middle,Eocene,,Lower-Middle Eocene,Evaporites,Avanah/Jaddala,,"Hart,Hay(1974)"
+E,42,E6033.2,,27.00,N,67.00,E,Asia,Pakistan,,,Middle,Eocene,,Early-Middle Eocene,Evaporites,Kirthar,,Shah(1977)
+E,43,E6034,,23.00,N,57.00,E,Asia,Saudi Arabia,,and adjacent States,Middle,Eocene,,Middle Eocene; although most workers assign the Rus to the early Eocene,Evaporites,Rus,,"Jones,Racey(1994)"
+E,44,E6035,,40.00,N,35.00,E,Asia,Turkey,,,Middle,Eocene,,,Evaporites,,,Uygun(1980)
+E,45,E6036,,24.00,N,55.00,E,Asia,United Arab Emirates,,,Middle,Eocene,,Late Eocene,Evaporites,Damman Frm-Mezyad Member,,Anan(1995)
+E,46,E6036.1,,!4,N,45.00,E,,,,,,,,,,,,
+E,47,E6037,,45.00,N,5.00,E,Europe,France,,southeastern France(Mormoiron-Pernes),Middle,Eocene,,Late Eocene,Evaporites,,,"Truc(1978,1980)"
+E,48,E6038,,46.00,N,5.00,E,Europe,France,,Bresse Basin in southeastern France,Middle,Eocene,Lutetian,Eocene,Evaporites,,,Curial(1988),
+E,49,E6039,,48.00,N,2.00,E,Europe,France,,Paris Basin,Middle,Eocene,Lutetian,"mid-Eocene;see also Toulement,(1980) and Ludian(Upper Eocene)",Evaporites,,,Megnien(1980),
+E,50,E5703.1,,48.00,N,7.50,E,Europe,France,,southern part of the Rhine Graben,Middle,Eocene,Lutetian,Eocene,Evaporites,,,"Blanc-Valleron,Schuler(1997)",
+E,51,E5703.2,,45.00,N,5.00,E,Europe,France,,Valence Basin,Middle,Eocene,Lutetian,Eocene,Evaporites,,,"Dromart,Dumas(1997)",
+E,52,E6040,,49.00,N,8.00,E,Europe,Germany,,Rhine Graben,Middle,Eocene,,Late Eocene-Early Eocene,Evaporites,,,Richter-Bernburg(1972),
+E,53,E6041,,47.00,N,24.00,E,Europe,Rumania,,near Cluj,Middle,Eocene,,Eocene,Evaporites,,several Eocene horizons,Popoescu(1976),
+E,54,E6042,,40.00,N,-5.00,W,Europe,Spain,,,Middle,Eocene,,Middle and Late Eocene,Evaporites,,,"Rios(1968, pp. 61, 69)",
+E,55,E6043,,42.00,N,-2.00,W,Europe,Spain,,Ebro Valley occurrences,Middle,Eocene,,Middle and Late Eocene,Evaporites,,,"Rios(1968, pp. 61, 69)","see also Orti(1997), for Ebro Basin Middle and Late occurrences;Peyros et al.(2000) for Bartonian near Pamplona"
+E,56,E6044,,41.00,N,0.00,,Europe,Spain,,Ebro Valley occurrences,Middle,Eocene,,Middle and Late Eocene,Evaporites,,,"Rios(1968, pp. 61, 69)","see also Orti(1997), for Ebro Basin Middle and Late occurrences;Peyros et al.(2000) for Bartonian near Pamplona"
+E,57,E6045,,42.00,N,0.00,,Europe,Spain,,south-central Pyrenees near Tremp,Middle,Eocene,Priabonian,Upper Eocene,Evaporites,Guarga,,Nickel(1982),
+E,58,E6046,,41.00,N,1.00,E,Europe,Spain,,eastern Ebro Basin,Middle,Eocene,,Middle and Late Eocene,Gypsum,,,Anadon(1994),
+E,59,E6047,,22.00,N,-80.00,W,North America,Cuba,,,Middle,Eocene,,Middle Eocene,Evaporites,,,"Meyerhoff,Hatten(1968)",
+E,60,E6048,,20.00,N,-75.00,W,North America,Cuba,,Guantanmo Basin,L -M -U?,Eocene,,,Evaporites,,anhydrite,Furrazola-Bermudez et al.(1964),
+E,61,E6049,,18.00,N,-77.00,W,North America,Jamaica,,,Middle,Eocene,,Lower Eocene,Evaporites,,,Holliday(1971),see also Burne(1972)
+E,62,E6050,,20.00,N,-88.00,W,North America,Mexico,,,L  - M,Eocene,,Paleocene-Eocene,Evaporites,Icaiche,,"Claypool et al.(1980, Appendix)","see also Butterlin,Bonet(1966);Lopez Ramos(1975)"
+E,63,E6051,,34.00,N,-81.00,W,North America,United States,,South Carolina:Orangeburg,Middle,Eocene,,Middle Eocene,Evaporites,McBean,magadi-type chert,"Sheppard,Gude(1986)",see also Houser(1985)
+E,64,E6052,,41.00,N,-116.00,W,North America,United States,,Nevada,L -M -U?,Eocene,,,Evaporites,Elko,gypsum beneath coal-bearing beds,Palmer(1984),
+E,65,E6053,,42.00,N,-110.00,W,North America,United States,,Wyoming and adjacent states,Middle,Eocene,,Eocene,Evaporites,Green River,,"Deardorff(1963),Bradley(1966)",
+E,66,E6053.1,,-37.00,S,-57.00,W,South America,Argentina,,,Middle,Eocene,,Eocene,Evaporites,Los Cardos,,Urien(1981),
+E,67,E6053.2,,-25.00,S,-66.00,W,South America,Argentina,,,Middle,Eocene,,later Eocene,Evaporites,"Lumbrera,""Franja Verde"" Frms",,Omil et al.(1989),
+CA,68,CA6054,,35.00,N,-1.00,W,Africa,Algeria,,Oran and Constantine areas,Middle,Eocene,,Middle and Upper Eocene,Calcretes,,,Bensalah et al.(1991),
+CA,69,CA6055,,34.00,N,7.00,E,Africa,Algeria,,Oran and Constantine areas,Middle,Eocene,,Middle and Upper Eocene,Calcretes,,,Bensalah et al.(1991),
+CA,70,CA6055.1,,28.00,N,3.00,E,Africa,Algeria,,Saharan locale,M  - U,Eocene,,"latest Eocene or earliest Oligocene,dated by means of charophytes",Calcretes,,,Melbrouk et al.(1997),
+CA,71,CA6055.2,,30.00,N,-5.00,W,Africa,Algeria,,Saharan locale,Middle,Eocene,,"Middle-Late Eocene,dated by means of charophytes",Calcretes,,,Melbrouk et al.(1997),
+CA,72,CA6056,,32.00,N,10.00,E,Africa,Tunisia,,central and southern Tunisia,Middle,Eocene,,Eocene,Calcretes,,,"Kogbe,Burollet(1990)",
+CA,73,CA6057,,35.11,N,8.48,E,Africa,Tunisia,,Kasserine region,L -M -U?,Eocene,,,Calcretes,,,Sassi et al.(1984),
+CA,74,CA6057.1,,46.00,N,67.00,E,Asia,C.I.S.(frm U.S.S.R.),,,L  - M,Eocene,,Maastrichtian-Middle Eocene,Calcretes,,humid-arid zone boundary,"Erofeev,Tsekhovskii(1982, 1983)",
+CA,75,CA6057.2,,48.00,N,82.50,E,Asia,C.I.S.(frm U.S.S.R.),,,L  - M,Eocene,,Maastrichtian-Middle Eocene,Calcretes,,humid-arid zone boundary,"Erofeev,Tsekhovskii(1982, 1983)",
+CA,76,CA6057.3,,46.00,N,69.00,E,Asia,C.I.S.(frm U.S.S.R.),,,Middle,Eocene,,later Middle Eocene-Late Eocene,Calcretes,,,"Erofeev,Tsekhovskii(1982, 1983)",
+CA,77,CA6057.4,,47.00,N,83.00,E,Asia,C.I.S.(frm U.S.S.R.),,,Middle,Eocene,,later Middle Eocene-Late Eocene,Calcretes,,,"Erofeev,Tsekhovskii(1982, 1983)",
+CA,78,CA6057.5,,21.75,N,94.75,E,,,,,,,,,,,,,
+CA,79,CA6058,,49.00,N,2.00,E,Europe,France,,"Provence, the Paris Basin",Middle,Eocene,,"Eocene;see also Thiry,(1981,1989), for Lutetian from the Paris Basin;",Calcretes,,,"Freytet,Plaziat(1982)",see also Freytet(1973b)
+CA,80,CA6059,,47.00,N,-1.00,W,Europe,France,,Poitou,Middle,Eocene,,Eocene,Calcretes,,,"Freytet,Plaziat(1982)",see also Freytet(1973b)
+CA,81,CA6060,,44.00,N,2.00,E,Europe,France,,Varen Basin,Middle,Eocene,Ludian,also late Eocene,Calcretes,,,Simon-Coincon(1994),
+CA,82,CA6061,,44.00,N,1.50,E,Europe,France,,Quercy region,M  - U,Eocene,,Middle Upper Eocene,Calcretes,,,Simon-Coincon et al.(1995;1997),
+CA,83,CA6062,,44.00,N,4.00,E,Europe,France,,Gard region,Middle,Eocene,Lutetian,Eocene,Calcretes,,,Valleron et al.(1983),
+CA,84,CA6063,,41.00,N,1.00,E,Europe,Spain,,Tarragona,Middle,Eocene,,Eocene,Calcretes,,,Esteban(1972),
+CA,85,CA6064,,41.50,N,2.00,E,Europe,Spain,,Barcelona,Middle,Eocene,,Eocene,Calcretes,,,Esteban(1972),
+CA,86,CA6065,,42.00,N,0.50,E,Europe,Spain,,"northern Spain,near Tremp",Middle,Eocene,,Middle Eocene,Calcretes,Capella,,Atkinson(1986),
+CA,87,CA6066,,41.00,N,-4.00,W,Europe,Spain,,Duero and Tajo Basins,Middle,Eocene,,Late Eocene,Calcretes,,,Rodas et al.(1994),
+CA,88,CA6065.1,,50.75,N,-1.00,W,Europe,United Kingdom,,England:Isle of Wright,Middle,Eocene,,Late Eocene,Calcretes,,,Armenteros et al.(1997),
+CA,89,CA6067,,33.00,N,-114.00,W,North America,Mexico,,near Tijuana,Middle,Eocene,,Late Eocene,Calcretes,,overlie humid environment kaolinite rich soils of Lower Eocene or earlier age,"Peterson,Abbott(1979)",see also Abbott(1981)
+CA,90,CA6068,,33.00,N,-116.00,W,North America,United States,,California:San Diego area,Middle,Eocene,,Late Eocene,Calcretes,,,Abbott(1981),
+CA,91,CA6068.1,,42.00,N,-103.90,W,North America,United States,,Nebraska,Middle,Eocene,,Late Eocene,Calcretes,Big Cottonwood Creek Member,,Terry(2001),
+CA,92,CA6068.2,,44.00,N,-102.00,W,North America,United States,,South Dakota:Badlands National Park,Middle,Eocene,,Lare Eocene,Calcretes,,with some associated kaolinite,Retallack(1992),
+CA,93,CA6069,,29.00,N,-98.00,W,North America,United States,,Texas:Karnes County,Middle,Eocene,,Late Eocene,Calcretes,,,Folk(1971),
+CA,94,CA6070,,43.00,N,-105.00,W,North America,United States,,Wyoming ,Middle,Eocene,,Late Eocene,Calcretes,,,Evanoff et al.(1992),
+CA,95,CA6070.1,,-24.00,S,-65.00,W,South America,Argentina,,,Middle,Eocene,,mid-Eocene ,Calcretes,Lumbrera ,,"Del Papa,Salfity(1999)",
+CA,96,CA6071,,-26.00,S,-49.00,W,South America,Brazil,,southeastern Brazill,M  - U,Eocene,,Late Eocene-Oligocene,Calcretes,Resende and Tremembe Frms,,Riccomini et al.(1996),
+T,97,T6072,,-41.50,S,145.50,E,Australia,,,Tasmania:northwest Tasmania,M  - U,Eocene,,Late Eocene to Early Oligocene,Tillites,,,Macphail et al.(1993),
+D,98,D6073,,48.00,N,143.00,E,Asia,C.I.S.(frm U.S.S.R.),,Sakhalin,Middle,Eocene,,Late Eocene,Dropstones,,orgins are not entirely certain,"Melankholina(in Hambrey and Harland, 1981)",
+C,99,C6074,,7.00,N,2.00,E,Africa,Dahomey,,,L -M -U?,Eocene,,,Coals,equivalent of the Nigerian lignite group,,"Feys,Fabre(1966)",
+C,100,C6075,,30.00,N,28.00,E,Africa,Egypt,,Fayum Depression,Middle,Eocene,,Eocene,Coals,,"lignite;Gingerich(written comm.,1993)-represents a very thin bed associated above and below with well developed evaporites, i.e. a locally anomalous occurrence",Said(1962),
+C,101,C6076,,0.00,,40.00,E,Africa,Kenya,,Lamu Embayment,Middle,Eocene,,Middle to Late Eocene,Coals,,,"Walters,Linton(1973)",
+C,102,C6077,,14.00,N,3.00,E,Africa,Niger,,Sorguera borehole,Middle,Eocene,,Middle-Upper Eocene,Coals,,,Lang et al.(1990),
+C,103,C6078,,7.00,N,6.00,E,Africa,Nigeria,,Ogwashi-Asaba,Middle,Eocene,,Eocene,Coals,,,Petroconsultants(1977),"see also Petters,Ekweozor(1982)"
+C,104,C6078.1,,17.00,N,-15.00,W,Africa,Sengal-Mauritania,,Senegalo-Mauritanian basin,Middle,Eocene,,Late Eocene,Coals,,,"Pique(2001, p.49)",
+C,105,C6079,,8.00,N,-13.00,W,Africa,Sierra Leone,,coastal ,L -M -U?,Eocene,,,Coals,coastal Bullum group,,Macfarlane et al.(1981),
+C,106,C6080,,8.00,N,49.00,E,Africa,Somalia,,,Middle,Eocene,,Middle to Upper Eocene,Coals,Lower Daban Series,lignites ,Merla et al.(1979),
+C,107,C6081,,12.00,N,93.00,E,Asia,Andaman Islands,,,Middle,Eocene,,Eocene,Coals,,"see also Bandyopadhyaya et al.,(1973), M. Andaman Lipa Black Shale Frm of Mithakhari Group, overliying Tugapur Limestone is dated Paleocene","Reed(1949, p. 548)",
+C,108,C6082,,7.00,N,93.80,E,Asia,Andaman Islands,,"to the south, the Nicobal Islands",Middle,Eocene,,Eocene,Coals,,"see also Bandyopadhyaya et al.,(1973), M. Andaman Lipa Black Shale Frm of Mithakhari Group, overliying Tugapur Limestone is dated Paleocene","Reed(1949, p. 548)",
+C,109,C6082.1,,12.50,N,92.00,E,,,,,,,,,,,,,
+C,110,C6083,,25.00,N,91.00,E,Asia,Bangladesh,,"Lamakata Bangarhat,Sylhet",L -M -U?,Eocene,,,Coals,,,Petroconsultants(1977),
+C,111,C8084,,25.00,N,92.00,E,Asia,Bangladesh,,northeastern Bangladesh,L -M -U?,Eocene,,,Coals,Sylhet Limestone and Kopili Alterations Stage,,Quazi(1986),
+C,112,C6085,,44.00,N,127.00,E,Asia,China,,North China:Shulan,Middle,Eocene,,Middle-Upper Eocene,Coals,,,The Beijing Acad. Of Coal Sci.(1959)
+C,113,C6086,,43.00,N,130.00,E,Asia,China,,North China:Hunchun,Middle,Eocene,,Upper Eocene,Coals,,,The Beijing Acad. Of Coal Sci.(1959)
+C,114,C6087,,49.00,N,126.00,E,Asia,China,,North China:Huadian Coal Field,Middle,Eocene,,Upper Eocene,Coals,,,The Beijing Acad. Of Coal Sci.(1959)
+C,115,C6088,,42.00,N,124.00,E,Asia,China,,North China:Fushun,L  - M,Eocene,,Paleocene-Middle Eocene,Coals,,,The Beijing Acad. Of Coal Sci.(1959)
+C,116,C6089,,49.00,N,122.00,E,Asia,China,,North China:northern High Xinghan Mountains in Inner Mongolia,L -M -U?,Eocene,,,Coals,Zazannouer,,The Beijing Acad. Of Coal Sci.(1959)
+C,117,C6090,,49.00,N,129.00,E,Asia,China,,North China:Xunke-Jiayin,Middle,Eocene,,Eocene,Coals,Wuyan,,Chu Xu-chun(1986)
+C,118,C6091,,46.00,N,130.00,E,Asia,China,,North China:Yilan,Middle,Eocene,,Middle-Late Eocene,Coals,Dalianhe,,Chu Xu-chun(1986)
+C,119,C6092,,44.50,N,127.00,E,Asia,China,,North China:Sulan,Middle,Eocene,,Middle-Late Eocene,Coals,Sulan,,Chu Xu-chun(1986)
+C,120,C6093,,43.00,N,129.00,E,Asia,China,,North China:Yanbian,Middle,Eocene,,Middle-Late Eocene,Coals,Huichun,,Chu Xu-chun(1986)
+C,121,C6094,,37.00,N,118.00,E,Asia,China,,North China:south of Beijing,Middle,Eocene,,Eocene,Coals,Shehejie,,Robbins et al.(1991)
+C,122,C6095,,24.00,N,107.00,E,Asia,China,,South China:Baise  ,Middle,Eocene,,Late Eocene,Coals,Nadu,,Chu Xu-chun(1986)
+C,123,C6096,,23.00,N,108.00,E,Asia,China,,South China:Nanning,Middle,Eocene,,Late Eocene,Coals,Nadu,,Chu Xu-chun(1986)
+C,124,C6097,,22.00,N,108.00,E,Asia,China,,South China:Shangsi,Middle,Eocene,,Late Eocene,Coals,Nadu,,Chu Xu-chun(1986)
+C,125,C6098,,22.00,N,107.25,E,Asia,China,,South China:Ningming-Haiyuan,Middle,Eocene,,Eocene,Coals,Nadu,,Chu Xu-chun(1986)
+C,126,C6099,,22.00,N,111.00,E,Asia,China,,South China:Maoming,Middle,Eocene,,Eocene,Coals,Youganwo,lignite,Chu Xu-chun(1986)
+C,127,C6100,,46.00,N,130.00,E,Asia,China,,South China:Baise Basin,Middle,Eocene,,Middle-Late Eocene,Coals,Natu,,Liu Chang-song et al.(1991)
+C,128,C6101,,22.00,N,110.60,E,Asia,China,,South China:Guangdong Province,Middle,Eocene,,Lower-Upper Eocene,Coals,Youganwo,,"Yuan,Murray(1993)"
+C,129,C6101.1,,24.50,N,121.00,E,Asia,China,,South China:Taiwan,Middle,Eocene,,Middle to Late Eocene,Coals,,,"Yu,Chow(1997)"
+C,130,C6102,,32.00,N,80.00,E,Asia,China,,Xizang:Geer,Middle,Eocene,,Eocene,Coals,Mengtu,,Chu Xu-chun(1986)
+C,131,C6103,,53.50,N,70.00,E,Asia,C.I.S.(frm U.S.S.R.),,Oktyabrskoye Coalfield,Middle,Eocene,,Middle/Upper Paleogene,Coals,,,The Rijks Geologische Dienst(1982)
+C,132,C6104,,50.20,N,79.20,E,Asia,C.I.S.(frm U.S.S.R.),,Irtysk Coalfield,M  - U,Eocene,,Eocene/Oligocene,Coals,Chetanskaya Suite,,The Rijks Geologische Dienst(1982)
+C,133,C6105,,63.00,N,179.00,E,Asia,C.I.S.(frm U.S.S.R.),,Beringovskaya Area,Middle,Eocene,,Eocene/Oligocene,Coals,Chukotskaya Suite,,The Rijks Geologische Dienst(1982)
+C,134,C6106,,71.30,N,129.00,E,Asia,C.I.S.(frm U.S.S.R.),,Soginskaya Coalfield,Middle,Eocene,,Upper Eocene,Coals,Soginskaya Suite,,The Rijks Geologische Dienst(1982)
+C,135,C6107,,72.80,N,128.50,E,Asia,C.I.S.(frm U.S.S.R.),,Kongdeyskoye Coalfield,Middle,Eocene,,Upper Eocene,Coals,Soginskaya Suite(?),,The Rijks Geologische Dienst(1982)
+C,136,C6108,,59.00,N,160.00,E,Asia,C.I.S.(frm U.S.S.R.),,Palanskoye Coalfield,Middle,Eocene,,Upper Eocene,Coals,Napanskaya Suite,,The Rijks Geologische Dienst(1982)
+C,137,C6109,,51.00,N,142.00,E,Asia,C.I.S.(frm U.S.S.R.),,Sakhalin,Middle,Eocene,,Eocene,Coals,,,Krassilov(1994)
+C,138,C6110,,62.50,N,169.00,E,Asia,C.I.S.(frm U.S.S.R.),,Koryak Basin,Middle,Eocene,,Late Eocene,Coals,,,Oleinik(1996)
+C,139,C6111,,44.00,N,132.00,E,Asia,C.I.S.(frm U.S.S.R.),,Vladivostok region,M  - U,Eocene,,Eocene-Early Oligocene,Coals,,,Seredin(1996)
+C,140,C6111.1,,43.00,N,133.00,E,Asia,C.I.S.(frm U.S.S.R.),,southwestern Primoye,L -M -U?,Eocene,,,Coals,Khasanskaya Suite,,Ablaev et al.(1994)
+C,141,C6111.2,,52.00,N,130.00,E,Asia,CIS,,,,,,,,,,
+C,142,C6112,,26.00,N,92.00,E,Asia,India,,Assam,Middle,Eocene,,Eocene,Coals,,,"Coggin Brown,Dey(1955)"
+C,143,C6113,,39.00,N,75.00,E,Asia,India,,Kashmir,Middle,Eocene,,Eocene,Coals,,,"Coggin Brown,Dey(1955)"
+C,144,C6114,,12.00,N,79.00,E,Asia,India,,southern India(east coast),Middle,Eocene,,Eocene,Coals,,lignites ,"Coggin Brown,Dey(1955)",
+C,145,C6115,,12.00,N,76.00,E,Asia,India,,southern India(west coast),Middle,Eocene,,Eocene,Coals,,lignites ,"Coggin Brown,Dey(1955)",
+C,146,C6116,,23.00,N,71.00,E,Asia,India,,Gujarat,Middle,Eocene,,Eocene,Coals,,lignites ,"Phadtare,Thakur(1990)",
+C,147,C6117,,27.00,N,74.00,E,Asia,India,,Rajasthan,Middle,Eocene,,Eocene,Coals,,,Dutta(1971),see also Mukherjee et al.(1992)
+C,148,C6118,,22.00,N,73.00,E,Asia,India,,Cambay Basin,Middle,Eocene,,Eocene,Coals,,,"Mathur,Kohli(1964)",
+C,149,C6119,,10.00,N,77.00,E,Asia,India,,Kerala,Middle,Eocene,,Eocene,Coals,Warkalli Group,,Raha et al.(1987),
+C,150,C6120,,34.00,N,74.00,E,Asia,India,,Jammu Province,Middle,Eocene,,"Eocene(quoted, p.1023, as ""Lower Eocene"")",Coals,,,"Sharma,Krishnaswami(1969)",
+C,151,C6121,,25.00,N,91.00,E,Asia,India,,Meghalaya,L -M -U?,Eocene,,,Coals,"West Darrangiri,Siju and Metka Frms","Amed(1986) cites the Shella Frm,Jaintia Group and Sylhet Sandstone of the Shella Frm",Mukherjee et al.(1992),see also Raja Rao(1981)
+C,152,C6122,,32.00,N,74.00,E,Asia,India,,Kalahot and Metka in Jmmu and Kasmir,L -M -U?,Eocene,,Misra(1992a) would prefer a Paleocene age,Coals,,,"Misra(1992a,b)",
+C,153,C6122.1,,11.00,N,79.75,E,Asia,India,,Cauvery Basin,Middle,Eocene,,Late Eocene,Coals,,,Gupta(1993),
+C,154,C6122.2,,10.00,N,76.00,E,Asia,India,,Konkan-Kerala Basin,Middle,Eocene,,Middle Eocene,Coals,,,"Sing,Lal(1993)",
+C,155,C6125,,-4.00,S,116.00,E,Asia,Indonesia,,"Pulau Laut,Kalimantan",L -M -U?,Eocene,,,Coals,,,Petroconsultants(1977),see also Kendarsi(1985) for various occurrences
+C,156,C6126,,-2.00,S,134.00,E,Asia,Indonesia,,"Horna, Irian Jaya",L -M -U?,Eocene,,,Coals,,,Petroconsultants(1977),
+C,157,C6127,,-3.00,S,119.00,E,Asia,Indonesia,,"Karama,Sulawesi",L -M -U?,Eocene,,,Coals,,,Petroconsultants(1977),
+C,158,C6128,,-5.00,S,120.00,E,Asia,Indonesia,,"Batuku, Sulawesi",L -M -U?,Eocene,,,Coals,,,Petroconsultants(1977),
+C,159,C6129,,-7.00,S,106.00,E,Asia,Indonesia,,"Bodjongmanik, Java",L -M -U?,Eocene,,,Coals,,,Petroconsultants(1977),see also Kendarsi(1985) for additional locales
+C,160,C6129.1,,-8.00,S,115.00,E,Asia,Indonesia,,northeastern Java,L -M -U?,Eocene,,,Coals,,,"Hutchinson(1996, pp. 114-115)"
+C,161,C6129.2,,-8.00,S,116.00,E,Asia,Indonesia,,Kangean,L -M -U?,Eocene,,,Coals,,,"Hutchinson(1996, pp. 114-115)"
+C,162,C6129.3,,0.00,,116.00,E,Asia,Indonesia,,Kalimamtan,L -M -U?,Eocene,,,Coals,,,"Hutchinson(1996, pp. 114-115)"
+C,163,C6123,,-1.00,S,116.00,E,Asia,Indonesia,,"Borneo:Pulau Sebuku, Kalimantan",Middle,Eocene,,Eocene,Coals,,,Koesoemadinata et al.(1978)
+C,164,C6130,,-3.00,S,116.00,E,Asia,Indonesia,,Borneo:southeastern Kalimantan,Middle,Eocene,,Eocene,Coals,Tanjung,,"Moore,Ferm(1992)"
+C,165,C6130.5,,1.50,N,118.00,E,Asia,Indonesia,,,,Eocene,,,Coals,,,
+C,166,C6130.2,,-7.90,S,110.10,E,,,,,,,,,,,,
+C,167,C6130.3,,-7.00,S,106.00,E,,,,,,,,,,,,
+C,168,C6130.1,,-3.00,S,119.50,E,Asia,Indonesia,,,,Eocene,,,Coals,,,
+C,169,C6124,,-2.00,S,102.00,E,Asia,Indonesia,,,,Eocene,,,Coals,,,
+C,170,C6124.3,,3.00,N,99.00,E,Asia,Indonesia,,,,Eocene,,,Coals,,,
+C,171,C6131,,35.00,N,138.00,E,Asia,Indonesia,,,,Eocene,,,Coals,,,
+C,172,C6132,,33.00,N,131.00,E,Asia,Indonesia,,,,Eocene,,,Coals,,,
+C,173,C6133,,33.00,N,131.00,E,Asia,Indonesia,,,,Eocene,,,Coals,,,
+C,174,C6134,,43.00,N,142.00,E,Asia,Indonesia,,,,Eocene,,,Coals,,,
+C,175,C6135,,43.50,N,142.00,E,Asia,Indonesia,,,,Eocene,,,Coals,,,
+C,176,C6136,,33.00,N,129.50,E,Asia,Indonesia,,,,Eocene,,,Coals
+C,177,C6137,,34.00,N,131.00,E,Asia,Indonesia,,,,Eocene,,,Coals
+C,178,C6138,,33.00,N,130.00,E,Asia,Indonesia,,,,Eocene,,,Coals
+C,179,C6139,,34.00,N,33.75,E,Asia,Indonesia,,,,Eocene,,,Coals
+C,180,C6140,,32.75,N,129.75,E,Asia,Indonesia,,,,Eocene,,,Coals
+C,181,C6141,,32.50,N,130.00,E,Asia,Indonesia,,,,Eocene,,,Coals
+C,182,C6142,,34.00,N,130.50,E,Asia,Indonesia,,,,Eocene,,,Coals
+C,183,C6143,,33.50,N,130.75,E,Asia,Indonesia,,,,Eocene,,,Coals
+C,184,C6144,,33.00,N,130.00,E,Asia,Indonesia,,,,Eocene,,,Coals
+C,185,C6144.1,,40.00,N,126.00,E,Asia,Indonesia,,,,Eocene,,,Coals
+C,186,C6145,,42.00,N,130.00,E,Asia,Indonesia,,,,Eocene,,,Coals
+C,187,C6145.1,,29.00,N,47.80,E,Asia,Indonesia,,,,Eocene,,,Coals
+C,188,C6145.2,,3.00,N,101.30,E,Asia,Indonesia,,,,Eocene,,,Coals
+C,189,C6146,,23.00,N,94.00,E,Asia,Indonesia,,,,Eocene,,,Coals
+C,190,C6147,,32.00,N,73.00,E,Asia,Indonesia,,,,Eocene,,,Coals
+C,191,C6148,,31.00,N,67.00,E,Asia,Indonesia,,,,Eocene,,,Coals
+C,192,C6149,,14.00,N,124.00,E,Asia,Indonesia,,,,Eocene,,,Coals
+C,193,C6150,,2.00,N,112.00,E,Asia,Indonesia,,,,Eocene,,,Coals
+C,194,C6151,,1.00,N,112.00,E,Asia,Indonesia,,,,Eocene,,,Coals
+C,195,C6152,,3.00,N,112.00,E,Asia,Indonesia,,,,Eocene,,,Coals
+C,196,C6153,,2.00,N,113.00,E,Asia,Indonesia,,,,Eocene,,,Coals
+C,197,C6154,,8.00,N,99.00,E,Asia,Indonesia,,,,Eocene,,,Coals
+C,198,C6155,,37.00,N,33.00,E,Asia,Indonesia,,,,Eocene,,,Coals
+C,199,C6156,,41.00,N,32.00,E,Asia,Indonesia,,,,Eocene,,,Coals
+C,200,C6157,,41.00,N,34.00,E,Asia,Indonesia,,,,Eocene,,,Coals
+C,201,C6158,,40.00,N,35.00,E,Asia,Indonesia,,,,Eocene,,,Coals
+C,202,C6159,,37.00,N,36.00,E,Asia,Indonesia,,,,Eocene,,,Coals
+C,203,C6160,,41.00,N,38.00,E,Asia,Indonesia,,,,Eocene,,,Coals
+C,204,C6161,,40.00,N,40.00,E,Asia,,,,,Eocene,,,Coals
+C,205,C6162,,40.60,N,36.00,E,Asia,,,,,Eocene,,,Coals
+C,206,C6162.1,,40.50,N,34.00,E,Asia,,,,,Eocene,,,Coals
+C,207,C6163,,-35.00,S,143.00,E,Australia,,,,,Eocene,,,Coals
+C,208,C6164,,-23.30,S,134.50,E,Australia,,,,,Eocene,,,Coals
+C,209,C6165,,-23.00,S,150.00,E,Australia,,,,,Eocene,,,Coals
+C,210,C6166,,-35.00,S,139.00,E,Australia,,,,,Eocene,,,Coals
+C,211,C6167,,-31.00,S,132.00,E,Australia,,,,,Eocene,,,Coals
+C,212,C6168,,-35.00,S,141.00,E,Australia,,,,,Eocene,,,Coals
+C,213,C6168.1,,-30.00,S,135.00,E,Australia,,,,,Eocene,,,Coals
+C,214,C6169,,-38.00,S,147.00,E,Australia,,,,,Eocene,,,Coals
+C,215,C6170,,-40.00,S,146.00,E,Australia,,,,,Eocene,,,Coals
+C,216,C6170.1,,-38.50,S,145.50,E,Australia,,,,,Eocene,,,Coals
+C,217,C6171,,-33.00,S,118.00,E,Australia,,,,,Eocene,,,Coals
+C,218,C6172,,-34.00,S,120.00,E,Australia,,,,,Eocene,,,Coals
+C,219,C6173,,-33.00,S,123.00,E,Australia,,,,,Eocene,,,Coals
+C,220,C6174,,-31.00,S,121.00,E,Australia,,,,,Eocene,,,Coals
+C,221,C6175,,55.00,N,5.00,E,Europe,,,,,Eocene,,,Coals
+C,222,C6176,,48.00,N,12.00,E,Europe,,,,,Eocene,,,Coals
+C,223,C6176.1,,47.00,N,14.00,E,,,,,,,,,
+C,224,C6176.2,,52.00,N,-12.00,W,Europe,,,,,Eocene,,,Coals
+C,225,C6178,,51.00,N,-2.00,W,Europe,,,,,Eocene,,,Coals
+C,226,C6179,,51.00,N,-4.00,W,Europe,,,,,Eocene,,,Coals
+C,227,C6179.1,,52.30,N,-5.00,W,Europe,,,,,Eocene,,,Coals
+C,228,C6177,,60.00,N,-3.00,W,Europe,,,,,Eocene,,,Coals
+C,229,C6177.1,,58.70,N,-0.50,E,Europe,,,,,Eocene,,,Coals
+C,230,C6180,,42.00,N,25.00,E,Europe,,,,,Eocene,,,Coals
+C,231,C6181,,43.00,N,28.00,E,Europe,,,,,Eocene,,,Coals
+C,232,C6182,,41.50,N,23.00,E,Europe,,,,,Eocene,,,Coals
+C,233,C6183,,50.00,N,30.00,E,Europe,,,,,Eocene,,,Coals
+C,234,C6184,,50.00,N,29.00,E,Europe,,,,,Eocene,,,Coals
+C,235,C6185,,47.00,N,36.00,E,Europe,,,,,Eocene,,,Coals
+C,236,C6186,,48.00,N,33.00,E,Europe,,,,,Eocene,,,Coals
+C,237,C6186.1,,40.10,N,44.00,E,Europe,,,,,Eocene,,,Coals
+C,238,C6187,,61.00,N,-7.00,W,Europe,,,,,Eocene,,,Coals
+C,239,C6188,,43.00,N,3.00,E,Europe,,,,,Eocene,,,Coals
+C,240,C6189,,49.00,N,8.00,E,Europe,,,,,Eocene,,,Coals
+C,241,C6190,,46.00,N,6.00,E,Europe,,,,,Eocene,,,Coals
+C,242,C6191,,43.00,N,3.00,E,Europe,,,,,Eocene,,,Coals
+C,243,C6192,,44.00,N,5.00,E,Europe,,,,,Eocene,,,Coals
+C,244,C6193,,49.00,N,8.00,E,Europe,,,,,Eocene,,,Coals
+C,245,C6544.1,,43.80,N,5.50,E,Europe,,,,,Eocene,,,Coals
+C,246,C6194,,51.00,N,12.00,E,Europe,,,,,Eocene,,,Coals
+C,247,C6195,,52.00,N,11.00,E,Europe,,,,,Eocene,,,Coals
+C,248,C6196,,50.00,N,9.00,E,Europe,,,,,Eocene,,,Coals
+C,249,C6197,,52.00,N,10.00,E,Europe,,,,,Eocene,,,Coals
+C,250,C6198,,53.00,N,14.00,E,Europe,,,,,Eocene,,,Coals
+C,251,C6199,,51.00,N,9.00,E,Europe,,,,,Eocene,,,Coals
+C,252,C6200,,50.50,N,6.75,E,Europe,,,,,Eocene,,,Coals
+C,253,C6201,,41.00,N,26.00,E,Europe,,,,,Eocene,,,Coals
+C,254,C6202,,41.00,N,26.00,E,Europe,,,,,Eocene,,,Coals
+C,255,C6203,,40.00,N,21.00,E,Europe,,,,,Eocene,,,Coals
+C,256,C6204,,47.00,N,21.00,E,Europe,,,,,Eocene,,,Coals
+C,257,C6205,,47.00,N,17.00,E,Europe,,,,,Eocene,,,Coals
+C,258,C6206,,47.00,N,17.00,E,Europe,,,,,Eocene,,,Coals
+C,259,C6212,,47.00,N,18.00,E,Europe,,,,,Eocene,,,Coals
+C,260,C6207,,39.25,N,9.00,E,Europe,,,,,Eocene,,,Coals
+C,261,C6208,,46.00,N,11.00,E,Europe,,,,,Eocene,,,Coals
+C,262,C6209,,38.50,N,16.00,E,Europe,,,,,Eocene,,,Coals
+C,263,C6210,,52.00,N,20.00,E,Europe,,,,,Eocene,,,Coals
+C,264,C6211,,53.00,N,14.00,E,Europe,,,,,Eocene,,,Coals
+C,265,C6213,,39.80,N,3.00,E,Europe,,,,,Eocene,,,Coals
+C,266,C6213.1,,42.75,N,-2.75,W,Europe,,,,,Eocene,,,Coals
+C,267,C6213.2,,39.50,N,3.00,E,Europe,,,,,Eocene,,,Coals
+C,268,C6214,,78.00,N,13.00,E,Europe,,,,,Eocene,,,Coals
+C,269,C6215,,47.00,N,7.00,E,Europe,,,,,Eocene,,,Coals
+C,270,C6216,,42.00,N,23.00,E,Europe,,,,,Eocene,,,Coals
+C,271,C6217,,43.50,N,17.00,E,Europe,,,,,Eocene,,,Coals
+C,272,C6218,,45.00,N,19.00,E,Europe,,,,,Eocene,,,Coals
+C,273,C6219,,-42.00,S,172.00,E,Europe,,,,,Eocene,,,Coals
+C,274,C6220,,-42.00,S,172.00,E,Europe,,,,,Eocene,,,Coals
+C,275,C6221,,-42.00,S,172.00,E,Europe,,,,,Eocene,,,Coals
+C,276,C6222,,-42.00,S,171.00,E,Europe,,,,,Eocene,,,Coals
+C,277,C6223,,-41.00,S,172.25,E,Europe,,,,,Eocene,,,Coals
+C,278,C6224,,-44.00,S,171.00,E,Europe,,,,,Eocene,,,Coals
+C,279,C6225,,-46.00,S,168.00,E,Europe,,,,,Eocene,,,Coals
+C,280,C6226,,-42.00,S,171.50,E,Europe,,,,,Eocene,,,Coals
+C,281,C6227,,-42.50,S,171.00,E,Europe,,,,,Eocene,,,Coals
+C,282,C6228,,-38.00,S,174.75,E,Europe,,,,,Eocene,,,Coals
+C,283,C6229,,-37.00,S,175.50,E,Europe,,,,,Eocene,,,Coals
+C,284,C6230,,-46.00,S,167.50,E,Europe,,,,,Eocene,,,Coals
+C,285,C6231,,-41.00,S,172.50,E,Europe,,,,,Eocene,,,Coals
+C,286,C6232,,73.00,N,-13.00,W,North America,,,,,Eocene,,,Coals
+C,287,C6233,,78.50,N,-83.00,W,North America,,,,,Eocene,,,Coals
+C,288,C6234,,64.00,N,-139.00,W,North America,,,,,Eocene,,,Coals
+C,289,C6235,,60.75,N,-127.00,W,North America,,,,,Eocene,,,Coals
+C,290,C6236,,80.00,N,-90.00,W,North America,,,,,Eocene,,,Coals
+C,291,C6237,,64.00,N,-140.00,W,North America,,,,,Eocene,,,Coals
+C,292,C6238,,62.00,N,-133.00,W,North America,,,,,Eocene,,,Coals
+C,293,C6239,,60.00,N,-129.00,W,North America,,,,,Eocene,,,Coals
+C,294,C6240,,61.00,N,-138.00,W,North America,,,,,Eocene,,,Coals
+C,295,C6240.1,,55.50,N,-57.80,W,North America,,,,,Eocene,,,Coals
+C,296,C6240.2,,67.00,N,-53.00,W,North America,,,,,Eocene,,,Coals
+C,297,C6241,,52.00,N,-122.00,W,North America,,,,,Eocene,,,Coals
+C,298,C6242,,50.00,N,-124.00,W,North America,,,,,Eocene,,,Coals
+C,299,C6243,,49.00,N,-120.00,W,North America,,,,,Eocene,,,Coals
+C,300,C6243.1,,50.00,N,-120.00,W,North America,,,,,Eocene,,,Coals
+C,301,C6244,,18.00,N,-77.00,W,North America,,,,,Eocene,,,Coals
+C,302,C6245,,28.00,N,-100.00,W,North America,,,,,Eocene,,,Coals
+C,303,C6245.1,,32.00,N,-87.50,W,North America,,,,,Eocene,,,Coals
+C,304,C6246,,70.00,N,-150.00,W,North America,,,,,Eocene,,,Coals
+C,305,C6247,,60.25,N,-144.00,W,North America,,,,,Eocene,,,Coals
+C,306,C6247.1,,58.00,N,-134.50,W,North America,,,,,Eocene,,,Coals
+C,307,C6247.2,,64.00,N,-149.00,W,North America,,,,,Eocene,,,Coals
+C,308,C6247.3,,60.00,N,-153.00,W,North America,,,,,Eocene,,,Coals
+C,309,C6247.4,,60.00,N,-144.00,W,North America,,,,,Eocene,,,Coals
+C,310,C6248,,34.00,N,-92.00,W,North America,,,,,Eocene,,,Coals
+C,311,C6249,,36.00,N,-120.00,W,North America,,,,,Eocene,,,Coals
+C,312,C6250,,38.00,N,-122.00,W,North America,,,,,Eocene,,,Coals
+C,313,C6251,,38.00,N,-122.00,W,North America,,,,,Eocene,,,Coals
+C,314,C6252,,41.00,N,-122.00,W,North America,,,,,Eocene,,,Coals
+C,315,C6253,,38.50,N,-121.00,W,North America,,,,,Eocene,,,Coals
+C,316,C6254,,42.00,N,-123.00,W,North America,,,,,Eocene,,,Coals
+C,317,C6254.1,,32.90,N,-117.20,W,North America,,,,,Eocene,,,Coals
+C,318,C6255,,30.00,N,-82.00,W,North America,,,,,Eocene,,,Coals
+C,319,C6255.1,,33.00,N,-83.00,W,North America,,,,,Eocene,,,Coals
+C,320,C6256,,31.00,N,-93.00,W,North America,,,,,Eocene,,,Coals
+C,321,C6256.1,,31.50,N,-93.00,W,North America,,,,,Eocene,,,Coals
+C,322,C6257,,41.00,N,-116.00,W,North America,,,,,Eocene,,,Coals
+C,323,C6258,,43.00,N,-123.00,W,North America,,,,,Eocene,,,Coals
+C,324,C6259,,42.00,N,-123.00,W,North America,,,,,Eocene,,,Coals
+C,325,C6260,,45.00,N,-120.00,W,North America,,,,,Eocene,,,Coals
+C,326,C6261,,42.30,N,-124.00,W,North America,,,,,Eocene,,,Coals
+C,327,C6262,,43.00,N,-124.00,W,North America,,,,,Eocene,,,Coals
+C,328,C6263,,36.00,N,-89.00,W,North America,,,,,Eocene,,,Coals
+C,329,C6264,,28.50,N,-96.00,W,North America,,,,,Eocene,,,Coals
+C,330,C6265,,31.50,N,-94.00,W,North America,,,,,Eocene,,,Coals
+C,331,C6266,,29.00,N,-97.00,W,North America,,,,,Eocene,,,Coals
+C,332,C6268,,47.00,N,-122.50,W,North America,,,,,Eocene,,,Coals
+C,333,C6269,,47.00,N,-122.00,W,North America,,,,,Eocene,,,Coals
+C,334,C6270,,47.00,N,-121.00,W,North America,,,,,Eocene,,,Coals
+C,335,C6271,,47.00,N,-122.00,W,North America,,,,,Eocene,,,Coals
+C,336,C6272,,48.50,N,-117.50,W,North America,,,,,Eocene,,,Coals
+C,337,C6272.1,,49.00,N,-122.00,W,North America,,,,,Eocene,,,Coals
+C,338,C6273,,43.00,N,-108.00,W,North America,,,,,Eocene,,,Coals
+C,339,C6274,,-51.00,S,-70.00,W,South America,,,,,Eocene,,,Coals
+C,340,C6275,,-54.50,S,-67.00,W,South America,,,,,Eocene,,,Coals
+C,341,C6275.1,,-52.00,S,-72.00,W,South America,,,,,Eocene,,,Coals
+C,342,C6275.2,,-47.00,S,-70.00,W,South America,,,,,Eocene,,,Coals
+C,343,C6275.3,,-47.00,S,-68.00,W,South America,,,,,Eocene,,,Coals
+C,344,C6275.4,,-22.75,S,-43.00,W,South America,,,,,Eocene,,,Coals
+C,345,C6275.5,,-37.00,S,-73.00,W,South America,,,,,Eocene,,,Coals
+C,346,C6276,,5.00,N,-75.00,W,South America,,,,,Eocene,,,Coals
+C,347,C6277,,3.00,N,-70.00,W,South America,,,,,Eocene,,,Coals
+C,348,C6278,,9.00,N,-74.00,W,South America,,,,,Eocene,,,Coals
+C,349,C6279,,10.00,N,-70.00,W,South America,,,,,Eocene,,,Coals
+C,350,C6280,,10.00,N,-68.00,W,South America,,,,,Eocene,,,Coals
+C,351,C6281,,7.50,N,-72.00,W,South America,,,,,Eocene,,,Coals
+C,352,C6282,,9.00,N,-70.50,W,South America,,,,,Eocene,,,Coals
+B,353,B6283,,12.00,N,3.00,E,Africa,,,,,Eocene,,,Bauxites
+B,354,B6284,,10.00,N,9.00,E,Africa,,,,,Eocene,,,
+B,355,B6285,,15.00,N,-14.00,W,Africa,,,,,Eocene,,,
+B,356,B6286,,13.00,N,-45.00,E,Africa,,,,,Eocene,,,
+B,357,B6287,,52.00,N,-5.00,E,Asia,,,,,Eocene,,,
+B,358,B6288,,50.00,N,63.00,E,Asia,,,,,Eocene,,,
+B,359,B6289,,49.00,N,59.00,E,Asia,,,,,Eocene,,,
+B,360,B6290,,50.00,N,75.00,E,Asia,,,,,Eocene,,,
+B,361,B6291,,23.00,N,73.00,E,Asia,,,,,Eocene,,,
+B,362,B6292,,34.00,N,74.00,E,Asia,,,,,Eocene,,,
+B,363,B6293,,26.00,N,72.00,E,Asia,,,,,Eocene,,,
+B,364,B6293.1,,30.75,N,77.50,E,Asia,,,,,Eocene,,,
+B,365,B6294,,33.00,N,71.00,E,Asia,,,,,Eocene,,,
+B,366,B6295,,36.25,N,30.00,E,Asia,,,,,Eocene,,,
+B,367,B6296,,-37.00,S,148.00,E,Asia,,,,,Eocene,,,
+B,368,B6297,,42.00,N,20.00,E,Asia,,,,,Eocene,,,
+B,369,B6298,,38.00,N,22.00,E,Asia,,,,,Eocene,,,
+B,370,B6299,,38.00,N,22.00,E,Asia,,,,,Eocene,,,
+B,371,B6300,,47.00,N,18.00,E,Asia,,,,,Eocene,,,
+B,372,B6301,,47.00,N,20.00,E,Asia,,,,,Eocene,,,
+B,373,B6302,,44.00,N,15.75,E,Asia,,,,,Eocene,,,
+B,374,B6303,,43.50,N,17.00,E,Asia,,,,,Eocene,,,
+B,375,B6304,,43.00,N,18.00,E,Asia,,,,,Eocene,,,
+B,376,B6305,,45.25,N,14.00,E,Asia,,,,,Eocene,,,
+B,377,B6306,,5.00,N,-59.00,W,Asia,,,,,Eocene,,,
+B,378,B6307,,4.00,N,-56.00,W,Asia,,,,,Eocene,,,
+B,379,B5897.1,,5.00,N,-55.00,E,Asia,,,,,Eocene,,,Coals
+M,380,M6307.1,,-14.00,S,136.50,E,Asia,,,,,Eocene,,,Lateritic Manganese
+M,381,M6307.2,,-25.00,S,120.00,E,Asia,,,,,Eocene,,,
+M,382,M6307.3,,-3.00,N,-50.00,W,South America,,,,,Eocene,,,
+K,383,K6308,,16.00,N,11.00,E,Africa,,,,,Eocene,,,Kaolinites
+K,384,K6308.1,,46.00,N,67.00,E,Asia,,,,,Eocene,,,Kaolinites
+K,385,K6308.2,,48.00,N,82.50,E,Asia,,,,,Eocene,,,Kaolinites
+K,386,K6308.3,,46.00,N,69.00,E,Asia,,,,,Eocene,,,Kaolinites
+K,387,K6308.4,,47.00,N,83.00,E,Asia,,,,,Eocene,,,Kaolinites
+K,388,K6309,,33.00,N,75.00,E,Asia,,,,,Eocene,,,Kaolinites
+K,389,K6310,,26.00,N,92.00,E,Asia,,,,,Eocene,,,Kaolinites
+K,390,K6311,,23.00,N,70.00,E,Asia,,,,,Eocene,,,Kaolinites
+K,391,K6312,,26.00,N,72.00,E,Asia,,,,,Eocene,,,Kaolinites
+K,392,K6313,,23.00,N,73.00,E,Asia,,,,,Eocene,,,Kaolinites
+K,393,K6313.1,,12.00,N,79.00,E,Asia,,,,,Eocene,,,Kaolinites
+K,394,K6314,,33.00,N,132.00,E,Asia,,,,,Eocene,,,Kaolinites
+K,395,K6315,,43.50,N,142.00,E,Asia,,,,,Eocene,,,Kaolinites
+K,396,K6316,,40.00,N,142.00,E,Asia,,,,,Eocene,,,Kaolinites
+K,397,K6317,,-34.00,S,136.00,E,Australia,,,,,Eocene,,,Kaolinites
+K,398,K6318,,-37.50,S,149.00,E,Australia,,,,,Eocene,,,Kaolinites
+K,399,K6319,,41.00,N,20.00,E,Europe,,,,,Eocene,,,Kaolinites
+K,400,K6319.1,,51.00,N,4.50,E,Europe,,,,,Eocene,,,Kaolinites
+K,401,K6321,,48.00,N,-1.00,W,Europe,,,,,Eocene,,,Kaolinites
+K,402,K6322,,45.00,N,0.00,,Europe,,,,,Eocene,,,Kaolinites
+K,403,K6323,,47.50,N,7.50,E,Europe,,,,,Eocene,,,Kaolinites
+K,404,K6324,,49.00,N,8.00,E,Europe,,,,,Eocene,,,Kaolinites
+K,405,K6325,,45.50,N,6.00,E,Europe,,,,,Eocene,,,Kaolinites
+K,406,K6326,,44.00,N,2.00,E,Europe,,,,,Eocene,,,Kaolinites
+K,407,K6327,,45.50,N,-0.50,W,Europe,,,,,Eocene,,,Kaolinites
+K,408,K6328,,46.30,N,-0.50,W,Europe,,,,,Eocene,,,Kaolinites
+K,409,K6329,,51.00,N,13.00,E,Europe,,,,,Eocene,,,Kaolinites
+K,410,K6330,,49.00,N,8.00,E,Europe,,,,,Eocene,,,Kaolinites
+K,411,K6331,,51.00,N,9.00,E,Europe,,,,,Eocene,,,Kaolinites
+K,412,K6332,,50.50,N,6.75,E,Europe,,,,,Eocene,,,Kaolinites
+K,413,K6333,,53.50,N,13.50,E,Europe,,,,,Eocene,,,Kaolinites
+K,414,K6334,,39.00,N,8.50,E,Europe,,,,,Eocene,,,Kaolinites
+K,415,K6335,,-44.00,S,171.00,E,Europe,,,,,Eocene,,,Kaolinites
+K,416,K6320,,51.00,N,-4.00,W,Europe,,,,,Eocene,,,Kaolinites
+K,417,K6336,,80.00,N,-87.00,W,North America,,,,,Eocene,,,Kaolinites
+K,418,K6337,,49.00,N,-120.00,W,North America,,,,,Eocene,,,Kaolinites
+K,419,K6338,,35.00,N,-114.00,W,North America,,,,,Eocene,,,Kaolinites
+K,420,K6339,,35.00,N,-92.00,W,North America,,,,,Eocene,,,Kaolinites
+K,421,K6340,,38.50,N,-121.00,W,North America,,,,,Eocene,,,Kaolinites
+K,422,K6341,,37.50,N,-121.50,E,North America,,,,,Eocene,,,Kaolinites
+K,423,K6342,,32.00,N,-84.00,W,North America,,,,,Eocene,,,Kaolinites
+K,424,K6343,,37.00,N,-89.00,W,North America,,,,,Eocene,,,Kaolinites
+K,425,K6344,,37.00,N,-89.00,W,North America,,,,,Eocene,,,Kaolinites
+K,426,K6345,,34.00,N,-90.00,W,North America,,,,,Eocene,,,Kaolinites
+K,427,K6346,,33.00,N,-89.00,W,North America,,,,,Eocene,,,Kaolinites
+K,428,K6347,,37.00,N,-90.00,W,North America,,,,,Eocene,,,Kaolinites
+K,429,K6348,,46.00,N,-113.00,W,North America,,,,,Eocene,,,Kaolinites
+K,430,K6350,,44.00,N,-123.00,W,North America,,,,,Eocene,,,Kaolinites
+K,431,K6351,,44.50,N,-120.00,W,North America,,,,,Eocene,,,Kaolinites
+K,432,K6351.1,,44.00,N,-102.00,W,North America,,,,,Eocene,,,Kaolinites
+K,433,K6351.2,,33.50,N,-82.00,W,North America,,,,,Eocene,,,Kaolinites
+K,434,K6352,,32.00,N,-95.00,W,North America,,,,,Eocene,,,Kaolinites
+K,435,K6353,,31.00,N,-96.00,W,North America,,,,,Eocene,,,Kaolinites
+K,436,K6354,,47.00,N,-122.00,W,North America,,,,,Eocene,,,Kaolinites
+K,437,K6355,,46.00,N,-122.00,W,North America,,,,,Eocene,,,Kaolinites
+K,438,K6356,,9.00,N,-70.50,W,South America,,,,,Eocene,,,Kaolinites
+L,439,L6357,,23.00,N,6.00,E,Africa,,,,,Eocene,,,Lateritic Paleosol
+L,440,L6358,,13.00,N,5.00,E,Africa,,,,,Eocene,,,Lateritic Paleosol
+L,441,L6359,,10.00,N,9.00,E,Africa,,,,,Eocene,,,Lateritic Paleosol
+L,442,L6360,,15.00,N,-16.00,W,Africa,,,,,Eocene,,,Lateritic Paleosol
+L,443,L6361,,-34.00,S,138.00,E,Australia,,,,,Eocene,,,Lateritic Paleosol
+L,444,L6362,,64.00,N,-13.00,W,Europe,,,,,Eocene,,,Lateritic Paleosol
+L,445,L6363,,43.00,N,-103.00,W,North America,,,,,Eocene,,,Lateritic Paleosol
+PA,446,Pa6364,,47.00,N,80.00,E,Asia,,,,,Eocene,,,Palms
+PA,447,Pa6366,,33.00,N,133.00,E,Asia,,,,,Eocene,,,Palms
+PA,448,Pa6367,,46.00,N,30.00,E,Europe,,,,,Eocene,,,Palms
+PA,449,Pa6368,,51.30,N,12.00,E,Europe,,,,,Eocene,,,Palms
+PA,450,Pa6368.1,,50.00,N,9.00,E,Europe,,,,,Eocene,,,Palms
+PA,451,Pa6369,,49.00,N,120.00,E,North America,,,,,Eocene,,,Palms
+PA,452,Pa6370,,61.00,N,-147.00,W,North America,,,,,Eocene,,,Palms
+PA,453,Pa6371,,57.00,N,-133.50,W,North America,,,,,Eocene,,,Palms
+PA,454,Pa6372,,45.00,N,-111.00,W,North America,,,,,Eocene,,,Palms
+PA,455,Pa6372.1,,47.00,N,-121.00,W,North America,,,,,Eocene,,,Mangroves
+M,456,M6373,,-39.00,S,148.00,E,Australia,,,,,Eocene,,,Mangroves
+M,457,M5656,,-34.00,S,116.00,E,Australia,,,,,Eocene,,,Mangroves
+M,458,M6374,,49.00,N,20.00,E,Europe,,,,,Eocene,,,Mangroves
+M,459,M6375,,50.50,N,30.50,E,Europe,,,,,Eocene,,,Mangroves
+M,460,M6376,,51.00,N,0.00,,Europe,,,,,Eocene,,,Mangroves
+M,461,M6376.1,,-40.00,S,174.00,E,New Zealand,,,,,Eocene,,,Mangroves
+M,462,M6376.2,,-44.00,S,172.50,E,New Zealand,,,,,Eocene,,,Mangroves
+M,463,M6377,,-30.50,S,88.00,E,Ninetyeast Ridge,,,,,Eocene,,,Mangroves
+CR,464,Cr6379.1,,-78.00,S,164.00,E,Antartica,,,,,Eocene,,,Crocodilians
+CR,465,Cr6379 ,,45.00,N,118.00,E,Asia,,,,,Eocene,,,Crocodilians
+CR,466,Cr6379.1,,49.00,N,84.00,E,Asia,,,,,Eocene,,,Crocodilians
+CR,467,Cr6379.2,,-27.50,S,153.00,E,Australia,,,,,Eocene,,,Crocodilians
+CR,468,Cr6380,,51.00,N,1.00,E,Europe,,,,,Eocene,,,Crocodilians
+CR,469,Cr6380.1,,44.90,N,-108.25,W,North America,,,,,Eocene,,,Crocodilians
+CR,470,Cr6380.2,,-44.00,S,-69.00,W,South America,,,,,Eocene,,,Crocodilians

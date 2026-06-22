@@ -1,0 +1,75 @@
+LithologyCode,LithNumber,OldIDNumber,,LAT,NS,LONG,EW,Continent,Country,,GeogComments,LMU,Period,Stage,AgeComments,Lithology,Formation,LithComments,PrimaryReference,SeeAlso
+E,1,E397,,65,N,100,E,Asia,G. I. S.(frm USSR),,Siberian Platform,Lower,Silurian,,,Evaporite,,,"Zharkov(1981, Figs. 2,19, pp. 13-18, 102-115; Fig. 30)",
+E,2,E397.1,,70,N,105,E,Asia,G. I. S.(frm USSR),,Siberian Platform,Lower,Silurian,,,Evaporite,,,"Zharkov(1981, Figs. 2,19, pp. 13-18, 102-115; Fig. 30)",
+E,3,E397.2,,65,N,125,E,Asia,G. I. S.(frm USSR),,Siberian Platform,Lower,Silurian,,,Evaporite,,,"Zharkov(1981, Figs. 2,19, pp. 13-18, 102-115; Fig. 30)",
+E,4,E397.3,,60,N,123,E,Asia,G. I. S.(frm USSR),,Siberian Platform,Lower,Silurian,,,Evaporite,,,"Zharkov(1981, Figs. 2,19, pp. 13-18, 102-115; Fig. 30)",
+E,5,E398,,78,N,100,E,Asia,G. I. S.(frm USSR),,Siberian Platform:Severnaya Basin,Upper,Silurian,Pridoli,,Evaporite,,,"Zharkov(1981, Figs. 2,19, pp. 13-18, 102-115; Fig. 30)",
+E,6,E399,,31,N,77.5,E,Asia,India,,,Lower,Silurian,,date as Silurian with Pentamerus,Gypsum,Yamrang La,,Bassi et al.(1983),
+E,7,E400,,31,N,56,E,Asia,Iran,,,Lower,Silurian,,,Halite,Shabdjereh,salt pseudomorphs,Hamedi(1995),
+E,8,E401,,-33,S,150,E,Australia,New South Wales,,,L - U,Silurian,late Wenlock-Ludlow,,Evaporite,,,Jones et al.(1987),
+E,9,E402,,-35,S,149,E,Australia,New South Wales,,Yass,Upper,Silurian,Ludlovian,,Gypsum,Barrandella Shale,,Jones et al.(1987),
+E,10,E403,,-26,S,113,E,Australia,Western Australia,,Carnarvon Basin,Upper,Silurian,,,Evaporite,Dirk Hartog Limestone,,Talent et al.(1975),Wells(1980)
+E,11,E404,,-20,S,124,E,Australia,Western Australia,,Canning Basin,Upper,Silurian,,,Evaporite,Dirk Hartog Limestone,,Walley et al.(1989),
+E,12,E404.1,,71,N,50,E,Europe,G. I. S.(frm USSR),,Pechora Basin,Lower,Silurian,"Llandovery, Wenlock",,Evaporite,,,"Zharkov(1981, Figs. 2,19, pp. 13-18, 102-115,1984)",
+E,13,E404.2,,58,N,25,E,Europe,G. I. S.(frm USSR),,Baltic Basin,L - U,Silurian,"Llandovery, Wenlock, Ludlow",,Evaporite,,,"Zharkov(1981, Figs. 2,19, pp. 13-18, 102-115,1984)",
+E,14,E405,,43,N,28,E,Europe,G. I. S.(frm USSR),,,Upper,Silurian,,,Evaporite,Dniester-Prut,,"Zharkov(1984, Fig. 29)",see also Korenevskii et al(1983)
+E,15,E405.1,,55,N,25,E,Europe,Lithuania,,,Lower,Silurian,"Wenlock,Ludlow",,Evaporite,,,"Musteikis,Paskevicus(1999)",
+E,16,E406,,60,N,11,E,Europe,Norway,,Oslo region,Lower,Silurian,Wenlock,,Evaporite,,,Olaussen(1981a),
+E,17,E407,,73,N,-87.5,W,N. America,Canada,,Arctic:northwest Baffinland,Lower,Silurian,,,Evaporite,"Crauford,Baillarge",,Davies(1973),"see also Thorsteinsson,(1970, p. 557)"
+E,18,E408,,73,N,-100,W,N. America,Canada,,Arctic:eastern and northern Somerset Island,Lower,Silurian,,,Evaporite,Read Bay,,Davies(1973),"see also Thorsteinsson,(1970, p. 557)"
+E,19,E409,,73,N,-82,W,N. America,Canada,,Arctic,L - U,Silurian,Wenlock-Ludlow,,Evaporite,,,"Nentwich,Jones(1989)",
+E,20,E410,,75,N,-91.8,W,N. America,Canada,,Arctic,Lower,Silurian,Llandovery-earlier Wenlock,,Anydrite,Cape Crauford,,Mayr(1978),
+E,21,E411,,75,N,-95,W,N. America,Canada,,Arctic,Lower,Silurian,,,Anydrite,Allen Bay,,Mayr(1978),
+E,22,E412,,75,N,-95,W,N. America,Canada,,Arctic,Upper,Silurian,,,Anydrite,Cape Crauford,,Mayr(1978),
+E,23,E412.1,,76.5,N,-94,W,N. America,Canada,,Arctic:northern Devon Island,Upper,Silurian,,,Evaporite,"Upper Member-Allen Bay,Storm",,Mayr et al.(1998),
+E,24,E413,,60,N,-88,W,N. America,Canada,,Hudson Bay Region,Upper,Silurian,,,Evaporite,Kenogami River,,Sanford et al.(1979),
+E,25,E414,,47,N,-85,W,N. America,Canada,,Ontario:Canadian side of the Michigan Basin,Upper,Silurian,,,Evaporite,,,Pearson(1963),
+E,26,E415,,52,N,-82,W,N. America,Canada,,Ontario:Moose River Basin,Upper,Silurian,,,Evaporite,Kenogami ,,"Norris,Sanford(1969)",
+E,27,E416,,52,N,-83,W,N. America,Canada,,James Bay Lowland,Lower,Silurian,,,Gypsum,,,"Guillet(1964, Fig. 11)",
+E,28,E417,,48.6,N,-59,W,N. America,Canada,,Newfoundland:western Newfoundland,Upper,Silurian,Pridoli,,Halite,Clam Bank Series,halite pseudomorphs,Wright et al.(1995),
+E,29,E417.1,,48,N,-65.5,W,N. America,Canada,,Quebec:Chaleur Bay area,Upper,Silurian,Pridoli,,Evaporite,Plage Woodmans Member,Pridolian chickenwire type calcite,Bourque et al.(1986),
+E,30,E418,,49,N,-103,W,N. America,Canada,,Williston Basin,Upper,Silurian,,,Evaporite,Interlake Group,,"McCrossan,Glaister(1966)",
+E,31,E419,,41,N,-85.5,W,N. America,United States,,Illinois,Lower,Silurian,,,Evaporite,Rhuddanian Wilhelmi,evaporite crystal molds,"Young,Elias(1995, p. 33)","see also McAuley,Elias,1990, for details, p. 18, Birds Member"
+E,32,E420,,41,N,-92,W,N. America,United States,,Iowa,Lower,Silurian,early Llandovery,,Halite,Mosalem,halite hopper pseudomorphs,Witze(1983),
+E,33,E421,,41,N,-92,W,N. America,United States,,Kansas:Forest City Basin,Lower,Silurian,,,Anydrite,,anhydrite above the subsurface Chimneyhill equivalent,Lee(1943),
+E,34,E421.1,,39.6,N,-78.6,W,,,,Maryland,,,,,,,,,
+E,35,E422,,42,N,-83,W,N. America,United States,,Michigan,Lower,Silurian,Llandovery,,Evaporite,,minor evaporites,Kesling(1975),
+E,36,E422.1,,43,N,-85,W,N. America,United States,,Michigan:Gratiot County,Upper,Silurian,,,Evaporite,Sparks-Eckelbarger-Whightsill,#1-8 well,"Bricker(written comm.,1998)",
+E,37,E423,,43,N,-74,W,N. America,United States,,New York: John Boyd Thacher park near Albany,Upper,Silurian,,,Evaporite,Rondout,breccia of evaporite solution,Friedman(1993),
+E,38,E424,,48,N,-100,W,N. America,United States,,North Dakota:Williston Basin,Lower,Silurian,,,Evaporite,Interlake ,,Roehl(1967),
+E,39,E425,,35,N,-98,W,N. America,United States,,Oklahoma,Upper,Silurian,,,Evaporite,Henryhouse ,,"Claypool et al.(1980, Appendix)",
+E,40,E426,,41.8,N,-77,W,N. America,United States,,Salina Basin:Pennsylvania,Upper,Silurian,,,Evaporite,,,Boucot(1985),"see also Zharkov,1981, pp.12,13 and 1984, Figs. 26-28 for additional references,1984 Figs 26-28; see also Sonnenfeld,Al-Aasm,1991"
+E,41,E427,,43,N,-76,W,N. America,United States,,"Salina Basin:Ontario,New York",Upper,Silurian,,,Evaporite,,,Boucot(1985),"see also Zharkov,1981, pp.12,13 and 1984, Figs. 26-28 for additional references,1984 Figs 26-28; see also Sonnenfeld,Al-Aasm,1992"
+E,42,E428,,42,N,-83,W,N. America,United States,,Salina Basin:Ohio,Upper,Silurian,,,Evaporite,,,Boucot(1985),"see also Zharkov,1981, pp.12,13 and 1984, Figs. 26-28 for additional references,1984 Figs 26-28; see also Sonnenfeld,Al-Aasm,1993"
+E,43,E429,,44,N,-85,W,N. America,United States,,Salina Basin:Michigan,Upper,Silurian,,,Evaporite,,,Boucot(1985),"see also Zharkov,1981, pp.12,13 and 1984, Figs. 26-28 for additional references,1984 Figs 26-28; see also Sonnenfeld,Al-Aasm,1994"
+E,44,E430,,38,N,-80,W,N. America,United States,,Salina Basin:West Virginia,Upper,Silurian,,,Evaporite,,,Boucot(1985),"see also Zharkov,1981, pp.12,13 and 1984, Figs. 26-28 for additional references,1984 Figs 26-28; see also Sonnenfeld,Al-Aasm,1995"
+E,45,E431,,45,N,-87.5,W,N. America,United States,,West Virginia:Door County,Lower,Silurian,mid-Llandovery,,Gypsum,Mayville,gypsum nodules,"Waltman,Stieglitz(1995)",
+CA,46,CA432,,31,N,56,E,Asia,Iran,,,Lower,Silurian,,,Calcrete,Shabdjereh,,Hamedi(1995),
+CA,47,CA433,,52,N,-10,W,Europe,Ireland,,Dingle Peninsula,Lower,Silurian,Wenlock,,Calcrete,Mill Cove,,Wright et al.(1991),
+CA,48,CA434,,60,N,11,E,Europe,Norway,,Ringerike,Lower,Silurian,Wenlock,,Calcrete,Sundvollen,"calcrete(""cornstone"") nature of the carbonate nodules and lumps","Spjeldnaes(1966;writtten comm.,1992)","agrees with Whitaker(1977, Fig. 27)"
+CA,49,CA435,,62,N,5.5,E,Europe,Norway,,western Norway-Hornelen Basin,Lower,Silurian,,,Calcrete,Old Red Sandstone type sediments,sounds like calcrete,Bryhni(1978),
+CA,50,CA436,,61,N,15,E,Europe,Sweden,,Dalecarlia,Lower,Silurian,early Llandovery,,Calcrete,Orsa Sandstone,,Bassett(1986),
+CA,51,CA437,,53,N,-3,W,Europe,United Kingdom,,Welsh Borderland,Upper,Silurian,Pridoli,,Calcrete,,,Allen(1986),"see also Allen,Tarlo,1963;Allen,1974"
+CA,52,CA438,,52,N,-4.9,W,Europe,United Kingdom,,"Downtonian, and south into Pembrokeshire",Upper,Silurian,Pridoli,,Calcrete,,,Allen(1986),"see also Allen,Tarlo,1963;Allen,1975"
+CA,53,CA439,,48.6,N,-59,W,N. America,Canada,,Newfoundland:western Newfoundland,Upper,Silurian,Pridoli,,Calcrete,Clam Bank Series,from unit 5,Wright et al.(1995),see also Williams et al.(1996)
+CA,54,CA440,,45,N,-62,W,N. America,Canada,,Nova Scotia,Upper,Silurian,Pridoli,,Calcrete,Moydart,,Boucot et al.(1995),see also Williams et al.(1996)
+CA,55,CA441,,41,N,-84,W,N. America,United States,,Ohio,Upper,Silurian,,,Calcrete,pre-Greenfield at the top of the Lockport/Peebles,,Kahle(1988),
+CA,56,CA442,,44,N,-85,W,N. America,United States,,Michigan:Michigan Basin,Upper,Silurian,,,Calcrete,,calcrete,Gill(1985),
+CA,57,CA443,,41,N,-77,W,N. America,United States,,Pennsylvania,Upper,Silurian,,,Calcrete,Bloomsburg,,Mora et al.(1991),
+T,58,T444,,-2,S,-55,W,S. America,Brazil,,Amazon Basin,Lower,Silurian,,,Calcrete,,diamictites,"Grahn,Caputo(1992)",
+T,59,T445,,-5,S,-40,W,S. America,Brazil,,Parnaiba Basin,Lower,Silurian,,,Calcrete,,diamictites,"Grahn,Caputo(1992)",
+T,60,T446,,-10,S,-38,W,S. America,Brazil,,Jatoba Basin,Lower,Silurian,,,Calcrete,,diamictites,"Grahn,Caputo(1992)",
+T,61,T446.1,,-26,S,-50,W,S. America,Brazil,,Parana Basin,Lower,Silurian,,,Calcrete,,diamictites,"Grahn,Caputo(1992)",
+T,62,T446.2,,-15,S,-52,W,S. America,Brazil,,,Lower,Silurian,,possibly earliest Silurian or latest Ordovician,Calcrete,at base of the Vila Maria,diamictites,Mizusaki et al.(2002),
+D,63,D447,,15,N,30,E,Africa,"Chad, Sudan",,"northern Chad,northern Sudan",Lower,Silurian,,,Dropstones,,,"Semtner,Klitzsch(1994)",
+K,64,K448,,29,N,8,E,Africa,Algeria,,northeastern Polignac Basin,Lower,Silurian,,,Kao-Kaolinite,,detrital kaolinite frm a few boreholes,Dunoyer de Segonzac(1969)
+K,65,K449,,58,N,25,E,Europe,Baltic States,,,Lower,Silurian,,,Kao-Kaolinite,,kaolinite in Baltic States E. Silurian shales,"Rateev,Gradusov(1970)"
+K,66,K450,,57,N,18,E,Europe,Sweden,,Gotland,L - U,Silurian,Llandovery though Ludlow,,Kao-Kaolinite,Gotland,abundant kaolinite frm bentonites present in two Gotland cores,Snall(1977)
+K,67,K451,,38,N,-84,W,N. America,Kentucky,,Lewis County,Lower,Silurian,,,Kao-Kaolinite,Crab Orchard-Estill Shale Member,,Scott(1973)
+K,68,K452,,39,N,-84,W,N. America,Ohio,,southern Ohio,Lower,Silurian,,,Kao-Kaolinite,Brassfield,,"Ehlers,Hoover(1961)"
+K,69,K453,,39,N,-79,W,N. America,"Virginia,W.Virginia",,,Lower,Silurian,Llandovery,,Kao-Kaolinite,Tuscarora,,"Weaver(1989, p.585)"
+K,70,K454,,-35,S,-58,W,S. America,Argentina,,Buenos Aires Province,Lower,Silurian,,"age of the Balcarce is unknown;Amos(in Berry,Boucot,1972)poss. Llandovery age ",Kao-Kaolinite,Balcarce,,Iniguez et al.(1990)
+K,71,K455,,-2,S,-58,W,S. America,Brazil,,,Lower,Silurian,,(and in uppermost Ordovician),Kao-Kaolinite,Trombetas(Nhamunda),detrital kaolinite (wells UM-1AM and JU-1-AM),"Alves,Rodrigues(1985a, and in their Fig. 3)"
+O,72,O455.1,,43,N,-75.6,W,N. America,United States,,New York: Oneida,Lower,Silurian,,,Oolitic Lmst. ,Clinton Iron ores,chamosite and/or hematite from Clinton Iron ores,"Maynard(1983,1986)"
+O,73,O455.2,,43,N,-74.9,W,N. America,United States,,New York:Little Falls,Lower,Silurian,,,Oolitic Lmst. ,Clinton Iron ores,chamosite and/or hematite from Clinton Iron ores,"Maynard(1983,1986)"
+O,74,O455.3,,36,N,-84,W,N. America,United States,,Tennessee:Rockwood,Lower,Silurian,,,Oolitic Lmst. ,Clinton Iron ores,chamosite and/or hematite from Clinton Iron ores,"Maynard(1983,1986)"

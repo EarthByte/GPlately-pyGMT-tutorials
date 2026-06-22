@@ -1,0 +1,389 @@
+LithologyCode,LithNumber,OldIDNumber,LAT,NS,LONG,EW,Continent,Country,GeogComments,LMU,Period,Stage,AgeComment, ,Lithology,Formation,LithComment,PrimaryReference,SeeAlso, 
+E,1,E5034,30,N,7.0,E,Africa,Algeria,eastern Algeria,Upper,Cretaceous,Senonian,"Busson(1970b, Fig. 100), for widspread Cenomanian,as well as ""Senonian""",,Evaporites,,,"Merabet,Popov(1972)","see also Claret,Tempere(1967); Busson,Cornee(1991)",
+E,2,E5035,29,N,0.0,,Africa,Algeria,Timimoun Basin,Upper,Cretaceous,Senonian,,,Evaporites,,,Sonatrach(1979),,
+E,3,E5036,33,N,2.0,E,Africa,Algeria,western Saharan Atlas,Upper,Cretaceous,,mid-Cretaceous,,Evaporites,,,Sonatrach(1979),,
+E,4,E5038,31,N,26.5,E,Africa,Egypt,,Upper,Cretaceous,Satonian-Coniacian,,,Evaporites,Ano Roash,anhydrite  ,Abdel-Kireen et al.(1996),,
+E,5,E5039,5,N,5.0,E,Africa,Ethiopia,Ogadan region,L - U?,Cretaceous,,,,Gypsum,Mustahil and Ferer Gypsums Frms,,Barnes(1967),,
+E,6,E5043,31,N,13.0,E,Africa,Libya,,Upper,Cretaceous,Maastrichtian,,,Gypsum,Upper and Lower Tar Marl Members,,"Lefeld,Uberna(1992)",,
+E,7,E5044,31,N,12.0,E,Africa,Libya,northwestern Libya,Upper,Cretaceous,Campanian,,,Gypsum,Mizdah and Al Gharbiyah Frms,,"Mairn,Salaj(1992)",,
+E,8,E5045,29,N,16.0,E,Africa,Libya,northern Libya,Upper,Cretaceous,Maastrichtian,,,Gypsum,,,"Eliagoubi,Powell(1980)",,
+E,9,E5045.2,31,N,14.5,E,Africa,Libya,,Upper,Cretaceous,Maastrichtian,,,Evaporites,Lower Tar Member,,Imam(2001),,
+E,10,E5045.3,27.5,N,22.5,E,Africa,Libya,,Upper,Cretaceous,Campanian and Maastrichtian,,,Evaporites,Rakb II and I,,Bu-Argoub(1996),,
+E,11,E5042,30,N,10.0,E,Africa,Libya,western Libya,Upper,Cretaceous,Campanian,,,Gypsum,Thala Member of the Mizdah Frm,,"Troger,Rohlich(1992)",,
+E,12,E5045.1,25,N,23.8,E,Africa,Libya,north side of the Kufra Basin,Upper,Cretaceous,under Campanian-Maastrichtian,,,Evaporites,,fossiliferous carbonates,Luning et al.(2000),,
+E,13,E5045.4,31,N,14.5,E,Africa,Libya,,Upper,Cretaceous,Maastrichtian,,,Evaporites,Lower Tar Member,,Imam(2001),,
+E,14,E5046,20,N,0.0,,Africa,Mali,"northeastern Mali, west of Adrar des Isforas ",Upper,Cretaceous,,,,Gypsum,,,"Lefranc,Guiraud(1990)",,
+E,15,E5048,31,N,-5.0,W,Africa,Morocco,mid and High Atlas,Upper,Cretaceous,Cenomanian-Turonian to Campanian,,,Evaporites,,,"Ziegler(1988,Pl. 28)",,
+E,16,E5049,31,N,-9.0,W,Africa,Morocco,d'Imi n'Tanout,Upper,Cretaceous,Cenomanian and Maastrichtian,,,Evaporites,,,"Daoudi,Deconinck(1994)",
+E,17,E5047,33,N,-7.0,W,Africa,Morocco,,Upper,Cretaceous,Senonian,,,Evaporites,,,Salvan(1972),
+E,18,E5050,-24,S,35.0,E,Africa,Mozambique,,Upper,Cretaceous,Late Campanian-Maastrichtian,,,Evaporites,Grudja,,Forster(1975),
+E,19,E5051,18,N,7.0,E,Africa,Niger,,Upper,Cretaceous,Cenomanian-Turonian as well as in the Senonian,"see also Moody(1997), for Cenomanian and Turonian",,Evaporites,,gypsiferous clays and salt,Greigert(1966),
+E,20,E5053,13,N,6.0,E,Africa,Nigeria,northwestern Nigeria,Upper,Cretaceous,Maastrichtian,,,Gypsum,Dukamaje Frm overlying the coal-bearing Taloka Frm,,Petters(1979),
+E,21,E5053.1,6,N,8.0,E,Africa,Nigeria,,Upper,Cretaceous,Campanian-Maastrichtian,,,Evaporites,"""Lower Coal Measures""",,Salami(1991),
+E,22,E5054,13,N,10.0,E,Africa,Nigeria,Chad Basin,Upper,Cretaceous,Turonian-Santonian,,,Evaporites,Fika Shale,Kinasar- 1 borehole,Okosun(1992),
+E,23,E5055,5,N,48.0,E,Africa,Somalia,coastal Somalia,L - U?,Cretaceous,,,,Evaporites,,,Barnes(1976),"see also Mbede,Dualeh(1997)"
+E,24,E5056,-27,S,33.0,E,Africa,South Africa,,Upper,Cretaceous,Coniacian to Campanian,,,Evaporites,,,"Dingle et al.(1983, Fig.131, and p. 221)",
+E,25,E5057,-25,S,33.0,E,Africa,South Africa,,Upper,Cretaceous,Campanian,,,Evaporites,,,"Dingle et al.(1983, Fig.131, and p. 221)",
+E,26,E5058,-20,S,25.0,E,Africa,South Africa,northern Botswana,Upper,Cretaceous,,,,Evaporites,Kalahari Group,possible lacustrine evaporites,"Duplessis,Le Roux(1995)",
+E,27,E5061,37,N,82.0,E,Asia,China,Northwest China:southern Xinjiang,Upper,Cretaceous,"Maastrichtian,Turonian-Santonian",,,Evaporites,,marine evaporites,Pan Hua-Zhang(1990),
+E,28,E5062,40,N,75.0,E,Asia,China,Northwest China:Wucha,Upper,Cretaceous,,,,Gypsum,Kukeba and Wuyikake Frms,,The Compiling Group of the Regional Stratagraphic Chart of Xinjiang(1981),
+E,29,E5063,38,N,76.0,E,Asia,China,Northwest China:southern Yinjisha,Upper,Cretaceous,,,,Gypsum,Kukeba and Wuyikake and Yinjisha Frms,,The Compiling Group of the Regional Stratagraphic Chart of Xinjiang(1981),
+E,30,E5064,38,N,78.0,E,Asia,China,Northwest China:Pishan,Upper,Cretaceous,,,,Gypsum,Keliyang,,The Compiling Group of the Regional Stratagraphic Chart of Xinjiang(1981),
+E,31,E5064.1,37.3,N,86.5,E,Asia,China,Northwest China:Tula,L - U?,Cretaceous,,,,Gypsum,,,The Compiling Group of the Regional Stratagraphic Chart of Xinjiang(1981),
+E,32,E5064.2,37,N,103.0,E,Asia,China,Northwest China:Yongdeng,L - U?,Cretaceous,,,,Gypsum,,,"The Stratigraphic Team of Qilianshan, Academia Sinica(1963)"
+E,33,E5065,28,N,102.0,E,Asia,China,South China:Sichuan-Yunnan region,L - U?,Cretaceous,,,,Evaporites,,,Sun Shu et al.(1989)
+E,34,E5066,32,N,113.0,E,Asia,China,South China:Zaoyang,Upper,Cretaceous,,,,Evaporites,,"gypsum, rock salt and glaubers salt",The Compiling Group of the Regional Stratagraphic Chart of central-South China(1974)
+E,35,E5067,31,N,112.0,E,Asia,China,South China:Dangyang-Jinmeng,Upper,Cretaceous,,,,Evaporites,,"gypsum, rock salt and glaubers salt",The Compiling Group of the Regional Stratagraphic Chart of central-South China(1974)
+E,36,E5068,30,N,112.0,E,Asia,China,South China:Jiangling,Upper,Cretaceous,,,,Evaporites,Jiangling,"gypsum, rock salt and glaubers salt-bearing mudstones as well as gypsum and rock salt beds",The Compiling Group of the Regional Stratagraphic Chart of central-South China(1974)
+E,37,E5069,30,N,113.5,E,Asia,China,South China:Honghu,Upper,Cretaceous,,,,Evaporites,Jiangling,"gypsum, rock salt and glaubers salt-bearing mudstones as well as gypsum and rock salt beds",The Compiling Group of the Regional Stratagraphic Chart of central-South China(1974)
+E,38,E5070,30.5,N,113.0,E,Asia,China,South China:Quanjiang-Tianmeng,Upper,Cretaceous,,,,Evaporites,Jiangling,"gypsum, rock salt and glaubers salt-bearing mudstones as well as gypsum and rock salt beds",The Compiling Group of the Regional Stratagraphic Chart of central-South China(1974)
+E,39,E5071,31,N,113.0,E,Asia,China,South China:Jingshan,Upper,Cretaceous,,,,Gypsum,Gonganzai,,The Compiling Group of the Regional Stratagraphic Chart of central-South China(1974)
+E,40,E5072,27.5,N,111.5,E,Asia,China,South China:Shaodong-Xinhua,Upper,Cretaceous,,Upper Cretaceous(?),,Evaporites,,"gypsum, rock salt and glaubers salt",The Compiling Group of the Regional Stratagraphic Chart of central-South China(1974)
+E,41,E5073,27.5,N,113.5,E,Asia,China,South China:Liling area,Upper,Cretaceous,,,,Gypsum,Dajiaping,,The Compiling Group of the Regional Stratagraphic Chart of central-South China(1974)
+E,42,E5074,24,N,116.0,E,Asia,China,South China:Xingning,Upper,Cretaceous,,,,Gypsum,Dengta Group,,The Compiling Group of the Regional Stratagraphic Chart of central-South China(1974)
+E,43,E5075,32,N,119.0,E,Asia,China,South China:Jurong,Upper,Cretaceous,,,,Gypsum,Pukou,,Wu Qi-qie(1989)
+E,44,E5076,32.5,N,120.0,E,Asia,China,South China:Taizhou,Upper,Cretaceous,,,,Gypsum,Pukou,,Wu Qi-qie(1989)
+E,45,E5077,33.5,N,119.0,E,Asia,China,South China:Huaian,Upper,Cretaceous,,,,Evaporites,Pukou,"Gypsum, rock salt and glaubers salt",Wu Qi-qie(1989)
+E,46,E5078,24.5,N,113.5,E,Asia,China,South China:Qujiang,Upper,Cretaceous,,,,Evaporites,Changba,,Zhang Xian-quo(1991)
+E,47,E5079,29.2,N,119.5,E,Asia,China,South China:Lanxi,Upper,Cretaceous,,,,Gypsum,Lanxi,,Zhang Xian-quo(1991)
+E,48,E5079.1,30.8,N,103.9,E,Asia,China,South China:Sichuan-Pixan,Upper,Cretaceous,,,,Evaporites,Guankou,,"Wang Meng-jun,Zeng Liang-kui(1982)"
+E,49,E5079.2,30.6,N,103.8,E,Asia,China,South China:Sichuan-Wenjiang,Upper,Cretaceous,,,,Evaporites,Guankou,,"Wang Meng-jun,Zeng Liang-kui(1982)"
+E,50,E5079.3,30.6,N,103.6,E,Asia,China,South China:Sichuan-Chongqing,Upper,Cretaceous,,,,Evaporites,Guankou,,"Wang Meng-jun,Zeng Liang-kui(1982)"
+E,51,E5079.4,30.5,N,103.9,E,Asia,China,South China:Sichuan-Shuangliu,Upper,Cretaceous,,,,Evaporites,Guankou,,"Wang Meng-jun,Zeng Liang-kui(1982)"
+E,52,E5079.5,30.4,N,103.4,E,Asia,China,South China:Sichuan-Qionglai,Upper,Cretaceous,,,,Evaporites,Guankou,,"Wang Meng-jun,Zeng Liang-kui(1982)"
+E,53,E5079.6,30.1,N,103.0,E,Asia,China,South China:Sichuan-Mingshan,Upper,Cretaceous,,,,Evaporites,Guankou,,"Wang Meng-jun,Zeng Liang-kui(1982)"
+E,54,E5079.7,30.2,N,103.5,E,Asia,China,South China:Sichuan-Pujiang,Upper,Cretaceous,,,,Evaporites,Guankou,,"Wang Meng-jun,Zeng Liang-kui(1982)"
+E,55,E5079.8,30.2,N,103.8,E,Asia,China,South China:Sichan-Pengshan,Upper,Cretaceous,,,,Evaporites,Guankou,,"Wang Meng-jun,Zeng Liang-kui(1982)"
+E,56,E5079.9,29.9,N,102.9,E,Asia,China,South China:Sichuan-Yaan,Upper,Cretaceous,,,,Evaporites,Guankou,,"Wang Meng-jun,Zeng Liang-kui(1982)"
+E,57,E5079.10,29.9,N,103.3,E,Asia,China,South China:Sichuan-Hongya,Upper,Cretaceous,,,,Evaporites,,,"Wang Meng-jun,Zeng Liang-kui(1982)"
+E,58,E5079.11,31.6,N,113.3,E,Asia,China,"South China:Jiangcheng,Hubei",Upper,Cretaceous,,,,Evaporites,Mengyejing,gypsum and salt,Chen Pei-ji(1975)
+E,59,E5079.12,27,N,114.9,E,Asia,China,South China:Jian,L - U?,Cretaceous,,,,Evaporites,,gypsum and rock salt,LiaoRui-jun(2000)
+E,60,E5079.13,26.7,N,114.8,E,Asia,China,South China:Taihe,L - U?,Cretaceous,,,,Evaporites,,gypsum and rock salt,LiaoRui-jun(2000)
+E,61,E5079.14,26.6,N,114.4,E,Asia,China,South China:Xingjiang,L - U?,Cretaceous,,,,Evaporites,,gypsum and rock salt,LiaoRui-jun(2000)
+E,62,E5079.15,25.3,N,115.7,E,Asia,China,"South China:Qingjiang,Huizhong,Zhoutian",L - U?,Cretaceous,,,,Evaporites,,gypsum and rock salt,LiaoRui-jun(2000)
+E,63,E5080,43,N,75.0,E,Asia,C.I.S.(fmr USSR),east of Frunze,Upper,Cretaceous,,Late Cretacous-Eocene,,Evaporites,,,Lukyanov(1981)
+E,64,E5082,39,N,70.0,E,Asia,C.I.S.(fmr USSR),Tadzhikistan,Upper,Cretaceous,,,,Evaporites,,,Khakimov(1996)
+E,65,E5084,-1,S,132.0,E,Asia,Indonesia, ,Upper,Cretaceous,,or earliest Tertiary,,Evaporites,,anhydrite  ,"Visser,Hermes(1962, p. 78)"
+E,66,E5085,30,N,51.0,E,Asia,Iran,,Upper,Cretaceous,Cenomanian and Campanian,,,Evaporites,,,"Murris(1980, Figs. 19,21)"
+E,67,E5086,35,N,44.0,E,Asia,Iraq,central Iraq,Upper,Cretaceous,Senonian-Campanian,,,Evaporites,Safawi Member of the Hartha Frm,,Sadooni(1996)
+E,68,E5087,31,N,35.0,E,Asia,Israel,,Upper,Cretaceous,Senonian(Santonian-Campanian),,,Evaporites,,,Steinitz(1977)
+E,69,E5088.1,29,N,48.0,E,Asia,Kuwait,,Upper,Cretaceous,,,,Evaporites,Aruma Group,,"El-Naggar,El-Nakha(1990)"
+E,70,E5089,18,N,103.0,E,Asia,Laos,Ventiane,L - U?,Cretaceous,,,,Evaporites,,,"Fontaine,Workman(1978)"
+E,71,E5090,44,N,110.0,E,Asia,Mongolia,southeastern Mongolia,Upper,Cretaceous,,,,Evaporites,,lacustrine evaporite,"Adamenko,Davidova(1982, Plate 6)"
+E,72,E5092,39,N,40.0,E,Asia,Turkey,central and eastern Turkey,L - U?,Cretaceous,,,,Evaporites,,,Uygun(1980)
+E,73,E5093,21,N,104.0,E,Asia,Vietnam & Laos,Yeu Chau,Upper,Cretaceous,,,,Evaporites,,nonmarine evaporites,"Vu Khuc(written comm.,1994, 1996, 2000)"
+E,74,E5094,18,N,103.0,E,Asia,Vietnam & Laos,Ventiane,Upper,Cretaceous,,,,Evaporites,,nonmarine evaporites,"Vu Khuc(written comm.,1994, 1996, 2000)"
+E,75,E5095,17,N,105.0,E,Asia,Vietnam & Laos,Dong Hen,Upper,Cretaceous,,,,Evaporites,,nonmarine evaporites,"Vu Khuc(written comm.,1994, 1996, 2000)"
+E,76,E5095.1,43.5,N,5.0,E,Europe,France,Marseille region,Upper,Cretaceous,Campanian-Maastrichtian,,,Gypsum,,,"Garcia,Vianey-Liaud(2001)"
+E,77,E5096,39,N,21.0,E,Europe,Greece,"Epeirus,western Greece",Upper,Cretaceous,,,,Evaporites,,,"L'Intitut de Geologie et Recherches du Sous-sol(1966, Fig. 39)"
+E,78,E5096.1,40.25,N,18.0,E,Europe,Italy,Apulia,L - U?,Cretaceous,,,,Evaporites,,,"Reina,Luperto Sinni(1994)"
+E,79,E5097,42,N,-4.0,W,Europe,Spain,northern Spain,Upper,Cretaceous,Satonian-Campanian,,,Evaporites,,"cauliflower chert nodules, anhydrite relicts and other evaporitic evidence",Rodrigues-Lazaro(1984); Gomez=Alday et al.(2002)
+E,80,E5098,41,N,-2.0,W,Europe,Spain,central Iberian Ranges,Upper,Cretaceous,Maastrichtian,,,Evaporites,,,"Melendez,Melendez(1998)"
+E,81,E5098.1,42,N,0.9,E,Europe,Spain,Tremp area,Upper,Cretaceous,Maastrichtian,,,Gypsum,Maastrichtian part of the Tremp Frm,,"Soler-Gijon,Lopez-Martinez(1998)"
+E,82,E5099,24,N,-76.0,W,North America,Bahamas,,L - U?,Cretaceous,,,,Evaporites,,,Jacobs(1977)
+E,83,E5100,17,N,-88.5,W,North America,Belize,,Upper,Cretaceous,,,,Evaporites,,,"Claypool et al.(1980, Appendix)"
+E,84,E5100.1,20,N,-90.0,W,North America,Mexico,Yucatan,Upper,Cretaceous,,,,Evaporites,,,Lopez Ramos(1975)
+E,85,E5101,-25,S,-65.0,W,South America,Argentina,Salta region,Upper,Cretaceous,,,,Evaporites,,,"Benavides(1968, Fig. 6, pp.268-270)"
+E,86,E5106,-46,S,-69.5,W,South America,Argentina,"Senguerr River, Chubut",Upper,Cretaceous,Senonian,,,Evaporites,Castillo,lacustrine analcime,Teruggi(1964)
+E,87,E5107,-38,S,-70.0,W,South America,Argentina,Neuquen  ,Upper,Cretaceous,Campanian,,,Evaporites,Malargue Group,,Riccardi(1988)
+E,88,E5108,-36,S,57.0,W,South America,Argentina,,Upper,Cretaceous,Maastrichtian-Paleocene,,,Evaporites,Las Chilcas,,Riccardi(1988)
+E,89,E5109,-25,S,-60.0,W,South America,Argentina,,Upper,Cretaceous,,,,Evaporites,Mariano Boedo,,Riccardi(1988)
+E,90,E5110,-38,S,-69.0,W,South America,Argentina,Neuquen  ,Upper,Cretaceous,Maastrichtian,,,Evaporites,Loncoche and Allen Frms,,Gonzalez-Riga(1999)
+E,91,E5110.1,-34.8,S,-68.0,W,South America,Argentina,"Cinco Saltos,northwestern Rio Negro Province",Upper,Cretaceous,,,,Evaporites,Allen,,Salgado et al.(1997)
+E,92,E5111,-20,S,-65.0,W,South America,Bolivia,southeastern Bolivia,Upper,Cretaceous,,,,Evaporites,"Santa Lucia, Chaunuca and Catacucho Frms",Riccardi(1988) cite these formations,"Benavides(1968, Fig. 6, pp.170-171)"
+E,93,E5112,-17,S,-68.0,W,South America,Bolivia,Titicaca region,L - U?,Cretaceous,,,,Evaporites,Ipaguazu Frm and others,,"Benavides(1968, Fig. 6, pp.170-171)"
+E,94,E5113,-23,S,-68.0,W,South America,Chile,,Upper,Cretaceous,,,,Evaporites,Tonel ,anhydrite  ,Hartley et al.(1992)
+E,95,E5114,-35,S,-70.0,W,South America,Chile,central Andes,Upper,Cretaceous,Berriasian-Santonian,,,Evaporites,Colimapu,,"Benavides(1968, Fig. 6, pp. 268-270)"
+E,96,E5115,4,N,-74.0,W,South America,Colombia,Bogata region,Upper,Cretaceous,Turonian-early Coniacian,,,Evaporites,,,Mclaughin(1972),
+E,97,E5116,-15,S,-72.0,W,South America,Peru,southern Peru,Upper,Cretaceous,,,,Evaporites,Chilcane,,"Benavides(1968, Fig. 6, pp. 268-270)",
+E,98,E5116.1,-14,S,-72.0,W,South America,Peru,,Upper,Cretaceous,Coniacian-Santonian,,,Evaporites,Vilquechico Group,,Jaillard et al.(1994),
+CA,99,CA5117.1,30,N,22.0,E,Africa,Libya,NE Sirt Basin,L - U?,Cretaceous,,,,Calcretes,,a dolocrete,"Sghair,El Alami(1996, p. 265)",
+CA,100,CA5117.2,-16,S,47.0,E,Africa,Madagascar,northwestern Madagasgar,Upper,Cretaceous,Maastrichtian,Rodgers et al.(2000) cite its age as Campanian and Maastrichtian,,Calcretes,Maevarano,,"Rodgers,Hartman(1998)",
+CA,101,CA5118,-15,S,32.0,E,South America,South Africa,and adjacent areas,L  - U,Cretaceous,,Early Cretaceous to Senonian or even Paleocene age range,,Calcretes,,nomarine beds with widespread calcretes,"Both,De Witt(1996)",
+CA,102,CA5119,-22,S,31.0,E,South America,South Africa,and adjacent areas,L  - U,Cretaceous,,Early Cretaceous to Senonian or even Paleocene age range,,Calcretes,,nomarine beds with widespread calcretes,"Both,De Witt(1996)",
+CA,103,CA5120,-24,S,31.0,E,South America,South Africa,and adjacent areas,L  - U,Cretaceous,,Early Cretaceous to Senonian or even Paleocene age range,,Calcretes,,nomarine beds with widespread calcretes,"Both,De Witt(1996)",
+CA,104,CA5121,39,N,75.0,E,Asia,China,,Upper,Cretaceous,"Late Maastrichtian,(Early Maastrichtian)",,,Calcretes,"Tuyiluoke,(Yigeziya) Frms",,"Tang Tian-fu,Xu Yao-song,Yu Chong-liu(1992)",
+CA,105,CA5121.1,46,N,67.0,E,Asia,C.I.S.(fmr USSR),,Upper,Cretaceous,Maastrichtian-middle Eocene,,,Calcretes,,,"Erofeev,Tsekhovskii(1982,1983)",
+CA,106,CA5121.2,48,N,82.5,E,Asia,C.I.S.(fmr USSR),,Upper,Cretaceous,Maastrichtian-middle Eocene,,,Calcretes,,,"Erofeev,Tsekhovskii(1982,1983)",
+CA,107,CA5122,24,N,78.0,E,Asia,India,Madhya Pradesh,Upper,Cretaceous,,,,Calcretes,Lameta,,"Brookfield,Sahni(1987);Sahni(1992);Sahni et al.(1994)",
+CA,108,CA5123,22,N,80.0,E,Asia,India,,Upper,Cretaceous,Maastrichtian,,,Calcretes,Lameta,,Andrews et al.(1995),"see also Tandon,Andrews(2001)"
+CA,109,CA5124,23,N,74.0,E,Asia,India,Narmada Valley,Upper,Cretaceous,Maastrichtian,,,Calcretes,Lameta,,Tandon et al.(1995),"see alsoPrasad,Khajuria(1996)"
+CA,110,CA5124.1,20.25,N,75.2,E,Asia,India,Chandrapur District,Upper,Cretaceous,,,,Calcretes,Lameta,,Mahabey(1996),
+CA,111,CA5124.2,17.2,N,77.8,E,Asia,India,Naskal area,Upper,Cretaceous,,,,Calcretes,Lameta,,Sahni et al.(1996),
+CA,112,CA5124.3,20.5,N,79.0,E,Asia,India,Maharashtra,Upper,Cretaceous,,,,Calcretes,Lameta,,Mohabey et al.(1993),
+CA,113,CA5124.4,35.7,N,128.0,E,Asia,Korea,southeastern Korea,Upper,Cretaceous,,,,Calcretes,Jindon,,Paik et al.(2001),
+CA,114,CA5125,45,N,110.0,E,Asia,Mongolia,Gobi Desert,Upper,Cretaceous,,,,Calcretes,Djadokta Frm in the Bayan Manduhu section,associated with eolianites,Jerzykiewicz et al.(1989),see also Mikhailov et al.(1994)
+CA,115,CA5126,44,N,3.0,E,Europe,France,Languedoc,Upper,Cretaceous,,,,Calcretes,,,Freytet(1973a),
+CA,116,CA5127,43,N,3.0,E,Europe,France,Monts Saint-Chinian,Upper,Cretaceous,Maastrichtian,,,Calcretes,,,"Freytet,Plaziat(1982)",
+CA,117,CA5128,44,N,4.0,E,Europe,France,"Villeveyrac,Corbieres",Upper,Cretaceous,Maastrichtian,,,Calcretes,,,"Freytet,Plaziat(1982)",
+CA,118,CA5129,43.5,N,6.0,E,Europe,France,near Aix-en-Province,Upper,Cretaceous,Maastrichtian,,,Calcretes,,,Cousin et al.(1994),
+CA,119,CA5130,45,N,3.0,E,Europe,France,in the Aude,Upper,Cretaceous,Maastrichtian,,,Calcretes,,,Cousin et al.(1994),
+CA,120,CA5131,44.5,N,1.0,E,Europe,France,Aquitaine Basin,Upper,Cretaceous,Campanian-Maastrichtian,,,Calcretes,,,Wright et al.(1995),
+CA,121,CA5131.1,43.5,N,5.0,E,Europe,France,Marseille region,Upper,Cretaceous,Campanian-Maastrichtian,,,Calcretes,,,"Garcia,Vianey-Liaud(2001)",
+CA,122,CA5126.1,41,N,15.0,E,Europe,Italy,southern Italy,Upper,Cretaceous,Coniacian,,,Calcretes,,,Simone et al.(2003),
+CA,123,CA5132,46,N,24.0,E,Europe,Rumania,,Upper,Cretaceous,,,,Calcretes,,,"Grigorescu et al.(1990, 1994)",also Grigorescu(1992)
+CA,124,CA5154,41,N,0.0,,Europe,Spain,Prebetic and Iberian Ranges,Upper,Cretaceous,upper Coniacian to lowermost Campanian,,,Calcretes,Sierra de Utiel,,"Martin-Chivellet,Gimenez(1992)",
+CA,125,CA5155,42,N,1.0,E,Europe,Spain,southern Pyrenees,Upper,Cretaceous,Maastrichtian,,,Calcretes,,,Sanz et al.(1995),
+CA,126,CA5156,50,N,-114.5,W,North America,Canada,Alberta & British Columbia:south-central Alberta,Upper,Cretaceous,Campanian and Maastrichtian,,,Calcretes,,interlayered with coals,"Jerzykiewicz,Sweet(1988)",see also Nort et al.(2002)
+CA,127,CA5156.1,50,N,-115.0,W,North America,Canada,Alberta & British Columbia:Lundbreck area,Upper,Cretaceous,Campanian,,,Calcretes,"Lundbreck,Burmis and Connelly Creek Frms",,Jerzykiewicz(1997),
+CA,128,CA5158,31,N,-110.0,W,North America,Mexico,Sonora ,Upper,Cretaceous,Campanian,,,Calcretes,Correal de Enmedia,,"Gonzalez-Leon,Lawton(1995)",
+CA,129,CA5159,48,N,-115.0,W,North America,United States,Montana,Upper,Cretaceous,Campanian,,,Calcretes,Two Medicine,probalbly a rainshadow type calcrete like those present in southern Alberta ,Varrichio(1995),see also Rogers(1990)
+CA,130,CA5160,33,N,-108.0,W,North America,United States,New Mexico:south-central New Mexico,Upper,Cretaceous,latest Maastrichtian,,,Calcretes,"Hall lake Member,McRae Frm",,"Buck,Mack(1995)",see also Seager et al.(1997)
+CA,131,CA5161,30,N,-104.0,W,North America,United States,Texas:Big Bend Region,Upper,Cretaceous,Maastrichtian,,,Calcretes,,,Lehman(1989),see also Nort et al.(2003)
+CA,132,CA5164,-41,S,-66.0,W,South America,Argentina,northern Patagonia,Upper,Cretaceous,Maastrichtian,,,Calcretes,,,Andreis etal.(1991),
+CA,133,CA5164.1,-39,S,-68.0,W,South America,Argentina,near Neuqen City,Upper,Cretaceous,Coniacian-Santonian,,,Calcretes,,,"Caldwell,Albinoi(2001)",
+CA,134,CA5165,-20,S,-50.0,W,South America,Brazil,Parana Basin,Upper,Cretaceous,,,,Calcretes,Bauru Group,,"Suguio,Barcelos(1983a)","see also Suguio et al.(1980),Goldberg,Garcia(1994)"
+CA,135,CA5166,-19.5,S,-48.0,W,South America,Brazil,Parana Basin,Upper,Cretaceous,Maastrichtian,,,Calcretes,Marilia,,Da Silva et al.(1994),
+CA,136,CA5166.1,-22,S,-52.0,W,South America,Brazil,Bauru Basin,Upper,Cretaceous,,,,Calcretes,Caiua and Bauru Groups,also evidence for evaporites and analcime,"Fernandes,Coimbra(1996)",
+D,137,D5166.2,64.5,N,169.0,E,Asia,Russia,Chukotka,Upper,Cretaceous,Campanian-Maastrichtian,,,Dropstones,,,Ahlberg et al.(2002),
+C,138,C5170,6,N,-2.0,W,Africa,Benin,,Upper,Cretaceous,Maastrichtian,,,Coals,,,"Brownfield,Weaver(1992)",
+C,139,C5171,7,N,2.0,E,Africa,Dahomey,,Upper,Cretaceous,Maastrichtian-Paleocene,,,Coals,Nigerian Upper Coal Measures,,"Feys,Fabre(1966)",
+C,140,C5173,-20,S,45.0,E,Africa,Madagascar,,L  - U,Cretaceous,Albian,and Upper Cretaceous,,Coals,,,"Besaire(1972, p. 43, 367)",
+C,141,C5175,16,N,7.0,E,Africa,Niger,southwest of Agadez,Upper,Cretaceous,Coniacian-Santonian,,,Coals,Iberciten,,"Moody,Sutcliffe(1991)",
+C,142,C5176,6,N,7.0,E,Africa,Nigeria,Benue Valley,Upper,Cretaceous,Coniacian and Campano-Maastrichtian,,,Coals,,,Offodile(1980),
+C,143,C5178,13,N,10.0,E,Africa,Nigeria,Chad Basin,Upper,Cretaceous,Maastrichtian,,,Coals,Gombe Sandstone,Kinasar- 1 borehole(lignite0,Petters(1979),
+C,144,C5179,7,N,7.5,E,Africa,Nigeria,,Upper,Cretaceous,Maastrichtian,,,Coals,Mamu,,Akande et al.(1992),see also Reijers et al.(1997)
+C,145,C5180,8,N,9.0,E,Africa,Nigeria,,Upper,Cretaceous,Maastrichtian,,,Coals,Lamja,,Enu(1980),
+C,146,C5180.1,15.5,N,5.5,E,Africa,Nigeria,Sokota Basin,Upper,Cretaceous,Maastrichtian,,,Coals,Sokata Basin Unit A,,Alam(1986),
+C,147,C5181,15,N,15.0,E,Africa,Senegal,,Upper,Cretaceous,,,,Coals,,in boreholes,Weaver et al.(1990),
+C,148,C5182,10.5,N,46.0,E,Africa,Somalia,"Het Het,east of Berbera",Upper,Cretaceous,Maastrichtian,,,Coals,,,Schrank(1994),
+C,149,C5182.1,11.6,N,50.4,E,Africa,Somalia, ,Upper,Cretaceous,Campanian,,,Coals,Yesomma Sandstone,,"Fantozzi,Ali Kassim(2002)",
+C,150,C5183,19,N,30.0,E,Africa,Sudan,near Dangola and Hamur,Upper,Cretaceous,,,,Coals,,,Weaver et al.(1990),
+C,151,C5184,-5,S,35.0,E,Africa,Tanzania,,Upper,Cretaceous,upper Senonian,,,Coals,,lignite,"Kent et al.(1971, p. 56)",
+C,152,C5186,49,N,122.0,E,Asia,China,North China:northern High Xinghan,Upper,Cretaceous,,,,Coals,,,The Beijing Acad. Of Coal Sci.(1959),
+C,153,C5186.1,42.8,N,130.3,E,Asia,China,"North China:Jiayin,Heilongjiang",Upper,Cretaceous,,,,Coals,,,"Chen Pei-ji(written comm.,1997)",
+C,154,C5187,24,N,116.0,E,Asia,China,South China:Xingning,Upper,Cretaceous,,,,Coals,Dengta Group,,The Compiling Group of the Regional Stratgraphic Chart of central-South China(1974),
+C,155,C5189,65,N,175.0,E,Asia,C.I.S.(fmr USSR),Anadyr Basin,Upper,Cretaceous,Cenomanian,and younger,,Coals,,,Krassilov(1992),
+C,156,C5191,50,N,142.0,E,Asia,C.I.S.(fmr USSR),Sakhalin Basin,Upper,Cretaceous,Coniacian-Maastrichtian,,,Coals,,,Krassilov(1992),
+C,157,C5192,50,N,130.0,E,Asia,C.I.S.(fmr USSR),Zeja-Burejan Basin,Upper,Cretaceous,,,,Coals,,,Krassilov(1992),
+C,158,C4848,50,N,143.0,E,Asia,C.I.S.(fmr USSR),Sakhalin Basin,Upper,Cretaceous,Campanian-Maastrichtian,,,Coals,Krasnojarkovskaya and Bykovskaya Suites,,Alabushev(1995a),
+C,159,C5194,65,N,165.0,E,Asia,C.I.S.(fmr USSR),Anadye-Koryak region,Upper,Cretaceous,,,,Coals,,from a number of localities,Herman(1990),see also 1994
+C,160,C5195,43,N,133.0,E,Asia,C.I.S.(fmr USSR),Primorye,Upper,Cretaceous,,,,Coals,Podgorodnenskoye Suite,,Petroconsultants(1977)
+C,161,C5196,63,N,147.0,E,Asia,C.I.S.(fmr USSR),Magadan,Upper,Cretaceous,,,,Coals,Arkagaly Suite,,Petroconsultants(1977)
+C,162,C5197,52,N,117.0,E,Asia,C.I.S.(fmr USSR),Chita,Upper,Cretaceous,,,,Coals,Delyunskoye Suite,,Petroconsultants(1977)
+C,163,C5198,62,N,165.0,E,Asia,C.I.S.(fmr USSR),Penzhina,Upper,Cretaceous,,,,Coals,,,Petroconsultants(1977)
+C,164,C5199,65,N,176.0,E,Asia,C.I.S.(fmr USSR),Anadyr Basin,Upper,Cretaceous,,,,Coals,,,Petroconsultants(1977)
+C,165,C5200,50,N,130.0,E,Asia,C.I.S.(fmr USSR),,Upper,Cretaceous,,,,Coals,Kivdinskaya Suite,,The Rijks Geologische Dienst(1982)
+C,166,C5201,68,N,123.0,E,Asia,C.I.S.(fmr USSR),Lena Coal Basin,Upper,Cretaceous,,,,Coals,,,The Rijks Geologische Dienst(1982)
+C,167,C5205,65,N,178.0,E,Asia,C.I.S.(fmr USSR),Anadyr Coalfield,Upper,Cretaceous,Senonian,,,Coals,Rarytkinskaya Suite,,The Rijks Geologische Dienst(1982)
+C,168,C5206,64,N,169.0,E,Asia,C.I.S.(fmr USSR),Markovskaya Area,Upper,Cretaceous,Senonian,,,Coals,Rarytkinskaya Suite,,The Rijks Geologische Dienst(1982)
+C,169,C5207,64,N,178.0,E,Asia,C.I.S.(fmr USSR),Anadyr Area,Upper,Cretaceous,Senonian,,,Coals,Rarytkinskaya Suite,,The Rijks Geologische Dienst(1982)
+C,170,C5208,63,N,179.0,E,Asia,C.I.S.(fmr USSR),Beringovskaya Area,Upper,Cretaceous,Senonian,,,Coals,Barykovskaya and Koryakskaya Suites,,The Rijks Geologische Dienst(1982)
+C,171,C5205.1,61,N,164.0,E,Asia,C.I.S.(fmr USSR),Anadyr region:Ajnyn Valley,Upper,Cretaceous,Campanian,,,Coals,Mamatchinskaya,,Alabushev(1995b)
+C,172,C5205.2,62.5,N,167.0,E,Asia,C.I.S.(fmr USSR),Anadyr region:Penzhina Valley,Upper,Cretaceous,"Turonian,Coniacian",,,Coals,Penzhinskaya,,Alabushev(1995b)
+C,173,C5205.3,64,N,170.0,E,Asia,C.I.S.(fmr USSR),Anadyr region:Main Valley,Upper,Cretaceous,Coniacian,,,Coals,Slovutinskaya,,Alabushev(1995b)
+C,174,C5205.4,60,N,170.0,E,Asia,C.I.S.(fmr USSR),Anadyr region:Pekulnoj Mountian Range,Upper,Cretaceous,Coniacian,,,Coals,Slovutinskaya,,Alabushev(1995b)
+C,175,C5193.1,47,N,138.0,E,Asia,C.I.S.(fmr USSR),Naiba River,Upper,Cretaceous,Santonian,,,Coals,Avgustovka Coal Member,,Zhakarov et al.(1996)
+C,176,C5211,4,N,115.5,E,Asia,East Malaysia,,Upper,Cretaceous,,,,Coals,Long Bawan coal,,Sunarjo et al.(1988),
+C,177,C5211.1,25.5,N,90.5,E,Asia,India,Garo Hills,Upper,Cretaceous,,,,Coals,,,Fermor(1932),
+C,178,C5211.2,23.2,N,80.0,E,Asia,India,,Upper,Cretaceous,Maastrichtian,,,Coals,,intertrappean coal,Sahni et al.(1996),
+C,179,C5213,37,N,141.0,E,Asia,Japan ,,Upper,Cretaceous,Coniacian-Santonian,,,Coals,Kasamatso,,"Matsukawa,Obata(1994)",
+C,180,C5213.1,43,N,143.0,E,Asia,Japan ,Ishikary Belt in central Hokkaido,Upper,Cretaceous,,,,Coals,,,Okada(1996),
+C,181,C5213.3,40,N,141.0,E,Asia,Japan ,coast of northestern Honshu,Upper,Cretaceous,Santonian,,,Coals,Taneichi,lignite,Yagishita(1994),
+C,182,C5214,30,N,70.0,E,Asia,Pakistan,,Upper,Cretaceous,,Cretaceous-Tertiary,,Coals,,,"Teichmuller,Durand(1983)",
+C,183,C5214.1,10.5,N,123.9,E,Asia,Philippines,Cebu,Upper,Cretaceous,,,,Coals,,,"Fernandez(1981, p.59)",
+C,184,C5219.1,-18,S,149.0,E,Australia,,Queensland:offshore Queensland,Upper,Cretaceous,Campanian and Maastrichtian,,,Coals,,,"Norvick et al.(2001, Fig. 5)",
+C,185,C5219.2,-37,S,136.0,E,Australia,,South Australia:Bight Basin,Upper,Cretaceous,Coniacian-Maastrichtian,,,Coals,Potoroo,,"Drexel,Preiss(eds., 1995)",
+C,186,C5219.3,-40,S,146.0,E,Australia,,Victoria:Bass Basin,Upper,Cretaceous,Santonian to Maastrichtian,,,Coals,,,Lennon et al.(1999),
+C,187,C5218,-38,S,147.0,E,Australia,,Victoria:Gippsland Basin,Upper,Cretaceous,,,,Coals,,,Smith(1982),"see also Bodard et al.(1986);Norvick et al.(2001, Fig. 4, cite the Latrobe)"
+C,188,C5219,-38,S,148.0,E,Australia,,Victoria:offshore Gippsland Basin,Upper,Cretaceous,,,,Coals,,,Threfall et al.(1976),
+C,189,C5220,-37,S,143.0,E,Australia,,Victoria,L - U?,Cretaceous,,,,Coals,Curdies Frm- Sherbrook Group,,Ellenor(1976),
+C,190,C5221,-34,S,123.0,E,Australia,,Western Australia:Great Australian Bight,L - U?,Cretaceous,,,,Coals,,,Fielding(1992),
+C,191,C5222,-33.5,S,124.0,E,Australia,,Western Australia:Great Australian Bight,L - U?,Cretaceous,,,,Coals,,,Fielding(1992),
+C,192,C5223,-32.5,S,126.0,E,Australia,,Western Australia:Great Australian Bight,L - U?,Cretaceous,,,,Coals,,,Fielding(1992),
+C,193,C5224,-35,S,128.0,E,Australia,,Western Australia:Great Australian Bight,L - U?,Cretaceous,,,,Coals,,,Fielding(1992),
+C,194,C5225,-35,S,130.0,E,Australia,,Western Australia:Great Australian Bight,L - U?,Cretaceous,,,,Coals,,,Fielding(1992),
+C,195,C5226,-35,S,132.0,E,Australia,,Western Australia:Great Australian Bight,L - U?,Cretaceous,,,,Coals,,,Fielding(1992),
+C,196,C5227,34.5,S,134.0,E,Australia,,Western Australia:Great Australian Bight,L - U?,Cretaceous,,,,Coals,,,Fielding(1992),
+C,197,C5228,47,N,13.0,E,Europe,Austria,,Upper,Cretaceous,,,,Coals,,,"Hoehne(1964, Table 2)",
+C,198,C5228.1,48,N,16.0,E,Europe,Austria,Muthmansdorf to the west of Wiener Neustadt,Upper,Cretaceous,,,,Coals,Gosau Beds,,Pereda et al.(2001),
+C,199,C5233,44,N,5.0,E,Europe,Austria,Piolenc,Upper,Cretaceous,Santonian,,,Coals,,lignite,Mennessier(1949),
+C,200,C5229,43,N,26.0,E,Europe,Bulgaria,,Upper,Cretaceous,,see Petrocunsultants(1977) for the Senonian Balkan Basin,,Coals,,,Eskenazy(1982),
+C,201,C5232,43.5,N,5.0,E,Europe,France,Fuveau,Upper,Cretaceous,Senonian,,,Coals,,,"Gorsky et al.(1967, sheet 10)",
+C,202,C5232.1,43.5,N,3.7,E,Europe,France,Villeveyrac,Upper,Cretaceous,Campanian,,,Coals,,probable Campanian lignite,Suberbiola(2003),
+C,203,C5237,44,N,5.0,E,Europe,France,Piolenc region,Upper,Cretaceous,Santonian,,,Coals,,lignite,Triat(1982),
+C,204,C5239,50.75,N,6.0,E,Europe,Germany,Aachen region,Upper,Cretaceous,Campanian,,,Coals,,,Pfug(1959),
+C,205,C5238,49,N,12.0,E,Europe,Germany,,Upper,Cretaceous,,"Dill, written comm.,(1995) Cenomanian to Coniacian",,Coals,Parkstein,,Dill(1995),see also Dill et al.(1993)
+C,206,C5241,47,N,17.0,E,Europe,Hungary,Ajka,Upper,Cretaceous,Senonian,,,Coals,,,"Gorsky et al.(1967, sheet 10)","see also Haas et al.(1992),Tomschey(1995)"
+C,207,C5240,47,N,20.0,E,Europe,Hungary,,Upper,Cretaceous,Santonian,,,Coals,,brown coal,"Bardossy,Kordos(1989, p. 142)",
+C,208,C5243,46,N,13.0,E,Europe,Italy,Cludinico,Upper,Cretaceous,Senonian,,,Coals,,,"Gorsky et al.(1967, sheet 10)",
+C,209,C5244,44,N,22.0,E,Europe,Rumania,Senonska-Zona,Upper,Cretaceous,Senonian,,,Coals,,,"Gorsky et al.(1967, sheet 11)",
+C,210,C5244.1,43,N,26.0,E,,,,,,,,,,,,,
+C,211,C5245,46,N,23.0,E,Europe,Rumania,Hateg Basin,Upper,Cretaceous,Maastrichtian,,,Coals,,,Grigorescu(1992),
+C,212,C5245.1,45.5,N,14.0,E,Europe,Slovenia,near Trieste,Upper,Cretaceous,,,,Coals,Liburnian,,Ogorelec et al.(1996),
+C,213,C5246,43,N,-3.0,W,Europe,Spain,south of Bilbao,Upper,Cretaceous,Campanian,,,Coals,,,"Martins(1989, p. 126)",
+C,214,C5246.4,42,N,0.9,E,Europe,Spain,,Upper,Cretaceous,Maastrichtian,,,Coals,lower part of the Tremp Frm,,"Soler-Gijon,Lopez-Martinez(1998)",see also Lopez-Martinez et al.(1998)
+C,215,C5246.5,60,N,-4.0,W,Europe,United Kingdom,"Scotland:North Rona, West Shetland and Faeroe-Shetland basins",Upper,Cretaceous,,,,Coals,,,Stoker et al.(1993),
+C,216,C5246.6,56.5,N,-6.0,W,Europe,United Kingdom,Scotland:Morvern Pennsula opposite to northeastern Mull,Upper,Cretaceous,possibly Maastrichtian,,,Coals,Gribun,,Hancock(2000),
+C,217,C5247,44,N,19.0,E,Europe,Frm Yugoslavia,eastern Serbia,Upper,Cretaceous,Senonian,,,Coals,,many localities,Tsvetichanin(1976),
+C,218,C5248,45,N,14.0,E,Europe,Frm Yugoslavia,Starski,Upper,Cretaceous,Senonian,,,Coals,,,"Gorsky et al.(1967, sheet 10)",
+C,219,C5249,44,N,22.0,E,Europe,Frm Yugoslavia,Vraska Kuka,L - U?,Cretaceous,,,,Coals,,,Petroconsultants(1977),
+C,220,C5250,-22,S,166.0,E,Europe,New Caladonia,,Upper,Cretaceous,Senonian,,,Coals,,,Petroconsultants(1977),
+C,221,C5251,-40,S,173.0,E,Europe,New Zealand,Collingwood Coalfield,Upper,Cretaceous,Senonian,,,Coals,,,Petroconsultants(1977),see also Sherwood et al.(1992)
+C,222,C5252,-44,S,172.0,E,Europe,New Zealand,Acheron Valley Coalfield,Upper,Cretaceous,Senonian,,,Coals,,,Petroconsultants(1977),see also Sherwood et al.(1992)
+C,223,C5253,-46,S,171.0,E,Europe,New Zealand,North Otago Coal Area,Upper,Cretaceous,Senonian,,,Coals,,,Petroconsultants(1977),see also Sherwood et al.(1992)
+C,224,C5254,-43,S,172.0,E,Europe,New Zealand,Malvern Hills Coalfield,Upper,Cretaceous,Senonian,,,Coals,,,Petroconsultants(1977),see also Sherwood et al.(1992)
+C,225,C5255,-46,S,170.0,E,Europe,New Zealand,Kaitangata Coalfield,Upper,Cretaceous,Senonian,,,Coals,Taratu,,Petroconsultants(1977),see also Sherwood et al.(1992)
+C,226,C5256,-43,S,171.0,E,Europe,New Zealand,Paparoa Coal Measures Coalfield,Upper,Cretaceous,,,,Coals,Greymouth and Pike River Paparoa Coal Measures,,Sherwood et al.(1992),see also Zhongsheng Li et al.(2001)
+C,227,C5257,-46,S,168.0,E,Europe,New Zealand,Ohai Coalfield,Upper,Cretaceous,,,,Coals,Ohai Group,see also Shearer(1995) for Wairio and Morley Coal Measures,Sherwood et al.(1992),see also Zhongsheng Li et al.(2001)
+C,228,C5258,-46,S,167.5,E,Europe,New Zealand,Ohai Coalfield,Upper,Cretaceous,,,,Coals,Morley and Wairio Coal Measures,,The Rijks Geologische Dienst(1982),
+C,229,C5259,-46,S,169.5,E,Europe,New Zealand,Kaitangata Coalfield,Upper,Cretaceous,,,,Coals,Taratu,,The Rijks Geologische Dienst(1982),
+C,230,C5260,-49.5,S,169.0,E,Europe,New Zealand,offshore well,L - U?,Cretaceous,,,,Coals,Hoiho Sequence coal,,The Rijks Geologische Dienst(1982),
+C,231,C5260.1,-44,S,177.0,E,Europe,New Zealand,,L  - U,Cretaceous,Albian-Turonian,"Stillwell(1998)redates The Chatham Islands L. Creta.,based on megafossils as latest Creta. Santonian?-Maastrichtian",,Coals,Tupuuangi-Rounceby Sandstone,,Austin et al.(1973),
+C,232,C5260.2,-48,S,170.0,E,Europe,New Zealand,Great South Basin,Upper,Cretaceous,,,,Coals,Taratu,,Killops et al.(1997),
+C,233,C5260.3,-40,S,172.5,E,Europe,New Zealand,,Upper,Cretaceous,Maastrichtian,,,Coals,Rakopi,,Kennedy et al.(2002),
+C,234,C5261,80,N,-90.0,W,North America,Canada,Arctic,L  - U,Cretaceous,,"Lower Cretaceous, mid Cretaceous and Upper Cretaceous-Tertiary",,Coals,,,"Ricketts,Embry(1984)",
+C,235,C5262,73,N,-77.0,W,North America,Canada,"Arctic:Pond Inlet, noerthern Baffin Isalnd",L - U?,Cretaceous,,,,Coals,,,"Jackson,Sangster(1987)",
+C,236,C5263,65,N,-125.0,W,North America,Canada,Arcitc,L - U?,Cretaceous,,,,Coals,"Little Bear,Summit Creek Frms",,Smith(1989),
+C,237,C5264,68.7,N,-136.5,W,North America,Canada,Arctic,Upper,Cretaceous,Maastrichtian,also Paleocene,,Coals,Aklak,,The Rijks Geologische Dienst(1982),
+C,238,C5265,65.5,N,-135.0,W,North America,Canada,Arctic,Upper,Cretaceous,Cenomanian to Campanian,,,Coals,Bonnet Plume,,Long(1986),
+C,239,C5265.1,68.75,N,136.4,W,North America,Canada,Arctic:Mackenzie Delta region,L - U?,Cretaceous,,,,Coals,Moose Channel,,Mountjoy(1967),
+C,240,C5265.3,79,N,-91.0,W,North America,Canada,Arctic:Axel Heiberg Island and northern Ellesmere Islands,Upper,Cretaceous,Campanian-Maastrichtian,,,Coals,Expedition,,Ricketts(1994)
+C,241,C5266,52,N,-107.0,W,North America,Canada,"Alberta,British Columbia and Sakatchewan:Alberta and Sakatchewan",Upper,Cretaceous,,,,Coals,"Belly River,Edmonton Frms",,"McCrossan,Glaister(1966)"
+C,242,C5267,50,N,-126.0,W,North America,Canada,"Alberta,British Columbia and Sakatchewan:Vancouver Island",Upper,Cretaceous,,,,Coals,,,"McCrossan,Glaister(1966)"
+C,243,C5268,61,N,-137.0,W,North America,Canada,"Alberta,British Columbia and Sakatchewan:Alberta,B.C. and the Yukon",Upper,Cretaceous,,also Early Tertiary,,Coals,,,"Douglas et al.(1970, Fig.VIII-37)"
+C,244,C5269,50,N,-114.5,W,North America,Canada,"Alberta,British Columbia and Sakatchewan:south-central Alberta",Upper,Cretaceous,Campanian,,,Coals,,interlayered with calcretes,"Jerzykiewicz,Sweet(1988)"
+C,245,C5269.1,55,N,-130.0,W,North America,Canada,"Alberta,British Columbia and Sakatchewan:Sustut,Sifton and Bower Basins",Upper,Cretaceous,,"Yorath(1991), says Albian-Campanian",,Coals,Tango Creek,,Dawson(1995)
+C,246,C5269.2,53.5,N,-131.0,W,North America,Canada,"Alberta,British Columbia and Sakatchewan",Upper,Cretaceous,,,,Coals,Queen Charlotte Group,,Hannigan et al.(2001)
+C,247,C5271,20,N,-75.0,W,North America,Cuba,Oriente Province(Mayari Arriba area),Upper,Cretaceous,,,,Coals,,,"Radocz,Nagy(1983)"
+C,248,C5272,83,N,-40.0,W,North America,Greenland,Wandel Sea region of North Greenland,Upper,Cretaceous,Campanian,,,Coals,,,"Ziegler(1988,Pl. 28)"
+C,249,C5273,70,N,-53.0,W,North America,Greenland,west-central Greenland,L  - U,Cretaceous,,,,Coals,,,Henderson et al.(1976)
+C,250,C5274,75,N,-21.0,W,North America,Greenland,"Hold with Hope,East Greenland",Upper,Cretaceous,Santonian-Campanian,,,Coals,,,"Birklund,Perch-Nielsen(1976, p. 333)"
+C,251,C5275,16,N,-90.0,W,North America,Guatemala,,Upper,Cretaceous,,,,Coals,,lignite,"Bohnenberger,Dengo(1978)"
+C,252,C5275.1,18,N,-77.0,W,North America,Jamaica,,Upper,Cretaceous,,,,Coals,Guinea Corn,lignite,Skelton et al.(1994)
+C,253,C5277,31,N,-108.0,W,North America,Mexico,Chihuahua,L - U?,Cretaceous,,,,Coals,Olmos,,Galicia(1991)
+C,254,C5278,27.5,N,-101.0,W,North America,Mexico,Coahuila,L - U?,Cretaceous,,,,Coals,Olmos,,Galicia(1991)
+C,255,C5279,32,N,-109.0,W,North America,Mexico,,Upper,Cretaceous,,,,Coals,,,"Bohnenberger,Dengo(1978)"
+C,256,C5280,20,N,-104.0,W,North America,Mexico,,Upper,Cretaceous,,,,Coals,,,"Bohnenberger,Dengo(1978)",
+C,257,C5281,20,N,-97.0,W,North America,Mexico,,Upper,Cretaceous,,,,Coals,,,"Bohnenberger,Dengo(1978)",
+C,258,C5282,29,N,-101.0,W,North America,Mexico,Chihuahua,Upper,Cretaceous,(Campanian),,,Coals,"Olmos,(San Miguel) Frms",,Galicia(1991),
+C,259,C5276,27,N,-102.0,W,North America,Mexico,Coahuila,Upper,Cretaceous,,,,Coals,Navarra Group,,Ojeda-Rivera(1978),see also Petroconsultants(1977)
+C,260,C5284,32,N,-87.0,W,North America,United States,Alabama,Upper,Cretaceous,,,,Coals,,,Culbertson(1964),
+C,261,C5285,70,N,-150.0,W,North America,United States,Alaska:North Slope region,Upper,Cretaceous,Coniacian through Maastrichtian,,,Coals,Colville Group,,Spicer et al.(1992),
+C,262,C5286,67,N,-160.0,W,North America,United States,Alaska:Kallarichuk River,Upper,Cretaceous,,,,Coals,,,Wahrhafitig et al.(1994),
+C,263,C5287,65,N,-155.0,W,North America,United States,Alaska:lower part of the Yukon River,Upper,Cretaceous,,,,Coals,Kaltag,,Sanders(1975),
+C,264,C5288,65,N,-152.0,W,North America,United States,Alaska:near the confluence of the Yukon and Tanana Rivers,Upper,Cretaceous,,,,Coals,,,Sanders(1975),
+C,265,C5289,57,N,-157.0,W,North America,United States,Alaska:Alaska Peninsula,Upper,Cretaceous,,,,Coals,,,Sanders(1975),
+C,266,C5290,56,N,-160.0,W,North America,United States,Alaska,Upper,Cretaceous,Campanian-Maastrichtian,,,Coals,Chignik,,"Merritt(1986);Merritt,McGhee(1986)",
+C,267,C5291,69,N,-150.0,W,North America,United States,Alaska,Upper,Cretaceous,,,,Coals,Colville Group,,"Merritt,Hawley(1986)",
+C,268,C5292,67,N,-151.0,W,,,,,,,,,,,,,
+C,269,C5293,60,N,-166.0,W,North America,United States,Alaska:Nunivak Island,Upper,Cretaceous,,,,Coals,Kuskokwim Group,,"Merritt,Hawley(1986)",
+C,270,C5294,69,N,-154.0,W,North America,United States,Alaska,L - U?,Cretaceous,,,,Coals,Killick Tongue of the Chandler Frm,,"Spicer,Herman(1996)",
+C,271,C5294.1,63.75,N,-149.0,W,North America,United States,Alaska,Upper,Cretaceous,late Campanian-early Maastrichtian,,,Coals,Lower Cantwell,,Ridgway et al.(1997),
+C,272,C5296,36,N,-110.0,W,North America,United States,Arizona:Black Mesa area,Upper,Cretaceous,Turonian-Coniacian,,,Coals,Mancos Group,,Franczyk(1988),
+C,273,C5297,36,N,-94.0,W,North America,United States,Arkansas,Upper,Cretaceous,,,,Coals,Tokio,,Petroconsultants(1977),
+C,274,C5298,42,N,-123.0,W,North America,United States,California,Upper,Cretaceous,Turonian-Coniacian,,,Coals,Ditch Creek Sandstone Member of the Hornbrook Frm,,"Zigler,Nilsen(1984)",
+C,275,C5299,38,N,-104.0,W,North America,United States,Colorado ,L  - U,Cretaceous,Aptian to Maastrichtian,,,Coals,"Dakota Sandstone,Mesaverde Group,Fruitland,Lance,Laramie and Vermejo Frms",,Landis(1959),
+C,276,C5305,37,N,-89.0,W,North America,United States,Kentucky:western Kentucky,Upper,Cretaceous,,,,Coals,McNairy,lignite,Hower et al.(1990),
+C,277,C5305.1,47,N,-93.0,W,North America,United States,Minnesota,Upper,Cretaceous,Coniacian and younger,,,Coals,,,Setterholm(1994),
+C,278,C5309,32,N,-90.0,W,North America,United States,Mississippi,Upper,Cretaceous,,,,Coals,Tuscaloosa,lignite,Brown(1908),
+C,279,C5309.1,37..25,N,-89.0,W,North America,United States,Missouri,Upper,Cretaceous,late Campanian-early Maastrichtian,,,Coals,,lignite,"Harrison,Litwin(1997)",
+C,280,C5310,47,N,-107.0,W,North America,United States,Montana,L  - U,Cretaceous,,,,Coals,,,Combo et al.(1949),
+C,281,C5311,42,N,-102.0,W,North America,United States,Nebraska,Upper,Cretaceous,,,,Coals,"Dakota Frm and younger ""Laramie""",,Pepperberg(1910),
+C,282,C5313,33,N,-105.0,W,North America,United States,New Mexico,Upper,Cretaceous,,,,Coals,,,Read et al.(1950),
+C,283,C5314,32,N,-108.0,W,North America,United States,New Mexico,Upper,Cretaceous,Coniacian-Campanian,"see also Wolfe,Kirkland(1998) for Turonian and Coniacian",,Coals,Crevasse Canyon,,Mack(199?),
+C,284,C5315,36.5,N,-108.0,W,North America,United States,New Mexico:northwestern New Mexico,Upper,Cretaceous,Maastrichtian,,,Coals,Kirtland Shale coals,,Lucas(1981),see also Lehman(1985)
+C,285,C5316,45,N,-100.0,W,North America,United States,North and South Dakota:South Dakota-North Dakota boundary area,Upper,Cretaceous,,,,Coals,,,Denson(1950),
+C,286,C5317,35,N,-98.0,W,North America,United States,Oklahoma,Upper,Cretaceous,,,,Coals,,,Trumbull(1957),
+C,287,C5318,40,N,-78.0,W,North America,United States,Pennsylvania:near Chambersburg,Upper,Cretaceous,probably late Turonian to early Campanian,,,Coals,,lignite,Pierce(1965),
+C,288,C5319,28,N,-100.0,W,North America,United States,Texas:Rio Grande region,Upper,Cretaceous,,,,Coals,Navarra Group,,Stenzel(1946)
+C,289,C5320,30.75,N,-105.0,W,North America,United States,Texas:Eagle Spring Coalfield,L - U?,Cretaceous,,,,Coals,Chispa Summit,,The Rijks Geologische Dienst(1982)
+C,290,C5321,30,N,-104.0,W,North America,United States,Texas:Terlingua region,Upper,Cretaceous,Maastrichtian,,,Coals,,lignite and calcrete,Lehman(1989)
+C,291,C5323,40,N,-112.0,W,North America,United States,Utah:Wasatch Plateau,Upper,Cretaceous,,,,Coals,,,Spieker(1931)
+C,292,C5325,39.5,N,-111.8,W,North America,United States,Utah:Eastern Sand Pitch Mountians,Upper,Cretaceous,Maastrichtian,,,Coals,,,Lawton et al.(1993)
+C,293,C5325.1,40.5,N,-108.5,W,North America,United States,Utah:Vernal area,Upper,Cretaceous,Campanian and Maastrichtian,,,Coals,Mesaverde,,"Doelling,Graham(1972)"
+C,294,C5325.2,37.5,N,-109.5,W,North America,United States,Utah:La Sal-San Juan Coal Fields of southwestern Utah,Upper,Cretaceous,,,,Coals,Mancos Shale,,"Doelling,Graham(1972)"
+C,295,C5325.3,41,N,-110.0,W,North America,United States,Utah,Upper,Cretaceous,Campanian,,,Coals,Rock Springs Frm and Ericson Sandstone,,"Doelling,Graham(1972)"
+C,296,C5325.4,37.5,N,-111.5,W,,,,,,,,,,,,
+C,297,C5325.5,38.5,N,-111.5,W,North America,United States,Utah,Upper,Cretaceous,"Campanian,(Maastrichtian)",,,Coals,"Blackhawk,(Price River) Frms",see also Gloyn et al.(2003) for the Blackhawk,Doelling(1972)
+C,298,C5325.6,39.2,N,-110.3,W,North America,United States,Utah,Upper,Cretaceous,"Campanian and Maastrichtian,(Maastichtian and Paleoecene)",,,Coals,"Price River,(North Horn) Frms",,Doelling(1972)
+C,299,C5325.7,38.3,N,-111.0,W,North America,United States,Utah:Henry Mountians region,Upper,Cretaceous,Turonian and Coniacian-Satonian age(p. 105),,,Coals,Mancos Shale,,"Doelling,Graham(1972)"
+C,300,C5325.8,37.5,N,-109.5,W,,,,,,,,,,,,
+C,301,C5325.9,41,N,-110.5,W,North America,United States,Utah:Tabby Mountian Coal Field(p. 284),Upper,Cretaceous,,,,Coals,Mancos Shale,,"Doelling,Graham(1972)"
+C,302,C5325.10,41,N,-110.0,W,North America,United States,Utah:Henry Fork Coal Field,Upper,Cretaceous,Campanian,,,Coals,Rock Springs Frm and Ericson Sandstone,,"Doelling,Graham(1972)"
+C,303,C5325.11,38.5,N,-111.5,W,North America,United States,Utah,Upper,Cretaceous,"Coniacian-Santonian,(Santonian-Campanian)",,,Coals,"Indianola Group-Sixmile Canyon Frm,(South Flat Frm)",,Doelling(1972)
+C,304,C5326,48.5,N,-122.0,W,North America,United States,Washington:Glacier and Skagit County Coalfields,L - U?,Cretaceous,,,,Coals,,,The Rijks Geologische Dienst(1982),
+C,305,C5327,42,N,-107.0,W,North America,United States,Wyoming,Upper,Cretaceous,,,,Coals,,,Berryhill et al.(1950),see also Glass(1981)
+C,306,C5327.1,-46,S,-67.5,W,,,,,,,,,,,,,
+C,307,C5328,-43,S,-70.0,W,South America,Argentina,Comodora Rivadavia,Upper,Cretaceous,Senonian,,,Coals,,,Flores-Williams(1978),
+C,308,C5329,-51,S,-73.0,W,South America,Argentina,,Upper,Cretaceous,Campanian,,,Coals,La Anita,,Macellari et al.(1989),
+C,309,C5330,-52,S,-73.0,W,South America,Argentina,Rio Turbio region,Upper,Cretaceous,Maastrichtian-Paleocene,,,Coals,Cerro Dorotea,,Riccardi(1988),see also Urien(1981)
+C,310,C5327.5,-2,S,-42.0,W,South America,Brazil,"Barreirinhas Basin, Maranhao State",Upper,Cretaceous,Albian-Santonian,,,Coals,,lignite,"Petri,Campanha(1981)",
+C,311,C5331,-34,S,-72.0,W,South America,Chile,,Upper,Cretaceous,Campanian-Maastrichtian,,,Coals,,,Riccardi(1988),
+C,312,C5332,5,N,-73.0,W,South America,Columbia,Eastern Cordillera,Upper,Cretaceous,Maastrichtian-Paleocene,,,Coals,Guadas,,Duran(1984),
+C,313,C5333,7,N,-74.0,W,South America,Columbia,Magdalena River,Upper,Cretaceous,,,,Coals,Umir,strata found on middle of the river,Wheeler(1935),
+C,314,C5334,3,N,-70.0,W,South America,Columbia,Cano Limon Field in the eastern Llanos,Upper,Cretaceous,Santonian-Coniacian,,,Coals,,,Morris et al.(1990),
+O,315,O5334.1,24,N,34.0,E,Africa,Egypt,Aswan,L - U?,Cretaceous,,,,Oolitic Ironstones,Nubia,"see also Van Houten et al.(1984) cites ""chamositic-hematitic oolitic ironstones""","Bhatticharyya,Kakimoto(1982)",
+B,316,B5336,17,N,13.0,E,Africa,Niger,,Upper,Cretaceous,probable late Senonian,,,Bauxites,Galhama,Bauxite and kaolinite above the fossiliferous Agadem Frm,Faure(1966),
+B,317,B5337,12,N,3.0,E,Africa,Niger,southwestern Niger,Upper,Cretaceous,,Late Cretacous-Eocene,,Bauxites,,,Lang et al.(1986),
+B,318,B5339,45,N,136.0,E,Asia,C.I.S.(fmr USSR),Sikhote-Aliny Range,Upper,Cretaceous,,Upper Cretaceous(?)(Quest.),,Bauxites,,karst bauxite,"Bardossy(1982, Appendix 1)",
+B,319,B5341,51,N,72.0,E,,,,,,,,,,,,,
+B,320,B5343,51,N,62.0,E,Asia,C.I.S.(fmr USSR),Turgai Trough,Upper,Cretaceous,,,,Bauxites,Taunsor deposit,,"Razumova(1980, Fig. 6)",
+B,321,B5345,31,N,51.0,E,Asia,Iran,Behbehan(Sar-e-Fariab) in the Zagros,Upper,Cretaceous,Senonian(Quest.),,,Bauxites,,karst bauxite,"Bardossy(1982, Appendix 1)",
+B,322,B5347,32,N,35.0,E,Asia,Israel,"Maktesh Ramon,Israel",Upper,Cretaceous,,Upper Cretaceous(Quest.),,Bauxites,,karst bauxite,"Bardossy(1982, Appendix 1)",
+B,323,B5347.1,17.5,N,54.0,E,Asia,Oman,Dhofar,Upper,Cretaceous,late Turonian to late Santonian,,,Bauxites,,bauxite with associated kaolin,"Samuel et al.(1997, p.671)",
+B,324,B5351,37,N,36.0,E,Asia,Turkey,Payas,Upper,Cretaceous,Senonian(Hyp.),Petrascheck(1965) cites Senonian on Turonian with the bauxite in between,,Bauxites,,,"Bardossy(1982, Appendix 1)",
+B,325,B5347.2,37,N,31.5,E,Asia,Turkey,Akseki area,L  - U,Cretaceous,,,,Bauxites,,,"Baudin,Monod91996)",
+B,326,B5351,37,N,36.0,E,,,,,,,,,,,,,
+B,327,B5352,41,N,20.0,E,Europe,Albania,,L - U?,Cretaceous,,,,Bauxites,,"""extensive lateritzation of obducted ophiolites""(lateritic Fe-Ni ores!)","Mindszenty(written comm.,(1992)",
+B,328,B5353,48,N,13.0,E,Europe,Austria,Tyrol,Upper,Cretaceous,Turonian-Coniacian(Hyp.),,,Bauxites,,karst bauxite,"Bardossy(1982, Appendix 1)",
+B,329,B5360,43,N,3.0,E,Europe,France,Cazouls and St. Chinian in Languedoc,Upper,Cretaceous,Turonian-Senonian(Cert.),,,Bauxites,,karst bauxite,"Bardossy(1982, Appendix 1)",
+B,330,B5361,44,N,3.0,E,Europe,France,Bedarieux,Upper,Cretaceous,Senonian(Cert.),,,Bauxites,,karst bauxite,"Bardossy(1982, Appendix 1)",
+B,331,B5362,44,N,5.0,E,Europe,France,Alpilles in Provence,Upper,Cretaceous,Senonian(Cert.),,,Bauxites,,karst bauxite,"Bardossy(1982, Appendix 1)",
+B,332,B5367,38.5,N,24.0,E,Europe,Greece,Euboia,Upper,Cretaceous,Senonian(Hyp.),,,Bauxites,,karst bauxite,"Bardossy(1982, Appendix 1)",see also Valeton et al.(1987)
+B,333,B5368,47,N,17.0,E,Europe,Hungary,"Halimba,Padrakut and Sumeg",Upper,Cretaceous,Senonian(Hyp.),,,Bauxites,,karst bauxite,"Bardossy(1982, Appendix 1)",
+B,334,B5373,41,N,9.0,E,Europe,Italy,northwestern Sardinia,Upper,Cretaceous,Coniacian,,,Bauxites,,,Ceccarini et al.(1984),
+B,335,B5374,46,N,23.0,E,,,,,,,,,,,,,
+B,336,B5382,44,N,17.0,E,Europe,Frm Yugoslavia,Jajce,Upper,Cretaceous,Campanian(Cert.),,,Bauxites,,karst bauxite,"Bardossy(1982, Appendix 1)",
+B,337,B5385,42,N,25.0,E,Europe,Frm Yugoslavia,Grebnick-Kossova,Upper,Cretaceous,Santonian-Campanian,,,Bauxites,,,"Bardossy,Dercourt(1990)",
+B,338,B5390,-33,S,-71.0,W,South America,Chile,"Montenegro,Provincia dr Aconcagua",Upper,Cretaceous,Senonian,,,Bauxites,,lateritic bauxite,"Bardossy,Aleva(1990, p. 99)",
+K,339,K5390.1,7,N,2.0,E,Africa,Benin,,Upper,Cretaceous,Maastrichtian,,,Kaolinite,,detrital kaolinite,Bio Lokoto et al.(1998),
+K,340,K5391,4,N,9.5,E,Africa,Cameroon,,Upper,Cretaceous,Campanian and Maastrichtian,,,Kaolinite,,,"Dunoyer de Segonzac(1969, Fig. 10)",
+K,341,K5392,24,N,32.0,E,Africa,Egypt,Aswan region,Upper,Cretaceous,,,,Kaolinite,Nubian Sandstone,,El Askary(1992),see also Van Houten et al.(1984)
+K,342,K5392.1,26.5,N,32.5,E,Africa,Egypt,Gebel Qreiya,L - U?,Cretaceous,,,,Kaolinite,,abundant kaolin,Keller et al.(2002),
+K,343,K5395,11,N,3.0,E,Africa,Nigeria,Ondo State,Upper,Cretaceous,Maastrichtian-Paleocene,,,Kaolinite,Araromi,kaolinite associated with tar sands,Enu et al.(1982),
+K,344,K5396,13.5,N,5.8,E,Africa,Nigeria,Trans-Saharan seaway in northwestern Nigeria,Upper,Cretaceous,Maastrichtian,,,Kaolinite,,kaolinite rich beds,"Adrtunji,Kogbe(1987)",
+K,345,K5397,5,N,6.0,E,Africa,Nigeria,Lower Benue Trough,L  - U,Cretaceous,Albian to Maastrichtian,,,Kaolinite,,sedimentary kaolinite,"Agumanu,Enu(1990)",
+K,346,K5397.1,13,N,5.3,E,Africa,Nigeria,Sokoto ,L - U?,Cretaceous,,,,Kaolinite,,pisolitic kaolins,Jones(1948),
+K,347,K5398,8,N,9.0,E,Africa,Nigeria,,L - U?,Cretaceous,,,,Kaolinite,Bima,,Enu(1980),
+K,348,K5398.1,8,N,6.5,E,Africa,Nigeria,,L - U?,Cretaceous,,,,Kaolinite,Agbaja Ironstone Frm,"kaolinitic,oolitic ironstone",Mucke et al.(1999),
+K,349,K5399,10.5,N,46.0,E,Africa,Somalia,"Het Het,east of Berbera",Upper,Cretaceous,Maastrichtian,,,Kaolinite,,kaolinitic sediments,Schrank(1994),
+K,350,K5401,25,N,52.0,E,Asia,Abu Dhabi,,Upper,Cretaceous,,,,Kaolinite,,,Hallam(1984),
+K,351,K5401.1,46,N,67.0,E,Asia,C.I.S.(fmr USSR),,Upper,Cretaceous,Maastrichtian-middle Eocene,,,Kaolinite,,Maastrichtian-middle Eocenr humid-raid boundary,"Erofeev,Tsekhovskii(1982,1983)",
+K,352,K5401.2,48,N,82.5,E,Asia,C.I.S.(fmr USSR),,Upper,Cretaceous,Maastrichtian-middle Eocene,,,Kaolinite,,Maastrichtian-middle Eocenr humid-raid boundary,"Erofeev,Tsekhovskii(1982,1983)",
+K,353,K5401.3,25.5,N,90.5,E,Asia,India,Garo Hills,Upper,Cretaceous,,,,Kaolinite,,kaolin,Fermor(1932),
+K,354,K5401.4,22,N,88.0,E,Asia,India,Bengal Basin,Upper,Cretaceous,,,,Kaolinite,Bolpur,kaolinitic beds,Das Sharma et al.(1993),
+K,355,K5402,32,N,52.0,E,Asia,Iran,Simiron,Upper,Cretaceous,Satonian,,,Kaolinite,,,Khadem(1968),
+K,356,K5402.1,34.25,N,135.5,E,Asia,Japan ,"Kuji,Jwaizumi and Kokawa",L - U?,Cretaceous,,,,Kaolinite,,tonstein,Burger(1978-1980),
+K,357,K5404,49,N,15.0,E,Europe,Czech Republic,Trebon,Upper,Cretaceous,Senonian,,,Kaolinite,Klikov,kaolinite from the lateritic red bed,Slanska(1976),
+K,358,K5409,44,N,5.5,E,Europe,France,Vaucluse,Upper,Cretaceous,Senonian,,,Kaolinite,,,"Tessier,Triat(1973)",
+K,359,K5410,43,N,2.5,E,Europe,France,Languedoc,L  - U,Cretaceous,Campanian,and younger Cretaceous,,Kaolinite,,detrital kaolinite,Freytet(1971),
+K,360,K5412,49,N,12.0,E,Europe,Germany,,Upper,Cretaceous,Cenomanian-Coniacian,,,Kaolinite,Parkstein,detrital kaolinite,Dill(1995),
+K,361,K5412.1,40.5,N,-8.5,W,Europe,Portugal,Aveiro region,Upper,Cretaceous,late Turonian-early Coniacian,,,Kaolinite,Gres de Oia,detrital kaolin,"Rocha,Gomes(1995)",
+K,362,K5414,43,N,0.0,,Europe,Spain,Leon,Upper,Cretaceous,Senonian,,,Kaolinite,Wealden-like Voznuevo Frm,,"Mendez,Galan(1976)",
+K,363,K5415,55,N,13.0,E,Europe,Sweden,Scania,Upper,Cretaceous,pre-Campanian,,,Kaolinite,,,Lidmar-Bergstrom(1982);Lidmar-Bergstrom et al.(1999),
+K,364,K5415.1,57.5,N,81.0,E,Kerguelan region,,Site 750,L - U?,Cretaceous,,,,Kaolinite,,kaolinitic claystone,"Mohr,Gee(1992)",
+K,365,K5416,80,N,-87.0,W,North America,Canada,Arctic,Upper,Cretaceous,Maastrichtian,,,Kaolinite,earlier part of the Eueka Sound Frm,,"Bustin,Bayliss(1979)",
+K,366,K5418,50,N,-107.0,W,North America,Canada,Saskatchewan,Upper,Cretaceous,Maastrichtian,,,Kaolinite,Whitemud,"residual kaolin,associated with lignite","Pruett,Murray(1991)",see also Master(1987)
+K,367,K5418.1,66,N,-59.0,W,North America,Greenland,"offshore,West Greenland",Upper,Cretaceous,pre-Campanian,,,Kaolinite,,pre-Campanian basement in an offshore borehole,Rolle(1985),
+K,368,K5435,40,N,-74.5,W,North America,United States,"New Jersey,Delaware and Long Island,NY",Upper,Cretaceous,,,,Kaolinite,Raritan to the Red Bank Frms,nearshore sediments,Owens et al.(1961),
+K,369,K5437,46,N,-107.0,W,North America,United States,New Mexico:Tullock Creek Coal Field,L - U?,Cretaceous,,,,Kaolinite,Lance ,underclay,Rogers(1914),
+K,370,K5438,36.45,N,-105.0,W,North America,United States,"New Mexico:Raton Coal Field,Colfax County",L - U?,Cretaceous,,,,Kaolinite,Vermejo,kaolinitic tonstein,"Bohor,Pillmore(1976)",
+K,371,K5449,41.5,N,-109.0,W,North America,United States,Wyoming,Upper,Cretaceous,Campanian,,,Kaolinite,Almond Frm-Mesa Verde Group,kaolinitic underclay,Asquith(1968),see also Williamsom(1969)
+K,372,K5451,-43,S,-70.0,W,South America,Argentina,Chubut,Upper,Cretaceous,Campanian-Maastrichtian,,,Kaolinite,Paso del Sapo,detrital kaolinite,Spalletti(1996),
+L,373,L5451.1,2.5,N,37.0,E,Africa,Kenya,,Upper,Cretaceous,Cenomanian-basal Paleocene,,,Laterite,,lateritic material,"Williamson,Savage(1986)",
+L,374,L5452,13,N,5.0,E,Africa,Nigeria,,Upper,Cretaceous,Campanian-Maastrichtian transition and Turonian,,,Laterite,,plinthite,Sombroek(1971),
+L,375,L5453,24,N,58.0,E,Asia,Oman,,Upper,Cretaceous,late Campanian-early Maastrichtian,,,Laterite,,,Nolan et al.(1990),"see also Filbrandt et al.(1990, p. 709)"
+L,376,L5453.1,30.3,N,67.8,E,Asia,Pakistan,,Upper,Cretaceous,Maastrichtian,,,Laterite,Bibai,basaltic lavas altered to laterite,"Kazmi,Jan(1997, p. 234)",
+L,377,L5453.4,25,N,56.0,E,Asia,United Arab Emirates,,Upper,Cretaceous,early Maastrichtian,,,Laterite,Qahlah,lateritic siltstone,"Alsharhan,Kendall(1995)",
+L,378,L5453.2,25,N,55.8,E,Asia,United Arab Emirates,,Upper,Cretaceous,Maastrichtian,,,Laterite,base of the Simsuma,lateritic material,"Mustafa,Hamdan(1997)",
+M,379,M5453.3,-6,S,-49.0,W,South America,Brazil,500 km south of Belem,Upper,Cretaceous,,Late Cretaceous through to Miocene,,Lateritic Manganese,,,Ruffet et al.(1996),
+PA,380,Pa5456,36.5,N,141.0,E,Asia,Japan ,,Upper,Cretaceous,Maastrichtian,,,Palms,Oarai Flora,,"Oyama,Matsuo(1964)",
+PA,381,Pa5457,49,N,-124.0,W,North America,Canada,British Columbia:Nanaimo on Vancouver Island,Upper,Cretaceous,Campanian,,,Palms,,,Brown(1962),
+PA,382,Pa5459,-41,S,-66.0,W,South America,,northern Patagonia,Upper,Cretaceous,Maastrichtian,,,Palms,,palm wood and fruits,Andreis etal.(1991),
+PA,383,Cr5460,-20,S,45.0,E,Africa,Madagascar,,Upper,Cretaceous,Campanian,,,Crocodilians,,,Blanc(1972),
+CR,384,Cr5462,44,N,110.0,E,Asia,Mongolia,,Upper,Cretaceous,,,,Crocodilians,,,Osmolska(1972),"see also Wu et al.(1996c), from Inner Mongolia"
+CR,385,Cr5463,57,N,14.0,E,Europe,Sweden,Scania,Upper,Cretaceous,Senonian,,,Crocodilians,,,Persson(1959),
+CR,386,Cr5464,52,N,-115.0,E,North America,Canada,Alberta,L - U?,Cretaceous,,,,Crocodilians,Oldman,,Erickson(1972),
+CR,387,Cr5464.1,79.3,N,-92.0,W,North America,Canada,Arctic:Axel Heiberg Island,L - U?,Cretaceous,,,,Crocodilians,,,Friedman et al.(2003),
+CR,388,Cr5465,-47,S,-69.0,W,South America,Argentina,Patagonia,Upper,Cretaceous,,,,Crocodilians,Bauru  ,,Kuhn(1933),

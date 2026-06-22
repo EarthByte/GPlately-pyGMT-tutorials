@@ -111,7 +111,7 @@ unit_id,section_id,col_id,project_id,col_area,unit_name,strat_name_id,Mbr,Fm,Gp,
 40285,10936,2035,10,885.888,Arisaig Gp,8004.0,,,Arisaig,,419.62,443.1,1500.0,1400.0,,0,0
 40704,11066,2088,10,525.636,Shaw Mountain,78057.0,,Shaw Mountain,St Francis,,419.62,443.1,30.0,0.0,,0,0
 40710,11068,2089,10,2803.095,Shaw Mountain,78057.0,,Shaw Mountain,St Francis,,419.62,443.1,30.0,0.0,,0,0
-22189,6139,784,1,72573.906,Kenogami River Fm and Attawapiskat Fm and Ekwan River Fm and Severn River Fm,5897.0,,Severn River,,,419.62,443.1,0.0,0.0,,0,0
+22189,6139,784,1,72573.906,Kenogami River Fm and Attawapiskat Fm and Ekwan River Fm and Severn River Fm,5426.0,,Kenogami River,,,419.62,443.1,0.0,0.0,,0,0
 33259,7756,1421,1,76726.102,Canon de Caballeros Fm,9372.0,,Canon de Caballeros,,,419.62,443.1,112.0,0.0,,19,238
 40216,10743,2015,10,18.859,Rogerson Lake Conglomerate,102479.0,,Rogerson Lake Conglomerate,,,419.62,486.85,0.0,0.0,,0,0
 40214,10742,2014,10,42.591,Rogerson Lake Conglomerate,102479.0,,Rogerson Lake Conglomerate,,,419.62,486.85,0.0,0.0,,0,0
@@ -138,9 +138,9 @@ unit_id,section_id,col_id,project_id,col_area,unit_name,strat_name_id,Mbr,Fm,Gp,
 34224,8490,1481,1,10271.97,Whittaker,6137.0,,Whittaker,Upper Road River,,421.93,451.3,300.0,300.0,,34,406
 13924,3697,465,1,22986.613,Laketown Dolomite,3951.0,,Laketown Dolomite,,,422.7,440.5,600.0,200.0,surface,37,167
 25912,7557,1277,7,71238.594,unnamed,,,,,,422.7,443.1,0.0,0.0,,0,0
-22334,6207,768,1,94827.734,Kenogami River Fm and Attawapiskat Fm and Ekwan River Fm and Severn River Fm,5897.0,,Severn River,,,422.7,443.1,0.0,0.0,,0,0
+22334,6207,768,1,94827.734,Kenogami River Fm and Attawapiskat Fm and Ekwan River Fm and Severn River Fm,5426.0,,Kenogami River,,,422.7,443.1,0.0,0.0,,0,0
 7058,1791,236,1,12799.378,Moffet Creek Fm and Horshoe Gulch Schist and Yreka Assemblage and Duzzel Phyllite and Trinity Ophiolite,,,,,,422.7,477.1,5900.0,0.0,,0,0
-22253,6174,775,1,63762.832,Kenogami River Fm and Attawapiskat Fm and Ekwan River Fm and Severn River Fm,5426.0,,Kenogami River,,,422.7,443.1,0.0,0.0,,0,0
+22253,6174,775,1,63762.832,Kenogami River Fm and Attawapiskat Fm and Ekwan River Fm and Severn River Fm,5897.0,,Severn River,,,422.7,443.1,0.0,0.0,,0,0
 432,75,16,1,2824.982,Rockwood Fm,1760.0,,Rockwood,,,423.3666,443.1,168.0,107.0,both,0,0
 273,66,13,1,6650.055,Rockwood Fm,1760.0,,Rockwood,,,423.3667,443.1,244.0,61.0,both,0,0
 9385,2361,338,1,22908.043,Interlake Fm,953.0,,Interlake,,,423.7,440.5,140.0,0.0,both,0,0
@@ -190,7 +190,7 @@ unit_id,section_id,col_id,project_id,col_area,unit_name,strat_name_id,Mbr,Fm,Gp,
 940,126,24,1,18076.32,Chimneyhill Subgroup,,,,,,426.7,446.15,61.0,0.0,both,0,0
 1867,279,52,1,20334.869,Fusselman Limestone,3595.0,,Fusselman Limestone,,,426.7,440.5,92.0,0.0,both,0,0
 9284,2342,337,1,43154.691,Interlake Fm,953.0,,Interlake,,,426.7,440.5,105.0,0.0,both,0,0
-22167,6124,786,1,16276.36,Thornloe Fm and Wabi Fm,3231.0,,Wabi,,,426.7,443.1,0.0,0.0,,0,0
+22167,6124,786,1,16276.36,Thornloe Fm and Wabi Fm,3230.0,,Thornloe,,,426.7,443.1,0.0,0.0,,0,0
 34129,8448,1476,1,24527.201,Cloudy Fm,9560.0,,Cloudy,Upper Road River,,427.7334,447.525,400.0,400.0,,0,0
 34801,8739,1506,1,41091.566,Allen Bay,3176.0,,Allen Bay,,,428.25,443.1,400.0,400.0,,0,0
 9816,2475,346,1,26650.545,Interlake Fm,953.0,,Interlake,,,428.25,440.5,75.0,0.0,subsurface,0,0
@@ -1166,7 +1166,7 @@ unit_id,section_id,col_id,project_id,col_area,unit_name,strat_name_id,Mbr,Fm,Gp,
 35627,8967,1549,1,7141.169,Irene Bay Fm,5378.0,,Irene Bay,Cornwallis,,449.25,450.25,200.0,200.0,,0,0
 2241,370,63,1,6604.956,Aleman Fm,19.0,,Aleman,Montoya,,449.25,450.25,36.0,0.0,surface,2,4
 12896,3407,447,1,14594.294,Leipers Limestone,3678.0,,Leipers Limestone,,,449.25,450.0,27.0,0.0,both,2,4
-4404,835,107,1,24147.314,Viola Limestone and Kimmswick Limestone,3663.0,,Kimmswick Limestone,,,449.25,456.5,5.0,1.0,subsurface,0,0
+4404,835,107,1,24147.314,Viola Limestone and Kimmswick Limestone,6884.0,,Viola Limestone,,,449.25,456.5,5.0,1.0,subsurface,0,0
 278,66,13,1,6650.055,Martinsburg Shale,4150.0,,Martinsburg Shale,,,449.25,456.5,305.0,0.0,both,0,0
 277,66,13,1,6650.055,Reedsville Shale,4209.0,,Reedsville Shale,,,449.25,451.0,122.0,0.0,both,0,0
 689,6355,811,1,1315.087,Reedsville Fm,1716.0,,Reedsville,,,449.25,451.0,170.0,0.0,subsurface,0,0
@@ -1182,11 +1182,11 @@ unit_id,section_id,col_id,project_id,col_area,unit_name,strat_name_id,Mbr,Fm,Gp,
 824,115,23,1,5536.003,Reedsville Shale,4209.0,,Reedsville Shale,,,449.25,451.0,137.0,128.0,surface,0,0
 3096,624,83,1,21391.213,Dubuque Fm,562.0,,Dubuque,Galena,,449.25,450.0,9.0,8.0,subsurface,0,0
 226,63,12,1,15407.188,Leipers Limestone,3678.0,,Leipers Limestone,,,449.25,450.0,46.0,15.0,both,0,0
-3926,774,101,1,18752.73,Viola Limestone and Kimmswick Limestone,6884.0,,Viola Limestone,,,449.25,450.75,29.0,0.0,subsurface,0,0
+3926,774,101,1,18752.73,Viola Limestone and Kimmswick Limestone,3663.0,,Kimmswick Limestone,,,449.25,450.75,29.0,0.0,subsurface,0,0
 35960,9101,1581,1,39846.727,Cape Calhoun Fm,9811.0,,Cape Calhoun,Morris Bugt,,449.25,450.25,60.0,30.0,,0,0
-3913,766,100,1,15671.482,Viola Limestone and Kimmswick Limestone,6884.0,,Viola Limestone,,,449.25,450.75,29.0,0.0,subsurface,0,0
+3913,766,100,1,15671.482,Viola Limestone and Kimmswick Limestone,3663.0,,Kimmswick Limestone,,,449.25,450.75,29.0,0.0,subsurface,0,0
 12938,3424,449,1,11210.104,Fairview Fm,638.0,,Fairview,,,449.25,450.0,30.0,0.0,both,2,4
-3760,751,99,1,31959.861,Viola Limestone and Kimmswick Limestone,3663.0,,Kimmswick Limestone,,,449.25,450.75,84.0,0.0,subsurface,0,0
+3760,751,99,1,31959.861,Viola Limestone and Kimmswick Limestone,6884.0,,Viola Limestone,,,449.25,450.75,84.0,0.0,subsurface,0,0
 1998,308,47,1,4248.86,Reedsville Fm,1716.0,,Reedsville,,,449.25,451.0,600.0,500.0,both,0,0
 1545,6324,809,1,4063.666,Sandstone Mbr of Martinsburg Fm,1236.0,,Martinsburg,,,449.25,449.75,31.0,15.0,surface,0,0
 1141,155,37,1,2729.236,Martinsburg Fm,1236.0,,Martinsburg,,,449.25,456.25,545.0,243.0,surface,40,229
@@ -1244,7 +1244,7 @@ unit_id,section_id,col_id,project_id,col_area,unit_name,strat_name_id,Mbr,Fm,Gp,
 8357,2093,309,1,4577.862,Martinsburg Fm,1236.0,,Martinsburg,,,449.75,451.0,33.0,0.0,surface,0,0
 8612,2155,317,1,46643.25,Unnamed,,,,,,449.75,466.3667,2500.0,2000.0,surface,0,0
 37366,9579,1629,1,38296.391,Red River Fm,1712.0,,Red River,Bighorn,,449.75,450.75,50.0,50.0,,0,0
-4227,826,106,1,18981.598,Viola Limestone and Kimmswick Limestone,3663.0,,Kimmswick Limestone,,,449.75,456.5,44.0,0.0,subsurface,0,0
+4227,826,106,1,18981.598,Viola Limestone and Kimmswick Limestone,6884.0,,Viola Limestone,,,449.75,456.5,44.0,0.0,subsurface,0,0
 36584,9363,1610,1,28790.844,Red River Fm,1712.0,,Red River,Bighorn,,449.75,450.75,70.0,70.0,,1,16
 36365,9276,1599,1,10906.986,Farr Fm,5197.0,,Farr,,,449.75,451.0,30.0,30.0,,2,4
 18245,4674,577,1,151562.266,Bad Cache Rapids,7919.0,,,Bad Cache Rapids,,449.75,451.0,46.0,0.0,,0,0
@@ -1283,7 +1283,7 @@ unit_id,section_id,col_id,project_id,col_area,unit_name,strat_name_id,Mbr,Fm,Gp,
 9666,2430,342,1,36781.879,Red River Fm,1712.0,,Red River,Bighorn,,450.0,455.5,200.0,0.0,subsurface,0,0
 227,63,12,1,15407.188,Inman Fm,951.0,,Inman,,,450.0,451.0,15.0,0.0,both,0,0
 497,81,17,1,13348.094,Kope Fm,1063.0,,Kope,Maquoketa,,450.0,450.25,82.0,60.0,both,0,0
-547,86,18,1,12817.529,Kope Fm and Clays Ferry Fm,405.0,,Clays Ferry,,,450.0,451.0,90.0,60.0,both,26,185
+547,86,18,1,12817.529,Kope Fm and Clays Ferry Fm,1063.0,,Kope,Maquoketa,,450.0,451.0,90.0,60.0,both,26,185
 613,93,19,1,8705.258,Garrard Siltstone,4019.0,,Garrard Siltstone,,,450.0,450.25,12.0,0.0,both,0,0
 614,93,19,1,8705.258,Clays Ferry Fm,405.0,,Clays Ferry,,,450.0,451.0,90.0,60.0,both,0,0
 1229,163,32,1,10739.39,Trenton Limestone,3849.0,,Trenton Limestone,Chickamauga,,450.0,456.5,220.0,0.0,subsurface,0,0
@@ -1294,9 +1294,9 @@ unit_id,section_id,col_id,project_id,col_area,unit_name,strat_name_id,Mbr,Fm,Gp,
 2025,312,55,1,8202.507,Upham Dolomite,4003.0,,Upham Dolomite,Montoya,,450.0,455.75,36.0,24.0,both,7,31
 20,11,2,1,6345.444,Inman Fm,951.0,,Inman,,,450.0,451.0,13.0,6.0,subsurface,0,0
 3025,595,81,1,16088.815,Wise Lake Fm and Dunleith Fm,569.0,,Dunleith,Galena,,450.0,454.75,56.0,0.0,subsurface,1,33
-3065,619,82,1,18972.047,Wise Lake Fm and Dunleith Fm,2323.0,,Wise Lake,Galena,,450.0,454.75,56.0,0.0,subsurface,1,6
-3097,624,83,1,21391.213,Wise Lake Fm and Dunleith Fm,569.0,,Dunleith,Galena,,450.0,454.75,57.0,52.0,subsurface,0,0
-3358,684,89,1,19038.326,Wise Lake Fm and Dunleith Fm,569.0,,Dunleith,Galena,,450.0,454.75,41.0,30.0,subsurface,6,171
+3065,619,82,1,18972.047,Wise Lake Fm and Dunleith Fm,569.0,,Dunleith,Galena,,450.0,454.75,56.0,0.0,subsurface,1,6
+3097,624,83,1,21391.213,Wise Lake Fm and Dunleith Fm,2323.0,,Wise Lake,Galena,,450.0,454.75,57.0,52.0,subsurface,0,0
+3358,684,89,1,19038.326,Wise Lake Fm and Dunleith Fm,2323.0,,Wise Lake,Galena,,450.0,454.75,41.0,30.0,subsurface,6,171
 45,16,3,1,4133.999,Inman Fm,951.0,,Inman,,,450.0,451.0,17.0,0.0,both,0,0
 5582,1309,159,1,21134.215,Viola Gp,2691.0,,,Viola,,450.0,456.7125,305.0,0.0,,0,0
 6070,1455,185,1,34919.023,Dubuque Fm,562.0,,Dubuque,Galena,,450.0,451.0,5.0,0.0,subsurface,5,70
@@ -1415,7 +1415,7 @@ unit_id,section_id,col_id,project_id,col_area,unit_name,strat_name_id,Mbr,Fm,Gp,
 41587,12022,2158,10,54133.332,Duo Lake,9558.0,,Duo Lake,Road River,,450.65,458.2,158.0,0.0,,0,0
 40691,11058,2085,10,1842.816,Indian River Slate,63139.0,,Indian River Slate,,,450.65,458.2,0.0,0.0,,0,0
 11566,3110,432,1,42690.191,Dunleith Fm,569.0,,Dunleith,Galena,,450.7,451.0,41.0,37.0,both,9,241
-13321,3492,452,1,12938.724,Bigby Fm and Cannon Fm,3180.0,,Bigby,,,450.75,454.5,30.0,12.0,both,17,109
+13321,3492,452,1,12938.724,Bigby Fm and Cannon Fm,3181.0,,Cannon,,,450.75,454.5,30.0,12.0,both,17,109
 10402,2687,377,1,5747.699,Barnard Volcanic Mbr of Moretown Fm,6913.0,Barnard Volcanic,Missisquoi,,,450.75,455.75,1000.0,0.0,surface,0,0
 8267,2074,307,1,11732.15,Martinsburg Fm,1236.0,,Martinsburg,,,450.75,454.75,2425.0,606.0,surface,0,0
 4052,790,103,1,19300.615,Kimmswick (Galena) Fm,1041.0,,Kimmswick,,,450.75,454.5,76.0,61.0,subsurface,0,0
@@ -1529,7 +1529,7 @@ unit_id,section_id,col_id,project_id,col_area,unit_name,strat_name_id,Mbr,Fm,Gp,
 18323,4713,582,1,23175.086,Shadow Lake,1873.0,,Shadow Lake,,,451.595,454.75,6.0,0.0,,0,0
 21854,6425,600,1,7412.008,Julies Harbor,8036.0,,,Julies Harbor,,451.595,455.67,610.0,0.0,,0,0
 18320,4713,582,1,23175.086,Kirkfield,5441.0,,Kirkfield,Trenton,,451.7875,455.615,52.0,0.0,,0,0
-1367,177,40,1,5425.713,Eggleston Fm and Oranda Fm,1475.0,,Oranda,,,451.875,454.75,35.0,20.0,both,0,0
+1367,177,40,1,5425.713,Eggleston Fm and Oranda Fm,594.0,,Eggleston Limestone,Chickamauga,,451.875,454.75,35.0,20.0,both,0,0
 2644,490,74,1,41760.438,Corbin Ranch Fm,461.0,,Corbin Ranch,Simpson,,451.875,454.75,6.0,3.0,subsurface,0,0
 13479,3558,456,1,32141.57,Eureka Quartzite,4636.0,,Eureka Quartzite,,,451.875,455.5,130.0,0.0,surface,0,0
 7758,2025,300,1,17251.09,Coburn Fm,421.0,,Coburn,,,451.875,454.5,75.0,0.0,subsurface,0,0
@@ -1606,7 +1606,7 @@ unit_id,section_id,col_id,project_id,col_area,unit_name,strat_name_id,Mbr,Fm,Gp,
 18275,6288,804,1,3722.742,Gilmour Lake,,,,,,454.67,456.5,0.0,0.0,,0,0
 3067,619,82,1,18972.047,Decorah Fm,506.0,,Decorah,Sinnipee,,454.75,456.5,8.0,0.0,subsurface,0,0
 14011,3718,467,1,17942.957,Ely Springs Dolomite,3920.0,,Ely Springs Dolomite,,,454.75,455.5,60.0,0.0,surface,0,0
-3360,684,89,1,19038.326,Decorah Fm and Platteville Fm,1603.0,,Platteville,Simpson,,454.75,457.775,21.0,14.0,subsurface,4,277
+3360,684,89,1,19038.326,Decorah Fm and Platteville Fm,506.0,,Decorah,Sinnipee,,454.75,457.775,21.0,14.0,subsurface,4,277
 3469,701,91,1,16719.768,Decorah Fm,506.0,,Decorah,Sinnipee,,454.75,456.5,3.0,0.0,both,0,0
 5904,1387,172,1,23881.365,Roughlock Mbr of Winnipeg Fm,7199.0,Roughlock Siltstone,Winnipeg,,,454.75,455.5,5.0,0.0,subsurface,0,0
 2645,490,74,1,41760.438,Bromide Fm,247.0,,Bromide,Simpson,,454.75,455.75,100.0,0.0,subsurface,0,0
@@ -1618,9 +1618,9 @@ unit_id,section_id,col_id,project_id,col_area,unit_name,strat_name_id,Mbr,Fm,Gp,
 8149,2064,305,1,20502.52,Salona Fm,1798.0,,Salona,,,454.75,455.25,60.0,0.0,surface,0,0
 2318,399,66,1,18152.035,Tulip Creek Fm,2148.0,,Tulip Creek,Simpson,,454.75,456.789,133.0,100.0,subsurface,0,0
 499,81,17,1,13348.094,Trenton Limestone,3849.0,,Trenton Limestone,Chickamauga,,454.75,456.25,25.0,18.0,subsurface,0,0
-231,63,12,1,15407.188,Bigby Fm and Cannon Fm,3180.0,,Bigby,,,454.75,455.5,46.0,24.0,both,12,156
+231,63,12,1,15407.188,Bigby Fm and Cannon Fm,3181.0,,Cannon,,,454.75,455.5,46.0,24.0,both,12,156
 10352,2667,373,1,5639.694,Morses Line Slate,5604.0,,Morses Line Slate,,,454.75,455.75,700.0,0.0,surface,0,0
-3440,696,90,1,28777.375,Decorah Fm and Platteville Fm,1603.0,,Platteville,Simpson,,454.75,457.775,21.0,15.0,subsurface,0,0
+3440,696,90,1,28777.375,Decorah Fm and Platteville Fm,506.0,,Decorah,Sinnipee,,454.75,457.775,21.0,15.0,subsurface,0,0
 10273,2637,369,1,8570.102,Glens Falls Limestone,3608.0,,Glens Falls Limestone,,,454.75,456.5,40.0,0.0,surface,0,0
 35848,9062,1569,1,3837.833,Cape Discovery Fm,9784.0,,Cape Discovery,Egingway Bay,,454.75,455.75,320.0,320.0,,0,0
 2406,423,68,1,20931.695,Tulip Creek Fm,2148.0,,Tulip Creek,Simpson,,454.75,456.789,25.0,0.0,subsurface,0,0
@@ -1780,7 +1780,7 @@ unit_id,section_id,col_id,project_id,col_area,unit_name,strat_name_id,Mbr,Fm,Gp,
 8738,2207,324,1,26877.178,East Fork Fm,580.0,,East Fork,,,456.5,484.4125,500.0,0.0,surface,0,0
 36219,9229,1595,1,27017.379,Gull River Fm,5293.0,,Gull River,Black River,,456.5,457.775,102.0,102.0,,0,0
 21857,6425,600,1,7412.008,Beaver Bight,4875.0,,Beaver Bight,,,456.5,460.5,305.0,0.0,,0,0
-12726,3369,445,1,14356.623,Tyrone Limestone and Camp Nelson Limestone,3855.0,,Tyrone Limestone,High Bridge,,456.5,458.2,220.0,190.0,subsurface,0,0
+12726,3369,445,1,14356.623,Tyrone Limestone and Camp Nelson Limestone,3515.0,,Camp Nelson Limestone,High Bridge,,456.5,458.2,220.0,190.0,subsurface,0,0
 5393,6329,810,1,3479.233,Lantz Mills Mbr of Edinburg Fm,7066.0,Lantz Mills,Edinburg,,,456.5,456.84,122.0,61.0,surface,16,242
 8781,2219,325,1,25029.967,Kinnikinic Quartzite,4645.0,,Kinnikinic Quartzite,,,456.5,471.3,365.0,99.0,surface,0,0
 22805,3436,450,1,14622.862,Pencil Cave Bentonite,7691.0,,,,,456.5,456.6416,0.0,0.0,both,0,0
@@ -1789,10 +1789,10 @@ unit_id,section_id,col_id,project_id,col_area,unit_name,strat_name_id,Mbr,Fm,Gp,
 6075,1455,185,1,34919.023,Decorah Fm,506.0,,Decorah,Sinnipee,,456.5,456.7834,13.0,0.0,subsurface,21,494
 7689,2020,299,1,13232.745,Black River Limestone,3496.0,,Black River Limestone,,,456.5,457.775,145.0,114.0,subsurface,0,0
 12765,3377,446,1,11712.055,Plattin Limestone,3767.0,,Plattin Limestone,,,456.5,456.789,180.0,120.0,subsurface,0,0
-693,98,20,1,4162.582,Tyrone Limestone and Camp Nelson Limestone,3515.0,,Camp Nelson Limestone,High Bridge,,456.5,458.2,360.0,240.0,subsurface,0,0
+693,98,20,1,4162.582,Tyrone Limestone and Camp Nelson Limestone,3855.0,,Tyrone Limestone,High Bridge,,456.5,458.2,360.0,240.0,subsurface,0,0
 11530,3100,431,1,25142.66,Black River Fm,184.0,,Black River,Black River,,456.5,457.6334,150.0,90.0,subsurface,0,0
 21840,5957,817,1,4614.973,Unnamed,,,,,,456.5,458.2,0.0,0.0,,0,0
-12548,3344,444,1,9359.954,Tyrone Limestone and Camp Nelson Limestone,3855.0,,Tyrone Limestone,High Bridge,,456.5,458.2,190.0,0.0,subsurface,0,0
+12548,3344,444,1,9359.954,Tyrone Limestone and Camp Nelson Limestone,3515.0,,Camp Nelson Limestone,High Bridge,,456.5,458.2,190.0,0.0,subsurface,0,0
 21837,5955,816,1,80906.789,Unnamed,,,,,,456.5,458.2,0.0,0.0,,0,0
 12769,3377,446,1,11712.055,Tyrone Limestone and Camp Nelson Limestone,3855.0,,Tyrone Limestone,High Bridge,,456.5,458.2,213.0,190.0,subsurface,0,0
 12544,3344,444,1,9359.954,Plattin Limestone,3767.0,,Plattin Limestone,,,456.5,456.789,90.0,70.0,subsurface,0,0
@@ -1802,7 +1802,7 @@ unit_id,section_id,col_id,project_id,col_area,unit_name,strat_name_id,Mbr,Fm,Gp,
 4411,841,108,1,24896.395,Simpson Gp,2647.0,,,Simpson,,456.5,464.0,15.0,9.0,subsurface,0,0
 22821,6066,795,1,35480.465,Black River,2390.0,,,Black River,,456.5,458.2,0.0,0.0,,0,0
 5855,1374,171,1,7606.732,Stones River Gp,2659.0,,,Stones River,Chickamauga,456.5,471.3,251.0,0.0,subsurface,0,0
-12901,3407,447,1,14594.294,Tyrone Limestone and Camp Nelson Limestone,3515.0,,Camp Nelson Limestone,High Bridge,,456.5,458.2,220.0,180.0,subsurface,0,0
+12901,3407,447,1,14594.294,Tyrone Limestone and Camp Nelson Limestone,3855.0,,Tyrone Limestone,High Bridge,,456.5,458.2,220.0,180.0,subsurface,0,0
 19176,5070,641,1,17542.797,Unnamed,,,,,,456.5,460.4425,0.0,0.0,,0,0
 4405,835,107,1,24147.314,Simpson Gp,2647.0,,,Simpson,,456.5,464.0,36.0,0.0,subsurface,0,0
 4228,826,106,1,18981.598,Platteville Fm,1603.0,,Platteville,Simpson,,456.5,457.775,3.0,0.0,subsurface,0,0
@@ -1839,12 +1839,12 @@ unit_id,section_id,col_id,project_id,col_area,unit_name,strat_name_id,Mbr,Fm,Gp,
 1540,192,43,1,3578.157,Lantz Mills Fm,1095.0,,Lantz Mills,,,456.5,457.775,70.0,0.0,surface,2,100
 12370,3302,441,1,13055.024,Black River Limestone,3496.0,,Black River Limestone,,,456.5,456.8825,180.0,73.0,subsurface,0,0
 9537,2392,340,1,21013.658,Icebox Fm,942.0,,Icebox,Winnipeg,,456.5,456.925,35.0,0.0,subsurface,0,0
-12965,3426,448,1,11902.06,Tyrone Limestone and Camp Nelson Limestone,3515.0,,Camp Nelson Limestone,High Bridge,,456.5,458.2,180.0,135.0,subsurface,0,0
+12965,3426,448,1,11902.06,Tyrone Limestone and Camp Nelson Limestone,3855.0,,Tyrone Limestone,High Bridge,,456.5,458.2,180.0,135.0,subsurface,0,0
 36322,9263,1598,1,22212.016,Gull River Fm,5293.0,,Gull River,Black River,,456.5,457.775,76.0,76.0,,1,5
 22742,6355,811,1,1315.087,Tyrone Limestone and Camp Nelson Limestone of High Bridge Gp,2506.0,,,High Bridge,,456.5,458.2,360.0,240.0,subsurface,0,0
 9549,2397,341,1,39055.152,Icebox Fm,942.0,,Icebox,Winnipeg,,456.5,456.925,40.0,0.0,subsurface,0,0
 4054,790,103,1,19300.615,Plattin Fm,1605.0,,Plattin,Black River,,456.5,456.925,18.0,0.0,subsurface,0,0
-552,86,18,1,12817.529,Tyrone Limestone and Camp Nelson Limestone,3515.0,,Camp Nelson Limestone,High Bridge,,456.5,458.2,195.0,180.0,subsurface,0,0
+552,86,18,1,12817.529,Tyrone Limestone and Camp Nelson Limestone,3855.0,,Tyrone Limestone,High Bridge,,456.5,458.2,195.0,180.0,subsurface,0,0
 9668,2430,342,1,36781.879,Icebox Fm,942.0,,Icebox,Winnipeg,,456.5,456.925,40.0,0.0,subsurface,0,0
 22685,6324,809,1,4063.666,Liberty Hall,1126.0,,Liberty Hall,,,456.5,458.2,457.0,107.0,surface,0,0
 19003,5004,630,1,9710.221,Golden Grove,5258.0,,Golden Grove,,,456.5,460.5,0.0,0.0,,0,0
@@ -2117,7 +2117,7 @@ unit_id,section_id,col_id,project_id,col_area,unit_name,strat_name_id,Mbr,Fm,Gp,
 3361,684,89,1,19038.326,Glenwood Mbr of St Peter Fm,7026.0,Glenwood,St Peter Sandstone,,,457.775,458.2,3.0,1.0,subsurface,0,0
 3333,679,88,1,12515.966,Glenwood Mbr of St Peter Fm,7026.0,Glenwood,St Peter Sandstone,,,457.775,458.2,9.0,1.0,subsurface,0,0
 10271,2636,369,1,8570.102,Middlebury Limestone,3713.0,,Middlebury Limestone,,,457.775,465.8404,200.0,0.0,surface,0,0
-3101,624,83,1,21391.213,Glenwood Fm and Starved Rock Fm,757.0,,Glenwood,Ancell,,457.775,458.2,26.0,21.0,subsurface,0,0
+3101,624,83,1,21391.213,Glenwood Fm and Starved Rock Fm,3192.0,,Starved Rock,,,457.775,458.2,26.0,21.0,subsurface,0,0
 10448,2709,380,1,8555.544,Partridge Fm,1520.0,,Partridge,,,457.775,465.7089,610.0,0.0,surface,0,0
 3069,619,82,1,18972.047,Glenwood Mbr of St Peter Fm,7026.0,Glenwood,St Peter Sandstone,,,457.775,458.2,2.0,1.0,subsurface,0,0
 3029,595,81,1,16088.815,Glenwood Mbr of St Peter Fm,7026.0,Glenwood,St Peter Sandstone,,,457.775,458.2,2.0,0.0,subsurface,0,0
@@ -2731,7 +2731,7 @@ unit_id,section_id,col_id,project_id,col_area,unit_name,strat_name_id,Mbr,Fm,Gp,
 40223,10751,2022,10,90.617,Caribou Lakes Gneiss Complex,102485.0,,,Caribou Lakes Gneiss Complex,,471.3,1000.0,0.0,0.0,,0,0
 24,11,2,1,6345.444,Knox Gp,2525.0,,,Knox,,471.3,493.575,975.0,0.0,subsurface,0,0
 5835,1366,169,1,19764.816,Knox Gp,2525.0,,,Knox,,471.3,508.5,1485.0,1480.0,subsurface,0,0
-146,49,9,1,17966.59,Newala Limestone and Longview Limestone,6882.0,,Newala Limestone,Knox,,471.3,479.5375,420.0,360.0,both,3,3
+146,49,9,1,17966.59,Newala Limestone and Longview Limestone,6883.0,,Longview Limestone,,,471.3,479.5375,420.0,360.0,both,3,3
 10363,2673,374,1,12972.26,Allingtown Metavolcanics,,,,,,471.3,475.8797,300.0,0.0,surface,0,0
 10390,2683,376,1,5621.913,Moretown Fm,1347.0,,Moretown,,,471.3,484.4125,2000.0,0.0,both,0,0
 22462,6264,802,1,43468.73,Knox Dolomite,3949.0,,Knox Dolomite,,,471.3,486.85,0.0,0.0,subsurface,0,0
@@ -3565,7 +3565,7 @@ unit_id,section_id,col_id,project_id,col_area,unit_name,strat_name_id,Mbr,Fm,Gp,
 37719,9692,1640,1,14987.971,Bison Creek Fm,4899.0,,Bison Creek,Lynx,,491.0875,495.725,200.0,100.0,,21,201
 15584,4136,505,1,16005.45,Dry Creek Shale,7834.0,,Dry Creek Shale,Gallatin,,491.0875,493.575,30.0,15.0,,2,8
 8973,2262,331,1,27302.18,Red Lion Fm,1709.0,,Red Lion,,,491.0875,495.725,115.0,100.0,surface,0,0
-14830,3939,484,1,18677.342,Notch Peak Dolomite,1431.0,,Nopah,,,491.0875,496.8,140.0,0.0,surface,0,0
+14830,3939,484,1,18677.342,Notch Peak Dolomite,3970.0,,Notch Peak Dolomite,,,491.0875,496.8,140.0,0.0,surface,0,0
 25909,7560,1277,7,71238.594,unnamed,,,,,,491.0875,511.0,0.0,0.0,,0,0
 9080,2300,332,1,29450.566,Grove Creek Mbr,2875.0,Grove Creek Limestone,Snowy Range,Gallatin,,491.0875,492.5,15.0,0.0,surface,0,0
 8559,2139,313,1,10773.049,Theresa (Galway) Fm,6034.0,,Theresa,,,491.0875,496.0833,100.0,20.0,both,0,0
@@ -3739,7 +3739,7 @@ unit_id,section_id,col_id,project_id,col_area,unit_name,strat_name_id,Mbr,Fm,Gp,
 13909,3695,465,1,22986.613,Dunderberg Shale,4079.0,,Dunderberg Shale,,,493.9333,497.5,100.0,0.0,surface,30,127
 7692,2021,299,1,13232.745,Kerbel Fm,1030.0,,Kerbel,,,494.65,496.8,34.0,0.0,subsurface,0,0
 1605,204,44,1,10930.05,Kerbel Fm,1030.0,,Kerbel,,,494.65,496.8,23.0,0.0,subsurface,0,0
-11719,3170,433,1,27448.68,Ironton Sandstone and Galesville Sandstone,6870.0,,Galesville Sandstone,,,495.3667,497.85,52.0,0.0,subsurface,0,0
+11719,3170,433,1,27448.68,Ironton Sandstone and Galesville Sandstone,3330.0,,Ironton Sandstone,,,495.3667,497.85,52.0,0.0,subsurface,0,0
 7778,2025,300,1,17251.09,Olin Sandstone,3373.0,,Olin Sandstone,,,495.3667,497.85,90.0,0.0,subsurface,0,0
 7661,2014,298,1,13089.844,Kerbel Fm,1030.0,,Kerbel,,,495.3667,496.0833,35.0,0.0,subsurface,0,0
 38392,9968,1667,1,11958.725,Rabbitkettle Fm,9557.0,,Rabbitkettle,Road River,,495.3667,496.0833,1200.0,1200.0,,0,0
@@ -3783,7 +3783,7 @@ unit_id,section_id,col_id,project_id,col_area,unit_name,strat_name_id,Mbr,Fm,Gp,
 6252,1502,197,1,16597.6,Elk Mound Gp,2470.0,,,Elk Mound,,495.725,499.95,60.0,0.0,both,0,0
 10322,2660,372,1,4599.878,West Castleton Fm,2268.0,,West Castleton,,,495.725,514.475,152.0,0.0,,1,3
 12473,3332,443,1,12679.619,Eau Claire Fm,583.0,,Eau Claire,Elk Mound,,495.725,497.5,176.0,152.0,subsurface,0,0
-3464,700,91,1,16719.768,Ironton Fm and Galesville Fm,3200.0,,Galesville,,,495.725,497.5,35.0,30.0,subsurface,0,0
+3464,700,91,1,16719.768,Ironton Fm and Galesville Fm,3199.0,,Ironton,,,495.725,497.5,35.0,30.0,subsurface,0,0
 25897,7553,1275,7,50844.621,Carrizal Fm,9227.0,,Carrizal,,,495.725,515.6334,0.0,0.0,,0,0
 8170,2064,305,1,20502.52,Olin Sandstone,3373.0,,Olin Sandstone,,,495.725,496.8,105.0,0.0,subsurface,0,0
 37468,9616,1633,1,37822.496,Lynx Fm,5508.0,,Lynx,,,495.725,497.85,0.0,0.0,,0,0

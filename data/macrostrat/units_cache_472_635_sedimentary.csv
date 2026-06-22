@@ -219,7 +219,7 @@ unit_id,section_id,col_id,project_id,col_area,unit_name,strat_name_id,Mbr,Fm,Gp,
 14230,3778,472,1,6882.684,Wah Wah Limestone,3864.0,,Wah Wah Limestone,Pogonip,,471.3,479.5375,75.0,0.0,surface,0,0
 14604,3872,479,1,12418.071,Fillmore Fm,654.0,,Fillmore,Pogonip,,471.3,479.5375,200.0,0.0,surface,2,7
 40646,11040,2080,10,1667.02,Sweetsburg,6000.0,,Sweetsburg,Oak Hill,,471.3,501.0,396.0,0.0,,0,0
-146,49,9,1,17966.59,Newala Limestone and Longview Limestone,6883.0,,Longview Limestone,,,471.3,479.5375,420.0,360.0,both,3,3
+146,49,9,1,17966.59,Newala Limestone and Longview Limestone,6882.0,,Newala Limestone,Knox,,471.3,479.5375,420.0,360.0,both,3,3
 21921,5990,752,1,78079.453,Unnamed,,,,,,471.3,486.85,0.0,0.0,,0,0
 19029,5014,631,1,37661.125,Halifax,5299.0,,Halifax,Meguma,,471.3,486.85,4572.0,0.0,,0,0
 2323,399,66,1,18152.035,Ellenburger Dolomite,3184.0,,Ellenburger Dolomite,,,471.3,488.2625,550.0,400.0,both,0,0
@@ -979,7 +979,7 @@ unit_id,section_id,col_id,project_id,col_area,unit_name,strat_name_id,Mbr,Fm,Gp,
 2324,399,66,1,18152.035,Bliss Fm,7598.0,,Bliss,,,488.2625,497.85,30.0,10.0,,0,0
 6116,1460,186,1,24422.51,Norwalk Mbr of Jordan Fm,7145.0,Norwalk,Jordan,,,488.2625,488.7333,10.0,0.0,both,0,0
 6126,1463,187,1,18140.93,St Lawrence Fm,1981.0,,St Lawrence Dolomite,Trempealeau,,488.2625,492.5,10.0,0.0,both,0,0
-2616,478,72,1,35466.312,Hickory Sandstone and Wilberns Sandstone,6869.0,,Wilberns Sandstone,,,488.2625,501.0,50.0,0.0,subsurface,0,0
+2616,478,72,1,35466.312,Hickory Sandstone and Wilberns Sandstone,3324.0,,Hickory Sandstone,,,488.2625,501.0,50.0,0.0,subsurface,0,0
 7776,2025,300,1,17251.09,Upper Sandy Mbr of Gatesburg Fm,733.0,,Gatesburg,,,488.2625,492.5,50.0,0.0,subsurface,0,0
 10289,2645,370,1,7488.587,Briarcliff Dolostone,4940.0,,Briarcliff Dolostone,Wappinger,,488.2625,499.95,150.0,0.0,,0,0
 3019,594,81,1,16088.815,St Lawrence Fm,1981.0,,St Lawrence Dolomite,Trempealeau,,488.2625,492.5,40.0,0.0,subsurface,0,0
@@ -1016,7 +1016,7 @@ unit_id,section_id,col_id,project_id,col_area,unit_name,strat_name_id,Mbr,Fm,Gp,
 15197,4030,495,1,46264.289,Muav Fm,1371.0,,Muav,,,491.0875,497.85,150.0,0.0,both,0,0
 925,125,25,1,2889.726,Chances Branch Dolomite Mbr,2793.0,Chances Branch Dolomite,Maynardville Limestone,Conasauga,,491.0875,493.575,38.0,21.0,surface,0,0
 8559,2139,313,1,10773.049,Theresa (Galway) Fm,6034.0,,Theresa,,,491.0875,496.0833,100.0,20.0,both,0,0
-14830,3939,484,1,18677.342,Notch Peak Dolomite,3970.0,,Notch Peak Dolomite,,,491.0875,496.8,140.0,0.0,surface,0,0
+14830,3939,484,1,18677.342,Notch Peak Dolomite,1431.0,,Nopah,,,491.0875,496.8,140.0,0.0,surface,0,0
 9080,2300,332,1,29450.566,Grove Creek Mbr,2875.0,Grove Creek Limestone,Snowy Range,Gallatin,,491.0875,492.5,15.0,0.0,surface,0,0
 754,105,21,1,2435.601,Chances Branch Dolomite Mbr,2793.0,Chances Branch Dolomite,Maynardville Limestone,Conasauga,,491.0875,493.575,61.0,45.0,surface,0,0
 37719,9692,1640,1,14987.971,Bison Creek Fm,4899.0,,Bison Creek,Lynx,,491.0875,495.725,200.0,100.0,,21,201
@@ -1190,7 +1190,7 @@ unit_id,section_id,col_id,project_id,col_area,unit_name,strat_name_id,Mbr,Fm,Gp,
 11546,3105,432,1,42690.191,Ironton Sandstone,3330.0,,Ironton Sandstone,,,495.725,496.8,30.0,0.0,subsurface,0,0
 36920,9458,1616,1,15528.337,unnamed,,,,,,495.725,508.5,40.0,40.0,,0,0
 10322,2660,372,1,4599.878,West Castleton Fm,2268.0,,West Castleton,,,495.725,514.475,152.0,0.0,,1,3
-3464,700,91,1,16719.768,Ironton Fm and Galesville Fm,3199.0,,Ironton,,,495.725,497.5,35.0,30.0,subsurface,0,0
+3464,700,91,1,16719.768,Ironton Fm and Galesville Fm,3200.0,,Galesville,,,495.725,497.5,35.0,30.0,subsurface,0,0
 8933,2254,330,1,18357.867,Devils Glen Dolomite,3917.0,,Devils Glen Dolomite,,,495.725,497.85,120.0,30.0,surface,0,0
 34540,8641,1495,1,14197.224,Ottertail,5713.0,,Ottertail,,,495.725,499.95,600.0,600.0,,0,0
 8417,2106,310,1,18733.494,Potsdam Fm,1635.0,,Potsdam,,,495.725,499.95,107.0,0.0,subsurface,0,0
@@ -3058,7 +3058,7 @@ unit_id,section_id,col_id,project_id,col_area,unit_name,strat_name_id,Mbr,Fm,Gp,
 9963,2517,352,1,8972.665,Elkmont Sandstone,3294.0,,Elkmont Sandstone,Great Smoky,Ocoee,596.45,603.368,2700.0,1500.0,,0,0
 14440,3832,476,1,26556.199,Papoose Creek Fm,1512.0,,Papoose Creek,,,596.45,625.275,700.0,0.0,,0,0
 8803,2225,326,1,16978.594,Shedroof Conglomerate,4545.0,,Shedroof Conglomerate,Windermere,,596.45,625.275,1528.0,0.0,surface,0,0
-6618,1632,230,1,8294.661,Stirling Fm and Johnnie Fm,3224.0,,Stirling,,,596.45,688.69,740.0,0.0,,0,0
+6618,1632,230,1,8294.661,Stirling Fm and Johnnie Fm,988.0,,Johnnie,,,596.45,688.69,740.0,0.0,,0,0
 5333,1258,152,1,22714.551,Unnamed,,,,,,596.45,617.204,650.0,300.0,surface,0,0
 9928,2507,349,1,9362.775,Sawyer Limestone,3803.0,,Sawyer Limestone,Kahatchee Mountain,,596.45,615.6682,60.0,0.0,surface,0,0
 40884,11172,2126,10,6823.612,Licklog,1127.0,,Licklog,Walden Creek,Ocoee,596.52,615.76,450.0,0.0,,0,0

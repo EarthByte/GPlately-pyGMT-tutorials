@@ -1,0 +1,122 @@
+LithologyCode,LithNumber,OldIDNumber,,LAT,NS,LONG,EW,Continent,Country,,GeogComments,LMU,Period,Stage,AgeComments,Lithology,Formation,LithComments,PrimaryReference,SeeAlso
+E,1,E3314.3,,28,N,9,E,Africa,Algeria,,Algerian Sahara,Middle,Triassic,,,Evaporites,,,"Busson,Cornee(1991)",
+E,2,E3314.2,,36,N,10,E,Africa,Tunisia,,Atlas  ,Middle,Triassic,,,Gypsum,,,"Kamoun et al.(1998,2001)",
+E,3,E3314.1,,31,N,103,E,Asia,China,,S.China:central part of the Yangze Paltform,Middle,Triassic,,,Evaporites,,,"Wu ying-lin,Yan Tang-ji(1987)",
+E,4,E3315,,29,N,105,E,Asia,China,,S.China:Weiyuan,Middle,Triassic,late Anisian,,Gypsum,,,Zhao Jin-ke et al.(1962),
+E,5,E3316,,29,N,104,E,Asia,China,,S.China:Central Sichaun and western Weiyuan,Middle,Triassic,Anisian ,,Halites,Chialingkiang and Leikoupo,,The Bureau of Geology and Mineral Resources of Sichuan Province(1978),
+E,6,E3317,,27,N,101.5,E,Asia,China,,S.China:Sichuan Basin and Yangyuan,Middle,Triassic,Anisian ,,Gypsum,Chialingkiang and Leikoupo,,The Bureau of Geology and Mineral Resources of Sichuan Province(1978),
+E,7,E3318,,30,N,102,E,Asia,China,,S.China:Kangding,Middle,Triassic,Anisian ,,Gypsum,Chialingkiang and Leikoupo,,The Bureau of Geology and Mineral Resources of Sichuan Province(1978),
+E,8,E3319,,29,N,104,E,Asia,China,,S.China:Jianwei,Middle,Triassic,lower Anisian,,Halites,Chialingkiang,anhydrite and halite,Chen Ji-zhou(1990),
+E,9,E3320,,31,N,107.5,E,Asia,China,,S.China:Quxian-Daxian,Middle,Triassic,lower Anisian,,Gypsum,Chialingkiang,,Chen Ji-zhou(1990),
+E,10,E3321,,31,N,106,E,Asia,China,,S.China:Nanchong,Middle,Triassic,late Anisian,,Gypsum,Kaliastrakanite,,Chen Ji-zhou(1990),
+E,11,E3322,,30.5,N,106.5,E,Asia,China,,S.China:Guanqan,Middle,Triassic,late Anisian,,Gypsum,Kaliastrakanite,,Chen Ji-zhou(1990),
+E,12,E3323,,31,N,107.5,E,Asia,China,,S.China:Quxian-Daxian,Middle,Triassic,late Anisian,,Gypsum,Kaliastrakanite,,Chen Ji-zhou(1990),
+E,13,E3324,,29.5,N,104.5,E,Asia,China,,S.China:Weiyuan,Middle,Triassic,late Anisian,,Halites,Leikoupo,anhydrite and halite,Chen Ji-zhou(1990),
+E,14,E3325,,27,N,107.5,E,Asia,China,,S.China:Wengan,Middle,Triassic,Anisian ,,Gypsum,Sizishan,,Chen Long-zhi(1976),
+E,15,E3326,,32.5,N,108,E,Asia,China,,S.China:Zhenba,Middle,Triassic,lower Anisian,,Evaporites,Chialingkiang and Leikoupo,,The Compiling Group of the Regional Stratigraphic Chart of Shaanxi(1983),
+E,16,E3327,,32,N,119,E,Asia,China,,S.China:Nanjing,Middle,Triassic,Anisian ,,Halites,,anhydrite ,"Li Jin-hua,Ju Kui-xiang(1989)"
+E,17,E3328,,31.5,N,120,E,Asia,China,,S.China:Yixian,Middle,Triassic,Anisian ,,Halites,,skeletal halite crystals,"Li Jin-hua,Ju Kui-xiang(1989)"
+E,18,E3329,,31.5,N,118,E,Asia,China,,S.China:Chaoxian,Middle,Triassic,Anisian ,,Halites,Dongmanshan,skeletal halite crystals,"Li Jin-hua,Ju Kui-xiang(1989)"
+E,19,E3330,,33,N,108,E,Asia,China,,S.China:Xixiang,Middle,Triassic,Anisian ,,Evaporites,,evaporite solution breccia,Wei Dong-yan(1991)
+E,20,E3331,,33.5,N,109,E,Asia,China,,S.China:Zhenan,Middle,Triassic,Anisian ,,Evaporites,,evaporite solution breccia,Wei Dong-yan(1991)
+E,21,E3332,,31,N,120,E,Asia,China,,S.China:Yixing,Middle,Triassic,Anisian ,,Gypsum,Zhouchongcun,skeletal gypsum crystals,Zhu Hong-fu et al.(1991)
+E,22,E3333,,31,N,97,E,Asia,China,,Xizang:Changdu,Middle,Triassic,Ladinian,,Gypsum,Jiapila,,The Bureau of Geology and Mineral Resources of Sichuan Province(1978)
+E,23,E3333.1,,37,N,43,E,Asia,Iraq,,,Middle,Triassic,,,Evaporites,Geli Hana,in fold belt,"Beydoun(1991, Fig. 12)"
+E,24,E3334,,29,N,52,E,Asia,Iran,,east side of the Persian gulf in the Zagros,Middle,Triassic,Anisian-Ladinian,,Evaporites,,in a borehole(Kuh-E-Siah-1),"ESCAP(1988, Atlas Sheet Iran 1)"
+E,25,E3334.1,,30.5,N,34.5,E,Asia,Israel,,Saharonim?,Middle,Triassic,Ladinian,,Evaporites,,,Feldman(2002)
+E,26,E3337,,28,N,50,E,Asia,Middle East,,Persian Gulf region,L-M-U,Triassic,,,Evaporites,,,Saint-Marc(1978)
+E,27,E3336.1,,32,N,36,E,Asia,Jordan,,west of Amman,Middle,Triassic,Ladinian,,Evaporites,Abu Ruweis,,Sadeddin(1996)
+E,28,E3338.1,,35,N,37,E,Asia,Syria,,,L -M -U?,Triassic,,,Evaporites,,,Gill(1965)
+E,29,E3338.2,,35,N,39,E,Asia,Syria,,,Middle,Triassic,,,Halites,Kurrachine Anhydrite ,,Litek et al.(1997)
+E,30,E3339,,37,N,44,E,Asia,Turkey,,southeastern Turkey,L -M -U?,Triassic,,age not given in detail,Evaporites,,,Uygun(1980)
+E,31,E3340,,56,N,3,E,Europe,,,North Sea,Middle,Triassic,Anisian-Ladinian,,Evaporites,Muschelkalk,,"Ziegler(1982, Encl. 16)"
+E,32,E3341,,45,N,-2,W,Europe, ,,Bay of Biscay and adjacent areas,Middle,Triassic,Anisian-Ladinian,,Evaporites,Muschelkalk,,"Ziegler(1982, Encl. 16)",
+E,33,E3342,,47,N,15,E,Europe,Austria,,Austrian Alps,L  - U,Triassic,,Lower and Upper Triassic,Evaporites,,,Medwenitsch(1972),
+E,34,E3343,,53,N,-8,W,Europe,British Isles,,Ireland,Middle,Triassic,Anisian,"see Wilson,Manning(1978p. 75), Rhaetian;Wilson et al.(2001),Anisian",Evaporites,,,Wilson(1981),
+E,35,E3344,,48,N,-7,W,Europe,British Isles,,Western Approaches Basin,M  - U,Triassic,Anisian to Norian,,Evaporites,,,"Ziegler(1988, Pl.29)",
+E,36,E3345,,54,N,-4,W,Europe,British Isles,,Morecambe Field,Middle,Triassic,,,Evaporites,Sherwood Sandstone Group,,Cowan(1993),"see also Meadows,Beach(1993)"
+E,37,E3346,,53,N,-1,W,Europe,British Isles,,Nottingham area,Middle,Triassic,,,Halites,,halite casts,Mader(1992),
+E,38,E3346.1,,54,N,2,E,Europe,British Isles,,southern North Sea region,Middle,Triassic,,,Evaporites,,,Cameron et al.(1992),
+E,39,E3346.2,,53.5,N,-2.25,W,,,,,,,,,,,,,
+E,40,E3347,,56,N,6,E,Europe,Denmark,,offshore Central Graben,L-M-U,Triassic,Scythia to Norian,,Evaporites,,,"Ziegler(1988, PL. 30)",
+E,41,E3348,,47,N,9,E,Europe,Denmark,,"North Danish Basin,Jutland",L-M-U,Triassic,,,Evaporites,,,"Ziegler(1988, PL. 30)",
+E,42,E3349,,49,N,7,E,Europe,France,,eastern side of the Paris Basin in Lorraine,Middle,Triassic,Anisian-Ladinian,,Evaporites,middle Muschelkalk,,Geisler-Gussey(1986-1987),
+E,43,E3350,,41,N,3,E,Europe,France,,"Vosge,Jura,Bresse and Massif Central",Middle,Triassic,Anisian-Ladinian,,Evaporites,Muschelkalk and Keuper,,"Theobald,Laugier(1963)",
+E,44,E3351,,44,N,7,E,Europe,France,,Alpes Maritimes,Middle,Triassic,Anisian-Ladinian,,Evaporites,Muschelkalk,,Vernet(1963),
+E,45,E3352,,44,N,3,E,Europe,France,,Lodeve region,Middle,Triassic,Anisian-Ladinian,,Evaporites,,,"Lopez,Mader(in Mader,1992)",
+E,46,E3353,,52,N,8,E,Europe,Germany,,western Germany,Middle,Triassic,Anisian-Ladinian,,Evaporites,Muschelkalk,,Wild(1980),
+E,47,E3354,,49,N,9,E,Europe,Germany,,Molasse Basin southwestern Germany,M  - U,Triassic,Anisian to Carnian,,Evaporites,,,"Ziegler(1988, PL. 30)",
+E,48,E3355,,50,N,6,E,Europe,Germany,,Eifel?,Middle,Triassic,,,Evaporites,,,Mader(1992),
+E,49,E3356,,39.5,N,20.5,E,Europe,Greece,,western Greece,M  - U,Triassic,pre-Norian,,Evaporites,,,Underhill(1988),see also Gill(1965)
+E,50,E3357,,39,N,21,E,Europe,Greece,,western Greece,L   -  M,Triassic,pre-Carnian,Permo-Triassic,Evaporites,,,Gill(1965),
+E,51,E3358,,47,N,19,E,Europe,Hungary,,,Middle,Triassic,Anisian,,Evaporites,,,Mader(1992),
+E,52,E3358.1,,47,N,17.5,E,,,,,,,,,,,,,
+E,53,E3359,,40,N,9,E,Europe,Italy,,eastern Sardinia,Middle,Triassic,,,Evaporites,Muschelkalk,,Excel(1986),
+E,54,E3360,,40,N,16,E,Europe,Italy,,northern Calabria,Middle,Triassic,Ladinian and Anisian,,Evaporites,,,Iannace et al.(1995),
+E,55,E3361,,54,N,5,E,Europe,Netherlands,,"offshore Central Graben,(Netherlands coastline)",L  - U,Triassic,Scythian to Norian,,Evaporites,(Broad Fourteens),,"Ziegler(1988, PL. 30)",
+E,56,E3362,,62.5,N,4,E,Europe,Norway,,Mid Norway Basin off the central coast,M  - U,Triassic,Ladinian and Carnian,,Evaporites,,,"Ziegler(1988, PL. 30)",
+E,57,E3363,,59,N,3,E,Europe,Norway,,More Basin off the southwestern coast,M  - U,Triassic,Ladinian and Carnian,,Evaporites,,,"Ziegler(1988, PL. 30)",
+E,58,E3364,,65,N,9,E,Europe,Norway,,offshore Trondelag Platform,L   -  M,Triassic,,,Evaporites,,,Ehrenberg et al.(1992),
+E,59,E3365,,52,N,20,E,Europe,Poland,,Polish Trough of central Poland,M  - U,Triassic,Ladinian-Norian,,Evaporites,,,"Ziegler(1988, PL. 30)",
+E,60,E3366,,49,N,20,E,Europe,Poland,,Zakopane? In the Tara,L -M -U?,Triassic,,,Evaporites,,,Mader(1992),
+E,61,E3367,,51,N,21,E,Europe,Poland,, Holy Cross Mountians,L -M -U?,Triassic,,,Evaporites,,,Mader(1992),
+E,62,E3368,,49,N,18,E,Europe,Slovakia,,,L -M -U?,Triassic,,,Evaporites,Meliata,,Kantor(1975),
+E,63,E3369,,42,N,-2,W,Europe,Spain,,northeastern Spain,Middle,Triassic,,,Evaporites,Keuper and Muschelkalk,,Virgili(1963),see also Calvet et al.(1990)
+E,64,E3370,,39.5,N,3,E,Europe,Spain,,Mollorca from the Lutitas y Areniscas de Son Serralta,Middle,Triassic,Anisian,,Evaporites,,breccias,Ramos(1995)
+E,65,E3371,,47,N,8,E,Europe,Switzerland,,,Middle,Triassic,,,Evaporites,Muschelkalk,,Hauber(1980)
+E,66,E3372,,43,N,17,E,Europe,Frm Yugoslavia,,western Balkans,L   -  M,Triassic,pre-Carnian,Permo-Triassic,Evaporites,,,Gill(1965)
+E,67,E3372.1,,58,N,-120,W,North America,Canada,,Alberta:Peace River Basin,Middle,Triassic,Ladinian,,Evaporites,,,Davies(1997)
+E,68,E3372.2,,51,N,-115.5,W,North America,Canada,,Alberta,L -M -U?,Triassic,,,Evaporites,Starlight Evaporite Member,,Gibson(1974)
+E,69,E3372.3,,52.75,N,-117.6,W,North America,Canada,,Alberta,L -M -U?,Triassic,,,Evaporites,Starlight Evaporite Member,,Gibson(1974)
+E,70,E3373,,73.5,N,-21,W,North America,Greenland,,east-central Greenland,L   -  M,Triassic,,,Evaporites,,,"Birkelund,Perch-Nielsen(1976)"
+E,71,E3373.1,,71.5,N,-23,W,North America,Greenland,,,Middle,Triassic,Anisian and Ladinian,,Evaporites,Gipsdalen,,Clemmensen et al.(1998)
+E,72,E3374,,17,N,-91,W,North America,Mexico,,Chiapas and adjacent Guatemala,L -M -U?,Triassic,,poorly dated,Evaporites,,,Peterson(1983)
+E,73,E3375,,43,N,-117,W,North America,United States,,"Idaho and Oregon:Washington County,Idaho and Baker County,Oregon",L -M -U?,Triassic,,"""Triassic""",Evaporites,,,Johnson et al.(1989)
+E,74,E3376,,42,N,-104,W,North America,United States,,Nebraska andWyoming,L   -  M,Triassic,,,Evaporites,Lykins,,Johnson et al.(1989)
+E,75,E3377,,48,N,-103,W,North America,United States,,"North Dakota:Williston Basin,on the U.S. side",L   -  M,Triassic,,,Evaporites,Spearfish,,Reed(1963)
+E,76,E3378,,44,N,-104,W,North America,United States,,Wyoming,L   -  M,Triassic,,,Evaporites,Spearfish,,Johnson et al.(1989)
+CA,77,CA3378.2,,-21,S,16.5,E,Africa,Namibia,,central Namibia,Middle,Triassic,Anisian,,Calcretes,Omingonde Frm-Karoo Supergroup,,"Smith,Smart(2002)"
+CA,78,CA3378.1,,-71,S,68,E,Antarctica,,,,Middle,Triassic,,might be M.Triassic age in view of its stratagraphic position,Calcretes,Jetty Member of the Flagstone Bench,unfossiliferous,"McLoughlin,Drinnan(1997)"
+CA,79,CA3379,,26,N,105.5,E,Asia,China,,Guanling,Middle,Triassic,Ladinian,,Calcretes,Longtou,,Fan Jia-song(1996)
+CA,80,CA3380,,15,N,78,E,Asia,India,,,Middle,Triassic,,,Calcretes,Yerrapalli,calcrete type carbonate nodules,Bandyopadhyay(1988)
+CA,81,CA3380.1,,22,N,78,E,Asia,India,,Satpura Basin,L -M -U?,Triassic,,,Calcretes,Denwa,,Ghosh et al.(2001)
+CA,82,CA3380.2,,55.8,N,-9.5,W,Europe,,,Donegal Basin,L -M -U?,Triassic,,,Calcretes,,,Stoker et al.(1993)
+CA,83,CA3381,,43,N,24,E,Europe,Bulgaria,,varied localities,L -M -U?,Triassic,,,Calcretes,,,"Mader,Catalov(in Mader,1992)"
+CA,84,CA3382,,44,N,3,E,Europe,France,,Lodeve region,Middle,Triassic,Anisian-Ladinian,,Calcretes,,,"Lopez,Mader(1985; 1992, in Mader, 1992)"
+CA,85,CA3383,,47,N,19,E,Europe,Hungary,,,L -M -U?,Triassic,,,Calcretes,,,Mader(1992)
+CA,86,CA3383.1,,47,N,17.5,E,,,,,,,,,,,,
+CA,87,CA3384,,38,N,-3,W,Europe,Spain,,southeastern Spain,M  - U,Triassic,Ladinian-Norian,,Calcretes,,redbeds,"Fernandez,Dabrio(1985)"
+CA,88,CA3385,,51,N,-3,W,Europe,United Kingdom,,England:Exmough region,Middle,Triassic,Anisian-Ladinian,,Calcretes,Otter Sandstone,,"Purvis,Wright(1991)"
+CA,89,CA3386,,53,N,-1,W,Europe,United Kingdom,,England:south Devon,L -M -U?,Triassic,,,Calcretes,,,"Mader,Laming(in Mader,1992)"
+CA,90,CA3387,,57,N,-6,W,Europe,United Kingdom,,Scotland:western Scotland,Middle,Triassic,,,Calcretes,New Red Sandstone,,Steel(1974)
+CA,91,CA3388,,71.5,N,-24,W,North America,Greenland,,,Middle,Triassic,?Ladinian,,Calcretes,basal Edderfugledal Member-Flemming Fjord Frm,,"Dam,Stemmerik(1994)"
+CA,92,CA3388.2,,-31,S,-24,W,South America,Argentina,,northwestern Argentina-Ischigualasto Basin,Middle,Triassic,,,Calcretes,,,"Curtin,Parrish(1999)"
+CA,93,CA3388.1,,-30,S,-52,W,South America,Brazil,,Parana Basin,Middle,Triassic,,,Calcretes,Santa Maria,,"Holz,Schultz(1998)"
+CA,94,CA3388.4,,-29.5,S,-55.3,W,South America,Brazil,,,M  - U,Triassic,Ladinian-Carnian,,Calcretes,Santa Maria,,Pierini et al.(2002)
+C,95,C3388.2,,27,N,24,E,Africa,Libya,,eastern Libya,Middle,Triassic,,,Coals,,,Hallett(2002)
+C,96,C3388.3,,29,N,22,E,Africa,Libya,,Sirt Basin,Middle,Triassic,Anisian,,Coals,,lignite from Sirt Basin well L4-51,Thusu(1996)
+C,97,C3389,,32,N,-7,W,Africa,Morocco,,Skoura region,L -M -U?,Triassic,,,Coals,,,Agard et al.(1965)
+C,98,C3390,,-26,S,29,E,Africa,South Africa,,,L   -  M,Triassic,,"Beaufort has a mid-Permian to mid-Triassic age range(Schluter,Kobring,1997)",Coals,Beaufort,,Mackowsky(1968)
+C,99,C3390.1,,-84.3,S,164.5,E ,Antarctica,,,,,,,,,,,
+C,100,C3391,,14,N,104,E,Asia,Cambodia,,Khorat Basin,L   -  M,Triassic,,,Coals,,,Vysotsky et al.(1994)
+C,101,C3392,,34,N,87,E,Asia,China,,Xizang:Konglushan,M  - U,Triassic,,,Coals,Kanglu,,"The Comprehensive Scientific Expedition Team to the Qinghai-Xizang Plateau, Academia Sinica(1984)"
+C,102,C3393,,31,N,97,E,Asia,China,,Xizang:Changdu,M  - U,Triassic,,,Coals,Bagong,,"The Comprehensive Scientific Expedition Team to the Qinghai-Xizang Plateau, Academia Sinica(1984)"
+C,103,C3394,,31,N,98,E,Asia,China,,Xizang:Jiangda,M  - U,Triassic,,,Coals,Bagong,,"The Comprehensive Scientific Expedition Team to the Qinghai-Xizang Plateau, Academia Sinica(1984)"
+C,104,C3395,,41,N,45,E,Asia,C.I.S.(frm USSR),,"Cheliabinsk,Kazakhstan,Gissar,Armenia and the Primor'ye",L -M -U?,Triassic,,,Coals,,,Ovechkin(1959)
+C,105,C3396,,45,N,134,E,Asia,C.I.S.(frm USSR),,Surazhev-Radchikhinskoye,L -M -U?,Triassic,,,Coals,,,Petroconsultants(1977)
+C,106,C3397,,43,N,131,E,Asia,C.I.S.(frm USSR),,Primorye;Mongugay,L -M -U?,Triassic,,,Coals,,,Petroconsultants(1977)
+C,107,C3398,,59,N,61,E,Asia,C.I.S.(frm USSR),,"Primorye;Elkino-Bulanash,Sverdlovsk",L -M -U?,Triassic,,,Coals,,,Petroconsultants(1977)
+C,108,C3399,,55,N,62,E,Asia,C.I.S.(frm USSR),,"Chelyabinsk,Kulandy,Kazakhstan",M  - U,Triassic,,,Coals,,,Petroconsultants(1977)
+C,109,C3400,,-33.5,S,151,E,Australia,,,New South Wales:Sydney area,L   -  M,Triassic,late Scythian-early Anisian,,Coals,Lower Newport and Bald Hill Claystone,,Retallack(1977)
+C,110,C3400.1,,-29,S,152,E,Australia,,,New South Wales,Middle,Triassic,Anisian and Ladinian,,Coals,Nymboida Coal Measures,"see also Holmes(2000),Anisian Nymboida Coal Measures",ESCAP(1988)
+C,111,C3401,,-42,S,147.5,E,Australia,,,Tasmania:,M  - U,Triassic,,,Coals,,,Collinson et al.(1987)
+C,112,C3402,,-20,S,117,E,Australia,,,Western Australia:offshore Barrow-Dampier Subbasin,M  - U,Triassic,Ladinian though Carnian,Butcher(1990;see also Stein(1994)time range as Ladinian-Norian(Mungaroo Frm),Coals,Mungaroo,,Butcher(1990),see also Woodside Offshore Petroleum(1988);Barber(1988)
+C,113,C3403,,72,N,25,E,Europe,Norway,,southern  Barents Sea off the Norwegian coast,M  - U,Triassic,"Anisian,Norian and Rhaetian",,Coals,,,"Ziegler(1988, Pl. 26)",
+C,114,C3404,,71,N,20,E,Europe,Norway,,,L   -  M,Triassic,Scythian and Anisian,,Coals,,Troms 7120/12 well,"Jacobsen,van Veen(1984)",
+C,115,C3405,,-44,S,170,E,Europe,New Zealand,,"South Island(Tank Gully,Long Gully,Benmore Dam)",Middle,Triassic,Ladinian,mid-Triassic,Coals,Torlesse Supergroup,,"Retallack(1979,1987;Retallack,Ryburn,1982)",
+C,116,C3406,,-43,S,171,E,Europe,New Zealand,,Reefton area of South Island,M  - U,Triassic,,,Coals,,,"Mortimer,Smale(1996)",
+B,117,B3406.1,,35,N,25,E,Europe,Greece,,,M  - U,Triassic,,,Bauxite,Cretan diasporite?,,"Jacobshagen(1986, p. 56)",
+K,118,K3407,,31,N,35,E,Asia,Israel,,"Negev,Sinai",M  - U,Triassic,Anisian(Anisian to Carnian),,Kaolinite,Geranim(Saharonim),kaolinitic continental beds-evidence of very seasonal climate varying btwn dry arid and humid,Heller-Kallai et al.(1973),
+K,119,K3408,,-32,S,149,E,Australia,,,New South Wales:Merrygoen area,L -M -U?,Triassic,,,Kaolinite,Wallingarah Creek,,Loughnan(1971b),
+K,120,K3409,,-33.5,S,150,E,Australia,,,New South Wales:western part of the Sydney Basin,L -M -U?,Triassic,,,Kaolinite,Narrabeen Group,kaolinitic flint clays,Loughnan et al.(1974),
+K,121,K3410,,-32.5,S,149.5,E,Australia,,,New South Wales,L   -  M,Triassic,,,Kaolinite,Wollar Sandstone and Wallingarah Frm ,,"Loughnan,Evans(1978)",

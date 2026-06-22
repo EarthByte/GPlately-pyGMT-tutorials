@@ -119,7 +119,7 @@ For users new to plate reconstructions in Python, a good entry sequence is:
 | T19 | [Paleo-mantle structure beneath a moving plate: a great-circle transect through deep time](T19_Paleo_Mantle_Transect_DeepTime.ipynb) | postgrad | ★★★ |
 | T20 | [Clustering plate-frame dynamic-topography histories with k-means](T20_DT_History_Clustering.ipynb) | postgrad | ★★★ |
 | T21 | [Coupling dynamic topography to preserved sediment flux on every continent](T21_DT_vs_Sediment_Flux.ipynb) | postgrad | ★★★ |
-| T22 | [Paleoelevation + dynamic topography + DT rate of change in the paleomagnetic reference frame, 540 Ma and 220 Ma](T22_Paleoelev_DT_PMAG.ipynb) | postgrad | ★★★ |
+| T22 | [Dynamic topography change in deep time — Young 2022 plate-frame Δz over 20-Myr intervals at 10 snapshot ages 900-0 Ma](T22_dynamic_topo_change_in_deep_time.ipynb) | postgrad | ★★★ |
 
 ### Cluster E — Thermochronology
 | # | Notebook | Audience | Difficulty |

@@ -1,0 +1,459 @@
+LithologyCode,LithNumber,OldIDNumber,,LAT,NS,LONG,EW,Continent,Country,,GeogComments,LMU,Period,Stage,AgeComments,Lithology,Formation,LithComments,PrimaryReference,SeeAlso
+E,1,E696,,32,N,-4,W,Africa,Algeria,,Tindouf Basin,Middle,Mississippian,,,Evaporites,,,Cavaroc et al.(1976),
+E,2,E697,,28,N,9,E,Africa,Algeria,,"central Sahara, btwn Bourarhet and Ohanet",Middle,Mississippian,Visean,,Evaporites,,,"De Lapparent,Lelubre(1948)",
+E,3,E698,,28,N,-7,W,Africa,Algeria,,"Tindouf Basin,the Reggane depression",Middle,Mississippian,Visean,,Evaporites,,,Sonatrach(1979),"see also Perrodon,Teissereno(1965)"
+E,4,E698.1,,29,N,33.3,E,Africa,Egypt,,,Middle,Mississippian,M. Visean,,Evaporites,Um Bogma,,Sharkawi et al.(1990),which Kora assigns to the Middle Visean
+E,5,E699,,25,N,15,E,Africa,Libya,,eastern flank of the Murzuk Basin,M - U,Mississippian,Visean-Serpukhovian,,Evaporites,Assedjefar,,"Vachard,Massa(1979)",
+E,6,E699.1,,25.75,N,10.75,E,Africa,Libya,,,Lower,Mississippian,Tournaisian,,Gypsum,Mrar,,"Youshah,El Hatimi(2000)",
+E,7,E700,,22,N,-4,W,Africa,Mali,,,M - U,Mississippian,"Visean, (basal Tournaisian)",,Evaporites,"Hamada Safia,(Bir en Nahgrat Nahgrat) ",,Legrand-Blain(1985),
+E,8,E701,,31,N,-5,W,Africa,Morocco,,Tarfaya Province,Middle,Mississippian,Visean,,Evaporites,,,Fellahi et al.(1970),
+E,9,E701.1,,22,N,-4,W,Africa,Morocco,,Taoudenni Basin,Middle,Mississippian,L. Visean,,Evaporites,Hamada Safia,,Legrand-Blain(1985),
+E,10,E702,,18,N,7,E,Africa,Niger,,Iullemmeden Basin,Lower,Mississippian,,,Evaporites,Dinantian,,"Greigert(1966, p. 23)",
+E,11,E703,,17,N,8,E,Africa,Niger,,,Middle,Mississippian,Visean,,Evaporites,Serie du Talach,,"Greigert(1966, p. 23)",
+E,12,E703.1,,25,N,15,E,Africa,Niger,,eastern Djado Basin,Middle,Mississippian,Visean,,Evaporites,Mrar,,"Mergl,Massa(2002)",
+E,13,E704,,40,N,78,E,Asia,China,,"Tarim,Xijiang,Qinghai:Bachu",Lower,Mississippian,,,Evaporites,"Bachu,Kaladhayi",,Guan Shi-cong et al.(1984),
+E,14,E705,,41,N,89,E,Asia,China,,"Tarim,Xijiang,Qinghai:Kulutage",Lower,Mississippian,,,Evaporites,Nugusitubulake,,Guan Shi-cong et al.(1984),
+E,15,E706,,41.5,N,80,E,Asia,China,,"Tarim,Xijiang,Qinghai:Wensu",Lower,Mississippian,,,Evaporites,Yeyungou,,Liao Wei-hua et al.(1990),
+E,16,E707,,40.5,N,83.3,E,Asia,China,,"Tarim,Xijiang,Qinghai:Mangar,Xinjiang",Lower,Mississippian,Tournaisian,,Halites,Bachu,,unpublished data
+E,17,E708,,40.5,N,84.7,E,Asia,China,,"Tarim,Xijiang,Qinghai:south of Luntai",Lower,Mississippian,,,Halites,Bachu,,unpublished data
+E,18,E709,,41.4,N,83.2,E,Asia,China,,"Tarim,Xijiang,Qinghai:Kucha,Xinjiang",Lower,Mississippian,Tournaisian,,Gypsum,Bachu,,unpublished data
+E,19,E710,,40.5,N,83.3,E,Asia,China,,"Tarim,Xijiang,Qinghai:Mangar",Lower,Mississippian,Tournaisian,,Gypsum,Bachu,,unpublished data
+E,20,E711,,38.5,N,83.5,E,Asia,China,,"Tarim,Xijiang,Qinghai:Chimo,Xinjiang",Lower,Mississippian,Tournaisian,,Gypsum,Bachu,,unpublished data
+E,21,E712,,40.5,N,84.7,E,Asia,China,,"Tarim,Xijiang,Qinghai:south of Luntai",Middle,Mississippian,Visean,,Gypsum,Bachu,,unpublished data
+E,22,E713,,41.3,N,83.3,E,Asia,China,,"Tarim,Xijiang,Qinghai:Shaya,Xinjiang",Lower,Mississippian,Tournaisian,,Gypsum,Bachu,,He et al.(1992)
+E,23,E714,,41,N,84,E,Asia,China,,"Tarim,Xijiang,Qinghai:Maigaiti,Xinjiang",Lower,Mississippian,Tournaisian,,Evaporites,Bachu,,He et al.(1992)
+E,24,E715,,40.6,N,79.9,E,Asia,China,,"Tarim,Xijiang,Qinghai:Awati,Xinjiang",Lower,Mississippian,Tournaisian,,Gypsum,Bachu,,Wu(1991)
+E,25,E716,,38,N,76.3,E,Asia,China,,"Tarim,Xijiang,Qinghai:Shache,Xinjiang",Lower,Mississippian,Tournaisian,,Gypsum,Kelitaige,,Wu(1991)
+E,26,E717,,42.1,N,85.1,E,Asia,China,,"Tarim,Xijiang,Qinghai:Luntai,Xinjiang",L - M,Mississippian,"Tournaisian,Visean",,Gypsum,"Yeyungou,Bachu",,Wu(1991)
+E,27,E718,,42.1,N,87.5,E,Asia,China,,"Tarim,Xijiang,Qinghai:Heshuo,Xinjiang",Middle,Mississippian,Visean,,Gypsum,Yeyungou,,Wu(1991)
+E,28,E719,,41.7,N,88.5,E,Asia,China,,"Tarim,Xijiang,Qinghai:Turpan,Xinjiang",Middle,Mississippian,Visean,,Gypsum,Yeyungou,,Wu(1991)
+E,29,E720,,41.6,N,88.3,E,Asia,China,,"Tarim,Xijiang,Qinghai:Tokexun,Xinjiang",Middle,Mississippian,Visean,,Gypsum,Yeyungou,,The Compiling Group of the Regional Stratigraphy Chart of Xinjiang(1981)
+E,30,E720.1,,37.5,N,76.25,E,Asia,China,,"Tarim,Xijiang,Qinghai:Kunlun Mountians",Lower,Mississippian,Tournaisian,,Gypsum,,,"Chen,Shi(1999)"
+E,31,E721,,38.8,N,96,E,Asia,China,,"Tarim,Xijiang,Qinghai:Wulan,Qinghai",L - M,Mississippian,"Tournaisian,Visean",,Gypsum,"Chouniugou,Chengqiangou",,The Bureau of Geology and Mineral Resources of Qinghai Province(1991)
+E,32,E722,,39,N,97.1,E,Asia,China,,"Tarim,Xijiang,Qinghai:Tianjun,Qinghai",Middle,Mississippian,Visean,,Gypsum,"Chouniugou,Chengqiangou",,The Bureau of Geology and Mineral Resources of Qinghai Province(1991)
+E,33,E723,,36.4,N,95,E,Asia,China,,"Tarim,Xijiang,Qinghai:Geermu,Xinghai",Middle,Mississippian,Visean,,Gypsum,Wulonggou,,The Bureau of Geology and Mineral Resources of Qinghai Province(1991)
+E,34,E723.1,,41,N,79,E,Asia,China,,"Tarim,Xijiang,Qinghai:from the Biedeier River to Kumalike",Lower,Mississippian,,,Gypsum,Yeyungou,,"Liang Yun-hai,Li Wen-qian(2000)"
+E,35,E724,,37.5,N,105,E,Asia,China,,Chaidam:Zhongwei,Lower,Mississippian,,,Evaporites,,,Wang Hong-zhen(1985)
+E,36,E725,,37,N,105,E,Asia,China,,Chaidam:Jingyuan,Lower,Mississippian,,,Evaporites,,,Wan Zhen-ji(1990)
+E,37,E726,,38,N,96,E,Asia,China,,Chaidam:Erlongbuluke,Lower,Mississippian,,,Evaporites,,,"The Stratigraphic Team of Qilianshan,Academia Sinica(1958)"
+E,38,E727,,39.1,N,95.8,E,Asia,China,,"N. China:Subei,Gansu",Lower,Mississippian,Tournaisian,,Anhydrites,Chengqianggou,,The Gansu Regional Geological Survey Team(1987)
+E,39,E728,,37.1,N,103,E,Asia,China,,"N. China:Tianzhu,Gansu",Lower,Mississippian,Tournaisian,,Anhydrites,Qianheshan,,The Gansu Regional Geological Survey Team(1987)
+E,40,E729,,37.4,N,103.8,E,Asia,China,,"N. China:Jingtai,Gansu",Lower,Mississippian,Tournaisian,,Anhydrites,Qianheshan,,The Gansu Regional Geological Survey Team(1987)
+E,41,E730,,39,N,96.8,E,Asia,China,,"N. China:Subei,Gansu",Middle,Mississippian,Visean,,Gypsum,Huantuoala,,The Compiling Group of the Regional Stratigraphy Chart of Qinghai(1980)
+E,42,E731,,38.8,N,105.7,E,Asia,China,,"N. China:Alax Left Banner,Neimongol",Lower,Mississippian,Tournaisian,,Gypsum,Qianheshan,,The Bureau of Geology and Mineral Resources of Neimongol Autonomous Region(1991)
+E,43,E732,,22.1,N,111.9,E,Asia,China,,S. China:Yangchun,Middle,Mississippian,,,Gypsum,Zimenqiao,,The Bureau of Geology and Mineral Resources of Guangdong Province(1988)
+E,44,E733,,27.1,N,111,E,Asia,China,,"S. China:Longhui,Hunan",Middle,Mississippian,Visean,,Evaporites,Zimenqiao,solution breccia,Liu Hong-fu et al.(1993)
+E,45,E734,,27,N,111.7,E,Asia,China,,"S. China:Qidong,Hunan",Middle,Mississippian,Visean,,Anhydrites,Zimenqiao,,Liu Hong-fu et al.(1993)
+E,46,E735,,27.3,N,111.8,E,Asia,China,,"S. China:Shaidong,Hunan",Middle,Mississippian,Visean,,Anhydrites,Datang,,The Bureau of Geology and Mineral Resources of Hunan Province(1988)
+E,47,E736,,27,N,111.3,E,Asia,China,,"S. China:Shaoyang,Hunan",Middle,Mississippian,Visean,,Anhydrites,Datang,,The Bureau of Geology and Mineral Resources of Hunan Province(1988)
+E,48,E737,,27.4,N,112.2,E,Asia,China,,"S. China:Shuangfeng,Hunan",Middle,Mississippian,Visean,,Anhydrites,Zimenqiao,,The Bureau of Geology and Mineral Resources of Hunan Province(1988),
+E,49,E738,,26.7,N,110.6,E,Asia,China,,"S. China:Wugang,Hunan",Middle,Mississippian,Visean,,Anhydrites,Zimenqiao,,The Bureau of Geology and Mineral Resources of Hunan Province(1988),
+E,50,E739,,27.7,N,111.4,E,Asia,China,,"S. China:Lengshuuijiang,Hunan",Middle,Mississippian,Visean,,Anhydrites,Zimenqiao,,Liu et al.(1993),
+E,51,E740,,26.9,N,114.2,E,Asia,China,,"S. China:Yongxing,Jiangxi",Middle,Mississippian,Visean,,Anhydrites,Shidengxi,,The Bureau of Geology and Mineral Resources of Jiangxi Province(1984),
+E,52,E741,,34,N,119.9,E,Asia,China,,"S. China:Binhai,Jiangxi",Middle,Mississippian,Visean,,Anhydrites,Kaolishan,,The Bureau of Geology and Mineral Resources of Jiangxi Province(1984),
+E,53,E742,,33.2,N,118.8,E,Asia,China,,"S. China:Hongping,Jiangxi",Middle,Mississippian,Visean,,Evaporites,Kaolishan,,The Bureau of Geology and Mineral Resources of Jiangxi Province(1984),
+E,54,E743,,27.1,N,113.9,E,Asia,China,,"S. China:Lianhus,Jiangxi",Middle,Mississippian,Visean,,Evaporites,Shidengxi,,The Bureau of Geology and Mineral Resources of Jiangxi Province(1984),
+E,55,E744,,23.9,N,109.7,E,Asia,China,,"S. China:Xiangzhou,Guangxi",Lower,Mississippian,Tournaisian,,Gypsum,Yanguan,,The Bureau of Geology and Mineral Resources of Guangxi Province(1985),
+E,56,E752,,75,N,99,E,Asia,C. I. S. (frm USSR),,North Siberian,L - M,Mississippian,"Tournaisian,Visean",,Evaporites,,,"Zharkov(1981, Figs. 9,10,21, pp. 36-42, 113-116)",
+E,57,E753,,46,N,72,E,Asia,C. I. S. (frm USSR),,Chu-Sarysu,L - M,Mississippian,"Tournaisian,Visean",,Evaporites,,,"Zharkov(1981, Figs. 9,10,21, pp. 36-42, 113-116)",
+E,58,E754,,42,N,75,E,Asia,C. I. S. (frm USSR),,Mid-Tien Shan Basin,M - U,Mississippian,"Visean,Serpukhovian",,Evaporites,,,"Zharkov(1981, Figs. 9,10,21, pp. 36-42, 113-116)",
+E,59,E755,,52,N,95,E,Asia,C. I. S. (frm USSR),,Tuva,Middle,Mississippian,,,Evaporites,,analcime bearing lake beds,Buryanova(1960),
+E,60,E756,,33,N,78,E,Asia,India,,Spiti,Lower,Mississippian,Tournaisian,,Gypsum,Lipak,,Bhargava et al.(1991),see also Thakur(1992)
+E,61,E757,,32.5,N,77.5,E,Asia,India,,,Lower,Mississippian,Tournaisian,,Gypsum,Lipak,,Bagati(1983),
+E,62,E758,,32,N,78,E,Asia,India,,,Lower,Mississippian,Tournaisian,,Gypsum,Lipak,,Bagati(1983),
+E,63,E759,,32.5,N,77.75,E,Asia,India,,Spiti,Lower,Mississippian,Tournaisian,,Gypsum,Lipak,,Garznati et al.(1996),
+E,64,E759.1,,17,N,105,E,Asia,Iran,,,Lower,Mississippian,Tournaisian,,Gypsum,Shishtu,,"Yazdi(1999, Fig. 5)"
+E,65,E760,,16,N,100.75,E,Asia,Thailand,,,L - M,Mississippian,,,Evaporites,,,Hite(1973)
+E,66,E760.1,,16,N,100.75,E,Asia,Thailand,,Phicit-Nakhon Sawon,L - M,Mississippian,,,Evaporites,,,Pisutha-Arnond et al.(1997)
+E,67,E761,,-24,S,115.25,E,Australia,,,W. Australia:Carnarvon Basin,L - M,Mississippian,,,Evaporites,Moogooree,,"Radke,Nicoll(1981)"
+E,68,E761.1,,-28.75,S,115.25,E,Australia,,,W. Australia:Coolcalalaya Sub-basin,Middle,Mississippian,"""probable Visean or Namurian""",,Gypsum,,,"Mory,Iasky(1996, p. 11)"
+E,69,E762,,54,N,15,E,Europe,"Britain,Poland",,from Britain east to northwestern Poland,L - M,Mississippian,,,Evaporites,Dinantian,,"Ziegler(1982, Encl. 9)"
+E,70,E763,,43.5,N,28.5,E,Europe,Bulgaria,,Dobrudze Basin,L - M,Mississippian,"Tournaisian,Visean",,Evaporites,,,Petroconsultants(1977)
+E,71,E764,,67,N,55,E,Europe,C. I. S. (frm USSR),,Pechora-Novaya Zemlya Basin,Middle,Mississippian,Visean,,Evaporites,,,"Zharkov(1981, Figs. 9,21, pp. 49,51,52)"
+E,72,E765,,50,N,50,E,Europe,C. I. S. (frm USSR),,East European Volga-Ural Basin,L-M-U,Mississippian,"Tournaisian,Visean,Serpukhovian",,Evaporites,,to the south of coeval Russian Platform coals,"Zharkov(1981, Figs. 9,21, pp. 49,51,52)"
+E,73,E766,,51,N,5,E,Europe,"N. France,Belgium",,Belgium,L - M,Mississippian,,,Evaporites,,,Rouchy(1986)and Rouchy et al.(1987)
+E,74,E767,,53,N,-8,W,Europe,Ireland,,,Middle,Mississippian,Visean,,Evaporites,,,West et al.(1968)
+E,75,E768,,54.5,N,-8,W,Europe,Ireland,,Lough Allen Basin,Lower,Mississippian,Tournaisian,,Evaporites,Kilcoo and Boyle Sandstones,calcretes and evaporites,Philcox et al.(1992)
+E,76,E769,,72,N,32,E,Europe,Norway,,Nordkapp Basin,M - U,Mississippian,Visean-Serpukhovian,,Evaporites,,,"Johansen et al.(1993, Fig. 5)"
+E,77,E769.1,,54.5,N,20,E,Europe,Poland,,western Pomerania,Middle,Mississippian,Visean,,Evaporites,,,"Ziegler(1988,PL. 23)"
+E,78,E770,,44,N,28,E,Europe,Rumania,,Dobrudga Basin,L - M,Mississippian,"Tournaisian,Visean",,Evaporites,,,"Zharkov(1981, Figs. 9,21)"
+E,79,E771,,53,N,-1,W,United Kingdom,England,,Derbyshire,Middle,Mississippian,Visean,,Evaporites,,,Walkden(1974)
+E,80,E772,,56,N,3,E,United Kingdom,England,,"Craven Basin nr Liverpool,and in the Central North Sea",Middle,Mississippian,Visean,,Evaporites,,,"Ziegler(1988,PL. 23)",
+E,81,E773,,56,N,-4,W,United Kingdom,Scotland,,Edinburgh and West Lothian areas,L - M,Mississippian,,,Gypsum,Cementstone Group,,"Cameron,Stephenson(1985, p. 61)",
+E,82,E774,,52,N,-4,W,United Kingdom,Wales,,South Wales,L - M,Mississippian,,,Evaporites,Main Limestone Series,,Bhatt(1975),
+E,83,E775,,50,N,-100,W,N. America,Canada,,"Alberta,British Columbia,Yukon Terr.,Dist. of Mackenzie,Williston Basin",L - M,Mississippian,,,Evaporites,,,"Fuller,Porter(1969)discuss evaporites frm Alberta,Saskatchewan and North Dakota",
+E,84,E776,,50,N,-115,W,N. America,Canada,,"Alberta,British Columbia,Yukon Terr.,Dist. of Mackenzie,Williston Basin",L - M,Mississippian,,,Evaporites,,,"Meijer Drees(1986)sums. the units pres. In S. portion of the NW Terr.,Alberta,B. Columbia",
+E,85,E777,,60,N,-125,W,N. America,Canada,,"Alberta,British Columbia,Yukon Terr.,Dist. of Mackenzie,Williston Basin",L - M,Mississippian,,,Evaporites,,,"Meijer Drees(1986)sums. the units pres. In S. portion of the NW Terr.,Alberta,B. Columbia",
+E,86,E778,,51,N,-114,W,N. America,Canada,,"Alberta,British Columbia,Yukon Terr.,Dist. of Mackenzie,Williston Basin",Middle,Mississippian,Visean,,Evaporites,Mount Head,,"Al-Aasm,Lu(1993) cite evaporites frm W of Calgary and E of the Tintina",
+E,87,E779,,45,N,-64,W,N. America,Canada,,Maritime Provinces and Newfoundland:Maritime Provinces,Middle,Mississippian,Visean,,Evaporites,Windsor Group and correlatives,,Pearson(1963);Calder(1998),
+E,88,E780,,47,N,-67,W,N. America,Canada,,Maritime Provinces and Newfoundland:Plaster Rock,Middle,Mississippian,Visean,,Evaporites,Windsor Group and correlatives,,Pearson(1963);Calder(1998),
+E,89,E781,,48,N,-58,W,N. America,Canada,,Maritime Provinces and Newfoundland:southwestern Newfoundland,Middle,Mississippian,Visean,,Gypsum,Codroy Group,,Rose et al.(1970),"see Knight,1983, for an account of these Visean beds "
+E,90,E782,,45,N,-52,W,N. America,Canada,,Maritime Provinces and Newfoundland:Whale Basin off SW Newfound.,Middle,Mississippian,,,Evaporites,Windsor Group ,,"Balkwill,Legall(1989)",
+E,91,E783,,49,N,-57,W,N. America,Canada,,Maritime Provinces and Newfoundland:Deer Lake Basin,Middle,Mississippian,,,Evaporites,,lacustrine analcime,"Gail,Hyde(1989)",
+E,92,E783.1,,46.5,N,-60,W,,,,"offshore Nova Scotia, boreholes",,,,,,,,,
+E,93,E784,,69.5,N,-146,W,N. America,United States,,Alaska,Middle,Mississippian,Meramec,,Evaporites,"Kayak,lower Alapah",,Gruzlovic(1991),"see also Mamet,Batz(1989)"
+E,94,E785,,37,N,-90,W,N. America,United States,,Illinois:Illinois Basin in southern Illinois,Middle,Mississippian,Meramecian; later Visean,,Evaporites,St. Louis ,,"Schutter(written Comm.,1990)",
+E,95,E786,,38,N,-87,W,N. America,United States,,Indiana:southwestern Indiana,Middle,Mississippian,Meramecian,,Evaporites,,,Bundy(1956),
+E,96,E787,,42,N,-93,W,N. America,United States,,Iowa,Middle,Mississippian,,,Evaporites,,,"Witzke,Mckay(1987)",
+E,97,E788,,38,N,-96,W,N. America,United States,,Kansas,Middle,Mississippian,,,Anhydrites,St. Louis Limestone ,,Goebel(1968),
+E,98,E789,,37,N,-87,W,N. America,United States,,Kentucky:southern Kentucky and adj. western Tennessee,Middle,Mississippian,,,Anhydrites,,anhydrite nodule-like chert nodules,Milliken(1979),
+E,99,E790,,43,N,-85,W,N. America,United States,,Michigan:Michigan Basin,L - M,Mississippian,Osage through Meramec,"Chester age strata are abs owing to a major uncon. beneath the Morrow,Penn.",Evaporites,,,Cohee(1979),see also Harrell et al.(1991)
+E,100,E791,,46,N,-112,W,N. America,United States,,Montana:southwestern Montana,Middle,Mississippian,,,Evaporites,Madison Group,,Middleton(1961),
+E,101,E792,,35,N,-106,W,N. America,United States,,New Mexico,L - M,Mississippian,Osagean,,Gypsum,Espiritu Santo,,Armstrong(1975b),
+E,102,E793,,47,N,-100,W,N. America,United States,,North Dakota:Willliston Basin on the U.S. side,Lower,Mississippian,"E. Mississippian,Tournaisian",,Evaporites,Madison Group,,Reed(1963),
+E,103,E794,,36,N,-87,W,N. America,United States,,Tennessee:central Tennessee,Middle,Mississippian,,,Evaporites,,"celestite nodules,where the celestite is consid to have replaced anhy. nod.of sabkha type","Chowns,Elkins(1974)",
+E,104,E795,,37,N,-80,W,N. America,United States,,Virginia:south central Virginia,L-M-U,Mississippian,,,Evaporites,,,Cooper(1966),
+E,105,E795.1,,47,N,-104,W,N. America,United States,,Williston Basin(Montana and North Dakota,Lower,Mississippian,,,Evaporites,Madison Group,,Johnson(1989),
+CA,106,CA1356.1,,-22,S,144,E,Australia,Queensland,,,Middle,Mississippian,mid-Visean,,Calcretes,Ducabrook,,Parker(2001),"see Olgers,1972 for information about the Ducabrook Formation"
+CA,107,CA796,,51,N,5,E,Europe,"Belgium,Germany",,Belgium and adjacent Germany,L-M-U,Mississippian,,,Calcretes,,,"Wright,Peters(1989)",
+CA,108,CA797,,52.5,N,-8,W,Europe,Ireland,,Slieve Bloom and Devilsbit Mountians,Lower,Mississippian,Tournaisian,,Calcretes,,calcrete with Tournaisian spores,Feehan(1982),
+CA,109,CA798,,54.5,N,-8,W,Europe,Ireland,,Lough Allen Basin,Lower,Mississippian,probable Tournaisian age,,Calcretes,Kilcoo and Boyle Sandstones,,Philcox et al.(1992),
+CA,110,CA799,,53,N,-2,W,United Kingdom,England,,Derbyshire,Lower,Mississippian,,,Calcretes,Eyam Limestone,,Wright(1990),
+CA,111,CA800,,56,N,-4,W,United Kingdom,Scotland,,Edinburgh and West Lothian areas,Lower,Mississippian,,,Calcretes,Cementstone Group,,"Cameron,Stephenson(1985, p. 61)","see also Wright et al.,1993, under the Tournaisian Ballegan Formation"
+CA,112,CA801,,53,N,-3,W,United Kingdom,Wales,,South Wales,L-M-U,Mississippian,,,Calcretes,,,"Wright(1982,1989) and Searl(1989)",
+CA,113,CA802,,48,N,-58,W,N. America,Canada,,"Newfoundland:Bay St. George Subbasin,southwestern Newfoundland",Middle,Mississippian,Visean,,Calcretes,Codroy Group,,Knight(1983),
+CA,114,CA803,,49,N,-57,W,N. America,Canada,,Newfoundland:Deer Lake Basin,Middle,Mississippian,Visean,,Calcretes,,,"Gall,Hyde(1989)","see also Hyde,1979, and Hyde,1995,Shanadithit Formation,Red Indian lake region"
+CA,115,CA804,,46,N,-62,W,N. America,Nova Scotia,,,Middle,Mississippian,Visean,,Calcretes,Point Edward,,Gibling et al.(1987),
+CA,116,CA805,,46,N,-61,W,N. America,Nova Scotia,,Cape Breton Island,Lower,Mississippian,Tournaisian,,Calcretes,possible Horton Group(Strathlone fm),,Hamblin(1992),
+CA,117,CA805.1,,47.5,N,-66,W,N. America,Quebec,,Perce and the Gaspe Bay areas,Middle,Mississippian,Visean,,Calcretes,,,Jutras et al.(2001),
+CA,118,CA805.2,,48.75,N,-64,W,N. America,Quebec,,Perce and the Gaspe Bay areas,Middle,Mississippian,Visean,,Calcretes,,,Jutras et al.(2001),
+CA,119,CA806,,39,N,-87,W,N. America,United States,,Indiana,Middle,Mississippian,Meramec,,Calcretes,St. Genevieve,"""algal-mat laminations""  frm St. Genevieve Fm are really calcretes ","Abegg(written comm.,1990)points out that Carr's(1989, p.4) (see formation comments)",Hunter(1989) also has calcretes from same formation (see formation comments)
+CA,120,CA807,,37,N,-101,W,N. America,United States,,Kansas:southwest corner of the State,Middle,Mississippian,,,Calcretes,,,"Abegg(written comm.,1990)",
+CA,121,CA808,,37,N,-83,W,N. America,United States,,Kentucky:northeastern Kentucky ,L - M,Mississippian,Kinderhook and Meramec,,Calcretes,"Borden,Newman",,Walls et al.(1975),
+CA,122,CA809,,39,N,-79,W,N. America,United States,,West Virginia,M - U,Mississippian,Meramecian-Chesterian,,Calcretes,Greenbrier,,"Al-Tawil,Read(1993)",
+CA,123,CA809.1,,37.5,N,-81,W,,,,West Virginia,,,,,,,,,
+T,124,T810,,19,N,8,E,Africa,Niger,,Air region,Lower,Mississippian,Tournaisian,,Tillites,,glacial material,Lang(1987),
+T,125,T811,,28,N,87,E,Asia,India,,southern Tibet,M - U,Mississippian,Visean to Serpukhovian,,Tillites,Rakyang,diamictites,"Garznati, Sciunnach(1997)",see also Garzanti et al.(1998)
+T,126,T812,,-32,S,-69,W,S. America,Argentina,,Precordillera,Middle,Mississippian,Visean,,Tillites,,,"Gonzalez(1990,1993)",
+T,127,T812.1,,-4.75,S,-66.25,W,S. America,Brazil,,eastern part of the Solimoes Basin of northern Brazil,Lower,Mississippian,possible Tournaisian age,palynologically dated,Tillites,,glaciogenis diamictites,Melo et al.(1995),
+G,128,G813,,51,N,-115,W,N. America,Canada,,west of Calgary,Middle,Mississippian,Visean,,Glendonites,Mount Head,,"Brandley,Krause(1993a,b; 1994)",
+C,129,C814,,36,N,1,E,Africa,Algeria,,western Atlas,Middle,Mississippian,Visean,,Coals,,,Petroconsultants(1977),
+C,130,C815,,30,N,33,E,Africa,Egypt,,Sinai,L-M-U,Mississippian,,,Coals,,,"Feys,Fabre(1966; and references therein)",
+C,131,C816,,17,N,8,E,Africa,Niger,,north of Agades,Middle,Mississippian,Visean,,Coals,Anou Ararene deposit,,"LeFranc,Guiraud(1990)",see also Alpern(1978)
+C,132,C817,,17,N,8,E,Africa,Niger,,30 km north of Agades,Middle,Mississippian,Visean,"Feys,Fabre(1966)cite ""Carboniferous"";may be dep. Lefranc,Guiraud(1990) call Visean",Coals,,,"Feys,Fabre(1966)",
+C,133,C818,,40,N,82,E,Asia,China,,Tarim and Xinjiang:Tarim Platform,Upper,Mississippian,(C 1-2),,Coals,,,Bing Hu et al.(1969),
+C,134,C819,,46.5,N,83.5,E,Asia,China,,"Tarim and Xinjiang:Emin,Xinjiang",Middle,Mississippian,Visean,,Coals,Nanlinkala,,Wu(1991),
+C,135,C820,,47.5,N,87.5,E,Asia,China,,"Tarim and Xinjiang:Aletai,Xinjiang",Middle,Mississippian,Visean,,Coals,Nanlinkala,,Wu(1991),
+C,136,C821,,47.1,N,82.9,E,Asia,China,,"Tarim and Xinjiang:Jinhe,Xinjiang",Middle,Mississippian,Visean,,Coals,Nanlinkala,,Wu(1991),
+C,137,C822,,44.6,N,82.9,E,Asia,China,,"Tarim and Xinjiang:Jinhe,Xinjiang",Middle,Mississippian,Visean,,Coals,Meilukahe,,"Li Rui-shen,Gu Gu-shen(1994)",
+C,138,C823,,37,N,96,E,Asia,China,,Chaidam:Huaitoutala,Middle,Mississippian,,,Coals,Huaitoutala,,"The Stratagraphic Team of the Qilianshan, Academia Sinica(1958)",
+C,139,C824,,41,N,95,E,Asia,China,,Chaidam:Beishan,Middle,Mississippian,,,Coals,Choniukou,,"The Stratagraphic Team of the Qilianshan, Academia Sinica(1958)",
+C,140,C825,,39,N,109,E,Asia,China,,Chaidam:Sunan,Middle,Mississippian,,,Coals,Choniukou,,"The Stratagraphic Team of the Qilianshan, Academia Sinica(1958)",
+C,141,C826,,31.3,N,96.6,E,Asia,China,,Xizang:Jiangda,Middle,Mississippian,Visean,,Coals,Machala,,Li et al.(1994),
+C,142,C827,,31.8,N,97,E,Asia,China,,Xizang:Leiwuqi,Middle,Mississippian,,,Coals,Machala,,The Qinghai-Tibet Plateau Exhibition Team(1984),
+C,143,C828,,30,N,90,E,Asia,China,,"Xizang:Tanggula Shan,Tanggula subreg,Qiangtang reg(Tbl 2),Qamdo subreg, Qiantang reg(Tbl 3),Tibet",L-M-U,Mississippian,,,Coals,,,"Taner,Meyerhoff(1990)",
+C,144,C829,,32,N,96,E,Asia,China,,Xizang:Changdu,Middle,Mississippian,Visean,,Coals,Machala,,"Tan Yue-yan,Wei Zhen-sheng(1987) and Yang Jing-zhi et al.(1982)"
+C,145,C830,,30,N,98,E,Asia,China,,Xizang:Mangkang-Zhuogong,Lower,Mississippian,,,Coals,,,Wang Zhen-ji(1990)
+C,146,C831,,33,N,95,E,Asia,China,,Xizang:Zaduo,Lower,Mississippian,Visean,,Coals,,,Wang Zhen-ji(1990)
+C,147,C832,,34,N,92,E,Asia,China,,Xizang:Yanshiping,Middle,Mississippian,Visean,,Coals,,,Wang Hong-zhen(1985)
+C,148,C833,,32,N,96,E,Asia,China,,Xizang:Tinqing,Middle,Mississippian,Visean,,Coals,,coal field,Fang Ying-nian(1988)
+C,149,C834,,36,N,105,E,Asia,China,,N. China:Jingyuan,Middle,Mississippian,Visean,,Coals,Choniukou,,Yang Jing-zhi et al.(1982)
+C,150,C835,,46,N,128,E,Asia,China,,N. China:Yangshan,Lower,Mississippian,,,Coals,,,Wang Hong-zhen(1985)
+C,151,C836,,32,N,115.7,E,Asia,China,,"N. China:Shangcheng-Gushi,Henan Province",Middle,Mississippian,Visean,,Coals,Yangshan,,"Wu Xiu-yuan,Zhao Xiu-gu(1982) and Guan Shi-cong et al.(1984)"
+C,152,C837,,46.3,N,132.2,E,Asia,China,,"N. China:Baoqing,Heilongjiang",Middle,Mississippian,Visean,,Coals,Xiaomeiyao,,Li et al.(1994)
+C,153,C838,,42.9,N,126,E,Asia,China,,"N. China:Panshi,Jilin",Middle,Mississippian,Visean,,Coals,Luquantun,,Li et al.(1994)
+C,154,C839,,36.7,N,104.8,E,Asia,China,,"N. China:Jingyuan,Gansu",Middle,Mississippian,Visean,,Coals,Chouniugou,,The Gansu Regional Geological Survey Team(1987)
+C,155,C840,,37.1,N,104,E,Asia,China,,"N. China:Jingtai,Gansu",Middle,Mississippian,Visean,,Coals,Chouniugou,,Li et al.(1994)
+C,156,C841,,38.4,N,100.8,E,Asia,China,,"N. China:Minle,Gansu",Middle,Mississippian,Visean,,Coals,Chouniugou,,Li et al.(1994)
+C,157,C842,,38.9,N,100.4,E,Asia,China,,"N. China:Zhangye,Gasu",Middle,Mississippian,Visean,,Coals,Chouniugou,,Li et al.(1994)
+C,158,C843,,37.3,N,101.6,E,Asia,China,,"N. China:Menyuan,Qinghai",Middle,Mississippian,Visean,,Coals,Chouniugou,,Li et al.(1994)
+C,159,C844,,27,N,111,E,Asia,China,,S. China:Xinhua-Lianyuan-Shaoyang-Shangfeng-Xiangxiang area of Hunan Province,Middle,Mississippian,Visean,,Coals,Chaishui,,Yang Jing-zhi et al.(1982)
+C,160,C844.1,,28,N,112,E,Asia,China,,S. China:Xinhua-Lianyuan-Shaoyang-Shangfeng-Xiangxiang area of Hunan Province,Middle,Mississippian,Visean,,Coals,Chaishui,,Yang Jing-zhi et al.(1982)
+C,161,C845,,30,N,120,E,Asia,China,,S. China:Hangzhou,Middle,Mississippian,Visean,,Coals,Yejiatang,,Yang Jing-zhi et al.(1982)
+C,162,C846,,25,N,114,E,Asia,China,,S. China:Shaoquan,Middle,Mississippian,Visean,,Coals,Fuyungshan,,"Wu,Zhao(1982)"
+C,163,C847,,25,N,109,E,Asia,China,,S. China:Locheng,Middle,Mississippian,Visean,,Coals,Szumen,,"Wu,Zhao(1982)"
+C,164,C848,,25,N,103,E,Asia,China,,S. China:Yiliang,Middle,Mississippian,Visean,,Coals,Wanshoushan,,"Wu,Zhao(1982)"
+C,165,C849,,29,N,116.5,E,Asia,China,,S. China:Shanghang-Yongding area,Middle,Mississippian,,,Coals,Linde,,The Compiling Group of the Regional Stratgraphic Chart of Fujian(1979)
+C,166,C850,,26,N,117,E,Asia,China,,S. China:Qingliu,Middle,Mississippian,,,Coals,Linde,,The Compiling Group of the Regional Stratgraphic Chart of Fujian(1979)
+C,167,C851,,33.5,N,110,E,Asia,China,,S. China:Shanyang,Middle,Mississippian,,,Coals,Eruthe,,Wang Zhen-ji(1990)
+C,168,C852,,30,N,102,E,Asia,China,,S. China:Kangding,Middle,Mississippian,,,Coals,Changyanwo,,Wang Zhen-ji(1990)
+C,169,C853,,26,N,107,E,Asia,China,,S. China:Huishui,Middle,Mississippian,,,Coals,Xaingbai,,Wang Zhen-ji(1990)
+C,170,C854,,29,N,117,E,Asia,China,,S. China:Kaihua,Middle,Mississippian,,,Coals,Yejiatang,,Wang Zhen-ji(1990)
+C,171,C855,,30.5,N,114.5,E,Asia,China,,S. China:Wushan,Lower,Mississippian,,,Coals,,,The Compiling Group of the Regional Stratgraphic Chart of central-South China(1974)
+C,172,C856,,28,N,113.5,E,Asia,China,,S. China:Liuyang-Liling-Zhuzhou-Changsha area,Lower,Mississippian,,,Coals,,,The Compiling Group of the Regional Stratgraphic Chart of central-South China(1974)
+C,173,C857,,25,N,11,E,Asia,China,,S. China:Ningyuan-Jisngyong,Middle,Mississippian,,,Coals,Chaishui,,The Compiling Group of the Regional Stratgraphic Chart of central-South China(1974)
+C,174,C857.1,,26,N,112,E,Asia,China,,S. China:Ningyuan-Jisngyong,Middle,Mississippian,,,Coals,Chaishui,,The Compiling Group of the Regional Stratgraphic Chart of central-South China(1974)
+C,175,C858,,24,N,108,E,Asia,China,,S. China:Huanjiang-Locheng-Liuzhou,Middle,Mississippian,,,Coals,Szumen,,The Compiling Group of the Regional Stratgraphic Chart of central-South China(1974)
+C,176,C858.1,,25,N,109,E,,,,,,,,,,,,
+C,177,C859,,25.5,N,113,E,Asia,China,,S. China:Guiyang-Yizhang,Lower,Mississippian,,,Coals,,,The Compiling Group of the Regional Stratgraphic Chart of central-South China(1974)
+C,178,C860,,23,N,111.5,E,Asia,China,,S. China:Loding,Lower,Mississippian,,,Coals,,,The Compiling Group of the Regional Stratgraphic Chart of central-South China(1974)
+C,179,C861,,22,N,110,E,Asia,China,,S. China:Lianjiang-Hepu,Lower,Mississippian,,,Coals,,,The Compiling Group of the Regional Stratgraphic Chart of central-South China(1974)
+C,180,C862,,24,N,114,E,Asia,China,,"S. China:Tuechang-Qijiang,Wengyuan",Lower,Mississippian,,,Coals,,,The Compiling Group of the Regional Stratgraphic Chart of central-South China(1974)
+C,181,C863,,23,N,113,E,Asia,China,,S. China:Kaoxiao-Kaoche-Huaxian,Lower,Mississippian,,,Coals,,,The Compiling Group of the Regional Stratgraphic Chart of central-South China(1974)
+C,182,C864,,23,N,114,E,Asia,China,,S. China:Huiyang,Lower,Mississippian,,,Coals,,,The Compiling Group of the Regional Stratgraphic Chart of central-South China(1974)
+C,183,C865,,32,N,119,E,Asia,China,,S. China:Jurong,Lower,Mississippian,,,Coals,,,Li Han-ming(1989)
+C,184,C866,,25.25,N,108,E,Asia,China,,S. China:Huanjing-Libo,Lower,Mississippian,,,Coals,Szumen,,Tang Zhong-wei(1991)
+C,185,C867,,25,N,103,E,Asia,China,,"S. China:Yiliang Coal Field,eastern Yunnan",Middle,Mississippian,,,Coals,Wanshoushan,,Beijing Acad. Coal Sci.(1959)
+C,186,C868,,24.7,N,103.2,E,Asia,China,,"S. China:Lunan,Yunnan",Middle,Mississippian,Visean,,Coals,Wanshoushan,,Li et al.(1994)
+C,187,C869,,25.5,N,103.2,E,Asia,China,,"S. China:Xundian,Yunnan",Middle,Mississippian,Visean,,Coals,Wanshoushan,,Li et al.(1994)
+C,188,C870,,25.6,N,103.8,E,Asia,China,,"S. China:Zhanyi,Yunnan",Middle,Mississippian,Visean,,Coals,Wanshoushan,,Li et al.(1994)
+C,189,C871,,25.3,N,103,E,Asia,China,,"S. China:Songming,Yunnan",Middle,Mississippian,Visean,,Coals,Wanshoushan,,Bureau of Geology and Mineral Resources of Yunnan Province(1990)
+C,190,C872,,27.3,N,103.7,E,Asia,China,,"S. China:Zhaotong,Yunnan",Middle,Mississippian,Visean,,Coals,Wanshoushan,,Bureau of Geology and Mineral Resources of Yunnan Province(1990)
+C,191,C873,,26.8,N,104.2,E,Asia,China,,"S. China:Weining,Guizhou",Middle,Mississippian,Visean,,Coals,Wanshoushan,,Bureau of Geology and Mineral Resources of Yunnan Province(1990)
+C,192,C874,,27.6,N,111.4,E,Asia,China,,"S. China:Lengshuijiang,Hunan",Middle,Mississippian,Visean,,Coals,Datang,,Bureau of Geology and Mineral Resources of Hunan Province(1988)
+C,193,C875,,27,N,113.3,E,Asia,China,,"S. China:Youxian,Hunan",Middle,Mississippian,Visean,,Coals,Datang,,Bureau of Geology and Mineral Resources of Hunan Province(1988)
+C,194,C876,,30.1,N,111.7,E,Asia,China,,"S. China:Songzi,Hubei",Middle,Mississippian,Visean,,Coals,Kaolishan,,Fong Shan-nan et al.(1984)
+C,195,C877,,30.3,N,111.4,E,Asia,China,,"S. China:Yidu,Hubei",Middle,Mississippian,Visean,,Coals,Changyang,,Fong Shan-nan et al.(1984)
+C,196,C878,,30.5,N,114,E,Asia,China,,"S. China:Wuhan,Hubei",Middle,Mississippian,Visean,,Coals,Kaolishan,,Bureau of Geology and Mineral Resources of Hubei Province(1990)
+C,197,C879,,31,N,119.9,E,Asia,China,,"S. China:Changxing,Zhejiang",Middle,Mississippian,Visean,,Coals,Kaolishan,,Bureau of Geology and Mineral Resources of Hubei Province(1990)
+C,198,C880,,30.9,N,119.4,E,Asia,China,,"S. China:Guangde,Anhui",Middle,Mississippian,Visean,,Coals,Kaolishan,,Bureau of Geology and Mineral Resources of Hubei Province(1990)
+C,199,C881,,31.7,N,118.3,E,Asia,China,,"S. China:Hexian,Anhui",Middle,Mississippian,Visean,,Coals,Kaolishan,,Bureau of Geology and Mineral Resources of Anhui Province(1987)
+C,200,C882,,31.7,N,118.1,E,Asia,China,,"S. China:Hanshan,Anhui",Middle,Mississippian,Visean,,Coals,Kaolishan,,Bureau of Geology and Mineral Resources of Anhui Province(1987)
+C,201,C883,,31.5,N,117.8,E,Asia,China,,"S. China:Chaoxian,Anhui",Middle,Mississippian,Visean,,Coals,Kaolishan,,Bureau of Geology and Mineral Resources of Anhui Province(1987)
+C,202,C884,,31.2,N,117.9,E,Asia,China,,"S. China:Wuwei,Anhui",Middle,Mississippian,Visean,,Coals,Kaolishan,,Bureau of Geology and Mineral Resources of Anhui Province(1987)
+C,203,C885,,30.3,N,116.6,E,Asia,China,,"S. China:Huaining,Anhui",Middle,Mississippian,Visean,,Coals,Kaolishan,,Bureau of Geology and Mineral Resources of Anhui Province(1987)
+C,204,C886,,26.9,N,114.2,E,Asia,China,,"S. China:Yongxin,Jiangxi",Middle,Mississippian,Visean,,Coals,Cheshui,,Li et al.(1994)
+C,205,C887,,28.2,N,116.8,E,Asia,China,,"S. China:Yujiang,Jiangxi",Middle,Mississippian,Visean,,Coals,Zishan,,Bureau of Geology and Mineral Resources of Jiangxi Province(1984)
+C,206,C888,,28.2,N,116.6,E,Asia,China,,"S. China:Shuangfong,Jiangxi",Middle,Mississippian,Visean,,Coals,Zishan,,Li et al.(1994)
+C,207,C889,,26.4,N,115.9,E,Asia,China,,"S. China:Ningdu,Jiangxi",Middle,Mississippian,Visean,,Coals,Zishan,,Li et al.(1994)
+C,208,C890,,25.9,N,115.5,E,Asia,China,,"S. China:Yudu,Jiangxi",Middle,Mississippian,Visean,,Coals,Zishan,,Bureau of Geology and Mineral Resources of Jiangxi Province(1984)
+C,209,C891,,25.8,N,116.3,E,Asia,China,,"S. China:Changding,Fujian",Middle,Mississippian,,,Coals,Lindi,,Li et al.(1994)
+C,210,C892,,24.9,N,109.9,E,Asia,China,,"S. China:Yongfu,Guangxi",Middle,Mississippian,,,Coals,Simen,,Bureau of Geology and Mineral Resources of Guangxi Province(1985)
+C,211,C893,,24.5,N,109.7,E,Asia,China,,"S. China:Luzai,Guangxi",Middle,Mississippian,,,Coals,Simen,,Bureau of Geology and Mineral Resources of Guangxi Province(1985)
+C,212,C894,,25.6,N,110.7,E,Asia,China,,"S. China:Xingan,Guangxi ",Middle,Mississippian,,,Coals,Zimen,,unpublished information
+C,213,C895,,25,N,111.1,E,Asia,China,,"S. China:Quanzhou,Guangxi",Middle,Mississippian,,,Coals,Zimen,,unpublished information
+C,214,C896,,24.6,N,110.7,E,Asia,China,,"S. China:Pingle,Guangxi",Middle,Mississippian,,,Coals,Zimen,,unpublished information
+C,215,C897,,24.5,N,111.3,E,Asia,China,,"S. China:Zhongshan,Guangxi",Middle,Mississippian,,,Coals,Zimen,,unpublished information
+C,216,C898,,24.8,N,110.8,E,Asia,China,,"S. China:Gongcheng,Guangxi",Middle,Mississippian,,,Coals,Zimen,,unpublished information
+C,217,C899,,24.3,N,114.4,E,Asia,China,,"S. China:Lianping,Guangdong",Middle,Mississippian,,,Coals,Zhongxing,,Zhang et al.(1993)
+C,218,C900,,22.1,N,111.7,E,Asia,China,,"S. China:Yangchun,Guangdong",Middle,Mississippian,,,Coals,Zhongxing,,Zhang et al.(1993)
+C,219,C901,,22.5,N,114.1,E,Asia,China,,"S. China:Shenzhen,Guangdong",Middle,Mississippian,,,Coals,Zhongxing,,Zhang et al.(1993)
+C,220,C902,,23.7,N,114.1,E,Asia,China,,"S. China:Longmen,Guangdong",Middle,Mississippian,,,Coals,Zhongxing,,Zhang et al.(1993)
+C,221,C903,,24.4,N,112.6,E,Asia,China,,"S. China:Yangshan,Guangdong",Middle,Mississippian,,,Coals,Zhongxing,,Zhang et al.(1993)
+C,222,C904,,24.4,N,114.9,E,Asia,China,,"S. China:Heping,Guangdong",Middle,Mississippian,,,Coals,Zhongxing,,Li et al.(1994)
+C,223,C905,,23.7,N,114.6,E,Asia,China,,"S. China:Heyuan,Guangdong",Middle,Mississippian,,,Coals,Zhongxing,,Li et al.(1994)
+C,224,C906,,23.9,N,115.7,E,Asia,China,,"S. China:Wuhua,Guangdong",Middle,Mississippian,,,Coals,Zhongxing,,Li et al.(1994)
+C,225,C907,,24.6,N,115.8,E,Asia,China,,"S. China:Pingyuan,Guangdong",Middle,Mississippian,,,Coals,Zhongxing,,Bureau of Geology and Mineral Resources of Guangdong Province(1988)
+C,226,C908,,24.6,N,113.5,E,Asia,China,,"S. China:Qujiang,Guangdong",Middle,Mississippian,Visean,,Coals,Cheshui,,Li et al.(1994)
+C,227,C909,,25.1,N,113.7,E,Asia,China,,"S. China:Renhua,Guangdong",Middle,Mississippian,Visean,,Coals,Cheshui,,Li et al.(1994)
+C,228,C910,,22.2,N,112.2,E,Asia,China,,"S. China:Enping,Guangdong",Middle,Mississippian,Visean,,Coals,Cheshui,,Bureau of Geology and Mineral Resources of Guangdong Province(1988)
+C,229,C911,,24.8,N,113.6,E,Asia,China,,"S. China:Shaoguan,Guangdong",Middle,Mississippian,Visean,,Coals,Cheshui,,Bureau of Geology and Mineral Resources of Guangdong Province(1988)
+C,230,C912,,24.1,N,113.3,E,Asia,China,,"S. China:Yindge,Guangdong",Middle,Mississippian,Visean,,Coals,Cheshui,,Bureau of Geology and Mineral Resources of Guangdong Province(1988)
+C,231,C913,,23,N,113.1,E,Asia,China,,"S. China:Nanhai,Guangdong",Middle,Mississippian,Visean,,Coals,Cheshui,,Bureau of Geology and Mineral Resources of Guangdong Province(1988)
+C,232,C914,,24.7,N,113.2,E,Asia,China,,"S. China:Luyuan,Guangdong",Middle,Mississippian,Visean,,Coals,Cheshui,,Bureau of Geology and Mineral Resources of Guangdong Province(1988)
+C,233,C915,,24.7,N,112.3,E,Asia,China,,"S. China:Lianxian,Guangdong",Middle,Mississippian,Visean,,Coals,Cheshui,,Bureau of Geology and Mineral Resources of Guangdong Province(1988)
+C,234,C916,,23,N,112.4,E,Asia,China,,"S. China:Zhaoqing,Guangdong",Middle,Mississippian,Visean,,Coals,Cheshui,,Bureau of Geology and Mineral Resources of Guangdong Province(1988)
+C,235,C917,,22.8,N,112.8,E,Asia,China,,"S. China:Gaomin,Guangdong",Middle,Mississippian,Visean,,Coals,Cheshui,,Bureau of Geology and Mineral Resources of Guangdong Province(1988)
+C,236,C918,,52,N,74,E,Asia,C. I. S.(fm USSR),,Teniz-Korzhankul Basin,Upper,Mississippian,,,Coals,,,Petroconsultants(1977)
+C,237,C919,,52,N,76,E,Asia,C. I. S.(fm USSR),,Ekibastuz,Upper,Mississippian,Namurian,,Coals,Karaganda Series,,Petroconsultants(1977)
+C,238,C920,,51,N,73,E,Asia,C. I. S.(fm USSR),,Akzhar,Upper,Mississippian,,,Coals,,,Petroconsultants(1977)
+C,239,C921,,50,N,73,E,Asia,C. I. S.(fm USSR),,"Borlin,Karaganda Basin",Upper,Mississippian,Namurian,,Coals,Karaganda Series,,Petroconsultants(1977)
+C,240,C922,,50,N,74,E,Asia,C. I. S.(fm USSR),,Kuu-Cheko,Upper,Mississippian,,,Coals,,,Petroconsultants(1977)
+C,241,C923,,53,N,91,E,Asia,C. I. S.(fm USSR),,Minusinsk Basin,Upper,Mississippian,,,Coals,Khakasskiy Group,,Petroconsultants(1977)
+C,242,C924,,53.5,N,69.5,E,Asia,C. I. S.(fm USSR),,Kokchetav Coalfield,M - U,Mississippian,upper Visean/Namurian,,Coals,Karagandinska Suite,,The Rijks Geologische Dienst(1982)
+C,243,C925,,50.5,N,71,E,Asia,C. I. S.(fm USSR),,Tselinograd area,M - U,Mississippian,"upper Visean/Namurian,(Visean)",,Coals,"Karagandinska Suite,(Ashlyarikskaya Suite)",,The Rijks Geologische Dienst(1982)
+C,244,C926,,52.5,N,71.5,E,Asia,C. I. S.(fm USSR),,Yablonov Coalfield,Middle,Mississippian,Visean,,Coals,Ashlyarikskaya Suite,,The Rijks Geologische Dienst(1982)
+C,245,C927,,53,N,71.5,E,Asia,C. I. S.(fm USSR),,Koksengir Coalfield,M - U,Mississippian,upper Visean/Namurian,,Coals,Karagandinska Suite,,The Rijks Geologische Dienst(1982)
+C,246,C928,,50,N,72,E,Asia,C. I. S.(fm USSR),,Zavyalovskoye Coalfield,Middle,Mississippian,Visean,,Coals,"Ashlyarikskaya Suite,Karagandinskaya Suite",,The Rijks Geologische Dienst(1982)
+C,247,C929,,7,N,72,E,Asia,C. I. S.(fm USSR),,Samarskoye Coalfield,Middle,Mississippian,Visean,,Coals,"Ashlyarikskaya Suite,Karagandinskaya Suite",,The Rijks Geologische Dienst(1982)
+C,248,C930,,52,N,72.5,E,Asia,C. I. S.(fm USSR),,Tamsor Coalfield,M - U,Mississippian,upper Visean/Namurian,,Coals,Karagandinska Suite,,The Rijks Geologische Dienst(1982)
+C,249,C931,,52,N,75,E,Asia,C. I. S.(fm USSR),,"Karaganda Basin,(Ekibastum Basin)",M - U,Mississippian,"Visean and Visean/Namurian,(Visean)",,Coals,"Ashlyarikskaya and Karagandinskaya,(Ashlyar. and Karagan.)",,The Rijks Geologische Dienst(1982)
+C,250,C932,,51,N,76.5,E,Asia,C. I. S.(fm USSR),,Zhamantuz Coalfield,M - U,Mississippian,Visean/Namurian,,Coals,Karagandinska Suite,,The Rijks Geologische Dienst(1982)
+C,251,C933,,52,N,74.5,E,Asia,C. I. S.(fm USSR),,Koytas Coalfield,M - U,Mississippian,Visean/Namurian,,Coals,Karagandinska Suite,,The Rijks Geologische Dienst(1982)
+C,252,C963,,50,N,72,E,Asia,C. I. S.(fm USSR),,Zavyalovskoye Coalfield,Middle,Mississippian,Visean,,Coals,"Tentekskaya,Nadkaragandinskaya Suites",,The Rijks Geologische Dienst(1982)
+C,253,C964,,50,N,72,E,Asia,C. I. S.(fm USSR),,Samarskoye Coalfield,Middle,Mississippian,Visean,,Coals,"Tentekskaya,Nadkaragandinskaya Suites",,The Rijks Geologische Dienst(1982)
+C,254,C965,,50,N,73,E,Asia,C. I. S.(fm USSR),,Karaganda Basin,M - U,Mississippian,Visean/Namurian,,Coals,"Tentekskaya,Nadkaragandinskaya Suites",,The Rijks Geologische Dienst(1982)
+C,255,C966,,52,N,75,E,Asia,C. I. S.(fm USSR),,Ekibastum Basin,Middle,Mississippian,Visean,,Coals,Nadkaragandinskaya Suite,,The Rijks Geologische Dienst(1982)
+C,256,C966.1,,57,N,60.5,E,Asia,C. I. S.(fm USSR),,Ekaterinburg District,M - U,Mississippian,,,Coals,Altnai Deposit,,Stukalova et al.(2000),
+C,257,C935,,31,N,77,E,Asia,India,,Spiti,Middle,Mississippian,Visean,,Coals,Thabo,"(cite coal lenses ""all along the Tethys Himalaya"")","Garzanti et al.(1996) (Garzanti et al.,(1998)",
+C,258,C936,,47,N,92,E,Asia,Mongolia,,northern Altai,L - M - U,Mississippian,,,Coals,,,"Marinov,Cherepovskiy(1969)",
+C,259,C937,,17.5,N,102,E,Asia,Thailand,,Na Duang Coal Mine,M - U,Mississippian,late Visean-early Namurian,,Coals,,tentatively assign the flora to late Visean-early Namurian,Laveine et al.(1994),
+C,260,C938,,-33,S,152,E,Australia,New South Wales,,Hunter Valley,Middle,Mississippian,Visean,,Coals,,,Rattigan(1964),
+C,261,C939,,-13,S,143,E,Australia,Queensland,,"Pascoe River District,Cape York Peninsula",Middle,Mississippian,,,Coals,(Pascoe River Beds),,"Petroconsultants(1977)(Day et al.,1983)",see also Carr(1975)
+C,262,C940,,43.5,N,28.5,E,Europe,Bulgaria,,Dobrudza Coalfield,Middle,Mississippian,Visean,,Coals,,,The Rijks Geologische Dienst(1982),
+C,263,C941,,57,N,55,E,Europe,C. I. S.(fm USSR),,Kama Basin extending. on the west slope of the Urals frm the central to the southern Urals,Middle,Mississippian,,,Coals,,,"Gorsky et al.(1967, sheet 8)",
+C,264,C942,,54,N,49,E,Europe,C. I. S.(fm USSR),,Kama Basin extending. on the west slope of the Urals frm the central to the southern Urals,Middle,Mississippian,,,Coals,,,"Gorsky et al.(1967, sheet 8)",
+C,265,C943,,55,N,33,E,Europe,C. I. S.(fm USSR),,Moscow Basin,Middle,Mississippian,,,Coals,,,"Gorsky et al.(1967, sheet 8)",
+C,266,C944,,58,N,34,E,Europe,C. I. S.(fm USSR),,Moscow Basin,Middle,Mississippian,,,Coals,,,"Gorsky et al.(1967, sheet 7)",
+C,267,C945,,54,N,34,E,Europe,C. I. S.(fm USSR),,Moscow Basin,Middle,Mississippian,,,Coals,,,"Gorsky et al.(1967, sheet 7)",
+C,268,C946,,54,N,41,E,Europe,C. I. S.(fm USSR),,Moscow Basin,Middle,Mississippian,,,Coals,,,"Gorsky et al.(1967, sheet 7)",
+C,269,C947,,50,N,24,E,Europe,C. I. S.(fm USSR),,Lvov-Volhynian Basin,Middle,Mississippian,,,Coals,,,"Gorsky et al.(1967, sheet 7)",
+C,270,C948,,52,N,22,E,Europe,C. I. S.(fm USSR),,central pt of the Russian Platform frm the central and southern Urals,Middle,Mississippian,Visean,,Coals,,,"Gorsky et al.(1967, sheet 11)",
+C,271,C949,,51,N,23,E,Europe,C. I. S.(fm USSR),,central pt of the Russian Platform frm the central and southern Urals,Middle,Mississippian,Visean,,Coals,,,"Gorsky et al.(1967, sheet 11)",
+C,272,C950,,81,N,50,E,Europe,C. I. S.(fm USSR),,Franz Josef Land,Middle,Mississippian,Visean,,Coals,,,"Heafford(1988, p. 100)","see also Dibner,Krylova(1965)"
+C,273,C951,,63,N,58,E,Europe,C. I. S.(fm USSR),,Shugor Vuktyl,Middle,Mississippian,Visean,,Coals,,,Petroconsultants(1977),"see also Gorsky et al., 1967, sheet 4"
+C,274,C952,,59,N,58,E,Europe,C. I. S.(fm USSR),,Kizel Coalfield,Middle,Mississippian,Visean,,Coals,,,Petroconsultants(1977),"see also Gorsky et al., 1967, sheet 8"
+C,275,C953,,58,N,58,E,Europe,C. I. S.(fm USSR),,Chusovskoy,Middle,Mississippian,Visean,,Coals,,,Petroconsultants(1977),
+C,276,C954,,58,N,62,E,Europe,C. I. S.(fm USSR),,Makhnevo,Middle,Mississippian,Visean,,Coals,,,Petroconsultants(1977),
+C,277,C955,,57,N,62,E,Europe,C. I. S.(fm USSR),,Egorshina,Middle,Mississippian,Visean,,Coals,,,Petroconsultants(1977),"see also Gorsky et al., 1967, sheet 8"
+C,278,C956,,53,N,61,E,Europe,C. I. S.(fm USSR),,Borodinsk,Middle,Mississippian,Visean,,Coals,,,Petroconsultants(1977),
+C,279,C957,,52,N,60,E,Europe,C. I. S.(fm USSR),,Poltava,Middle,Mississippian,Visean,,Coals,,,Petroconsultants(1977),
+C,280,C958,,51,N,60,E,Europe,C. I. S.(fm USSR),,Dombarovsky,Middle,Mississippian,Visean,,Coals,,,Petroconsultants(1977),"see also Gorsky et al., 1967, sheet 7"
+C,281,C959,,48,N,58,E,Europe,C. I. S.(fm USSR),,Berchogur,Middle,Mississippian,Visean,,Coals,,,Petroconsultants(1977),
+C,282,C960,,58,N,62,E,Europe,C. I. S.(fm USSR),,Alapaevsk,Middle,Mississippian,Visean,,Coals,,," Gorsky et al.( 1967, sheet 4)",
+C,283,C961,,49,N,34,E,Europe,C. I. S.(fm USSR),,western Donbass,Middle,Mississippian,Visean,,Coals,,," Gorsky et al.( 1967, sheet11)",
+C,284,C962,,48,N,39,E,Europe,C. I. S.(fm USSR),,western Donbass,Middle,Mississippian,Visean,,Coals,,," Gorsky et al.( 1967, sheet11)",
+C,285,C967,,51,N,24,E,Europe,C. I. S.(fm USSR),,Lvov-Volhynian Basin,Middle,Mississippian,Visean,,Coals,,,The Rijks Geologische Dienst(1982),
+C,286,C968,,50,N,36,E,Europe,C. I. S.(fm USSR),,Dnepr-Donets Coalfields,M - U,Mississippian,Visean and Serpukhovian,,Coals,,,The Rijks Geologische Dienst(1982),
+C,287,C969,,42,N,48,E,Europe,C. I. S.(fm USSR),,Donets Basin,M - U,Mississippian,Visean and Serpukhovian,,Coals,,,The Rijks Geologische Dienst(1982),
+C,288,C970,,52,N,30,E,Europe,C. I. S.(fm USSR),,Pripyat Coalfields,M - U,Mississippian,Visean and Serpukhovian,,Coals,,,The Rijks Geologische Dienst(1982)
+C,289,C971,,52,N,29,E,Europe,C. I. S.(fm USSR),,Zaozernoye Coalfield,M - U,Mississippian,Visean and Serpukhovian,,Coals,,,The Rijks Geologische Dienst(1982)
+C,290,C972,,56,N,36,E,Europe,C. I. S.(fm USSR),,Moscow Basin,Middle,Mississippian,Visean,,Coals,"Radayevskiy,Bobrikovsky,Tulsky Horizons",,The Rijks Geologische Dienst(1982)
+C,291,C973,,54.5,N,34,E,Europe,C. I. S.(fm USSR),,Vskhodskoye Coalfield,Middle,Mississippian,Visean,,Coals,"Bobrikovsky,Tulsky Horizons",,The Rijks Geologische Dienst(1982)
+C,292,C974,,54,N,35,E,Europe,C. I. S.(fm USSR),,Seredeiskoye Coalfield,Middle,Mississippian,Visean,,Coals,"Bobrikovsky,Tulsky Horizons",,The Rijks Geologische Dienst(1982)
+C,293,C975,,54.5,N,36,E,Europe,C. I. S.(fm USSR),,Vorotynskoye Coalfield,Middle,Mississippian,Visean,,Coals,"Bobrikovsky,Tulsky Horizons",,The Rijks Geologische Dienst(1982)
+C,294,C976,,54,N,40,E,Europe,C. I. S.(fm USSR),,Volkhovskoye Coalfield,Middle,Mississippian,Visean,,Coals,"Bobrikovsky,Tulsky Horizons",,The Rijks Geologische Dienst(1982)
+C,295,C977,,54.5,N,37,E,Europe,C. I. S.(fm USSR),,Kaznacheyevskoye Coalfield,Middle,Mississippian,Visean,,Coals,"Bobrikovsky,Tulsky Horizons",,The Rijks Geologische Dienst(1982)
+C,296,C978,,54.5,N,38,E,Europe,C. I. S.(fm USSR),,Beltsevskoye Coalfield,Middle,Mississippian,Visean,,Coals,"Bobrikovsky,Tulsky Horizons",,The Rijks Geologische Dienst(1982)
+C,297,C979,,54,N,38,E,Europe,C. I. S.(fm USSR),,Lomintsevskoye Coalfield,Middle,Mississippian,Visean,,Coals,"Bobrikovsky,Tulsky Horizons",,The Rijks Geologische Dienst(1982)
+C,298,C980,,55,N,33,E,Europe,C. I. S.(fm USSR),,Safonocskoye Coalfield,Middle,Mississippian,Visean,,Coals,"Bobrikovsky,Tulsky Horizons",,The Rijks Geologische Dienst(1982)
+C,299,C981,,59,N,58,E,Europe,C. I. S.(fm USSR),,Kizel Coalfield,Middle,Mississippian,Visean,,Coals,"Malinovsky,Yasnopolsky Horizons",,The Rijks Geologische Dienst(1982)
+C,300,C982,,56,N,54,E,Europe,C. I. S.(fm USSR),,Kama region,Middle,Mississippian,Visean,,Coals,,,The Rijks Geologische Dienst(1982)
+C,301,C983,,51,N,59.8,E,Europe,C. I. S.(fm USSR),,Dombarovskoye Coalfield,Lower,Mississippian,Tournaisian,,Coals,Dombarovskaya Suite,,The Rijks Geologische Dienst(1982)
+C,302,C984,,61,N,62,E,Europe,C. I. S.(fm USSR),,Makhnevskoye Coalfield,Middle,Mississippian,Visean,,Coals,,,The Rijks Geologische Dienst(1982)
+C,303,C985,,54,N,61,E,Europe,C. I. S.(fm USSR),,Poltava-Bredy Coalbearing Region,Lower,Mississippian,Tournaisian,,Coals,"Bredinskaya,Poltavskaya Suites",,The Rijks Geologische Dienst(1982)
+C,304,C986,,54,N,61,E,Europe,C. I. S.(fm USSR),,Borodinovskoye Coalfield,Lower,Mississippian,Tournaisian,,Coals,Borodinovskaya Suite,,The Rijks Geologische Dienst(1982),
+C,305,C987,,54,N,61,E,Europe,C. I. S.(fm USSR),,Poltava Coalfield,Lower,Mississippian,Tournaisian,,Coals,Poltavskaya Suite,,The Rijks Geologische Dienst(1982),
+C,306,C988,,53,N,61,E,Europe,C. I. S.(fm USSR),,Bredy Coalfield,Lower,Mississippian,Tournaisian,,Coals,Bredinskaya Suite,,The Rijks Geologische Dienst(1982),
+C,307,C988.2,,57,N,65,E,Europe,C. I. S.(fm USSR),,Egorshino-Kamensky area,Middle,Mississippian,Visean,,Coals,,,"I.E. Stukalova(written comm.,1997)",
+C,308,C988.3,,52,N,57,E,Europe,C. I. S.(fm USSR),,Domar area,Middle,Mississippian,Visean,,Coals,,,"I.E. Stukalova(written comm.,1997)",
+C,309,C988.1,,61,N,62,E,Europe,C. I. S.(fm USSR),,Manyin area,Middle,Mississippian,Visean,,Coals,,,"I.E. Stukalova(written comm.,1997)","(Geology of coal deposits,1978, v. 12, NEDRA, get editors name; Krivikhin et al.,1993)"
+C,310,C989,,47,N,4,E,Europe,C. I. S.(fm USSR),,Autun Basin,L - M - U,Mississippian,,,Coals,,,"Fey,Greber(1964)",
+C,311,C990,,48,N,-3,W,Europe,C. I. S.(fm USSR),,central Armorican Basin,L - M ,Mississippian,Tournaisian/Visean,,Coals,,,"Ziegler(1988, PL. 25)(PL.24)",
+C,312,C991,,48,N,1,E,Europe,C. I. S.(fm USSR),,Chateaulin-Laval Coalfield,Upper,Mississippian,Namurian/Culm,,Coals,,,The Rijks Geologische Dienst(1982),
+C,313,C992,,47,N,1,E,Europe,C. I. S.(fm USSR),,Ancenis-Saumur Coalfield,Upper,Mississippian,Culm,,Coals,,,The Rijks Geologische Dienst(1982),
+C,314,C993,,46,N,2,E,Europe,C. I. S.(fm USSR),,Chateausur-Cher Coalfield,Upper,Mississippian,Culm,,Coals,,,The Rijks Geologische Dienst(1982),
+C,315,C994,,46,N,4,E,Europe,C. I. S.(fm USSR),,Roannias Basin,Upper,Mississippian,Culm,,Coals,,,The Rijks Geologische Dienst(1982),
+C,316,C995,,47,N,4,E,Europe,C. I. S.(fm USSR),,Polroy Coalfield,Upper,Mississippian,Culm,,Coals,,,The Rijks Geologische Dienst(1982),
+C,317,C996,,52,N,13,E,Europe,Gemany,,Dobrilugk in Lusatia,Middle,Mississippian,Visean,,Coals,,,"Hoehne(1964, Table 2)",
+C,318,C997,,51,N,13,E,Europe,Gemany,,Hianichen-Ebersdorf,Middle,Mississippian,Visean,,Coals,,,Petroconsultants(1977),
+C,319,C997.1,,71.5,N,28.5,E,Europe,Norway,,Finnmark Platform,Middle,Mississippian,Visean,,Coals,,,Ehrenberg et al.(1998),
+C,320,C999,,52,N,22,E,Europe,Poland,,Lublin Basin and the Holy Cross Mountians,Middle,Mississippian,Visean,,Coals,,,"Ziegler(1988, PL. 23)",
+C,321,C1000,,51,N,20,E,Europe,Poland,, Holy Cross Mountians,Middle,Mississippian,Visean,,Coals,,,"Ziegler(1988, PL. 23)",
+C,322,C1001,,38.5,N,-5.5,W,Europe,Spain,,"Valdeinfierno,(Benajarafe and Los Santos de Maimona),all in the Sierra Morena Region",M - U,Mississippian,"Tournaisian to E Visean,(Visean)",,Coals,,,Wagner et al.(1983b),see also Gabaldon et al.(1983)
+C,323,C1002,,75,N,19,E,Europe,Svalbard,,Bear Island,L - M - U,Mississippian,,,Coals,Ursa Sandstone,,Major et al.(1956),
+C,324,C1003,,78,N,12,E,Europe,Svalbard,,western Svalbard,M - U,Mississippian,Tournaisian through Serpukhovian,,Coals,,,"Ziegler(1988, PL. 22)",
+C,325,C1003.1,,78,N,18,E,,,,,,,,,,,,,
+C,326,C1004,,55,N,-3,W,United Kingdom,England,,Northern England,L - M - U,Mississippian,,,Coals,,,Johnson(1960),
+C,327,C1005,,56,N,4,E,United Kingdom,England,,"Northumberland-Solway Basin, and Central North Sea",Middle,Mississippian,Visean,,Coals,,,"Ziegler(1988, PL. 23)",
+C,328,C1009,,55,N,-6,W,United Kingdom,Northern Ireland,,Ballycastle,M - U,Mississippian,Visean/Namurian,,Coals,,,"Gorsky et al.,1967, sheet 5, Ballycastle)",
+C,329,C1006,,56,N,-4,W,United Kingdom,Scotland,,,L - M - U,Mississippian,,,Coals,,,"Francis(in Craig,1965)",see also Petroconsultants(1977)
+C,330,C1007,,58,N,-2,W,United Kingdom,Scotland,,Outer Moray Firth basin,M - U,Mississippian,,,Coals,,,"Leeder,Boldy(1990)",
+C,331,C1008,,56,N,-3.5,W,United Kingdom,Scotland,,Fife Coalfield,Middle,Mississippian,Visean,,Coals,"Calciferous Sandstone Measures,Lower Limestone Group",,The Rijks Geologische Dienst(1982),see also Francis(1991)
+C,332,C1010,,80,N,-90,W,N. America,Canada,,Arctic:Sverdrup Basin,M - U,Mississippian,,,Coals,"Emma Fiord, well below the Otto Fiord Fm",,"Thorsteinsson(1970, p. 569)",
+C,333,C1011,,83,N,-72,W,N. America,Canada,,Arctic:northern Ellesmere,M - U,Mississippian,,,Coals,Emma Fiord,,Thorsteinsson(1974),
+C,334,C1012,,61,N,-124,W,N. America,Canada,,Arctic:South Nahanni region,Middle,Mississippian,Visean,,Coals,,,"Petroconsultants(1977),(Smith,1989, cites the Visean Mattson fm -Liard-S. Nahanni region)",
+C,335,C1013,,61,N,-135,W,N. America,Canada,,Arctic:Whitehorse Trough,M - U,Mississippian,,,Coals,,,Smith(1989),
+C,336,C1014,,69,N,-140,W,N. America,Canada,,Arctic:British Mountians,M - U,Mississippian,,,Coals,Kayak,,Smith(1989),
+C,337,C1015,,68.3,N,-137.8,W,N. America,Canada,,Arctic:Hoidahl Dome area,M - U,Mississippian,,,Coals,Kayak,,Cameron et al.(1988),
+C,338,C1016,,53.075,N,-118.05,W,N. America,Canada,,Alberta:Talbot Lake or Jasper Lake,L - M - U,Mississippian,,,Coals,"in top of Shunda, just below the Turner Valley",,"Chatterton(written comm.,1994)",
+C,339,C1017,,81,N,-20,W,N. America,Canada,,Greenland:northeastern Greenaland,L - M,Mississippian,Tournaisian/Visean,,Coals,,,Stemmerik et al.(1991),
+C,340,C1018,,82,N,-20,W,N. America,Canada,,Greenland:eastern North Greenland,Middle,Mississippian,(probable Visean),"(Sortebakker Formation of Stemmerik and Hakansson, 1989)",Coals,,,Stemmerik et al.(1991),
+C,341,C1019,,74,N,-20,W,N. America,Canada,,Greenland,Middle,Mississippian,,,Coals,Mt. Pictet Fm is an East Greenland-name not used now,,Stemmerik et al.(1991),
+C,342,C1020,,68,N,-165,W,N. America,United States,,Alaska:Lisburne Peninsula region of northwestern Alaska,Lower,Mississippian,,,Coals,Kapaloak,,Tailleur(1965),see also Clough et al.(1995)
+C,343,C1021,,71,N,-156,W,N. America,United States,,Alaska,Lower,Mississippian,,,Coals,Kekiktuk-Endicott Group,borehole coals,Melvin(1987),"see also Magoon,Bird(1988)"
+C,344,C1021.1,,69,N,-144,W,N. America,United States,,Alaska,Lower,Mississippian,,,Coals,Kekiktuk,,LePain et al.(1994),
+C,345,C1021.2,,70.5,N,-148,W,N. America,United States,,Alaska,Lower,Mississippian,,,Coals,Kekiktuk,,Melvin(1993),
+C,346,C1021.3,,68,N,-162.5,W,N. America,United States,,Brooks Range,Lower,Mississippian,,L. Devonian-Early Mississippian,Coals,upper part of the Kanayut Conglomerate,,"Moore,Nilsen(1984, Fig. 8)",
+C,347,C1021.4,,68,N,-155,W,N. America,United States,,Alaska:Kakivilak Creek section,L - M - U,Mississippian,,,Coals,,,"Nilsen,Moore(1982)",
+C,348,C1022,,37,N,-83,W,N. America,United States,,Virginia:southwestern Virginia,Lower,Mississippian,,,Coals,,,"Cecil,Englund(1989)",
+C,349,C1023,,-30,S,-65,W,S. America,Argentina,,Famatina Range,L - M - U,Mississippian,,,Coals,,coal seams,Harrington(1956),
+C,350,C1024,,-30,S,-70,W,S. America,Argentina,,"La Delfina,San Juan Province",L - M - U,Mississippian,,,Coals,,,Petroconsultants(1977),
+C,351,C1025,,-33,S,-70,W,S. America,Argentina,,Calingasta-Uspallata Basin,L - M - U,Mississippian,,,Coals,Maliman,,"Lopez-Gamundi,Rosselo(1993)",
+C,352,C1026,,-17,S,-68,W,S. America,Bolivia,,Lake Titicaca,,,,"""Lower Permian""",Coals,,,Flores-Williams(1978)
+C,353,C1027,,-17,S,-66,W,S. America,Bolivia,,Cochabamba,,,,"""Lower Permian""",Coals,,,Flores-Williams(1978)
+C,354,C1028,,-16,S,-69,W,S. America,Bolivia,,,M - U,Mississippian,Late Visean-?Early Serpukhovian,,Coals,Siripaca,,Diaz-Martinez et al.(1996)
+C,355,C1029,,-5,S,-75,W,S. America,Brazil,,western Piaui on the eastern side of the Paraiba Basin,L - M - U,Mississippian,,,Coals,Poti,,Machado(1978)
+C,356,C1030,,5,N,-75,W,S. America,Columbia,,,L - M - U,Mississippian,,,Coals,,,Olson(1956)
+C,357,C1031,,-16,S,-70,W,S. America,Peru,,,L - M - U,Mississippian,,,Coals,Ambo,,Newell et al.(1953)
+B,358,B1032,,40,N,85,E,Asia,China,,"Tarim:Mt. Wushibei,Xinjiang",,Mississippian,,Carboniferous,Bauxites,,,Liu Chang-ling(1987)
+B,359,B1033,,39,N,97.1,E,Asia,China,,"N. China:Tianjun,Qinghai",Middle,Mississippian,Visean,,Bauxites,Huaituotala,,The Bureau of Geology and Mineral Resources of Qinghai Province(1991)
+B,360,B1034,,33.3,N,100.6,E,Asia,China,,"N. China:Qilian,Qinghai",Middle,Mississippian,Visean,,Bauxites,Chouniugou,,The Bureau of Geology and Mineral Resources of Qinghai Province(1991)
+B,361,B1035,,33,N,104.3,E,Asia,China,,"N. China:Leuyang,Shaanxi",Middle,Mississippian,,,Bauxites,Leuyang,,Gansu Regional Geological Survey Team(1987)
+B,362,B1036,,33,N,104.6,E,Asia,China,,"N. China:Wenxian,Gansu",Middle,Mississippian,,,Bauxites,Leuyang,,Gansu Regional Geological Survey Team(1987)
+B,363,B1037,,27,N,107,E,Asia,China,,S. China,Middle,Mississippian,Visean,,Bauxites,including those at the base of the Tongkuanxi Fm,,"Shen Zhi-da,Chen You-neng(1987)"
+B,364,B1038,,31,N,112,E,Asia,China,,S. China:western Hubei,Middle,Mississippian,,,Bauxites,,,"Shen Zhi-da,Chen You-neng(1987)"
+B,365,B1039,,30,N,105,E,Asia,China,,S. China:southern Sichuan,Middle,Mississippian,,,Bauxites,,,"Shen Zhi-da,Chen You-neng(1987)"
+B,366,B1040,,29.5,N,111,E,Asia,China,,S. China:Shimeng,Middle,Mississippian,,,Bauxites,,,The Compiling Group of the Regional Stratgraphic Chart of central-South China(1974)
+B,367,B1041,,27.5,N,107,E,Asia,China,,S. China:Zunyi,Lower,Mississippian,,Lower Carboniferous,Bauxites,,,Liu Xun-feng(1990)
+B,368,B1042,,36.5,N,106.5,E,Asia,China,,S. China:Qinzheng,Lower,Mississippian,,,Bauxites,,,Liu Xun-feng(1990)
+B,369,B1043,,22.5,N,111.5,E,Asia,China,,S. China:Yunwu Mountians,Lower,Mississippian,,,Bauxites,,,Liu Xun-feng(1990)
+B,370,B1044,,27,N,106.5,E,Asia,China,,S. China:Xiuwen,Lower,Mississippian,,,Bauxites,,,Liu Xun-feng(1990)
+B,371,B1045,,24,N,117.5,E,Asia,China,,S. China:Zhangpu,Lower,Mississippian,,,Bauxites,,,Liu Xun-feng(1990)
+B,372,B1046,,29,N,119,E,Asia,China,,S. China:Jiangshan,Lower,Mississippian,,Lower Carboniferous,Bauxites,base of the Yejiatang,,"The Regional Geological Team of Jiangshan(during the 1970s)(Han Nei-ren,oral comm.,1991)"
+B,373,B1047,,25,N,102,E,Asia,China,,S. China:Yunnan,L - M - U,Mississippian,,,Bauxites,,,Ikonnikov(1984)
+B,374,B1048,,25,N,107,E,Asia,China,,S. China:Yunnan,Lower,Mississippian,,between the Devonian and the Carboniferous,Bauxites,,,Patterson(1967)
+B,375,B1049,,28,N,116,E,Asia,China,,S. China:Fengcheng,Lower,Mississippian,,,Bauxites,,bauxitic siltstone,The Compiling Group of the Regional Stratigraphy Chart of Jiangxi(1980)
+B,376,B1050,,26.5,N,107,E,Asia,China,,S. China:Kveyang(sic.Guiyang),M - U,Mississippian,Visean/Serpukhovian,Middle Carboniferous,Bauxites,,karst bauxite,"Bardossy(1982, Appendix 1)"
+B,377,B1051,,25,N,103,E,Asia,China,,S. China:Kunming,M - U,Mississippian,,,Bauxites,,,Ikonnikov(1984)
+B,378,B1041,,27.5,N,107,E,Asia,China,,S. China:Zunyi,M - U,Mississippian,,,Bauxites,,,Liao Shi-fan(1991)
+B,379,B1044,,27,N,106.5,E,Asia,China,,S. China:Xiuwen,M - U,Mississippian,,,Bauxites,,,Liao Shi-fan(1991)
+B,380,B1052,,26.5,N,107,E,Asia,China,,S. China:Guiyang,M - U,Mississippian,,,Bauxites,,,Liao Shi-fan(1991)
+B,381,B1053,,27.8,N,106.9,E,Asia,China,,S. China:Zunyi,M - U,Mississippian,,,Bauxites,Goujiang,,"Liao Shi-fan,Liang Tong-rong(1991)"
+B,382,B1054,,27,N,107.4,E,Asia,China,,S. China:Wengan,M - U,Mississippian,,,Bauxites,Goujiang,,"Liao Shi-fan,Liang Tong-rong(1991)"
+B,383,B1055,,28.5,N,107.4,E,Asia,China,,S. China:Zhengan,M - U,Mississippian,,,Bauxites,Goujiang,,"Liao Shi-fan,Liang Tong-rong(1991)"
+B,384,B1056,,28.8,N,107.5,E,Asia,China,,S. China:Daozhen,M - U,Mississippian,,,Bauxites,Goujiang,,"Liao Shi-fan,Liang Tong-rong(1991)"
+B,385,B1057,,27.1,N,106.7,E,Asia,China,,S. China:Xifeng,M - U,Mississippian,,,Bauxites,Goujiang,,"Liao Shi-fan,Liang Tong-rong(1991)"
+B,386,B1058,,27,N,106.9,E,Asia,China,,S. China:Kaiyang,M - U,Mississippian,,,Bauxites,Goujiang,,"Liao Shi-fan,Liang Tong-rong(1991)"
+B,387,B1059,,26.8,N,106.5,E,Asia,China,,S. China:Xiuwen,M - U,Mississippian,,,Bauxites,Goujiang,,"Liao Shi-fan,Liang Tong-rong(1991)"
+B,388,B1060,,26.6,N,106.7,E,Asia,China,,S. China:Guiyang,M - U,Mississippian,,,Bauxites,Goujiang,,"Liao Shi-fan,Liang Tong-rong(1991)"
+B,389,B1061,,26.5,N,106.4,E,Asia,China,,S. China:Qingzhen,M - U,Mississippian,,,Bauxites,Goujiang,,"Liao Shi-fan,Liang Tong-rong(1991)"
+B,390,B1062,,26.6,N,105.7,E,Asia,China,,S. China:Zhijin,M - U,Mississippian,,,Bauxites,Goujiang,,"Liao Shi-fan,Liang Tong-rong(1991)"
+B,391,B1063,,27,N,106,E,Asia,China,,S. China:Qianxi,M - U,Mississippian,,,Bauxites,Goujiang,,"Liao Shi-fan,Liang Tong-rong(1991)"
+B,392,B1064,,29.1,N,107,E,Asia,China,,S. China:Nanchuan,M - U,Mississippian,,,Bauxites,Goujiang,,"Liao Shi-fan,Liang Tong-rong(1991)"
+B,393,B1065,,29.3,N,107.7,E,Asia,China,,S. China:Wulong,M - U,Mississippian,,,Bauxites,Goujiang,,"Liao Shi-fan,Liang Tong-rong(1991)"
+B,394,B1066,,28.2,N,110.1,E,Asia,China,,S. China:Luxi,M - U,Mississippian,,,Bauxites,Goujiang,,"Liao Shi-fan,Liang Tong-rong(1991)"
+B,395,B745,,31.8,N,104.3,E,Asia,China,,"S. China:Beichuan,Sichuan",Middle,Mississippian,Visean,,Bauxites,Changyanwo,,The Bureau of Geology and Mineral Resources of Sichuan Province(1991)
+B,396,B746,,32.3,N,104.4,E,Asia,China,,S. China:PingwuSichuan,Middle,Mississippian,Visean,,Bauxites,Changyanwo,,The Bureau of Geology and Mineral Resources of Sichuan Province(1991)
+B,397,B747,,28.2,N,110.1,E,Asia,China,,S. China:Luxi,Lower,Mississippian,Tounaisian,,Bauxites,Goujiang,,Fan et al.(1991)
+B,398,B748,,29.3,N,110.1,E,Asia,China,,"S. China:Sangzhi,Hunan",Lower,Mississippian,Tounaisian,,Bauxites,Goujiang,,Fan et al.(1991)
+B,399,B749,,29.1,N,110.4,E,Asia,China,,"S. China:Dayong,Hunan",Lower,Mississippian,Tounaisian,,Bauxites,Goujiang,,Fan et al.(1991)
+B,400,B749.1,,31.7,N,111.8,E,Asia,China,,"S. China:Nanchang,Hubei",Lower,Mississippian,,Lower Carboniferous,Bauxites,,,Fan et al.(1991),
+B,401,B750,,31.8,N,111.2,E,Asia,China,,"S. China:Baokang,Hubei",Lower,Mississippian,,Lower Carboniferous,Bauxites,,,Fan et al.(1991),
+B,402,B751,,31.7,N,112.2,E,Asia,China,,"S. China:Yicheng,Hubei",Lower,Mississippian,,Lower Carboniferous,Bauxites,,,Fan et al.(1991),
+B,403,B1067,,40,N,74,E,Asia,C. I. S.(fm USSR),,Tien Shan,L - M - U,Mississippian,,,Bauxites,,,Abdullayev(1969),see also Kochnev et al.(1975)
+B,404,B1068,,75,N,100,E,Asia,C. I. S.(fm USSR),,Taimyr Peninsula,Middle,Mississippian,Visean(Hyp.),,Bauxites,,karst bauxite,"Bardossy(1982, Appendix 1)",
+B,405,B1069,,50,N,70,E,Asia,C. I. S.(fm USSR),,central Kazakhstan,Middle,Mississippian,Visean,,Bauxites,,,"Bent,Skorina(1973)",
+B,406,B1070,,40,N,70,E,Asia,C. I. S.(fm USSR),,"Bukantan,Tandytau,Nuratau in former Soviet Central Asia",Lower,Mississippian,,Lower Carboniferous,Bauxites,,karst bauxite(Cert.),"Bardossy(1982, Appendix 1)",
+B,407,B1071,,29,N,33.4,E,Africa,Egypt,,Sinai deposits,M - U,Mississippian,Visean/Namurian A,,Bauxites,Abu Thora,gibbsite and diaspore in the kaolinites frm the Sinai deposits,"Boulis,Atta(1996)",
+B,408,B1072,,62,N,36,E,Europe,C. I. S.(fm USSR),,Onega region,L - M - U,Mississippian,,,Bauxites,,"bauxites,associated w kaolinite,and hematiferous,lateritic deposits",Trubina(1958a)and Kireev(1975),"see also Tsekhovskii,Kireev(1980)"
+B,409,B1073,,60,N,31,E,Europe,C. I. S.(fm USSR),,Leningrad Region,Upper,Mississippian,,between Devonian and the Mississippi,Bauxites,,,Patterson(1967),
+B,410,B1074,,56,N,38,E,Europe,C. I. S.(fm USSR),,Moscow Basin,L - M - U,Mississippian,,,Bauxites,,bauxites and halloysite,Trubina(1958a),
+B,411,B1075,,67,N,50,E,Europe,C. I. S.(fm USSR),,southern Timan,Upper,Mississippian,,between theL. Devonian and the Carboniferous,Bauxites,,kaolinized and bauxitic materials,Demina et al.(1970) and Kolokoltsev(1975),
+B,412,B1076,,53,N,27,E,Europe,C. I. S.(fm USSR),,Belorussia and the Pripiat regions,,Mississippian,,Carboniferous,Bauxites,,dawsonite and bauxite,Dmitriev et al.(1975),
+B,413,B1077,,52,N,39,E,Europe,C. I. S.(fm USSR),,Bielgorod,L - M,Mississippian,,Lower Carboniferous,Bauxites,,lateritic type bauxites,Bardossy(1984),
+B,414,B1078,,57,N,57,E,Europe,C. I. S.(fm USSR),,west slope of the Central Urals,L - M - U,Mississippian,,,Bauxites,,,Entsov(1982),
+B,415,B1079,,51,N,36,E,Europe,C. I. S.(fm USSR),,,Middle,Mississippian,Visean,,Bauxites,,bauxite beneath marine Visean,"Smirnov(1989, Fig. 16)",
+B,416,B1080,,52,N,23,E,Europe,Poland,,Lublin area of eastern Poland,L - M - U,Mississippian,,,Bauxites,,lateritic  bauxites,Bardossy(1984)
+B,417,B1081,,51,N,17,E,Europe,Poland,,"Nowa Ruda, southwestern Poland",L - M - U,Mississippian,,,Bauxites,,lateritic  bauxites,Bardossy(1984)
+K,418,K1082,,31.3,N,119.8,E,Asia,China,,"S. China:Yixing,southern Jiangsu",Middle,Mississippian,Visean,,Kao-Kaolinite,Kaolishan( in this time interv. might be pres. In L. Yangtze reg.),yielded kaolinite(40%)and Illite(60%),Wang Zhong-zhe identified samples collected by Chen Xu and Boucot in 1994
+K,419,K1083,,29.8,N,119.6,E,Asia,China,,"S. China:Tonglu,Zhejiang",Middle,Mississippian,,,Kao-Kaolinite,Zhuzangwu,yielded kaolinite(45%)and Illite(55%),Wang Zhong-zhe identified samples collected by Chen Xu and Boucot in 1994
+K,420,K1084,,31,N,119.9,E,Asia,China,,"S. China:Changxing,northern Zhejiang",Middle,Mississippian,Visean,,Kao-Kaolinite,Kaolishan( in this time interv. might be pres. In L. Yangtze reg.),yielded kaolinite(80%)and Illite-montmorillonite(20%),Wang Zhong-zhe identified samples collected by Chen Xu and Boucot in 1994
+K,421,K1085,,27.2,N,111.7,E,Asia,China,,"S. China:Shaodong,Hunan",Middle,Mississippian,Visean,,Kao-Kaolinite,Cheshui,,Tao Wei-ping et al.(1984)
+K,422,K1086,,28.2,N,112.5,E,Asia,China,,"S. China:Ningxiang,Hunan",Middle,Mississippian,Visean,,Kao-Kaolinite,Cheshui,,Tao Wei-ping et al.(1984)
+K,423,K1087,,31.3,N,118.8,E,Asia,China,,"S. China:Gaochun,Jiangsu",Middle,Mississippian,Visean,,Kao-Kaolinite,Kaolishan,,Zhang Xi-qiu et al.(1988)
+K,424,K1088,,27,N,114.9,E,Asia,China,,"S. China:Jian,Jiangxi",Middle,Mississippian,,,Kao-Kaolinite,Zishan,,Zhang et al.(1993)
+K,425,K1089,,27.3,N,115.4,E,Asia,China,,"S. China:Yongfong,Jiangxi",Middle,Mississippian,,,Kao-Kaolinite,Zishan,,Zhang et al.(1993)
+K,426,K1090,,26.4,N,115.9,E,Asia,China,,"S. China:Ningdu,Jiangxi",Middle,Mississippian,,,Kao-Kaolinite,Zishan,,Zhang et al.(1993)
+K,427,K1091,,25.9,N,115.3,E,Asia,China,,"S. China:Yudu,Jiangxi",Middle,Mississippian,,,Kao-Kaolinite,Zishan,,Zhang et al.(1993)
+K,428,K1092,,25.8,N,116,E,Asia,China,,"S. China:Ruijin,Jiangxi",Middle,Mississippian,,,Kao-Kaolinite,Zishan,,Zhang et al.(1993)
+K,429,K1093,,30.9,N,118.7,E,Asia,China,,"S. China:Xuancheng,Anhui",Middle,Mississippian,Visean,,Kao-Kaolinite,Kaolishan,,Zhang et al.(1993)
+K,430,K1094,,30.6,N,118.4,E,Asia,China,,"S. China:Jingxian,Anhui",Middle,Mississippian,Visean,,Kao-Kaolinite,Kaolishan,,Zhang et al.(1993)
+K,431,K1095,,31.7,N,118.1,E,Asia,China,,"S. China:Hanshan,Anui",Middle,Mississippian,Visean,,Kao-Kaolinite,Kaolishan,,Zhang et al.(1993)
+K,432,K1096,,31.5,N,117.8,E,Asia,China,,"S. China:Chaoxian,Anui",Middle,Mississippian,Visean,,Kao-Kaolinite,Kaolishan,,Zhang et al.(1993)
+K,433,K1097,,24.6,N,113.5,E,Asia,China,,"S. China:Qujiang,Guangdong",Middle,Mississippian,,,Kao-Kaolinite,Zhongxing,,Zhang et al.(1993)
+K,434,K1098,,23.3,N,113.1,E,Asia,China,,"S. China:Huaxian,Guangdong",Middle,Mississippian,,,Kao-Kaolinite,Zhongxing,,Zhang et al.(1993)
+K,435,K1099,,24.3,N,114.1,E,Asia,China,,"S. China:Whengyuan,Guangdong",Middle,Mississippian,,,Kao-Kaolinite,Zhongxing,,Zhang et al.(1993)
+K,436,K1100,,23,N,114.3,E,Asia,China,,"S. China:Huiyang,Guangdong",Middle,Mississippian,,,Kao-Kaolinite,Zhongxing,,Zhang et al.(1993)
+K,437,K1101,,22.5,N,114.1,E,Asia,China,,"S. China:Shenzhen,Guangdong",Middle,Mississippian,,,Kao-Kaolinite,Zhongxing,,Zhang et al.(1993)
+K,438,K1102,,24.4,N,112.6,E,Asia,China,,"S. China:Yangshan,Guangdong",Middle,Mississippian,,,Kao-Kaolinite,Zhongxing,,Zhang et al.(1993)
+K,439,K1103,,27,N,106.9,E,Asia,China,,"S. China:Kaiyang,Guizhou",Middle,Mississippian,Visean,,Kao-Kaolinite,Datang,,Fong Hui-xuan(1992)
+K,440,K1104,,26.5,N,106.4,E,Asia,China,,"S. China:Qingzhen,Guizhou",Middle,Mississippian,Visean,,Kao-Kaolinite,Datang,,Fong Hui-xuan(1992)
+K,441,K1105,,27.7,N,106.9,E,Asia,China,,"S. China:Zunyi,Guizhou",Middle,Mississippian,Visean,,Kao-Kaolinite,Datang,,Fong Hui-xuan(1992)
+K,442,K1106,,50,N,73,E,Asia,C. I. S.(fm USSR),,Karaganda Basin,Middle,Mississippian,,,Kao-Kaolinite,,tonstein kaolinites,Zaritsky(1971)
+K,443,K1107,,65,N,95,E,Asia,C. I. S.(fm USSR),,Tunguska Syneclise,Upper,Mississippian,,Upper Devonian-Early Mississippi,Kao-Kaolinite,,kaolins(flint clay),"Tskin(1989, p. 272)"
+K,444,K1108,,29,N,33.4,E,Africa,Egypt,,Sinai ,M - U,Mississippian,Visean-Namurian A,,Kao-Kaolinite,Abu Thora,,El Askary(1992)
+K,445,K1109,,51,N,5,E,Europe,Belgium,,,Middle,Mississippian,Late Visean,,Kao-Kaolinite,,tonstein from a carbonate section,Pirlet(1966)
+K,446,K1110,,57,N,34,E,Europe,C. I. S.(fm USSR),,Moscow Basin,Middle,Mississippian,,,Kao-Kaolinite,,widespread kaolinite,Vikulova(1964)
+K,447,K1111,,58,N,34,E,Europe,C. I. S.(fm USSR),,Borovichy and similar occurences in the Pripyat region of Belarus,Middle,Mississippian,,,Kao-Kaolinite,,"flint clays,with diaspore and boehmite",Chukhrov(1970)
+K,448,K1112,,54,N,37.5,E,Europe,C. I. S.(fm USSR),,western Urals and Yula,Middle,Mississippian,Visean,,Kao-Kaolinite,,tonstein,Hoehne(1964)
+K,449,K1113,,52,N,13,E,Europe,Germany,,northeastern Germany,Middle,Mississippian,Visean,,Kao-Kaolinite,,,"Storr(1975a, p. 52)"
+K,450,K1114,,52,N,13,E,Europe,Germany,,Dobrilugk,Middle,Mississippian,Visean,,Kao-Kaolinite,,tonstein,Hoehne(1964)
+K,451,K1115,,71,N,29.5,E,Europe,Norway,,Finnmark Platform,Middle,Mississippian,,,Kao-Kaolinite,kaolinized basement beneath Visean age beds,,Bugge et al.(1995)
+K,452,K1116,,78,N,12,E,Europe,"Svalbard,Bear Ise.",,,Middle,Mississippian,Visean,,Kao-Kaolinite,,tonstein,Hoehne(1964)
+K,453,K1117,,75,N,19,E,Europe,"Svalbard,Bear Ise.",,Bear Island,Lower,Mississippian,Tournaisian,,Kao-Kaolinite,,tonstein,Hoehne(1964)
+K,454,K1118,,53,N,-4,W,United Kingdom,"England,Wales",,North Wales ,Middle,Mississippian,,,Kao-Kaolinite,Millstone Grit,dickitic sandstones,"Smithson,Brown(1954)"
+K,455,K1118.1,,54,N,-2,W,United Kingdom,"England,Wales",,northern England,Middle,Mississippian,,,Kao-Kaolinite,Millstone Grit,dickitic sandstones,"Smithson,Brown(1954)"
+K,456,K1119,,56,N,-3,W,United Kingdom,Scotland,,Fife,Middle,Mississippian,,,Kao-Kaolinite,Midland Valley Cementstone Group,kaolinite-rich beds,Perrin(1971)
+K,457,K1119.1,,41,N,-92,W,N. America,United States,,Iowa:southeastern Iowa and adjacent Illinois and Missouri,Middle,Mississippian,Visean,Meramecian,Kao-Kaolinite,"upper Warsaw,Salem",,Hayes(1963)
+L,458,L1119.2,,68,N,49,E,Europe,C. I. S.(fm USSR),,Kolguev Island,Lower,Mississippian,Tournaisian,,Kao-Kaolinite,,ferriferous weathering crust beneath the Tournaisian,Preobrazhenskaya et al.(1995)

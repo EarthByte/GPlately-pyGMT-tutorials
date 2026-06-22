@@ -1,0 +1,139 @@
+LithologyCode,LithNumber,OldIDNumber,,LAT,NS,LONG,EW,Continent,Country,,GeogComments,LMU,Period,Stage,AgeComments,Lithology,Formation,LithComments,PrimaryReference,SeeAlso
+E,1,E581,,32,N,-5,W,Africa,Morocco,,Tindouf Basin,Upper,Devonian,,,Evaporite,,,Hollard(1967),
+E,2,E582,,41.2,N,79.2,E,Asia,China,,Xinjiang:Wushi,Upper,Devonian,,,Gypsum,Gaitaer,,"Zhen Ya-shen,Xiao Shi-lu(1991)",
+E,3,E583,,40.9,N,78.4,E,Asia,China,,Xinjang:Ahequi,Upper,Devonian,,,Gypsum,Gaitaer,,"Zhen Ya-shen,Xiao Shi-lu(1991)",
+E,4,E584,,25.9,N,111,E,Asia,China,,S. China: Quanzhou,Upper,Devonian,Famennian,,Gypsum,,,The Bureau of Geology and Mineral Resources of Guangxi Province(1985),
+E,5,E585,,80,N,101,E,Asia,C. I. S.(frm USSR),,"Siberian Platform:North Siberian Basin,incl. Severnaya Zemlya",Upper,Devonian,Famennian,,Evaporite,,,"Zharkov(1981, Figs. 5,20.pp. 19-23, 108-109; 1984, Fig. 35)",
+E,6,E585.1,,72,N,90,E,Asia,C. I. S.(frm USSR),,"Siberian Platform:North Siberian Basin,incl. Severnaya Zemlya",Upper,Devonian,Famennian,,Evaporite,,,"Zharkov(1981, Figs. 5,20.pp. 19-23, 108-109; 1984, Fig. 35)",
+E,7,E585.2,,68,N,100,E,Asia,C. I. S.(frm USSR),,"Siberian Platform:North Siberian Basin,incl. Severnaya Zemlya",Upper,Devonian,Famennian,,Evaporite,,,"Zharkov(1981, Figs. 5,20.pp. 19-23, 108-109; 1984, Fig. 35)",
+E,8,E585.3,,73,N,115,E,Asia,C. I. S.(frm USSR),,"Siberian Platform:North Siberian Basin,incl. Severnaya Zemlya",Upper,Devonian,Famennian,,Evaporite,,,"Zharkov(1981, Figs. 5,20.pp. 19-23, 108-109; 1984, Fig. 35)",
+E,9,E585.4,,65,N,130,E,Asia,C. I. S.(frm USSR),,"Siberian Platform:North Siberian Basin,incl. Severnaya Zemlya",Upper,Devonian,Famennian,,Evaporite,,,"Zharkov(1981, Figs. 5,20.pp. 19-23, 108-109; 1984, Fig. 35)",
+E,10,E586,,62,N,138,E,Asia,C. I. S.(frm USSR),,Siberian Platform:the Sette Daban,Upper,Devonian,Famennian,,Evaporite,,,"Zharkov(1981, Figs. 5,20.pp. 19-23, 108-109; 1984, Fig. 35)",
+E,11,E587,,65,N,147,E,Asia,C. I. S.(frm USSR),,Siberian Platform:Omulevsk Mountians,Upper,Devonian,Famennian,,Evaporite,,,"Zharkov(1981, Figs. 5,20.pp. 19-23, 108-109; 1984, Fig. 35)",
+E,12,E588,,69,N,87,E,Asia,C. I. S.(frm USSR),,Siberian Platform:Norilsk District,Upper,Devonian,Famennian,,Evaporite,,,"Zharkov(1981, Figs. 5,20.pp. 19-23, 108-109; 1984, Fig. 35)",
+E,13,E589,,74,N,112,E,Asia,C. I. S.(frm USSR),,Siberian Platform:Nordvik District,Upper,Devonian,Famennian,,Evaporite,,,"Zharkov(1981, Figs. 5,20.pp. 19-23, 108-109; 1984, Fig. 35)",
+E,14,E590,,62,N,118,E,Asia,C. I. S.(frm USSR),,Siberian Platform:Kempendyai Depression,Upper,Devonian,Famennian,,Evaporite,,,"Zharkov(1981, Figs. 5,20.pp. 19-23, 108-109; 1984, Fig. 35)",
+E,15,E591,,57,N,86,E,Asia,C. I. S.(frm USSR),,Siberian Platform:Kuznetsk Basin,Upper,Devonian,Famennian,,Evaporite,,,"Zharkov(1981, Figs. 5,20.pp. 19-23, 108-109; 1984, Fig. 35)",
+E,16,E592,,76,N,180,E,Asia,C. I. S.(frm USSR),,Asiatic Russia and Kazakhstan:Wrangell Island,Upper,Devonian,,,Evaporite,,,"Zharkov(1981, Figs. 5,20.pp. 19-23, 108-109; 1984, Fig. 35)",
+E,17,E593,,49,N,72,E,Asia,C. I. S.(frm USSR),,Asiatic Russia and Kazakhstan:Chu Sarysu Basin-C Kazakhstan,Upper,Devonian,,,Evaporite,,,"Zharkov(1981, Figs. 5,20.pp. 19-23, 108-109; 1984, Fig. 35)",
+E,18,E594,,50,N,64,E,Asia,C. I. S.(frm USSR),,Asiatic Russia and Kazakhstan:Teniz Basin,Upper,Devonian,Famennian,,Evaporite,,,"Zharkov(1981, Figs. 5,20.pp. 19-23, 108-109; 1984, Fig. 35)",
+E,19,E595,,49,N,63,E,Asia,C. I. S.(frm USSR),,Asiatic Russia and Kazakhstan:Turgai Basin N. of the Aral Sea,Upper,Devonian,,,Evaporite,,,"Zharkov(1981, Figs. 5,20.pp. 19-23, 108-109; 1984, Fig. 35)",
+E,20,E595.1,,44,N,68,E,Asia,C. I. S.(frm USSR),,Asiatic Russia and Kazakhstan:southeastern Kazakhstan,Upper,Devonian,Famennian,,Evaporite,"Shukurganat,Balaturlan",Balaturlan Breccia,Cook et al.(2002),
+E,21,E596,,34,N,57,E,Asia,Iran,,Tabas area,Upper,Devonian,Famennian,,Gypsum,,gypsum in Famennian shale,"Janvier et al.(written comm.,1994)",
+E,22,E597,,32,N,58,E,Asia,,,Near East:Iran and nearby areas of the Middle East,Upper,Devonian,,,Evaporite,,,"Stocklin(1968, p. 168)",
+E,23,E598,,37,N,31,E,Asia,Turkey,,Kemer,Upper,Devonian,Frasian,,Evaporite,Upper Antalya Nappe,,"Janvier et al.(written comm.,1994)",
+E,24,E599,,-30,S,142,E,Australia,Queensland,,Bancannia Trough,Upper,Devonian,,,Evaporite,,,Wells(1980),
+E,25,E600,,-28,S,135,E,Australia,,,South Australia:Arckaringa Basin,Upper,Devonian,,,Evaporite,,,Wells(1980),
+E,26,E601,,-15,S,129,E,Australia,,,Western Australia:Bonaparte Gulf Basin,Upper,Devonian,,,Evaporite,,,Wells(1980),
+E,27,E602,,-18,S,124,E,Australia,,,Western Australia:Canning Basin,Upper,Devonian,,,Evaporite,,,Wells(1980),
+E,28,E603,,-26,S,113,E,Australia,,,Western Australia:Carnavon Basin,Upper,Devonian,,,Evaporite,,,Wells(1980),
+E,29,E604,,51,N,5,E,Europe,"Belgium, N. France",,,Upper,Devonian,Frasian and Famennian,,Evaporite,,,Rouchy et al.(1987),
+E,30,E605,,58,N,-4,W,United Kingdom,Scotland,,Orcadian Basin of northern Scotland,Upper,Devonian,,,Evaporite,Upper Old Red Sandstone,sabkha-type evaporites,Rogers(1990),
+E,31,E606,,68,N,60,E,United Kingdom,C. I. S.(frm USSR),,Timan-Pechora Basin,Upper,Devonian,Frasian and Famennian,,Evaporite,,,"Ziegler(1988, Pl.23)","see also Zharkov,1981, Fig. 46"
+E,32,E607,,48,N,45,E,United Kingdom,C. I. S.(frm USSR),,Russian Platform,Upper,Devonian,,,Evaporite,,,"Zharkov(1981, Figs. 5,20.pp. 23-26, 108-111; 1984, Fig.40),Zharkov(1984, Fig. Fig. 42)",
+E,33,E608,,57,N,20,E,United Kingdom,C. I. S.(frm USSR),,Russian Platform,Upper,Devonian,,,Evaporite,,,"Zharkov(1981, Figs. 5,20.pp. 23-26, 108-111; 1984, Fig.40),Zharkov(1984, Fig. Fig. 42)",
+E,34,E609,,58,N,55,E,United Kingdom,C. I. S.(frm USSR),,Russian Platform,Upper,Devonian,,,Evaporite,,,"Zharkov(1981, Figs. 5,20.pp. 23-26, 108-111; 1984, Fig.40),Zharkov(1984, Fig. Fig. 42)",
+E,35,E610,,52,N,27,E,United Kingdom,C. I. S.(frm USSR),,Dnieper-Donetz Depression,Upper,Devonian,,,Evaporite,,,"Zharkov(1984, Fig. 46)",
+E,36,E611,,55,N,3,E,Europe,France,,North Sea,Upper,Devonian,Frasian,,Evaporite,,,"Rouchy(1986, p. 18)","see also Ziegler, 1988, PL. 24"
+E,37,E612,,44,N,25,E,Europe,Rumania,,Moesian-Wallachian Basin ,Upper,Devonian,,,Evaporite,,,Beju(1970),
+E,38,E613,,62,N,-127,W,N. America,Canada,,"Alberta,Manitoba,Saskatchewan,Yukon Ter.,Dist. of Mackenzie ",Upper,Devonian,Frasian and Famennian,,Evaporite,,including those of the Williston Basin,"Douglas et al.(1970),Frasnian(Fig.VIII-16),Famennian(Fig. VIII-17",
+E,39,E614,,62,N,-127,W,N. America,Canada,,"Alberta,Manitoba,Saskatchewan,Yukon Ter.,Dist. of Mackenzie ",Upper,Devonian,Frasian and Famennian,,Evaporite,,including those of the Williston Basin,"Douglas et al.(1970),Frasnian(Fig.VIII-16),Famennian(Fig. VIII-18",
+E,40,E615,,50,N,-120,W,N. America,Canada,,"Alberta,Manitoba,Saskatchewan,Yukon Ter.,Dist. of Mackenzie ",Upper,Devonian,Frasian and Famennian,,Evaporite,,including those of the Williston Basin,"Douglas et al.(1970),Frasnian(Fig.VIII-16),Famennian(Fig. VIII-19",
+E,41,E616,,60,N,-85,W,N. America,Canada,,Hudson and Moose River Basins,Upper,Devonian,,,Evaporite,,,"Sanford(1974,1987)and Sanford,Norris(1975)",
+E,42,E617,,53,N,-80,W,N. America,Canada,,Hudson and Moose River Basins,Upper,Devonian,,,Evaporite,,,"Sanford(1974,1987)and Sanford,Norris(1975)",
+E,43,E618,,50,N,-103,W,N. America,Canada,,"Williston Basin:Alberta,British Columbia,Saskatchewan",Upper,Devonian,,,Evaporite,,,"Fuller,Porter(1969)",
+E,44,E618.1,,43,N,-93.5,W,N. America,United States,,Iowa: central Iowa,Upper,Devonian,,,Evaporite,Frasnian Owen Member-Lime Creek ,,Day(1995),"see also Witzke et al., 1996;Witzke,Bunker,1996 p. 318"
+E,45,E619,,46,N,-113,W,N. America,United States,,Montana,Upper,Devonian,,,Evaporite,Maywood,salt hoppers,Sandberg(1961),"Sandberg(oral comm.,1994)"
+E,46,E620,,48,N,-112,W,N. America,United States,,Montana:Potlatch Basin,Upper,Devonian,,,Evaporite,,,"Sandberg et al.,1988, Figs.8,15)",
+E,47,E621,,44,N,-112,W,N. America,United States,,Montana:southwestern Montana,Upper,Devonian,,,Evaporite,Logan Gulch Member,,"Sandberg et al.,1988, Figs.8,15)","Fig. 18; see also Sandberg,1965, discussion of collapse breccias and salt hoppers"
+E,48,E621.1,,37,N,-115,W,N. America,United States,,Nevada:east-eastcentral Nevada ,Upper,Devonian,Frasian,,Evaporite,Guilmette,,"LaMaskin,Elrick(1997)"
+E,49,E622,,48,N,-103,W,N. America,United States,,North Dakota:Williston Basin,Upper,Devonian,,also  the post Lower Devonian,Evaporite,,,Reed(1963)
+CA,50,CA623,,21,N,103,E,Asia,Vietnam,,Do Son Peninsula,M - U,Devonian,Givetian-L. Devonian,,Evaporite,Dosan,,Janvier et al.(1987)
+CA,51,CA624,,-33,S,148.5,E,Australia,New South Wales,,,Upper,Devonian,,,Calcretes,Curra Creek Conglomerates and Hervey Group,"nonmarine carbonate nodules(Curra Crk.),basal red beds(Hervey Grp.)","Wolf,Conolly(1965)"
+CA,52,CA625,,-32,S,145,E,Australia,New South Wales,,,Upper,Devonian,,,Calcretes,,,"Talent(oral comm.,1993)"
+CA,53,CA626,,-37,S,150,E,Australia,New South Wales,,,Upper,Devonian,,,Calcretes,,,"Taylor,Mayer(1990)"
+CA,54,CA627,,-19,S,145,E,Australia,Queensland,,northern Queensland,Upper,Devonian,Frasian-Famennian,,Calcretes,Bulgeri,,"Withnall,Lang eds.(1993)"
+CA,55,CA628,,-19.5,S,144.5,E,Australia,Queensland,,,Upper,Devonian,,,Calcretes,Bulgeri,,Lang(1993)
+CA,56,CA629,,-19.5,S,146,E,Australia,Queensland,,,Upper,Devonian,"""broadly Frasian""",,Calcretes,"Dotswood Group-Vanneck,Stud,Julia",,"Talent(written comm.,1996)"
+CA,57,CA630,,-37,S,146,E,Australia,Victoria,,Mount Howitt Province,Upper,Devonian,,,Calcretes,,,Marsden(1988)
+CA,58,CA631,,51,N,5,E,Europe,Belgium,,Dinant region,Upper,Devonian,,,Calcretes,,,"Dreesen,Thorez(19994, fig. 2)"
+CA,59,CA632,,52,N,-9,W,Europe,Ireland,,"southern Ireland,btwn Cork City and county Wexford",Upper,Devonian,,,Calcretes,ORS facies,,Gardiner et al.(1982)
+CA,60,CA632.1,,54.5,N,-7.5,W,Europe,Ireland,,Tyrone,Upper,Devonian,,,Calcretes,Upper Old Red Sandstone,cornerstone,Griffith(1970)
+CA,61,CA633,,52,N,-10,W,Europe,Ireland,,Munster Basin,Upper,Devonian,,,Calcretes,Munster ,,"Kelly,Sadler(1995)"
+CA,62,CA633.1,,51,N,21,E,,Poland,,,,,,,,,,
+CA,63,CA634,,51,N,-3,W,United Kingdom,England,,noertheastern Somerset,Upper,Devonian,,,Calcretes,Upper Old Red Sandstone,,Pick(1964)
+CA,64,CA635,,58,N,-4,W,United Kingdom,Scotland,,northern Scotland,Upper,Devonian,,,Calcretes,Old Red Sandstone,,Parnell(1983a),
+CA,65,CA636,,56,N,-4,W,United Kingdom,Scotland,,Midland Valley,Upper,Devonian,,,Calcretes,Old Red Sandstone,,Parnell(1983a),"see also Burgess,1960"
+CA,66,CA637,,56,N,-5,W,United Kingdom,Scotland,,,Upper,Devonian,,,Calcretes,Arran Cornstone,,"Tandon,Friend(1989)",
+CA,67,CA638,,56,N,-3,W,United Kingdom,Scotland,,Southern Uplands,Upper,Devonian,,,Calcretes,,,"Westoll(in House et al.,1977)",
+CA,68,CA639,,53,N,-3,W,United Kingdom,Wales,,Welsh Borderland,Upper,Devonian,,,Calcretes,,,Allen(1986),
+CA,69,CA640,,51.5,N,-3,W,United Kingdom,Wales,,west of Cardiff,Upper,Devonian,,,Calcretes,Old Red Sandstone,from borehole,Davies et al.(1991),
+CA,70,CA641,,48,N,-58,W,N. America,Canada,,"Newfoundland:Bay St. George Subbasin,SW Newfoundland",Upper,Devonian,Famennian,,Calcretes,Kennels Brook,,Knight(1983),
+CA,71,CA641.1,,48,N,-66,W,N. America,Canada,,Quebec:southern Gaspe,Upper,Devonian,,or Tournaisian(Miss.),Calcretes,,,"Jutras,Prichonnet(2002)",
+CA,72,CA642,,73,N,-24,W,N. America,Canada,,Greenland:East Greenland,Upper,Devonian,Famennian,,Calcretes,East Greenland Zoologdalen,,"Olsen,Larsen(1993)",
+CA,73,CA643,,45,N,-67,W,N. America,United States,,Maine:southeastern Maine,Upper,Devonian,,,Calcretes,Perry,,Schliger(1976),
+CA,74,CA644,,42,N,-75,W,N. America,United States,,New York,Upper,Devonian,,,Calcretes,,,Woodrow et al.(1973),
+CA,75,CA645,,41,N,-76,W,N. America,United States,,Pennsylvania,Upper,Devonian,,,Calcretes,,,Mora et al.(1991),
+CA,76,CA646,,41,N,-77,W,N. America,United States,,"Pennsylvania:Catskills,central and north central Pennsylvania",Upper,Devonian,Famennian,,Calcretes,Duncannon Member,,"Cotter,Driese(1998)",
+CA,77,CA647,,40,N,-79,W,N. America,United States,,Pennsylvania:Somerset County in the Fairhope71/2'Quadrangle,Upper,Devonian,,,Calcretes,Catskill,calcareous nodules,"Wegweiser(oral comm.,1995) and Kressel(Wegweiser) et al.(1993)",
+T,78,T648,,19,N,8,E,Africa,Niger,,Agades region,Upper,Devonian,,Mississippi age,Tillites,Teragh Sandstone,,"Hambrey,Kluyver(in Hambrey and Harland,1981.pp. 188-190)",
+T,79,T648.1,,39.5,N,-80.5,W,,,,Appalachians,,,,,,,,,
+T,80,T649,,-16,S,-69,W,S. America,Bolivia,,Lake Titcaca area,Upper,Devonian,very late Famennian,palynologically dated,Tillites,Cumana,diamictites,"Vavrdova et al.(1991,1993,1996)","see also Diaz Martinez,Isaacson,1993,1994[Fig.3];Isaacson,Diaz Martinez,1995;Diaz-Martinez et al.1993,1999;Diaz et al.,1993"
+T,81,T650,,-11,S,-67,W,S. America,Bolivia,,,Upper,Devonian,,,Tillites,,in a Pando Department Mobil core,Isaacson et al.(1995),
+T,82,T651,,-3,S,-57,W,S. America,Brazil,,Amazon Basin,Upper,Devonian,Famennian,,Tillites,,,"Rocha-Campos(in Hambrey,Harland(1981)","see also Melo(1988);(oral and written comm.,Streel,1992)"
+T,83,T652,,-6,S,-46,W,S. America,Brazil,,Canto do Buriti area of the E Parnaiba Basin-W side of Basin,Upper,Devonian,Famennian,,Tillites,,indubitable tillites,Malzahn(1957),
+C,84,C652.1,,23,N,23,E,Africa,Libya,,Kufra Basin,M - U,Devonian,,,Coals,Binem,minor subsurface coals,"Bellini et al.(1991, p. 2169)",
+C,85,C653,,31,N,119,E,Asia,China,,S. China:southern Jiangsu,Upper,Devonian,Famennian,,Coals,Leigutai Mneber-Wutong,,"Cai Chong-yang,Li Xin-xue(1982)and Ca Chong-yang et al.(1988)",
+C,86,C654,,28,N,112,E,Asia,China,,"S. China:Doulishan Coal Field,Lianyuan,Hunan",Upper,Devonian,,,Coals,Xikuanshan,,The Beijing Acad. Coal Sci.(1959),
+C,87,C655,,30,N,111,E,Asia,China,,S. China:Shimen,Upper,Devonian,,,Coals,Hsiehchingsu,,The Compiling Group of the Regional Stratagraphic Chart of Central-South China,
+C,88,C656,,31.5,N,118,E,Asia,China,,S. China:Hanshan,Upper,Devonian,,,Coals,Hsiehchingsu,,Li Han-ming(1989),
+C,89,C657,,30,N,116.5,E,Asia,China,,S. China:Huaining-Shusong,Upper,Devonian,,,Coals,Hsiehchingsu,,Li Han-ming(1989),
+C,90,C658,,30.5,N,117.5,E,Asia,China,,"S. China:Guichi, Anhui Province",Upper,Devonian,,,Coals,Hsiehchingsu,,Li Han-ming(1989),
+C,91,C659,,27.5,N,110,E,Asia,China,,S. China:Huaihua,Upper,Devonian,,,Coals,Hsikuangshan,,The Compiling Group of the Regional Stratagraphic Chart of Central-South China,
+C,92,C660,,28,N,113,E,Asia,China,,S. China:Shaoshan,Upper,Devonian,,,Coals,Hsikuangshan,,The Compiling Group of the Regional Stratagraphic Chart of Central-South China,
+C,93,C661,,22,N,112,E,Asia,China,,S. China:Enping,Upper,Devonian,,,Coals,Maozhifeng,,The Compiling Group of the Regional Stratagraphic Chart of Central-South China,
+C,94,C662,,30.6,N,111.3,E,Asia,China,,S. China:Yidu,Upper,Devonian,Famennian,,Coals,,,Han De-xin(1989),
+C,95,C663,,30.5,N,111.7,E,Asia,China,,S. China:Songzi,Upper,Devonian,Famennian,,Coals,,,Han De-xin(1989),
+C,96,C664,,31,N,110.3,E,Asia,China,,S. China:Badong ,Upper,Devonian,Famennian,,Coals,,,Han De-xin(1989),
+C,97,C665,,27.6,N,111.7,E,Asia,China,,"S. China:Hubei,Lianyuan and Zhanhuachong ",Upper,Devonian,Famennian,,Coals,,,Han De-xin(1989),
+C,98,C666,,32,N,119,E,Asia,China,,"S. China:Hunan,Hanshan and Chaoxian in Ahhui, nr Nanjing ",Upper,Devonian,Famennian,,Coals,Wutung,,Han De-xin(1989),
+C,99,C666.1,,-24,S,134,E,Australia,Northern Territory,,northern pt of the Amadeus Basin,Upper,Devonian,Famennian,,Coals,upper part of thePertnjara Group,,Playford et al.(1976),
+C,100,C667,,75,N,19,E,Europe,,,Bear Island,Upper,Devonian,,,Coals,"Misery Series, Tunheim Series",,"Major et al., 1956;Misery Series, Tunheim Series)",
+C,101,C667.1,,78,N,18,E,Europe,Svalbard,,,Upper,Devonian,,Horbyebreen Fm.- Tournaisian-Visean,Coals,"Horbyebreen,Roedvika;Veselstranda Member",,"Harland(1997, p. 73,212,218)",Piepjohn et al.(2001) redate Horbyebreen Fm. Coal as Tuornaisian-Visean
+C,102,C668,,78,N,-95,W,N. America,Canada,,Arctic:Canadian Arctic,Upper,Devonian,,,Coals,,,"Ricketts,Embry(1984; Fig. 3)",
+C,103,C669,,75,N,-108,W,N. America,Canada,,Arctic:Melville Island,Upper,Devonian,Frasnian,,Coals,Hecla Bay Beverley Inlet,,Goodarzi et al.(1989),"see also Goodarzi,Goodbody(1990)"
+C,104,C670,,75,N,-120,W,N. America,Canada,,Arctic:Prince Patrick Island,Upper,Devonian,,,Coals,,,"Bustin,Miall(1991)",
+C,105,C671,,75,N,-100,W,N. America,Canada,,Arctic:Ellesmere and Bathurst Islands,Upper,Devonian,,,Coals,,,"Bustin,Miall(1991)",
+C,106,C671.1,,75,N,-94,W,N. America,Canada,,Arctic:Cornwallis Island,Upper,Devonian,,,Coals,Okse Bay(later changed to Griper Bay),,"Thorsteinsson,Tozer(1960, p. 8)","(later changed to Griper Bay Fm. By Thorsteinsson,1986)"
+C,107,C671.2,,66,N,-138,W,N. America,Canada,,Arctic,Upper,Devonian,,,Coals,Tuttle,,Richards et al.(1997),
+C,108,C674,,41,N,-78,W,N. America,United States,,Pennsylvania:Catskill beneath Pocono,Upper,Devonian,,E. Mississippian,Coals,Spechty Kopf Member,,Hoskins(1963),
+C,109,C675,,39,N,-79,W,N. America,United States,,West Virginia and Virginia,Upper,Devonian,Famennian,,Coals,Hampshire,,Scheckler(1986),
+C,110,C675.1,,10.6,N,-72.4,W,S. America,Venezula,,Perija Andes,Upper,Devonian,early Frasnian,Givetian with Eifelian,Coals,Campo Chico,Campo Chico flora,Berry et al.(1993),
+B,111,B675.2,,34,N,-6,W,Africa,Morocco,,southeast of Rabat,Upper,Devonian,,,Bauxite,,"U. Devonian red shale, I.e., redeposited lateritic bauxite","Bardossy,Aleva(1990, p. 190)",
+B,112,B676,,31,N,119,E,Asia,China,,"nr Yixing,in southern Jiangsu",Upper,Devonian,Famennian,,Bauxite,Kaolishan,,Wu Xiu-yuan(pers. comm. to Chen Xu(1991),
+B,113,B677,,49,N,62,E,Asia,C. I. S.(frm USSR),,"Novo-Pristansk,southern Urals",Upper,Devonian,Frasnian(Cert.),,Bauxite,,,"Bardossy(1982, Appendix 1)",
+B,114,B678,,68,N,65,E,Asia,C. I. S.(frm USSR),,Polar Urals,Upper,Devonian,Frasnian,,Bauxite,,,"Ushatinskiy,Borovskiy(1980)",
+B,115,B679,,54,N,85,E,Asia,C. I. S.(frm USSR),,Salair,Upper,Devonian,,,Bauxite,,,Sukharina(1974),
+B,116,B680,,43,N,80,E,Asia,C. I. S.(frm USSR),,Soviet Tien Shan,Upper,Devonian,,,Bauxite,,,Abdullayev(1969),
+B,117,B681,,50,N,70,E,Asia,C. I. S.(frm USSR),,central Kazakhstan,Upper,Devonian,,,Bauxite,,,"Bent,Mikheev(1975)",
+B,118,B681.1,,75,N,95,E,Asia,C. I. S.(frm USSR),,Taymyr,Upper,Devonian,,,Bauxite,,,"Markov et al.(1967, p. 515)",
+B,119,B683,,67,N,50,E,Asia,C. I. S.(frm USSR),,central Timan,Upper,Devonian,lower Frasnian,,Bauxite,,karst bauxite,"Bardossy(1982, Appendix 1)",
+L,120,L683.1,,33.5,N,57,E,Asia,Iran,,Shotori Range nr Tabas,Upper,Devonian,,,Lateritic Mat.,,,"Talent(written comm.,1997)mentioned that Mekdi Yazdi had observed L. Dev. Horizons",
+L,121,L683.2,,34.5,N,71.3,E,Asia,Pakistan,,"Khyber Pass region, along the Khyber Road",Upper,Devonian,,,Lateritic Mat.,,lateritic beds,"Talent(written comm.,1997)","see also Molloy et al.,1997;Kazmi,Jan,1997, p. 202"
+L,122,L683.4,,36,N,72,E,Asia,Pakistan,,,,,,,,,,,
+L,123,L683.3,,68,N,49,E,Europe,C. I. S.(frm USSR),,,Upper,Devonian,Frasnian,and the Ordovician,Lateritic Mat.,,kaolinitic-iron rich material btwn Frasnian and the Ordovician,Preobrazhenskaya et al.(1995),
+K,124,K684,,29,N,8,E,Africa,Algeria,,Polignac Basin,Upper,Devonian,,,Kao-Kaolinite,,detrital kaolinite,Dunoyer de Segonzac(1969),
+K,125,K685,,28,N,-6,W,Africa,Algeria,,Tindouf Basin,Upper,Devonian,,,Kao-Kaolinite,,detrital kaolinite,Dunoyer de Segonzac(1969),
+K,126,K686,,31.3,N,119.8,E,Asia,China,,"Huanglongshan,Qilongshan,Yixing,southern Jiangsu Province",Upper,Devonian,,,Kao-Kaolinite,Wutung,from Bed II contains purple mudstone consisting of abt 60% kaolinite and 40%illite,"The Laboratory of the Nanjing Institute of Geology & Palaeontology(written comm.,1995)",
+K,127,K687,,-32,S,143,E,Australia,New South Wales,,,L-M-U,Devonian,(Emsian/Eifelian),,Kao-Kaolinite,"(Coco Range SS),Nundooka SS-Mulga Downs Group",abundant detrital kaolinite,"Neef et al.(1995a,b)",
+K,128,K688,,56,N,40,E,Europe,C. I. S.(frm USSR),,Moscow east  towards Kasan in the Nizhnetschigrovskoy Sloi,Upper,Devonian,,,Kao-Kaolinite,,abundant sedimentary kaolinite,"Rateev(1964, Fig. 6)"
+K,129,K688.1,,51,N,9,E,Europe,Germany,,,,,,,,,,
+K,130,K689,,42,N,-2,W,Europe,Spain,,Iberian Ranges,Upper,Devonian,Frasnian and Famennian,,Kao-Kaolinite,"Bolloncillos,Hoya",abundant detrital kaolinite,Bauluz Lazaro et al.(1995)
+K,131,K690,,75,N,19,E,Europe,Svalbard,,Bear Island,Upper,Devonian,,,Kao-Kaolinite,,tonstein,Hoehne(1964)
+K,132,K691,,58.5,N,-3.5,W,United Kingdom,Scotland,,Caithness,Upper,Devonian,,,Kao-Kaolinite,Upper Old Red Sandstone,sedimentary kaolinite,Wilson(1971)
+K,133,K692,,76,N,-112,W,N. America,Canada,,Arctic:Melville Island,Upper,Devonian,,,Kao-Kaolinite,Melville Island Group,,"Cauffman,Bayliss(1973)"
+K,134,K692.1,,39,N,-82,W,N. America,United States,,Central Appalachians,Upper,Devonian,,,Kao-Kaolinite,,signnificant proportion of detrital kaolinite frm L. Devonian black shales,"Hosterman,Whitlow(1983)"
+K,135,K693,,-2,S,-58,W,S. America,Brazil,,Amazon Basin,Upper,Devonian,,,Kao-Kaolinite,,detrital kaolinite,"Alves,Rodrigues(1985a)"
+K,136,K694,,-1,S,-51,W,S. America,Brazil,,Amazon Basin,Upper,Devonian,,,Kao-Kaolinite,Barreirinha Member-Curua,"discuss pyrophyllite,derived by contact metamorphism frm detital kaolinite","Alves,Rodrigues(1985a)"
+K,137,K695,,-6,S,-47,W,S. America,Brazil,,Parnaiba Basin,Upper,Devonian,Frasnian,,Kao-Kaolinite,Pimenteira,,Rodrigues et al.(1995)
+K,138,K695.1,,-32,S,-54.5,W,S. America,Uruguay,,,Upper,Carboniferous,,ascribe a Devonian source although not indicating what pt of the Dev. is involved,Kao-Kaolinite,"San Greorio,Tres Islas",relatively abundant kaolinite fm borehole materials preserved in the matrix of these fm.,"Elizalde,Steinberg(1973)"

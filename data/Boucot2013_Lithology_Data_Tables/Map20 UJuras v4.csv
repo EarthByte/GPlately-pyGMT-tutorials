@@ -1,0 +1,271 @@
+LithologyCode,LithNumber,OldIDNumber,,LAT,NS,LONG,EW,Continent,Country,,GeogComments,LMU,Period,Stage,AgeComments,Lithology,Formation,LithComments,PrimaryReference,SeeAlso
+E,1,E4384,,33,N,5,E,Africa,Algeria,,western Sahara Atlas,Upper,Jurassic,,,Evaporites,,,Sonatrach(1979),
+E,2,E4393,,0,,22,E,Africa,Dem. Rep. of Congo(frm Zaire),,Equateur and Kasai Provinces,Upper,Jurassic,,or Lower Cretaceous,Evaporites,,analcime bearing,"Vanderstappen,Verbeek(1959)",
+E,3,E4385,,30,N,28,E,Africa,Egypt,,northern Egypt,Upper,Jurassic,Kimmeridgian-Tithonian,,Evaporites,"""Upper Limestone""",,Keeley et al.(1990),
+E,4,E4386,,5,N,42,E,Africa,Ethiopia,,Oraden region,Upper,Jurassic,,,Evaporites,Gabredarre ,,Barnes(1976),
+E,5,E4387,,13.5,N,39.5,E,Africa,Ethiopia,,"Mekele Outlier,northern Ethiopia",Upper,Jurassic,,,Evaporites,Agula Shale,,Beyth(1973a),
+E,6,E4387.1,,9.5,N,41.5,E,Africa,Ethiopia,,"Dire Dawa, Harar Province",Upper,Jurassic,Kimmeridgian ,,Evaporites,Daghani Shale,,Bosellini et al.(2001),
+E,7,E4387.2,,25,N,13,E,Africa,Libya,,Murzuq Basin,Upper,Jurassic,,,Evaporites,Taourantine,,"Rusk(2001, Fig. 15)",
+E,8,E4388,,34,N,-5,W,Africa,Morocco,,,Upper,Jurassic,,,Evaporites,,,Salvan(1972),
+E,9,E4388.1,,-20.45,S,14,E,Africa,Namibia,,,Upper,Jurassic,,later Jurassic-earlier Cretaceous,Evaporites,eolian Etjo Sandstone,,Mountney et al.(1998),
+E,10,E4388.2,,18,N,5.5,E,Africa,Niger,,,Upper,Jurassic,,,Evaporites,Basin de Tin Mersoi Basin,analcime beds at the top,"Bigotte,Obellianne(1968)",
+E,11,E4388.3,,-4.5,S,54,E,Africa,Seychelles,,,Upper,Jurassic,,,Evaporites,,Owen Bank Well,"Wolden,Belle(1992)",
+E,12,E4889,,0,,43,E,Africa,Somalia,,coastal Somalia,Upper,Jurassic,,,Evaporites,,,Barnes(1976),
+E,13,E4889.1,,3,N,42,E,Africa,Somalia,,Mandera-Lich Basin,Upper,Jurassic,,,Evaporites,Garbe Harre,,"Beltrandi,Pyre(1973)",
+E,14,E4890,,-33.8,S,25,E,Africa,South Africa,,,Upper,Jurassic,,,Evaporites,Kirkwood,,"Dingle et al.(1983, p. 130)",
+E,15,E4891,,-9,S,39,E,Africa,Tanzania,,,Upper,Jurassic,Kimmeridgian,,Evaporites,Pindiro Evaporites,Kizimbani Well,Balduzzi et al.(1993),
+E,16,E4892,,-8,S,39,E,Africa,Tanzania,,coastal southern Tanzania,L - M,Jurassic,,,Evaporites,,,"Kent(1965), see Kent et al.(1971)",
+E,17,E4392.1,,34,N,11,E,Africa,Tunisia,,offshore eastern Tunisia,Upper,Jurassic,,,Evaporites,Nara Formation Upper,,"Rusk(2001, Fig. 18)",
+E,18,E4394,,24,N,54,E,Asia,Abu Dhabi,,,Upper,Jurassic,Kimmeridgian-Tithonian,,Evaporites,Arab and Hith Frms,,Matos(1994),"see also Alsharhan,Magara(1994)"
+E,19,E4395,,40,N,98,E,Asia,China,,Northwest China:Jiuquan,Upper,Jurassic,,,Evaporites,Huihuibao Group,,Gu Zhi-wei(1982),
+E,20,E4396,,41,N,97,E,Asia,China,,Northwest China:Yumen,Upper,Jurassic,,,Gypsums,Chijinqiao,,The Compiling Group of the Regional Stratagraphy Chart of Xinjiang(1981),
+E,21,E4397,,39,N,95,E,Asia,China,,Northwest China:Subei,Upper,Jurassic,,,Gypsums,Chijinqiao,,The Compiling Group of the Regional Stratagraphy Chart of Xinjiang(1981),
+E,22,E4398,,41.5,N,101,E,Asia,China,,Northwest China:Subei,Upper,Jurassic,,,Gypsums,Chijinqiao,,The Compiling Group of the Regional Stratagraphy Chart of Xinjiang(1981),
+E,23,E4399,,40,N,99,E,Asia,China,,Northwest China:Jinta,Upper,Jurassic,,,Gypsums,Chijinqiao,,The Compiling Group of the Regional Stratagraphy Chart of Xinjiang(1981),
+E,24,E4400,,30,N,105,E,Asia,China,,South China:south-central China:,Upper,Jurassic,,,Evaporites,,lacustrine evaporites,Sun Shu et al.(1989),
+E,25,E4401,,25,N,102.5,E,Asia,China,,South China:Anning,Upper,Jurassic,,,Evaporites,Anning,evaporite-solution breccia,Wei Dong-yen(1991),
+E,26,E4402,,39,N,57,E,Asia,C.I.S.(frm USSR),,Turkmenia,Upper,Jurassic,,,Evaporites,,,"British Sulphur Corpation Limited(1985, p. 88), Sedletskii(1969),Sedletskii,Fedin(1981)",
+E,27,E4403,,41,N,66,E,Asia,C.I.S.(frm USSR),,Uzbekistan,Upper,Jurassic,,,Evaporites,,,"British Sulphur Corpation Limited(1985, p. 88), Sedletskii(1969),Sedletskii,Fedin(1981)",
+E,28,E4404,,38,N,73,E,Asia,C.I.S.(frm USSR),,Pamirs,Upper,Jurassic,,,Evaporites,,,Popov(1968),
+E,29,E4405,,39,N,69,E,Asia,C.I.S.(frm USSR),,Tadjikistan,Upper,Jurassic,,,Evaporites,,,Leith(1985),
+E,30,E4406,,23.5,N,69.75,E,Asia,India,,Kutch region,Upper,Jurassic,,,Evaporites,Katrol,,"Tiwari,Tiwary(1986)",
+E,31,E4407,,36,N,61,E,Asia,Iran,,,Upper,Jurassic,,,Evaporites,Mozduran,,"Adabi,Rao(1991)",
+E,32,E4408,,37,N,58,E,Asia,Iran,,Kopet Dagh Basin,M  - U,Jurassic,Callovian-Kimmeridgian,,Evaporites,,,Lasemi(1995),
+E,33,E4409,,28,N,51,E,Asia,Iran,,Tabas region,Upper,Jurassic,Kimmeridgian-Tithonian,,Gypsums,Magu Gypsum Frm,,"Scairer et al.(2003, fig. 2)",
+E,34,E4409.1,,31,N,51.5,E,,,,,,,,,,,,,
+E,35,E4409.2,,34,N,57,E,,,,,,,,,,,,,
+E,36,E4410,,30,N,45,E,Asia,Iraq,,southern Iraq,Upper,Jurassic,,,Evaporites,Gotnia,,"Abid,Al-Hassen(1986)",
+E,37,E4411,,30,N,48,E,Asia,Kuwait,,,Upper,Jurassic,Tithonian,,Evaporites,Hith,,Alsharhan<Magara(1994),"see also Beydoun(1991, Fig. 13, Gotnia Frm)"
+E,38,E4412,,45,N,106,E,Asia,Mongolia,,southeastern Mongolia,Upper,Jurassic,,,Evaporites,,lacustrine evaporites,"Adamenko,Davidova(1982, Plate 2)",
+E,39,E4413,,23,N,48,E,Asia,Saudi Arabia,,,Upper,Jurassic,,,Evaporites,Arab  ,,Wilson(1985),
+E,40,E4415,,15,N,43,E,Asia,Yemen,,,Upper,Jurassic,,,Evaporites,Amran Series,,Geukens(1966),
+E,41,E4416,,15.5,N,44,E,Asia,Yemen,,,Upper,Jurassic,Tithonian,,Evaporites,Amran Series,,"Simmons,Al-Thour(1994)",
+E,42,E4416.1,,15.5,N,46,E,Asia,Yemen,,,Upper,Jurassic,Kimmeridgian,,Evaporites,Sabatain,,Kruck et al.(1996),
+E,43,E4417,,45.5,N,-3,W,Europe,,,Bay of Biscay,Upper,Jurassic,Oxfordian-Portlandian,,Evaporites,,,"Ziegler(1982, Encl. 20)",
+E,44,E4421,,48,N,25,E,Europe,C.I.S.(frm USSR),,Volhynian-Podolian border area of the East European Platform,Upper,Jurassic,,,Evaporites,,,Rizun et al.(1976),
+E,45,E4422,,50,N,24,E,Europe,C.I.S.(frm USSR),,Ukraine and Moldavia:Lvov,Upper,Jurassic,,,Evaporites,,,Korenevski(1982),
+E,46,E4423,,48,N,26,E,Europe,C.I.S.(frm USSR),,Ukraine and Moldavia:Chernovtsy,Upper,Jurassic,,,Evaporites,,,Korenevski(1982),
+E,47,E4424,,41,N,45,E,Europe,C.I.S.(frm USSR),,former Soviet Armenia,Upper,Jurassic,,,Evaporites,,,"Buzinova,Tanashyan(1972)",see also Petrova et al.(1986)
+E,48,E4425,,45,N,35,E,Europe,C.I.S.(frm USSR),,Crimea,Upper,Jurassic,,,Evaporites,,,Borisenko etal.(1974),
+E,49,E4426,,43,N,45,E,Europe,C.I.S.(frm USSR),,Ciscaucasia,Upper,Jurassic,,,Evaporites,,,Sedleetskii et al.(1975),
+E,50,E4427,,48,N,2,E,Europe,France,,central part of the Paris Basin,Upper,Jurassic,,,Evaporites,Purbeckian,,"Megnien(1980, fig. 16.5)",
+E,51,E4428,,43,N,1,E,Europe,France,,Aquitaine Basin,Upper,Jurassic,Oxfordian to Tithonian,,Evaporites,,,"Ziegler(1988, Pl. 27)",see also Faber(1971)
+E,52,E4429,,53,N,9,E,Europe,Germany,,Lower Saxony Basin of northwestern Germany,Upper,Jurassic,Tithonian,,Evaporites,,,"Ziegler(1988, Pl. 30)",
+E,53,E4430,,53,N,8,E,Europe,Germany,,northwestern Germany,Upper,Jurassic,,,Evaporites,Upper Malm,also celestite occurrences,Muller(1962),
+E,54,E4431,,54,N,6,E,Europe,Germany,,Danish Central Trough,Upper,Jurassic,,,Evaporites,,,Hallam et al.(1991),
+E,55,E4432,,53,N,7,E,Europe,Germany,,northern Germany,Upper,Jurassic,Oxfordian-Portlandian,,Evaporites,,,"Ziegler(1982, Encl. 20)",
+E,56,E4433,,51,N,-8,W,Europe,Ireland,,south of Ireland,Upper,Jurassic,Oxfordian-Portlandian,,Evaporites,,,"Ziegler(1982, Encl. 20)",
+E,57,E4434,,53,N,20,E,Europe,Poland,,northern Poland,Upper,Jurassic,Oxfordian-Portlandian,,Evaporites,,,"Ziegler(1982, Encl. 20)",
+E,58,E4434.1,,44,N,28,E,Europe,Rumania,,southern Dobrudja,Upper,Jurassic,Kimmeridgian-Berriasian,Dragastan(1985) lists it only as Kimmeridgian-Tithonian Evaporites,Evaporites,,,Ahram et al.(1996),
+E,59,E4435,,43,N,-6,W,Europe,Spain,,Cantabria,Upper,Jurassic,Tithonian,,Evaporites,,,"Ziegler(1988, Pl. 27)",
+E,60,E4436,,52,N,-1,W,Europe,United Kingdom,,southern England,Upper,Jurassic,,,Evaporites,Purbeck ,,West(1964),"see also Batten(2002), Underhill(2002) for details"
+E,61,E4437,,48,N,-7,W,Europe,United Kingdom,,Western Approaches Basin,Upper,Jurassic,Kimmeridgian and Tithonian,,Evaporites,,,"Ziegler(1988, Pl. 29)",see also Tappin et al.(1994)
+E,62,E4438,,51,N,-7,W,Europe,United Kingdom,,Celtic Sea,Upper,Jurassic,,,Evaporites,,,Hallam et al.(1991),
+E,63,E4439,,26,N,-78,W,North America,Bahamas,,,Upper,Jurassic,,,Evaporites,,,"Sheridan et al.(1981, Fig. 14)",
+E,64,E4440,,17,N,-93,W,North America,Mexico,,Chiapas and Oaxaca:western Chiapas,Upper,Jurassic,,Upper Jurassic-lowermost Cretaceous,Evaporites,,,Blair(1988)
+E,65,E4442,,16,N,-93,W,North America,Mexico,,Chiapas and Oaxaca:southern Mexico,Upper,Jurassic,,"see also Wilson(1990, fig. 3 for Bathonian,Callovian, Oxfordian",Evaporites,,,Peterson(1983)
+E,66,E4443.1,,23,N,-98,W,North America,Mexico,,Chiapas and Oaxaca,L-M-U?,Jurassic,,,Evaporites,,,Salvador(1991)
+E,67,E4443.2,,17,N,-92,W,North America,Mexico,,Chiapas and Oaxaca,L-M-U?,Jurassic,,,Evaporites,,,Salvador(1991)
+E,68,E4443.3,,18,N,-97.5,W,North America,Mexico,,Chiapas and Oaxaca,L-M-U?,Jurassic,,,Evaporites,,,Salvador(1991)
+E,69,E4443.4,,29,N,-106,W,North America,Mexico,,Chihuahua,L-M-U?,Jurassic,,,Evaporites,Loma Blanca and La Casita Frms,,"Monreal,Longoria(1999)"
+E,70,E4441,,25,N,-100,W,North America,Mexico,,Nuevo Leon & adjacent States:northeastern Mexico,Upper,Jurassic,,"see also Michalzik(1991), Late Jurassic",Evaporites,,"Michalzik,Schumann(1994), Oxfordian Minas Viejas Frm","Weidie,Martinez(1972)"
+E,71,E4443,,26,N,-100.5,W,North America,Mexico,,"Nuevo Leon & adjacent States:Sierra del Fraille,Nuevo Leone",Upper,Jurassic,Oxfordian,,Evaporites,,,Lopez-Oliva(1991)
+E,72,E4443.4,,23.8,N,-99.2,W,North America,Mexico,,Tamaulipas,Upper,Jurassic,,,Evaporites,La Joya,,Barboza-Gudino et al.(1999)
+E,73,E4443.5,,28.5,N,-100,W,North America,United States,,,L-M-U?,Jurassic,,,Evaporites,,,Salvador(1991)
+E,74,E4443.6,,33,N,-95,W,North America,United States,,,L-M-U?,Jurassic,,,Evaporites,,,Salvador(1991)
+E,75,E4443.7,,30,N,-85,W,North America,United States,,,L-M-U?,Jurassic,,,Evaporites,,,Salvador(1991)
+E,76,E4443.8,,30,N,-85,W,North America,United States,,,L-M-U?,Jurassic,,,Evaporites,,,Salvador(1991)
+E,77,E4443.9,,27,N,-85,W,North America,United States,,,L-M-U?,Jurassic,,,Evaporites,,,Salvador(1991)
+E,78,E4444,,31,N,-87,W,North America,United States,,Alabama,Upper,Jurassic,,,Evaporites,Buckner,,Lowenstein(1987)
+E,79,E4444.1,,30.5,N,-88,W,North America,United States,,Alabama,Upper,Jurassic,Oxfordian(Kimmeridgian),,Evaporites,"Louann Salt and Smackover Frms,(Buckner Anhydrite Member) ",,Tolson et al.(1983)
+E,80,E4445,,33.5,N,-93,W,North America,United States,,Arkansas,Upper,Jurassic,,,Evaporites,Buckner,,Johnson et al.(1989),
+E,81,E4446,,28,N,78,E,North America,United States,,Blake Plateau,Upper,Jurassic,,,Evaporites,,,Sheridan et al.(1981),
+E,82,E4448,,-38,N,-108,W,North America,United States,,Colorado:central Rocky Mountian region,Upper,Jurassic,,,Evaporites,,,"Kocurek,Dott(1983)",
+E,83,E4449,,37,N,-109,W,North America,United States,,Colorado,L-M-U?,Jurassic,,,Evaporites,Brushy Basin Member of the Morrison Frm,clinoptilolite beds,"Hansley,Sheppard(1993)",
+E,84,E4450,,38,N,-105,W,North America,United States,,Colorado,Upper,Jurassic,,,Evaporites,,,McKee et al.(1956),
+E,85,E4451,,27.5,N,-92.5,W,North America,United States,,"Gulf Coast Region:mid-Gulf,Sigsbee Deep region",M  - U,Jurassic,,,Evaporites,,pollen derived from a salt core,"Kirkland,Gerhard(1971)",
+E,86,E4451.1,,42,N,-95,W,North America,United States,,Iowa,Upper,Jurassic,,,Evaporites,,,"Wanless,Shideler(1975)",
+E,87,E4452,,42,N,-93,W,North America,United States,,Iowa:central Iowa,L-M-U?,Jurassic,,,Evaporites,Fort Dodge,,Johnson et al.(1989),
+E,88,E4453,,39,N,-101,W,North America,United States,,Kansas:western Kansas,L-M-U?,Jurassic,,,Evaporites,Morrison,,Merriam(1955),
+E,89,E4454,,38,N,-100,W,North America,United States,,Kansas,L-M-U?,Jurassic,,,Evaporites,,,McKee et al.(1956),
+E,90,E4455,,28.27,N,-92.56,W,North America,United States,,Louisiana,Upper,Jurassic,,,Evaporites,Buckner,,Johnson et al.(1989),
+E,91,E4456,,43,N,-85,W,North America,United States,,Michigan:Michigan Basin,Upper,Jurassic,,,Evaporites,,,"Wanless,Shideler(1975)",see also Cohee(1979)
+E,92,E4457,,32,N,-90,W,North America,United States,,Mississippi,Upper,Jurassic,,,Evaporites,Buckner,,Johnson et al.(1989),
+E,93,E4458,,42,N,-102,W,North America,United States,,Nebraska,Upper,Jurassic,,,Evaporites,,,McKee et al.(1956),
+E,94,E4459,,36,N,-108,W,North America,United States,,New Mexico:northwestern New Mexico and adjacent Colorado,Upper,Jurassic,,,Evaporites,Todilto,,"Anderson,Kirkland(1960)",
+E,95,E4460,,36,N,-106,W,North America,United States,,New Mexico:north-central New Mexico,L-M-U?,Jurassic,,,Evaporites,,,McKee et al.(1956),
+E,96,E4461,,35,N,-99,W,North America,United States,,Oklahoma:western Oklahoma,L-M-U?,Jurassic,,,Evaporites,,,McKee et al.(1956),
+E,97,E4462,,32,N,-96,W,North America,United States,,Texas:Wood County,Upper,Jurassic,,,Evaporites,Buckner,,"Claypool et al.(1980, Appendix)",
+E,98,E4463,,31,N,-105,W,North America,United States,,Texas:Hudspeth County,L-M-U?,Jurassic,,,Gypsums,lower Malone,,Imlay(1952),
+E,99,E4464,,33,N,-102,W,North America,United States,,Texas:northwestern Texas,L-M-U?,Jurassic,,,Evaporites,,,McKee et al.(1956),
+E,100,E4465,,38,N,-113,E,North America,United States,,Utah:southwestern Utah,L-M-U?,Jurassic,,,Evaporites,Curtis,,Johnson et al.(1989),
+E,101,E4466,,42,N,-106,W,North America,United States,,Wyoming:Southern Rockies,Upper,Jurassic,Oxfordian,,Evaporites,,,"Brenner(1983, Fig. 9A)",
+E,102,E4467,,-35,S,-67,W,South America,Argentina,,Mendoza,Upper,Jurassic,,,Evaporites,,,Dessanti(1978),
+E,103,E4468,,-38,S,-70,W,South America,Argentina,,Neuquen Province,Upper,Jurassic,Oxfordian and Kimmeridgian,,Evaporites,,,"Volkheimer(1969, p. 563)",
+E,104,E4469,,-10,S,-70,W,South America,Brazil,,Acre Province,Upper,Jurassic,,,Evaporites,Jurua Mirim,,"Petri,Campanha(1981)",
+E,105,E4469.2,,-13,S,-39,W,South America,Brazil,,Reconcavo Basin,Upper,Jurassic,,"Liassic, and latest Jurassic, but is considered Eopermian?Kungurian by Caixeta et al.(1994)",Evaporites,Alianca,,"Feijo,Souza(1994)",
+E,106,E4469.1,,-12,S,-38,W,South America,Brazil,,northeastern Brazil,Upper,Jurassic,Portlandian,,Evaporites,,calcrete and evaporites,"Garcia,Wilbert(1994)",
+E,107,E4469.5,,-18,S,-46,W,South America,Brazil,,,Upper,Jurassic,,later Jurassic-earlier Cretaceous,Evaporites,Botucatu,eolian sandstones,Scherer(2000),
+E,108,E4469.3,,-32,S,-58,W,South America,Brazil,,,Upper,Jurassic,,later Jurassic-earlier Cretaceous,Evaporites,Botucatu,eolian sandstones,Scherer(2000),
+E,109,E4469.4,,3,N,-60,W,South America,Brazil,,Tacutu Graben,Upper,Jurassic,,Neojurassic,Evaporites,Pirara,,"Eiras,Kinoshita(1990)",see also Eiras et al.(1994)
+E,110,E4470,,-25,S,-70,W,South America,Chile,,Atacama region of northern Chile,Upper,Jurassic,,Upper Jurassic-Lower Cretaceous,Evaporites,,"lacustrine evaporites;see also Bell(1991), Quebrado Frm",Bell(1991),
+E,111,E4471,,-27.2,S,-70,W,South America,Chile,,Estrato El Escorial,Upper,Jurassic,,,Evaporites,,,"Bell,Suarez(1993)",
+E,112,E4471.1,,-24.5,S,-69.25,W,South America,Chile,,,Upper,Jurassic,Oxfordian,,Evaporites,Profeta,,Marinovic et al.(1995),
+E,113,E4472,,-0.5,S,-77,W,South America,Ecuador,,,Upper,Jurassic,,Late Jurassic-Early Cretaceous,Evaporites,Chapiza,,Canfield et al.(1982),
+E,114,E4473,,-16,S,-71,W,South America,Peru,,southern Peru,Upper,Jurassic,,,Evaporites,,,"Volkheimer(1969, p. 563)",
+E,115,E4473.1,,10,N,-67.5,W,South America,Trinidad,,Gulf of Paria,Upper,Jurassic,,,Evaporites,,,"Babb,Mann(1999)",
+CA,116,CA4473.4,,46.3,N,94,E,Asia,Mongolia,,southwestern Mongolia,L-M-U?,Jurassic,,,Calcretes,Dariv,,Graham et al.(1997),
+CA,117,CA4473.2,,44,N,96,E,Asia,Mongolia,,"Shar Teg, southwestern Mongolia",Upper,Jurassic,,,Calcretes,,,"Gubin,Sinitza(1996)",
+CA,118,CA4473.3,,-26,S,138,E,Australia,,,,Upper,Jurassic,,,Calcretes,Birkhead,,Krieg et al.(1993),
+CA,119,CA4474,,46,N,6,E,Europe,France,,"Mont-Saleve,Haute-Savoie",L-M-U?,Jurassic,Purbeckian?,,Calcretes,,,"Strasser,Davaud(1982)",
+CA,120,CA4475,,42,N,0,W,Europe,Portugal,,,Upper,Jurassic,,,Calcretes,,,"Wright,Wilson(1987); Wright(1989)",
+CA,121,CA4476,,39,N,-9,W,Europe,Portugal,,,L-M-U?,Jurassic,,,Calcretes,Alcobaca Beds,,Wilson(1975),
+CA,122,CA4477,,43,N,-3,W,Europe,Spain,,northern Spain,M  - U,Jurassic,,,Calcretes,,,Wright(1989); Wright et al.(1988),
+CA,123,CA4478,,42,N,-3.25,W,Europe,Spain,,Cameros Basin,Upper,Jurassic,Kimmeridgian-Berriasian,Late Jurassic-Early Cretaceous,Calcretes,,,Wright et al.(1995),"see also Mensink,Schudack(1982)"
+CA,124,CA4479,,51,N,-1,W,Europe,United Kingdom,,southern England,Upper,Jurassic,,,Calcretes,,,Wright et al.(1988); Wright(1989); Francis(1986),
+CA,125,CA4480,,17,N,-94,W,North America,Mexico,,Chiapas:western Chiapas,Upper,Jurassic,,Upper Jurassic-lowermost Cretaceous,Calcretes,,,Blair(1988),
+CA,126,CA4480.1,,40,N,-105,W,North America,United States,,Colorado:east-central Colorado,L-M-U?,Jurassic,,,Calcretes,Morrison,,Dunagan(2000),
+CA,127,CA4480.2,,35,N,-108,W,North America,United States,,New Mexico:near Grants,L-M-U?,Jurassic,,,Calcretes,Salt Wash Member,,"Anderson,Lucas(1996)",
+CA,128,CA4481,,45,N,-108,W,North America,United States,,Wyoming & Montana:Bighorn Basin,L-M-U?,Jurassic,,,Calcretes,Morrison,,Moberly(1960)
+CA,129,CA4481.1,,-48,S,-63,W,South America,Argentina,,offshore San Julian Basin,Upper,Jurassic,,,Calcretes,,,Figueiredo et al.(1996)
+CA,130,CA4482,,-12,S,-38,W,South America,Brazil,,,Upper,Jurassic,,,Calcretes,Sergi,,"Moraes,de Ros(1992)"
+CA,131,CA4483,,-12.5,S,-75.5,W,South America,Peru,,central Peru,Upper,Jurassic,,Malm,Calcretes,Chaucha,,"Gorzawski,Cedillo(1988)"
+D,132,D4484,,69,N,100,E,Asia,C.I.S.(frm USSR),,North Siberian,L-M-U?,Jurassic,,,Dropstones,,,"Chumakov(in Hambrey,Harland, 1981)"
+D,133,D4485,,73,N,119,E,Asia,C.I.S.(frm USSR),,North Siberian,L-M-U?,Jurassic,,,Dropstones,,,"Chumakov(in Hambrey,Harland, 1981)"
+D,134,D4486,,70,N,123,E,Asia,C.I.S.(frm USSR),,North Siberian,L-M-U?,Jurassic,,,Dropstones,,,"Chumakov(in Hambrey,Harland, 1981)"
+D,135,D4487,,63,N,142,E,Asia,C.I.S.(frm USSR),,North Siberian,L-M-U?,Jurassic,,,Dropstones,,,"Chumakov(in Hambrey,Harland, 1981)"
+D,136,D4488,,65,N,158,E,Asia,C.I.S.(frm USSR),,North Siberian,L-M-U?,Jurassic,,,Dropstones,,,"Chumakov(in Hambrey,Harland, 1981)"
+D,137,D4489,,65,N,163,E,Asia,C.I.S.(frm USSR),,North Siberian,L-M-U?,Jurassic,,,Dropstones,,,"Chumakov(in Hambrey,Harland, 1981)"
+D,138,D4490,,68,N,168,E,Asia,C.I.S.(frm USSR),,North Siberian,L-M-U?,Jurassic,,,Dropstones,,,"Chumakov(in Hambrey,Harland, 1981)"
+C,139,C4491,,28,N,25,E,Africa,Egypt,,northern Western Desert,Upper,Jurassic,,,Coals,,,"Lefranc,Guiraud(1990)"
+C,140,C4491.1,,30,N,33,E,Africa,Egypt,,northern Sinai,Upper,Jurassic,,,Coals,,,El Hawat(1997)
+C,141,C4492,,26,N,14,E,Africa,Libya,,Fezzan,Lower,Jurassic,,Jurassic-Lower?,Coals,,,Hlustik(1990)
+C,142,C4492.1,,32.5,N,21,E,Africa,Libya,,offshore Cyenaica,L-M-U?,Jurassic,,,Coals,Kabaw,,Hallett(2002)
+C,143,C4493,,44,N,81,E,Asia,China,,Northwest China:Yining,M  - U,Jurassic,,,Coals,Aiweier Group,,Wang Si-en(1985)
+C,144,C4494,,40,N,98,E,Asia,China,,Northwest China:Jingquan,Upper,Jurassic,,,Coals,Huihuibao Group,,Gu Zhi-wei(1982)
+C,145,C4495,,45,N,81,E,Asia,China,,Northwest China:Wenquan,M  - U,Jurassic,,,Coals,,,The Compiling Group of the Regional Stratagraphy Chart of Xinjiang(1981)
+C,146,C4516,,30,N,90,E,Asia,China,,"Xizang:Lhasa-Bomi subregion, Lhasa region, Tibet",Upper,Jurassic,,Upper Jurassic-Lower Cretaceous,Coals,,,"Taner,Meyerhoff(1990, Table 5)"
+C,147,C4517,,32,N,90,E,Asia,China,,Xizang:Bange,Upper,Jurassic,,,Coals,Xiaqiong,,Wang Si-en(1985)
+C,148,C4518,,32,N,85,E,Asia,China,,Xizang:Xiagongjiang,Upper,Jurassic,,Upper Jurassic-Lower Cretaceous,Coals,Chuanba,,Wang Si-en(1985)
+C,149,C4519,,32,N,91,E,Asia,China,,Xizang:Dongqiao,Upper,Jurassic,,,Coals,,,"The Comprehensive Scientific Exedition Team to the Qinghai-Xizang Plateau,Academia Sinica(1984)"
+C,150,C4519.1,,47.3,N,130.3,E,Asia,China,,Heilongjiang:Hegeng,Upper,Jurassic,,,Coals,Hegeng and Jixi groups,,"Zhou Xi-yu,Feng Cang-shou(1999)"
+C,151,C4519.2,,45.3,N,130.9,E,Asia,China,,Heilongjiang:Jixi,Upper,Jurassic,,,Coals,Hegeng and Jixi groups,,"Zhou Xi-yu,Feng Cang-shou(1999)"
+C,152,C4520,,60,N,136,E,Asia,C.I.S.(frm USSR),,Lena Basin,Upper,Jurassic,,,Coals,,,Petroconsultants(1977)
+C,153,C4521,,57,N,92,E,Asia,C.I.S.(frm USSR),,Kansk-Achinsk Basin,Upper,Jurassic,,,Coals,,,Petroconsultants(1977)
+C,154,C4522,,52,N,65,E,Asia,C.I.S.(frm USSR),,"Turgay Basin, Kazakhstan",Upper,Jurassic,,,Coals,,,Petroconsultants(1977)
+C,155,C4523,,51,N,109,E,Asia,C.I.S.(frm USSR),,"Targabatay,Chita",L-M-U?,Jurassic,,,Coals,,,"Gorsky et al.(1967, sheet 8)"
+C,156,C4524,,54,N,125,E,Asia,C.I.S.(frm USSR),,Upper Amur Basin,Upper,Jurassic,,,Coals,,,Krassilov(1992)
+C,157,C4525,,66,N,63,E,Asia,C.I.S.(frm USSR),,North Sosva Basin,Upper,Jurassic,Oxfordian,,Coals,Otoryinskaya and Tolyinskaya Suites,,The Rijks Geologische Dienst(1982)
+C,158,C4526,,63,N,60,E,Asia,C.I.S.(frm USSR),,Tolyinskoye Coalfield,Upper,Jurassic,Oxfordian,,Coals,Otoryinskaya Suite,,The Rijks Geologische Dienst(1982)
+C,159,C4527,,63.2,N,60.4,E,Asia,C.I.S.(frm USSR),,Otoyinskoye Coalfield,Upper,Jurassic,Oxfordian,,Coals,Tolyinskaya and Otoryinskaya Suites,,The Rijks Geologische Dienst(1982)
+C,160,C4528,,62.6,N,60.4,E,Asia,C.I.S.(frm USSR),,Lopsinskoye Coalfield,Upper,Jurassic,Oxfordian,,Coals,Otoryinskaya and Tolyinskaya Suites,,The Rijks Geologische Dienst(1982)
+C,161,C4529,,57,N,118,E,Asia,C.I.S.(frm USSR),,Apsatskoye Coalfield,Upper,Jurassic,,,Coals,Chepinskaya Suite,,The Rijks Geologische Dienst(1982)
+C,162,C4530,,51,N,109,E,Asia,C.I.S.(frm USSR),,Krasnochikoyeskoye Coalfield,Upper,Jurassic,,,Coals,Chikoyskaya Suite,,The Rijks Geologische Dienst(1982)
+C,163,C4531,,54.3,N,114,E,Asia,C.I.S.(frm USSR),,Elandinskoye Coalfield,Upper,Jurassic,,,Coals,Gusinoozerskaya Suite,,The Rijks Geologische Dienst(1982)
+C,164,C4532,,56,N,117,E,Asia,C.I.S.(frm USSR),,Kalarskoye Coalfield,Upper,Jurassic,,,Coals,Gusinoozerskaya Suite,,The Rijks Geologische Dienst(1982)
+C,165,C4533,,54,N,117,E,Asia,C.I.S.(frm USSR),,Verkhneneruinskaya Area,Upper,Jurassic,,,Coals,Gusinoozerskaya Suite,,The Rijks Geologische Dienst(1982)
+C,166,C4534,,49.3,N,112,E,Asia,C.I.S.(frm USSR),,Mordayskoye Coalfield,L-M-U?,Jurassic,,,Coals,Tigninskaya Suite,,The Rijks Geologische Dienst(1982)
+C,167,C4535,,51,N,112,E,Asia,C.I.S.(frm USSR),,Kluchevskoye Coalfield,L-M-U?,Jurassic,,,Coals,Tigninskaya Suite,,The Rijks Geologische Dienst(1982)
+C,168,C4536,,52,N,116,E,Asia,C.I.S.(frm USSR),,Arbagaro-Kholbonskoye Coalfield,L-M-U?,Jurassic,,,Coals,Mirsanocskaya Suite,,The Rijks Geologische Dienst(1982)
+C,169,C4537,,54.7,N,120,E,Asia,C.I.S.(frm USSR),,Tungirskaya Coal-bearing Area,L-M-U?,Jurassic,,,Coals,Mirsanocskaya Suite,,The Rijks Geologische Dienst(1982)
+C,170,C4538,,66,N,123,E,Asia,C.I.S.(frm USSR),,Zhiganskiy Region,Upper,Jurassic,Oxfordian to Volgian ,,Coals,Dzhaskoyskaya Suite,,The Rijks Geologische Dienst(1982)
+C,171,C4539,,64,N,126,E,Asia,C.I.S.(frm USSR),,Begidzhanskiy Region,L-M-U?,Jurassic,,,Coals,Chemchumskaya Suite,,The Rijks Geologische Dienst(1982)
+C,172,C4540,,64,N,129,E,Asia,C.I.S.(frm USSR),,Chechumskoye Coalfield,L-M-U?,Jurassic,,,Coals,Chechumskaya Suite,,The Rijks Geologische Dienst(1982)
+C,173,C4541,,64,N,127.5,E,Asia,C.I.S.(frm USSR),,Sangarskoye Coalfield,L-M-U?,Jurassic,,,Coals,Chechumskaya Suite,,The Rijks Geologische Dienst(1982)
+C,174,C4542,,64,N,138,E,Asia,C.I.S.(frm USSR),,Khandygaskiy Region,Upper,Jurassic,Oxfordian to Volgian ,,Coals,Chechumskaya and Sytoginskaya Suites,,The Rijks Geologische Dienst(1982)
+C,175,C4543,,62.3,N,136,E,Asia,C.I.S.(frm USSR),,Dzhebariki-Khaya Coalfield,Upper,Jurassic,Oxfordian to Volgian ,,Coals,Chechumskaya and Sytoginskaya Suites,,The Rijks Geologische Dienst(1982)
+C,176,C4544,,62.3,N,130,E,Asia,C.I.S.(frm USSR),,Kangalasskiy Region Coalfield,L-M-U?,Jurassic,,,Coals,"Markhinskyya, Golubevskaya and Kildyamskaya Suites",,The Rijks Geologische Dienst(1982)
+C,177,C4546,,64,N,120,E,Asia,C.I.S.(frm USSR),,Nyurbinskiy Region,L-M-U?,Jurassic,,,Coals,Nyubinskaya and Ust-Markhinskaya Suites,,The Rijks Geologische Dienst(1982)
+C,178,C4547,,56,N,120,E,Asia,C.I.S.(frm USSR),,South Yakutsk Basin,L-M-U?,Jurassic,,,Coals,"Kabaktinskaya, Berkakitskaya and Nerungrikanskaya Suites",,The Rijks Geologische Dienst(1982)
+C,179,C4548,,56,N,126,E,Asia,C.I.S.(frm USSR),,Aldan-Chulman Region,L-M-U?,Jurassic,,,Coals,"Nerungrikanskaya, Berkakitskaya and Kabaktinskaya Suites",,The Rijks Geologische Dienst(1982)
+C,180,C4549,,56,N,120,E,Asia,C.I.S.(frm USSR),,Usmun Region,L-M-U?,Jurassic,,,Coals,Kabaktinskaya Suite,,The Rijks Geologische Dienst(1982)
+C,181,C4550,,56,N,132,E,Asia,C.I.S.(frm USSR),,Toko Region,L-M-U?,Jurassic,,,Coals,Kabaktinskaya Suite,,The Rijks Geologische Dienst(1982)
+C,182,C4551,,56,N,126,E,Asia,C.I.S.(frm USSR),,Gonam Region,L-M-U?,Jurassic,,,Coals,Kabaktinskaya Suite,,The Rijks Geologische Dienst(1982)
+C,183,C4551.1,,38,N,74,E,Asia,C.I.S.(frm USSR),,eastern Pamirs,Upper,Jurassic,,,Coals,,,Dronov et al.(1959)
+C,184,C4552,,23,N,71,E,Asia,India,,Gujarat,L-M-U?,Jurassic,,,Coals,Than,,"Casshyap,Aslan(1992)"
+C,185,C4553,,22,N,82,E,Asia,India,,Chikiala and Kotu,Upper,Jurassic,,,Coals,,,Chakrabart(1989)
+C,186,C4554,,21,N,76,E,Asia,India,,"Maharashtra,Satpura",Upper,Jurassic,,,Coals,,,Chakrabart(1989)
+C,187,C4555,,15,N,77,E,Asia,India,,Peninsular India,Upper,Jurassic,,,Coals,Upper Gondwana coals of the Jabalpur Series,,Dutta(1971)
+C,188,C4555.1,,23,N,79.9,E,Asia,India,,,Upper,Jurassic,,,Coals,Jabalpur,,Kumar(1996)
+C,189,C4556,,38,N,124,E,Asia,Korea Offshore ,,,Upper,Jurassic,,,Coals,Pyong Song,from the subsurface,Massoud et al.(1991)
+C,190,C4557,,38.5,N,124,E,Asia,Korea Offshore ,,,Upper,Jurassic,,,Coals,Ryong Sung,,Massoud et al.(1993)
+C,191,C4558,,3,N,102,E,Asia,"Malaysia,Indonesia",,,Upper,Jurassic,,Upper Jurassic-Lower Cretaceous,Coals,Malayan Tebak,,"Gobbett,Hutchinson(1973)"
+C,192,C4559,,49,N,106,E,Asia,Mongolia,,north of Ulan Bator,Upper,Jurassic,,,Coals,,lacustrine coal,"Adamenko,Davidova(1982, Plate 2)",
+C,193,C4559.1,,1.3,N,110.1,E,Asia,Sarawak,,,Upper,Jurassic,,,Coals,Bau Limestone,,"Pimm(1967, p. 13)",
+C,194,C4560,,-26,S,150,E,Australia,,,Queensland:Surat Basin,L-M-U?,Jurassic,,,Coals,,,Petroconsultants(1977),
+C,195,C4561,,-25,S,143,E,Australia,,,Queensland:Eromanga Basin,L-M-U?,Jurassic,,,Coals,Blantyre Sandstone,,Day et al.(1983),
+C,196,C4562,,-28,S,150,E,Australia,,,Queensland:Surat Basin,L-M-U?,Jurassic,,,Coals,Orallo,,Allen(1976),
+C,197,C4563,,-15,S,144,E,Australia,,,Queensland:Laura Basin,L-M-U?,Jurassic,,,Coals,Dalrymple Sandstone,,Day(1976),
+C,198,C4564,,-29,S,153,E,Australia,,,New South Wales:Clarence-Moreton Basin,Upper,Jurassic,,Late Jurassic-Early Cretaceous,Coals,Grafton,,Fielding(1992),
+C,199,C4565,,-30,S,148,E,Australia,,,New South Wales,Upper,Jurassic,,,Coals,Orallo,,"Exon,Senior(1976)",
+C,200,C4566,,-34.5,S,136,E,Australia,,,South Australia:Eyre Peninsula,L-M-U?,Jurassic,,,Coals,,lignitic clays,Pattinson el al.(1976),
+C,201,C4566.1,,-38.5,S,146,E,,,,,,,,,,,,,
+C,202,C4567,,51,N,-8,W,Europe,Britain,,North Celtic Sea and Fastnet Basins,Upper,Jurassic,Kimmeridgian,,Coals,,,Ainsworth et al.(1989),
+C,203,C4567.1,,60,N,-4,W,Europe,Britain,,West Shetland Basin,L-M-U?,Jurassic,,,Coals,,,Stoker et al.(1993),
+C,204,C4568,,63,N,60,E,Europe,C.I.S.(frm USSR),,Sosva(Upper),L-M-U?,Jurassic,,,Coals,,,Petroconsultants(1977),"see also Gorsky et al.(1967, sheet 8)"
+C,205,C4568.1,,69,N,58,E,Europe,C.I.S.(frm USSR),,northeastern Russia,Upper,Jurassic,Kimmeridgian,,Coals,,lignite,"Vishnevskaya et al.(1999, Fig. 6)",
+C,206,C4569,,54,N,6,E,Europe,Netherlands,,Central Graben,Upper,Jurassic,Oxfordian,"see also Abbink et al.(2001), for Oxfordian and Kimmeridian",Coals,,,"Ziegler(1988, Pl. 30)",
+C,207,C4570,,69,N,15,E,Europe,Norway,,Andoya,Upper,Jurassic,,,Coals,,,Orvig(1960),
+C,208,C4571,,40,N,-9,W,Europe,Portugal,,Guimarota in central Portugal,Upper,Jurassic,,"see also Milner,Evans(1991),Krebs(1991) - U. Oxfordian or lower Kimmeridgian;Martin,Krebs(2000)-Kimmeridgian",Coals,,,Kohring(1990),
+C,209,C4572,,80,N,-92,W,North America,Canada,,Arctic:Axel Heiberg Island,Upper,Jurassic,,Upper Jurassic-Lower Cretaceous,Coals,Awingak,,"Bustin,Miall(1991)",
+C,210,C4573,,77,N,-109,W,North America,Canada,,Arctic:Melville Island,Upper,Jurassic,Oxfordian,,Coals,Awingak,,"Gentzis,Goodarzi(1991, Fig. 3a)",
+C,211,C4573.1,,55.5,N,-128,W,North America,Canada,,Arctic,L-M-U?,Jurassic,,,Coals,Bower Lake Group,,Yorath(1991),
+C,212,C4574,,55,N,-125,W,North America,Canada,,Briish Columbia and Alberta,Upper,Jurassic,,,Coals,Kootenay Group,,Gibson(1985);Smith(1989),
+C,213,C4575,,50,N,-115,W,North America,Canada,,Briish Columbia and Alberta,Upper,Jurassic,,,Coals,Kootenay Group,,Gibson(1985);Smith(1989),
+C,214,C4576,,61,N,-137,W,North America,Canada,,British Columbia and Alberta:north-central British Columbia,Upper,Jurassic,,Upper Jurassic-Lower Cretaceous,Coals,,,Bustin(1984),
+C,215,C4577,,50,N,-116,W,North America,Canada,,British Columbia and Alberta:south-central British Columbia,Upper,Jurassic,,,Coals,,,"Douglas et al.(1970, Fig. VIII-34)",see also Long(1986)
+C,216,C4577.1,,49.75,N,-114.5,W,North America,Canada,,British Columbia and Alberta,Upper,Jurassic,Tithonian,,Coals,Mist Mountian,,"Leckie,Cheel(1997)",
+C,217,C4578,,61,N,-61,W,North America,Canada,,Yukon:Whitehorse Trough,L-M-U?,Jurassic,,,Coals,Laberge Group ,,Smith(1989),see also Long(1986)
+C,218,C4579,,75,N,-20,W,North America,Greenland,,Hochstetter Forland,Upper,Jurassic,Lower Oxfordian,,Coals,,,Schiener(1976),
+C,219,C4579.1,,29,N,-106,W,North America,Mexico,,,L-M-U?,Jurassic,,,Coals,La Casita,"minor lignite, which also contians evaporites","Monreal,Longoria(1999)",
+C,220,C4579.4,,41,N,-68.3,W,North America,United States,,Georges Bank area,M  - U,Jurassic,,,Coals,,COST No. 1 G-1 Well,"Amato,Bebout(1980)",
+C,221,C4579.2,,40.9,N,-67.5,W,North America,United States,,Georges Bank area,Upper,Jurassic,,,Coals,,COST No. 2 G-1 Well,"Amato,Simonis(1980)",
+C,222,C4579.3,,33,N,-88,W,North America,United States,,Alabama,Upper,Jurassic,Tithonian,,Coals,Cotton Valley,,Tolson et al.(1983),
+C,223,C4580,,57,N,-158,W,North America,United States,,Alaska:unspecified Alaska Peninsula location,Upper,Jurassic,,,Coals,Naknek,"""thin coal beds""","Robert Blodgett(written comm.,(1995)quotes the late C.M. Molenaar,U.S.Geological Survey, Denver",
+C,224,C4581,,38,N,-74,W,North America,United States,,Baltimore Canyon: Baltimore Canyon Trough,Upper,Jurassic,,,Coals,,,Libby-French(1981),
+C,225,C4581.1,,38.3,N,-111,W,North America,United States,,Utah:Henry Mountians region,L-M-U?,Jurassic,,,Coals,Morrison,,"Doelling,Graham(1972, p. 97)",
+C,226,C4582,,-50,S,-70,W,South America,Argentina,,Santa Cruz Province,Upper,Jurassic,Tithonian,,Coals,,,Flores-Williams(1978),
+B,227,B4583,,37,N,31,E,Asia,Turkey,,Taurus,Upper,Jurassic,Kimmeridgian,,Bauxites,,lateritic bauxite,Bardossy(1984),
+B,228,B4584,,37,N,31,E,Asia,Turkey,,Taurus,Upper,Jurassic,Kimmeridgian,,Bauxites,,lateritic bauxite,Bardossy(1984),
+B,229,B4585,,37,N,35,E,Asia,Turkey,,Taurus,Upper,Jurassic,Kimmeridgian,,Bauxites,,lateritic bauxite,Bardossy(1984),
+B,230,B4586,,37,N,37,E,Asia,Turkey,,Taurus,Upper,Jurassic,Kimmeridgian,,Bauxites,,lateritic bauxite,Bardossy(1984),
+B,231,B4587,,41,N,20,E,Europe,Albania,,,Upper,Jurassic,Kimmeridgian and Tithonian,,Bauxites,,bauxite clays situated between Kimmerdgian and Tithonian,Kici et al.(1991),
+B,232,B4588,,45,N,34,E,Europe,C.I.S.(frm USSR),,Crimea,Upper,Jurassic,Kimmeridgian(Cert.),,Bauxites,,karst bauxite,"Bardossy(1982, Appendix 1)",
+B,233,B4589,,43,N,-1,W,Europe,France,,western Pyrenees,Upper,Jurassic,Kimmeridgian,,Bauxites,,,"Combes,Peybernes(1987)",
+B,234,B4589.1,,45.5,N,6.75,E,Europe,France,,Vanoise ,Middle,Jurassic,,"Bardossy(1982, Appendix 1;) cites Dogger(Hyp.) karst bauxite from Vanoise",Bauxites,,meta- bauxite,Goffe(1977),"plus Goffe,Saliot(1977)"
+B,235,B4590,,38.75,N,22.5,E,Europe,Greece,,"Atalanti,Kallidromon and the Helicon Range in central Greece",Upper,Jurassic,,Malm(Cert.),Bauxites,,karst bauxite,"Bardossy(1982, Appendix 1)",
+B,236,B4591,,39,N,23,E,Europe,Greece,,Euboia,Upper,Jurassic,,Malm(Cert.),Bauxites,,karst bauxite,"Bardossy(1982, Appendix 1)",see also Valeton et al.(1987)
+B,237,B4592,,39,N,22,E,Europe,Greece,,"Kiona, Parnassos",Upper,Jurassic,,Malm,Bauxites,,karst bauxite,"Bardossy(1982, Appendix 1)",
+B,238,B4593,,40,N,23,E,Europe,Greece,,Chalkidike Peninsula in the Vardar Zone,Upper,Jurassic,,Malm(Hyp.),Bauxites,,karst bauxite,"Bardossy(1982, Appendix 1)",
+B,239,B4594,,36.75,N,26,E,Europe,Greece,,Amorgos in the Aegean,Upper,Jurassic,,Malm(Quest.),Bauxites,,karst bauxite,"Bardossy(1982, Appendix 1)",
+B,240,B4595,,48,N,19,E,Europe,Slovakia,,Hrusica Mountians and Zuzemberk,Upper,Jurassic,Kimmeridgian(Cert.),,Bauxites,,karst bauxite,"Bardossy(1982, Appendix 1)",
+B,241,B4596,,45,N,14,E,Europe,frm Yugoslavia,frm Yugoslavia,Rovinj and Vrsar in Istria,Upper,Jurassic,Tithonian(Hyp.),,Bauxites,,karst bauxite,"Bardossy(1982, Appendix 1)",
+B,242,B4597,,64,N,14,E,Europe,frm Yugoslavia,,Hrosica Mountians,Upper,Jurassic,Kimmeridgian,,Bauxites,,,"Bardossy,Dercourt(1990)",
+B,243,B4598,,42,N,19,E,Europe,frm Yugoslavia,,Niksicka Zupa,Upper,Jurassic,Tithonian,,Bauxites,,,"Bardossy,Dercourt(1990)",
+B,244,B4599,,45,N,15,E,,,,,,,,,,,,,
+B,245,B4339,,43,N,18,E,Europe,frm Yugoslavia,,Vidusa Mountians,Upper,Jurassic,,Malm(Hyp.),Bauxites,,karst bauxite,"Bardossy(1982, Appendix 1)",
+B,246,B4340,,43,N,19,E,Europe,frm Yugoslavia,,Niksicka Zupa and Dragalj in Crna Gora,Upper,Jurassic,,Malm(Hyp.),Bauxites,,karst bauxite,"Bardossy(1982, Appendix 1)",
+K,247,K4340.1,,28,N,9,E,Africa,Algeria,,eastern Algeria,L-M-U?,Jurassic,,,Kaolinite,,"kaolinitic material and oolitic iron materials(""siderolithic"")","Busson,Cornee(1991)",
+K,248,K4600,,24,N,13,E,Africa,Libya,,Murzuk Basin,Upper,Jurassic,,Late Jurassic-Early Cretaceous,Kaolinite,Messak Sandstone,detrial kaolinite,Lorenz(1987),
+K,249,K4601,,12,N,5,E,Africa,Nigeria,,"along the eastern margin of the Iullemmeden Basin,citing a locality abt 100km s. of Sokoto",Upper,Jurassic,,Late Jurassic-Early Cretaceous,Kaolinite,,kaolinized basement overlain by L. Jurassic-E. Cretaceous Gumdumi Frm,Wopfner(1983),
+K,250,K4602,,-28,S,136,E,Australia,,,South Australia:Oodnadatta region,Upper,Jurassic,,,Kaolinite,,kaolinized basement overlain by L. Juras.-E. Creta. kaolinite-rich sandstones of the Algebuckina SS.,Wopfner(1983),"see also Wopfner et al., 1970)"
+K,251,K4603,,-30,S,142,E,Australia,,,South Australia:Milparinka area,Upper,Jurassic,,,Kaolinite,,kaolinized basement overlain by L. Juras.-E. Creta. kaolinite-rich sandstones of the Algebuckina SS.,Wopfner(1983),
+K,252,K4603.1,,-33.5,S,136,E,Australia,,,South Australia,Upper,Jurassic,,pre-Late Jurassic,Kaolinite,Polda Frm kaolinaization of the Permian,,"Drexel,Preiss(eds.,1995, p 73)",
+K,253,K4604,,45,N,4,E,Europe,France,,Berria area,Upper,Jurassic,Tithonian,,Kaolinite,,modestamounts of sedimentary kaolinite,Deconinck(1993),
+K,254,K4604.1,,69,N,15,E,,,,,,,,,,,,,
+K,255,K4605,,37,N,-4,W,Europe,Spain,,southern Spain,Upper,Jurassic,Kimmeridgian,,Kaolinite,,abundant kaolinite in marine sediments,Rodriguez-Tovar(1993),
+K,256,K4606,,40,N,-1,W,Europe,Spain,,southeastern part of the Iberian Ranges in the Teruel region,Lower,Cretaceous,,Purbeck age,Kaolinite,,detrial kaolinite,Galan et al.(1975)
+K,257,K4607,,47,N,8,E,Europe,Switzerland,,northwestern Switzerland,Upper,Jurassic,,Malm,Kaolinite,,subsuface,Persoz(1982)
+K,258,K4608,,48,N,34,E,Europe,Ukraine,,,Upper,Jurassic,,,Kaolinite,,kaolin deposits,Rusko(1978)
+K,259,K4609,,58,N,-2,W,Europe,United Kingdom,,Scotland:Scotland and the adjacent North Sea,Upper,Jurassic,Kimmeridgian to Volgian,,Kaolinite,,,"Sellwood,Sladen(1981, Fig.13)"
+K,260,K4610,,71,N,-26,W,North America,Greenland,,Milne Land,L-M-U?,Jurassic,,,Kaolinite,,kaolinized crystaline basement overlain by the Charcot Bugt Sandstone,"Birklund,Perch-Nielsen(1976, p. 325)"
+K,261,K4611.1,,25,N,-99.5,W,North America,Mexico,,Neuvo Leon:Linares region,Upper,Jurassic,Tithonian,,Kaolinite,,high in detrital kaolinite,Adatte et al.(1996)
+K,262,K4611,,44,N,-105,W,North America,United States,,Wyoming:western side of the Black Hills in Crook County,L-M-U?,Jurassic,,,Kaolinite,upper part of the Morrison Frm,kaolinitic sediments,Tank(1956)
+CR,263,Cr4611.2,,-34,S,22,E,Africa,South Africa,,Algoa Basin,Upper,Jurassic,,,Crocodilians,Kirkwood,,Rich et al.(1983)
+CR,264,Cr4612,,45,N,88,E,Asia,China,,Xinjiang,Upper,Jurassic,,,Crocodilians,,,Wu Xiao-chun et al.(1996a)
+CR,265,Cr14612.1,,43,N,68,E,Asia,China,,Kazakhstan:Karatau,L-M-U?,Jurassic,,,Crocodilians,Karabastan Bed,,Bakhturina(1997)
+CR,266,Cr4612.2,,46,N,95,E,Asia,China,,Mongolia:Mongolian Altai in southwestern Mongolia,L-M-U?,Jurassic,,,Crocodilians,,,"Storrs,Efimov(2000)"
+CR,267,Cr4613,,50.75,N,-2,W,Europe,Britain,,Dorset,Upper,Jurassic,Kimmeridge,,Crocodilians,,,Delair(1958)
+CR,268,Cr4614,,52.5,N,0,,Europe,Britain,,Whiltshire,Upper,Jurassic,Kimmeridgian,,Crocodilians,,,"Grange,Benton(1996)"
+CR,269,Cr4614.1,,38,N,-105,E,North America,United States,,Colorado:near Canon City,Upper,Jurassic,,,Crocodilians,Morrison,,Mook(1967)
+CR,270,Cr4615,,-39,S,-68,W,South America,Argentina,,Mendoza and Neuquen,Upper,Jurassic,,,Crocodilians,,,Gasparini(1981)
