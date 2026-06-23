@@ -121,12 +121,7 @@ For users new to plate reconstructions in Python, a good entry sequence is:
 | T21 | [Coupling dynamic topography to preserved sediment flux on every continent](T21_DT_vs_Sediment_Flux.ipynb) | postgrad | ★★★ |
 | T22 | [Dynamic topography change in deep time — Young 2022 plate-frame Δz over 20-Myr intervals at 10 snapshot ages 900-0 Ma](T22_dynamic_topo_change_in_deep_time.ipynb) | postgrad | ★★★ |
 
-### Cluster E — Thermochronology
-| # | Notebook | Audience | Difficulty |
-|---|----------|----------|------------|
-| T23 | [Thermochronology on paleo-Earth: Central Asian exhumation through deep time](T23_Thermochron_Central_Asia.ipynb) | postgrad | ★★☆ |
-
-### Cluster F — Paleomagnetism
+### Cluster E — Paleomagnetism
 | # | Notebook | Audience | Difficulty |
 |---|----------|----------|------------|
 | T24 | [Building a Paleomagnetic Reference Frame from the Global Paleomagnetic Database](T24_Paleomagnetic_Reference_Frame.ipynb) | postgrad | ★★★ |
@@ -138,13 +133,13 @@ For users new to plate reconstructions in Python, a good entry sequence is:
 | T30 | [Inclination shallowing meets plate reconstruction: a corrected sedimentary paleolatitude on a reconstructed site](T30_SVEI_Inclination_Shallowing_Reconstructed.ipynb) | postgrad | ★★★ |
 | T31 | [Rotating paleomagnetic poles into reconstructed plate frames](T31_Rotated_Paleo_Poles.ipynb) | postgrad | ★★★ |
 
-### Cluster G — Paleo-geography + paleo-topography
+### Cluster F — Paleo-geography + paleo-topography (incl. Central Asia thermochronology)
 | # | Notebook | Audience | Difficulty |
 |---|----------|----------|------------|
 | T32 | [Geochemistry-corrected paleo-elevation: from samples to comparison](T32_Geochem_Corrected_Paleo_Elevation.ipynb) | postgrad | ★★☆ |
 | T33 | [Macrostrat sedimentary units in paleo-position: mapping the Great Unconformity](T33_Macrostrat_Paleo_Position.ipynb) | postgrad | ★★☆ |
 
-### Cluster H — Paleo-biogeography
+### Cluster G — Paleo-biogeography
 | # | Notebook | Audience | Difficulty |
 |---|----------|----------|------------|
 | T34 | [Joining PBDB occurrences with Macrostrat lithology in paleo-coordinates](T34_PBDB_Macrostrat_Paleo_Litho.ipynb) | undergrad+ | ★★☆ |
@@ -152,7 +147,7 @@ For users new to plate reconstructions in Python, a good entry sequence is:
 | T36 | [Kimmeridgian dinosaurs on a Late Jurassic paleoclimate reconstruction](T36_Kimmeridgian_Dinosaurs.ipynb) | undergrad+ | ★★☆ |
 | T37 | [Cenozoic planktonic foraminifera on reconstructed paleo-latitude](T37_Cenozoic_Foraminifera_Paleo_Latitude.ipynb) | undergrad+ | ★★☆ |
 
-### Cluster I — Paleo-climate
+### Cluster H — Paleo-climate
 | # | Notebook | Audience | Difficulty |
 |---|----------|----------|------------|
 | T38 | [Phanerozoic Köppen-Geiger climate belts on reconstructed plates](T38_Koppen_Geiger_Paleo_Belts.ipynb) | postgrad | ★★★ |
@@ -163,7 +158,7 @@ For users new to plate reconstructions in Python, a good entry sequence is:
 | T43 | [End-Permian CO₂-sensitivity ensemble (end-Permian CO₂-sensitivity ensemble; pySCION (Mills & Gurung 2025); ensemble computed by A.M. for this study)](T43_SCION_CO2_Sensitivity_252Ma.ipynb) | postgrad | ★★★ |
 | T44 | [pySCION Phanerozoic biogeochemistry on a reconstructed paleo-Earth](T43_pySCION_Phanerozoic_Biogeochemistry.ipynb) | postgrad | ★★★ |
 
-### Cluster J — Mineral exploration
+### Cluster I — Mineral exploration
 | # | Notebook | Audience | Difficulty |
 |---|----------|----------|------------|
 | T45 | [Paleo-prospectivity of porphyry Cu-Au in the SW-Pacific arc system](T45_SW_Pacific_Porphyry_Prospectivity.ipynb) | postgrad | ★★★ |
