@@ -138,6 +138,7 @@ For users new to plate reconstructions in Python, a good entry sequence is:
 |---|----------|----------|------------|
 | T32 | [Geochemistry-corrected paleo-elevation: from samples to comparison](T32_Geochem_Corrected_Paleo_Elevation.ipynb) | postgrad | ★★☆ |
 | T33 | [Macrostrat sedimentary units in paleo-position: mapping the Great Unconformity](T33_Macrostrat_Paleo_Position.ipynb) | postgrad | ★★☆ |
+| T49 | [Highland footprints in deep time: probabilistic elevation thresholds + bias-aware DBSCAN](T49_Highland_Footprints_DBSCAN.ipynb) (author-contributed by J. Zhou — reproduces Fig. 4 of Zhou et al. 2026 *Geology*) | postgrad | ★★★ |
 
 ### Cluster G — Paleo-biogeography
 | # | Notebook | Audience | Difficulty |

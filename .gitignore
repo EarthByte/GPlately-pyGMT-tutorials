@@ -142,3 +142,4 @@ Notebooks/kimmeridgian_figs/
 # Per-notebook PMM caches (e.g. _pmm_cache_t38_src/) — auto-populated, never commit
 _pmm_cache*/
 **/_pmm_cache*/
+highland_dbscan_figs/
