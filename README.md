@@ -4,7 +4,7 @@
 
 # Extending pyGMT into Deep Time via GPlately
 
-An open, reproducible tutorial suite of **15 Jupyter notebooks** that couples
+An open, reproducible tutorial suite of **Jupyter notebooks** that couples
 [GPlately](https://github.com/GPlates/gplately) (plate-tectonic reconstructions)
 with [pyGMT](https://www.pygmt.org/) (publication-quality maps, charts, and
 scientific plots).
