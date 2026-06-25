@@ -139,6 +139,9 @@ For users new to plate reconstructions in Python, a good entry sequence is:
 | T32 | [Geochemistry-corrected paleo-elevation: from samples to comparison](T32_Geochem_Corrected_Paleo_Elevation.ipynb) | postgrad | ★★☆ |
 | T33 | [Macrostrat sedimentary units in paleo-position: mapping the Great Unconformity](T33_Macrostrat_Paleo_Position.ipynb) | postgrad | ★★☆ |
 | T49 | [Highland footprints in deep time: probabilistic elevation thresholds + bias-aware DBSCAN](T49_Highland_Footprints_DBSCAN.ipynb) (author-contributed by J. Zhou — reproduces Fig. 4 of Zhou et al. 2026 *Geology*) | postgrad | ★★★ |
+| T50 | [Cooling rates × Earth-system overlays: multi-layer paleo-Earth maps](T50_Cooling_Earth_System_Overlays.ipynb) (Central Asian thermochronology after Boone et al. 2025 *Comm. Earth Env.*; cooling-rate dots over seafloor age, dynamic topography, paleotopography) | postgrad | ★★☆ |
+| T51 | [Cooling rates × plate kinematics × fault analysis](T51_Cooling_Kinematics_Faults.ipynb) (after Boone et al. 2025; convergence rate + trench migration maps + fault proximity + rose diagrams) | postgrad | ★★★ |
+| T52 | [Cooling-rate correlations + time-series analysis](T52_Cooling_Rate_Correlations.ipynb) (cross-variable scatter, Pearson r per age, per-age means ± SD) | postgrad | ★★★ |
 
 ### Cluster G — Paleo-biogeography
 | # | Notebook | Audience | Difficulty |

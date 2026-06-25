@@ -143,3 +143,9 @@ Notebooks/kimmeridgian_figs/
 _pmm_cache*/
 **/_pmm_cache*/
 highland_dbscan_figs/
+
+# 2026-06-24 — ThermoPlates expansion data (too big for git; planned Zenodo deposit)
+data/thermochronology/
+data/thermochronology_central_asia/thermochron_master/
+data/thermochronology_central_asia/kinematics_master/
+data/gmcm9/
