@@ -9,19 +9,15 @@ An open, reproducible tutorial suite of **Jupyter notebooks** that couples
 with [pyGMT](https://www.pygmt.org/) (publication-quality maps, charts, and
 scientific plots).
 
-The suite is sequenced as a teaching ladder from undergraduate primer (T01) to
-three research-grade flagship workflows:
-
-- **T13** — REVEAL tomography slices with reconstructed plate boundaries
-  overlaid at sinking-rate-derived ages, exposing the slab-graveyard signal
-  in the deep mantle.
-- **T14** — Paleo-strain rate maps inside topological deforming-plate
-  networks, reconstructed through time.
-- **T15** — Paleo-σHmax computation along subduction zones, a Python port of
-  the Stephan et al. (2023) `tectonicr` method applied to deep time.
-
-See [`Notebooks/README.md`](Notebooks/README.md) for the full index and per-
-notebook descriptions.
+The suite is sequenced as a teaching ladder, starting with first-paleo-map and
+projection-cookbook primers for undergraduates and building through to
+research-grade workflows in plate kinematics, mantle dynamics and dynamic
+topography, paleomagnetism, paleo-geography and -topography, paleo-biogeography,
+paleo-climate, and reconstruction-driven mineral exploration. See
+[`Notebooks/README.md`](Notebooks/README.md) for the per-cluster description and
+the GitHub directory listing for the always-current notebook inventory — each
+notebook's first markdown cell names its cluster and runs you through what it
+produces.
 
 ## Quick start
 
@@ -39,9 +35,11 @@ Or use the official [`gplates/gplately` Docker image](https://hub.docker.com/r/g
 
 ```
 GPlately-pyGMT-tutorials/
-├── Notebooks/               # T01..T15 + README.md
-├── data/                    # bundled non-PMM data (REVEAL slices, sea-level XLSX,
-│                            # WSM stress map, Afonso 2019 lithospheric thickness)
+├── Notebooks/               # T01_*.ipynb … + README.md
+├── data/                    # bundled non-PMM datasets — see each notebook's
+│                            # Data Availability cell for what it relies on
+├── external/                # gitignored — symlinks to larger companion
+│                            # datasets some notebooks need (see Notebooks/README.md)
 ├── environment.yml
 └── LICENSE
 ```
@@ -52,8 +50,16 @@ not stored in the repository.
 
 ## Contributing
 
-Contributions welcome via pull request. See `Notebooks/README.md` for the
-conventions every notebook follows.
+Contributions welcome via pull request. See [`Notebooks/README.md`](Notebooks/README.md)
+for the conventions every notebook follows (executed outputs preserved,
+three-section header, `# === USER CONFIGURATION ===` block, in-frame age stamp,
+closing *Extend this* section).
+
+Author-contributed notebooks from co-authors building on their own published or
+in-preparation workflows are explicitly welcome — the contributor goes in a
+`*Contributed by:*` provenance line in the notebook header. The current author-
+contributed notebook is by **Jianping Zhou** (highland-footprint DBSCAN
+analysis reproducing Fig. 4 of Zhou et al. 2026 *Geology*).
 
 ## License
 
@@ -65,20 +71,31 @@ this tutorial suite, the same group controls the licensing of both.
 
 ## Attribution
 
-Several notebooks build on prior published methodologies and cite the original
-authors:
+Several notebooks build on previously published methodologies or datasets and
+cite the original authors in their own References section. The authoritative
+attribution is therefore inside each notebook (visible on GitHub by opening
+the file). Among the major external dependencies the suite leans on:
 
-- **T06** (Paleobathymetry profile) uses the Müller et al. (2022) paleobathymetry
-  grids and the GDH plate-cooling reference curve (Stein & Stein 1992).
-- **T07** (Plate-tectonic diagnostics) is a modern Python re-implementation of
-  the metric panel from Seton et al. (2023, *Nature Reviews Earth & Environment*).
-- **T09–T12** (zircon notebooks) are inspired by Jian, Williams, Yu & Zhao
-  (2022, *J. Geophys. Res. Solid Earth*, doi:10.1029/2022JB024606). The
-  implementation in this suite is independent — no code is recycled from the
-  Jian et al. repository.
-- **T13** (REVEAL tomography slices) uses the REVEAL global tomography model
-  of Thrastarson et al. (2024).
-- **T15** (paleo-σHmax along subduction zones) is a Python port of the
-  Stephan et al. (2023) `tectonicr` method applied to deep time.
+- **REVEAL** global full-waveform tomography (Thrastarson, van Herwaarden, Noe,
+  Schiller & Fichtner 2024, *BSSA* 114, 1392–1406).
+- **gmcm9** dynamic topography (Braz, Zahirovic, Salles, Flament, Harrington &
+  Müller 2021, *Basin Research* 33(6), 3378–3405).
+- **ThermoPlates** thermochronology-on-paleo-Earth workflow (Boone, Glorie,
+  Zahirovic, Nixon, Meeuws, Kohlmann et al. 2025, *Communications Earth &
+  Environment* 6, 1015).
+- **SCION + pySCION** Earth-evolution model (Mills, Donnadieu & Goddéris 2021
+  *Gondwana Research* 100, 73–86; Merdith, Gernon, Maffre, Donnadieu,
+  Goddéris, Longman, Müller & Mills 2025, *Science Advances* 11(7), eadm9798).
+- **Geochemistry-corrected paleo-elevation** (Zhou, Farahbakhsh, Williams, Li,
+  Liu, Li & Müller 2025, *JGR Solid Earth* 130(5), e2024JB030404; Zhou et al.
+  2026, *Geology*, in press).
+- **Tomography-zircon paleo-distance to subduction** (Jian, Williams, Yu &
+  Zhao 2022, *JGR Solid Earth*, doi:10.1029/2022JB024606). The implementation
+  in this suite is independent — no code is recycled.
+- **PALEOMAP / Scotese & Wright** paleo-DEMs, **GPMDB** paleomagnetic
+  database, **Paleobiology Database**, **Macrostrat**, **WSM** stress map,
+  **GEM** + **AFEAD** fault databases, and others — fully credited in the
+  relevant notebooks.
 
-Full bibliographic references are at the end of every notebook.
+Full bibliographic references with verified DOIs are at the end of every
+notebook.
