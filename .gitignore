@@ -149,3 +149,21 @@ data/thermochronology/
 data/thermochronology_central_asia/thermochron_master/
 data/thermochronology_central_asia/kinematics_master/
 data/gmcm9/
+
+# === Runtime per-snapshot caches (rebuilt by notebook on first run) ===
+**/thermochron_master/
+**/dyntopo_master/
+**/exhumation_master/
+
+# === Auto-fetched upstream-deposit artefacts not needed at runtime ===
+# (Howlett 2025: only S4.xlsx is read by the loader; S1/S2/S3 + the PDF are
+# downloaded as part of the Zenodo bundle but never used)
+data/thermochronology_andes_frontal/howlett2025/Mercedario-Tect-Dataset_S1.xlsx
+data/thermochronology_andes_frontal/howlett2025/Mercedario-Tect-Dataset_S2.zip
+data/thermochronology_andes_frontal/howlett2025/Mercedario-Tect-Dataset_S3.xlsx
+data/thermochronology_andes_frontal/howlett2025/Howlett-etal-2024-SuppMaterial.pdf
+data/thermochronology_andes_frontal/howlett2025/S2_unzipped/
+
+# === macOS xattr droppings ===
+**/__MACOSX/
+**/.DS_Store

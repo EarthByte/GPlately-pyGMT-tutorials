@@ -1,0 +1,50 @@
+hotspot,lat,lon,lon_180,count,uncertain,he_ratio,tomo_anomaly,raw_rest
+Afar,10.0,43.0,43.0,4,False,high,slow,no Ethiopia 30 1 good high slow 4
+Ascension,-8.0,346.0,-14.0,0,True,,,no no / na na na 0 O+?
+Australia E,-38.0,143.0,143.0,1,True,,,yes no / 0.9 fair na 0 1+?
+Azores,39.0,332.0,-28.0,1,True,high,,no? no / 1.1 fair high? 0 1+?
+Baja/Guadalupe,27.0,247.0,-113.0,0,True,low,,yes? no / 0.3 poor low 0 O+?
+Balleny,-67.0,163.0,163.0,0,True,,,no no / na na na 0 0+?
+Bermuda,33.0,293.0,-67.0,0,True,,,no no? / 1.1 good na 0 O+?
+Bouvet,-54.0,2.0,2.0,1,True,high,,no no / 0.4 fair high 0 1+?
+Bowie,53.0,225.0,-135.0,2,True,,slow,yes no / 0.3 poor na slow 2+?
+Cameroon,4.0,9.0,9.0,0,True,,,yes? no / na na na 0 0+?
+Canary,28.0,340.0,-20.0,2,False,low,slow,no no / 1 fair low slow 2
+Cape Verde,14.0,340.0,-20.0,2,False,high,,no no / 1.6 poor high 0 2
+Caroline,5.0,164.0,164.0,3,False,high,,yes no / 2 poor high 0 3
+Comores,-12.0,43.0,43.0,0,True,,,no no / na na na 0 O+?
+Crozet/Pr. Edward,-45.0,50.0,50.0,0,True,,,yes? Karoo? 183 0.5 good na 0 O+?
+Darfur,13.0,24.0,24.0,0,True,,,yes? no / na poor na 0 O+?
+Discovery,-42.0,0.0,0.0,1,True,high,,no? no / 0.5 poor high 0 1+?
+Easter,-27.0,250.0,-110.0,4,True,high,slow,yes mid-Pac mnt? 1002 3 fair high slow 4+?
+Eifel,50.0,7.0,7.0,0,True,,,yes? no / na na na 0 0+?
+Fernando,-4.0,328.0,-32.0,0,True,,,yes? CAMP? 201? «0.5 poor na 0 O+?
+Galapagos,0.0,268.0,-92.0,2,True,high,,yes? Carribean? 90 1 fair high 0 2+?
+Great Meteor/New England,28.0,328.0,-32.0,0,True,,,yes? no? / 0.5 poor na 0 O+?
+Hawaii,20.0,204.0,-156.0,4,True,high,slow,yes subducted? >80? 8.7 good high slow 4+?
+Hoggar,23.0,6.0,6.0,1,False,,slow,no No / 0.9 poor na slow 1
+Iceland,65.0,340.0,-20.0,4,True,high,slow,yes? Greenland 61 1.4 good high slow 4+?
+Jan Mayen,71.0,352.0,-8.0,1,True,,slow,no? yes? / na poor na slow 1+?
+Juan de Fuca/Cobb,46.0,230.0,-130.0,2,True,,slow,yes no / 0.3 fair na slow 2+?
+Juan Fernandez,-34.0,277.0,-83.0,2,True,high,,yes? no / 1.6 poor high 0 2+?
+Kerguelen(Heard),-49.0,69.0,69.0,2,True,high,,yes Rajmahal? 118 0.5 poor high 0 2+?
+Louisville,-51.0,219.0,-141.0,3,True,,slow,yes Ontong-Java 122 0.9 poor na slow 3+?
+Lord Howe (Tasman East),-33.0,159.0,159.0,1,True,,slow,yes? no / 0.9 poor na slow 1+?
+Macdonald (Cook-Austral),-30.0,220.0,-140.0,2,True,high,slow,yes? yes? / 3.3 fair high? slow 2+?
+Marion,-47.0,38.0,38.0,1,True,,,yes Madagascar? 88 na na na 0 1+?
+Marquesas,-10.0,222.0,-138.0,2,True,low,,yes Shatski? 22? 3.3 na low 0 2+?
+Martin/Trindade,-20.0,331.0,-29.0,0,True,,fast,yes? no / 0.5 poor na fast O+?
+Meteor,-52.0,1.0,1.0,0,True,,,yes? no / 0.5 poor na 0 O+?
+Pitcairn,-26.0,230.0,-130.0,2,True,high,,yes no / 3.3 fair high? 0 2+?
+Raton,37.0,256.0,-104.0,1,True,,slow,yes? no / na na na slow 1+?
+Reunion,-21.0,56.0,56.0,4,False,high,,yes Deccan 65 1.9 poor high 0 4
+St Helena,-17.0,340.0,-20.0,1,False,low,,yes no / 0.5 poor low 0 1
+Samoa,-14.0,190.0,-170.0,4,False,high,slow,yes no? 14? 1.6 poor high slow 4
+San Felix,-26.0,280.0,-80.0,1,True,,,yes? no / 1.6 poor na 0 1+?
+Socorro,19.0,249.0,-111.0,1,True,,slow,no no / na poor na slow 1+?
+Tahiti/Society,-18.0,210.0,-150.0,2,True,high,,yes no / 3.3 fair high? 0 2+?
+Tasmanid (Tasman central),-39.0,156.0,156.0,2,False,,slow,yes no / 0.9 poor na slow 2
+Tibesti,21.0,17.0,17.0,0,True,,,yes? no / na poor na 0 O+?
+Tristan,-37.0,348.0,-12.0,3,False,low,,yes Parana 133 1.7 poor low 0 3
+Vema,-33.0,4.0,4.0,0,True,,,yes? yes? (Orange R.)/ na poor na 0 0+?
+Yellowstone,44.0,249.0,-111.0,2,True,high,,yes? Columbia? 16 1.5 fair high 0 2+?
