@@ -149,6 +149,10 @@ data/thermochronology/
 data/thermochronology_central_asia/thermochron_master/
 data/thermochronology_central_asia/kinematics_master/
 data/gmcm9/
+# Young et al. (2022) gld428 dynamic-topography grids — bundled as a
+# Zenodo zip (0-980 Ma at 20-Myr cadence, ~810 MB). Downloaded and extracted
+# to this path by the user; too large for GitHub.
+data/Young2022_gld428_grids_20Myr/
 
 # === Runtime per-snapshot caches (rebuilt by notebook on first run) ===
 **/thermochron_master/
