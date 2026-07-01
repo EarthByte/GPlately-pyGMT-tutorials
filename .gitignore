@@ -164,6 +164,12 @@ data/thermochronology_andes_frontal/howlett2025/Mercedario-Tect-Dataset_S3.xlsx
 data/thermochronology_andes_frontal/howlett2025/Howlett-etal-2024-SuppMaterial.pdf
 data/thermochronology_andes_frontal/howlett2025/S2_unzipped/
 
+# === Deprecated / withdrawn notebooks retained locally ===
+# Notebooks_extras/ holds notebooks removed from the public suite (at
+# co-author request or after scope trimming) but kept on disk for
+# personal reference. Never pushed to the public repository.
+Notebooks_extras/
+
 # === macOS xattr droppings ===
 **/__MACOSX/
 **/.DS_Store
