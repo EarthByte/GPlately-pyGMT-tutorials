@@ -177,3 +177,9 @@ Notebooks_extras/
 # === macOS xattr droppings ===
 **/__MACOSX/
 **/.DS_Store
+
+# Derived flat CSV — built by T55 cell 6 build_na_csv_from_usgs_geochron on
+# first run from the bundled USGS Geochron v4 CSVs. Cheap to rebuild
+# (~5 sec); NOT committed so user config changes to MAX_SAMPLE_AGE_MA are
+# picked up automatically.
+data/thermochronology_north_america/na_thermal_histories.csv
