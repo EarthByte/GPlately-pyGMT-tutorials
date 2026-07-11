@@ -183,3 +183,11 @@ Notebooks_extras/
 # (~5 sec); NOT committed so user config changes to MAX_SAMPLE_AGE_MA are
 # picked up automatically.
 data/thermochronology_north_america/na_thermal_histories.csv
+
+# Author-contributed script archives — kept locally for reference,
+# never pushed to the public repository (Brune 2016 rifting script etc.)
+author_contributed_scripts/
+
+# Reference clone of the pyDTDM library — external, kept locally for
+# inspiration, never pushed.
+pyDTDM-main/
