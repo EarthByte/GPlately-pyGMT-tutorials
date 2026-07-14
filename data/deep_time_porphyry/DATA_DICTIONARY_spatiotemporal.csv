@@ -1,0 +1,39 @@
+column,unit,group,description
+"present_lon, present_lat",deg,metadata,Present-day deposit / sample location
+"lon, lat",deg,metadata,Reconstructed (paleo) location at 'age (Ma)'
+age (Ma),Ma,metadata,Reconstruction time step
+label / label_binary,-,target,Known deposit (1) vs unlabelled background (0)
+region,-,metadata,Geographic region tag
+crustal_thickness_mean (m),see name,Crustal Thickness,Deep-time geodynamic predictor sampled along trajectory
+carbonate_thickness (m),see name,Material Input to Trench,Deep-time geodynamic predictor sampled along trajectory
+crustal_thickness_max (m),see name,Crustal Thickness,Deep-time geodynamic predictor sampled along trajectory
+subducted_sediment_volume (m),see name,Material Input to Trench,Deep-time geodynamic predictor sampled along trajectory
+trench_velocity_parallel (cm/yr),see name,Trench Kinematics,Deep-time geodynamic predictor sampled along trajectory
+seafloor_spreading_rate (km/Myr),see name,Material Input to Trench,Deep-time geodynamic predictor sampled along trajectory
+slab_flux (m^2/yr),see name,Material Input to Trench,Deep-time geodynamic predictor sampled along trajectory
+subducting_plate_absolute_velocity (cm/yr),see name,Plate & Slab Kinematics,Deep-time geodynamic predictor sampled along trajectory
+co2_volume (m^3/m^2),see name,Material Input to Trench,Deep-time geodynamic predictor sampled along trajectory
+sediment_thickness (m),see name,Material Input to Trench,Deep-time geodynamic predictor sampled along trajectory
+convergence_rate_orthogonal (cm/yr),see name,Plate & Slab Kinematics,Deep-time geodynamic predictor sampled along trajectory
+convergence_obliquity (degrees),see name,Plate & Slab Kinematics,Deep-time geodynamic predictor sampled along trajectory
+crustal_thickness_std (m),see name,Crustal Thickness,Deep-time geodynamic predictor sampled along trajectory
+seafloor_age (Ma),see name,Material Input to Trench,Deep-time geodynamic predictor sampled along trajectory
+trench_velocity (cm/yr),see name,Trench Kinematics,Deep-time geodynamic predictor sampled along trajectory
+crustal_thickness_min (m),see name,Crustal Thickness,Deep-time geodynamic predictor sampled along trajectory
+subducting_plate_absolute_velocity_orthogonal (cm/yr),see name,Plate & Slab Kinematics,Deep-time geodynamic predictor sampled along trajectory
+trench_velocity_orthogonal (cm/yr),see name,Trench Kinematics,Deep-time geodynamic predictor sampled along trajectory
+convergence_rate_parallel (cm/yr),see name,Plate & Slab Kinematics,Deep-time geodynamic predictor sampled along trajectory
+trench_velocity_obliquity (degrees),see name,Plate & Slab Kinematics,Deep-time geodynamic predictor sampled along trajectory
+subducted_plate_volume (m),see name,Material Input to Trench,Deep-time geodynamic predictor sampled along trajectory
+slab_dip (degrees),see name,Slab Geometry & Architecture,Deep-time geodynamic predictor sampled along trajectory
+subducted_water_volume (m),see name,Material Input to Trench,Deep-time geodynamic predictor sampled along trajectory
+subducted_carbonates_volume (m),see name,Material Input to Trench,Deep-time geodynamic predictor sampled along trajectory
+crustal_thickness_median (m),see name,Crustal Thickness,Deep-time geodynamic predictor sampled along trajectory
+crustal_thickness_range (m),see name,Crustal Thickness,Deep-time geodynamic predictor sampled along trajectory
+convergence_rate (cm/yr),see name,Plate & Slab Kinematics,Deep-time geodynamic predictor sampled along trajectory
+subducting_plate_absolute_velocity_parallel (cm/yr),see name,Plate & Slab Kinematics,Deep-time geodynamic predictor sampled along trajectory
+subducting_plate_absolute_obliquity (degrees),see name,Plate & Slab Kinematics,Deep-time geodynamic predictor sampled along trajectory
+water_thickness (m),see name,Material Input to Trench,Deep-time geodynamic predictor sampled along trajectory
+arc_trench_distance (km),see name,Slab Geometry & Architecture,Deep-time geodynamic predictor sampled along trajectory
+tonnage_mt_contained_cu,Mt,metadata,Contained copper tonnage
+weights,-,metadata,PU sample weight

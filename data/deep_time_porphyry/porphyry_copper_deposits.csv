@@ -1,0 +1,472 @@
+name,latitude,longitude,deposit_type,deposit_subtype,age_ma,age_method,tonnage_mt,cu_pct,mo_pct,au_g_t,major_commodities,state_prov,country,reference
+Sierra de San Carlos,24.679959139,-99.084869884,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au",Tamaulipas,Mexico,Hammarstrom and others (2010)
+Las Higueras,25.013372363,-107.238725208,Porphyry copper,,49.0,K-Ar sericite,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Mo",Sinaloa,Mexico,Hammarstrom and others (2010)
+La Desencantada,25.027931153,-107.410508847,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au",Sinaloa,Mexico,Hammarstrom and others (2010)
+Tameapa,25.668443652,-107.351600247,Porphyry copper,,54.0,Re-Os molybdenite,50.0,0.4,-9999.0,-9999.0,,Sinaloa,Mexico,Hammarstrom and others (2010)
+Cerro Colorado,26.254716875,-107.333093343,Porphyry copper,,46.3,K-Ar sericite,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Mo",Chihuahua,Mexico,Hammarstrom and others (2010)
+Dos Amigos,26.708677333,-100.986320414,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Mo, Cu",Coahuila,Mexico,Hammarstrom and others (2010)
+Santo Tomas,26.717194424,-108.23385561,Porphyry copper,,57.2,K-Ar biotite,274.0,0.5,-9999.0,0.05,"Cu, Au",Sinaloa,Mexico,Hammarstrom and others (2010)
+Cerro Chileno,26.817242333,-108.208303257,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Au, Cu",Sinaloa,Mexico,Hammarstrom and others (2010)
+Satevo,26.987777125,-107.719058724,Porphyry copper,,51.6,K-Ar biotite,-9999.0,-9999.0,-9999.0,-9999.0,,Chihuahua,Mexico,Hammarstrom and others (2010)
+Tahonas,27.013404947,-107.754415588,Porphyry copper,,33.95,unknown,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Chihuahua,Mexico,Hammarstrom and others (2010)
+Bahuerachi,27.015060529,-108.121252336,Porphyry copper,,65.7,unknown,604.7,0.393,0.008,0.032,Cu,Chihuahua,Mexico,Hammarstrom and others (2010)
+Cerro Colorado (Batopilas),27.110374151,-107.710582103,Porphyry copper,,51.6,K-Ar biotite,-9999.0,-9999.0,-9999.0,-9999.0,,Chihuahua,Mexico,Hammarstrom and others (2010)
+Piedras Verdes,27.162810118,-109.012326059,Porphyry copper,,60.0,Re-Os,288.0,0.37,-9999.0,-9999.0,,Sonora,Mexico,Hammarstrom and others (2010)
+El Datilon,27.433241453,-114.30065169,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Baja California Sur,Mexico,Hammarstrom and others (2010)
+Batacosa,27.607623714,-109.366680375,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Sonora,Mexico,Hammarstrom and others (2010)
+Arco Sur,27.993282735,-113.42895739,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Au, Cu, Mo",Baja California Sur,Mexico,Hammarstrom and others (2010)
+El Arco,28.032788298,-113.396892972,Porphyry copper,,164.1,Re-Os molybdenite,1016.0,0.518,-9999.0,0.12,"Cu, Au",Baja California,Mexico,Hammarstrom and others (2010)
+Cuatro Hermanos,28.388016681,-109.644997236,Porphyry copper,,55.7,Re-Os molybdenite,764.0,0.18,0.02,-9999.0,,Sonora,Mexico,Hammarstrom and others (2010)
+Los Verdes,28.394675443,-109.149571804,Porphyry copper,,49.3,unknown,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Mo, W, Ag",Sonora,Mexico,Hammarstrom and others (2010)
+Suaqui Verde,28.399375589,-109.802084606,Porphyry copper,,57.0,Re-Os molybdenite,87.2,0.43,-9999.0,-9999.0,,Sonora,Mexico,Hammarstrom and others (2010)
+Aurora,28.526608387,-109.621391469,Porphyry copper,,53.0,unknown,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Mo, Au",Sonora,Mexico,Hammarstrom and others (2010)
+San Javier,28.60454398,-109.714920859,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Sonora,Mexico,Hammarstrom and others (2010)
+Luz del Cobre,28.627378399,-109.642185445,Porphyry copper,,-9999.0,Geologic inference,14.7,0.74,-9999.0,-9999.0,,Sonora,Mexico,Hammarstrom and others (2010)
+Picacho,29.183313506,-110.72345632,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,,Sonora,Mexico,Hammarstrom and others (2010)
+La Sierrita/La Cobriza,29.395054928,-111.30287173,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Sonora,Mexico,Hammarstrom and others (2010)
+Red Hills,29.805,-104.402777778,Porphyry copper,,60.2,unknown,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Texas,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Cumobabi,29.870459217,-109.962058117,Porphyry copper,Cu-Mo,58.7,Re-Os molybdenite,67.0,0.266,0.099,-9999.0,Mo,Sonora,Mexico,Hammarstrom and others (2010)
+Cobre Rico,29.876695887,-109.985413652,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Mo, Cu",Sonora,Mexico,Hammarstrom and others (2010)
+Washington,29.895010855,-110.067797514,Porphyry copper,,45.7,K-Ar sericite,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Mo, W",Sonora,Mexico,Hammarstrom and others (2010)
+La Fortuna,30.078448983,-112.49466488,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Sonora,Mexico,Hammarstrom and others (2010)
+La Bella Esperanza,30.256003358,-109.698222698,Porphyry copper,,55.9,whole rock,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Sonora,Mexico,Hammarstrom and others (2010)
+La Caridad,30.314444862,-109.559412055,Porphyry copper,,53.7,Re-Os molybdenite (average),1800.0,0.452,0.0247,-9999.0,,Sonora,Mexico,Hammarstrom and others (2010)
+Pilares,30.330446983,-109.629364652,Porphyry copper,,53.0,unknown,147.0,1.04,-9999.0,-9999.0,,Sonora,Mexico,Hammarstrom and others (2010)
+La Florida,30.379022821,-109.725361997,Porphyry copper,,52.4,K-Ar sericite,135.0,0.33,-9999.0,-9999.0,,Sonora,Mexico,Hammarstrom and others (2010)
+El Batamote,30.449581096,-109.7713834,Porphyry copper,,56.8,K-Ar biotite,4.4,0.36,-9999.0,-9999.0,"Cu, Au",Sonora,Mexico,Hammarstrom and others (2010)
+El Alacran,30.844819187,-110.200946998,Porphyry copper,,60.9,Re-Os molybdenite,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Mo",Sonora,Mexico,Hammarstrom and others (2010)
+Cananea,30.954136808,-110.322122272,Porphyry copper,Cu-Mo,59.3,Re-Os molybdenite,7140.0,0.42,0.008,0.012,,Sonora,Mexico,Hammarstrom and others (2010)
+Mariquita,31.044522181,-110.42621607,Porphyry copper,,63.0,unknown,100.0,0.45,-9999.0,-9999.0,,Sonora,Mexico,Hammarstrom and others (2010)
+Milpillas,31.113025795,-110.427788529,Porphyry copper,,63.1,Re-Os molybdenite,230.0,0.85,-9999.0,-9999.0,,Sonora,Mexico,Hammarstrom and others (2010)
+El Pilar,31.205766448,-110.673554396,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,,Sonora,Mexico,Hammarstrom and others (2010)
+Los Humos,31.231049758,-111.917883004,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Sonora,Mexico,Hammarstrom and others (2010)
+Four Metals,31.399781388,-110.736993201,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Arizona,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Bisbee,31.431944444,-109.901388889,Porphyry copper,,180.0,unknown,346.6,0.656,-9999.0,0.016,Cu,Arizona,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Sunnyside,31.451111111,-110.746111111,Porphyry copper,,-9999.0,not dated,180.0,0.61,0.02,-9999.0,Cu,Arizona,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Ventura,31.461567722,-110.771269592,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Arizona,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Red Mountain,31.49,-110.72,Porphyry copper,,60.0,unknown,570.0,0.63,-9999.0,-9999.0,Cu,Arizona,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Two Peaks,31.768055556,-110.461944444,Porphyry copper,,74.0,unknown,29.0,0.3,-9999.0,-9999.0,Cu,Arizona,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Turquoise,31.77391992,-109.824007502,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Arizona,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Rosemont-Helvetia,31.83,-110.76,Porphyry copper,,59.0,unknown,952.0,0.552,0.0055,0.019,Cu,Arizona,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Esperanza-Sierrita,31.870466718,-111.134582473,Porphyry copper,Cu-Mo,55.0,unknown,2262.0,0.294,0.0292,0.003,Cu,Arizona,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Twin Buttes,31.892777778,-111.035277778,Porphyry copper,Cu-Mo,58.0,unknown,940.0,0.502,0.023,0.019,Cu,Arizona,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Dynamite,31.922090277,-111.057083304,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Arizona,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Mission-Pima,31.988862697,-111.067493527,Porphyry copper,,58.0,unknown,900.0,0.52,0.015,-9999.0,Cu,Arizona,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Dragoon,32.017587827,-110.051144142,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Arizona,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+San Xavier North,32.027730394,-111.080365201,Porphyry copper,,56.0,unknown,208.0,0.54,-9999.0,-9999.0,Cu,Arizona,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Gunnison,32.083082568,-110.035221819,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Arizona,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Johnson Camp,32.098611111,-110.065,Porphyry copper,,53.0,unknown,250.0,0.489,0.011,-9999.0,Cu,Arizona,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Steins,32.183448979,-109.021870122,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,Cu,New Mexico,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Lordsburg,32.312046351,-108.753279011,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,Cu,New Mexico,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Ajo,32.356944444,-112.865277778,Porphyry copper,,63.0,unknown,742.0,0.576,0.0089,0.16,Cu,Arizona,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Korn Kob,32.385239821,-110.577235222,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Arizona,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Silver Bell,32.403618415,-111.524878178,Porphyry copper,Cu-Mo,68.0,unknown,268.0,0.66,0.013,0.026,Cu,Arizona,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+SOL,32.436659048,-106.586756075,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,Cu,New Mexico,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Orogrande,32.444424348,-106.117400245,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,Cu,New Mexico,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Oracle Ridge,32.477529998,-110.722151102,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Arizona,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Lakeshore,32.523888889,-111.904722222,Porphyry copper,,66.0,unknown,716.7,0.657,-9999.0,0.17,Cu,Arizona,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Gold Lake,32.553041618,-108.331112552,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,Cu,New Mexico,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Vekol Hills,32.582201179,-112.059914464,Porphyry copper,,-9999.0,not dated,95.0,0.56,0.014,-9999.0,Cu,Arizona,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Tyrone,32.644006002,-108.372292898,Porphyry copper,Cu-Mo,54.0,Ar-Ar(?),1050.0,0.49,0.013,0.0015,Cu,New Mexico,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+San Manuel-Kalamazoo,32.699722222,-110.677777778,Porphyry copper,Cu-Mo,68.0,unknown,1390.0,0.6,0.011,0.017,Cu,Arizona,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Lone Mountain,32.718437905,-108.17713408,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,Cu,New Mexico,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Copper Creek,32.75,-110.48,Porphyry copper,,58.0,unknown,75.3,0.75,0.0046,-9999.0,Cu,Arizona,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Chino,32.792615936,-108.070219143,Porphyry copper,,56.0,unknown,3030.0,0.468,0.008,0.56,Cu,New Mexico,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Hanover Mountain,32.846388889,-108.090555556,Porphyry copper,,64.0,unknown,1406.0,0.34,-9999.0,0.01,Cu,New Mexico,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Sanchez,32.883360061,-109.546223363,Porphyry copper,Cu-Au,-9999.0,not dated,173.0,0.317,-9999.0,0.34,Cu,Arizona,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Casa Grande West,32.897250182,-111.880544616,Porphyry copper,Cu-Mo,68.0,unknown,1450.0,0.588,0.008,0.011,Cu,Arizona,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Safford,32.946351777,-109.628261431,Porphyry copper,Cu-Au,48.0,K-Ar,7260.0,0.441,0.004,0.17,Cu,Arizona,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Sacaton,32.954722222,-111.816111111,Porphyry copper,,63.0,unknown,48.6,0.72,0.014,-9999.0,Cu,Arizona,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Copper Flat,32.970323784,-107.53391547,Porphyry copper,,75.0,unknown,61.7,0.36,0.0128,0.18,Cu,New Mexico,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Red Hills,33.036111111,-111.216111111,Porphyry copper,,65.0,unknown,453.5,0.1,-9999.0,-9999.0,Cu,Arizona,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Poston Butte,33.037685528,-111.429555982,Porphyry copper,,62.0,unknown,726.0,0.38,-9999.0,-9999.0,Cu,Arizona,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Christmas,33.06,-110.745277778,Porphyry copper,,64.0,unknown,48.1,1.1,-9999.0,0.01,Cu,Arizona,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Chilito,33.065277778,-110.796111111,Porphyry copper,,-9999.0,not dated,199.0,0.3,-9999.0,-9999.0,Cu,Arizona,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Morenci-Metcalf,33.103611111,-109.361111111,Porphyry copper,Cu-Mo,56.0,unknown,6470.0,0.524,0.0095,0.028,Cu,Arizona,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Mineral Butte,33.11,-111.58,Porphyry copper,,70.0,unknown,13.0,0.4,-9999.0,-9999.0,Cu,Arizona,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Buckeye East,33.136650179,-111.090715383,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Arizona,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Copper Butte,33.147680624,-111.063019868,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Arizona,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Ray,33.163611111,-110.983055556,Porphyry copper,,69.0,unknown,1583.0,0.68,0.001,-9999.0,Cu,Arizona,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Resolution,33.292903237,-111.051738235,Porphyry copper,,64.0,unknown,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Arizona,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Superior East,33.32730338,-111.01913652,Porphyry copper,,60.0,unknown,996.0,0.498,-9999.0,-9999.0,Cu,Arizona,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Gibson,33.332849536,-110.94352104,Porphyry copper,,61.0,unknown,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Arizona,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Morgan Peak,33.33614169,-110.902070451,Porphyry copper,,61.0,unknown,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Arizona,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Miami-Inspiration,33.408255012,-110.875399558,Porphyry copper,Cu-Mo,64.0,unknown,1591.0,0.63,0.01,0.009,Cu,Arizona,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Castle Dome,33.413278156,-110.963403283,Porphyry copper,,59.0,unknown,1438.0,0.33,0.0055,0.034,Cu,Arizona,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Mudpuppy-Waterdog,33.475622232,-105.740554157,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au",New Mexico,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Stray Elephant,33.64134844,-114.37016718,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Arizona,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Sheep Mountain,34.038187022,-112.354070364,Porphyry copper,,-9999.0,not dated,318.0,0.99,-9999.0,-9999.0,Cu,Arizona,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Swansea,34.168776131,-113.841167746,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Arizona,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Zonia,34.301730389,-112.632582808,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Arizona,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Pine Flat,34.368888889,-112.351944444,Porphyry copper,,-9999.0,not dated,25.0,0.36,0.008,0.17,Cu,Arizona,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Squaw Peak,34.480277778,-111.865277778,Porphyry copper,,-9999.0,not dated,18.0,0.4,-9999.0,-9999.0,Cu,Arizona,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Copper Basin,34.490644226,-112.58788475,Porphyry copper,,64.0,unknown,228.0,0.4,0.0145,-9999.0,Cu,Arizona,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Bagdad,34.585833333,-113.211944444,Porphyry copper,Cu-Mo,71.8,Re-Os,1600.0,0.4,0.01,0.0011,Cu,Arizona,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Kabba,35.09438003,-113.723210713,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Arizona,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Cunningham Gulch,35.338355541,-106.136074196,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,Cu,New Mexico,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Ithaca Peak,35.362350767,-114.142649426,Porphyry copper,Cu-Mo,73.0,unknown,876.5,0.143,0.035,0.027,Cu,Arizona,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Emerald Isle,35.362533814,-114.191797936,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Arizona,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Cerrillos,35.478810207,-106.122164115,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,Cu,New Mexico,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Crescent Peak,35.483333333,-115.133333333,Porphyry copper,,94.0,K-Ar,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Nevada,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Allard,37.406944444,-108.088055556,Porphyry copper,,68.0,unknown,200.0,0.4,-9999.0,-9999.0,Cu,Colorado,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Summitville,37.423058844,-106.596726409,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Colorado,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Red Mountain,37.911160117,-107.672407526,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Colorado,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+The Blowout,38.040598193,-107.670406769,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Colorado,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Royston,38.333333333,-117.5,Porphyry copper,,207.0,unknown,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Nevada,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+OK,38.480555556,-113.299722222,Porphyry copper,,28.0,unknown,10.0,0.5,0.023,-9999.0,Cu,Utah,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+SFS,38.491944444,-118.075,Porphyry copper,,105.0,unknown,159.0,0.46,-9999.0,-9999.0,Cu,Nevada,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Tomichi,38.5667,-106.3702,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Colorado,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Red Hills,38.616666667,-118.433333333,Porphyry copper,,105.0,unknown,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Nevada,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Sullivan,38.78,-117.95,Porphyry copper,Cu-Au,81.0,unknown,23.1,0.33,-9999.0,0.58,"Cu, Au, Ag",Nevada,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Bounder,38.861243379,-118.449326344,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Nevada,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Ellison,38.90523257,-114.926198526,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Nevada,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Ann Mason,38.96,-119.27,Porphyry copper,,169.0,unknown,2250.0,0.29,0.005,0.025,"Cu, Mo",Nevada,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Yerington,38.98,-119.2,Porphyry copper,,167.0,unknown,928.0,0.514,-9999.0,0.046,Cu,Nevada,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Paradise Basin,38.990736572,-107.060376599,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Colorado,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Buckskin,38.992590125,-119.353627422,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Nevada,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Bear-Lagomarsino,39.03,-119.18,Porphyry copper,,-9999.0,not dated,454.0,0.4,-9999.0,-9999.0,Cu,Nevada,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+MacArthur,39.05,-119.24,Porphyry copper,,161.0,unknown,88.0,0.21,-9999.0,-9999.0,Cu,Nevada,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Afterthought,39.165060184,-118.778148546,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Nevada,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Monte Cristo,39.239502775,-115.568690389,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Nevada,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Ely,39.26,-114.999444444,Porphyry copper,,110.0,unknown,754.0,0.613,0.01,0.27,Cu,Nevada,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Timberline Lake,39.29515359,-106.473450508,Porphyry copper,,36.0,K-Ar,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Colorado,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Butte Valley,39.8,-115.15,Porphyry copper,,-9999.0,not dated,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Nevada,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Southwest Tintic,39.858055556,-112.125,Porphyry copper,,36.0,unknown,559.0,0.28,0.01,-9999.0,Cu,Utah,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Lights Creek,40.195,-120.853888889,Porphyry copper,,100.0,unknown,318.0,0.34,-9999.0,0.05,Cu,California,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Kennedy,40.266666667,-117.75,Porphyry copper,,29.0,unknown,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Nevada,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+A-O,40.323874616,-106.248672142,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Colorado,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Victoria,40.328557402,-114.551574696,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Nevada,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Delcer Buttes,40.369694433,-115.084798239,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Nevada,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Fish Creek,40.416666667,-117.216666667,Porphyry copper,,89.0,unknown,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Nevada,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Bingham,40.529166667,-112.153888889,Porphyry copper,,37.0,Re-Os,3230.0,0.882,0.053,0.38,Cu,Utah,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Copper Canyon,40.546944444,-117.126666667,Porphyry copper,Cu-Au,38.0,unknown,56.8,0.48,-9999.0,0.77,Cu,Nevada,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Buffalo Valley,40.605237466,-117.249623588,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Nevada,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Buckingham-Copper Basin,40.611758318,-117.05173177,Porphyry copper,Cu-Mo,88.0,K-Ar,962.0,0.05,0.06,-9999.0,Cu,Nevada,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Park Premier,40.625,-111.379722222,Porphyry copper,,33.0,unknown,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Utah,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Elder Creek,40.6875,-117.083333333,Porphyry copper,,38.0,unknown,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Nevada,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Contact,41.766944444,-114.766944444,Porphyry copper,,150.0,unknown,55.8,0.77,-9999.0,-9999.0,Cu,Nevada,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Caribou Mountain,43.093055556,-111.323055556,Porphyry copper,,50.0,unknown,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Idaho,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Kirwin,43.870973424,-109.288049015,Porphyry copper,Cu-Mo,40.0,unknown,118.0,0.76,0.02,0.03,Cu,Wyoming,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Yellow Ridge,43.903591489,-109.337094815,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Wyoming,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Robinson Creek,43.9957794,-109.781591452,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Wyoming,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Stinkingwater,44.019333285,-109.630452245,Porphyry copper,,28.0,unknown,59.0,0.35,-9999.0,-9999.0,Cu,Wyoming,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Silver Creek,44.026172981,-109.673429517,Porphyry copper,,40.0,unknown,54.0,0.31,-9999.0,-9999.0,Cu,Wyoming,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Cumo,44.03495184,-115.783608632,Porphyry copper,,-9999.0,not dated,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Mo, Ag",Idaho,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Clouds Home Peak,44.254111396,-109.726640507,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Wyoming,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Eagle Creek,44.382678997,-110.0015796,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Wyoming,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Sunlight,44.624710221,-109.752944126,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Wyoming,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+New World,45.06652132,-109.959940941,Porphyry copper,,-9999.0,not dated,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Montana,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Goose Lake,45.114812985,-109.910092231,Porphyry copper,,-9999.0,not dated,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Montana,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Independence,45.215293396,-110.217875504,Porphyry copper,,-9999.0,not dated,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Montana,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Emigrant,45.264110977,-110.651163024,Porphyry copper,,-9999.0,not dated,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Montana,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Bobcat Gulch,45.356388889,-113.993888889,Porphyry copper,,-9999.0,not dated,54.4,0.5,-9999.0,-9999.0,Cu,Idaho,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Gold Hill,45.602694822,-109.935979925,Porphyry copper,,-9999.0,not dated,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Montana,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Continental/Butte,46.017222222,-112.511111111,Porphyry copper,Cu-Mo,60.0,unknown,5220.0,0.673,0.028,0.042,Cu,Montana,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Radersburg,46.183632145,-111.657380034,Porphyry copper,,-9999.0,not dated,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Montana,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Morning Glory,46.31168505,-111.66954129,Porphyry copper,,-9999.0,not dated,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Montana,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Beavertown,46.340315984,-112.079494834,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Montana,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Golconda,46.341507205,-111.996477749,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Montana,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Margaret,46.356388889,-122.080833333,Porphyry copper,,16.0,unknown,523.0,0.36,0.011,0.24,Cu,Washington,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Chessman,46.471275012,-112.179653769,Porphyry copper,,-9999.0,not dated,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Montana,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Rochester,46.887508567,-112.567632445,Porphyry copper,,-9999.0,not dated,-9999.0,-9999.0,-9999.0,-9999.0,Cu,Montana,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Heddleston,47.025833333,-112.36,Porphyry copper,,46.0,unknown,302.0,0.36,0.005,0.053,Cu,Montana,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Middle Fork,47.5,-121.366666667,Porphyry copper,,25.0,unknown,93.0,0.41,0.02,-9999.0,Cu,Washington,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+North Fork Snoqualmie River,47.6775,-121.636388889,Porphyry copper,,18.0,unknown,128.0,0.68,0.0082,0.1,Cu,Washington,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Sunrise,48.008611111,-121.503611111,Porphyry copper,Cu-Mo,28.0,unknown,63.9,0.35,0.026,0.023,Cu,Washington,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Mount Tolman,48.055722436,-118.695358157,Porphyry copper,Cu-Mo,-9999.0,Geologic inference,2400.0,0.09,0.056,-9999.0,Cu,Washington,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Glacier Peak,48.197777778,-120.979166667,Porphyry copper,,21.0,unknown,1710.0,0.334,0.015,-9999.0,Cu,Washington,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Gold Mountain,48.215833333,-121.334166667,Porphyry copper,,-9999.0,not dated,40.0,0.5,-9999.0,-9999.0,Cu,Washington,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Mazama,48.614722222,-120.381944444,Porphyry copper,,88.0,unknown,135.0,0.36,0.006,0.03,Cu,Washington,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Kelsey,48.988035747,-119.471211333,Porphyry copper,,179.0,unknown,285.0,0.281,0.0147,-9999.0,Cu,Washington,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Lexington-Lone Star,49.011706107,-118.615314604,Porphyry copper,Cu-Au,57.0,K-Ar,19.5,0.56,-9999.0,0.55,"Cu, Au, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+King Edward,49.107205978,-119.812014844,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Mo, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Katie,49.148106257,-117.3369144,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au, Zn",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Giant Copper AM Breccia,49.163605844,-121.02471507,Porphyry copper,Cu-Mo,22.0,K-Ar,29.5,0.65,0.007,0.011,"Cu, Au, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Giant Copper No. 1,49.170605844,-121.027815072,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Ag, Pb, Zn",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Prince,49.17170596,-120.002214895,Porphyry molybdenum-copper,,168.0,U-Pb,-9999.0,-9999.0,-9999.0,-9999.0,"Mo, Cu, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Invermay,49.177775844,-121.031405075,Porphyry copper,Cu-Au,22.0,Inferred from K-Ar age for Giant Copper AM Breccia,15.33,0.21,-9999.0,0.38,"Ag, Zn, Pb",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Hecate Bay,49.247805276,-125.956915865,Porphyry copper,,49.0,Inferred from K-Ar age for Catface,-9999.0,-9999.0,-9999.0,-9999.0,Cu,British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Catface,49.256405273,-125.980815871,Porphyry copper,,49.0,K-Ar,308.0,0.37,0.007,0.05,"Cu, Mo",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Irishman Creek,49.265805273,-125.986915874,Porphyry copper,,49.0,Inferred from K-Ar age for Catface,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Mo, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Reco,49.285305905,-120.54531502,Porphyry copper,,204.0,Inferred from U-Pb zircon age for Copper Mountain,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Marquis of Lorne,49.291905909,-120.513915016,Porphyry copper,,204.0,Inferred from U-Pb zircon age for Copper Mountain,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Whipsaw,49.293305881,-120.759415059,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Mo, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+ILK,49.293905904,-120.555615024,Porphyry copper,,204.0,Inferred from U-Pb zircon age for Copper Mountain,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Friday Creek,49.300005904,-120.560615026,Porphyry copper,,204.0,Inferred from U-Pb zircon age for Copper Mountain,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Jennie Silkman,49.312805911,-120.508115021,Porphyry copper,,204.0,Inferred from U-Pb zircon age for Copper Mountain,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Deep Gulch,49.314205905,-120.55721503,Porphyry copper,,204.0,Inferred from U-Pb zircon age for Copper Mountain,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Oriole,49.31860591,-120.513915023,Porphyry copper,,204.0,Inferred from U-Pb zircon age for Copper Mountain,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Fraser,49.331705907,-120.548915033,Porphyry copper,,204.0,Inferred from U-Pb zircon age for Copper Mountain,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Copper Mountain,49.339405907,-120.556115036,Porphyry copper,Cu-Au,204.0,U-Pb zircon,455.7,0.38,0.001,0.26,"Cu, Au, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Voigt,49.339705913,-120.500815027,Porphyry copper,,204.0,Inferred from U-Pb zircon age for Copper Mountain,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Virginia,49.340605912,-120.511915029,Porphyry copper,,204.0,Inferred from U-Pb zircon age for Copper Mountain,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Alabama,49.342505911,-120.518915031,Porphyry copper,,195.0,K-Ar biotite,29.0,0.35,-9999.0,0.16,"Cu, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+June Bug,49.345005912,-120.516115031,Porphyry copper,,204.0,Inferred from U-Pb zircon age for Copper Mountain,-9999.0,-9999.0,-9999.0,-9999.0,Cu,British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Oronoco,49.345605909,-120.536115034,Porphyry copper,,204.0,Inferred from U-Pb zircon age for Copper Mountain,-9999.0,-9999.0,-9999.0,-9999.0,Cu,British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Duke of York,49.346705908,-120.544415036,Porphyry copper,,204.0,Inferred from U-Pb zircon age for Copper Mountain,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Ray,49.349705908,-120.548615038,Porphyry copper,,204.0,Inferred from U-Pb zircon age for Copper Mountain,-9999.0,-9999.0,-9999.0,-9999.0,Cu,British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+WEL,49.37500587,-120.896915104,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Mo",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Jay,49.386406078,-119.068114784,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Ag, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Lynx,49.388306048,-119.337814834,Porphyry copper,,54.0,K-Ar hornblende,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Ag, Mo",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Bud - South zone,49.424705922,-120.457215042,Porphyry copper,,193.0,U-Pb zircon,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Bud - North zone,49.444705926,-120.434715043,Porphyry copper,,193.0,U-Pb zircon,-9999.0,-9999.0,-9999.0,-9999.0,Cu,British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Star,49.448617273,-117.363625483,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Au, Cu, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Miner,49.476405923,-120.474215059,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,Cu,British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+G.E.,49.486105926,-120.458315058,Porphyry copper,,205.0,Inferred from U-Pb zircon age for Afton,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Gambier Island,49.51450559,-123.36921555,Porphyry copper,Cu-Mo,-9999.0,Geologic inference,114.0,0.29,0.018,0.03,"Cu, Mo, Zn",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+HED,49.517805978,-120.013614989,Porphyry copper,Cu-Mo,193.0,U-Pb zircon,22.99,0.161,0.04,-9999.0,"Cu, Mo, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Lucky,49.543605931,-120.43311507,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+IXL,49.544728161,-118.410014706,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au, Pb",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Rats,49.561393929,-120.46557008,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Zn, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Tex,49.629727484,-124.311682728,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Mo",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Rita,49.630605931,-120.478115101,Porphyry copper,,97.0,K-Ar biotite,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Ag, Zn",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Independence,49.638105875,-120.967215188,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Mo, Zn",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Axe South zone,49.641105926,-120.526115112,Porphyry copper,,205.0,Inferred from U-Pb zircon age for Afton,37.2,0.48,-9999.0,-9999.0,"Cu, Mo, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Pip,49.645305928,-120.513115111,Porphyry copper,,200.0,Inferred from K-Ar biotite age for Axe-Primer,-9999.0,-9999.0,-9999.0,-9999.0,Cu,British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Axe,49.652227926,-120.526126115,Porphyry copper,,205.0,Inferred from U-Pb zircon age for Afton,116.7,0.43,0.012,-9999.0,"Cu, Mo, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Axe West zone,49.654505925,-120.542215119,Porphyry copper,,205.0,Inferred from U-Pb zircon age for Afton,5.8,0.47,-9999.0,-9999.0,"Cu, Au, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Empress,49.670805968,-120.175615059,Porphyry molybdenum-copper,,166.0,Pb-Pb zircon,-9999.0,-9999.0,-9999.0,-9999.0,"Mo, Cu",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Gem Lake,49.684405356,-125.410815908,Porphyry copper,,49.0,Inferred from K-Ar age for Catface,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Pine (Axe-Primer),49.697505921,-120.59811514,Porphyry copper,,200.0,K-Ar biotite,-9999.0,-9999.0,-9999.0,-9999.0,Cu,British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Lori,49.709505651,-122.923615533,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Mo",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Rum,49.73420593,-120.532515139,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,Cu,British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Coke,49.745605931,-120.532515142,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Man,49.750605937,-120.482515135,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Primer South zone,49.756105939,-120.460015132,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Murex,49.761105378,-125.250015906,Porphyry copper,,35.0,K-Ar biotite,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Mount Washington Copper,49.763305372,-125.302215914,Porphyry copper,,35.0,K-Ar biotite,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Primer North zone,49.767805938,-120.474715138,Porphyry copper,,-9999.0,Geologic inference,23.0,0.7,-9999.0,-9999.0,"Cu, Au, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Log,49.78000593,-120.554215155,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Siwash,49.82170595,-120.394215139,Porphyry copper,,200.0,Inferred from K-Ar biotite age for Axe-Primer,-9999.0,-9999.0,-9999.0,-9999.0,Cu,British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Thalia,49.836905931,-120.567215173,Porphyry copper,,200.0,Inferred from K-Ar biotite age for Axe-Primer,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Brenda,49.877805998,-120.005615086,Porphyry molybdenum-copper,Cu-Mo,195.0,U-Pb zircon,227.0,0.16,0.039,0.013,"Mo, Cu, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Camp Lake,49.906949339,-125.615572001,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Hi-Mars,49.940605491,-124.359215823,Porphyry copper,,-9999.0,Geologic inference,82.0,0.3,-9999.0,-9999.0,"Cu, Mo",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Big Kidd,49.943305933,-120.596115208,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Blue Jay,49.980805935,-120.598615219,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Okeover,50.000005456,-124.666681887,Porphyry copper,,-9999.0,Geologic inference,86.8,0.31,0.014,-9999.0,"Cu, Mo",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Dobbin,50.002806031,-119.77831508,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Pt, Mo",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Uebell,50.031705199,-126.812516207,Porphyry copper,,38.0,K-Ar biotite,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+OK,50.04190546,-124.651115897,Porphyry copper,,-9999.0,Geologic inference,143.0,0.24,0.009,-9999.0,"Cu, Mo, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Copper Canyon,50.173105874,-121.204415378,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Ag, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Turlight,50.193105944,-120.60941528,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Ag, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Lois,50.258905108,-127.616416384,Porphyry copper,,154.0,K-Ar biotite,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Mo, Zn",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Clapper,50.292205946,-120.636915313,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Dot,50.321705923,-120.849415359,Porphyry copper,,208.0,Inferred from U-Pb zircon age for Highland Valley Copper,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Wiz,50.335005922,-120.861415365,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Mo, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Rey Lake,50.33830594,-120.710815339,Porphyry copper,,69.0,K-Ar(?),46.862,0.17,0.018,-9999.0,"Cu, Mo",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Rateria,50.366393912,-120.95751539,Porphyry copper,,208.0,Inferred from U-Pb zircon age for Highland Valley Copper,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Mo, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Owl Creek A zone,50.380005699,-122.758071697,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,Cu,British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Yubet,50.380005913,-120.958115394,Porphyry copper,,208.0,Inferred from U-Pb zircon age for Highland Valley Copper,-9999.0,-9999.0,-9999.0,-9999.0,Cu,British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Owl Creek C zone,50.398061696,-122.794737708,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Mo",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Ann,50.423105911,-120.987215412,Porphyry copper,,208.0,Inferred from U-Pb zircon age for Highland Valley Copper,43.38,0.27,-9999.0,-9999.0,"Cu, Mo",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+IDE-AM,50.425805911,-120.994715414,Porphyry copper,,208.0,Inferred from U-Pb zircon age for Highland Valley Copper,11.48,0.27,0.005,-9999.0,"Cu, Mo",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Highmont,50.43170591,-120.998115416,Porphyry copper,Cu-Mo,210.0,U-Pb zircon,265.0,0.266,0.041,0.004,"Cu, Mo",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Highmont West,50.43700591,-121.007515419,Porphyry copper,,208.0,Inferred from U-Pb zircon age for Highland Valley Copper,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Mo",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Jericho,50.444505921,-120.913615405,Porphyry copper,,208.0,Inferred from U-Pb zircon age for Highland Valley Copper,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Mo, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Lornex,50.450305906,-121.043115429,Porphyry copper,Cu-Mo,208.0,Inferred from U-Pb zircon age for Highland Valley Copper,514.0,0.427,0.015,0.006,"Cu, Mo, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Victor,50.461705909,-121.019715429,Porphyry copper,,208.0,Inferred from U-Pb zircon age for Highland Valley Copper,-9999.0,-9999.0,-9999.0,-9999.0,Cu,British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+JA,50.475005915,-120.978115425,Porphyry copper,,203.0,U-Pb zircon,260.0,0.43,0.017,-9999.0,"Cu, Mo",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Highland Valley Copper,50.485605907,-121.048315441,Porphyry copper,Cu-Mo,210.0,U-Pb zircon,1355.6,0.37,0.006,0.006,"Cu, Mo, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Bethlehem,50.498105915,-120.987815434,Porphyry copper,Cu-Mo,203.0,K-Ar,677.0,0.45,0.016,0.005,"Cu, Ag, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+MER,50.503105897,-121.136915461,Porphyry copper,,208.0,Inferred from U-Pb zircon age for Highland Valley Copper,-9999.0,-9999.0,-9999.0,-9999.0,Cu,British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+BX,50.510605922,-120.935015428,Porphyry copper,,208.0,Inferred from U-Pb zircon age for Highland Valley Copper,-9999.0,-9999.0,-9999.0,-9999.0,Cu,British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Colossus,50.531395411,-125.202516123,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Mo, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Getty South,50.541405916,-120.993015447,Porphyry copper,,208.0,Inferred from U-Pb zircon age for Highland Valley Copper,36.0,0.47,-9999.0,-9999.0,Cu,British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Phil,50.554405999,-120.298615329,Porphyry copper,,205.0,Inferred from U-Pb zircon age for Afton,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au, Pd",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Getty West,50.561405914,-121.016415457,Porphyry copper,,208.0,Inferred from U-Pb zircon age for Highland Valley Copper,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Mo",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Krain,50.570805917,-120.997215456,Porphyry copper,,208.0,Inferred from U-Pb zircon age for Highland Valley Copper,72.1,0.31,0.012,-9999.0,"Cu, Mo",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Joker,50.575306,-120.300315335,Porphyry copper,,205.0,Inferred from U-Pb zircon age for Afton,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Grey Mask,50.581406,-120.297515337,Porphyry copper,,205.0,Inferred from U-Pb zircon age for Afton,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Fargo,50.584405994,-120.351715347,Porphyry copper,,205.0,Inferred from U-Pb zircon age for Afton,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Ace,50.585305998,-120.318315342,Porphyry copper,,205.0,Inferred from U-Pb zircon age for Afton,-9999.0,-9999.0,-9999.0,-9999.0,Cu,British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Rupert,50.588105144,-127.390016453,Porphyry copper,,167.0,Inferred from U-Pb zircon age for Island Copper,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Mo",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Admiral Dewy,50.588905997,-120.326715344,Porphyry copper,,205.0,Inferred from U-Pb zircon age for Afton,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Yankee Girl,50.592805136,-127.455816463,Porphyry copper,,167.0,Inferred from U-Pb zircon age for Island Copper,-9999.0,-9999.0,-9999.0,-9999.0,"Fe, Cu",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Bay 29,50.596105136,-127.455816464,Porphyry copper,,167.0,Inferred from U-Pb zircon age for Island Copper,-9999.0,-9999.0,-9999.0,-9999.0,"Fe, Cu",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Road,50.596905136,-127.462816465,Porphyry copper,,167.0,K-Ar biotite,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Mo, Fe",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Island Copper,50.599705134,-127.475016468,Porphyry copper,,167.0,U-Pb zircon,377.0,0.41,0.017,0.19,"Cu, Mo, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Ajax JV,50.608105989,-120.404415363,Porphyry copper,Cu-Au,205.0,U-Pb zircon,523.0,0.288,0.001,0.185,"Cu, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Bay 21,50.61080513,-127.511716476,Porphyry copper,,167.0,Inferred from U-Pb zircon age for Island Copper,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Ag, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Wood GP,50.614172974,-120.530848388,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,Cu,British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Kimberly,50.627505996,-120.35441536,Porphyry copper,,205.0,Inferred from U-Pb zircon age for Afton,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Bay 56,50.631105129,-127.521716484,Porphyry copper,,167.0,Inferred from U-Pb zircon age for Island Copper,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Mo",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Rainbow,50.636105983,-120.465015382,Porphyry copper,,205.0,Inferred from U-Pb zircon age for Afton,30.66,0.528,-9999.0,0.119,"Cu, Ag, Mo",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Galaxy,50.643305988,-120.423315377,Porphyry copper,Cu-Au,205.0,Inferred from U-Pb zircon age for Afton,5.4,0.59,-9999.0,0.21,"Cu, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Python,50.643605991,-120.397815373,Porphyry copper,,205.0,Inferred from U-Pb zircon age for Afton,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au, Pd",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Iron Mask,50.654705987,-120.437515383,Porphyry copper,Cu-Au,205.0,Inferred from U-Pb zircon age for Afton,2.4,0.84,-9999.0,0.4,"Cu, Au, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Afton,50.661105978,-120.515015398,Porphyry copper,Cu-Au,205.0,U-Pb zircon,96.84,1.014,-9999.0,0.709,"Cu, Au, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Big Onion,50.662805988,-120.436715385,Porphyry copper,Cu-Au,205.0,U-Pb zircon,3.266,0.71,-9999.0,0.44,"Cu, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+DM-Audra-Crescent,50.664705982,-120.485815394,Porphyry copper,,204.0,U-Pb zircon,108.8,0.203,-9999.0,0.1,"Cu, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Crescent,50.664705984,-120.468315391,Porphyry copper,,205.0,U-Pb zircon,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Hushamu,50.675305089,-127.858116542,Porphyry copper,,170.0,U-Pb zircon,735.4,0.198,0.011,0.247,"Cu, Au, Mo",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+HEP,50.693905085,-127.892516553,Porphyry copper,,172.0,Inferred from Ar-Ar mean age for Hushamu and Red Dog,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Mo, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Red Dog,50.710605075,-127.972216568,Porphyry copper,Cu-Au,172.0,Ar-Ar (mean),45.0,0.35,0.006,0.44,"Cu, Au, Mo",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Hilltop,50.747505969,-120.632215444,Porphyry copper,,205.0,Inferred from U-Pb zircon age for Afton,-9999.0,-9999.0,-9999.0,-9999.0,Cu,British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Maxine,50.758105966,-120.657815452,Porphyry copper,,205.0,Inferred from U-Pb zircon age for Afton,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Maggie,50.923905883,-121.421115634,Porphyry copper,,63.0,K-Ar,181.44,0.28,0.029,-9999.0,"Cu, Mo, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Copper Mountain (Trigger Lake),51.001705679,-123.139715945,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Ag, Mo",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Copper zone,51.039705652,-123.370815994,Porphyry copper,,80.0,Inferred from U-Pb zircon age for Fish Lake,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Mo, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Rowbottom,51.078305648,-123.416716013,Porphyry copper,,80.0,Inferred from U-Pb zircon age for Fish Lake,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Mo, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Mohawk,51.094705652,-123.388316013,Porphyry copper,,87.0,K-Ar biotite,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Buzzer,51.101105657,-123.35281601,Porphyry copper,,87.0,K-Ar biotite,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au, Mo",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Taseko,51.104405651,-123.400016018,Porphyry copper,Cu-Au,86.0,"K-Ar, Ar-Ar",15.0,0.53,0.012,0.53,"Cu, Au, Mo",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Poison Mountain,51.133305748,-122.614215899,Porphyry copper,,58.0,K-Ar (mean),808.0,0.24,0.0075,0.12,"Cu, Au, Mo",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Charlie,51.17670562,-123.671416084,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Au, Ag, Cu",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Blue 33-36,51.222505522,-124.488916227,Porphyry copper,,63.0,K-Ar biotite,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Mo, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Chita,51.25000564,-123.535616085,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Mo",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Rum 66,51.266105548,-124.29061621,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Mo",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Tarn Creek,51.266905601,-123.857216142,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+"Hannah 8, 10, 11",51.29080541,-125.404416387,Porphyry copper,,7.0,K-Ar(?),-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Ben 37,51.304405533,-124.416716241,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Mo",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Rayfield Copper,51.31330594,-121.088915695,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,Cu,British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Fish Lake,51.463605637,-123.625616167,Porphyry copper,Cu-Au,80.0,U-Pb zircon,1150.0,0.22,0.002,0.41,"Cu, Au, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Worldstock,51.531117047,-120.28668262,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Fly,51.608105534,-124.491716349,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,Cu,British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Newmac,51.73200552,-124.635616412,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Au, Ag, Cu",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Newton Hill,51.803105647,-123.635316277,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Au, Ag, Cu",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Clay,51.880305986,-120.921715843,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Tim #1,51.937005948,-121.249215919,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Miracle,51.947205941,-121.310815933,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Aurizon Gold zone,51.957805944,-121.285615932,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Peach 3,51.960605943,-121.295015935,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Ann North,51.974205942,-121.312815942,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au, Mo",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Peach-Melba,51.980805939,-121.337215949,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Murphy Lake,52.02920595,-121.264415951,Porphyry copper,,187.0,K-Ar biotite,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Woodjam,52.257225945,-121.381126046,Porphyry copper,,197.0,Re-Os molybdenite,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Redgold,52.46389394,-121.484182133,Porphyry copper,,196.0,K-Ar,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au, Zn",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Sawmill,52.468105842,-122.273316271,Porphyry copper,,210.0,Inferred from U-Pb zircon age for Gibraltar,68.492,0.244,-9999.0,-9999.0,"Cu, Mo",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Gunn,52.503305848,-122.233916276,Porphyry copper,,207.0,Inferred from U-Pb zircon age for Gibraltar,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Mo",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Gibraltar,52.518105842,-122.28751629,Porphyry copper,,210.0,U-Pb zircon,1296.5,0.293,0.006,-9999.0,"Cu, Mo, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Mount Polley,52.554405924,-121.641716191,Porphyry copper,Cu-Au,202.0,U-Pb zircon,204.8,0.324,-9999.0,0.3098,"Cu, Au, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Lloyd-Nordik,52.571405924,-121.644716197,Porphyry copper,Cu-Au,202.0,Inferred from U-Pb zircon age for Mount Polley,7.19,0.31,-9999.0,0.243,"Cu, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Copper Ace South,52.616672844,-122.302794326,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,Cu,British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Mouse Mountain,53.050005857,-122.321116479,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Ag, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Red Bird,53.299172256,-127.010295308,Porphyry molybdenum-copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Mo, Cu, Re",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Coles Creek,53.533305231,-127.233317427,Porphyry copper,,85.0,unknown (mean),-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Mo",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Seel,53.653788251,-127.094120452,Porphyry copper,,83.0,U-Pb zircon,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Ox Lake,53.673605257,-127.056917454,Porphyry copper,,83.0,K-Ar,21.4,0.34,0.008,-9999.0,"Cu, Mo, Pb",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Huckleberry,53.681105241,-127.178117474,Porphyry copper,Cu-Mo,83.0,U-Pb zircon,177.5,0.468,0.014,0.023,"Cu, Mo, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+New Nanik,53.751105174,-127.686717573,Porphyry copper,,48.0,Inferred from K-Ar age for Berg,16.458,0.437,-9999.0,-9999.0,"Cu, Mo, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Berg,53.803605208,-127.435017557,Porphyry copper,Cu-Mo,48.0,K-Ar,650.6,0.284,0.036,0.018,"Cu, Mo, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Sylvia,53.850305243,-127.180817539,Porphyry copper,,48.0,Inferred from K-Ar age for Berg,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Mo",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Pam,53.859405265,-127.016417519,Porphyry copper,,48.0,Inferred from K-Ar age for Berg,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Mo",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Poplar,54.016705272,-126.990017576,Porphyry copper,,74.0,K-Ar(?),236.0,0.37,-9999.0,-9999.0,"Cu, Mo, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Copper Star,54.229205238,-127.267817699,Porphyry copper,,48.0,Inferred from K-Ar age for Berg,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Mo",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Croesus,54.2877833,-126.816961656,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Kino,54.558105099,-128.326717979,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Mo, Pb",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Thezar 75,54.750005373,-126.33779577,Porphyry copper,,77.0,K-Ar biotite,-9999.0,-9999.0,-9999.0,-9999.0,Cu,British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+unnamed,54.7815,-132.0565,Porphyry copper,,438.0,U-Pb zircon,-9999.0,-9999.0,-9999.0,-9999.0,"Cu(?), Mo(?)",Alaska,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Big Onion,54.809705298,-126.896117877,Porphyry copper,,48.0,K-Ar (mean),94.4,0.42,0.02,0.064,"Cu, Mo, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Zymo,54.835283155,-127.943629039,Porphyry copper,,89.0,Inferred from U-Pb zircon age for Louise Lake,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Louise Lake,54.85220519,-127.69001801,Porphyry copper,,89.0,U-Pb zircon,151.0,0.238,0.008,0.228,"Cu, Mo, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Babs,54.853605421,-126.002217761,Porphyry copper,,52.0,Inferred from Ar-Ar age for Bell Copper,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Granisle,54.944505401,-126.157217822,Porphyry copper,,51.0,K-Ar,171.2,0.41,-9999.0,0.144,"Cu, Au, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Bell Copper,55.002805392,-126.231917857,Porphyry copper,,52.0,Ar-Ar,495.0,0.36,0.005,0.16,"Cu, Ag, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Camp,55.082505618,-124.58501763,Porphyry copper,,183.0,Inferred from U-Pb zircon age for Mount Milligan,-9999.0,-9999.0,-9999.0,-9999.0,Cu,British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Jean,55.105005568,-124.9561177,Porphyry copper,,134.0,K-Ar (mean),27.0,0.3,0.015,-9999.0,"Cu, Mo, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Mount Milligan,55.123905694,-124.027517555,Porphyry copper,Cu-Au,183.0,U-Pb zircon,602.7,0.192,-9999.0,0.349,"Au, Cu, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Moss,55.137205626,-124.531117644,Porphyry copper,,183.0,Inferred from U-Pb zircon age for Mount Milligan,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au, Pb",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Morrison,55.183105388,-126.286117941,Porphyry copper,Cu-Au,54.0,Ar-Ar,206.9,0.337,0.004,0.177,"Cu, Au, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Eagle,55.184205582,-124.862817717,Porphyry copper,,183.0,Inferred from U-Pb zircon age for Mount Milligan,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Skook,55.200005628,-124.52831767,Porphyry copper,,183.0,Inferred from U-Pb zircon age for Mount Milligan,-9999.0,-9999.0,-9999.0,-9999.0,"Au, Ag, Cu",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Vector,55.201705579,-124.888617729,Porphyry copper,,183.0,Inferred from U-Pb zircon age for Mount Milligan,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Falcon,55.204405551,-125.094717763,Porphyry copper,,183.0,Inferred from U-Pb zircon age for Mount Milligan,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Mo, Pb",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Wolf,55.215305377,-126.367217966,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Mo",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+SRM,55.233605629,-124.522517683,Porphyry copper,,183.0,Inferred from U-Pb zircon age for Mount Milligan,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Dorothy,55.247805405,-126.16811795,Porphyry copper,,52.0,Inferred from Ar-Ar age for Bell Copper,45.0,0.26,0.01,-9999.0,"Cu, Mo, Zn",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+COL,55.249205597,-124.759217728,Porphyry copper,,183.0,Inferred from U-Pb zircon age for Mount Milligan,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Chuchi,55.263105627,-124.545317699,Porphyry copper,Cu-Au,183.0,U-Pb zircon,50.0,0.21,-9999.0,0.21,"Cu, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Heath #1,55.270805543,-125.162817802,Porphyry copper,,183.0,Inferred from U-Pb zircon age for Mount Milligan,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+NAK,55.286105396,-126.238117976,Porphyry copper,,52.0,Ar-Ar,271.0,0.184,-9999.0,0.133,"Cu, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Aplite Creek,55.323605583,-124.879417778,Porphyry copper,,183.0,Inferred from U-Pb zircon age for Mount Milligan,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+unnamed,55.40979,-133.29892,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Mo(?)",Alaska,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Trail Peak,55.412227388,-126.312240041,Porphyry copper,,49.0,K-Ar biotite,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Kwanika South,55.507505524,-125.333317929,Porphyry copper,,200.0,U-Pb zircon,129.1,0.3,0.01,0.09,"Cu, Au, Mo",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Kwanika Central,55.530005522,-125.352017942,Porphyry copper,Cu-Au,200.0,U-Pb zircon,182.6,0.29,-9999.0,0.28,"Cu, Au, Mo",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Big Bulk,55.663060967,-129.348629585,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+TAK,55.70360554,-125.246117999,Porphyry copper,,184.0,Inferred from K-Ar age for Lorraine,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Auddie,55.740005515,-125.430018044,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Discovery,55.828105534,-125.302518062,Porphyry copper,,184.0,Inferred from K-Ar age for Lorraine,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Timber,55.830805531,-125.322518067,Porphyry copper,,184.0,Inferred from K-Ar age for Lorraine,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+MacKenzie,55.83110553,-125.332518069,Porphyry copper,,184.0,Inferred from K-Ar age for Lorraine,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Dorothy,55.88530553,-125.337518093,Porphyry copper,,184.0,Inferred from K-Ar age for Lorraine,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Mo, Zn",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Jeno,55.906671519,-125.420573116,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+ATO,55.913305537,-125.291718098,Porphyry copper,,184.0,Inferred from K-Ar age for Lorraine,-9999.0,-9999.0,-9999.0,-9999.0,Cu,British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Misty,55.915805506,-125.513618135,Porphyry copper,,182.0,K-Ar,3.0,0.6,-9999.0,-9999.0,Cu,British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Jajay,55.927805517,-125.440818128,Porphyry copper,,175.0,K-Ar,31.9,0.66,-9999.0,0.17,"Cu, Au, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+All Alone Dome,55.939205514,-125.464718137,Porphyry copper,,212.0,K-Ar,-9999.0,-9999.0,-9999.0,-9999.0,Cu,British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+TAM,55.972005509,-125.503918158,Porphyry copper,,179.0,K-Ar,7.2,0.55,-9999.0,-9999.0,"Cu, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Osilinka,56.06306153,-125.360018175,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Au, Cu, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Bear,56.103144319,-126.874473429,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Mo, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Bear Lake,56.113605318,-126.883318435,Porphyry copper,,53.0,K-Ar quartz monzonite,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Mo, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Jake North,56.235805258,-127.323118556,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Ag, Mo",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Porphyry Creek,56.452005447,-125.995318452,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au, Mo",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Kerr,56.467504839,-130.268908072,Porphyry copper,Cu-Au,196.0,Inferred from U-Pb zircon age for Sulphurets Gold,225.3,0.41,-9999.0,0.23,"Cu, Au, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Bornite,56.485804838,-130.277219082,Porphyry copper,,196.0,Inferred from U-Pb zircon age for Sulphurets Gold,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Sulphurets Gold,56.504448839,-130.26779709,Porphyry copper,Cu-Au,196.0,U-Pb zircon,87.3,0.27,-9999.0,0.72,"Au, Cu, Mo",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Mitchell,56.531115842,-130.2502971,Porphyry copper,Cu-Au,196.0,Inferred from U-Pb zircon age for Sulphurets Gold,1509.9,0.18,-9999.0,0.64,"Au, Cu, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Bronson Slope - Red Bluff,56.666404719,-131.094419271,Porphyry copper,Cu-Au,195.0,U-Pb zircon,129.8,0.16,0.008,0.44,"Ag, Au, Cu",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Red,56.735005408,-126.300818631,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au, Mo",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Hat,56.740005404,-126.327218638,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Kemess South,57.005805347,-126.75081883,Porphyry copper,Cu-Au,201.0,U-Pb zircon (mean),228.8,0.164,-9999.0,0.445,"Cu, Au, Mo",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Ann,57.059404652,-131.549519518,Porphyry copper,,48.0,K-Ar biotite,-9999.0,-9999.0,-9999.0,-9999.0,Cu,British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Kemess North,57.060005346,-126.759418857,Porphyry copper,,202.0,U-Pb zircon,719.2,0.15,-9999.0,0.15,"Cu, Au, Mo",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Galore Saddle,57.110304669,-131.431719529,Porphyry copper,,212.0,Inferred from Ar-Ar age for Galore Copper Canyon,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Galore West Fork Glacier,57.114404664,-131.465019535,Porphyry copper,Cu-Au,212.0,Inferred from Ar-Ar age for Galore Copper Canyon,60.8,0.495,-9999.0,0.348,"Cu, Au, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Galore Copper Canyon,57.116404681,-131.346919522,Porphyry copper,Cu-Au,212.0,Ar-Ar,164.8,0.35,-9999.0,0.54,"Cu, Au, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Galore Southwest,57.122504662,-131.47561954,Porphyry copper,Cu-Au,212.0,Inferred from Ar-Ar age for Galore Copper Canyon,170.6,0.349,-9999.0,0.633,"Cu, Ag, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Grizzly,57.129448785,-130.639185439,Porphyry copper,,212.0,Inferred from Ar-Ar age for Galore Copper Canyon,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Galore,57.135804665,-131.455619545,Porphyry copper,Cu-Au,212.0,Inferred from Ar-Ar age for Galore Copper Canyon,1382.6,0.41,-9999.0,0.22,"Cu, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Galore Central,57.135804665,-131.455619545,Porphyry copper,Cu-Au,212.0,Inferred from Ar-Ar age for Galore Copper Canyon,233.9,0.67,-9999.0,0.35,"Cu, Au, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Galore Junction,57.140604661,-131.485019551,Porphyry copper,Cu-Au,212.0,Inferred from Ar-Ar age for Galore Copper Canyon,101.6,0.548,-9999.0,0.325,"Cu, Au, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Galore North Junction,57.144170661,-131.485852553,Porphyry copper,,212.0,Inferred from Ar-Ar age for Galore Copper Canyon,7.7,1.5,-9999.0,-9999.0,Cu,British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Galore North Rim,57.151404663,-131.471719554,Porphyry copper,,212.0,Inferred from Ar-Ar age for Galore Copper Canyon,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+MEX,57.20420536,-126.668618913,Porphyry copper,,201.0,Inferred from U-Pb zircon mean age for Kemess South,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Pine,57.233305351,-126.733318937,Porphyry copper,Cu-Au,201.0,Inferred from U-Pb zircon mean age for Kemess South,70.0,0.15,-9999.0,0.57,"Cu, Au, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Ball Creek,57.278337817,-130.416686484,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Mo, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Sofia,57.332505343,-126.801962996,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Au, Cu",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Schaft Creek,57.364204733,-130.990319601,Porphyry copper,,222.0,U-Pb zircon,1393.3,0.25,0.019,0.18,"Cu, Mo, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Pil,57.366405312,-127.015574046,Porphyry copper,,197.0,K-Ar biotite,-9999.0,-9999.0,-9999.0,-9999.0,Cu,British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+NABS,57.37470473,-131.005819608,Porphyry copper,Cu-Mo,222.0,Inferred from age for Schaft Creek,90.7,0.337,0.047,-9999.0,"Cu, Mo",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Kinaskan,57.653904842,-130.243619652,Porphyry copper,Cu-Au,205.0,U-Pb zircon,176.0,0.313,-9999.0,0.361,"Cu, Au, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Goat,57.65580484,-130.258919655,Porphyry copper,Cu-Au,205.0,"U-Pb zircon, sphene",71.22,0.397,-9999.0,0.398,"Cu, Au, Pb",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Wolf,57.682204853,-130.171719657,Porphyry copper,,205.0,"U-Pb zircon, sphene",-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Red Chris,57.699704907,-129.805319617,Porphyry copper,Cu-Au,210.0,U-Pb zircon,714.8,0.356,-9999.0,0.281,"Cu, Au, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+AL,57.744204828,-130.335319711,Porphyry copper,,205.0,Inferred from U-Pb zircon age for Kinaskan,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+QC,57.760804834,-130.293619714,Porphyry copper,,205.0,Inferred from U-Pb zircon age for Kinaskan,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+MFJ,57.796104897,-129.872519676,Porphyry copper,,198.0,K-Ar whole rock,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+unnamed,57.9119,-136.3477,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Fe",Alaska,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Wolverine,58.120304627,-131.67812008,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Hoey,58.189504641,-131.576720104,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Go,58.213604609,-131.794220144,Porphyry copper,,218.0,K-Ar hornblende,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au, Zn",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Copper Creek,58.219204622,-131.706120136,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Dick Creek,58.234444618,-131.733070148,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Kid,58.240604595,-131.88362017,Porphyry copper,,218.0,K-Ar hornblende,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Gnat Lake,58.253604903,-129.826719911,Porphyry copper,,-9999.0,Geologic inference,30.4,0.39,-9999.0,-9999.0,Cu,British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+HU,58.344704848,-130.190820009,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au, Mo",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Mineral Hill,58.398615608,-131.786964244,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au, Ag",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+Eaglehead,58.483905009,-129.107219935,Porphyry copper,,190.0,K-Ar,79.5,0.404,0.005,0.044,"Cu, Au, Mo",British Columbia,Canada,"Mihalasky and others (2011, revised 2013)"
+unnamed,58.983,-136.341,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Mo",Alaska,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Nunatak,58.9875,-136.102777778,Porphyry copper,Cu-Mo,-9999.0,not dated,120.0,0.18,0.03,-9999.0,Cu,Alaska,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Margerie Glacier,59.019444444,-137.083333333,Porphyry copper,Cu-Au,34.0,unknown,145.0,0.2,-9999.0,0.24,Cu,Alaska,United States,U.S. Geological Survey National Mineral Resource Assessment Team (2002)
+Fawley,60.185304024,-135.390821702,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au, Ag",Yukon Territory,Canada,"Mihalasky and others (2011, revised 2013)"
+Silver Queen,60.226115077,-135.048909693,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Ag, Cu, Au",Yukon Territory,Canada,"Mihalasky and others (2011, revised 2013)"
+Suits,60.816103995,-135.480822123,Porphyry molybdenum-copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Mo, Cu, Au",Yukon Territory,Canada,"Mihalasky and others (2011, revised 2013)"
+TUV,61.290304089,-134.822522377,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Au, Mo, Cu",Yukon Territory,Canada,"Mihalasky and others (2011, revised 2013)"
+Rhyolite,61.847503475,-138.507523119,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Mo",Yukon Territory,Canada,"Mihalasky and others (2011, revised 2013)"
+Maloney,62.008903569,-137.904523189,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Mo, W",Yukon Territory,Canada,"Mihalasky and others (2011, revised 2013)"
+Trudi,62.046903061,-140.982523439,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Mo",Yukon Territory,Canada,"Mihalasky and others (2011, revised 2013)"
+Goulter,62.077503683,-137.193623178,Porphyry copper,,76.0,Inferred from U-Pb age for Cash,-9999.0,-9999.0,-9999.0,-9999.0,"Ag, Au, Cu",Yukon Territory,Canada,"Mihalasky and others (2011, revised 2013)"
+Cyprus,62.090003682,-137.198923188,Porphyry copper,,58.0,unknown,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au, Mo",Yukon Territory,Canada,"Mihalasky and others (2011, revised 2013)"
+Revenue,62.325303663,-137.269223371,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au, W",Yukon Territory,Canada,"Mihalasky and others (2011, revised 2013)"
+Nucleus,62.334203652,-137.335823384,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au, Mo",Yukon Territory,Canada,"Mihalasky and others (2011, revised 2013)"
+Williams Creek,62.348903757,-136.693623336,Porphyry copper,Cu-Au,-9999.0,Geologic inference,19.27,0.95,-9999.0,0.376,"Cu, Au, Ag",Yukon Territory,Canada,"Mihalasky and others (2011, revised 2013)"
+MIM,62.356903447,-138.570823506,Porphyry copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Au, Cu",Yukon Territory,Canada,"Mihalasky and others (2011, revised 2013)"
+Klazan,62.380603624,-137.492523434,Porphyry molybdenum-copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Mo, Cu, Ag",Yukon Territory,Canada,"Mihalasky and others (2011, revised 2013)"
+Cash,62.429203602,-137.620023482,Porphyry copper,,76.0,U-Pb,36.0,0.28,0.021,0.17,"Cu, Mo, Au",Yukon Territory,Canada,"Mihalasky and others (2011, revised 2013)"
+Pattison,62.525803434,-138.61422364,Porphyry molybdenum-copper,,-9999.0,Geologic inference,-9999.0,-9999.0,-9999.0,-9999.0,"Mo, Cu",Yukon Territory,Canada,"Mihalasky and others (2011, revised 2013)"
+Minto,62.609203659,-137.238323587,Porphyry copper,Cu-Au,-9999.0,Geologic inference,34.35,1.187,-9999.0,0.323,"Cu, Au, Ag",Yukon Territory,Canada,"Mihalasky and others (2011, revised 2013)"
+PAL,62.610003664,-137.203923585,Porphyry copper,,76.0,Inferred from U-Pb age for Cash,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Ag, Au",Yukon Territory,Canada,"Mihalasky and others (2011, revised 2013)"
+Giant,62.643903647,-137.30392362,Porphyry copper,,76.0,Inferred from U-Pb age for Cash,-9999.0,-9999.0,-9999.0,-9999.0,"Cu, Au, Ag",Yukon Territory,Canada,"Mihalasky and others (2011, revised 2013)"
+Casino,62.737803391,-138.828123823,Porphyry copper,,74.0,U-Pb,964.0,0.22,0.02,0.24,"Cu, Au, Mo",Yukon Territory,Canada,"Mihalasky and others (2011, revised 2013)"

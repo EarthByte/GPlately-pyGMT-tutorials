@@ -1,0 +1,32 @@
+feature,importance_mean,importance_std,cv,display_name,group
+crustal_thickness_mean (m),0.44837078,1.7881393e-07,3.9880817e-07,Crustal Thickness Mean (m),Crustal Thickness
+carbonate_thickness (m),0.10332306,8.195639e-08,7.932052e-07,Carbonate Thickness (m),Material Input to Trench
+crustal_thickness_max (m),0.08468291,7.450581e-09,8.79821e-08,Crustal Thickness Max (m),Crustal Thickness
+subducted_sediment_volume (m),0.054511853,5.2154064e-08,9.567473e-07,Subducted Sediment Volume (m),Material Input to Trench
+trench_velocity_parallel (cm/yr),0.025376773,3.5390258e-08,1.3945926e-06,Trench Velocity Parallel (cm/yr),Trench Kinematics
+seafloor_spreading_rate (km/Myr),0.024009135,3.7252903e-09,1.5516137e-07,Seafloor Spreading Rate (Km/Myr),Material Input to Trench
+slab_flux (m^2/yr),0.023213964,7.450581e-09,3.2095252e-07,Slab Flux (m²/yr),Material Input to Trench
+subducting_plate_absolute_velocity (cm/yr),0.023064755,3.7252903e-09,1.6151441e-07,Subducting Plate Absolute Velocity (cm/yr),Plate & Slab Kinematics
+co2_volume (m^3/m^2),0.023007732,7.450581e-09,3.2382943e-07,Co2 Volume (M^3/M^2),Material Input to Trench
+sediment_thickness (m),0.0188917,1.3038516e-08,6.901717e-07,Sediment Thickness (m),Material Input to Trench
+convergence_rate_orthogonal (cm/yr),0.015435925,1.9557774e-08,1.2670297e-06,Convergence Rate Orthogonal (cm/yr),Plate & Slab Kinematics
+convergence_obliquity (degrees),0.01464378,1.3038516e-08,8.903791e-07,Convergence Obliquity (degrees),Plate & Slab Kinematics
+crustal_thickness_std (m),0.013879767,1.0244548e-08,7.3809224e-07,Crustal Thickness Std (m),Crustal Thickness
+seafloor_age (Ma),0.012495361,2.7939677e-09,2.236004e-07,Seafloor Age (Ma),Material Input to Trench
+trench_velocity (cm/yr),0.01219965,1.0244548e-08,8.397412e-07,Trench Velocity (cm/yr),Trench Kinematics
+crustal_thickness_min (m),0.011974453,1.8626451e-09,1.5555159e-07,Crustal Thickness Min (m),Crustal Thickness
+subducting_plate_absolute_velocity_orthogonal (cm/yr),0.01099188,1.8626451e-09,1.6945647e-07,Subducting Plate Absolute Velocity Orthogonal (cm/yr),Plate & Slab Kinematics
+trench_velocity_orthogonal (cm/yr),0.009765568,5.5879354e-09,5.722079e-07,Trench Velocity Orthogonal (cm/yr),Trench Kinematics
+convergence_rate_parallel (cm/yr),0.008827626,6.519258e-09,7.385064e-07,Convergence Rate Parallel (cm/yr),Plate & Slab Kinematics
+trench_velocity_obliquity (degrees),0.007927354,4.656613e-09,5.874107e-07,Trench Velocity Obliquity (degrees),Plate & Slab Kinematics
+subducted_plate_volume (m),0.0074039656,6.519258e-09,8.8050894e-07,Subducted Plate Volume (m),Material Input to Trench
+slab_dip (degrees),0.006920057,4.1909516e-09,6.056239e-07,Slab Dip (degrees),Slab Geometry & Architecture
+subducted_water_volume (m),0.005929117,3.7252903e-09,6.283044e-07,Subducted Water Volume (m),Material Input to Trench
+subducted_carbonates_volume (m),0.00569343,5.122274e-09,8.996816e-07,Subducted Carbonates Volume (m),Material Input to Trench
+crustal_thickness_median (m),0.005353577,6.0535967e-09,1.1307574e-06,Crustal Thickness Median (m),Crustal Thickness
+crustal_thickness_range (m),0.0045208414,5.5879354e-09,1.2360388e-06,Crustal Thickness Range (m),Crustal Thickness
+convergence_rate (cm/yr),0.0043891077,3.259629e-09,7.4266325e-07,Convergence Rate (cm/yr),Plate & Slab Kinematics
+subducting_plate_absolute_velocity_parallel (cm/yr),0.0036110678,3.0267984e-09,8.382004e-07,Subducting Plate Absolute Velocity Parallel (cm/yr),Plate & Slab Kinematics
+subducting_plate_absolute_obliquity (degrees),0.003405126,2.0954758e-09,6.153886e-07,Subducting Plate Absolute Obliquity (degrees),Plate & Slab Kinematics
+water_thickness (m),0.003277004,9.313226e-10,2.841994e-07,Water Thickness (m),Material Input to Trench
+arc_trench_distance (km),0.002902883,0.0,0.0,Arc Trench Distance (km),Slab Geometry & Architecture
