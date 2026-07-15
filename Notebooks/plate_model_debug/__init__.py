@@ -21,10 +21,12 @@ from .detect_anomalies import (
     detect_non_unique_sections_at_time,
     detect_missing_polarity_at_time,
 )
+from .velocity_arrows import calculate_plate_motion_arrows
 
 __all__ = [
     "diagnose_topology_convergence",
     "detect_gaps_and_overlaps_at_time",
     "detect_non_unique_sections_at_time",
     "detect_missing_polarity_at_time",
+    "calculate_plate_motion_arrows",
 ]
