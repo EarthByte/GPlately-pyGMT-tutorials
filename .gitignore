@@ -191,3 +191,9 @@ author_contributed_scripts/
 # Reference clone of the pyDTDM library — external, kept locally for
 # inspiration, never pushed.
 pyDTDM-main/
+
+# T59-T62 debug-notebook frame directories (auto-populated on video build).
+Notebooks/T59_debug_divergence_frames/
+Notebooks/T60_debug_mor_velocity_frames/
+Notebooks/T61_debug_topology_frames/
+Notebooks/T62_debug_extractability_frames/
