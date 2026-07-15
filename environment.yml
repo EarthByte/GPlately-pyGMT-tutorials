@@ -17,4 +17,8 @@ dependencies:
   - pyarrow         # for parquet caches (T10)
   - imageio         # for T03 animations
   - ffmpeg          # for T03 MP4 encoding
+  - cmcrameri       # Crameri scientific colour maps (T44, T45)
+  - openpyxl        # Excel forcings for pySCION (T45)
   - pip
+  - pip:
+    - cgeniepy      # cGENIE output reader (T41); pip-only, not on conda-forge
