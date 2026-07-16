@@ -1,19 +1,19 @@
-# SCION end-Permian (252 Ma) CO2-sensitivity ensemble — compact bundle
+# PLASIM-GENIE (Holden et al. 2016) end-Permian (252 Ma) CO2-sensitivity ensemble — compact bundle
 
-Source: Andrew Merdith's SCION coupled-model output, version `MER25rev6` (2025-08-01).
-SCION = cGENIE + PLASIM + GOLDSTEIN. PLASIM atmosphere is T21 (64 lon x 32 lat,
+Source: Andrew Merdith's PLASIM-GENIE (Holden et al. 2016) coupled-model output, version `MER25rev6` (2025-08-01).
+PLASIM-GENIE (Holden et al. 2016) = cGENIE + PLASIM + GOLDSTEIN. PLASIM atmosphere is T21 (64 lon x 32 lat,
 ~5.625 deg). GOLDSTEIN ocean is on a 64 lon x 32 lat C-grid with 16 depth
 levels (only the surface and 2D bathymetry are bundled here).
 
 ## Files
 
-- `scion_252Ma_equilibrium.nc` — last-year (year 3000) snapshot per CO2 level.
+- `plasim_genie_252Ma_equilibrium.nc` — last-year (year 3000) snapshot per CO2 level.
   Dims (co2_ppm: 10, latitude: 32, longitude: 64). Variables: SAT, surface_T,
   sea_ice_cover, sea_ice_thickness, snow_depth, surface_albedo, landsea_mask,
   orography, top_thermal, top_solar.
-- `scion_252Ma_bathymetry.nc` — GOLDSTEIN bathymetry per CO2. Identical
+- `plasim_genie_252Ma_bathymetry.nc` — GOLDSTEIN bathymetry per CO2. Identical
   across CO2 levels (same input geography); bundled per-CO2 for symmetry.
-- `scion_252Ma_spinup.nc` — (co2_ppm, year) energy-balance time series for
+- `plasim_genie_252Ma_spinup.nc` — (co2_ppm, year) energy-balance time series for
   the model-stability / spin-up curves (T41 cell 5). 30 yearly steps per
   CO2 level (years 100..3000 in steps of 100).
 
@@ -36,7 +36,7 @@ cGENIE biogeochemistry), contact Andrew Merdith.
 
 ## Citation
 
-For now, cite the SCION model description:
+For now, cite the PLASIM-GENIE (Holden et al. 2016) model description:
 
   Mills, B.J.W., Donnadieu, Y., Godderis, Y. (2021). Spatial continuous
   integration of Phanerozoic global biogeochemistry and climate. *Gondwana
