@@ -1,8 +1,10 @@
 # Palaeoclimate cluster (T40–T45) — change summary
 
 Notes on a tidy/fix pass over the paleoclimate-cluster notebooks (**T40–T45**),
-done with Claude. Everything below is committed on `main`. T42 was deliberately
-left untouched (see *Known issues*).
+done with Claude. T42 was deliberately left untouched (see *Known issues*).
+
+> **Submitted as a pull request:** [EarthByte/GPlately-pyGMT-tutorials#1](https://github.com/EarthByte/GPlately-pyGMT-tutorials/pull/1),
+> from branch `palaeoclimate-cluster-fixes` on the `amer7632` fork.
 
 ## Shared infrastructure
 
