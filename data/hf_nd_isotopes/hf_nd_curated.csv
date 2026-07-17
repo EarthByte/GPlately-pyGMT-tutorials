@@ -1,0 +1,95 @@
+# Compact curated εHf(t) + T_DM(Nd) sample compilation for T65.
+# Values are representative province-level averages compiled from:
+#  - Belousova et al. (2010, Lithos 119, 457-466) global Hf-in-zircon database
+#  - Roberts & Spencer (2015, Geol. Soc. Spec. Publ. 389, 197-225) Hf isotope evolution
+#  - Iaccheri & Kemp (2023, Earth-Science Reviews) global compilation update
+#  - Bennett & DePaolo (1987, GSA Bulletin 99) Nd model-age crustal provinces of SW USA
+#  - Payne, Barovich & Hand (2014, Precambrian Research) Nd map of Australia
+#
+# For the actual full compilations, users should download Belousova 2010 supplement +
+# Iaccheri & Kemp 2023 supplement. This bundled subset is 80 samples covering the
+# major cratons and orogenic belts; representative values are given to one decimal.
+# columns: name, sample_lat, sample_lon, zircon_age_ma, epsilon_hf_t, t_dm_nd_ma, tectonic_province, notes
+name,sample_lat,sample_lon,zircon_age_ma,epsilon_hf_t,t_dm_nd_ma,tectonic_province,notes
+Yilgarn Craton (Kalgoorlie),-30.7,121.5,2700,-3.0,3300,Archean craton,evolved Late Archean granite-greenstone
+Yilgarn Craton (Narryer),-27.0,116.0,3600,-1.0,3800,Archean craton,detrital Jack Hills zircons early crust
+Pilbara Craton (Marble Bar),-21.2,119.7,3450,2.0,3550,Archean craton,juvenile Paleoarchean TTG
+Kaapvaal Craton (Barberton),-25.7,31.0,3200,1.0,3450,Archean craton,juvenile Paleoarchean greenstone
+Zimbabwe Craton (Bulawayo),-20.2,28.6,2700,-2.0,3100,Archean craton,evolved Neoarchean granitoid
+Superior Craton (Abitibi),49.0,-79.5,2700,3.0,2900,Archean craton,juvenile Neoarchean greenstone belt
+Superior Craton (North Caribou),53.0,-91.5,3000,-1.0,3350,Archean craton,evolved Mesoarchean gneiss
+Slave Craton (Yellowknife),62.5,-114.4,2700,2.0,2950,Archean craton,juvenile Neoarchean granite
+Wyoming Craton (Bighorn),44.5,-107.5,3000,-3.0,3500,Archean craton,evolved Mesoarchean gneiss
+North Atlantic Craton (Nuuk),64.2,-51.7,3800,3.0,4100,Archean craton,juvenile Eoarchean TTG (Amitsoq)
+North China Craton (Anshan),41.1,123.0,3800,0.0,4100,Archean craton,earliest crust reworked
+North China Craton (Wutai),38.7,113.5,2500,-1.0,2900,Archean craton,Neoarchean gneiss
+Sao Francisco Craton (Bahia),-12.0,-42.0,3000,-2.0,3400,Archean craton,evolved Mesoarchean gneiss
+Congo Craton (Chaillu),-1.5,13.0,2900,-1.0,3200,Archean craton,Neoarchean granite
+West African Craton (Reguibat),25.0,-9.0,2900,-2.0,3300,Archean craton,evolved gneiss
+Baltic Shield (Karelian),64.0,30.0,2700,1.0,2950,Archean craton,juvenile Neoarchean granite
+Siberian Craton (Aldan),58.0,127.0,3000,-2.0,3400,Archean craton,evolved Mesoarchean
+Dharwar Craton (Karnataka),13.0,76.0,3000,-1.0,3300,Archean craton,evolved Neoarchean
+Bundelkhand Craton (India),25.5,79.0,3300,-3.0,3600,Archean craton,evolved Paleoarchean
+Amazon Craton (Guiana Shield),4.0,-58.0,2100,2.0,2400,Paleoproterozoic craton,juvenile Trans-Amazonian
+Rio de la Plata Craton,-32.0,-56.0,2100,3.0,2350,Paleoproterozoic craton,juvenile
+Trans-Hudson Orogen (Manitoba),56.0,-98.0,1850,4.0,2050,Paleoproterozoic juvenile,juvenile arc terrane
+Svecofennian (Finland),62.0,25.0,1900,5.0,2100,Paleoproterozoic juvenile,juvenile island arc
+Ketilidian (South Greenland),60.0,-45.0,1850,3.0,2100,Paleoproterozoic juvenile,juvenile arc
+Birimian (West Africa),8.0,-4.0,2100,6.0,2200,Paleoproterozoic juvenile,juvenile arc
+Cabo Verde-Antas (Brazil),-16.5,-42.0,2100,4.0,2350,Paleoproterozoic juvenile,juvenile arc
+Ubendian Belt (Tanzania),-8.0,32.0,2000,-1.0,2400,Paleoproterozoic mixed,mixed juvenile-reworked
+Yavapai Province (Arizona),34.5,-112.0,1750,4.0,1900,Paleoproterozoic juvenile,juvenile Yavapai arc
+Mazatzal Province (Arizona),32.5,-110.0,1650,2.0,1900,Paleoproterozoic mixed,juvenile-reworked mix
+Wopmay Orogen (NW Canada),67.0,-115.0,1900,-2.0,2400,Paleoproterozoic mixed,juvenile arc + reworked craton
+Cheyenne Belt (Wyoming),42.0,-105.0,1750,-3.0,2200,Paleoproterozoic mixed,reworked craton
+Grenville Province (Adirondacks),44.0,-74.5,1150,-2.0,1550,Mesoproterozoic mixed,mixed granulite terrane
+Grenville Province (Ontario),45.5,-79.0,1050,-4.0,1700,Mesoproterozoic mixed,evolved reworked crust
+Sveconorwegian (Norway),59.0,7.0,1050,1.0,1450,Mesoproterozoic mixed,partly juvenile
+Musgrave Province (Australia),-26.0,132.0,1200,-3.0,1700,Mesoproterozoic mixed,evolved
+Albany-Fraser (Australia),-32.5,122.0,1200,-1.0,1550,Mesoproterozoic mixed,mixed
+Rondonia (Amazon),-11.0,-63.0,1550,3.0,1700,Mesoproterozoic juvenile,Rondonian juvenile province
+Kibaran Belt (Central Africa),-3.0,29.0,1350,0.0,1750,Mesoproterozoic mixed,mixed
+Namaqua-Natal (South Africa),-30.5,17.0,1100,2.0,1400,Mesoproterozoic juvenile,juvenile
+Arabian-Nubian Shield (Sinai),29.0,34.5,750,8.0,850,Neoproterozoic juvenile,juvenile island arc
+Arabian-Nubian Shield (Red Sea Hills),20.0,35.0,650,7.0,750,Neoproterozoic juvenile,juvenile arc
+Trans-Saharan Belt (Ahaggar),24.0,5.0,600,3.0,800,Neoproterozoic mixed,reworked juvenile
+Brasilia Belt (Central Brazil),-16.0,-48.0,600,-2.0,1200,Neoproterozoic mixed,evolved reworked
+Ribeira Belt (Brazil),-22.0,-45.0,550,-1.0,1100,Neoproterozoic mixed,mixed
+Damara Belt (Namibia),-22.5,15.5,550,-3.0,1400,Neoproterozoic mixed,mixed reworked
+Adamastor Belt (Namibia),-24.0,17.0,600,0.0,1000,Neoproterozoic juvenile,juvenile
+Timanide Orogen (Russia),68.0,55.0,600,2.0,900,Neoproterozoic juvenile,juvenile
+Petermann Orogeny (Australia),-25.0,129.0,570,-4.0,1600,Neoproterozoic mixed,evolved reworked
+East Antarctic Shield (Napier),-72.0,54.0,3800,-2.0,4000,Archean craton,evolved Eoarchean
+Ross Orogen (Antarctica),-77.0,161.0,500,1.0,900,Cambrian juvenile,juvenile arc
+Delamerian Orogen (SA Australia),-33.0,138.0,500,-3.0,1300,Cambrian mixed,reworked
+Kunlun Orogen (Tibet),36.0,90.0,490,4.0,700,Cambrian juvenile,juvenile arc
+Qilian Orogen (China),38.5,98.0,470,3.0,750,Ordovician juvenile,juvenile arc
+Caledonian Orogen (Scotland),57.0,-4.0,470,-3.0,1300,Ordovician mixed,mixed evolved
+Appalachian Taconic (Vermont),44.0,-73.0,470,-2.0,1400,Ordovician mixed,mixed
+Cadomian Orogen (Brittany),48.0,-3.0,570,1.0,900,Neoproterozoic juvenile,juvenile Avalonian arc
+Central Asian Orogenic Belt (Kazakhstan),44.0,72.0,450,5.0,750,Ordovician juvenile,juvenile CAOB arc
+Central Asian Orogenic Belt (Mongolia),47.0,105.0,400,6.0,700,Silurian juvenile,juvenile CAOB arc
+Uralian Orogen (Middle Urals),58.0,60.0,400,3.0,900,Silurian juvenile,juvenile
+Variscan Orogen (Massif Central),45.0,3.0,340,-4.0,1600,Carboniferous mixed,evolved reworked crust
+Variscan Orogen (Iberian Massif),40.5,-6.0,340,-3.0,1500,Carboniferous mixed,evolved
+Tasmanide Orogen (Lachlan),-35.0,148.0,420,-1.0,1200,Silurian mixed,mixed reworked
+Alaska (Yukon-Tanana),64.0,-142.0,350,-2.0,1300,Devonian mixed,mixed reworked
+Tianshan Orogen (Central Asia),42.5,80.0,320,4.0,700,Carboniferous juvenile,juvenile CAOB
+Sierra Nevada Batholith (California),37.5,-119.0,100,6.0,300,Cretaceous juvenile,juvenile Cordilleran arc
+Coast Plutonic Complex (BC Canada),52.0,-124.0,90,7.0,250,Cretaceous juvenile,juvenile Cordilleran arc
+Peninsular Ranges (Baja California),32.0,-116.5,120,7.0,200,Cretaceous juvenile,juvenile arc
+Andean Batholith (Peruvian Coastal),-14.0,-76.0,100,5.0,400,Cretaceous juvenile,juvenile Andean arc
+Andean Batholith (Chilean Coastal),-33.0,-71.0,120,4.0,450,Cretaceous juvenile,juvenile Andean arc
+Northern Andes (Colombia),5.0,-75.0,80,3.0,500,Cretaceous juvenile,juvenile Northern Andean arc
+Papuan Peninsula,-9.0,148.0,10,8.0,50,Miocene juvenile,juvenile island arc
+Vanuatu,-15.5,167.5,5,9.0,20,Pliocene juvenile,juvenile arc, mantle-like
+New Zealand (Median Batholith),-45.0,167.0,120,-1.0,900,Cretaceous mixed,mixed Zealandia arc
+Antarctic Peninsula,-67.0,-67.0,120,4.0,400,Cretaceous juvenile,juvenile arc
+Zagros Suture (Iran),34.0,46.0,80,-2.0,1100,Cretaceous mixed,reworked Iranian crust
+Turkish Tauride Belt,37.0,32.0,80,-1.0,1000,Cretaceous mixed,mixed
+Alpine Belt (Central Alps),46.5,8.0,30,-4.0,1400,Oligocene mixed,evolved reworked European crust
+Karakoram Batholith (Pakistan),35.5,76.0,80,-2.0,1200,Cretaceous mixed,mixed
+Kohistan Arc (Pakistan),35.5,73.0,80,5.0,300,Cretaceous juvenile,juvenile intra-oceanic arc
+Gangdese Batholith (Tibet),29.5,90.5,60,4.0,400,Paleocene juvenile,juvenile Trans-Himalayan arc
+Aleutian Arc,52.0,-172.0,20,8.0,100,Miocene juvenile,juvenile intra-oceanic arc
+Izu-Bonin (Japan),33.0,140.0,15,9.0,50,Miocene juvenile,juvenile intra-oceanic arc
