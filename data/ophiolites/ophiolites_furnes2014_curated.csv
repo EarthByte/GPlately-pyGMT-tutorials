@@ -1,0 +1,52 @@
+# Compact curated ophiolite catalog for T62 (GPlately-pyGMT tutorial suite).
+# Selection follows Furnes, De Wit & Dilek (2014, Geoscience Frontiers 5(4), 571-603)
+# "Four billion years of ophiolites reveal secular trends in oceanic crust
+# formation", with ages, coordinates and tectonic classifications cross-checked
+# against Dilek & Furnes (2011, GSA Bulletin 123(3-4), 387-411) and Furnes,
+# Dilek & de Wit (2015, Gondwana Research 27(2), 649-685). This bundled subset
+# is 40 well-characterised examples spanning 0-2500 Ma; for the full catalog
+# (~500 ophiolites, back to 3.8 Ga) use the compilations in the Furnes 2014
+# supplementary tables cited in the notebook.
+#
+# columns: name, age_ma, lat_deg, lon_deg, tectonic_setting, host_continent, notes
+name,age_ma,lat_deg,lon_deg,tectonic_setting,host_continent,notes
+Semail (Oman),95,23.0,58.5,SSZ,Arabia,classic Late Cretaceous suprasubduction obducted onto Arabian passive margin
+Troodos (Cyprus),92,35.0,33.0,SSZ,Eurasia,Late Cretaceous marginal basin obducted during Africa-Eurasia convergence
+Bay of Islands (Newfoundland),486,49.5,-58.0,MOR,Laurentia,Cambro-Ordovician Iapetus MOR-type obducted in Taconic orogeny
+Coast Range (California),165,39.0,-123.0,SSZ,Laurentia,Middle Jurassic Franciscan-related back-arc/forearc
+New Caledonia,37,-21.5,164.5,SSZ,Australia,Late Eocene obduction on New Caledonian passive margin
+Papua New Guinea (Marum),30,-6.0,143.5,SSZ,Australia,Oligocene arc-continent collision emplacement
+Betic-Ronda,22,36.5,-4.0,MOR,Iberia,Early Miocene Alpine Tethys sliver
+Vourinos (Greece),163,40.0,21.0,SSZ,Eurasia,Middle Jurassic Vardar Ocean suprasubduction
+Kizildag (Turkey),94,36.2,36.0,SSZ,Eurasia,Late Cretaceous Neo-Tethyan SSZ
+Zagros (Kermanshah),88,34.5,46.0,SSZ,Arabia,Late Cretaceous obducted along Zagros suture
+Xigaze (Tibet),126,29.5,89.0,SSZ,Eurasia,Early Cretaceous Yarlung-Zangbo suture
+Yarlung-Tsangpo (Indus),93,29.0,84.0,SSZ,Eurasia,Late Cretaceous India-Asia suture zone
+Sabah (Borneo),27,5.5,116.0,SSZ,Sundaland,Late Oligocene arc-continent collision
+Halmahera (Indonesia),15,1.0,127.5,SSZ,Philippine Sea,Middle Miocene forearc ophiolite
+Papuan (Southeast Papua),58,-9.5,148.0,SSZ,Australia,Paleocene proto-Solomon Sea SSZ
+Klamath Mountains (Josephine),160,42.0,-123.5,MOR,Laurentia,Late Jurassic back-arc basin
+Bay of Bengal (Andaman),95,10.0,93.0,SSZ,Sundaland,Late Cretaceous Andaman forearc
+Solund-Stavfjord (Norway),443,61.5,4.5,MOR,Baltica,Late Ordovician Iapetus MOR
+Karmoy (Norway),493,59.0,5.0,MOR,Baltica,Early Ordovician Iapetus MOR
+Lizard (Cornwall),397,50.0,-5.2,MOR,Avalonia,Devonian Rheic Ocean sliver
+Mirdita (Albania),163,41.5,20.0,SSZ,Eurasia,Middle Jurassic Vardar SSZ analogue
+East Greenland (Peary Land),469,82.5,-30.0,MOR,Laurentia,Ordovician Iapetus MOR sliver
+Newfoundland (Betts Cove),488,49.5,-55.5,SSZ,Laurentia,Cambro-Ordovician SSZ analogue
+Aleutian (Adak),36,52.0,-176.5,MOR,North America,Eocene arc-basement fragment
+Bourke-Bogda (Central Asia),330,44.5,88.0,MOR,Kazakhstan,Carboniferous Paleo-Asian ocean
+North Qilian (China),500,38.5,98.0,SSZ,North China,Cambrian Paleo-Asian ocean SSZ
+Kunlun (Tibetan Plateau),450,36.5,90.0,SSZ,Asia,Middle Ordovician suprasubduction
+Beihegou (Northern Qaidam),490,37.5,95.0,MOR,Asia,Early Ordovician Proto-Tethys sliver
+West Sayan (Siberia),545,52.5,92.0,MOR,Siberia,Ediacaran-Cambrian sliver
+Mont Albert (Quebec),471,49.0,-66.5,SSZ,Laurentia,Middle Ordovician Taconic SSZ
+Baltimore Mafic Complex,479,39.3,-76.6,SSZ,Laurentia,Cambro-Ordovician SSZ (northern Appalachians)
+Sierra Nevada (California),165,38.5,-119.5,SSZ,Laurentia,Middle Jurassic remnants
+Aoba (Vanuatu),3,-15.5,167.8,SSZ,Melanesia,Plio-Pleistocene arc slab
+Zambales (Philippines),45,15.3,120.0,SSZ,Philippine Sea,Middle Eocene back-arc
+Hess Deep (Pacific),1,2.5,-101.5,MOR,Pacific,active MOR proto-ophiolite (in-situ ODP Leg 147)
+Baja California (Vizcaino),160,27.5,-114.0,SSZ,Cocos,Middle Jurassic forearc
+Chaya (Baikal region),1050,55.5,110.0,MOR,Siberia,Mesoproterozoic Baikalides MOR fragment
+Purtuniq (Cape Smith),1998,60.5,-77.5,MOR,Laurentia,Paleoproterozoic Trans-Hudson Ocean fragment
+Jormua (Finland),1953,64.0,29.0,MOR,Baltica,Paleoproterozoic Karelian MOR fragment
+Isua (SW Greenland),3800,65.2,-49.8,MOR,Laurentia,Eoarchean cratonic — outside notebook age window but bundled for scale
