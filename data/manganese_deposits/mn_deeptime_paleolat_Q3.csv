@@ -1,0 +1,34 @@
+deposit,age_Ma,type,n_Q3,abs_paleolat_Q3,n_all,paleolat_all,craton,craton_code
+Azul-Carajas,1850.0,sediment-hosted,10,1.7,10,1.7,Amazonian,A
+Bronkhorstfontein,1880.0,sediment-hosted,34,41.6,36,41.8,Kaapvaal,K
+Vittinki,1950.0,volcanic-hosted,91,19.4,119,20.0,Fennoscandian,B
+Tambao,2050.0,sediment-hosted,9,0.7,10,1.6,West African,W
+Mokta (Grand Lahou),2050.0,sediment-hosted,7,4.0,8,1.3,West African,W
+Nsuta,2050.0,sediment-hosted,7,6.3,8,3.5,West African,W
+Cuyuna IF,2060.0,sediment-hosted,35,62.4,44,63.0,Superior,S
+Panch Mahals,2100.0,sediment-hosted,14,24.8,15,24.6,Aravalli,Ar
+Maripa,2100.0,volcanic-hosted,9,3.8,9,3.8,Amazonian,A
+Serra do Navio,2100.0,sediment-hosted,9,1.4,9,1.4,Amazonian,A
+Postmasburg,2100.0,karst-hosted,34,43.4,34,43.4,Kaapvaal,K
+Ansongo (Takavasita),2100.0,volcanic-hosted,9,0.7,10,1.6,West African,W
+"Moanda, supergene",2143.0,sediment-hosted,1,53.2,1,53.2,Congo,C
+Moanda,2143.0,sediment-hosted,1,53.2,1,53.2,Congo,C
+Kisenge-Kamata-Kapolo,2201.0,sediment-hosted,2,60.6,2,60.6,Congo,C
+Kalahari - Wessels,2250.0,sediment-hosted,6,35.7,6,35.7,Kaapvaal,K
+Kalahari - Mamatwan,2250.0,sediment-hosted,6,35.7,6,35.7,Kaapvaal,K
+Kalahari - supergene,2250.0,sediment-hosted,6,35.7,6,35.7,Kaapvaal,K
+Nigerian IF,2300.0,sediment-hosted,0,,1,10.2,,
+Tiere,2300.0,sediment-hosted,0,,1,18.9,,
+Sagan-Zaba,2700.0,sediment-hosted,0,,0,,,
+Morro da Mina,2700.0,sediment-hosted,1,42.1,1,42.1,Sao Francisco,F
+Matthews Ridge,2700.0,volcanic-hosted,0,,0,,,
+Marau,2700.0,volcanic-hosted,2,18.6,2,18.6,Sao Francisco,F
+Ravensthorpe,2764.0,volcanic-hosted,10,64.0,10,64.0,Yilgarn,Y
+Woodie Woodie,2764.0,sediment-hosted,10,58.3,10,58.3,Pilbara,P
+North Kanara,2900.0,volcanic-hosted,4,84.0,4,84.0,Dharwar,D
+Sandur-Shimoga,2900.0,sediment-hosted,4,82.6,4,82.6,Dharwar,D
+Gangpur,3200.0,sediment-hosted,0,,0,,,
+"Bonai district, other",3200.0,sediment-hosted,0,,0,,,
+Bonai-Keonjhar,3200.0,sediment-hosted,0,,0,,,
+Nishikal,3200.0,sediment-hosted,0,,0,,,
+Urandi,3265.0,sediment-hosted,0,,0,,,

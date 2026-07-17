@@ -1,0 +1,141 @@
+deposit_name,country,state,deposit_type,age_Ma,host_formation,metamorphic_grade,mineral,latitude,longitude,coord_confidence,host_class,supergene
+Abbotabad,Pakistan,Hazara,sediment-hosted,517.0,Hazira,,bixbyite,34.15,73.2,region,sediment-hosted,False
+Adilabad,India,Andhra Pradesh,sediment-hosted,770.0,Penganga,,rhodochrosite,19.7,79.4,auto(PP1802/seed),sediment-hosted,False
+Akkermanov,Russia,Orenburg,sediment-hosted,328.0,,none,rhodochrosite,51.2,57.6,region,sediment-hosted,False
+Ananai,Japan,Shikoku,volcanic-hosted,265.0,,,caryoplite,33.6,133.6,region,volcanic-hosted,False
+Azul-Carajas,Brazil,Para,sediment-hosted,1850.0,Rio Fresco,,rhodochrosite,-6.1,-50.3,lit,sediment-hosted,False
+Bald Knob,USA,NC,volcanic-hosted,750.0,Ashe,amphibolite,rhodochrosite,36.4,-81.4,lit,volcanic-hosted,False
+Binkiliç,Turkey,,sediment-hosted,28.0,,none,cryptomelane,41.3,28.2,region,sediment-hosted,True
+Blue Jay,USA,CA,volcanic-hosted,158.0,Franciscan,none,amorphous oxides + braunite,37.5,-122.3,region,volcanic-hosted,False
+"Bolske (Bolshoi, Bolshe, Bol'she)-Tokmak",Russia,,sediment-hosted,28.0,,,,47.25,35.7,lit,sediment-hosted,False
+Bonai-Keonjhar,India,North Orissa,sediment-hosted,3200.0,Iron Ore Group,,cryptomelane,21.9,85.6,lit,sediment-hosted,True
+Bronkhorstfontein,Zuid Afrika,Limpopo,sediment-hosted,1880.0,Wyllies Poort,none,cryptomelane,-24.5,29.0,region,sediment-hosted,True
+Buckeye-Ladd-Thomas,USA,CA,volcanic-hosted,145.0,Franciscan,blueschist,"braunite, rhodochrosite",37.4,-122.2,region,volcanic-hosted,False
+Çayirh,Turkey,,volcanic-hosted,85.0,,,,40.0,33.0,country,volcanic-hosted,False
+Çevretepe-Dozuztekne,Turkey,,volcanic-hosted,85.0,Isali,,,40.0,33.0,country,volcanic-hosted,False
+Changyang,China,,sediment-hosted,660.0,,,,30.5,111.2,region,sediment-hosted,False
+Chiatura (Tchiatura)-Kvirila,Georgia,,sediment-hosted,28.0,,,manganite,42.3,43.3,auto(PP1802/seed),sediment-hosted,True
+Datangpo,China,Guizhou,sediment-hosted,660.0,,,,28.0,109.0,auto(PP1802/seed),sediment-hosted,False
+Dawashan,China,Sichuan,sediment-hosted,444.0,,,rhodochrosite,29.0,104.0,region,sediment-hosted,False
+Dounan-Baixian-Heishui,China,Yunnan,sediment-hosted,230.0,Falang,,"braunite, rhodochrosite",23.7,103.1,lit,sediment-hosted,False
+Drimos-Aroania,Greece,,volcanic-hosted,152.0,Lesteena,,pyrolusite,38.0,22.2,region,volcanic-hosted,False
+East Carpathians,Romania,,volcanic-hosted,488.0,Tulghes Grp,greenschist,rhodochrosite,47.0,25.5,region,volcanic-hosted,False
+Elazig district,Turkey,,volcanic-hosted,44.0,Melafan,,"braunite, jacobsite, bixbyite",38.7,39.2,lit,volcanic-hosted,False
+Faizuly,Russia,Magnitogorsk,volcanic-hosted,395.0,Bugulygyr,zeolite,"rhodochrosite, pyroxmangite",53.4,59.0,lit,volcanic-hosted,False
+Forari,New Hebrides,,volcanic-hosted,1.0,,,amorphous oxides,-17.7,168.5,lit,volcanic-hosted,False
+Gambatesa-Molinello,Italy,Liguria,volcanic-hosted,146.0,Monte Alpe,greenschist,braunite,44.4,9.4,lit,volcanic-hosted,False
+Gaoyan,China,Sichuan,sediment-hosted,660.0,Doushantuo,,rhodochrosite,28.0,109.0,auto(PP1802/seed),sediment-hosted,False
+Gonzen,Switzerland,,sediment-hosted,156.0,Quintner LS,none,rhodochrosite,47.1,9.4,lit,sediment-hosted,False
+Groote Eylandt,Australia,NT,sediment-hosted,99.0,Mullaman,none,pyrolusite,-14.0,136.5,auto(PP1802/seed),sediment-hosted,False
+Guichi,China,Anhui,sediment-hosted,270.0,Gufeng,,rhodochrosite,30.7,117.5,region,sediment-hosted,False
+Hawasina,Oman,,volcanic-hosted,146.0,Wahrah,none to greenschist,pyrolusite,23.2,57.5,region,volcanic-hosted,False
+Huayuan,China,Hunan,sediment-hosted,660.0,,,,28.6,109.5,lit,sediment-hosted,False
+Imini,Morocco,,karst-hosted,95.0,,none,pyrolusite,30.7333,-6.9,auto(PP1802/seed),karst-hosted,False
+Jiaodingshan,China,Sichuan,sediment-hosted,444.0,,,rhodochrosite,29.0,104.0,region,sediment-hosted,False
+Kalahari - Mamatwan,South Africa,,sediment-hosted,2250.0,Hotazel,,kutnahorite,-27.2,22.9,lit,sediment-hosted,False
+Kalahari - supergene,South Africa,,sediment-hosted,2250.0,Hotazel,,"manganomelane, todorokite",-27.2,22.9,lit,sediment-hosted,True
+Kalahari - Wessels,South Africa,,sediment-hosted,2250.0,Hotazel,,hausmannite,-27.1,22.9,lit,sediment-hosted,False
+"Karadzhal (Karazhal, Karadjal) all oxide",Kazakhstan,Atasu,volcanic-hosted,375.0,Karadzhal,,"braunite, jacobsite, hausmannite",48.7,73.3,lit,volcanic-hosted,False
+Karwendel /Tennengebirge,Austria,,sediment-hosted,161.0,Strubberg,,rhodochrosite,47.5,13.0,region,sediment-hosted,False
+Krížna,Poland,,sediment-hosted,180.0,,,Mn calcite,49.2,19.9,region,sediment-hosted,False
+Kyzltash,Russia,Magnitogorsk,volcanic-hosted,385.0,Ulutau,,,53.4,59.0,lit,volcanic-hosted,False
+Laba (Labinsk),Russia,,sediment-hosted,28.0,,none,rhodochrosite,44.6,40.7,region,sediment-hosted,False
+Lijiaying,China,Shaanxi,volcanic-hosted,1400.0,Guojiagou,greenschist,braunite,33.0,108.0,region,volcanic-hosted,False
+Lucifer,Mexico,Baja Sur,volcanic-hosted,3.6,Boleo,none,cryptomelane,27.0,-112.2,region,volcanic-hosted,True
+Mangyshlak-carb,Kazakhstan,,sediment-hosted,28.0,,,rhodochrosite,43.7,51.2,lit,sediment-hosted,False
+Mangyshlak-ox,Kazakhstan,,sediment-hosted,28.0,,,pyrolusite,43.7,51.2,lit,sediment-hosted,False
+Matese-Ciociaria,Italy,Molise,volcanic-hosted,11.0,Pietraroia,none,todorokite,41.5,14.3,region,volcanic-hosted,True
+Minle,China,Hunan,sediment-hosted,660.0,Minle,,rhodochrosite,28.3,112.5,lit,sediment-hosted,False
+Moanda,Gabon,,sediment-hosted,2143.0,Francevillian FB1,,rhodochrosite,-1.5667,13.2833,auto(PP1802/seed),sediment-hosted,False
+"Moanda, supergene",Gabon,,sediment-hosted,2143.0,Francevillian FB1,,,-1.5,13.2,lit,sediment-hosted,False
+Mokta (Grand Lahou),Côte d'Ivoire,,sediment-hosted,2050.0,,biotite,braunite (after rhodochrosite),5.1,-5.0,region,sediment-hosted,False
+Molango,Mexico,Hidalgo,sediment-hosted,156.0,Taman,none,rhodochrosite,20.8333,-98.7333,auto(PP1802/seed),sediment-hosted,False
+Mutun,Bolivia,,sediment-hosted,700.0,Jacadigo,none,cryptomelane,-19.1,-57.7,lit,sediment-hosted,True
+Nikopol,Ukraine,,sediment-hosted,28.0,,none,rhodochrosite,47.5667,34.4167,auto(PP1802/seed),sediment-hosted,False
+Ningxiang,China,Hunan,sediment-hosted,660.0,,,,28.3,112.6,lit,sediment-hosted,False
+Nishikal,India,South Orissa,sediment-hosted,3200.0,Iron Ore Group,granulite,cryptomelane,19.5,84.0,region,sediment-hosted,True
+Noda-Tamagawa (originally rhodochrosite),Japan,Iwate,sediment-hosted,190.0,Takayahiki,,hausmanite,40.0,141.8,lit,sediment-hosted,False
+Nsuta,Ghana,,sediment-hosted,2050.0,,,rhodochrosite,5.28,-1.95,auto(PP1802/seed),sediment-hosted,False
+Obrochishte,Bulgaria,,sediment-hosted,28.0,Ruslar,none,rhodochrosite,43.4,28.0,lit,sediment-hosted,False
+Ocakli,Turkey,,volcanic-hosted,85.0,,,,40.0,33.0,country,volcanic-hosted,False
+Otjozondu,Namibia,,sediment-hosted,800.0,Chuos,amphibolite,braunite,-21.5,17.5,auto(PP1802/seed),sediment-hosted,False
+Postmasburg,South Africa,N Cape,karst-hosted,2100.0,Reivilo,greenschist,"braunite, partridgeite",-28.05,23.05,auto(PP1802/seed),karst-hosted,False
+San Francisco ( Autlan),Mexico,Jalisco,volcanic-hosted,34.0,,,braunite,19.8,-104.4,lit,volcanic-hosted,False
+Sandur-Shimoga,India,Karnataka,sediment-hosted,2900.0,Deogiri,,rhodochrosite,15.1,76.5,lit,sediment-hosted,False
+Serra do Navio,Brazil,,sediment-hosted,2100.0,Amapa series,,rhodochrosite,1.0,-52.0,auto(PP1802/seed),sediment-hosted,False
+Songtao,China,Guizhou,sediment-hosted,660.0,,,,28.0,109.0,auto(PP1802/seed),sediment-hosted,False
+Spława,Poland,,sediment-hosted,94.0,Barnaslowka,none,amor oxides,50.0,19.0,country,sediment-hosted,False
+Tambao,Burkina Fasso,,sediment-hosted,2050.0,,,rhodochrosite,14.7833,-0.0667,auto(PP1802/seed),sediment-hosted,False
+Tangganshan,China,,sediment-hosted,660.0,,,rhodochrosite,28.0,109.0,region,sediment-hosted,False
+Taojiang,China,,sediment-hosted,468.0,Modaoxi,,rhodochrosite,28.5,112.2,auto(PP1802/seed),sediment-hosted,False
+Tennengebirge,Austria,,sediment-hosted,180.0,Allgäu,Vr max 3.8%,kutnahorite,47.5,13.3,region,sediment-hosted,False
+Tiantaishan,China,Shaanxi,sediment-hosted,525.0,Tananpo,,,34.0,107.0,region,sediment-hosted,False
+Tiouine,Morocco,,volcanic-hosted,700.0,,,braunite,30.9,-7.0,region,volcanic-hosted,False
+Tokoro,Japan,Hokkaido,volcanic-hosted,125.0,Nikoro,,braunite,44.0,144.0,lit,volcanic-hosted,False
+Ulukent-Gökçeovacik,Turkey,,sediment-hosted,94.0,,,,37.5,29.3,region,sediment-hosted,False
+Um Bogma,Egypt,Sinai,karst-hosted,336.0,Um Bogma,none,pyrochroite,29.0,33.3,lit,karst-hosted,False
+Úrkút-carbonate,Hungary,Transdanubia,sediment-hosted,183.0,,none,rhodochrosite,47.08,17.64,lit,sediment-hosted,False
+Úrkút-oxide,Hungary,Transdanubia,sediment-hosted,184.0,,none,cryptomelane,47.08,17.64,lit,sediment-hosted,True
+Urucum,Brazil,Mato Grosso do Sul,sediment-hosted,700.0,Santa Cruz,none,cryptomelane,-19.1333,-57.55,auto(PP1802/seed),sediment-hosted,True
+"Usa (Belaya Usa, Usinsk)",Russia,Kuznetskii-Alatau,sediment-hosted,550.0,,none,rhodochrosite,54.0,88.0,region,sediment-hosted,False
+Vani,Greece,Milos,volcanic-hosted,1.0,,none,pyrolusite,36.7,24.4,lit,volcanic-hosted,False
+Wafangzi (Wafangtzu) - carbonate,China,Liaoning,sediment-hosted,1120.0,Tieling,none - green,rhodochrosite,41.0,119.3,auto(PP1802/seed),sediment-hosted,False
+Wafangzi (Wafangtzu) - oxide,China,Liaoning,sediment-hosted,1120.0,Tieling,none - green,"manganite, braunite",41.0,119.3,auto(PP1802/seed),sediment-hosted,True
+Waziristan,Pakistan,Baluchistan,volcanic-hosted,150.0,,,braunite,32.0,69.5,region,volcanic-hosted,False
+White Oak Mtn,USA,TN,karst-hosted,345.0,Ft Payne,none,"lithiophorite, cryptomelane",35.1,-85.1,region,karst-hosted,True
+Woodie Woodie,Australia,WA,sediment-hosted,2764.0,Carrawine,,pyrolusite,-21.6,121.2,auto(PP1802/seed),sediment-hosted,False
+Xialei,China,Guangxi Zhuang,sediment-hosted,367.0,Wuzhistan,,rhodochrosite,23.2,106.3,lit,sediment-hosted,False
+Xiangtan,China,,sediment-hosted,660.0,,,rhodochrosite,27.9,112.5,lit,sediment-hosted,False
+Ansongo (Takavasita),Mali,,volcanic-hosted,2100.0,,,"psilomelane, pyrolusite",15.7,0.5,region,volcanic-hosted,True
+Batesville,USA,Ark,sediment-hosted,455.0,,,"rhodochrosite, hausmannite",35.8,-91.6,lit,sediment-hosted,False
+"Bonai district, other",India,North Orissa,sediment-hosted,3200.0,Iron Ore Group,,braunite,21.9,85.6,region,sediment-hosted,False
+Bou Arfa,Morocco,,karst-hosted,195.0,,,"hausmannite, braunite, rhodochrosite",32.5,-1.96,lit,karst-hosted,False
+Coquimbo,Chile,,volcanic-hosted,99.0,Arqueros,,braunite,-29.95,-71.3,region,volcanic-hosted,False
+East Syan (Nizhneudinsk),Russia,Nizhneudinsk,sediment-hosted,700.0,Izanskaya,,"braunite, hausmannite",54.9,99.0,region,sediment-hosted,False
+Eastern Cuba,Cuba,,volcanic-hosted,48.0,,,manganite,20.4,-75.8,region,volcanic-hosted,True
+En Kafala,Afar,,volcanic-hosted,1.0,,,,11.5,41.0,country,volcanic-hosted,False
+Falotta,Switzerland,Grison,volcanic-hosted,146.0,,greenschist,braunite,46.6,9.5,lit,volcanic-hosted,False
+Gangpur,India,North Orissa,sediment-hosted,3200.0,Iron Ore Group,,braunite,22.0,84.5,lit,sediment-hosted,False
+Gucheng,China,,sediment-hosted,700.0,,,,28.0,109.0,region,sediment-hosted,False
+Harlech Dome,United Kingdom,Wales,sediment-hosted,520.0,,chlorite,rhodochrosite,52.9,-4.0,lit,sediment-hosted,False
+Jiangkou,China,,sediment-hosted,600.0,,,,27.7,108.8,region,sediment-hosted,False
+Kampumba-Mansa-Chiwefwe,Zambia,,volcanic-hosted,1600.0,,,manganite,-11.2,28.9,region,volcanic-hosted,True
+Kisenge-Kamata-Kapolo,DRC,Katanga,sediment-hosted,2201.0,,,,-10.4,23.4,lit,sediment-hosted,False
+Kisovece,Czechoslovakia,,sediment-hosted,28.0,,,,49.0,20.0,country,sediment-hosted,False
+Langban,Sweden,Varmland,volcanic-hosted,1800.0,,,braunite,59.86,14.27,lit,volcanic-hosted,False
+Magnitogorsk,Russia,,volcanic-hosted,370.0,,,"braunite, rhodonite",53.4,59.0,lit,volcanic-hosted,False
+Maliuba,China,,sediment-hosted,600.0,,,,28.0,109.0,region,sediment-hosted,False
+Marau,Brazil,Bahia,volcanic-hosted,2700.0,,,"cryptomelane, lithiophorite",-14.1,-39.0,region,volcanic-hosted,True
+Maripa,Suriname,,volcanic-hosted,2100.0,Paramaca series,,,5.0,-55.5,country,volcanic-hosted,False
+Matthews Ridge,Guyana,,volcanic-hosted,2700.0,Barama (=Parameca) series,,braunite,7.5,-60.2,lit,volcanic-hosted,False
+Morro da Mina,Brazil,,sediment-hosted,2700.0,Rio das Velhas,,rhodochrosite,-20.5833,-43.8333,auto(PP1802/seed),sediment-hosted,False
+Nagpur-Bhandara,India,Madhya Pradesh and Maharashtra,sediment-hosted,910.0,Mansur (Mansar),,,21.4,79.5,lit,sediment-hosted,False
+North Kanara,India,Karnataka,volcanic-hosted,2900.0,,,braunite,14.8,74.5,region,volcanic-hosted,False
+Oldakit,Russia,,sediment-hosted,530.0,,,,56.0,116.0,country,sediment-hosted,False
+Olympic Peninsula,USA,WA,volcanic-hosted,40.0,,,"braunite, hausmannite",47.8,-124.0,region,volcanic-hosted,False
+Panch Mahals,India,,sediment-hosted,2100.0,,,braunite,22.8,73.8,region,sediment-hosted,False
+Perstentevskii,Khazakstan,Atasu,volcanic-hosted,370.0,Karadzhal,chlorite,"braunite, jacobsite, hausmannite (after rhodochrosite)",48.7,73.3,region,volcanic-hosted,False
+Polunochnoe (Polunochnoye),Russia,,sediment-hosted,60.0,,,rhodochrosite,60.9,60.4,lit,sediment-hosted,False
+Quinquinhe,Angola,,sediment-hosted,900.0,,,"manganite, rhodonite",-12.0,16.0,country,sediment-hosted,True
+Ravensthorpe,Australia,WA,volcanic-hosted,2764.0,,,pyrolusite,-33.6,120.0,lit,volcanic-hosted,False
+Sagan-Zaba,Russia,,sediment-hosted,2700.0,Ozersk,amphibolite,Mn-calcite,52.8,106.3,lit,sediment-hosted,False
+Soloviejo,Spain,Huelva,volcanic-hosted,335.0,Manganiferous Fmn,,"rhodonite, rhodochrosite, pyrolusite",37.7,-6.7,region,volcanic-hosted,False
+Takhta-Karacha,Uzbekistan,Zeravshan,sediment-hosted,421.0,,,rhodochrosite,39.5,67.0,region,sediment-hosted,False
+Tanncherfi-Narguechoum,Morocco,,volcanic-hosted,256.0,,,,34.0,-2.9,region,volcanic-hosted,False
+Tiere,Burkina Fasso,,sediment-hosted,2300.0,,,,14.5,-0.2,country,sediment-hosted,False
+Tiharatine,Morocco,,karst-hosted,195.0,,,,30.9,-7.0,region,karst-hosted,False
+Timna,Israel,,karst-hosted,501.0,Timna,none,pyrolusite,29.8,35.0,lit,karst-hosted,False
+Uda River,,,volcanic-hosted,530.0,,,braunite,54.0,98.0,country,volcanic-hosted,False
+Ultevis,Sweden,,volcanic-hosted,1500.0,,,braunite,67.0,18.0,region,volcanic-hosted,False
+Ulu-Telyak (Teliak),Russia,Urals,sediment-hosted,258.0,Artinsk,,rhodochrosite,54.9,56.9,region,sediment-hosted,False
+Urandi,Brazil,Bahia,sediment-hosted,3265.0,,,jacobsite,-14.8,-42.7,lit,sediment-hosted,False
+Ushkatyn III,Kazakhstan,Atasu,volcanic-hosted,370.0,Karadzhal,chlorite,"braunite, jacobsite, hausmannite (after rhodochrosite)",48.7,73.3,lit,volcanic-hosted,False
+Xinrong,China,Guangdong,karst-hosted,381.0,,none,cryptomelane,22.5,111.5,lit,karst-hosted,True
+Derbent,Turkey,,volcanic-hosted,94.0,Artova ophiolite,,"pyrolusite, braunite",40.0,33.0,country,volcanic-hosted,False
+Eymir,Turkey,,volcanic-hosted,94.0,Artova ophiolite,,"pyrolusite, braunite",40.0,33.0,country,volcanic-hosted,False
+Katsuyama,Japan,,volcanic-hosted,179.0,,,,35.1,134.0,region,volcanic-hosted,False
+Manuels River,Canada,Newfoundland,sediment-hosted,517.0,,none,rhodochrosite,47.5,-52.9,lit,sediment-hosted,False
+Pipji - karstic?,Switzerland,,sediment-hosted,230.0,Barrhorn Series,none,"kutnahorite, jacobsite",46.2,7.6,region,sediment-hosted,False
+Vittinki,Finland,,volcanic-hosted,1950.0,Vittinki Grp,amphibolite-granulite,"rhodoniite, pyroxmangite",62.8,22.8,region,volcanic-hosted,False
+Cuyuna IF,USA,MI ,sediment-hosted,2060.0,Animikie Group,,"psilomelane, manganite",46.5,-93.9,lit,sediment-hosted,True
+Nigerian IF,Nigeria,,sediment-hosted,2300.0,Maru schist,amphibolite,garnet,10.0,8.0,country,sediment-hosted,False
