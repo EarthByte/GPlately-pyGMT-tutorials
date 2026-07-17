@@ -1,0 +1,658 @@
+locality,age_ma,lat,lon,paleolat_hinsbergen2015,environment
+"White Sea, Moseevskoe site",0.006,66.56,34.96,66.56,Shallow shelf
+"White Sea, Olenitsa",0.006,66.47,35.32,66.47,Shallow shelf
+"White Sea coast, Kashkarantsy",0.006,66.339345,36.009534,66.339345,Shallow shelf
+"White Sea, Kuzreka site",0.006,66.6,34.82,66.6,Shallow shelf
+"Saanich Inlet, ODP Leg 169, site 1034",0.01,48.65,-123.499972,48.65,Deep shelf
+"Saanich Inlet, ODP Leg 169, site 1033",0.01,48.590639,-123.503333,48.590639,Deep shelf
+"Lake Lacar, Argentine",0.01,-40.164,-71.495,-40.164,Lake
+"Laptev Sea, PS51/154-11 site",0.014,77.2593,120.6098,77.2593,Shelf
+"Sea of Japan, core PC1803",0.014,38.321333,138.785867,38.321333,Deep shelf
+"Sea of Japan, core PC1805",0.014,38.320433,138.77435,38.320433,Deep shelf
+"Mega settlement, Western Siberia",0.015,60.984198,76.355485,60.984198,Nonmarine?
+"Laguna Lejía, Chile ",0.02,-23.5,-67.7,-23.5,Lacustrine
+"Sea of Japan, core MD179-3325",0.02,38.275333,137.917333,38.275333,Abyssal
+"Sea of Japan, core PC1105",0.02,38.1245,138.0595,38.1245,Abyssal
+"Sea of Japan, core PC1121",0.02,38.146667,138.072333,38.146667,Abyssal
+"Sea of Japan, core PC1122",0.02,38.186667,138.065667,38.186667,Abyssal
+"Sea of Japan, core PC1718",0.02,38.1465,138.036,38.1465,Abyssal
+"Bystraya river, Byrranga Mts",0.02,72.74615,84.21363,72.74615,Shallow shelf
+GeoB 2809 site,0.025,-51.52,-36.33,-51.52,Abyssal
+"Victoria Cave, Bashkiria, Russia",0.025,53.044,57.064,53.044,Cave
+"Woody Cow, Newfoundland",0.03,47.859,-59.366,47.859,Shallow shelf to intertidal
+Lipatnikovsky Island,0.04,68.37,86.311,68.37,Shallow shelf to intertidal
+"Sarichef Island, Alaska",0.1,66.25599,-166.07665,66.25599,Shallow shelf
+"Cape Prince of Wales, Alaska",0.1,65.5964,-168.09347,65.5964,Shallow shelf
+"Terpeniya Bay, Sakhalin, site 8013",0.1,48.93,143.7,48.93,Shallow shelf
+"Sea of Okhotsk, site 82156",0.1,53.905,144.0,53.905,Deep shelf
+"Sea of Japan, site 89102",0.1,39.286,128.118,39.286,Deep shelf
+"Obersdorf, Sangerhausen (Germany)",0.1,51.521,11.323,51.521,Alluvual to intertidal
+"Bolshaya Balakhnya river, Aragonitovoe locality",0.1,73.52587,101.52587,73.52587,Shallow shelf to intertidal
+"Bolshaya Balakhnya river, upstream from Nyukuda river mouth (Snezhnoe locality)",0.1,73.5293,101.0031,73.5293,Shallow shelf to intertidal
+"Pay-Khoy, Russia",0.1,69,63.0,69,Shallow shelf to intertidal
+"Jarrow Slake, UK",0.1,54.98,-1.472,54.98,Shallow shelf to intertidal
+"Bobeldijk, Netherlands",0.1,52.65,4.99,52.65,Shallow shelf to intertidal
+"Mono Lake, Ca, USA",0.1,38,-119.0,38,Lacustrine
+"Pechora region, Russia",0.1,66,52.0,66,Lacustrine to intertidal
+"Sea of Okhotsk, LV29-104 site",0.1,53.2141,146.2607,53.2141,Abyssal
+"Sea of Okhotsk, site So178-78",0.1,54.0698,146.3002,54.0698,Abyssal
+"Luts-Yag river, Siberia",0.1,71.708,73.5,71.708,Shallow shelf to intertidal
+"Shokalsky Island, Kara Sea (formerly Agnessa Island)",0.1,72.966,74.45,72.966,Shallow shelf to intertidal
+White sea,0.1,64.93,39.5,64.93,Shallow shelf
+Spitsbergen,0.1,78,15.0,78,Shallow shelf
+"Sea of Okhotsk, site TWL16-1",0.1,54.3733,143.9916,54.3733,Abyssal
+"Sea of Okhotsk, site TWL16-2",0.1,54.3716,143.9833,54.3716,Abyssal
+Dolný Harmanec (Slovakia),0.1,48.83,19.036,48.83,Cave
+Winnemucca Dry Lake,0.1,39.947569,-119.387002,39.947569,Lacustrine
+"Pyramid Lake. Nevada, US",0.1,40.05,-119.56,40.05,Lacustrine
+"Zaire Fan, core T78-30",0.1,-5.99,9.943,-5.99,Abyssal
+"Zaire Fan, core T78-34",0.1,-6.825,7.79,-6.825,Abyssal
+Novaya Zemlya,0.1,73,55.0,73,Shallow shelf to intertidal
+"Lahontan lake, USA",0.1,39.402,-119.113,39.402,Lacustrine
+"Sea of Okhotsk, site LV27-3-3",0.1,54.41,145.126,54.41,Abyssal
+"Genzan, Korea",0.1,39.152,127.443,39.152,Abyssal?
+"Durham, UK",0.1,54.775231,-1.578718,54.77,Shallow shelf to intertidal
+"Dollard, Netherlands",0.1,53.24,7.16,53.24,Shallow shelf to intertidal
+"Onderdendam, Netherlands",0.1,53.335,6.576,53.335,Shallow shelf to intertidal
+"Avenhorn, Netherlands",0.1,52.624,5.015,52.624,Shallow shelf to intertidal
+"Lavrentiya Bay, Chukotka, Russia",0.1,65.603,-170.625,65.603,Shallow shelf to intertidal
+Searles Lake,0.1,35.739,-117.377,35.739,Lacustrine
+"Tönning, Kating (Germany)",0.1,54.325,8.872,54.325,Shallow shelf to intertidal
+"West Paterson, NJ, USA",0.1,40.88,-74.18,40.88,Unclear
+Bay of Fundy,0.1,45,-65.75,45,Shallow shelf to intertidal
+"Groningen, Netherlands",0.1,53.23,6.59,53.23,Shallow shelf to intertidal
+"Friesland, Netherlands",0.1,53.22,5.45,53.22,Shallow shelf to intertidal
+"Zaire Fan, cores GeoB 1401-4, 4914-3",0.1,-6.933,9.0,-6.933,Abyssal
+"Place de la République, Paris",0.1,48.867723,2.363632,48.867723,Unclear
+"Nordstrand, Germany",0.1,54.5177,8.8558,54.5177,Shallow shelf to intertidal
+"Gydan Bay, Western Siberia",0.1,71.277722,77.611889,71.277722,Shallow shelf
+Agapa river,0.1,71.65211,88.2892,71.65211,Shallow shelf
+"Salor Creek, Ellsmere Island",0.1,81.781,-68.605,81.781,no data
+"Beaufort Sea, Core 13",0.1,70.944,143.05583,70.944,Abyssal
+"Oplyvnoy Yar, Yenisei river",0.11,53.34,91.84,53.34,Shallow shelf to littoral
+"Agapa river, Russia",0.11,71.584238,87.875871,71.584238,Shallow shelf to littoral
+Ob river near Kalamanka,0.22,52.946,83.6154,52.946,Shallow shelf to littoral
+"Zaire Fan, core T80-6",0.35,-8,7.988,-8,Abyssal
+"Zaire Fan, core T80-7",0.35,-7,9.031,-7,Abyssal
+"Zaire Fan, core T80-4",0.4,-6.14,5.031,-6.14,Abyssal
+"Carter Creek, NE Alaska",3.0,69.965,-144.7532,69.965,Shallow shelf to intertidal
+"Barter Island, NE Alaska",3.0,70.133,-143.676,70.133,Shallow shelf to intertidal
+"Teshio-cho (loc. 84-03), Hokkaido, Japan",3.0,44.852146,141.864936,44.852146,Shallow shelf
+"Manning Point, Alaska",3.0,70.118,-143.51,70.12,Shallow shelf
+"Alkali Lake, Oregon, US",3.5,42.977222,-120.028056,42.977222,Lacustrine
+"Akita area, Japan",3.6,39.933136,139.815043,39.933136,Shallow shelf
+"Camp Creek, USA",4.3,47.401813,-124.331545,47.4,Shelf
+Rosselia Cove,4.3,47.41847,-124.33693,47.41847,Shelf
+"Karaginsky island, Kamchatka, Russia",5.0,57.756,163.739,57.756,Shallow shelf
+"Schmidt Peninsula, Sakhalin",6.8,54.2786,142.417,54.2786,Abyssal
+"Schmidt Peninsula, Sakhalin",6.8,53.99,142.6307,53.99,Abyssal
+"Hokkaido, Japan",7.5,43.351,141.425194,43.351,Bathyal zone
+"Aleksandrovo area, Sakhalin",8.0,50.994171,142.24599,50.994171,Shallow shelf
+"Lebedinskaya 1 borehole, Sakhalin",8.0,53.2,143.2333,53.2,Shallow shelf
+"Sakhalin, near Agnevo mouth",8.0,50.583812,142.050717,50.583812,Shallow shelf
+"Tochio area, Niigata Prefecture, Japan",8.0,37.433975,138.990771,37.4334,Bathyal
+"Yoneyama District, Niigata Prefecture, Japan",9.0,37.247619,138.581187,37.247619,Shelf
+"Karaginsky island, Kamchatka, Russia",9.4,57.756,163.739,57.756,Shallow shelf
+"Nishikubiki area, Japan",10.5,36.983,138.08,36.983,Shallow shelf
+"Joetsu, Japan",10.5,37.113,138.078,37.113,Shallow shelf
+"Daginsk area, Sakhalin",11.0,52.077,143.03,52.077,Shallow shelf
+"Schmidt Peninsula, Sakhalin",11.0,54.01838,142.5911,54.01838,Abyssal
+"Nishikubiki area, Japan",11.5,36.983,138.08,36.983,Shallow shelf
+"Kamchatka, Okno Cape",12.0,60.250899,165.697226,60.250899,Shallow shelf
+"Gavrilovskaya 2 borehole, offshore Sakhalin",12.0,49.15,141.75,49.15,Shelf
+"Karaginsky island, Kamchatka, Russia",13.0,57.756,163.739,57.756,Shallow shelf
+"Cape Zhonkier, Sakhalin",13.0,50.908,142.147,50.908,Shallow shelf
+"Aleksandrovsk area, Sakhalin",13.0,50.994171,142.24599,50.994171,Shallow shelf
+"Kavrano-Uhtolokskaya Bay, Kamchatka",13.0,57.448,157.002,57.448,Shallow shelf
+Agvayam river,13.0,60.724064,169.476413,64.29,Shallow shelf
+"Nagano Prefecture, central Japan",13.3,36.346,137.989,36.346,Shallow shelf
+"Western Kamchatka, Russia",14.0,58.13,158.42,58.13,Shallow shelf
+"Makarov area, Sakhalin",14.0,48.63,142.74,48.63,Shallow shelf
+"Il’pinskii Peninsula, Kamchatka",15.0,59.966,164.933,59.966,Shallow shelf
+"Khatyr depression, Koryak Upland, Russia",15.0,62.2277,175.867,66.21,Shallow shelf
+"Youngs river, Or, USA",15.0,46.11,-123.81,46.11,Shallow shelf
+"Megler, Wa, USA",15.0,46.25,-123.85,46.25,Shallow shelf
+"Ueda, Japan",15.0,36.4241,138.2967,36.4241,Shallow shelf
+"Pogranichny area, Sakhalin",17.0,50.38,143.766,50.38,Shallow shelf
+"Ozernoy Bay, Kamchatka",17.0,61.35,169.783,61.35,Shallow shelf
+"Chita Peninsula, Japan",17.5,34.712793,136.911234,34.712793,Bathyal
+"Pogranichny area, Sakhalin",18.0,50.38,143.766,50.38,Shallow shelf
+"Mutnaya river, Sakhalin",18.0,50.534829,143.712411,50.534829,Shallow shelf
+"Aichi, central Japan",18.0,34.71225,136.912611,34.71225,Shelf
+"Schmidt Peninsula, Sakhalin",19.5,54.2786,142.417,54.2786,Abyssal
+"Olympic Mountains, USA",20.0,46.2906,-123.7272,46.2906,Shallow shelf
+"Ozernoy Bay, Kamchatka",20.0,61.35,169.783,61.35,Shallow shelf
+"Kirpichnaya pad', Sakhalin",20.0,50.828165,142.097526,50.828165,
+"Pogranichny area, Sakhalin",24.0,50.38,143.766,50.38,Shallow shelf
+"Schmidt Peninsula, Sakhalin",24.0,54.2786,142.417,54.2786,Shallow shelf
+"North Sea, offshore Denmark",24.0,56.449959,4.687621,51.35,Shallow shelf
+"Silstrup Sydklint, Denmark",24.0,56.920278,8.6525,52.04,Shallow shelf
+Fiddlers Bluff,24.0,47.87,-122.0896,47.87,Shallow shelf
+"Kamchatka, Ugol'naya river",24.0,60.318677,165.796779,60.318677,Shallow shelf
+"Il’pinskii Peninsula, Kamchatka",25.0,59.966,164.933,59.966,Shallow shelf
+"Western Kamchatka, Russia",25.0,58.13,158.42,58.13,Shallow shelf
+"Eastern Kamchatka, Southern Valaginskii Range",25.0,54.341772,158.59609,54.341772,Shallow shelf
+Korfa Bay,25.0,60.333,165.7569,60.333,Shallow shelf
+"Langyryisky area, Sakhalin",25.0,53.19,142.25,53.19,Shallow shelf
+"Kawajiri, Misaki, Japan",25.0,34.304,135.154,34.304,Shallow shelf
+"Creede Calderra, Colorado, US",25.0,37.81,-106.920109,37.81,lacustrine
+"East of Twin Rivers, USA",25.0,48.163,-123.96,48.163,Shallow shelf
+"Carter Creek, Alaska, North Slope, USA",25.0,69.9675,-144.702777778,69.9675,Shallow shelf
+"Olympic Mountains, USA",25.0,48.1555,-123.8683,48.1555,Shallow shelf
+"Olympic Mountains, USA",25.0,48.1554,-123.8659,48.1554,Shallow shelf
+"Olympic Mountains, USA",25.0,48.1591,-123.8721,48.1591,Shallow shelf
+"Kamchatka, Ugol'naya river",25.0,60.318677,165.796779,60.318677,Shallow shelf
+"Mt Uvuch, Kamchatka",26.0,57.779773,157.477934,57.779773,Shallow shelf
+"Cape Falcon, Or, USA",28.0,45.76,-123.98,45.76,Shallow shelf
+"Rassoschina river, Kamchatka",28.0,55.951,156.561,55.951,Shallow shelf
+"Western Kamchatka, Russia",28.0,58.13,158.42,58.13,Shallow shelf
+"McGinty Point section, Alaska, USA",28.0,55.483056,-160.743611,55.483056,Shallow shelf
+"West Cow section, Alaska",28.0,55.644273,-160.251278,55.644273,Shallow shelf
+"Chichagof bay, Alaska",28.0,55.701873,-160.234799,55.701873,Shallow shelf
+"Kushiro, Hokkaido, Japan",28.0,42.951,144.533,42.951,Shallow shelf
+"Tokomuro, Hokkaido,  Japan",28.0,42.875,143.688,42.875,Shallow shelf
+Severo-Kolpakovskaya 67 borehole,28.0,54.6274,155.8237,54.6274,Shallow shelf
+"Western Kamchatka, Russia",28.0,58.13,158.42,58.13,Shallow shelf
+"Pogranichny area, Sakhalin",28.5,50.38,143.766,50.38,Shallow shelf
+"Olympic Mountains, USA",29.0,46.2838,-123.8056,46.2838,Shallow shelf
+"Olympic Mountains, USA",29.0,46.2847,-123.8013,46.2847,Shallow shelf
+"Olympic Mountains, USA",29.0,47.3079,-123.503,47.3079,Shallow shelf
+"Olympic Mountains, USA",29.0,47.304,-123.5057,47.304,Shallow shelf
+"Kovran river, Kamchatka",29.0,57.207372,156.881239,57.207372,Shallow shelf
+"Icha river, Kamchatka",29.0,55.344,156.862,55.344,Shallow shelf
+"Sopochnaya river, Kamchatka",29.0,56.039,156.01924,56.039,Shallow shelf
+"Khoindzho Cape, Sakhalin",30.0,50.807,142.093,50.807,Shallow shelf
+"Aleksandrovo area, Sakhalin",30.0,50.810944,142.167713,50.810944,Shallow shelf
+"Makarov area, Sakhalin",30.0,48.63,142.74,48.63,Shallow shelf
+"Ikushunbets, Hokkaido",30.0,43.1957,141.9809,43.1957,Shallow shelf
+"Il’pinskii Peninsula, Kamchatka",30.0,59.966,164.933,59.966,Shallow shelf
+"Il’pinskii Peninsula, Kamchatka",32.0,59.966,164.933,59.966,Shallow shelf
+"Fukushima, NE Japan",32.0,37.027722,140.853583,37.027722,Shallow shelf
+"Il’pinskii Peninsula, Kamchatka",33.0,59.966,164.933,59.966,Shallow shelf
+"Sekiu River, Washington State, USA",33.0,48.29023,-124.3964,48.29,Deep water
+"Tochilinsky section, Western Kamchatka",33.5,58.35,159.0,58.35,Shallow shelf
+"Kolpakovskaya 1 borehole, Kamchatka",33.5,54.63333,155.93526,54.63333,Shelf
+"Kushiro, Hokkaido, Japan",34.0,43.04,144.126,43.04,Shallow shelf
+"Podkagernaya river, Kamchatka",34.0,60.3507,161.9927,60.3507,Shallow shelf
+"Stream B, Kamchatka",34.0,60.2622,161.95,60.2622,Shallow shelf
+"Kholmsk-Nevelsk area, Sakhalin",34.5,47.131,142.105,47.131,Shallow shelf
+"Uglegorsk-Chekhov area, Sakhalin",35.0,49.01,142.15,49.01,Shallow shelf
+"Pavlof Bay, Alaska",35.0,51.1833,-161.48333,42.89,Shallow shelf
+"Tochilinsky section, Western Kamchatka",35.0,58.196472,158.549944,58.196472,Shallow shelf
+"Belokamennaya river, Sakhalin",36.0,46.610137,143.008624,46.610137,Shallow shelf
+"section 382, Lunpola basin, Tibet",36.0,32.034,89.154,,Lake
+"Aleksandrovo area, Sakhalin",37.0,50.94648,142.197925,50.94648,Shallow shelf
+"Kitosiya River, Sakhalin",37.0,46.3744,141.9505,46.3744,Shallow shelf
+"Uglegorsk-Chekhov area, Sakhalin",37.0,49.01,142.15,49.01,Shallow shelf
+"Moroshechnaya river, Kamchatka",37.0,57.793,157.503,57.793,Shallow shelf
+"Il’pinskii Peninsula, Kamchatka",37.0,59.966,164.933,59.966,Shallow shelf
+"Volchya river, Sakhalin",37.0,48.848316,142.1716,48.848316,Shallow shelf
+"Avgustovka river, Sakhalin",37.0,49.666607,142.207018,49.666607,Shallow shelf
+"Shebunenka river, Sakhalin",37.0,46.419218,142.005889,46.419218,Shallow shelf
+"Kazachka river, Sakhalin",37.0,46.640023,141.999914,46.640023,Shallow shelf
+"Tochilinsky section, Western Kamchatka",39.0,58.35,159.0,58.35,Shallow shelf
+"Arrheniusfjellet, Spitsbergen",40.0,77.41,16.45,70.67,Shallow shelf
+"Uglegorka river, Sakhalin",40.0,48.935817,142.210604,48.935817,Shallow shelf
+"Avgustovka river, Sakhalin",40.0,49.65569,142.176123,49.65569,Shallow shelf
+"Parusnaya river, Sakhalin",40.0,48.342624,142.26037,48.342624,Shallow shelf
+"Aralskaya river, Sakhalin",40.0,48.991606,142.375777,48.991606,Shallow shelf
+"Kalinka river, Sakhalin",40.0,47.652916,142.177088,47.652916,Shallow shelf
+"Avgustovka river, Sakhalin",40.0,49.669894,142.194658,49.669894,Shallow shelf
+"Utasu river, Sakhalin",40.0,48.342624,142.26037,48.342624,Shallow shelf
+"Belinskaya river, Sakhalin",40.0,48.264508,142.211228,48.264508,Shallow shelf
+"Belokamennaya river, Sakhalin",40.0,46.61,143.01,46.61,Shallow shelf
+"Tamarinka river, Sakhalin",40.0,47.697018,142.204944,47.697018,Shallow shelf
+"Mikasa area, Central Hokkaido, Japan",41.0,43.25,141.91,43.25,Shallow shelf
+"Tochilinsky section, Western Kamchatka",41.0,58.35,159.0,58.35,Shallow shelf
+"Horonai river, Central Hokkaido, Japan",41.0,43.22883,141.8934,43.22883,Shallow shelf
+"Ikusyumbetsu river, Central Hokkaido, Japan",41.0,43.25928,141.93149,43.25928,Shallow shelf
+"Utasu river, Sakhalin",41.0,48.342624,142.26037,48.342624,Shallow shelf
+"Borovaya river, Sakhalin",41.0,48.286107,142.266713,48.286107,Shallow shelf
+"Avgustovka river, Sakhalin",41.0,49.668557,142.197405,49.668557,Shallow shelf
+"Belinskaya river, Sakhalin",41.0,48.264508,142.211228,48.264508,Shallow shelf
+"Pravda river, Sakhalin",41.0,46.938487,142.009818,46.938487,Shallow shelf
+"Pyatibratka river, Western Kamchatka, Russia",45.0,58.946,159.76,58.946,Shallow shelf
+Cape Kakhtana ,45.0,58.826437,159.633841,58.826437,Shallow shelf
+"Utkholoksky Cape, Kamchatka",45.0,57.8519,157.0079,57.8519,Shallow shelf
+"Olympic Mountains, USA",45.0,47.2468,-123.8417,47.2468,Shallow shelf
+"Storvola, Spitsbergen",45.0,77.518,16.242,68.5,Shallow shelf
+Cape Kakhtana ,45.0,58.826437,159.633841,58.826437,Shallow shelf
+"Bendefjellet, Spitsbergen",52.0,77.205,16.581,66.81,Shallow shelf
+"Hedgehogfjellet, Spitsbergen",52.0,76.96,17.252,66.61,Shallow shelf
+"Fur Island, Denmark",54.0,56.83,8.97,46.08,Shallow shelf
+"Mors Island, Denmark",54.0,56.89,8.76,46.12,Shallow shelf
+"Lynghøj pit, Mors Island, Denmark",54.0,56.944623,8.872871,46.19,Shallow shelf
+"Ejerslev pit, Mors Island, Denmark",54.0,56.926183,8.910722,46.17,Shallow shelf
+"Knudeklint coast, Fur Island, Denmark",54.0,56.839488,8.980527,46.09,Shallow shelf
+"IODP 396 exp., hole U1567C ",54.0,65.36308,3.053655,54.3,Shelf
+"IODP 396 exp., hole U1569A ",54.0,65.831292,2.026802,54.73,Shelf
+"IODP 396 exp., hole U1570A ",54.0,65.831502,1.993708,54.73,Shelf
+"Zachariassendalen, Spitsbergen",57.0,78.079,14.252,67.07,Shallow shelf
+"Wijkberget, Spitsbergen",57.0,77.461,16.793,66.58,Shallow shelf
+"Arrheniusfjellet, Spitsbergen",57.0,77.41,16.45,66.51,Shallow shelf
+"Arrheniusfjellet, Spitsbergen",59.0,77.41,16.45,66.32,Shallow shelf
+"Wijkberget, Spitsbergen",59.0,77.461,16.793,66.38,Shallow shelf
+"Heerodden, Spitsbergen ",59.0,78.103,14.233,66.9,Shallow shelf
+"Hollendarbukta, Spitsbergen",59.0,78.105,14.541,66.91,Shallow shelf
+"Adventtoppen, Spitsbergen",59.0,78.26,15.7117,67.12,Shallow shelf
+"Heerfjellet, Spitsbergen",59.0,77.985,14.413,66.79,Shallow shelf
+"Firkanten, Spitsbergen",59.0,77.60925,15.3322,66.46,Shallow shelf
+"Borehole 16-2011, Spitsbergen",59.0,78.013443,10.812502,66.68,Shallow shelf
+"Borehole BH1-2004, Spitsbergen",59.0,77.914757,10.459014,66.57,Shallow shelf
+"Sveagruva, Spitsbergen",59.0,77.867,16.4854,66.77,Shallow shelf
+"Richterelva, Spitsbergen",59.0,77.628,15.33,66.48,Shallow shelf
+"Borebukta, Spitsbergen",59.0,78.42,14.06,67.2,Shallow shelf
+"Øyrlandet, Spitsbergen",59.0,76.63,16.393,65.55,Shallow shelf
+"Dumskolten, Bettybukta, Spitsbergen",59.0,76.7,17.06,65.65,Shallow shelf
+"Heerodden, Spitsbergen",59.0,78.1,14.19,66.9,Shallow shelf
+"Isskoldalen, Spitsbergen",59.0,77.83,14.86,66.66,Shallow shelf
+"Nipildalen, Spitsbergen",59.0,77.707,15.238,66.55,Shallow shelf
+"Hegdehogfjellet, Spitsbergen",59.0,76.96223,17.24381,65.92,Shallow shelf
+"Vassdalen 2-3 boreholes, Spitsbergen",59.0,77.806079,15.032719,66.55,Shallow shelf
+"Rusanovodden, Spitsbergen",59.0,78.14717,15.00458,66.98,Shallow shelf
+"Isfjorden coast north from Oppkuven, Spitsbergen",59.0,78.102,14.529,66.91,Shallow shelf
+"Banks Island, Arctic Canada",60.0,73,-121.5,75.8,Shallow shelf
+"Banks Island, site 13, Arctic Canada",60.0,74.4772,-121.06695,76.3,Shallow shelf
+"Nipildalen, Spitsbergen",62.0,77.6968,15.204,66.61,Shallow shelf
+"Friherrefjellet, Spitsbergen",62.0,77.439,15.859,66.38,Shallow shelf
+"Dumskolten, Bettybukta, Spitsbergen",62.0,76.7,17.06,65.71,Shallow shelf
+"Permpasset, Wollaston Forland",109.0,74.4079,-19.8366,58.52,Shallow shelf
+"Ajnyn river, Kamchatka, Russia",110.0,61.971095,165.155009,71.3,Shallow shelf
+"Niklekujul Valley, Kamchatka",110.0,62.942698,167.566508,72.71,Shallow shelf
+"Vassdalen 2-3 boreholes, Spitsbergen",110.0,77.806079,15.032719,69.04,Shallow shelf
+Kellett River,110.0,68.3372,-90.1081,69.04,Shallow shelf
+"Festningen, Svalbard",110.0,78.084,14.0407,69.32,Shallow shelf
+"Kvalvagen, Spitsbergen",110.0,77.5269,17.5469,68.78,Shallow shelf
+"Kjellstromdalen, Spitsbergen",110.0,77.9752,17.1637,69.22,Shallow shelf
+"Isachen Dome, Ellef Ringnes Island",110.0,78.449,-102.18,77.4,Shallow shelf
+"Kilen, N. Greenland",110.0,81.2216,-13.8975,64.21,Shallow shelf
+"Basilika, Spitsbergen",110.0,77.474,15.764,68.71,Shallow shelf
+"Langryggen, Spitsbergen",110.0,77.376,15.965,68.62,Shallow shelf
+"Airport Road Section, Svalbard",110.0,78.224307,15.604956,69.46,Shallow shelf
+"Glacier Fjord, Axel Heilberg Island",110.0,78.6297,-89.8687,74.68,Shallow shelf
+"Airport Road Section, Svalbard",110.0,78.22437,15.60525,69.46,Shallow shelf
+"Strand Fjord (section C2), Axel Heiberg Island",110.0,79.256174,-90.256256,75.43,Shallow shelf
+"Kanyon river, NE Russia",113.0,65.1286,166.2956,74.78,Shallow shelf
+"Ellef Ringnes, CH1 section",113.0,78.823,-101.345,76.65,Shallow shelf
+"Ellef Ringnes, CH2 section",113.0,78.211,-100.181,76.26,Shallow shelf
+"Umkuveem river, Russia",113.0,65.186,166.0,74.75,Shallow shelf
+Amarok river,113.0,79.16864,-92.55116,75.13,Shallow shelf
+Axel Heiberg Island,113.0,79.40388,-91.2377,74.98,Shallow shelf
+Axel Heiberg Island,113.0,79.392772,-91.250049,74.98,Shallow shelf
+"Axel Heiberg Island, Section 50, head of Strand Fjord",115.0,79.2955,-90.7752,74.42,Shallow shelf
+"Axel Heiberg Island, Section 54, Middle Kanguk Peninsula ",115.0,79.254,-91.67,74.56,Shallow shelf
+Orlovskaya river,115.0,67.1799,163.5927,76.06,Shallow shelf
+"White Cliffs, NSW, Australia",115.0,-30.850983,143.085895,-69.26,Shallow shelf
+"Strand Fjord (section C2), Axel Heiberg Island",115.0,79.256174,-90.256256,74.31,Shallow shelf
+"Bastion Ridge (section C1), Axel Heiberg Island",115.0,79.374821,-90.981354,74.48,Shallow shelf
+"Vassdalen 2-3 boreholes, Spitsbergen",115.0,77.806079,15.032719,67.91,Deep shelf
+"Petermorra Creek, Eromanga Basin, Australia",115.0,-29.45,139.66,-67.67,Shallow shelf
+"Heer Land, Spitsbergen",115.0,77.531756,18.017771,67.66,Deep shelf
+"Festningen, Svalbard",115.0,78.084,14.0407,68.19,Deep shelf
+"McKenzie King Island, Canada",115.0,77.89,-110.971,77.91,Shelf
+"Coober Pedy, S. Australia",115.0,-28.965657,134.802625,-66.45,Shelf
+"Grumant 1 borehole, Spitsbergen",115.0,78.103828,14.962341,68.21,Deep shelf
+"Grumantbyen, Spitsbergen",115.0,78.17498,15.10689,68.28,Shelf
+"Airport Road Section, Svalbard",115.0,78.133288,15.363996,68.24,Deep shelf
+"Kilen, N. Greenland",115.0,81.2216,-13.8975,63.14,Shelf
+"Kilen, N. Greenland",115.0,81.2384,-13.8368,63.15,Shelf
+"Amund Ringnes Island, Piercement dome",115.0,78.5257,-97.4583,75.38,Shelf
+"Amund Ringnes Island, Geologist Bay",115.0,78.5988,-96.2097,75.17,Shelf
+"Amund Ringnes Island, Structural River",115.0,78.3239,-95.1767,74.88,Shelf
+"Glacier Fjord, Axel Heilberg Island",115.0,78.6297,-89.8687,74.01,Shelf
+"Station 16-DTA-13, Banks Island, Arctic Canada",115.0,73.970138,-119.650794,78.84,Shallow shelf
+"Station 16-DTA-21, Banks Island, Arctic Canada",115.0,74.422276,-120.860402,79.31,Shallow shelf
+Bolshoi Anyui river,116.0,66.739925,164.914337,76.26,Shelf
+"Agardhbukta, Spitsbergen",117.0,78.07,18.75,67.76,Shallow shelf
+"Airport Road Section, Svalbard",117.0,78.133288,15.363996,67.79,Shallow shelf
+"Borehole DH5,R Svalbard",117.0,78.1979,15.8506,67.86,Shallow shelf
+"Ledovaya-2 well, Barents Sea shelf, Russia",126.0,74.020833,47.071944,62.51,Shallow shelf
+"Sassenfjorden, Svalbard",131.0,78.354397,16.062502,63.24,Shallow shelf
+"Syltoppen, Spitsbergen",131.0,78.437,14.27,63.29,Shallow shelf
+"Festningen, Svalbard",131.0,78.10137,13.9199,62.94,Shallow shelf
+"Borehole DH-5, Svalbard",131.0,78.1979,15.8506,63.08,Shallow shelf
+"Borehole DH-2, Svalbard",131.0,78.2358,15.5472,63.11,Shallow shelf
+"Janusfjellet Mt, Spitsbergen",131.0,78.3318,15.8463,63.22,Shallow shelf
+"Myklegardfjellet Mt, Spitsbergen",131.0,78.055222,18.704278,63.02,Shallow shelf
+"DH4 borehole, Spitsbergen",131.0,78.2024,15.8295,63.09,Shallow shelf
+"Canning river, Northern Alaska, USA",132.0,69.4,-146.15,79.76,Shallow shelf
+Novoyakimovskaya 1 borehole,134.0,71.753472,90.901194,64.93,Shallow shelf
+"Bolshoi Begitcev island, Russia",134.0,74.083779,112.778976,70.94,Shallow shelf
+"Nordvik, Russia",134.0,73.871,112.945,70.86,Shallow shelf
+"Preobrazheniya Island, Russia",134.0,74.657,112.977,71.31,Shallow shelf
+"Bohemanflya, Spitsbergen",135.0,78.409056,14.688583,62.16,Shallow shelf
+"Festningen, Spitsbergen",135.0,78.09924,13.94159,61.84,Shelf
+"Ellef Ringnes, DB1 section",135.0,78.795,-103.12,70.03,Shelf
+"Ellef Ringnes, DB2 section",135.0,78.997,-103.82,70.2,Shelf
+Ellef Ringnes Island,135.0,78.657,-102.983,69.98,Shelf
+Amund Ringnes Island,135.0,78.765,-98.265,69.11,Shelf
+"Osipa River, Taimyr, Russia",135.0,74.730071,111.953828,71.12,Shallow shelf
+"Priobskaya 8232 well, Russia",135.0,61.343,70.441,51.64,Shallow shelf
+KS1 borehole,135.0,73.694,109.649,70.01,Shallow shelf
+"Laptev sea coast, Chernohrebetnaya",135.0,74.79592,112.053403,70.65,Shallow shelf
+"AH3 borehole, Eastern Taimyr, Russia",135.0,74.78,110.43,70.82,Shallow shelf
+"Borehole 75, N. Siberia",135.0,73.44346,112.40798,70.49,Shallow shelf
+"Borehole 65, N. Siberia",135.0,73.59734,112.66342,70.64,Shallow shelf
+"Massonovskaya 363 borehole, Siberia",135.0,72.48685,100.26122,67.16,Shallow shelf
+"Vassdalen 2-3 boreholes, Spitsbergen",136.0,77.806079,15.032719,61.29,Shallow shelf
+"Olenek river, Russia",136.0,72.75,121.59,72.04,Shallow shelf
+"Konusen Mt, Spitsbergen",136.0,78.316667,15.883333,61.82,Shallow shelf
+"Srednyaya river, Russia",136.0,72.554,114.272,70.14,Shallow shelf
+"Isachsen area, Ellef Ringnes Island",136.0,79.054,-104.825,70.16,Shallow shelf
+"Amund Ringnes Island, Piercement dome, SW from Stratigrapher river",136.0,78.5257,-97.4583,68.65,Shallow shelf
+"Oodnadatta, Eromanga Basin, Australia",136.0,-27.57,135.42,-69.4,Shallow shelf
+Laptev sea coast south from Osipa river,137.0,74.685586,111.61095,70.49,Shallow shelf
+"Laptev sea coast, Chernohrebetnaya",137.0,74.836763,112.117948,71.22,Shallow shelf
+"Ellesmere Island, Blackwelder Mts",137.0,80.693,-85.353,67.06,Shelf
+"Ellesmere Island, Reptile Creek",137.0,80.155,-85.323,66.85,Shelf
+"Alex Heiberg Island, Buchanan Lake",137.0,79.47,-86.918,66.84,Shelf
+Amund Ringnes Island,137.0,78.765,-98.265,68.62,Shelf
+"Grumant 1 borehole, Spitsbergen",137.0,78.103828,14.962341,61.31,Shallow shelf
+"Ellesmere island, Rollrock section",137.0,81.61614,-75.59795,66.09,Shelf
+"Ellesmere island, Slidre fjord",137.0,80.00227,-85.89367,66.88,Shelf
+"Axel Heiberg Island, Geodetic Hills",137.0,79.815889,-89.805669,67.45,Shallow shelf
+Dzhangodskaya 2-R well,137.0,71.0232,88.9279,63.14,Shallow shelf
+"Borehole Baikalovskaya 5, Siberia",137.0,70.6676,83.6655,61.79,Shelf
+"Chucha, Yakutia, Rissia",139.0,70.782,127.58,71.85,Shallow shelf
+"Martin Creek, Canada",139.0,68.16666,-135.6666,75.85,Shallow shelf
+"Olenek Bay, northern Siberia",139.0,72.9166,121.9795,71.51,Shallow shelf
+"Axel Heiberg Island, Buchanan lake",139.0,79.366797,-87.769175,66.43,Shallow shelf
+"Axel Heiberg Island, Geodetic Hills",139.0,79.815889,-89.805669,66.94,Shallow shelf
+Novoyakimovskaya 1 borehole,140.0,71.753472,90.901194,63.28,Shallow shelf
+"Borehole 618 Yuzhno-Priobskaya, Western Siberia",140.0,60.861718,70.338438,57.19,Shelf
+"Severo-Murmanskaya well - 1, Barents Sea shelf",144.0,70.408056,41.561944,56.44,Deep shelf
+"Intrepid Inlet, Prince Patrick island, Canada",144.0,76.7,-117.6166,70.84,Shallow shelf
+Novoyakimovskaya 1 borehole,144.0,71.753472,90.901194,66.6,Shallow shelf
+"AH3 borehole, Eastern Taimyr, Russia",147.0,74.78,110.43,75.39,Shallow shelf
+Novoyakimovskaya 1 borehole,147.0,71.753472,90.901194,69.1,Shallow shelf
+Emlinskaya Bay,155.0,60.527295,155.345713,73,Shelf
+"Vostochno-Urengoyskaya 339 borehole, Siberia",155.0,66.12719,77.51877,65.36,Shallow shelf
+"Omulevka river, near Nenadezny stream",155.0,63.90099,147.62775,82.01,Shallow shelf
+Syuryuge river,156.0,65.774,139.435,83.56,Shelf
+"Myklegardfjellet, Spitsbergen",156.0,78.053,18.687,62.34,Shallow shelf
+Lyglygtah river,156.0,62.842141,151.226563,76.7,Shelf
+"Severo-Yangtinskaya well 324, Western Siberia",156.0,64.244281,74.931747,63.47,Shallow shelf
+Lyglygtah river,157.0,62.842141,151.226563,76.6,Shelf
+Delyankir river,157.0,64.027,146.37,82.69,Shelf
+"Viliga river, Russia",157.0,62.065061,156.061574,73.9,Shelf
+"Northern Yukon, Canada",157.0,66.94,-140.09,x,Shelf
+Bysar-Yuryakh river,157.0,67.435086,137.420984,85.05,Shelf
+Mirny and Oasis basin,157.0,69.34,139.95,84,Shallow shelf
+"Polousny Ridge, sample 3003",157.0,69.293708,139.588408,83,Shallow shelf
+"Vostochno-Urengoyskaya 339 borehole, W.Siberia",157.0,66.12719,77.51877,65.78,Shallow shelf
+"Uregoyskaya 336 borehole, W.Siberia",157.0,66.212634,77.216744,65.75,Shallow shelf
+"Tugur Bay, north from Mamga bay, Russian Far East",158.0,54.445198,136.812273,x,Shallow shelf
+Tuostaakh river,158.0,67.61001,136.95909,85.5,Shelf
+Novoyakimovskaya 1 borehole,158.0,71.753472,90.901194,73.04,Shallow shelf
+"Tugur Bay, cape Nikta, Russian Far East",159.0,54.56589,136.87763,x,Shallow shelf
+"Kirilkinskaya 9R borehole, Western Siberia",160.0,58.412222,72.865278,60.1,Shallow shelf
+"Polousnensky Range, Yakutia",160.0,69.778066,139.339551,86,Shelf
+"Tugur Bay, north from Mamga bay, Russian Far East",160.0,54.452352,136.807166,x,Shallow shelf
+Dzhangodskaya 5-R well,160.0,71.0561,89.0186,72.58,Shallow shelf
+Dzhangodskaya 4-R well,160.0,71.1028,88.9211,72.57,Shallow shelf
+Dzhangodskaya 2-R well,160.0,71.0232,88.9279,72.54,Shallow shelf
+"Anabar Bay, Russia",162.0,73.43658,113.600231,80.29,Shallow shelf
+"Tugur Bay, north from Mamga bay, Russian Far East",162.0,54.442699,136.814461,x,Shallow shelf
+"Tugur Bay, Mamga bay near Sebash river mouth, Russian Far East",162.0,54.39775,136.75403,x,Shallow shelf
+Dzhangodskaya 1-R well,162.0,71.0493,88.8593,72.63,Shallow shelf
+"Russko-Severo-Chaselskaya 101 borehole, Western Siberia",162.0,66.26815,79.96161,67.49,Shallow shelf
+"Kirilkinskaya 9 borehole, Western Siberia",163.0,59.14,68.89,59.07,Shallow shelf
+"Russko-Rechenskaya 603 borehole, W.Siberia",164.0,67.1384,81.6447,68.74,Shelf
+Novoyakimovskaya 1 borehole,164.0,71.753472,90.901194,73.55,Shallow shelf
+"Fedorovskoe field, borehole 4238, Western Siberia",164.0,61.569,73.63,62.58,Shallow shelf
+"Chernokhrebetnaya river, Russia",164.0,74.959,111.729,79.37,Shallow shelf
+"Anabar Bay, Russia",164.0,73.43658,113.600231,80.26,Shallow shelf
+"Bolshoi Begichev island, Russia",164.0,74.119159,112.84764,79.89,Shallow shelf
+Urengoyskaya 673 borehole,164.0,66.0589006319456,76.7494025537136,66.53,Shallow shelf
+Tyumenskaya SG6 borehole,164.0,65.9447222222222,78.1625,66.93,Shallow shelf
+"Kubalakhskaya 1 borehole, Siberia",164.0,73.00735,98.98406,76.15,Shallow shelf
+"Zapadno-Kubalakhskaya 359 borehole, Siberia",164.0,72.66532,98.11889,75.87,Shallow shelf
+"Artyk river, near Kostyor stream",164.0,64.2823,145.8888,84.38,Shallow shelf
+"Russko-Severo-Chaselskaya 101 borehole, W.Siberia",164.0,66.26815,79.96161,67.7,Shallow shelf
+"Russko-Severo-Chaselskaya 101 borehole, W.Siberia",164.0,66.26815,79.96161,67.7,Shallow shelf
+"Kraynyaya well 5327, Western Siberia",164.5,63.633333,74.133333,64.21,Shallow shelf
+"Chernokhrebetnaya river, Russia",165.0,74.959,111.729,79.3,Shallow shelf
+"92 borehole, Guli field",165.0,70.962321,100.652851,76.45,Shallow shelf
+"Anabar Bay, Russia",165.0,73.43658,113.600231,80.24,Shallow shelf
+Novoyakimovskaya 1 borehole,165.0,71.753472,90.901194,73.59,Shallow shelf
+"Bolshoi Begichev island, Russia",165.0,74.119159,112.84764,79.85,Shallow shelf
+Emlinskaya Bay,165.0,60.527295,155.345713,71,Shallow shelf
+"Bolshehiglinskaya borehole, Siberia",165.0,67.882222,82.786389,69.59,Shelf
+Odyan Bay,165.0,59.214067,151.892358,70.5,Shelf
+Omulevka river,165.0,64.351,149.7,81,Shelf
+"Kharampurskaya 342 borehole, 2984-2986 m",165.0,64.2298353218379,79.5756010332948,66.49,Shallow shelf
+"AH3 borehole, Eastern Taimyr, Russia",165.0,74.78,110.43,79.04,Shallow shelf
+Khabeyskaya 2 borehole,165.0,71.6456295165414,84.4732985825425,71.63,Shallow shelf
+"Yuzhno-Solyoninskaya 23 borehole, Siberia",165.0,69.138,81.817,69.86,Shallow shelf
+Dzhangodskaya 4-R well,165.0,71.1028,88.9211,72.81,Shallow shelf
+"Ludlovskaya well-2, Barents Sea shelf",165.0,74.78617,46.90933,63.44,Shallow shelf
+"Omulevka river, near Olen' stream",165.0,63.87198,147.61114,83.84,Shallow shelf
+"Pechora region, Russia",166.0,66,52.0,58.96,Shallow shelf
+"Yurung-Tumus peninsula, Russia",166.0,74.002543,111.447121,79.49,Shallow shelf
+"Anabar Bay, Russia",166.0,73.566909,113.336559,80.11,Shallow shelf
+Kananyga river,166.0,61.347889,155.39286,73.7,Shelf
+Balakhninskaya 2 borehole,166.2,72.76662,99.858933,76.43,Shallow shelf
+"Borehole 73, N. Siberia",166.2,73.47594,112.47665,79.91,Shallow shelf
+"Borehole 55-K, N. Siberia",166.2,73.54082,112.73277,79.96,Shallow shelf
+"Stannakh-Khocho, Yakuria",166.5,72.975,121.79168,82.49,Shallow shelf
+"Ledovaya-1 well, Barents Sea shelf, Russia",166.5,73.9241667,46.557778,62.69,Shallow shelf
+"Eekit river, Yakutia",166.5,70.797025,126.097985,84.58,Shallow shelf
+"112 borehole, Guli field",166.5,70.868409,100.302661,76.44,Shallow shelf
+"142 borehole, Guli field",166.5,70.775917,99.660133,76.22,Shallow shelf
+"92 borehole, Guli field",166.5,70.962321,100.652851,76.56,Shallow shelf
+"Anabar Bay, Russia",166.5,73.5603,113.333813,80.1,Shallow shelf
+Rassokhinskaya 1 borehole,166.5,71.0887637801475,89.7670345415233,73.14,Shallow shelf
+"Olenek Bay, northern Siberia",166.5,72.953,121.7376,82.49,Shallow shelf
+"Khabeyskaya 1 borehole, Siberia",166.5,71.68072,84.48623,71.69,Shallow shelf
+Ystannakh-Khocho,166.5,72.9471,121.79889,82.51,Shallow shelf
+"Ludlovskaya well-1, Barents Sea shelf",166.5,74.848333,46.772222,63.22,Shallow shelf
+"Arkticheskaya well-1, Barents Sea shelf",167.0,71.671667,43.715556,60.58,Shallow shelf
+"Shtockmanovskaya well-1, Barents Sea shelf",167.0,73.038207,43.94722,61.52,Shallow shelf
+"Blue Mountains, Ellesmere Island, Canada",167.0,80.735278,-85.582222,63.37,Shallow shelf
+"Shtockmanovskaya well-6, Barents Sea shelf",167.0,73.19488,44.03413,61.63,Shallow shelf
+"Yurung-Tumus peninsula, Russia",167.0,74.016497,111.597553,79.49,Shallow shelf
+"Chekurovka north, Yakutia, Russia",167.0,71.114,127.339,84.8,Shallow shelf
+"Ozika Peninsula, Japan",167.5,38.383,141.425,x,Shelf
+Yarysaakh river,167.5,69.752571,127.297777,85.4,Shallow shelf
+Eekit river,167.5,70.797025,126.097985,84.64,Shallow shelf
+"Kulumas river, Russia",167.5,72.083,123.776,83.41,Shallow shelf
+"Chucha, Yakutia, Rissia",167.5,70.79,127.6,85.05,Shallow shelf
+"Anabar Bay, Russia",167.5,73.555049,113.32832,80.08,Shallow shelf
+"Anabar river, Russia",167.5,72.452443,114.049269,80.64,Shallow shelf
+Arktyk river,167.5,66.725158,131.743587,87.09,Shallow shelf
+"Olenek Bay, northern Siberia",167.5,72.953,121.7376,82.46,Shallow shelf
+"Zapadno-Kubalakhskaya 359 borehole, Siberia",167.5,72.66532,98.11889,75.95,Shallow shelf
+Ystannakh-Khocho,167.5,72.9525,121.75,82.46,Shallow shelf
+Kumakh-Suurt,167.5,71.462,127.292,84.61,Shallow shelf
+Balakhninskaya 2 borehole,167.7,72.76662,99.858933,76.46,Shallow shelf
+"Ust'-Umalta, Bureya Basin",167.7,51.6318,133.304,x,Shallow shelf
+Baga-Evhanzha interflow,167.7,65.162649,143.800393,86.08,Shelf
+Adycha river,167.7,67.119793,136.292424,88.89,Shelf
+"Kulumas river, Yakutia",167.7,72.087189,123.818107,83.42,Shallow shelf
+Olenek river near Kiemg-Yuryah,167.7,72.698034,121.821358,82.61,Shallow shelf
+"Bureya river (3 km above the Umal'ta mouth), Far East",167.7,51.63687,133.34071,x,Shallow shelf
+"Britvin Peninsula, Novaya Zemlya",167.7,72.82577,52.58193,63.37,x
+"Borehole 73, N. Siberia",167.7,73.47594,112.47665,79.88,Shallow shelf
+"Borehole 57, N. Siberia",167.7,73.53129,112.72521,79.93,Shallow shelf
+"Borehole 217, Anabar region",167.7,73.526,111.685,79.66,Shallow shelf
+"Localities 179,193, Anabar area",167.7,73.4849,114.0717,80.3,Shallow shelf
+"Locality 515, Anabar area",167.7,73.504,114.966,80.52,Shallow shelf
+"Vostochno-Kubalakhskaya 357 borehole, Siberia",167.7,73.09063,99.38232,76.31,Shallow shelf
+"Polousny Ridge, sample 3279/1",167.7,69.54078,137.396408,87.67,Shallow shelf
+"Polousny Ridge, sample 4016-958",167.7,69.6634,140.982042,85,Shallow shelf
+"Chekurovka north, Yakutia, Russia",168.0,71.113,127.336,84.83,Shallow shelf
+"Chekurovka south, Yakutia, Russia",168.0,70.96,127.498,84.96,Shallow shelf
+"Sugzha river, Yakutia",168.0,62.1564,136.7559,84.22,Shallow shelf
+"Kerbi river, Yakutia",168.0,61.431522,135.629452,83.45,Shallow shelf
+"Olenek river, Yakutia",168.0,72.1461,123.454,83.29,Shallow shelf
+"Chekurovka, Yakutia, Rissia",168.0,70.99,127.55,84.94,Shallow shelf
+"Ust'-Yenisei depression, Russia",168.0,69,87.0,71.72,Shallow shelf
+KS1 borehole,168.0,73.694,109.649,79.06,Shallow shelf
+"Svetly stream, NE Russia",168.0,62.837,147.991,83.28,Shallow shelf
+"Nyamna river, NE Russia",168.0,64.693,136.902,86.73,Shallow shelf
+Pronchischeva Range 14-10 section,168.0,73.2642,117.0402,81.14,Shallow shelf
+Pronchischeva Range 14-8 section,168.0,73.2707,117.0421,81.14,Shallow shelf
+"AH3 borehole, Eastern Taimyr, Russia",168.0,74.78,110.43,78.87,Shallow shelf
+"Govorovskaya-1 well, Yakutia",168.0,70.28902,125.90827,84.85,Shallow shelf
+Logatskaya 361 borehole,168.0,73.17908,98.34411,76.01,Shallow shelf
+"Omulevka river, near Shestyorka stream",168.0,63.8561,147.5592,84.17,Shallow shelf
+"Artyk river, near Kostyor stream",168.0,64.482,145.86959,85.09,Shallow shelf
+"Chekurovka north, Yakutia, Russia",169.0,71.109,127.342,84.86,Shallow shelf
+"Kulumas river, Yakutia",169.0,72.0898,123.8667,83.42,Shallow shelf
+Syurkyulyun river,169.0,65.24952,141.44112,87.01,Shelf
+Sugdzhu – Nadezhda rivers interflow,169.0,62.032878,135.893064,84.44,Shallow shelf
+Arkagala river,169.0,63.17068,147.029241,83.94,Shelf
+Tas-Yuryakh river,169.0,72.82821,122.653202,82.69,Shallow shelf
+"Kelimyar river, Yakutia",169.0,71.983151,124.198071,83.57,Shallow shelf
+"Olenek river, Russia",169.0,72.107,123.606,83.35,Shallow shelf
+"Yurung-Tumus peninsula, Russia",169.0,74.002543,111.447121,79.39,Shallow shelf
+"Cape Kystatym, Yakutia, Russia",169.0,67.36,123.18,84.52,Shallow shelf
+"Cape Khorongho, Yakutia",169.0,67.27,123.12,84.49,Shallow shelf
+"Anabar Bay, Russia",169.0,73.543181,113.299481,80.05,Shallow shelf
+"Anabar river, Russia",169.0,72.452443,114.049269,80.67,Shallow shelf
+Arktyk river,169.0,66.725158,131.743587,87.64,Shelf
+Logatskaya 361 borehole,169.0,73.17908,98.34411,76.02,Shallow shelf
+KS1 borehole,169.0,73.694,109.649,79.05,Shallow shelf
+Zhigansk borehole 42,169.0,66.928702,123.372541,84.52,Shallow shelf
+Pronchischeva Range 14-6 sectiom,169.0,73.277611,117.023861,81.1,Shallow shelf
+Pronchischeva Range 2-14 section,169.0,73.313389,116.696444,81.01,Shallow shelf
+"AH3 borehole, Eastern Taimyr, Russia",169.0,74.78,110.43,78.81,Shallow shelf
+Khastakh  river,169.0,68.479383,133.180882,87.94,Shelf
+Nyamny river,169.0,64.645266,137.042812,87.06,Shelf
+"Svetly stream, NE Russia",169.0,62.777,147.929,83.38,Shallow shelf
+Tirekhtyah river,169.0,68.90827,133.163401,87.68,Shelf
+R201 borehole,169.0,73.332749,108.817689,78.94,Shallow shelf
+Ulaga river,169.0,66.41747,131.260069,87.35,Shallow shelf
+Syncha river,169.0,68.049463,128.449294,86.5,Shallow shelf
+"Olenek Bay, northern Siberia",169.0,72.953,121.7376,82.4,Shallow shelf
+Omuk-Kuruelyah river basin,169.0,64.915968,142.242841,86.55,Shelf
+Ottokh river,169.0,69.663,140.9948,86,Shelf
+Ukachilkan 2nd stream,169.0,70.0518,139.1595,88,Shelf
+Meljuettaeh river,169.0,68.255787,122.777316,84.41,Shelf
+"Ludlovskaya well-2, Barents Sea shelf",169.0,74.78617,46.90933,62.99,Shallow shelf
+"Bureya river (2 km below the Umal'ta mouth), Far East",169.0,51.63155,133.28294,x,Shallow shelf
+"Soloni river (below mouth of Birakachan river), Far East",169.0,50.87202,133.18965,x,Shallow shelf
+"Varvara-Seene river, loc. 174, Yakutia",169.0,71.9268,121.2327,82.85,Shallow shelf
+"Varvara-Seene river, loc. 159-160, Yakutia",169.0,71.86107,121.17782,82.87,Shallow shelf
+"Iinneekh – Burgachchi interflow, Yakutia",169.0,69.098,135.177,87.91,Shallow shelf
+"Sobopol river, Yakutia",169.0,67.08802,126.03172,85.56,Shallow shelf
+Rassokhinskaya 1-R well ,169.0,71.0873,89.7432,73.26,Shallow shelf
+"Kuchu river, loc. 3614",169.0,66.385387,125.780467,85.3,Shallow shelf
+"Buor-Eyeekit river, loc. 450, Yakutia",169.0,70.61045,125.26267,84.6,Shallow shelf
+"Yulegiir river, Yakutia",169.0,66.54881,125.64823,85.3,Shallow shelf
+"Kuchu river, loc. 3010",169.0,66.36422,125.80684,85.31,Shallow shelf
+"Bolshoy Maldyak river, NE Russia",169.0,63.875,146.997,84.47,Shallow shelf
+"Levy Mukelkan river, NE Russia",169.0,63.683,146.674,84.42,Shallow shelf
+"Bolshoy Maldyak river, NE Russia",169.0,63.875,146.997,84.47,Shallow shelf
+"Levy Mukelkan river, NE Russia",169.0,63.683,146.674,84.42,Shallow shelf
+"Kubalakhskaya 1 borehole, Siberia",169.0,73.00735,98.98406,76.22,Shallow shelf
+"Zapadno-Kubalakhskaya 359 borehole, Siberia",169.0,72.66532,98.11889,75.98,Shallow shelf
+Dorukchan river,169.0,64.16735,130.111,85.53,Shallow shelf
+"Ust'-Yenisei depression, Russia",169.5,69,87.0,71.81,Shallow shelf
+Delyankir river,169.5,64.02693,146.372252,84.83,Shelf
+Mukelken river,169.5,63.856173,146.602939,84.64,Shelf
+Myaundzha river,169.5,63.029519,147.164768,83.86,Shelf
+Kolyma river,169.5,62.430776,150.576125,77,Shelf
+Berelekh river,169.5,63.336024,147.409581,84.02,Shelf
+Berelekh and Debin rivers,169.5,63.309177,148.35015,83.71,Shelf
+Seykimnyan river,169.5,63.91589,140.13816,86.26,Shelf
+Kyubyume river,169.5,63.4361,141.0596,85.66,Shelf
+Tyra - Khalya interflow,169.5,64.4254,140.0749,86.73,Shelf
+Burgavli river,169.5,66.3543,137.5441,89.08,Shelf
+Tonkogor river,169.5,67.9383,137.05385,89.13,Shelf
+Debin river,169.5,62.772513,149.679856,77.3,Shelf
+Rassokhinskaya 1 borehole,169.5,71.088698,89.7670345415233,73.3,Shallow shelf
+"Tengkeleh stream, NE Russia",169.5,62.9714,147.9109,83.66,Shallow shelf
+"Nizhny Neksikan river, NE Russia",169.5,62.78677,147.74413,83.58,Shallow shelf
+Tundrovaya 1 borehole,169.5,71.241711,90.938539,73.69,Shallow shelf
+"Govorovskaya-1 well, Yakutia",169.5,70.28902,125.90827,84.99,Shallow shelf
+Rassokhinskaya 1-R well ,169.5,71.0873,89.7432,73.29,Shallow shelf
+Amga river,169.5,62.041,134.3257,84.54,Shallow shelf
+"Intakh river, section no.103",169.5,65.1596,145.2753,80,Shallow shelf
+"Section no.252, Lena river",169.5,68.08125,123.05785,84.64,Shallow shelf
+Lena river 10 km above Mengkere mouth,169.5,67.9248,123.18626,84.69,Shallow shelf
+"Artyk river, section 70",169.5,64.27367,145.79612,85.18,Shallow shelf
+Burustakh river near Otvorot stream,169.5,64.47619,145.5455,85.39,Shallow shelf
+"Tigyan river, N.Siberia",169.5,73.6161,111.3436,79.51,Shallow shelf
+"Yurung-Tumus peninsula, Russia",170.0,74.002543,111.447121,79.37,Shallow shelf
+Burgandya river,170.0,66.0243,138.2468,88.66,Shallow shelf
+Motorchuna-Molodo interflows,170.0,69.242289,124.191119,84.95,Shallow shelf
+Omulevka river,170.0,63.908208,147.771066,84.36,Shelf
+"Kelimyar river, Yakutia",170.0,71.983151,124.198071,83.57,Shallow shelf
+"Viliga river, Russia",170.0,62.109421,156.10826,70,Shallow shelf
+"Olenek Bay, northern Siberia",170.0,72.953,121.7376,82.37,Shallow shelf
+"Bovanenkovskaya 97 borehole, Western Siberia",170.0,70.41185399,68.21631108,66.38,Shallow shelf
+"Zapadno-Kubalakhskaya 359 borehole, Siberia",170.0,72.66532,98.11889,76,Shallow shelf
+Dulgallah river,170.5,64.930758,130.217556,86.34,Shelf
+Lyapiske river basin,170.5,64.635886,125.789203,84.83,Shelf
+"Dyolobuun river, Yakutia",170.5,66.44152,125.9167,85.67,Shallow shelf
+Motorchuna-Molodo interflows,171.0,69.242289,124.191119,85.08,Shallow shelf
+Kedon river,171.0,65.342409,159.251762,75,Shallow shelf
+Balakhninskaya 2 borehole,171.0,72.76662,99.858933,77.21,Shallow shelf
+Zhigansk borehole 42,172.0,66.928702,123.372541,85.09,Shallow shelf
+Mitrey – Byuteidyakha river,172.0,65.0617,141.4555,85.44,Shallow shelf
+"Ust'-Yenisei depression, Russia",172.0,69,87.0,73.56,Shallow shelf
+"Chernokhrebetnaya river, Russia",172.0,74.964,111.896,79.85,Shallow shelf
+"Markha river, section 15, Yakutia",172.0,63.994,116.885,82.13,Shallow shelf
+"Tabaga Cape, Yakutia",172.0,61.793,129.667,83.2,Shallow shelf
+"Yurung-Tumus peninsula, Russia",172.0,74.002543,111.447121,80.32,Shallow shelf
+"Bulun river, Yakutia",172.0,70.62,126.89,85.07,Shallow shelf
+Syuptyur river,172.0,67.736996,137.077019,87.84,Shallow shelf
+Tirekhtyah river,172.0,68.90827,133.163401,86.89,Shallow shelf
+"Olenek Bay, northern Siberia",172.0,72.953,121.7376,82.83,Shallow shelf
+Setanzha river,172.0,68.966594,140.220657,88,Shelf
+Lena basin,172.0,71.978,122.692,83.62,Shallow shelf
+"Setyandzha river, Yakutia",172.0,68.97392,140.18211,x,Shallow shelf
+"Sygynahtah river, loc. 785, Yakutia",172.0,71.855,121.4794,83.5,Shallow shelf
+"Varvara-Seene river, loc. 174, Yakutia",172.0,71.9268,121.2327,83.42,Shallow shelf
+Tundrovaya 1-R well,172.0,71.1825,91.0139,75.3,Shallow shelf
+"Buor-Eyeekit river, loc. 468, Yakutia",172.0,70.64643,125.33752,84.82,Shallow shelf
+"Yurung-Tumus peninsula, Russia",175.0,74.002543,111.447121,81.77,Shallow shelf
+KS1 borehole,175.0,73.694,109.649,81.7,Shallow shelf
+"Olenek Bay, northern Siberia",175.0,72.953,121.7376,83.51,Shallow shelf
+"Vilyui river, section 2(12)",175.0,61.952,116.651,81.8,Shallow shelf
+"Vilyui river, section 5(18)",175.0,61.9344,117.2614,81.87,Shallow shelf
+"Markha river, near Sobo stream",175.0,64.27218,116.38778,83.56,Shallow shelf
+"Markha river, near Lokhayyi stream mouth",175.0,63.98755,117.879,83.55,Shallow shelf
+"Buttenheim clay pit, S.Germany",184.0,49.794639,11.045556,42.31,Shallow shelf
+"Motorchuna river, Yakutia",184.0,68.287966,122.308119,84.06,Shallow shelf
+Kuyunte river,184.0,63.5748,141.96022,75.23,Shelf
+"Ochotsky Perevoz, Yakutia",184.0,61.8694,135.542,76.76,Shallow shelf
+Hogonchan stream,184.0,62.04842,139.9511,75.2,Shelf
+Vily stream,184.0,62.89728,139.65516,75.77,Shelf
+Delinya river,184.0,64.57189,135.79,78.06,Shelf
+"Barth 10/65 well, N. Germany",184.0,54.3652,12.7124,46.67,Shelf
+"KSS 5/66 well, N. Germany",184.0,53.5853,12.044,45.81,Shelf
+"Ikiri river, NE Russia",184.0,64.769,137.853,77.35,Shallow shelf
+Kilderkich river,184.0,62.000476,139.864959,82,Shelf
+"Olenek river area, between Ystannah-Khocho and Tuora-Khaya",184.0,72.923,121.05,82.15,Shallow shelf
+Ystannakh-Khocho,184.0,72.961374,121.712924,82,Shallow shelf
+"Yuring-Tumus, Russia",184.0,74.002543,111.447121,82.21,Shallow shelf
+"Tjung river, section 17, Yakutia",184.0,66.062,119.757,84.54,Shallow shelf
+"Vilyui river, sections 15-16, Yakutia",184.0,61.929,117.084,82.71,Shallow shelf
+"Vilyui river, section 17, Yakutia",184.0,61.978,116.297,82.92,Shallow shelf
+"Vilyui river, section 12, Yakutia",184.0,61.952,116.651,82.83,Shallow shelf
+"Bulkur river, Tuora-Sis Mts, Russia ",184.0,71.763,126.665,81.58,Shallow shelf
+KS1 borehole,184.0,73.694,109.649,82.53,Shallow shelf
+"Viliga river, Russia",184.0,61.946,156.1076,71,Shelf
+"Molodo river, Russia",184.0,68.203,122.444,84.02,Shelf
+"Motorchuna river, Russia",184.0,68.211164,122.652651,83.94,Shelf
+"Sjungjujudè river, Russia",184.0,68.557,121.788,84.23,Shelf
+"Kjundedej river, Russia",184.0,65.447,125.237,82.38,Shelf
+"Anabar Bay, Russia",184.0,73.522538,113.272015,82.48,Shelf
+"Cremlingen, Germany",184.0,52.259264,10.673633,44.25,Shelf
+Amga - Aldan interflows,184.0,61.3,134.0,76.99,Shelf
+Arman' river,184.0,60.65231,150.66077,70.25,Shelf
+Khandyga river,184.0,62.857254,137.173957,76.7,Shelf
+"R201 borehole, Russia",184.0,73.332749,108.817689,82.86,Shallow shelf
+"Lehre, N. Germany",184.0,52.306,10.711,44.3,Shallow shelf
+"Dyba river, NE Russia",184.0,63.975,137.48,77.14,Shallow shelf
+"Kyuentya river, NE Russia",184.0,63.346,141.476,75.3,Shallow shelf
+Tundrovaya 1-R well,184.0,71.1825,91.0139,81.91,Shallow shelf
+Anabar river,184.0,72.36149,113.53683,83.62,Shallow shelf
+Begijan river,184.0,66.882,125.8964,82.59,Shallow shelf
+Ulakh-An borehole,184.0,61.622,129.21,78.91,Shallow shelf
+"Vilyui river, section 4",184.0,61.929304,117.08514,82.71,Shallow shelf
+"Vilyui river, section 7",184.0,61.921821,117.132476,82.69,Shallow shelf
+"Motorway A39 at Wolsburg, Germany",184.0,52.41,10.73,44.4,Shallow shelf
+"Borehole 13, Anabar area, Siberia",184.0,73.52022,112.61398,82.62,Shallow shelf
