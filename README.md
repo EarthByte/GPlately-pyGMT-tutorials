@@ -22,14 +22,45 @@ produces.
 ## Quick start
 
 ```bash
+# 1. Clone
 git clone https://github.com/EarthByte/GPlately-pyGMT-tutorials.git
 cd GPlately-pyGMT-tutorials
+
+# 2. Get the large-data companion archive (~12 GB) from Zenodo
+#    (only needed for ~10 of the 72 notebooks — see below)
+wget https://zenodo.org/records/<ID>/files/GPlately-pyGMT-tutorial-data-v1.zip
+unzip GPlately-pyGMT-tutorial-data-v1.zip
+rsync -av GPlately-pyGMT-tutorial-data/data/ ./data/
+
+# 3. Install the environment
 conda env create -f environment.yml
 conda activate gplately-pygmt
 jupyter lab
 ```
 
 Or use the official [`gplates/gplately` Docker image](https://hub.docker.com/r/gplates/gplately).
+
+### About the Zenodo companion archive
+
+**60 of the 72 notebooks** run purely from what's in this repo — everything
+they need is either bundled in `data/` (small paleo-DEM subsets, published
+tabular datasets, palette files) or auto-fetched at runtime via
+`plate_model_manager` (Cao 2024, Zahirovic 2022, Merdith 2021, Müller 2022).
+
+**~10 notebooks** in the thermochronology + mantle-dynamics clusters lean on
+larger datasets that would push the repo past 100 MB per file / into the
+multi-GB range on disk. Those datasets ship in a single **Zenodo companion
+archive** at DOI [10.5281/zenodo.XXXXXXX](https://doi.org/10.5281/zenodo.XXXXXXX)
+(~12 GB compressed): AFEAD + GEM fault databases, gmcm9 dynamic topography,
+Dhungana + Flament mantle temperature/velocity fields, and per-continent
+thermochronology compilations. See the archive's `README.md` and
+`DATA_INVENTORY.md` for the full manifest, provenance, and per-dataset
+citations.
+
+If you skip step 2, the notebooks that depend on that data raise
+`FileNotFoundError` on their first cell with a pointer to the Zenodo DOI —
+nothing runs silently against missing inputs. The other 60 notebooks work
+regardless.
 
 ## Layout
 

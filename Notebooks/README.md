@@ -93,7 +93,7 @@ If you're new to plate reconstructions in Python, a good entry sequence is:
   where install friction is the bottleneck.
 - **T03 — Projection cookbook.** The cartographic foundation the rest of the
   suite leans on.
-- **T04 — Multi-model diff maps** and **T05 — Comparing rotation models**, once
+- **T04 — Plate model comparison** and **T05 — Comparing rotation models**, once
   T01-T03 are comfortable — these show how to reason about model choice
   rather than treat any one model as ground truth.
 - **T10 — Paleobathymetry profile across the Atlantic at 50 Ma** as the first
