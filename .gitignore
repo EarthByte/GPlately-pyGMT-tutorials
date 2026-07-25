@@ -210,3 +210,6 @@ data/gld428_mantle_frame_grids.zip
 data/basins_icons_heine/
 data/sediment_thickness_bird_mooney/
 data/crustal_thickness_afonso/
+
+# === README.md exceptions: keep them tracked even in gitignored data folders ===
+!data/*/README.md
