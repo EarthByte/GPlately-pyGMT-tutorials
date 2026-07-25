@@ -201,8 +201,8 @@ Notebooks/T62_debug_extractability_frames/
 # T72 Craton Boundary Framework working directory
 Notebooks/T72_cbf_outputs/
 
-# === T78 Young 2022 gld428 mantle-frame DT (~213 MB, Zenodo) ===
-data/Young_gld428_mantle_ref_frame_grids/
+# === T29 + T48 + T78 Young 2022 dynamic topography + M21 NNR plate model (~1 GB, Zenodo) ===
+data/Young2022_dynamic_topo/
 data/gld428-MantleFrame-0-250Ma.zip
 data/gld428_mantle_frame_grids.zip
 
