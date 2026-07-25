@@ -200,3 +200,13 @@ Notebooks/T62_debug_extractability_frames/
 
 # T72 Craton Boundary Framework working directory
 Notebooks/T72_cbf_outputs/
+
+# === T78 Young 2022 gld428 mantle-frame DT (~213 MB, Zenodo) ===
+data/Young_gld428_mantle_ref_frame_grids/
+data/gld428-MantleFrame-0-250Ma.zip
+data/gld428_mantle_frame_grids.zip
+
+# === T75/T76/T77 ICONS Atlas + Bird&Mooney + Afonso (Zenodo) ===
+data/basins_icons_heine/
+data/sediment_thickness_bird_mooney/
+data/crustal_thickness_afonso/
