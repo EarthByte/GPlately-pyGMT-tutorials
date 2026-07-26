@@ -1,6 +1,6 @@
 """Plate-motion velocity-arrow helper.
 
-Ported from T11 (Paleo-strain-rate maps) so all four T59-T62 debug notebooks
+Ported from T11 (Paleo-strain-rate maps) so all four T15-T18 debug notebooks
 can overlay a consistent plate-motion vector field on their maps. The
 returned east/north components are in cm/yr in the topological snapshot's
 anchor-plate frame (usually anchor 0 = hotspot / spin-axis reference).

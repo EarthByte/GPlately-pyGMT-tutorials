@@ -6,7 +6,7 @@ Originally standalone scripts by Ben Sculley + John Cannon (EarthByte):
 
 Refactored here so a notebook can call them at a single geological time and
 get lists of anomalous features back (instead of writing GPML files to disk).
-Used by tutorial notebook T61.
+Used by tutorial notebook T17.
 
 Three detectors, one per anomaly type:
 

@@ -1,8 +1,14 @@
 """Build Figure 1 — the tutorial suite organised by thematic cluster.
 
-Layout 2026-07-26: **78 notebooks across 11 clusters (A–L, skipping K)**
-after the T73-T78 tail extensions landed in clusters A/E/H/L without
-renumbering. Cluster L (Sedimentary basins) is new.
+Layout 2026-07-26 (renumber sweep): **78 notebooks across 11 fully
+contiguous clusters (A-K)**. The T73-T78 tail extensions that had
+previously landed in clusters A/E/H/L without renumbering (see the
+2026-07-26 "T75+T76+T77+T78 tail extensions" and earlier CHANGELOG
+entries) have now been folded back into their home clusters, and the
+Heine ICONS Atlas sedimentary-basins trio (old T75/T76/T77) has been
+given its own dedicated cluster **H** at its correct place in the
+sequence (previously inconsistently labelled cluster B/G/L across its
+three notebooks' own headers).
 
 Run:
     cd paper/figures
@@ -10,28 +16,36 @@ Run:
 
 Output: fig1_suite_ladder.png + fig1_suite_ladder.pdf (this folder).
 
-Cluster structure (2026-07-26 tail extensions):
-    A : T01-T08 + T73  Getting started / core workflows
-                              (T73 = paleolatitude via reverse reconstruction)
-    B : T09-T14        Plate kinematics + tectonics (T14 = rift obliquity)
+Cluster structure (2026-07-26 renumber sweep, old->new T-number map in
+CHANGELOG.md):
+    A : T01-T07        Getting started / core workflows
+    B : T08-T14        Plate kinematics + tectonics (T14 = rift obliquity)
     C : T15-T18        Plate-model debugging (Sculley + Cannon)
     D : T19-T23        Zircons + tectonic-setting predictors
                               (T23 = Hf-Nd terrane mapping)
-    E : T24-T30 + T78  Mantle dynamics + dynamic topography
+    E : T24-T31        Mantle dynamics + dynamic topography
                               (T24-T25 REVEAL pair; T30 = subducted-slab flux;
-                               T78 = mantle→plate frame conversion walkthrough)
-    F : T31-T40        Paleomagnetism (T40 = TPW decomposition)
-    G : T41-T49        Paleo-geography + paleo-topography + thermochronology
-                              (T43-T47 = ThermoPlates suite;
-                               T48 = North American thermochron;
-                               T49 = ophiolite paleo-map)
-    H : T50-T54 + T74  Paleobiogeography (T74 = H3 bioregionalisation)
-    I : T55-T63        Paleoclimate (T60-T63 = Leonard 2025 quartet)
-    J : T64-T72        Mineral exploration
-                              (T64-T69 = porphyry/Cu suite;
-                               T70 = carbonate-platform degassing;
-                               T71 = Mn 1.8 Ga; T72 = craton boundaries)
-    L : T75-T77        Sedimentary basins (Heine ICONS Atlas trio)
+                               T31 = mantle->plate frame conversion walkthrough,
+                               was tail-extension T78)
+    F : T32-T42        Paleomagnetism (T41 = TPW decomposition;
+                               T42 = paleolatitude via reverse reconstruction,
+                               was tail-extension T73)
+    G : T43-T51        Paleo-geography + paleo-topography + thermochronology
+                              (T45-T49 = ThermoPlates suite;
+                               T50 = North American thermochron;
+                               T51 = ophiolite paleo-map)
+    H : T52-T54        Sedimentary basins (Heine ICONS Atlas trio,
+                               was tail-extension T75-T77) -- NEW dedicated
+                               cluster, replacing the old inconsistent
+                               cluster B/G/L labelling
+    I : T55-T60        Paleobiogeography (T60 = H3 bioregionalisation,
+                               was tail-extension T74)
+    J : T61-T69        Paleoclimate (T61-T69 = Leonard 2025 quartet + Boucot
+                               + deep-time SAT + cGENIE + PLASIM + pySCION)
+    K : T70-T78        Mineral exploration
+                              (T70-T75 = porphyry/Cu suite;
+                               T76 = carbonate-platform degassing;
+                               T77 = Mn 1.8 Ga; T78 = craton boundaries)
 """
 
 from pathlib import Path
@@ -52,10 +66,9 @@ CLUSTERS = [
         ("T05", "Rotation" + NL + "model" + NL + "comparison"),
         ("T06", "Animations"),
         ("T07", "Interactive" + NL + "paleogeog." + NL + "reconstr."),
-        ("T08", "Deep-time" + NL + "diagnostics"),
-        ("T73", "Paleolat." + NL + "reverse" + NL + "reconstr."),
     ]),
     ("B", "Plate kinematics + tectonics", "#7DCEA0", [
+        ("T08", "Deep-time" + NL + "diagnostics"),
         ("T09", "Age of" + NL + "subd. crust"),
         ("T10", "Paleo-" + NL + "bathymetry" + NL + "profile"),
         ("T11", "Paleo-" + NL + "strain rates"),
@@ -84,65 +97,66 @@ CLUSTERS = [
         ("T28", "DT vs" + NL + "sediment"),
         ("T29", "DT change" + NL + "deep time"),
         ("T30", "Subducted-" + NL + "slab flux"),
-        ("T78", "Mantle→" + NL + "plate frame" + NL + "conversion"),
+        ("T31", "Mantle→" + NL + "plate frame" + NL + "conversion"),
     ]),
     ("F", "Paleomagnetism", "#E74C3C", [
-        ("T31", "GPMDB" + NL + "reference" + NL + "frame"),
-        ("T32", "Frame" + NL + "comparison"),
-        ("T33", "Plate/mantle" + NL + "frame" + NL + "uncertainty"),
-        ("T34", "Continent" + NL + "reconstr." + NL + "(gplately)"),
-        ("T35", "APWP vs" + NL + "gplately" + NL + "site"),
-        ("T36", "Osler" + NL + "1.1 Ga"),
-        ("T37", "Phaner." + NL + "APWP on" + NL + "Laurentia"),
-        ("T38", "SVEI" + NL + "shallowing"),
-        ("T39", "Rotated" + NL + "poles"),
-        ("T40", "TPW" + NL + "decomp."),
+        ("T32", "GPMDB" + NL + "reference" + NL + "frame"),
+        ("T33", "Frame" + NL + "comparison"),
+        ("T34", "Plate/mantle" + NL + "frame" + NL + "uncertainty"),
+        ("T35", "Continent" + NL + "reconstr." + NL + "(gplately)"),
+        ("T36", "APWP vs" + NL + "gplately" + NL + "site"),
+        ("T37", "Osler" + NL + "1.1 Ga"),
+        ("T38", "Phaner." + NL + "APWP on" + NL + "Laurentia"),
+        ("T39", "SVEI" + NL + "shallowing"),
+        ("T40", "Rotated" + NL + "poles"),
+        ("T41", "TPW" + NL + "decomp."),
+        ("T42", "Paleolat." + NL + "reverse" + NL + "reconstr."),
     ]),
     ("G", "Paleo-geography +" + NL + "paleo-topography", "#16A085", [
-        ("T41", "Geochem-" + NL + "corrected" + NL + "paleo-elev"),
-        ("T42", "Macrostrat" + NL + "Great" + NL + "Unconf."),
-        ("T43", "Highland" + NL + "footprints"),
-        ("T44", "C. Asia" + NL + "thermo-" + NL + "chron."),
-        ("T45", "Cooling ×" + NL + "Earth-" + NL + "system"),
-        ("T46", "Cooling ×" + NL + "kinematics" + NL + "× faults"),
-        ("T47", "Cooling-" + NL + "rate" + NL + "correl."),
-        ("T48", "N. America" + NL + "thermo-" + NL + "chron. + DT"),
-        ("T49", "Ophiolite" + NL + "paleo-map"),
+        ("T43", "Geochem-" + NL + "corrected" + NL + "paleo-elev"),
+        ("T44", "Macrostrat" + NL + "Great" + NL + "Unconf."),
+        ("T45", "Highland" + NL + "footprints"),
+        ("T46", "C. Asia" + NL + "thermo-" + NL + "chron."),
+        ("T47", "Cooling ×" + NL + "Earth-" + NL + "system"),
+        ("T48", "Cooling ×" + NL + "kinematics" + NL + "× faults"),
+        ("T49", "Cooling-" + NL + "rate" + NL + "correl."),
+        ("T50", "N. America" + NL + "thermo-" + NL + "chron. + DT"),
+        ("T51", "Ophiolite" + NL + "paleo-map"),
     ]),
-    ("H", "Paleobiogeography", "#F39C12", [
-        ("T50", "PBDB ×" + NL + "Macrostrat" + NL + "paleo-litho"),
-        ("T51", "Reef" + NL + "builders" + NL + "paleolat"),
-        ("T52", "Kimmer." + NL + "dinos +" + NL + "paleo-elev"),
-        ("T53", "Cenozoic" + NL + "forams"),
-        ("T54", "PBDB" + NL + "paleobio-" + NL + "geography"),
-        ("T74", "H3 bio-" + NL + "regional-" + NL + "isation"),
+    ("H", "Sedimentary basins", "#8E44AD", [
+        ("T52", "Global" + NL + "basins" + NL + "ICONS"),
+        ("T53", "Crustal" + NL + "stretching" + NL + "factor β"),
+        ("T54", "Individual" + NL + "rift" + NL + "analysis"),
     ]),
-    ("I", "Paleoclimate", "#2980B9", [
-        ("T55", "Boucot" + NL + "climate" + NL + "lithos"),
-        ("T56", "Deep-time" + NL + "SAT"),
-        ("T57", "cGENIE" + NL + "SST vs" + NL + "proxies"),
-        ("T58", "PLASIM" + NL + "CO2" + NL + "sensitivity"),
-        ("T59", "pySCION" + NL + "Phanerozoic"),
-        ("T60", "Ref-frame" + NL + "paleoclim." + NL + "uncertainty"),
-        ("T61", "Ocean" + NL + "gateways" + NL + "vs frame"),
-        ("T62", "Multi-study" + NL + "GMST"),
-        ("T63", "Proxy" + NL + "validation" + NL + "of frames"),
+    ("I", "Paleobiogeography", "#F39C12", [
+        ("T55", "PBDB ×" + NL + "Macrostrat" + NL + "paleo-litho"),
+        ("T56", "Reef" + NL + "builders" + NL + "paleolat"),
+        ("T57", "Kimmer." + NL + "dinos +" + NL + "paleo-elev"),
+        ("T58", "Cenozoic" + NL + "forams"),
+        ("T59", "PBDB" + NL + "paleobio-" + NL + "geography"),
+        ("T60", "H3 bio-" + NL + "regional-" + NL + "isation"),
     ]),
-    ("J", "Mineral exploration", "#7D6608", [
-        ("T64", "SW-Pacific" + NL + "porphyries"),
-        ("T65", "Global" + NL + "porphyry" + NL + "envelope"),
-        ("T66", "Seafloor" + NL + "anomalies"),
-        ("T67", "Sediment-" + NL + "hosted Cu"),
-        ("T68", "Porphyry-Cu" + NL + "deep-time" + NL + "trajectories"),
-        ("T69", "Continent" + NL + "prospectivity" + NL + "maps"),
-        ("T70", "Carbonate" + NL + "platform" + NL + "degassing"),
-        ("T71", "Manganese" + NL + "1.8 Ga" + NL + "paleogeo"),
-        ("T72", "Craton" + NL + "boundary" + NL + "framework"),
+    ("J", "Paleoclimate", "#2980B9", [
+        ("T61", "Boucot" + NL + "climate" + NL + "lithos"),
+        ("T62", "Deep-time" + NL + "SAT"),
+        ("T63", "cGENIE" + NL + "SST vs" + NL + "proxies"),
+        ("T64", "PLASIM" + NL + "CO2" + NL + "sensitivity"),
+        ("T65", "pySCION" + NL + "Phanerozoic"),
+        ("T66", "Ref-frame" + NL + "paleoclim." + NL + "uncertainty"),
+        ("T67", "Ocean" + NL + "gateways" + NL + "vs frame"),
+        ("T68", "Multi-study" + NL + "GMST"),
+        ("T69", "Proxy" + NL + "validation" + NL + "of frames"),
     ]),
-    ("L", "Sedimentary basins", "#8E44AD", [
-        ("T75", "Global" + NL + "basins" + NL + "ICONS"),
-        ("T76", "Crustal" + NL + "stretching" + NL + "factor β"),
-        ("T77", "Individual" + NL + "rift" + NL + "analysis"),
+    ("K", "Mineral exploration", "#7D6608", [
+        ("T70", "SW-Pacific" + NL + "porphyries"),
+        ("T71", "Global" + NL + "porphyry" + NL + "envelope"),
+        ("T72", "Seafloor" + NL + "anomalies"),
+        ("T73", "Sediment-" + NL + "hosted Cu"),
+        ("T74", "Porphyry-Cu" + NL + "deep-time" + NL + "trajectories"),
+        ("T75", "Continent" + NL + "prospectivity" + NL + "maps"),
+        ("T76", "Carbonate" + NL + "platform" + NL + "degassing"),
+        ("T77", "Manganese" + NL + "1.8 Ga" + NL + "paleogeo"),
+        ("T78", "Craton" + NL + "boundary" + NL + "framework"),
     ]),
 ]
 
@@ -157,14 +171,14 @@ FS_LABEL  = 7.2
 FS_HEADER = 11.0
 
 # 6 rows for 11 clusters — pair small ones with big ones.
-# Cluster sizes now: A(9), B(6), C(4), D(5), E(8), F(10), G(9), H(6), I(9), J(9), L(3)
+# Cluster sizes now: A(7), B(7), C(4), D(5), E(8), F(11), G(9), H(3), I(6), J(9), K(9)
 ROWS = [
-    ["A"],               # A(9) alone
-    ["B", "C", "D"],     # B(6) + C(4) + D(5) = 15 tiles
-    ["E", "F"],          # E(8) + F(10) = 18 — widest row
-    ["G", "L"],          # G(9) + L(3) = 12 — L pairs with G nicely
-    ["H", "I"],          # H(6) + I(9) = 15
-    ["J"],               # J(9) alone
+    ["A", "B"],          # A(7) + B(7) = 14
+    ["C", "D", "H"],     # C(4) + D(5) + H(3) = 12
+    ["E", "F"],          # E(8) + F(11) = 19 — widest row
+    ["G"],               # G(9) alone — wide enough on its own
+    ["I", "J"],          # I(6) + J(9) = 15
+    ["K"],                # K(9) alone
 ]
 
 
@@ -240,7 +254,7 @@ def build():
             draw_cluster(letter, name, colour, tiles, x, y_centre)
             x += w + CLUSTER_PAD_X
 
-    # Widen x-range slightly to accommodate the widened cluster E and cluster A
+    # Widen x-range slightly to accommodate the widened cluster F
     ax.set_xlim(-12.0, 12.0)
     ax.set_ylim(-0.5, 18.5)
     ax.set_aspect("equal")
