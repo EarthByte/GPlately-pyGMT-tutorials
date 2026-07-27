@@ -1,11 +1,11 @@
 """Build Figure 1 — the tutorial suite organised by thematic cluster.
 
-Layout 2026-07-28: **79 notebooks across 11 clusters (A-K), fully contiguous**.
-Old T77 (Carbonate-platform arc degassing) was reclassified out of cluster K
-(mineral exploration) into cluster J (paleoclimate) as the new T71, since it
-is fundamentally a paleoclimate-forcing notebook (continental-arc CO2
-degassing) rather than a mineral-prospectivity one. Old T71-T76 shifted up
-by one to T72-T77; T78 and T79 are unaffected.
+Layout 2026-07-29: **79 notebooks across 11 clusters (A-K), fully contiguous**.
+Old T31 (Subducted-slab flux inventory) was moved out of cluster E (mantle
+dynamics) into cluster B (plate kinematics + tectonics) as the new T16,
+directly after T15 -- it is a per-trench kinematic-flux notebook, consistent
+with T08-T15's kinematic-diagnostic style, not a mantle-dynamics one. Old
+T16-T30 shifted up by one to T17-T31; T32 onward is unaffected.
 
 Run:
     cd paper/figures
@@ -13,17 +13,19 @@ Run:
 
 Output: fig1_suite_ladder.png + fig1_suite_ladder.pdf (this folder).
 
-Cluster structure (2026-07-28 resequence, disk-verified):
+Cluster structure (2026-07-29 resequence, disk-verified):
     A : T01-T07        Getting started / core workflows
-    B : T08-T15        Plate kinematics + tectonics
+    B : T08-T16        Plate kinematics + tectonics
                               (T14 = rift obliquity; T15 = kinematic feature
                                extraction at subduction zones, contributed
-                               by Ehsan Farahbakhsh)
-    C : T16-T19        Plate-model debugging (Sculley + Cannon)
-    D : T20-T24        Zircons + tectonic-setting predictors
-                              (T24 = Hf-Nd terrane mapping)
-    E : T25-T32        Mantle dynamics + dynamic topography
-                              (T25-T26 REVEAL pair; T31 = subducted-slab flux;
+                               by Ehsan Farahbakhsh; T16 = subducted-slab
+                               flux inventory, reclassified from cluster E
+                               2026-07-29)
+    C : T17-T20        Plate-model debugging (Sculley + Cannon)
+    D : T21-T25        Zircons + tectonic-setting predictors
+                              (T25 = Hf-Nd terrane mapping)
+    E : T26-T32        Mantle dynamics + dynamic topography
+                              (T26-T27 REVEAL pair;
                                T32 = mantle-to-plate frame conversion)
     F : T33-T43        Paleomagnetism (T42 = TPW decomposition)
     G : T44-T52        Paleo-geography + paleo-topography + thermochronology
@@ -68,28 +70,28 @@ CLUSTERS = [
         ("T13", "Paleo-" + NL + "SHmax" + NL + "subduction"),
         ("T14", "Rift" + NL + "obliquity"),
         ("T15", "Kinematic" + NL + "feature" + NL + "extraction"),
+        ("T16", "Subducted-" + NL + "slab flux"),
     ]),
     ("C", "Plate-model debugging", "#34495E", [
-        ("T16", "Div. +" + NL + "convergence" + NL + "anomalies"),
-        ("T17", "MOR" + NL + "velocity" + NL + "magnitude"),
-        ("T18", "Topology" + NL + "construction" + NL + "anomalies"),
-        ("T19", "SZ feature" + NL + "extract-" + NL + "ability"),
+        ("T17", "Div. +" + NL + "convergence" + NL + "anomalies"),
+        ("T18", "MOR" + NL + "velocity" + NL + "magnitude"),
+        ("T19", "Topology" + NL + "construction" + NL + "anomalies"),
+        ("T20", "SZ feature" + NL + "extract-" + NL + "ability"),
     ]),
     ("D", "Zircons + tectonic-" + NL + "setting predictors", "#F4A261", [
-        ("T20", "Detrital" + NL + "zircons"),
-        ("T21", "Igneous" + NL + "zircons"),
-        ("T22", "Meta-" + NL + "morphic" + NL + "zircons"),
-        ("T23", "Dist. to" + NL + "subduction"),
-        ("T24", "Hf-Nd" + NL + "terrane" + NL + "mapping"),
+        ("T21", "Detrital" + NL + "zircons"),
+        ("T22", "Igneous" + NL + "zircons"),
+        ("T23", "Meta-" + NL + "morphic" + NL + "zircons"),
+        ("T24", "Dist. to" + NL + "subduction"),
+        ("T25", "Hf-Nd" + NL + "terrane" + NL + "mapping"),
     ]),
     ("E", "Mantle dynamics +" + NL + "dynamic topography", "#A569BD", [
-        ("T25", "REVEAL" + NL + "tomography" + NL + "slices"),
-        ("T26", "REVEAL" + NL + "plume" + NL + "cross-sect."),
-        ("T27", "Mantle" + NL + "transect" + NL + "deep time"),
-        ("T28", "DT cluster" + NL + "histories"),
-        ("T29", "DT vs" + NL + "sediment"),
-        ("T30", "DT change" + NL + "deep time"),
-        ("T31", "Subducted-" + NL + "slab flux"),
+        ("T26", "REVEAL" + NL + "tomography" + NL + "slices"),
+        ("T27", "REVEAL" + NL + "plume" + NL + "cross-sect."),
+        ("T28", "Mantle" + NL + "transect" + NL + "deep time"),
+        ("T29", "DT cluster" + NL + "histories"),
+        ("T30", "DT vs" + NL + "sediment"),
+        ("T31", "DT change" + NL + "deep time"),
         ("T32", "Mantle→" + NL + "plate frame" + NL + "conversion"),
     ]),
     ("F", "Paleomagnetism", "#E74C3C", [
@@ -164,11 +166,11 @@ FS_LABEL  = 7.2
 FS_HEADER = 11.0
 
 # 6 rows for 11 clusters — pair small ones with big ones.
-# Cluster sizes: A(7), B(8), C(4), D(5), E(8), F(11), G(9), H(3), I(6), J(10), K(8)
+# Cluster sizes: A(7), B(9), C(4), D(5), E(7), F(11), G(9), H(3), I(6), J(10), K(8)
 ROWS = [
     ["A"],               # A(7) alone
-    ["B", "C", "D"],     # B(8) + C(4) + D(5) = 17 tiles
-    ["E", "F"],          # E(8) + F(11) = 19 — widest row
+    ["B", "C", "D"],     # B(9) + C(4) + D(5) = 18 tiles
+    ["E", "F"],          # E(7) + F(11) = 18
     ["G", "H"],          # G(9) + H(3) = 12 — H pairs with G nicely
     ["I", "J"],          # I(6) + J(10) = 16
     ["K"],               # K(8) alone

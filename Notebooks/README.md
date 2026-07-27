@@ -102,37 +102,40 @@ If you're new to plate reconstructions in Python, a good entry sequence is:
 ## Themes
 
 The suite is organised into **11 thematic clusters, A-K**, fully contiguous as
-of the **2026-07-28 reclassification** (which folded in Ehsan Farahbakhsh's kinematic-
-feature-extraction notebook as T15, cluster B, on 2026-07-27, then moved T71
+of the **2026-07-29 reclassification** (which folded in Ehsan Farahbakhsh's kinematic-
+feature-extraction notebook as T15, cluster B, on 2026-07-27; moved T71
 "Carbonate-platform arc degassing" from cluster K into cluster J on 2026-07-28,
 since it is a paleoclimate-forcing notebook rather than a mineral-prospectivity
-one). Each cluster has its own opening sentence below with its current T-number
-range. Re-read the cluster header inside each notebook for the authoritative
-cluster assignment.
+one; then moved T16 "Subducted-slab flux inventory" from cluster E into cluster
+B on 2026-07-29, directly after T15, since it is a per-trench kinematic-flux
+notebook rather than a mantle-dynamics one). Each cluster has its own opening
+sentence below with its current T-number range. Re-read the cluster header
+inside each notebook for the authoritative cluster assignment.
 
 - **Cluster A — Getting started + core workflows (T01-T07).** First paleo-maps,
   projection choices, model-comparison patterns, animations, interactive Panel
   views.
-- **Cluster B — Plate kinematics + tectonics (T08-T15).** Plate-tectonic
+- **Cluster B — Plate kinematics + tectonics (T08-T16).** Plate-tectonic
   diagnostics, age-of-subducting-crust, paleo-bathymetry profiles, strain-rate
   maps, lithospheric-thickness retrodeformation, paleo-stress along
-  subduction zones, rift obliquity, and kinematic feature extraction at
+  subduction zones, rift obliquity, kinematic feature extraction at
   subduction zones through time (T15) — convergence rate/obliquity, trench
-  velocity, and derived slab-flux proxies on an interactive map.
-- **Cluster C — Plate-model debugging (T16-T19).** Divergence/convergence sign
+  velocity, and derived slab-flux proxies on an interactive map — and (T16)
+  subducted-slab flux inventory: a deep-time budget of subducted slab volume,
+  sediment, carbonate, and water mass.
+- **Cluster C — Plate-model debugging (T17-T20).** Divergence/convergence sign
   anomalies at plate boundaries, MOR velocity-magnitude anomalies, topology
   construction anomalies (gaps/overlaps/non-unique sections), subduction-zone
   feature-extractability diagnostics.
-- **Cluster D — Zircons + tectonic-setting predictors (T20-T24).** Detrital /
+- **Cluster D — Zircons + tectonic-setting predictors (T21-T25).** Detrital /
   igneous / metamorphic zircons reconstructed through deep time, paleo-distance
   to the nearest subduction zone as a tectonic-setting predictor, Hf-Nd
   isotope terrane mapping.
-- **Cluster E — Mantle dynamics + dynamic topography (T25-T32).** REVEAL
+- **Cluster E — Mantle dynamics + dynamic topography (T26-T32).** REVEAL
   tomography overlain with reconstructed plate boundaries, deep-time mantle
   transects, clustering of plate-frame dynamic-topography histories,
   dynamic-topography vs sediment flux, dynamic-topography change rate through
-  deep time, subducted-slab flux inventory, and the mantle-to-plate frame
-  conversion walkthrough.
+  deep time, and the mantle-to-plate frame conversion walkthrough.
 - **Cluster F — Paleomagnetism (T33-T43).** Building a paleomagnetic reference
   frame from GPMDB, comparing alternative reference frames, plate-mantle
   reference-frame uncertainty, continent rotation with GPlately, predicted vs
