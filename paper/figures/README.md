@@ -18,7 +18,7 @@ The script has a built-in sanity check that fails loudly if T-numbers go non-con
 
 ## Layout convention
 
-The cluster ladder is organised by **thematic cluster (A-K)**, not by T-number order, fully contiguous as of the 2026-07-26 renumber sweep. Tail extensions (notebooks added out of cluster order without a further renumber sweep, e.g. T79 in cluster B) sit at the RIGHT end of their target cluster's tile row.
+The cluster ladder is organised by **thematic cluster (A-K)**, not by T-number order, fully contiguous as of the 2026-07-27 resequence (which folds any same-day tail additions back into their target cluster's contiguous range, so the ladder should never show a tail tile for long). When a new notebook lands between deliberate resequences, its tile sits at the RIGHT end of its target cluster's tile row until the next resequence folds it in.
 
 If a new notebook is added, edit the `CLUSTERS` list in `build_fig1_suite_ladder.py`, add the tile to the target cluster, re-run, commit.
 

@@ -102,64 +102,64 @@ If you're new to plate reconstructions in Python, a good entry sequence is:
 ## Themes
 
 The suite is organised into **11 thematic clusters, A-K**, fully contiguous as
-of the **2026-07-26 renumber sweep**, plus one tail addition (**T79**, cluster
-B, landed 2026-07-27) not yet folded into a further resweep. Each cluster has
+of the **2026-07-27 resequence** (which folded in Ehsan Farahbakhsh's kinematic-
+feature-extraction notebook as the new T15, cluster B). Each cluster has
 its own opening sentence below with its current T-number range. Re-read the cluster header
 inside each notebook for the authoritative cluster assignment.
 
 - **Cluster A — Getting started + core workflows (T01-T07).** First paleo-maps,
   projection choices, model-comparison patterns, animations, interactive Panel
   views.
-- **Cluster B — Plate kinematics + tectonics (T08-T14 + T79 tail).** Plate-tectonic
+- **Cluster B — Plate kinematics + tectonics (T08-T15).** Plate-tectonic
   diagnostics, age-of-subducting-crust, paleo-bathymetry profiles, strain-rate
   maps, lithospheric-thickness retrodeformation, paleo-stress along
-  subduction zones, rift obliquity, and (T79, tail addition) kinematic feature
-  extraction at subduction zones through time — convergence rate/obliquity,
-  trench velocity, and derived slab-flux proxies on an interactive map.
-- **Cluster C — Plate-model debugging (T15-T18).** Divergence/convergence sign
+  subduction zones, rift obliquity, and kinematic feature extraction at
+  subduction zones through time (T15) — convergence rate/obliquity, trench
+  velocity, and derived slab-flux proxies on an interactive map.
+- **Cluster C — Plate-model debugging (T16-T19).** Divergence/convergence sign
   anomalies at plate boundaries, MOR velocity-magnitude anomalies, topology
   construction anomalies (gaps/overlaps/non-unique sections), subduction-zone
   feature-extractability diagnostics.
-- **Cluster D — Zircons + tectonic-setting predictors (T19-T23).** Detrital /
+- **Cluster D — Zircons + tectonic-setting predictors (T20-T24).** Detrital /
   igneous / metamorphic zircons reconstructed through deep time, paleo-distance
   to the nearest subduction zone as a tectonic-setting predictor, Hf-Nd
   isotope terrane mapping.
-- **Cluster E — Mantle dynamics + dynamic topography (T24-T31).** REVEAL
+- **Cluster E — Mantle dynamics + dynamic topography (T25-T32).** REVEAL
   tomography overlain with reconstructed plate boundaries, deep-time mantle
   transects, clustering of plate-frame dynamic-topography histories,
   dynamic-topography vs sediment flux, dynamic-topography change rate through
   deep time, subducted-slab flux inventory, and the mantle-to-plate frame
   conversion walkthrough.
-- **Cluster F — Paleomagnetism (T32-T42).** Building a paleomagnetic reference
+- **Cluster F — Paleomagnetism (T33-T43).** Building a paleomagnetic reference
   frame from GPMDB, comparing alternative reference frames, plate-mantle
   reference-frame uncertainty, continent rotation with GPlately, predicted vs
   observed paleomagnetic directions, single-key-pole case studies, full
   Phanerozoic apparent polar wander, inclination-shallowing corrections, pole
   rotation utilities, true polar wander decomposition, paleolatitude via
   reverse reconstruction.
-- **Cluster G — Paleo-geography + paleo-topography (T43-T51).**
+- **Cluster G — Paleo-geography + paleo-topography (T44-T52).**
   Geochemistry-corrected paleo-elevation, Macrostrat sedimentary units in
   paleo-position, highland-footprint detection in deep time, ophiolite
   emplacement, and the full ThermoPlates suite of thermochronology-on-paleo-Earth
   workflows (cooling rates on Earth-system overlays, against plate kinematics
   and fault databases, and as correlation/time-series analyses).
-- **Cluster H — Sedimentary basins (T52-T54).** Christian Heine's ICONS Atlas:
+- **Cluster H — Sedimentary basins (T53-T55).** Christian Heine's ICONS Atlas:
   global sedimentary-basin inventory + thickness + paleogeographic
   reconstruction, crustal stretching factor (β), individual rift-basin
   syn-rift/post-rift analysis.
-- **Cluster I — Paleo-biogeography (T55-T60).** Paleobiology Database ×
+- **Cluster I — Paleo-biogeography (T56-T61).** Paleobiology Database ×
   Macrostrat joins in paleo-coordinates, fossil corals through deep time, Late
   Jurassic dinosaur distributions on a reconstructed climate, Cenozoic
   planktonic foraminifera on reconstructed paleo-latitude, PBDB
   paleobiogeography live-API workflow, H3 hexagonal-grid bioregionalisation.
-- **Cluster J — Paleoclimate (T61-T69).** Phanerozoic climate-sensitive
+- **Cluster J — Paleoclimate (T62-T70).** Phanerozoic climate-sensitive
   lithologies on reconstructed plates, deep-time paleoclimate model snapshots
   regridded onto reconstructed coastlines, model-vs-proxy SST comparisons,
   end-Permian CO2-sensitivity ensembles, full-Phanerozoic biogeochemistry,
   reference-frame uncertainty in reconstructed paleoclimate, ocean-gateway
   timing through frames, multi-study GMST comparison, proxy validation of
   reference-frame choice.
-- **Cluster K — Mineral exploration (T70-T78).** SW-Pacific porphyry-Cu-Au
+- **Cluster K — Mineral exploration (T71-T79).** SW-Pacific porphyry-Cu-Au
   paleo-prospectivity, global porphyry kinematics envelope, seafloor age-grid
   anomalies as porphyry-Cu predictors, sediment-hosted Cu deposits, deep-time
   porphyry-Cu deposit trajectories, continent-scale prospectivity maps,

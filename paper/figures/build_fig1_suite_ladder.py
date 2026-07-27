@@ -1,17 +1,10 @@
 """Build Figure 1 — the tutorial suite organised by thematic cluster.
 
-Layout 2026-07-27: **79 notebooks across 11 clusters (A-K), fully contiguous**,
-reflecting the 2026-07-26 renumbering sweep (T01-T78 contiguous, no tail
-extensions) plus the T79 tail addition (Farahbakhsh kinematic-feature-
-extraction notebook, landed 2026-07-27 in cluster B without a further
-resweep, per the suite's tail-extension convention).
-
-This replaces the previous (2026-07-26-dated but never actually updated)
-version of this script, whose CLUSTERS data still reflected the *pre-sweep*
-A-L-skipping-K tail-extension layout (T73 in A, T78 in E, T74 in H, a
-separate L cluster for T75-T77) even though the underlying notebook files
-had already been renamed to the contiguous A-K scheme. The docstring here
-and the tile data below are the corrected, disk-verified version.
+Layout 2026-07-27: **79 notebooks across 11 clusters (A-K), fully contiguous**.
+T79 (formerly a T15 tail addition -- Ehsan Farahbakhsh's kinematic-feature-
+extraction notebook) was folded into cluster B as the new, fully contiguous
+T15 in a same-day resequence: every old T15-T78 shifted up by one to
+T16-T79, restoring strict A-K contiguity with no tail extensions at all.
 
 Run:
     cd paper/figures
@@ -19,30 +12,30 @@ Run:
 
 Output: fig1_suite_ladder.png + fig1_suite_ladder.pdf (this folder).
 
-Cluster structure (2026-07-26 contiguous sweep, disk-verified 2026-07-27):
+Cluster structure (2026-07-27 resequence, disk-verified):
     A : T01-T07        Getting started / core workflows
-    B : T08-T14 + T79  Plate kinematics + tectonics
-                              (T14 = rift obliquity; T79 = kinematic feature
-                               extraction at subduction zones, tail addition
-                               contributed by Ehsan Farahbakhsh)
-    C : T15-T18        Plate-model debugging (Sculley + Cannon)
-    D : T19-T23        Zircons + tectonic-setting predictors
-                              (T23 = Hf-Nd terrane mapping)
-    E : T24-T31        Mantle dynamics + dynamic topography
-                              (T24-T25 REVEAL pair; T30 = subducted-slab flux;
-                               T31 = mantle-to-plate frame conversion)
-    F : T32-T42        Paleomagnetism (T41 = TPW decomposition)
-    G : T43-T51        Paleo-geography + paleo-topography + thermochronology
-                              (T43-T49 = ThermoPlates suite;
-                               T50 = North American thermochron;
-                               T51 = ophiolite paleo-map)
-    H : T52-T54        Sedimentary basins (Heine ICONS Atlas trio)
-    I : T55-T60        Paleobiogeography
-    J : T61-T69        Paleoclimate (T61-T69 = Leonard 2025 quartet + others)
-    K : T70-T78        Mineral exploration
-                              (T70-T75 = porphyry/Cu suite;
-                               T76 = carbonate-platform degassing;
-                               T77 = Mn 1.8 Ga; T78 = craton boundaries)
+    B : T08-T15        Plate kinematics + tectonics
+                              (T14 = rift obliquity; T15 = kinematic feature
+                               extraction at subduction zones, contributed
+                               by Ehsan Farahbakhsh)
+    C : T16-T19        Plate-model debugging (Sculley + Cannon)
+    D : T20-T24        Zircons + tectonic-setting predictors
+                              (T24 = Hf-Nd terrane mapping)
+    E : T25-T32        Mantle dynamics + dynamic topography
+                              (T25-T26 REVEAL pair; T31 = subducted-slab flux;
+                               T32 = mantle-to-plate frame conversion)
+    F : T33-T43        Paleomagnetism (T42 = TPW decomposition)
+    G : T44-T52        Paleo-geography + paleo-topography + thermochronology
+                              (T44-T50 = ThermoPlates suite;
+                               T51 = North American thermochron;
+                               T52 = ophiolite paleo-map)
+    H : T53-T55        Sedimentary basins (Heine ICONS Atlas trio)
+    I : T56-T61        Paleobiogeography
+    J : T62-T70        Paleoclimate (T62-T70 = Leonard 2025 quartet + others)
+    K : T71-T79        Mineral exploration
+                              (T71-T76 = porphyry/Cu suite;
+                               T77 = carbonate-platform degassing;
+                               T78 = Mn 1.8 Ga; T79 = craton boundaries)
 """
 
 from pathlib import Path
@@ -72,89 +65,89 @@ CLUSTERS = [
         ("T12", "Paleo-LAB" + NL + "retro-" + NL + "deformation"),
         ("T13", "Paleo-" + NL + "SHmax" + NL + "subduction"),
         ("T14", "Rift" + NL + "obliquity"),
-        ("T79", "Kinematic" + NL + "feature" + NL + "extraction"),
+        ("T15", "Kinematic" + NL + "feature" + NL + "extraction"),
     ]),
     ("C", "Plate-model debugging", "#34495E", [
-        ("T15", "Div. +" + NL + "convergence" + NL + "anomalies"),
-        ("T16", "MOR" + NL + "velocity" + NL + "magnitude"),
-        ("T17", "Topology" + NL + "construction" + NL + "anomalies"),
-        ("T18", "SZ feature" + NL + "extract-" + NL + "ability"),
+        ("T16", "Div. +" + NL + "convergence" + NL + "anomalies"),
+        ("T17", "MOR" + NL + "velocity" + NL + "magnitude"),
+        ("T18", "Topology" + NL + "construction" + NL + "anomalies"),
+        ("T19", "SZ feature" + NL + "extract-" + NL + "ability"),
     ]),
     ("D", "Zircons + tectonic-" + NL + "setting predictors", "#F4A261", [
-        ("T19", "Detrital" + NL + "zircons"),
-        ("T20", "Igneous" + NL + "zircons"),
-        ("T21", "Meta-" + NL + "morphic" + NL + "zircons"),
-        ("T22", "Dist. to" + NL + "subduction"),
-        ("T23", "Hf-Nd" + NL + "terrane" + NL + "mapping"),
+        ("T20", "Detrital" + NL + "zircons"),
+        ("T21", "Igneous" + NL + "zircons"),
+        ("T22", "Meta-" + NL + "morphic" + NL + "zircons"),
+        ("T23", "Dist. to" + NL + "subduction"),
+        ("T24", "Hf-Nd" + NL + "terrane" + NL + "mapping"),
     ]),
     ("E", "Mantle dynamics +" + NL + "dynamic topography", "#A569BD", [
-        ("T24", "REVEAL" + NL + "tomography" + NL + "slices"),
-        ("T25", "REVEAL" + NL + "plume" + NL + "cross-sect."),
-        ("T26", "Mantle" + NL + "transect" + NL + "deep time"),
-        ("T27", "DT cluster" + NL + "histories"),
-        ("T28", "DT vs" + NL + "sediment"),
-        ("T29", "DT change" + NL + "deep time"),
-        ("T30", "Subducted-" + NL + "slab flux"),
-        ("T31", "Mantle→" + NL + "plate frame" + NL + "conversion"),
+        ("T25", "REVEAL" + NL + "tomography" + NL + "slices"),
+        ("T26", "REVEAL" + NL + "plume" + NL + "cross-sect."),
+        ("T27", "Mantle" + NL + "transect" + NL + "deep time"),
+        ("T28", "DT cluster" + NL + "histories"),
+        ("T29", "DT vs" + NL + "sediment"),
+        ("T30", "DT change" + NL + "deep time"),
+        ("T31", "Subducted-" + NL + "slab flux"),
+        ("T32", "Mantle→" + NL + "plate frame" + NL + "conversion"),
     ]),
     ("F", "Paleomagnetism", "#E74C3C", [
-        ("T32", "Paleomag." + NL + "reference" + NL + "frame"),
-        ("T33", "Frame" + NL + "comparison"),
-        ("T34", "Plate/mantle" + NL + "frame" + NL + "uncertainty"),
-        ("T35", "Continent" + NL + "reconstr." + NL + "(gplately)"),
-        ("T36", "APWP vs" + NL + "gplately" + NL + "site"),
-        ("T37", "Osler" + NL + "1.1 Ga"),
-        ("T38", "Phaner." + NL + "APWP on" + NL + "Laurentia"),
-        ("T39", "SVEI" + NL + "shallowing"),
-        ("T40", "Rotated" + NL + "poles"),
-        ("T41", "TPW" + NL + "decomp."),
-        ("T42", "Paleolat." + NL + "reverse" + NL + "reconstr."),
+        ("T33", "Paleomag." + NL + "reference" + NL + "frame"),
+        ("T34", "Frame" + NL + "comparison"),
+        ("T35", "Plate/mantle" + NL + "frame" + NL + "uncertainty"),
+        ("T36", "Continent" + NL + "reconstr." + NL + "(gplately)"),
+        ("T37", "APWP vs" + NL + "gplately" + NL + "site"),
+        ("T38", "Osler" + NL + "1.1 Ga"),
+        ("T39", "Phaner." + NL + "APWP on" + NL + "Laurentia"),
+        ("T40", "SVEI" + NL + "shallowing"),
+        ("T41", "Rotated" + NL + "poles"),
+        ("T42", "TPW" + NL + "decomp."),
+        ("T43", "Paleolat." + NL + "reverse" + NL + "reconstr."),
     ]),
     ("G", "Paleo-geography +" + NL + "paleo-topography", "#16A085", [
-        ("T43", "Geochem-" + NL + "corrected" + NL + "paleo-elev"),
-        ("T44", "Macrostrat" + NL + "Great" + NL + "Unconf."),
-        ("T45", "Highland" + NL + "footprints"),
-        ("T46", "C. Asia" + NL + "thermo-" + NL + "chron."),
-        ("T47", "Cooling ×" + NL + "Earth-" + NL + "system"),
-        ("T48", "Cooling ×" + NL + "kinematics" + NL + "× faults"),
-        ("T49", "Cooling-" + NL + "rate" + NL + "correl."),
-        ("T50", "N. America" + NL + "thermo-" + NL + "chron."),
-        ("T51", "Ophiolite" + NL + "paleo-map"),
+        ("T44", "Geochem-" + NL + "corrected" + NL + "paleo-elev"),
+        ("T45", "Macrostrat" + NL + "Great" + NL + "Unconf."),
+        ("T46", "Highland" + NL + "footprints"),
+        ("T47", "C. Asia" + NL + "thermo-" + NL + "chron."),
+        ("T48", "Cooling ×" + NL + "Earth-" + NL + "system"),
+        ("T49", "Cooling ×" + NL + "kinematics" + NL + "× faults"),
+        ("T50", "Cooling-" + NL + "rate" + NL + "correl."),
+        ("T51", "N. America" + NL + "thermo-" + NL + "chron."),
+        ("T52", "Ophiolite" + NL + "paleo-map"),
     ]),
     ("H", "Sedimentary basins", "#8E44AD", [
-        ("T52", "Global" + NL + "basins" + NL + "ICONS"),
-        ("T53", "Crustal" + NL + "stretching" + NL + "factor β"),
-        ("T54", "Individual" + NL + "rift" + NL + "analysis"),
+        ("T53", "Global" + NL + "basins" + NL + "ICONS"),
+        ("T54", "Crustal" + NL + "stretching" + NL + "factor β"),
+        ("T55", "Individual" + NL + "rift" + NL + "analysis"),
     ]),
     ("I", "Paleobiogeography", "#F39C12", [
-        ("T55", "PBDB ×" + NL + "Macrostrat" + NL + "paleo-litho"),
-        ("T56", "Reef" + NL + "builders" + NL + "paleolat"),
-        ("T57", "Kimmer." + NL + "dinos"),
-        ("T58", "Cenozoic" + NL + "forams"),
-        ("T59", "PBDB" + NL + "paleobio-" + NL + "geography"),
-        ("T60", "H3 bio-" + NL + "regional-" + NL + "isation"),
+        ("T56", "PBDB ×" + NL + "Macrostrat" + NL + "paleo-litho"),
+        ("T57", "Reef" + NL + "builders" + NL + "paleolat"),
+        ("T58", "Kimmer." + NL + "dinos"),
+        ("T59", "Cenozoic" + NL + "forams"),
+        ("T60", "PBDB" + NL + "paleobio-" + NL + "geography"),
+        ("T61", "H3 bio-" + NL + "regional-" + NL + "isation"),
     ]),
     ("J", "Paleoclimate", "#2980B9", [
-        ("T61", "Boucot" + NL + "climate" + NL + "lithos"),
-        ("T62", "Deep-time" + NL + "paleoclim." + NL + "snapshots"),
-        ("T63", "cGENIE" + NL + "SST vs" + NL + "proxies"),
-        ("T64", "PLASIM" + NL + "CO2" + NL + "sensitivity"),
-        ("T65", "pySCION" + NL + "Phanerozoic"),
-        ("T66", "Ref-frame" + NL + "paleoclim."),
-        ("T67", "Ocean" + NL + "gateways" + NL + "vs frame"),
-        ("T68", "Multi-study" + NL + "GMST"),
-        ("T69", "Proxy" + NL + "validation" + NL + "of frames"),
+        ("T62", "Boucot" + NL + "climate" + NL + "lithos"),
+        ("T63", "Deep-time" + NL + "paleoclim." + NL + "snapshots"),
+        ("T64", "cGENIE" + NL + "SST vs" + NL + "proxies"),
+        ("T65", "PLASIM" + NL + "CO2" + NL + "sensitivity"),
+        ("T66", "pySCION" + NL + "Phanerozoic"),
+        ("T67", "Ref-frame" + NL + "paleoclim."),
+        ("T68", "Ocean" + NL + "gateways" + NL + "vs frame"),
+        ("T69", "Multi-study" + NL + "GMST"),
+        ("T70", "Proxy" + NL + "validation" + NL + "of frames"),
     ]),
     ("K", "Mineral exploration", "#7D6608", [
-        ("T70", "SW-Pacific" + NL + "porphyries"),
-        ("T71", "Global" + NL + "porphyry" + NL + "envelope"),
-        ("T72", "Seafloor" + NL + "anomalies"),
-        ("T73", "Sediment-" + NL + "hosted Cu"),
-        ("T74", "Porphyry-Cu" + NL + "deep-time" + NL + "trajectories"),
-        ("T75", "Continent" + NL + "prospectivity" + NL + "maps"),
-        ("T76", "Carbonate" + NL + "platform" + NL + "degassing"),
-        ("T77", "Manganese" + NL + "1.8 Ga" + NL + "paleogeo"),
-        ("T78", "Craton" + NL + "boundary" + NL + "framework"),
+        ("T71", "SW-Pacific" + NL + "porphyries"),
+        ("T72", "Global" + NL + "porphyry" + NL + "envelope"),
+        ("T73", "Seafloor" + NL + "anomalies"),
+        ("T74", "Sediment-" + NL + "hosted Cu"),
+        ("T75", "Porphyry-Cu" + NL + "deep-time" + NL + "trajectories"),
+        ("T76", "Continent" + NL + "prospectivity" + NL + "maps"),
+        ("T77", "Carbonate" + NL + "platform" + NL + "degassing"),
+        ("T78", "Manganese" + NL + "1.8 Ga" + NL + "paleogeo"),
+        ("T79", "Craton" + NL + "boundary" + NL + "framework"),
     ]),
 ]
 
@@ -169,8 +162,7 @@ FS_LABEL  = 7.2
 FS_HEADER = 11.0
 
 # 6 rows for 11 clusters — pair small ones with big ones.
-# Cluster sizes: A(7), B(8, incl. T79 tail), C(4), D(5), E(8), F(11),
-# G(9), H(3), I(6), J(9), K(9)
+# Cluster sizes: A(7), B(8), C(4), D(5), E(8), F(11), G(9), H(3), I(6), J(9), K(9)
 ROWS = [
     ["A"],               # A(7) alone
     ["B", "C", "D"],     # B(8) + C(4) + D(5) = 17 tiles
@@ -266,15 +258,14 @@ def build():
     print(f"wrote {out_png}")
     print(f"wrote {out_pdf}")
 
-    # Sanity check — did we cover all 79 notebooks (T01-T78 + T79 tail)?
+    # Sanity check — did we cover all 79 notebooks, fully contiguous?
     all_tiles = [tn for _, _, _, tiles in CLUSTERS for tn, _ in tiles]
     assert len(all_tiles) == len(set(all_tiles)), "duplicate T-numbers"
     numbers = sorted(int(t[1:]) for t in all_tiles)
-    expected = list(range(1, 79)) + [79]
-    assert numbers == expected, (
-        f"expected T01-T78 contiguous + T79 tail, got missing/extra: "
-        f"{set(expected) ^ set(numbers)}")
-    print(f"  ✓ all 79 notebooks covered (T01-T78 contiguous + T79 tail extension)")
+    assert numbers == list(range(1, 80)), (
+        f"expected T01-T79 contiguous, got missing/extra: "
+        f"{set(range(1, 80)) ^ set(numbers)}")
+    print(f"  ✓ all 79 notebooks covered (T01-T79 fully contiguous)")
 
 
 if __name__ == "__main__":
