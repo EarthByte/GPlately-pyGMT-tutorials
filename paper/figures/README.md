@@ -18,9 +18,9 @@ The script has a built-in sanity check that fails loudly if T-numbers go non-con
 
 ## Layout convention
 
-The cluster ladder is organised by **thematic cluster (A-K)**, not by T-number order. As of the 2026-07-26 renumber sweep all 11 clusters are fully contiguous (T01-T78, no gaps) -- the old tail-extension convention (notebooks added out of cluster order without renumbering, e.g. former T73 in cluster A, former T78 in cluster E) has been resolved; see CHANGELOG.md for the full old-to-new T-number mapping.
+The cluster ladder is organised by **thematic cluster (A-K)**, not by T-number order, fully contiguous as of the 2026-07-26 renumber sweep. Tail extensions (notebooks added out of cluster order without a further renumber sweep, e.g. T79 in cluster B) sit at the RIGHT end of their target cluster's tile row.
 
-If a new notebook is added between sweeps, it gets the next integer above the current maximum (T79) and sits at the tail of its target cluster's tile row (temporarily breaking that cluster's contiguity until the next deliberate renumber sweep -- see CLAUDE.md's ad-hoc-renumbering rule). Edit the `CLUSTERS` list in `build_fig1_suite_ladder.py`, add the tile to the target cluster, re-run, commit.
+If a new notebook is added, edit the `CLUSTERS` list in `build_fig1_suite_ladder.py`, add the tile to the target cluster, re-run, commit.
 
 ## Mirror to the paper draft folder
 

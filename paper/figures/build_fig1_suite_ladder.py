@@ -1,14 +1,17 @@
 """Build Figure 1 — the tutorial suite organised by thematic cluster.
 
-Layout 2026-07-26 (renumber sweep): **78 notebooks across 11 fully
-contiguous clusters (A-K)**. The T73-T78 tail extensions that had
-previously landed in clusters A/E/H/L without renumbering (see the
-2026-07-26 "T75+T76+T77+T78 tail extensions" and earlier CHANGELOG
-entries) have now been folded back into their home clusters, and the
-Heine ICONS Atlas sedimentary-basins trio (old T75/T76/T77) has been
-given its own dedicated cluster **H** at its correct place in the
-sequence (previously inconsistently labelled cluster B/G/L across its
-three notebooks' own headers).
+Layout 2026-07-27: **79 notebooks across 11 clusters (A-K), fully contiguous**,
+reflecting the 2026-07-26 renumbering sweep (T01-T78 contiguous, no tail
+extensions) plus the T79 tail addition (Farahbakhsh kinematic-feature-
+extraction notebook, landed 2026-07-27 in cluster B without a further
+resweep, per the suite's tail-extension convention).
+
+This replaces the previous (2026-07-26-dated but never actually updated)
+version of this script, whose CLUSTERS data still reflected the *pre-sweep*
+A-L-skipping-K tail-extension layout (T73 in A, T78 in E, T74 in H, a
+separate L cluster for T75-T77) even though the underlying notebook files
+had already been renamed to the contiguous A-K scheme. The docstring here
+and the tile data below are the corrected, disk-verified version.
 
 Run:
     cd paper/figures
@@ -16,32 +19,26 @@ Run:
 
 Output: fig1_suite_ladder.png + fig1_suite_ladder.pdf (this folder).
 
-Cluster structure (2026-07-26 renumber sweep, old->new T-number map in
-CHANGELOG.md):
+Cluster structure (2026-07-26 contiguous sweep, disk-verified 2026-07-27):
     A : T01-T07        Getting started / core workflows
-    B : T08-T14        Plate kinematics + tectonics (T14 = rift obliquity)
+    B : T08-T14 + T79  Plate kinematics + tectonics
+                              (T14 = rift obliquity; T79 = kinematic feature
+                               extraction at subduction zones, tail addition
+                               contributed by Ehsan Farahbakhsh)
     C : T15-T18        Plate-model debugging (Sculley + Cannon)
     D : T19-T23        Zircons + tectonic-setting predictors
                               (T23 = Hf-Nd terrane mapping)
     E : T24-T31        Mantle dynamics + dynamic topography
                               (T24-T25 REVEAL pair; T30 = subducted-slab flux;
-                               T31 = mantle->plate frame conversion walkthrough,
-                               was tail-extension T78)
-    F : T32-T42        Paleomagnetism (T41 = TPW decomposition;
-                               T42 = paleolatitude via reverse reconstruction,
-                               was tail-extension T73)
+                               T31 = mantle-to-plate frame conversion)
+    F : T32-T42        Paleomagnetism (T41 = TPW decomposition)
     G : T43-T51        Paleo-geography + paleo-topography + thermochronology
-                              (T45-T49 = ThermoPlates suite;
+                              (T43-T49 = ThermoPlates suite;
                                T50 = North American thermochron;
                                T51 = ophiolite paleo-map)
-    H : T52-T54        Sedimentary basins (Heine ICONS Atlas trio,
-                               was tail-extension T75-T77) -- NEW dedicated
-                               cluster, replacing the old inconsistent
-                               cluster B/G/L labelling
-    I : T55-T60        Paleobiogeography (T60 = H3 bioregionalisation,
-                               was tail-extension T74)
-    J : T61-T69        Paleoclimate (T61-T69 = Leonard 2025 quartet + Boucot
-                               + deep-time SAT + cGENIE + PLASIM + pySCION)
+    H : T52-T54        Sedimentary basins (Heine ICONS Atlas trio)
+    I : T55-T60        Paleobiogeography
+    J : T61-T69        Paleoclimate (T61-T69 = Leonard 2025 quartet + others)
     K : T70-T78        Mineral exploration
                               (T70-T75 = porphyry/Cu suite;
                                T76 = carbonate-platform degassing;
@@ -64,17 +61,18 @@ CLUSTERS = [
         ("T03", "Projection" + NL + "cookbook"),
         ("T04", "Plate model" + NL + "comparison"),
         ("T05", "Rotation" + NL + "model" + NL + "comparison"),
-        ("T06", "Animations"),
+        ("T06", "Plate motion" + NL + "animation"),
         ("T07", "Interactive" + NL + "paleogeog." + NL + "reconstr."),
     ]),
     ("B", "Plate kinematics + tectonics", "#7DCEA0", [
-        ("T08", "Deep-time" + NL + "diagnostics"),
+        ("T08", "Plate" + NL + "tectonic" + NL + "diagnostics"),
         ("T09", "Age of" + NL + "subd. crust"),
         ("T10", "Paleo-" + NL + "bathymetry" + NL + "profile"),
         ("T11", "Paleo-" + NL + "strain rates"),
         ("T12", "Paleo-LAB" + NL + "retro-" + NL + "deformation"),
-        ("T13", "Paleo-" + NL + "sHmax" + NL + "Andes"),
+        ("T13", "Paleo-" + NL + "SHmax" + NL + "subduction"),
         ("T14", "Rift" + NL + "obliquity"),
+        ("T79", "Kinematic" + NL + "feature" + NL + "extraction"),
     ]),
     ("C", "Plate-model debugging", "#34495E", [
         ("T15", "Div. +" + NL + "convergence" + NL + "anomalies"),
@@ -100,7 +98,7 @@ CLUSTERS = [
         ("T31", "Mantle→" + NL + "plate frame" + NL + "conversion"),
     ]),
     ("F", "Paleomagnetism", "#E74C3C", [
-        ("T32", "GPMDB" + NL + "reference" + NL + "frame"),
+        ("T32", "Paleomag." + NL + "reference" + NL + "frame"),
         ("T33", "Frame" + NL + "comparison"),
         ("T34", "Plate/mantle" + NL + "frame" + NL + "uncertainty"),
         ("T35", "Continent" + NL + "reconstr." + NL + "(gplately)"),
@@ -120,7 +118,7 @@ CLUSTERS = [
         ("T47", "Cooling ×" + NL + "Earth-" + NL + "system"),
         ("T48", "Cooling ×" + NL + "kinematics" + NL + "× faults"),
         ("T49", "Cooling-" + NL + "rate" + NL + "correl."),
-        ("T50", "N. America" + NL + "thermo-" + NL + "chron. + DT"),
+        ("T50", "N. America" + NL + "thermo-" + NL + "chron."),
         ("T51", "Ophiolite" + NL + "paleo-map"),
     ]),
     ("H", "Sedimentary basins", "#8E44AD", [
@@ -131,18 +129,18 @@ CLUSTERS = [
     ("I", "Paleobiogeography", "#F39C12", [
         ("T55", "PBDB ×" + NL + "Macrostrat" + NL + "paleo-litho"),
         ("T56", "Reef" + NL + "builders" + NL + "paleolat"),
-        ("T57", "Kimmer." + NL + "dinos +" + NL + "paleo-elev"),
+        ("T57", "Kimmer." + NL + "dinos"),
         ("T58", "Cenozoic" + NL + "forams"),
         ("T59", "PBDB" + NL + "paleobio-" + NL + "geography"),
         ("T60", "H3 bio-" + NL + "regional-" + NL + "isation"),
     ]),
     ("J", "Paleoclimate", "#2980B9", [
         ("T61", "Boucot" + NL + "climate" + NL + "lithos"),
-        ("T62", "Deep-time" + NL + "SAT"),
+        ("T62", "Deep-time" + NL + "paleoclim." + NL + "snapshots"),
         ("T63", "cGENIE" + NL + "SST vs" + NL + "proxies"),
         ("T64", "PLASIM" + NL + "CO2" + NL + "sensitivity"),
         ("T65", "pySCION" + NL + "Phanerozoic"),
-        ("T66", "Ref-frame" + NL + "paleoclim." + NL + "uncertainty"),
+        ("T66", "Ref-frame" + NL + "paleoclim."),
         ("T67", "Ocean" + NL + "gateways" + NL + "vs frame"),
         ("T68", "Multi-study" + NL + "GMST"),
         ("T69", "Proxy" + NL + "validation" + NL + "of frames"),
@@ -171,14 +169,15 @@ FS_LABEL  = 7.2
 FS_HEADER = 11.0
 
 # 6 rows for 11 clusters — pair small ones with big ones.
-# Cluster sizes now: A(7), B(7), C(4), D(5), E(8), F(11), G(9), H(3), I(6), J(9), K(9)
+# Cluster sizes: A(7), B(8, incl. T79 tail), C(4), D(5), E(8), F(11),
+# G(9), H(3), I(6), J(9), K(9)
 ROWS = [
-    ["A", "B"],          # A(7) + B(7) = 14
-    ["C", "D", "H"],     # C(4) + D(5) + H(3) = 12
+    ["A"],               # A(7) alone
+    ["B", "C", "D"],     # B(8) + C(4) + D(5) = 17 tiles
     ["E", "F"],          # E(8) + F(11) = 19 — widest row
-    ["G"],               # G(9) alone — wide enough on its own
+    ["G", "H"],          # G(9) + H(3) = 12 — H pairs with G nicely
     ["I", "J"],          # I(6) + J(9) = 15
-    ["K"],                # K(9) alone
+    ["K"],               # K(9) alone
 ]
 
 
@@ -254,7 +253,7 @@ def build():
             draw_cluster(letter, name, colour, tiles, x, y_centre)
             x += w + CLUSTER_PAD_X
 
-    # Widen x-range slightly to accommodate the widened cluster F
+    # Widen x-range slightly to accommodate the widest rows
     ax.set_xlim(-12.0, 12.0)
     ax.set_ylim(-0.5, 18.5)
     ax.set_aspect("equal")
@@ -267,14 +266,15 @@ def build():
     print(f"wrote {out_png}")
     print(f"wrote {out_pdf}")
 
-    # Sanity check — did we cover all 78 notebooks?
+    # Sanity check — did we cover all 79 notebooks (T01-T78 + T79 tail)?
     all_tiles = [tn for _, _, _, tiles in CLUSTERS for tn, _ in tiles]
     assert len(all_tiles) == len(set(all_tiles)), "duplicate T-numbers"
     numbers = sorted(int(t[1:]) for t in all_tiles)
-    assert numbers == list(range(1, 79)), (
-        f"expected T01-T78 contiguous, got missing/extra: "
-        f"{set(range(1, 79)) ^ set(numbers)}")
-    print(f"  ✓ all 78 notebooks covered (T01-T78 contiguous)")
+    expected = list(range(1, 79)) + [79]
+    assert numbers == expected, (
+        f"expected T01-T78 contiguous + T79 tail, got missing/extra: "
+        f"{set(expected) ^ set(numbers)}")
+    print(f"  ✓ all 79 notebooks covered (T01-T78 contiguous + T79 tail extension)")
 
 
 if __name__ == "__main__":

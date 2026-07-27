@@ -102,17 +102,20 @@ If you're new to plate reconstructions in Python, a good entry sequence is:
 ## Themes
 
 The suite is organised into **11 thematic clusters, A-K**, fully contiguous as
-of the **2026-07-26 renumber sweep**. Each cluster has its own opening
-sentence below with its current T-number range. Re-read the cluster header
+of the **2026-07-26 renumber sweep**, plus one tail addition (**T79**, cluster
+B, landed 2026-07-27) not yet folded into a further resweep. Each cluster has
+its own opening sentence below with its current T-number range. Re-read the cluster header
 inside each notebook for the authoritative cluster assignment.
 
 - **Cluster A — Getting started + core workflows (T01-T07).** First paleo-maps,
   projection choices, model-comparison patterns, animations, interactive Panel
   views.
-- **Cluster B — Plate kinematics + tectonics (T08-T14).** Plate-tectonic
+- **Cluster B — Plate kinematics + tectonics (T08-T14 + T79 tail).** Plate-tectonic
   diagnostics, age-of-subducting-crust, paleo-bathymetry profiles, strain-rate
   maps, lithospheric-thickness retrodeformation, paleo-stress along
-  subduction zones, rift obliquity.
+  subduction zones, rift obliquity, and (T79, tail addition) kinematic feature
+  extraction at subduction zones through time — convergence rate/obliquity,
+  trench velocity, and derived slab-flux proxies on an interactive map.
 - **Cluster C — Plate-model debugging (T15-T18).** Divergence/convergence sign
   anomalies at plate boundaries, MOR velocity-magnitude anomalies, topology
   construction anomalies (gaps/overlaps/non-unique sections), subduction-zone
