@@ -1,10 +1,11 @@
 """Build Figure 1 — the tutorial suite organised by thematic cluster.
 
-Layout 2026-07-27: **79 notebooks across 11 clusters (A-K), fully contiguous**.
-T79 (formerly a T15 tail addition -- Ehsan Farahbakhsh's kinematic-feature-
-extraction notebook) was folded into cluster B as the new, fully contiguous
-T15 in a same-day resequence: every old T15-T78 shifted up by one to
-T16-T79, restoring strict A-K contiguity with no tail extensions at all.
+Layout 2026-07-28: **79 notebooks across 11 clusters (A-K), fully contiguous**.
+Old T77 (Carbonate-platform arc degassing) was reclassified out of cluster K
+(mineral exploration) into cluster J (paleoclimate) as the new T71, since it
+is fundamentally a paleoclimate-forcing notebook (continental-arc CO2
+degassing) rather than a mineral-prospectivity one. Old T71-T76 shifted up
+by one to T72-T77; T78 and T79 are unaffected.
 
 Run:
     cd paper/figures
@@ -12,7 +13,7 @@ Run:
 
 Output: fig1_suite_ladder.png + fig1_suite_ladder.pdf (this folder).
 
-Cluster structure (2026-07-27 resequence, disk-verified):
+Cluster structure (2026-07-28 resequence, disk-verified):
     A : T01-T07        Getting started / core workflows
     B : T08-T15        Plate kinematics + tectonics
                               (T14 = rift obliquity; T15 = kinematic feature
@@ -31,10 +32,11 @@ Cluster structure (2026-07-27 resequence, disk-verified):
                                T52 = ophiolite paleo-map)
     H : T53-T55        Sedimentary basins (Heine ICONS Atlas trio)
     I : T56-T61        Paleobiogeography
-    J : T62-T70        Paleoclimate (T62-T70 = Leonard 2025 quartet + others)
-    K : T71-T79        Mineral exploration
-                              (T71-T76 = porphyry/Cu suite;
-                               T77 = carbonate-platform degassing;
+    J : T62-T71        Paleoclimate (T62-T70 = Leonard 2025 quartet + others;
+                               T71 = carbonate-platform arc degassing,
+                               reclassified from cluster K 2026-07-28)
+    K : T72-T79        Mineral exploration
+                              (T72-T77 = porphyry/Cu suite;
                                T78 = Mn 1.8 Ga; T79 = craton boundaries)
 """
 
@@ -137,15 +139,15 @@ CLUSTERS = [
         ("T68", "Ocean" + NL + "gateways" + NL + "vs frame"),
         ("T69", "Multi-study" + NL + "GMST"),
         ("T70", "Proxy" + NL + "validation" + NL + "of frames"),
+        ("T71", "Carbonate" + NL + "platform" + NL + "degassing"),
     ]),
     ("K", "Mineral exploration", "#7D6608", [
-        ("T71", "SW-Pacific" + NL + "porphyries"),
-        ("T72", "Global" + NL + "porphyry" + NL + "envelope"),
-        ("T73", "Seafloor" + NL + "anomalies"),
-        ("T74", "Sediment-" + NL + "hosted Cu"),
-        ("T75", "Porphyry-Cu" + NL + "deep-time" + NL + "trajectories"),
-        ("T76", "Continent" + NL + "prospectivity" + NL + "maps"),
-        ("T77", "Carbonate" + NL + "platform" + NL + "degassing"),
+        ("T72", "SW-Pacific" + NL + "porphyries"),
+        ("T73", "Global" + NL + "porphyry" + NL + "envelope"),
+        ("T74", "Seafloor" + NL + "anomalies"),
+        ("T75", "Sediment-" + NL + "hosted Cu"),
+        ("T76", "Porphyry-Cu" + NL + "deep-time" + NL + "trajectories"),
+        ("T77", "Continent" + NL + "prospectivity" + NL + "maps"),
         ("T78", "Manganese" + NL + "1.8 Ga" + NL + "paleogeo"),
         ("T79", "Craton" + NL + "boundary" + NL + "framework"),
     ]),
@@ -162,14 +164,14 @@ FS_LABEL  = 7.2
 FS_HEADER = 11.0
 
 # 6 rows for 11 clusters — pair small ones with big ones.
-# Cluster sizes: A(7), B(8), C(4), D(5), E(8), F(11), G(9), H(3), I(6), J(9), K(9)
+# Cluster sizes: A(7), B(8), C(4), D(5), E(8), F(11), G(9), H(3), I(6), J(10), K(8)
 ROWS = [
     ["A"],               # A(7) alone
     ["B", "C", "D"],     # B(8) + C(4) + D(5) = 17 tiles
     ["E", "F"],          # E(8) + F(11) = 19 — widest row
     ["G", "H"],          # G(9) + H(3) = 12 — H pairs with G nicely
-    ["I", "J"],          # I(6) + J(9) = 15
-    ["K"],               # K(9) alone
+    ["I", "J"],          # I(6) + J(10) = 16
+    ["K"],               # K(8) alone
 ]
 
 
