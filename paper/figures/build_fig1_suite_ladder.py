@@ -1,5 +1,12 @@
 """Build Figure 1 — the tutorial suite organised by thematic cluster.
 
+Layout 2026-07-30: **80 notebooks across 11 clusters (A-K), fully contiguous**.
+New T63 (Reconstructing plant-fossil occurrences and Early Triassic
+super-greenhouse climate; Xu & Mills community contribution) was inserted
+into cluster J directly after T62. Old T63-T79 shifted up by one to T64-T80
+(cluster J becomes T62-T72; cluster K becomes T73-T80). This is the final
+notebook added before paper submission.
+
 Layout 2026-07-29: **79 notebooks across 11 clusters (A-K), fully contiguous**.
 Old T31 (Subducted-slab flux inventory) was moved out of cluster E (mantle
 dynamics) into cluster B (plate kinematics + tectonics) as the new T16,
@@ -34,12 +41,13 @@ Cluster structure (2026-07-29 resequence, disk-verified):
                                T52 = ophiolite paleo-map)
     H : T53-T55        Sedimentary basins (Heine ICONS Atlas trio)
     I : T56-T61        Paleobiogeography
-    J : T62-T71        Paleoclimate (T62-T70 = Leonard 2025 quartet + others;
-                               T71 = carbonate-platform arc degassing,
+    J : T62-T72        Paleoclimate (T63 = plant-fossil paleoclimate, Xu/Mills;
+                               T64-T71 = Leonard 2025 quartet + others;
+                               T72 = carbonate-platform arc degassing,
                                reclassified from cluster K 2026-07-28)
-    K : T72-T79        Mineral exploration
-                              (T72-T77 = porphyry/Cu suite;
-                               T78 = Mn 1.8 Ga; T79 = craton boundaries)
+    K : T73-T80        Mineral exploration
+                              (T73-T78 = porphyry/Cu suite;
+                               T79 = Mn 1.8 Ga; T80 = craton boundaries)
 """
 
 from pathlib import Path
@@ -133,25 +141,26 @@ CLUSTERS = [
     ]),
     ("J", "Paleoclimate", "#2980B9", [
         ("T62", "Boucot" + NL + "climate" + NL + "lithos"),
-        ("T63", "Deep-time" + NL + "paleoclim." + NL + "snapshots"),
-        ("T64", "cGENIE" + NL + "SST vs" + NL + "proxies"),
-        ("T65", "PLASIM" + NL + "CO2" + NL + "sensitivity"),
-        ("T66", "pySCION" + NL + "Phanerozoic"),
-        ("T67", "Ref-frame" + NL + "paleoclim."),
-        ("T68", "Ocean" + NL + "gateways" + NL + "vs frame"),
-        ("T69", "Multi-study" + NL + "GMST"),
-        ("T70", "Proxy" + NL + "validation" + NL + "of frames"),
-        ("T71", "Carbonate" + NL + "platform" + NL + "degassing"),
+        ("T63", "Plant-fossil" + NL + "paleoclim." + NL + "(Xu/Mills)"),
+        ("T64", "Deep-time" + NL + "paleoclim." + NL + "snapshots"),
+        ("T65", "cGENIE" + NL + "SST vs" + NL + "proxies"),
+        ("T66", "PLASIM" + NL + "CO2" + NL + "sensitivity"),
+        ("T67", "pySCION" + NL + "Phanerozoic"),
+        ("T68", "Ref-frame" + NL + "paleoclim."),
+        ("T69", "Ocean" + NL + "gateways" + NL + "vs frame"),
+        ("T70", "Multi-study" + NL + "GMST"),
+        ("T71", "Proxy" + NL + "validation" + NL + "of frames"),
+        ("T72", "Carbonate" + NL + "platform" + NL + "degassing"),
     ]),
     ("K", "Mineral exploration", "#7D6608", [
-        ("T72", "SW-Pacific" + NL + "porphyries"),
-        ("T73", "Global" + NL + "porphyry" + NL + "envelope"),
-        ("T74", "Seafloor" + NL + "anomalies"),
-        ("T75", "Sediment-" + NL + "hosted Cu"),
-        ("T76", "Porphyry-Cu" + NL + "deep-time" + NL + "trajectories"),
-        ("T77", "Continent" + NL + "prospectivity" + NL + "maps"),
-        ("T78", "Manganese" + NL + "1.8 Ga" + NL + "paleogeo"),
-        ("T79", "Craton" + NL + "boundary" + NL + "framework"),
+        ("T73", "SW-Pacific" + NL + "porphyries"),
+        ("T74", "Global" + NL + "porphyry" + NL + "envelope"),
+        ("T75", "Seafloor" + NL + "anomalies"),
+        ("T76", "Sediment-" + NL + "hosted Cu"),
+        ("T77", "Porphyry-Cu" + NL + "deep-time" + NL + "trajectories"),
+        ("T78", "Continent" + NL + "prospectivity" + NL + "maps"),
+        ("T79", "Manganese" + NL + "1.8 Ga" + NL + "paleogeo"),
+        ("T80", "Craton" + NL + "boundary" + NL + "framework"),
     ]),
 ]
 
@@ -166,7 +175,7 @@ FS_LABEL  = 7.2
 FS_HEADER = 11.0
 
 # 6 rows for 11 clusters — pair small ones with big ones.
-# Cluster sizes: A(7), B(9), C(4), D(5), E(7), F(11), G(9), H(3), I(6), J(10), K(8)
+# Cluster sizes: A(7), B(9), C(4), D(5), E(7), F(11), G(9), H(3), I(6), J(11), K(8)
 ROWS = [
     ["A"],               # A(7) alone
     ["B", "C", "D"],     # B(9) + C(4) + D(5) = 18 tiles
@@ -262,14 +271,14 @@ def build():
     print(f"wrote {out_png}")
     print(f"wrote {out_pdf}")
 
-    # Sanity check — did we cover all 79 notebooks, fully contiguous?
+    # Sanity check — did we cover all 80 notebooks, fully contiguous?
     all_tiles = [tn for _, _, _, tiles in CLUSTERS for tn, _ in tiles]
     assert len(all_tiles) == len(set(all_tiles)), "duplicate T-numbers"
     numbers = sorted(int(t[1:]) for t in all_tiles)
-    assert numbers == list(range(1, 80)), (
-        f"expected T01-T79 contiguous, got missing/extra: "
-        f"{set(range(1, 80)) ^ set(numbers)}")
-    print(f"  ✓ all 79 notebooks covered (T01-T79 fully contiguous)")
+    assert numbers == list(range(1, 81)), (
+        f"expected T01-T80 contiguous, got missing/extra: "
+        f"{set(range(1, 81)) ^ set(numbers)}")
+    print(f"  ✓ all 80 notebooks covered (T01-T80 fully contiguous)")
 
 
 if __name__ == "__main__":

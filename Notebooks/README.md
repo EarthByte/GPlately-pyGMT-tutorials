@@ -102,13 +102,17 @@ If you're new to plate reconstructions in Python, a good entry sequence is:
 ## Themes
 
 The suite is organised into **11 thematic clusters, A-K**, fully contiguous as
-of the **2026-07-29 reclassification** (which folded in Ehsan Farahbakhsh's kinematic-
-feature-extraction notebook as T15, cluster B, on 2026-07-27; moved T71
+of the **2026-07-30 T63 addition** (which folded in Ehsan Farahbakhsh's kinematic-
+feature-extraction notebook as T15, cluster B, on 2026-07-27; moved T72
 "Carbonate-platform arc degassing" from cluster K into cluster J on 2026-07-28,
 since it is a paleoclimate-forcing notebook rather than a mineral-prospectivity
-one; then moved T16 "Subducted-slab flux inventory" from cluster E into cluster
+one; moved T16 "Subducted-slab flux inventory" from cluster E into cluster
 B on 2026-07-29, directly after T15, since it is a per-trench kinematic-flux
-notebook rather than a mantle-dynamics one). Each cluster has its own opening
+notebook rather than a mantle-dynamics one; then added T63 "Reconstructing
+plant-fossil occurrences and Early Triassic super-greenhouse climate" -- a
+community contribution from Zhen Xu and Benjamin J.W. Mills -- to cluster J
+directly after T62 on 2026-07-30, the last notebook added before paper
+submission). Each cluster has its own opening
 sentence below with its current T-number range. Re-read the cluster header
 inside each notebook for the authoritative cluster assignment.
 
@@ -158,15 +162,17 @@ inside each notebook for the authoritative cluster assignment.
   Jurassic dinosaur distributions on a reconstructed climate, Cenozoic
   planktonic foraminifera on reconstructed paleo-latitude, PBDB
   paleobiogeography live-API workflow, H3 hexagonal-grid bioregionalisation.
-- **Cluster J — Paleoclimate (T62-T71).** Phanerozoic climate-sensitive
-  lithologies on reconstructed plates, deep-time paleoclimate model snapshots
+- **Cluster J — Paleoclimate (T62-T72).** Phanerozoic climate-sensitive
+  lithologies on reconstructed plates, (T63) plant-fossil occurrences
+  reconstructed onto Early Triassic super-greenhouse climate fields (Xu & Mills
+  community contribution), deep-time paleoclimate model snapshots
   regridded onto reconstructed coastlines, model-vs-proxy SST comparisons,
   end-Permian CO2-sensitivity ensembles, full-Phanerozoic biogeochemistry,
   reference-frame uncertainty in reconstructed paleoclimate, ocean-gateway
   timing through frames, multi-study GMST comparison, proxy validation of
-  reference-frame choice, and (T71) continental-arc CO2 degassing driven by
+  reference-frame choice, and (T72) continental-arc CO2 degassing driven by
   subducted carbonate-platform decarbonation.
-- **Cluster K — Mineral exploration (T72-T79).** SW-Pacific porphyry-Cu-Au
+- **Cluster K — Mineral exploration (T73-T80).** SW-Pacific porphyry-Cu-Au
   paleo-prospectivity, global porphyry kinematics envelope, seafloor age-grid
   anomalies as porphyry-Cu predictors, sediment-hosted Cu deposits, deep-time
   porphyry-Cu deposit trajectories, continent-scale prospectivity maps,

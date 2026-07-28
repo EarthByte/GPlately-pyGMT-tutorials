@@ -1,0 +1,139 @@
+ID,Country,Area,Function,Lng,Lat,Environment
+1,Austria,,5,13.65,47.53,Terrestrial
+2,Australia,Queensland,7,147.3,-24.7,Terrestrial
+3,Australia,Queensland,7,148,-25,Terrestrial
+4,Australia,Queensland,7,148.8,-23.3,Terrestrial
+5,Australia,Queensland,7,142.7,-20.92,Terrestrial
+6,South China,SouthChina,1,101.34,24.48,Terrestrial
+7,South China,SouthChina,1,102.81,30.26,Terrestrial
+8,South China,SouthChina,1,103.04,28.51,Terrestrial
+9,South China,SouthChina,1,104,26.82,Terrestrial
+10,South China,SouthChina,1,104.26,25.68,Terrestrial
+11,South China,SouthChina,1,104.47,25.71,Terrestrial
+12,South China,SouthChina,1,104.51,28.16,Terrestrial
+13,South China,SouthChina,1,104.69,25.8,Terrestrial
+14,South China,SouthChina,1,104.8,26.7,Terrestrial
+15,South China,SouthChina,1,104.93,32.24,Terrestrial
+16,South China,SouthChina,1,104.96,26.54,Terrestrial
+17,South China,SouthChina,1,105.1,26.03,Terrestrial
+18,South China,SouthChina,1,105.23,25.87,Terrestrial
+19,South China,SouthChina,1,105.34,27.62,Terrestrial
+20,South China,SouthChina,1,105.38,27.17,Terrestrial
+21,South China,SouthChina,1,105.46,32.31,Terrestrial
+22,South China,SouthChina,1,105.84,26.42,Terrestrial
+23,South China,SouthChina,1,105.9,26.3,Terrestrial
+24,South China,SouthChina,1,105.9,32.4,Terrestrial
+25,South China,SouthChina,1,105.93,26.33,Terrestrial
+26,South China,SouthChina,1,105.95,26.25,Terrestrial
+27,South China,SouthChina,1,106.08,25.83,Terrestrial
+28,South China,SouthChina,1,106.4,29.5,Terrestrial
+29,South China,SouthChina,1,106.43,29.92,Terrestrial
+30,South China,SouthChina,1,106.6,26.2,Terrestrial
+31,South China,SouthChina,1,107.31,26.93,Terrestrial
+32,South China,SouthChina,1,107.9,22.64,Terrestrial
+33,South China,SouthChina,1,108.45,31.75,Terrestrial
+34,South China,SouthChina,1,108.64,24.49,Terrestrial
+35,South China,SouthChina,1,108.81,23.72,Terrestrial
+36,South China,SouthChina,1,108.86,23.77,Terrestrial
+37,South China,SouthChina,1,108.96,23.61,Terrestrial
+38,South China,SouthChina,1,109.07,30.45,Terrestrial
+39,South China,SouthChina,1,109.32,23.7,Terrestrial
+40,South China,SouthChina,1,109.4,24.3,Terrestrial
+41,South China,SouthChina,1,110.88,29.42,Terrestrial
+42,South China,SouthChina,1,112.29,30.27,Terrestrial
+43,South China,SouthChina,1,112.3,22.2,Terrestrial
+44,South China,SouthChina,1,112.4,25,Terrestrial
+45,South China,SouthChina,1,113.76,23.38,Terrestrial
+46,South China,SouthChina,1,116.1,24.3,Terrestrial
+47,South China,SouthChina,1,119.93,30.9,Terrestrial
+48,South China,SouthChina,1,119.99,30.92,Terrestrial
+49,North China,NorthChina,4,98.4,39.5,Terrestrial
+50,North China,NorthChina,4,99.6,38.8,Terrestrial
+51,North China,NorthChina,4,100.92,40.71,Terrestrial
+52,North China,NorthChina,4,102.2,38.5,Terrestrial
+53,North China,NorthChina,4,106.91,33.08,Terrestrial
+54,North China,NorthChina,4,111.1,39,Terrestrial
+55,North China,NorthChina,4,111.89,37.29,Terrestrial
+56,North China,NorthChina,4,112.2,34.5,Terrestrial
+57,North China,NorthChina,4,113.39,34.3,Terrestrial
+58,North China,NorthChina,4,119.6,39.9,Terrestrial
+59,North China,NorthChina,4,120.8,40.7,Terrestrial
+60,North China,NorthChina,4,122.53,41.94,Terrestrial
+61,North China,NorthChina,4,125.9,41.7,Terrestrial
+62,North China,NorthChina,4,128.9,47.7,Terrestrial
+63,Xinjiang,Xinjiang,4,81.8,41.8,Terrestrial
+64,Xinjiang,Xinjiang,4,85.7,43.9,Terrestrial
+65,Xinjiang,Xinjiang,4,89.4,42.3,Terrestrial
+66,Xinjiang,Xinjiang,4,89,43.3,Terrestrial
+67,Xinjiang,Xinjiang,4,90.4,44.7,Terrestrial
+68,Xinjiang,Xinjiang,4,88.8,43.95,Terrestrial
+69,Xizang,Xizang,3,86.8,33.6,Terrestrial
+70,Germany,Oberhessen,5,9.11,50.29,Terrestrial
+71,Germany,,5,9.12,50.3,Terrestrial
+72,Germany,,5,9.12,50.32,Terrestrial
+73,Germany,,5,9.15,50.37,Terrestrial
+74,Germany,,5,10,51.15,Terrestrial
+75,Germany,,5,10.02,51.67,Terrestrial
+76,Germany,,5,10.22,51.95,Terrestrial
+77,Germany,,5,10.67,52.12,Terrestrial
+80,Italy,,5,11.63,46.57,Terrestrial
+81,Italy,Trentino,5,11.65,46.37,Terrestrial
+82,Italy,South Tyrol,5,11.73,46.56,Terrestrial
+85,RU other,,4,40.7,43.96,Terrestrial
+86,RU other,Central Russia,4,42.1,56.24,Terrestrial
+87,RU other,Vladimir,4,42.11,56.26,Terrestrial
+88,RU other,,4,44.8,58.9,Terrestrial
+89,RU other,,4,44.8,59.8,Terrestrial
+90,RU other,Kuznetsk Basin,4,46.58,53.12,Terrestrial
+91,RU other,,4,46.7,58.5,Terrestrial
+92,RU other,,4,46.9,60.8,Terrestrial
+93,RU other,,4,48.3,61.2,Terrestrial
+94,RU other,,4,48.9,58.6,Terrestrial
+95,RU other,Central Russia,4,52.48,54.12,Terrestrial
+96,RU other,,4,57.4,65,Terrestrial
+97,RU siberia,Northern Sibirian platform,7,90.84,64.71,Terrestrial
+98,RU siberia,Siberia,7,99.29,61.06,Terrestrial
+99,RU siberia,Northern Sibirian platform,7,99.33,75.69,Terrestrial
+101,UK,England,5,-2.48,54.57,Terrestrial
+102,UK,England,5,-2.48,54.58,Terrestrial
+103,UK,England,5,-1.27,52.98,Terrestrial
+104,US,Texas,5,-104.23,31.6,Terrestrial
+105,US,,5,-104.23,31.61,Terrestrial
+106,US,,5,-104.23,31.62,Terrestrial
+107,US,,5,-104.22,31.63,Terrestrial
+108,US,,5,-104.21,31.65,Terrestrial
+109,US,,5,-104.19,31.66,Terrestrial
+110,US,,5,-104.18,31.65,Terrestrial
+111,South Africa,,7,22.54,-32.36,Terrestrial
+112,South Africa,Eastern Cape,7,24.87,-31.92,Terrestrial
+113,South Africa,KwaZulu-Natal Province,7,26.03,-32.08,Terrestrial
+114,South Africa,KwaZulu-Natal Province,7,27.84,-26.41,Terrestrial
+115,South Africa,KwaZulu-Natal Province,7,29.46,-25.77,Terrestrial
+116,South Africa,Kwazulu-Natal,7,29.67,-28.83,Terrestrial
+117,South Africa,KwaZulu-Natal Province,7,29.78,-29.83,Terrestrial
+118,South Africa,Kwazulu-Natal,7,29.79,-29.8,Terrestrial
+119,South Africa,Kwazulu-Natal,7,29.83,-29,Terrestrial
+120,South Africa,Karoo Basin,7,29.86,-29.01,Terrestrial
+121,South Africa,Kwazulu-Natal,7,30,-29.33,Terrestrial
+122,South Africa,Kwazulu-Natal,7,30,-29.17,Terrestrial
+123,South Africa,Kwazulu-Natal,7,30.17,-29.5,Terrestrial
+124,South Africa,Kwazulu-Natal,7,32,-28.5,Terrestrial
+125,Antarctic,Eastern Antarctica,7,67.07,-72,Terrestrial
+126,Turkey,eastern Anatolia,3,40.78,38.25,Terrestrial
+127,Argentina,,7,-68.1,-28.8,Terrestrial
+128,Argentina,,7,-66.4,-38.1,Terrestrial
+129,Argentina,,7,-67.4,-40.7,Terrestrial
+130,Argentina,,7,-66.7,-48.2,Terrestrial
+131,Indonesia,west New Guinea,3,136.8,-4.2,Terrestrial
+132,India,,7,87.1,24,Terrestrial
+133,Thailand,,3,101,16,Terrestrial
+134,Laos,Luang Prabang,3,102,20,Terrestrial
+135,Niger,northern Niger,4,7.2,18.78,Terrestrial
+136,Niger,northern Niger,4,7.22,18.79,Terrestrial
+137,Niger,northern Niger,4,7.22,18.79,Terrestrial
+138,Niger,northern Niger,4,7.2,18.78,Terrestrial
+139,Niger,northern Niger,4,7.53,18.51,Terrestrial
+140,Niger,northern Niger,4,7.22,18.79,Terrestrial
+141,Niger,northern Niger,4,7.2,18.78,Terrestrial
+142,Niger,northern Niger,4,7.53,18.51,Terrestrial
+143,India,Chintalapudi,3,80.99,17.07,Terrestrial

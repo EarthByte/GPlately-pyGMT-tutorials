@@ -1,0 +1,104 @@
+ID,Country,Area,Function,Lng,Lat,Environment
+1,Australia,Queensland,6,148,-24.83,Terrestrial
+2,Australia,Queensland,6,148.9,-23.64,Terrestrial
+3,North China,NorthChina,6,109.19,35.39,Terrestrial
+4,Xinjiang,Xinjiang,6,88.8,43.95,Terrestrial
+5,North China,NorthChina,5,111.2,36.4,Terrestrial
+6,North China,NorthChina,5,111.86,37.24,Terrestrial
+7,North China,NorthChina,5,111.89,37.29,Terrestrial
+8,North China,NorthChina,5,112.16,37.56,Terrestrial
+9,North China,NorthChina,5,112.2,32.5,Terrestrial
+10,North China,NorthChina,5,112.3,37.3,Terrestrial
+11,North China,NorthChina,5,112.85,35.49,Terrestrial
+12,North China,NorthChina,5,112.9,37.1,Terrestrial
+13,North China,NorthChina,5,120.8,41,Terrestrial
+14,North China,NorthChina,5,122.53,41.94,Terrestrial
+15,North China,NorthChina,5,125.8,44.1,Terrestrial
+16,South China,SouthChina,5,101.34,24.48,Terrestrial
+17,South China,SouthChina,5,103.04,28.51,Terrestrial
+18,South China,SouthChina,5,104,26.82,Terrestrial
+19,South China,SouthChina,5,104.09,26.21,Terrestrial
+20,South China,SouthChina,5,104.44,26.73,Terrestrial
+21,South China,SouthChina,5,104.47,25.71,Terrestrial
+22,South China,SouthChina,5,104.69,25.8,Terrestrial
+23,South China,SouthChina,5,105.34,27.62,Terrestrial
+24,South China,SouthChina,5,105.38,27.17,Terrestrial
+25,South China,SouthChina,5,105.46,32.31,Terrestrial
+26,South China,SouthChina,5,107.29,26.84,Terrestrial
+27,South China,SouthChina,5,107.31,26.93,Terrestrial
+28,South China,SouthChina,5,112.29,30.27,Terrestrial
+29,South China,SouthChina,5,117.92,26.48,Terrestrial
+30,Germany,Hessische Senke,6,9.4,51.5,Terrestrial
+31,Germany,Hessische Senke,6,9.4,51.6,Terrestrial
+32,Germany,Hessische Senke,6,9.4,51.8,Terrestrial
+33,Germany,Hessische Senke,6,9.6,51.7,Terrestrial
+34,Germany,Hessische Senke,6,9.6,51.9,Terrestrial
+35,Germany,Hessische Senke,6,10,51.5,Terrestrial
+36,Germany,Suddeutsche Senke,6,10.1,50.2,Terrestrial
+37,Germany,Thuringer Senke,6,11.1,50.7,Terrestrial
+38,Germany,Thuringer Senke,6,11.2,50.8,Terrestrial
+39,Germany,Thuringer Senke,6,11.8,51.5,Terrestrial
+40,Germany,Subherzynische Senke,6,11.8,51.8,Terrestrial
+41,Spain,Ebro Basin,6,-1.2,41.5,Terrestrial
+42,Greenland,,6,-23,73,Terrestrial
+43,Ireland,,6,-6.79,53.9,Terrestrial
+44,Norway,,5,29.28,71.16,Terrestrial
+45,Norway,,5,28.84,71.24,Terrestrial
+46,Norway,,5,26.84,71.24,Terrestrial
+47,Norway,,5,22,78,Terrestrial
+48,Poland,,6,20.67,50.83,Terrestrial
+49,Serbia,Eastern Serbia,6,23,43.5,Terrestrial
+50,RU-other,East European Platform,6,36.37,56.73,Terrestrial
+51,RU-other,,6,40.5,44,Terrestrial
+52,RU-other,,6,45,45,Terrestrial
+53,RU-other,North Caspian,6,46.84,48.14,Terrestrial
+54,RU-other,Kuznetsk Basin,6,46.58,53.12,Terrestrial
+55,RU-other,Nizhegorod,6,45.91,57.88,Terrestrial
+56,RU-other,,6,60,67,Terrestrial
+57,RU-siberia,Taymyr peninsula,3,82.22,72.97,Terrestrial
+58,RU-siberia,,3,86.5,54.5,Terrestrial
+59,RU-siberia,Siberia,3,99.29,61.06,Terrestrial
+60,RU-siberia,Northern Sibirian platform,3,92.18,62.64,Terrestrial
+61,RU-siberia,Western Verkhoyanye and North East,3,152.41,62.94,Terrestrial
+62,RU-siberia,Lower Tunguska rehion,3,98.27,63.68,Terrestrial
+63,RU-siberia,Northern Sibirian platform,3,107.78,63.93,Terrestrial
+64,RU-siberia,,3,98,64,Terrestrial
+65,RU-siberia,Northern Sibirian platform,3,90.84,64.71,Terrestrial
+66,RU-siberia,,3,109,65.5,Terrestrial
+67,RU-siberia,,3,101.5,66,Terrestrial
+68,RU-siberia,Lower Tunguska rehion,3,110.34,66.55,Terrestrial
+69,RU-siberia,Western Verkhoyanye and North East,3,125.84,67.16,Terrestrial
+70,RU-siberia,Western Verkhoyanye and North East,3,128.14,67.58,Terrestrial
+71,RU-siberia,Lower Tunguska rehion,3,90.37,67.78,Terrestrial
+72,RU-siberia,Western Verkhoyanye and North East,3,127.43,67.96,Terrestrial
+73,RU-siberia,,3,90,68,Terrestrial
+74,RU-siberia,,3,127,68,Terrestrial
+75,RU-siberia,,3,126.5,69.1,Terrestrial
+76,RU-siberia,Western Verkhoyanye and North East,3,128.52,71,Terrestrial
+77,RU-siberia,East Taimyr,3,94.96,74.19,Terrestrial
+78,RU-siberia,Northern Sibirian platform,3,97.86,74.35,Terrestrial
+79,RU-siberia,Northern Sibirian platform,3,107.76,74.85,Terrestrial
+80,RU-siberia,Taymyr peninsula,3,112.57,75.29,Terrestrial
+81,RU-siberia,Northern Sibirian platform,3,99.33,75.69,Terrestrial
+82,RU-siberia,Northern Sibirian platform,3,126.63,75.96,Terrestrial
+83,RU-siberia,Northern Sibirian platform,3,98,79.52,Terrestrial
+84,Kazakhstan,Northern Coast and Vilyuy syneclise,6,118.94,63.36,Terrestrial
+85,Mongolia,South Gobi,6,104.29,43.5,Terrestrial
+86,South Africa,Kwazulu-Natal,6,29.17,-28.5,Terrestrial
+87,South Africa,Kwazulu-Natal,6,29.33,-28.67,Terrestrial
+88,South Africa,Kwazulu-Natal,6,29.67,-28.83,Terrestrial
+89,South Africa,Kwazulu-Natal,6,29.83,-29,Terrestrial
+90,South Africa,Kwazulu-Natal,6,30,-29.17,Terrestrial
+91,South Africa,Kwazulu-Natal,6,30,-29.5,Terrestrial
+92,South Africa,Kwazulu-Natal,6,30.17,-29.17,Terrestrial
+94,Argentina,,5,-69,-29.7,Terrestrial
+95,Argentina,,5,-70.8,-31.5,Terrestrial
+96,Argentina,,5,-69.7,-33.2,Terrestrial
+97,Argentina,,5,-69.2,-35.7,Terrestrial
+98,Argentina,,5,-67.4,-40.7,Terrestrial
+99,France,,6,4,44,Terrestrial
+100,India,"Chintalapudi
+area",6,80.99,17.07,Terrestrial
+101,Canada,Melville Island,6,-107.56,75.51,Terrestrial
+102,Canada,Devon Island,6,-81.92,75.22,Terrestrial
+103,Canada,Ellesmere Island,6,-72.74,80.75,Terrestrial
