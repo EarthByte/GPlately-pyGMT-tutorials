@@ -36,11 +36,13 @@ configuration cell for the exact variable name.
 
 **Note for the maintainer (Dietmar):** the "Currently at" column below
 is where each dataset already sits on your machine as of this redesign.
-For most of these, populating `zenodo_data/` is a `mv`/`cp`, not a
-re-download — only two datasets (`wu2023_zircons` and the
-`Reconstructions/For_gld504/*` files under `santosh_dynamic_topography`)
-could not be located anywhere reachable from this session and genuinely
-need sourcing before the archive can be assembled.
+For every dataset in this manifest, populating `zenodo_data/` is a
+`mv`/`cp`, not a re-download — nothing is currently known to be
+genuinely missing. (Two datasets — `wu2023_zircons` and the
+`Reconstructions/For_gld504/*` files under `santosh_dynamic_topography`
+— were briefly flagged as unlocatable in an earlier pass, but both
+were confirmed present once the right folders were checked; see their
+entries below.)
 
 ## Datasets
 
@@ -53,8 +55,13 @@ need sourcing before the archive can be assembled.
   cites a different DOI (`10.5281/zenodo.7795705`) for what appears to be
   the same dataset; this discrepancy hasn't been resolved, check both
   before assuming which is authoritative.
-- **Currently at:** not found anywhere reachable from this session —
-  needs sourcing from the Zenodo record above.
+- **Currently at:** confirmed present on your machine at
+  `EarthByteWorkflows-master_April2026/Zircon_Database/
+  Wu_global_zircon_database_2023/script_data/zircons_{sedimentary,igneous,
+  metamorphic}_Wu2023.gpmlz` (tiny — ~2 MB combined for all three
+  files). That folder is now inside the repo root (gitignored — see
+  `.gitignore`) — straight `cp`/`mv` of the 3 files into
+  `zenodo_data/wu2023_zircons/`.
 - **Env var:** none yet (T21-24 raise a clear `FileNotFoundError` naming
   the expected path if missing).
 
@@ -106,9 +113,13 @@ need sourcing before the archive can be assembled.
   `DTvsSediment/` (65 MB — note it has a confusing double-nested
   `DTvsSediment/DTvsSediment/{gld421,gld486,gld504}/` artifact that
   should be flattened before copying) and `Temperature_and_Velocity/
-  Temperature/` (481 MB). The 8 `Reconstructions/For_gld504/*` files are
-  NOT at `data/mantle/` — they're only in the full clone at
-  `external/Dynamic-Topography-and-Great-Unconformity/Reconstructions/`.
+  Temperature/` (481 MB). The 8 `Reconstructions/For_gld504/*` files
+  (+ `shapes_static_polygons_Merdith_et_al.gpml`) are NOT at
+  `data/mantle/`, but ARE confirmed present in the full clone at
+  `external/Dynamic-Topography-and-Great-Unconformity/Reconstructions/`
+  — copy just those 8 files into
+  `zenodo_data/santosh_dynamic_topography/Reconstructions/` alongside
+  the DTvsSediment/Temperature_and_Velocity move above.
 - **Env var:** `ZENODO_SANTOSH_DIR` (default
   `zenodo_data/santosh_dynamic_topography`)
 

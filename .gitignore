@@ -85,6 +85,7 @@ data/mantle/Temperature_and_Velocity/
 
 # Local clones of external repos / large datasets (see Notebooks/README.md)
 external/
+EarthByteWorkflows-master_April2026/
 
 # === Suite-wide external-data folder (the suite's Zenodo companion ===
 # === archive extracts into this ONE folder at the repo root; every  ===
