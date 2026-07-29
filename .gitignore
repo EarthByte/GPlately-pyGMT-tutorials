@@ -86,6 +86,14 @@ data/mantle/Temperature_and_Velocity/
 # Local clones of external repos / large datasets (see Notebooks/README.md)
 external/
 
+# === Suite-wide external-data folder (the suite's Zenodo companion ===
+# === archive extracts into this ONE folder at the repo root; every  ===
+# === not-bundled dataset gets a subfolder here -- see the manifest  ===
+# === at zenodo_data/README.md and Notebooks/README.md > External    ===
+# === data dependencies).                                           ===
+zenodo_data/*
+!zenodo_data/README.md
+
 # === Plate Model Manager runtime cache (auto-populated; many GB) ===
 Notebooks/gplately_data/
 **/gplately_data/
