@@ -34,15 +34,11 @@ dataset also has a `ZENODO_<NAME>_DIR` environment-variable override for
 users who keep the data somewhere else — see the notebook's own
 configuration cell for the exact variable name.
 
-**Note for the maintainer (Dietmar):** the "Currently at" column below
-is where each dataset already sits on your machine as of this redesign.
-For every dataset in this manifest, populating `zenodo_data/` is a
-`mv`/`cp`, not a re-download — nothing is currently known to be
-genuinely missing. (Two datasets — `wu2023_zircons` and the
-`Reconstructions/For_gld504/*` files under `santosh_dynamic_topography`
-— were briefly flagged as unlocatable in an earlier pass, but both
-were confirmed present once the right folders were checked; see their
-entries below.)
+**Status: all 14 datasets are physically populated in `zenodo_data/`
+on this machine as of this redesign.** The "Currently at" column below
+is kept for provenance (where each dataset's source copy lives), but
+every dataset listed has already been copied/moved into its
+`zenodo_data/<slug>/` folder — nothing further to source.
 
 ## Datasets
 
@@ -55,13 +51,10 @@ entries below.)
   cites a different DOI (`10.5281/zenodo.7795705`) for what appears to be
   the same dataset; this discrepancy hasn't been resolved, check both
   before assuming which is authoritative.
-- **Currently at:** confirmed present on your machine at
+- **Currently at:** copied into `zenodo_data/wu2023_zircons/` from
   `EarthByteWorkflows-master_April2026/Zircon_Database/
-  Wu_global_zircon_database_2023/script_data/zircons_{sedimentary,igneous,
-  metamorphic}_Wu2023.gpmlz` (tiny — ~2 MB combined for all three
-  files). That folder is now inside the repo root (gitignored — see
-  `.gitignore`) — straight `cp`/`mv` of the 3 files into
-  `zenodo_data/wu2023_zircons/`.
+  Wu_global_zircon_database_2023/script_data/` (placed in the repo by
+  Dietmar).
 - **Env var:** none yet (T21-24 raise a clear `FileNotFoundError` naming
   the expected path if missing).
 
@@ -78,12 +71,16 @@ entries below.)
 ### paleodem_scotese_wright_2018
 - **Used by:** T47, T67, T51 (T51 uses the already-bundled 1-degree
   `data/paleotopo_scotese/` copy directly, not this one — see below)
-- **Contents:** Scotese & Wright (2018) PaleoDEM grids, 1-degree
-  resolution (no 6-arcmin version found locally).
-- **Currently at:** `external/PaleoDEMs_Scotese_Wright_2018` and
-  `external/PaleoDEMs_Scotese_Wright_2018_1deg` — both are symlinks to
-  the same target, `~/Documents/Software/Paleotopo_data_assimilation/
-  data/Scotese_Wright_2018_Maps_1-88_1degX1deg_PaleoDEMS_nc_v2`.
+- **Contents:** all 109 Scotese & Wright (2018) PaleoDEM `.nc` grids,
+  1-degree resolution, full 0-540 Ma set (T47 needs 180/100/30 Ma, T67
+  needs 250/100/30 Ma — bundling the whole set rather than 4 files
+  because it's only 6.3 MB total and lets other snapshot ages "just
+  work" later).
+- **Currently at:** copied into `zenodo_data/paleodem_scotese_wright_2018/`
+  from `Scotese_Wright_2018_Maps_1-88_1degX1deg_PaleoDEMS_nc_v2/` (placed
+  in the repo root by Dietmar; originally reached via the
+  `external/PaleoDEMs_Scotese_Wright_2018_1deg` symlink, which pointed
+  outside this session's accessible folders).
 - **Env var:** `ZENODO_PALEODEM_DIR` (default
   `zenodo_data/paleodem_scotese_wright_2018`)
 - **Note:** T51 instead reads the smaller, already git-bundled
@@ -91,11 +88,37 @@ entries below.)
   fully tracked in git) — that one needs no Zenodo download.
 
 ### pySCION
-- **Used by:** T67
-- **Contents:** pySCION standalone source.
-- **Source:** Zenodo record 7940113 (upstream, third-party).
-- **Currently at:** `external/pySCION` — a symlink to
-  `~/Documents/Software/NeuroLEM/src/pySCION`.
+- **Used by:** T67 (imports and runs `pySCION_initialise.pySCION_initialise(-1)`,
+  which internally imports `pySCION_classes`, `pySCION_equations`,
+  `pySCION_plot_fluxes` — called unconditionally in production mode
+  (`runcontrol=-1`) — and `pySCION_plot_worldgraphic` (imported but its
+  function is only *called* when `runcontrol=-2`, which T67 doesn't use).
+- **Contents — deliberately a MINIMAL SUBSET, not the full pySCION
+  checkout** (full checkout is ~103 MB incl. `gplately_data/` (79 MB,
+  unused — T67 uses its own separate PMM-managed model dir),
+  `__pycache__/`, `figures/`, `results/`, and 4 unused `data/*.mat`/
+  `.pkl`/`.xlsx` files; bundling all of it was explicitly flagged as
+  wrong):
+  - `pySCION_initialise.py`, `pySCION_classes.py`, `pySCION_equations.py`,
+    `pySCION_plot_fluxes.py`, `pySCION_plot_worldgraphic.py` (code, the
+    5 modules actually imported)
+  - `forcings/` — all 9 files (`INTERPSTACK_sep2021_v5.mat` (21 MB),
+    `COPSE_forcings_June2022_v2.mat`, `BA.xlsx`, `GA_revised.xlsx`,
+    `combined_D_force_revised_Apr2024.mat`, `shoreline.mat`,
+    `CR_force_LIP_table_simple.csv`, `LIPSTACK_rev3.mat`,
+    `lips_start_time.csv`) — every path `pySCION_initialise.py` opens
+  - `data/geochem_data_2020.mat`, `data/Scotese_GAT_2021.mat` — the only
+    2 of 6 files in pySCION's `data/` that `pySCION_plot_fluxes.py`
+    actually opens (`d18O_dat.pkl`, `geochem_data_2024.mat`,
+    `M2021_iceline_abs.csv`, `vandermeer_2022_estimates.xlsx` are unused
+    and were NOT bundled)
+  - Total: 21 MB (vs. 103 MB for the full checkout).
+- **Source:** Zenodo record 7940113 (upstream, third-party) / GitHub
+  bjwmills/pySCION.
+- **Currently at:** minimal subset copied into `zenodo_data/pySCION/`
+  from `pySCION/` (placed in the repo root by Dietmar; originally reached
+  via the `external/pySCION` symlink, which pointed outside this
+  session's accessible folders).
 - **Env var:** `ZENODO_PYSCION_DIR` (default `zenodo_data/pySCION`)
 
 ### santosh_dynamic_topography
@@ -113,13 +136,9 @@ entries below.)
   `DTvsSediment/` (65 MB — note it has a confusing double-nested
   `DTvsSediment/DTvsSediment/{gld421,gld486,gld504}/` artifact that
   should be flattened before copying) and `Temperature_and_Velocity/
-  Temperature/` (481 MB). The 8 `Reconstructions/For_gld504/*` files
-  (+ `shapes_static_polygons_Merdith_et_al.gpml`) are NOT at
-  `data/mantle/`, but ARE confirmed present in the full clone at
-  `external/Dynamic-Topography-and-Great-Unconformity/Reconstructions/`
-  — copy just those 8 files into
-  `zenodo_data/santosh_dynamic_topography/Reconstructions/` alongside
-  the DTvsSediment/Temperature_and_Velocity move above.
+  Temperature/` (481 MB). The 8 `Reconstructions/For_gld504/*` files are
+  NOT at `data/mantle/` — they're only in the full clone at
+  `external/Dynamic-Topography-and-Great-Unconformity/Reconstructions/`.
 - **Env var:** `ZENODO_SANTOSH_DIR` (default
   `zenodo_data/santosh_dynamic_topography`)
 

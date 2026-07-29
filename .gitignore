@@ -87,6 +87,13 @@ data/mantle/Temperature_and_Velocity/
 external/
 EarthByteWorkflows-master_April2026/
 
+# Source folders for zenodo_data/paleodem_scotese_wright_2018 and
+# zenodo_data/pySCION (placed at repo root; already copied into
+# zenodo_data/ -- see zenodo_data/README.md for what was and wasn't
+# bundled from each).
+Scotese_Wright_2018_Maps_1-88_1degX1deg_PaleoDEMS_nc_v2/
+pySCION/
+
 # === Suite-wide external-data folder (the suite's Zenodo companion ===
 # === archive extracts into this ONE folder at the repo root; every  ===
 # === not-bundled dataset gets a subfolder here -- see the manifest  ===
