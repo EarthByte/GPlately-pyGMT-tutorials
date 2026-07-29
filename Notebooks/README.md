@@ -80,20 +80,22 @@ GPlately-pyGMT_tutorials/
 ├── data/          (small, git-tracked datasets — nothing to do here)
 └── zenodo_data/    (download + extract the Zenodo archive here)
     ├── README.md    (manifest: every dataset, what's in it, which
-    │                 notebooks need it, and current provenance)
-    ├── gmcm9/
-    ├── santosh_dynamic_topography/
+    │                 notebooks need it, and source citation)
+    ├── gmcm9_dynamic_topography_Braz/
+    ├── dynamic_topography_Dhungana/
     └── ...
 ```
 
-See **`zenodo_data/README.md`** for the full manifest (every dataset,
-exact expected layout, source citation, and which notebook(s) need it).
-Each such notebook also spells out its requirements in its first markdown
-cell ("Data availability") and its `# === USER CONFIGURATION ===` cell,
-which carries a default path under `zenodo_data/<dataset-name>/` plus a
-`ZENODO_<NAME>_DIR` environment-variable override for anyone who keeps the
-data somewhere else. `zenodo_data/` is gitignored (except its own README)
-and never pushed — download the archive once, extract it there, and every
+Every dataset folder is named `<content-type>_<source>` so it's clear
+what it is without opening the manifest. See **`zenodo_data/README.md`**
+for the full reference table (every dataset, exact expected layout, and
+source citation). Each such notebook also spells out its requirements
+in its first markdown cell ("Data availability") and its
+`# === USER CONFIGURATION ===` cell, which carries a default path under
+`zenodo_data/<dataset-name>/` plus a `ZENODO_<NAME>_DIR`
+environment-variable override for anyone who keeps the data somewhere
+else. `zenodo_data/` is gitignored (except its own README) and never
+pushed — download the archive once, extract it there, and every
 notebook that needs external data finds it automatically.
 
 If a notebook's data isn't found, it fails fast with a clear `FileNotFoundError`

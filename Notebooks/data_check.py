@@ -14,14 +14,14 @@ Convention: the suite's Zenodo archive extracts to a SINGLE folder,
 ``zenodo_data/``, placed at the repo root as a sibling of ``Notebooks/``
 and ``data/`` (never merged into ``data/`` -- ``data/`` holds only the
 small files that are small enough to live in git). Every not-bundled
-dataset gets its own subfolder under zenodo_data/, e.g.
-``zenodo_data/gmcm9/``, ``zenodo_data/santosh_dynamic_topography/``. See
+dataset gets its own subfolder under zenodo_data/, named
+``<content-type>_<source>``, e.g. ``zenodo_data/gmcm9_dynamic_topography_Braz/``,
+``zenodo_data/dynamic_topography_Dhungana/``. See
 Notebooks/README.md > External data dependencies, and
-zenodo_data/README.md (the manifest) for the full list of subfolders,
-what each one contains, and where the data currently lives on the
-maintainer's machine pending upload.
+zenodo_data/README.md (the manifest) for the full reference table of
+subfolders and what each one contains.
 
-Each dataset's env var (e.g. ``ZENODO_GMCM9_DIR``) is a secondary
+Each dataset's env var (e.g. ``ZENODO_THERMOCHRON_NA_DIR``) is a secondary
 override for users who keep the data at a non-default location -- it is
 read directly by the notebook's configuration cell, not by this module.
 
@@ -31,7 +31,7 @@ Usage inside a notebook (first code cell, after imports)::
     from pathlib import Path
     sys.path.insert(0, str(Path("Notebooks").resolve()))
     from data_check import require_data
-    require_data(["zenodo_data/gmcm9/", "zenodo_data/thermochronology_boone/"])
+    require_data(["zenodo_data/gmcm9_dynamic_topography_Braz/", "zenodo_data/thermochronology_faults_Boone/"])
 
 The paths are relative to the tutorial-suite repo root.
 """
@@ -40,8 +40,7 @@ from __future__ import annotations
 import os
 from pathlib import Path
 
-ZENODO_DOI = "https://doi.org/10.5281/zenodo.XXXXXXX"     # ← replace after publication
-ZENODO_ARCHIVE_NAME = "GPlately-pyGMT-tutorial-data-v1.zip"
+ZENODO_DOI = "https://doi.org/10.5281/zenodo.21664075"
 
 
 def _repo_root() -> Path:
@@ -63,8 +62,9 @@ def require_data(paths: list[str] | list[Path]) -> None:
     Parameters
     ----------
     paths : list of str or Path
-        Paths relative to the repo root (e.g. ``"zenodo_data/gmcm9/"``,
-        ``"zenodo_data/thermochronology_boone/AFEAD_Faults/"``).
+        Paths relative to the repo root (e.g.
+        ``"zenodo_data/gmcm9_dynamic_topography_Braz/"``,
+        ``"zenodo_data/thermochronology_faults_Boone/AFEAD_Faults/"``).
 
     Raises
     ------
@@ -87,17 +87,15 @@ def require_data(paths: list[str] | list[Path]) -> None:
         f"Missing data required by this notebook ({len(missing)} of {len(paths)} paths):\n"
         + "\n".join(f"  - {p}" for p in missing) + "\n"
         "\n"
-        "These data are shipped in the tutorial's companion Zenodo archive\n"
-        f"(too large for GitHub). Download and extract it as zenodo_data/ at\n"
-        f"the repo root (a sibling of Notebooks/ and data/ -- do NOT merge it\n"
-        f"into data/):\n"
+        "These data are shipped in the tutorial suite's companion Zenodo\n"
+        f"archive (too large for GitHub): {ZENODO_DOI}\n"
         "\n"
-        f"  1. Download  {ZENODO_ARCHIVE_NAME}  from  {ZENODO_DOI}\n"
-        f"  2. Unzip it so its contents land at  {root}/zenodo_data/\n"
-        "     (e.g. `unzip {ZENODO_ARCHIVE_NAME} -d {root}/zenodo_data`)\n"
+        f"Download the zip(s) you need and extract each into  {root}/zenodo_data/\n"
+        "(a sibling of Notebooks/ and data/ -- do NOT merge it into data/).\n"
         "\n"
-        "See zenodo_data/README.md (the data manifest) and Notebooks/README.md\n"
-        "> External data dependencies for the full per-dataset layout. If you\n"
+        "See zenodo_data/README.md (the data manifest -- tells you exactly\n"
+        "which zip file each dataset needs) and Notebooks/README.md >\n"
+        "External data dependencies for the full per-dataset layout. If you\n"
         "already have the data elsewhere, most notebooks also accept a\n"
         "per-dataset ZENODO_<NAME>_DIR environment-variable override -- see\n"
         "this notebook's configuration cell.\n"
