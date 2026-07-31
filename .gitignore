@@ -229,3 +229,8 @@ data/crustal_thickness_afonso/
 
 # === README.md exceptions: keep them tracked even in gitignored data folders ===
 !data/*/README.md
+
+# 2026-07-31 — scratch/staging folders, never commit
+/Notebook_corrections/
+/_backups/
+/_to_delete/

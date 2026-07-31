@@ -165,23 +165,26 @@ CLUSTERS = [
 ]
 
 # ----- Tile + cluster geometry — boxes sized so 3-line labels fit -----
-BOX_W, BOX_H       = 1.05, 1.20
-TILE_GAP           = 0.08
-CLUSTER_PAD_INNER  = 0.30
-CLUSTER_PAD_X      = 0.70
+BOX_W, BOX_H       = 1.40, 1.60
+TILE_GAP           = 0.10
+CLUSTER_PAD_INNER  = 0.35
+CLUSTER_PAD_X      = 0.80
 
-FS_TN     = 10.5
-FS_LABEL  = 7.2
-FS_HEADER = 11.0
+FS_TN     = 14.0
+FS_LABEL  = 9.8
+FS_HEADER = 15.0
 
-# 6 rows for 11 clusters — pair small ones with big ones.
+# 9 rows for 11 clusters — less material per row so boxes/text can be bigger.
 # Cluster sizes: A(7), B(9), C(4), D(5), E(7), F(11), G(9), H(3), I(6), J(11), K(8)
 ROWS = [
     ["A"],               # A(7) alone
-    ["B", "C", "D"],     # B(9) + C(4) + D(5) = 18 tiles
-    ["E", "F"],          # E(7) + F(11) = 18
-    ["G", "H"],          # G(9) + H(3) = 12 — H pairs with G nicely
-    ["I", "J"],          # I(6) + J(10) = 16
+    ["B"],               # B(9) alone
+    ["C", "D"],          # C(4) + D(5) = 9 tiles
+    ["E"],               # E(7) alone
+    ["F"],               # F(11) alone
+    ["G"],               # G(9) alone
+    ["H", "I"],          # H(3) + I(6) = 9 tiles
+    ["J"],               # J(11) alone
     ["K"],               # K(8) alone
 ]
 
@@ -193,15 +196,15 @@ def cluster_width(c_tiles):
 
 
 def build():
-    fig, ax = plt.subplots(figsize=(19.0, 16.5), dpi=300)
+    fig, ax = plt.subplots(figsize=(18.0, 30.5), dpi=300)
     fig.patch.set_facecolor("white")
 
     by_letter = {c[0]: c for c in CLUSTERS}
 
-    y_top              = 18.0
-    row_h              = 2.85
-    header_above_tile  = 0.75
-    tile_band_pad      = 0.55
+    y_top              = 34.0
+    row_h              = 3.75
+    header_above_tile  = 1.00
+    tile_band_pad      = 0.75
 
     def draw_cluster(letter, name, colour, tiles, x_start, y_centre):
         w = cluster_width(tiles)
@@ -258,9 +261,10 @@ def build():
             draw_cluster(letter, name, colour, tiles, x, y_centre)
             x += w + CLUSTER_PAD_X
 
-    # Widen x-range slightly to accommodate the widest rows
-    ax.set_xlim(-12.0, 12.0)
-    ax.set_ylim(-0.5, 18.5)
+    # Widen x/y-range generously; bbox_inches="tight" crops the final PNG/PDF
+    # to actual content, so extra margin here is harmless.
+    ax.set_xlim(-10.5, 10.5)
+    ax.set_ylim(-1.5, 34.5)
     ax.set_aspect("equal")
     ax.axis("off")
 
