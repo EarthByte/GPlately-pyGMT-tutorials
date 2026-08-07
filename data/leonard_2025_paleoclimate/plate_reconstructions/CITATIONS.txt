@@ -1,0 +1,13 @@
+Merdith, Andrew S., Simon E. Williams, Alan S. Collins, Michael G. Tetley, Jacob A. Mulder, Morgan L. Blades, Alexander Young, et al. “Extending Full-Plate Tectonic Models into Deep Time: Linking the Neoproterozoic and the Phanerozoic.” Earth-Science Reviews 214 (March 1, 2021). https://doi.org/10.1016/j.earscirev.2020.103477.
+
+Müller, R. Dietmar, Maria Seton, Sabin Zahirovic, Simon E. Williams, Kara J. Matthews, Nicky M. Wright, Grace E. Shephard, et al. “Ocean Basin Evolution and Global-Scale Plate Reorganization Events since Pangea Breakup.” Annual Review of Earth and Planetary Sciences 44 (June 29, 2016): 107–38. https://doi.org/10.1146/annurev-earth-060115-012211.
+
+Müller, R. Dietmar, Sabin Zahirovic, Simon E. Williams, John Cannon, Maria Seton, Dan J. Bower, Michael G. Tetley, et al. “A Global Plate Model Including Lithospheric Deformation Along Major Rifts and Orogens Since the Triassic.” Tectonics 38, no. 6 (June 1, 2019): 1884–1907. https://doi.org/10.1029/2018TC005462.
+
+Torsvik, Trond H., Bernhard Steinberger, Grace E. Shephard, Pavel V. Doubrovine, Carmen Gaina, Mathew Domeier, Clinton P. Conrad, and William W. Sager. “Pacific-Panthalassic Reconstructions: Overview, Errata and the Way Forward.” Geochemistry, Geophysics, Geosystems 20, no. 7 (2019): 3659–89. https://doi.org/10.1029/2019GC008402.
+
+Zahirovic, Sabin, Ahmed Eleish, Sebastiano Doss, Jodie Pall, John Cannon, Mattia Pistone, Michael G. Tetley, Alex Young, and Peter Fox. “Subduction and Carbonate Platform Interactions.” Geoscience Data Journal 9, no. 2 (2022): 371–83. https://doi.org/10.1002/gdj3.146.
+
+Note that the relative rotations are Zahirovic et al. (2022) for the absolute frames of Meredith et al. (2021), Müller et al. (2016), and Müller at al. (2019). The Torsvik et al. (2019) relative motions also have the mantle and paleomagnetic reference frames contained therein. 
+
+

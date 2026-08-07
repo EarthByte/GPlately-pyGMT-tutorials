@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpml:FeatureCollection xmlns:gpml="http://www.gplates.org/gplates" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/XMLSchema-instance" gpml:version="1.6.0338" xsi:schemaLocation="http://www.gplates.org/gplates ../xsd/gpml.xsd http://www.opengis.net/gml ../../../gml/current/base">
+    <gml:featureMember>
+        <gpml:Raster>
+            <gpml:identity>GPlates-c60a75d3-aa1c-48d7-a3af-15d33a740b2b</gpml:identity>
+            <gpml:revision>GPlates-8f12a875-1abf-4197-8274-80ba6af5dbb8</gpml:revision>
+            <gpml:domainSet>
+                <gpml:ConstantValue>
+                    <gpml:value>
+                        <gml:RectifiedGrid gml:dimension="2">
+                            <gml:limits>
+                                <gml:GridEnvelope>
+                                    <gml:low>0 0 </gml:low>
+                                    <gml:high>5400 2700 </gml:high>
+                                </gml:GridEnvelope>
+                            </gml:limits>
+                            <gml:axisName>longitude</gml:axisName>
+                            <gml:axisName>latitude</gml:axisName>
+                            <gml:origin>
+                                <gml:Point>
+                                    <gml:pos>90 -180</gml:pos>
+                                </gml:Point>
+                            </gml:origin>
+                            <gml:offsetVector>0.066666666666666666 0 </gml:offsetVector>
+                            <gml:offsetVector>0 -0.066666666666666666 </gml:offsetVector>
+                        </gml:RectifiedGrid>
+                    </gpml:value>
+                    <gml:description></gml:description>
+                    <gpml:valueType xmlns:gml="http://www.opengis.net/gml">gml:RectifiedGrid</gpml:valueType>
+                </gpml:ConstantValue>
+            </gpml:domainSet>
+            <gpml:rangeSet>
+                <gpml:ConstantValue>
+                    <gpml:value>
+                        <gml:File>
+                            <gml:rangeParameters>
+                                <gml:CompositeValue>
+                                    <gml:valueComponent>
+                                        <gpml:Rgba>template</gpml:Rgba>
+                                    </gml:valueComponent>
+                                </gml:CompositeValue>
+                            </gml:rangeParameters>
+                            <gml:fileName>Topography.jpg</gml:fileName>
+                            <gml:fileStructure></gml:fileStructure>
+                            <gml:mimeType>image/jpeg</gml:mimeType>
+                        </gml:File>
+                    </gpml:value>
+                    <gml:description></gml:description>
+                    <gpml:valueType xmlns:gml="http://www.opengis.net/gml">gml:File</gpml:valueType>
+                </gpml:ConstantValue>
+            </gpml:rangeSet>
+            <gpml:bandNames>
+                <gpml:RasterBandNames>
+                    <gpml:bandName>band_1</gpml:bandName>
+                </gpml:RasterBandNames>
+            </gpml:bandNames>
+        </gpml:Raster>
+    </gml:featureMember>
+</gpml:FeatureCollection>
