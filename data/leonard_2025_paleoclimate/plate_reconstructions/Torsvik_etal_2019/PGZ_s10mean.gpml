@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpml:FeatureCollection xmlns:gpml="http://www.gplates.org/gplates" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/XMLSchema-instance" gpml:version="1.6.0338" xsi:schemaLocation="http://www.gplates.org/gplates ../xsd/gpml.xsd http://www.opengis.net/gml ../../../gml/current/base">
+    <gml:featureMember>
+        <gpml:PassiveContinentalBoundary>
+            <gpml:identity>GPlates-fd7f8b5e-e8da-4374-91f3-d7120968b007</gpml:identity>
+            <gpml:revision>GPlates-b06b2ca8-ab8e-4216-a5b5-305ad52e183d</gpml:revision>
+            <gpml:centerLineOf>
+                <gpml:ConstantValue>
+                    <gpml:value>
+                        <gml:OrientableCurve gml:orientation="+">
+                            <gml:baseCurve>
+                                <gml:LineString>
+                                    <gml:posList gml:dimension="2">64.346702575683594 -11 64.706497192382812 -10 64.803398132324219 -9 64.681396484374986 -8 64.318901062011719 -7 64.000000000000014 -6.5177998542785653 62.999999999999986 -6.5931000709533691 62.670200347900391 -7 62.090801239013679 -7.9999999999999982 62 -8.4113998413085938 61.932598114013672 -9 62 -9.607600212097168 62.091999053955078 -10 62.720401763916016 -10.999999999999998 62.999999999999986 -11.318300247192383 64.000000000000014 -11.49470043182373 64.346702575683594 -11 </gml:posList>
+                                </gml:LineString>
+                            </gml:baseCurve>
+                        </gml:OrientableCurve>
+                    </gpml:value>
+                    <gml:description></gml:description>
+                    <gpml:valueType xmlns:gml="http://www.opengis.net/gml">gml:OrientableCurve</gpml:valueType>
+                </gpml:ConstantValue>
+            </gpml:centerLineOf>
+            <gpml:shapefileAttributes>
+                <gpml:KeyValueDictionary>
+                    <gpml:element>
+                        <gpml:KeyValueDictionaryElement>
+                            <gpml:key>REGION</gpml:key>
+                            <gpml:valueType xmlns:xsi="http://www.w3.org/XMLSchema-instance">xsi:double</gpml:valueType>
+                            <gpml:value>99</gpml:value>
+                        </gpml:KeyValueDictionaryElement>
+                    </gpml:element>
+                    <gpml:element>
+                        <gpml:KeyValueDictionaryElement>
+                            <gpml:key>REFNO</gpml:key>
+                            <gpml:valueType xmlns:xsi="http://www.w3.org/XMLSchema-instance">xsi:double</gpml:valueType>
+                            <gpml:value>99</gpml:value>
+                        </gpml:KeyValueDictionaryElement>
+                    </gpml:element>
+                    <gpml:element>
+                        <gpml:KeyValueDictionaryElement>
+                            <gpml:key>STRNO</gpml:key>
+                            <gpml:valueType xmlns:xsi="http://www.w3.org/XMLSchema-instance">xsi:double</gpml:valueType>
+                            <gpml:value>9999</gpml:value>
+                        </gpml:KeyValueDictionaryElement>
+                    </gpml:element>
+                    <gpml:element>
+                        <gpml:KeyValueDictionaryElement>
+                            <gpml:key>DESCR</gpml:key>
+                            <gpml:valueType xmlns:xsi="http://www.w3.org/XMLSchema-instance">xsi:string</gpml:valueType>
+                            <gpml:value>s10mean (no mean) 2800 km -0.9% dVs  600.0 Ma &lt;identity&gt;Gplates-xxx&lt;/identity&gt;</gpml:value>
+                        </gpml:KeyValueDictionaryElement>
+                    </gpml:element>
+                    <gpml:element>
+                        <gpml:KeyValueDictionaryElement>
+                            <gpml:key>PLATEID1</gpml:key>
+                            <gpml:valueType xmlns:xsi="http://www.w3.org/XMLSchema-instance">xsi:double</gpml:valueType>
+                            <gpml:value>0</gpml:value>
+                        </gpml:KeyValueDictionaryElement>
+                    </gpml:element>
+                    <gpml:element>
+                        <gpml:KeyValueDictionaryElement>
+                            <gpml:key>FROMAGE</gpml:key>
+                            <gpml:valueType xmlns:xsi="http://www.w3.org/XMLSchema-instance">xsi:double</gpml:valueType>
+                            <gpml:value>3000</gpml:value>
+                        </gpml:KeyValueDictionaryElement>
+                    </gpml:element>
+                    <gpml:element>
+                        <gpml:KeyValueDictionaryElement>
+                            <gpml:key>TOAGE</gpml:key>
+                            <gpml:valueType xmlns:xsi="http://www.w3.org/XMLSchema-instance">xsi:double</gpml:valueType>
+                            <gpml:value>0</gpml:value>
+                        </gpml:KeyValueDictionaryElement>
+                    </gpml:element>
+                    <gpml:element>
+                        <gpml:KeyValueDictionaryElement>
+                            <gpml:key>TYPE</gpml:key>
+                            <gpml:valueType xmlns:xsi="http://www.w3.org/XMLSchema-instance">xsi:string</gpml:valueType>
+                            <gpml:value>CO</gpml:value>
+                        </gpml:KeyValueDictionaryElement>
+                    </gpml:element>
+                    <gpml:element>
+                        <gpml:KeyValueDictionaryElement>
+                            <gpml:key>TYPENO</gpml:key>
+                            <gpml:valueType xmlns:xsi="http://www.w3.org/XMLSchema-instance">xsi:double</gpml:valueType>
+                            <gpml:value>0</gpml:value>
+                        </gpml:KeyValueDictionaryElement>
+                    </gpml:element>
+                    <gpml:element>
+                        <gpml:KeyValueDictionaryElement>
+                            <gpml:key>PLATEID2</gpml:key>
+                            <gpml:valueType xmlns:xsi="http://www.w3.org/XMLSchema-instance">xsi:double</gpml:valueType>
+                            <gpml:value>1</gpml:value>
+                        </gpml:KeyValueDictionaryElement>
+                    </gpml:element>
+                    <gpml:element>
+                        <gpml:KeyValueDictionaryElement>
+                            <gpml:key>COLOUR</gpml:key>
+                            <gpml:valueType xmlns:xsi="http://www.w3.org/XMLSchema-instance">xsi:double</gpml:valueType>
+                            <gpml:value>1</gpml:value>
+                        </gpml:KeyValueDictionaryElement>
+                    </gpml:element>
+                    <gpml:element>
+                        <gpml:KeyValueDictionaryElement>
+                            <gpml:key>NPTS</gpml:key>
+                            <gpml:valueType xmlns:xsi="http://www.w3.org/XMLSchema-instance">xsi:double</gpml:valueType>
+                            <gpml:value>17</gpml:value>
+                        </gpml:KeyValueDictionaryElement>
+                    </gpml:element>
+                    <gpml:element>
+                        <gpml:KeyValueDictionaryElement>
+                            <gpml:key>SHP</gpml:key>
+                            <gpml:valueType xmlns:xsi="http://www.w3.org/XMLSchema-instance">xsi:double</gpml:valueType>
+                            <gpml:value>1</gpml:value>
+                        </gpml:KeyValueDictionaryElement>
+                    </gpml:element>
+                </gpml:KeyValueDictionary>
+            </gpml:shapefileAttributes>
+            <gpml:reconstructionPlateId>
+                <gpml:ConstantValue>
+                    <gpml:value>0</gpml:value>
+                    <gml:description></gml:description>
+                    <gpml:valueType xmlns:gpml="http://www.gplates.org/gplates">gpml:plateId</gpml:valueType>
+                </gpml:ConstantValue>
+            </gpml:reconstructionPlateId>
+            <gml:validTime>
+                <gml:TimePeriod>
+                    <gml:begin>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">3000</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:begin>
+                    <gml:end>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">0</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:end>
+                </gml:TimePeriod>
+            </gml:validTime>
+            <gml:description>s10mean (no mean) 2800 km -0.9% dVs  600.0 Ma &lt;identity&gt;Gplates-xxx&lt;/identity&gt;</gml:description>
+            <gpml:conjugatePlateId>1</gpml:conjugatePlateId>
+        </gpml:PassiveContinentalBoundary>
+    </gml:featureMember>
+    <gml:featureMember>
+        <gpml:PassiveContinentalBoundary>
+            <gpml:identity>GPlates-e3979672-868f-491d-a7b3-49f58cde7548</gpml:identity>
+            <gpml:revision>GPlates-2013a5a8-75ac-4c65-837d-04dde266fabe</gpml:revision>
+            <gpml:centerLineOf>
+                <gpml:ConstantValue>
+                    <gpml:value>
+                        <gml:OrientableCurve gml:orientation="+">
+                            <gml:baseCurve>
+                                <gml:LineString>
+                                    <gml:posList gml:dimension="2">57.197200775146484 49.000000000000007 57.375999450683594 50 57.495498657226555 51 57.545600891113281 52 57.519798278808594 53 57.416801452636719 54 57.241500854492195 54.999999999999993 57.005001068115234 56 57.000000000000007 56.017799377441406 56.671199798583991 57.000000000000007 56.315700531005859 58.000000000000007 56.000000000000007 58.878799438476562 55.944698333740227 59.000000000000007 55.497501373291016 59.999999999999993 55.056701660156257 61 55 61.126201629638679 54.436698913574219 62 54.000000000000007 62.628398895263672 53.587799072265625 63 53 63.487499237060547 52.000000000000007 63.982299804687507 51.884101867675781 64 51 64.135696411132812 50.613700866699219 64 50 63.733699798583984 49.459999084472663 63 49.000000000000007 62.264400482177741 48.898300170898438 62 48.532600402832031 61 48.197799682617188 59.999999999999993 48.000000000000007 59.336799621582038 47.919700622558594 59.000000000000007 47.717601776123054 58.000000000000007 47.560901641845703 57 47.446998596191399 56 47.372200012207031 55 47.336799621582031 54 47.349800109863281 53 47.429100036621094 52 47.597198486328125 51 47.871898651123047 50 48.000000000000007 49.66400146484375 48.292098999023438 49.000000000000007 48.827899932861321 48.000000000000007 49.000000000000007 47.714401245117188 49.509201049804688 47 50 46.335300445556641 50.305400848388672 46 51 45.224601745605469 51.268798828125 45 52.000000000000007 44.351699829101562 52.637001037597649 44 53 43.777500152587891 54.000000000000007 43.624801635742188 54.823898315429695 44 55 44.089199066162109 55.698101043701165 45 56.000000000000007 45.446899414062493 56.232200622558594 46 56.619098663330085 47 56.961200714111321 48 57.000000000000007 48.129100799560554 57.197200775146484 49.000000000000007 </gml:posList>
+                                </gml:LineString>
+                            </gml:baseCurve>
+                        </gml:OrientableCurve>
+                    </gpml:value>
+                    <gml:description></gml:description>
+                    <gpml:valueType xmlns:gml="http://www.opengis.net/gml">gml:OrientableCurve</gpml:valueType>
+                </gpml:ConstantValue>
+            </gpml:centerLineOf>
+            <gpml:shapefileAttributes>
+                <gpml:KeyValueDictionary>
+                    <gpml:element>
+                        <gpml:KeyValueDictionaryElement>
+                            <gpml:key>REGION</gpml:key>
+                            <gpml:valueType xmlns:xsi="http://www.w3.org/XMLSchema-instance">xsi:double</gpml:valueType>
+                            <gpml:value>99</gpml:value>
+                        </gpml:KeyValueDictionaryElement>
+                    </gpml:element>
+                    <gpml:element>
+                        <gpml:KeyValueDictionaryElement>
+                            <gpml:key>REFNO</gpml:key>
+                            <gpml:valueType xmlns:xsi="http://www.w3.org/XMLSchema-instance">xsi:double</gpml:valueType>
+                            <gpml:value>99</gpml:value>
+                        </gpml:KeyValueDictionaryElement>
+                    </gpml:element>
+                    <gpml:element>
+                        <gpml:KeyValueDictionaryElement>
+                            <gpml:key>STRNO</gpml:key>
+                            <gpml:valueType xmlns:xsi="http://www.w3.org/XMLSchema-instance">xsi:double</gpml:valueType>
+                            <gpml:value>9999</gpml:value>
+                        </gpml:KeyValueDictionaryElement>
+                    </gpml:element>
+                    <gpml:element>
+                        <gpml:KeyValueDictionaryElement>
+                            <gpml:key>DESCR</gpml:key>
+                            <gpml:valueType xmlns:xsi="http://www.w3.org/XMLSchema-instance">xsi:string</gpml:valueType>
+                            <gpml:value>s10mean (no mean) 2800 km -0.9% dVs  600.0 Ma &lt;identity&gt;Gplates-xxx&lt;/identity&gt;</gpml:value>
+                        </gpml:KeyValueDictionaryElement>
+                    </gpml:element>
+                    <gpml:element>
+                        <gpml:KeyValueDictionaryElement>
+                            <gpml:key>PLATEID1</gpml:key>
+                            <gpml:valueType xmlns:xsi="http://www.w3.org/XMLSchema-instance">xsi:double</gpml:valueType>
+                            <gpml:value>0</gpml:value>
+                        </gpml:KeyValueDictionaryElement>
+                    </gpml:element>
+                    <gpml:element>
+                        <gpml:KeyValueDictionaryElement>
+                            <gpml:key>FROMAGE</gpml:key>
+                            <gpml:valueType xmlns:xsi="http://www.w3.org/XMLSchema-instance">xsi:double</gpml:valueType>
+                            <gpml:value>3000</gpml:value>
+                        </gpml:KeyValueDictionaryElement>
+                    </gpml:element>
+                    <gpml:element>
+                        <gpml:KeyValueDictionaryElement>
+                            <gpml:key>TOAGE</gpml:key>
+                            <gpml:valueType xmlns:xsi="http://www.w3.org/XMLSchema-instance">xsi:double</gpml:valueType>
+                            <gpml:value>0</gpml:value>
+                        </gpml:KeyValueDictionaryElement>
+                    </gpml:element>
+                    <gpml:element>
+                        <gpml:KeyValueDictionaryElement>
+                            <gpml:key>TYPE</gpml:key>
+                            <gpml:valueType xmlns:xsi="http://www.w3.org/XMLSchema-instance">xsi:string</gpml:valueType>
+                            <gpml:value>CO</gpml:value>
+                        </gpml:KeyValueDictionaryElement>
+                    </gpml:element>
+                    <gpml:element>
+                        <gpml:KeyValueDictionaryElement>
+                            <gpml:key>TYPENO</gpml:key>
+                            <gpml:valueType xmlns:xsi="http://www.w3.org/XMLSchema-instance">xsi:double</gpml:valueType>
+                            <gpml:value>0</gpml:value>
+                        </gpml:KeyValueDictionaryElement>
+                    </gpml:element>
+                    <gpml:element>
+                        <gpml:KeyValueDictionaryElement>
+                            <gpml:key>PLATEID2</gpml:key>
+                            <gpml:valueType xmlns:xsi="http://www.w3.org/XMLSchema-instance">xsi:double</gpml:valueType>
+                            <gpml:value>1</gpml:value>
+                        </gpml:KeyValueDictionaryElement>
+                    </gpml:element>
+                    <gpml:element>
+                        <gpml:KeyValueDictionaryElement>
+                            <gpml:key>COLOUR</gpml:key>
+                            <gpml:valueType xmlns:xsi="http://www.w3.org/XMLSchema-instance">xsi:double</gpml:valueType>
+                            <gpml:value>1</gpml:value>
+                        </gpml:KeyValueDictionaryElement>
+                    </gpml:element>
+                    <gpml:element>
+                        <gpml:KeyValueDictionaryElement>
+                            <gpml:key>NPTS</gpml:key>
+                            <gpml:valueType xmlns:xsi="http://www.w3.org/XMLSchema-instance">xsi:double</gpml:valueType>
+                            <gpml:value>63</gpml:value>
+                        </gpml:KeyValueDictionaryElement>
+                    </gpml:element>
+                    <gpml:element>
+                        <gpml:KeyValueDictionaryElement>
+                            <gpml:key>SHP</gpml:key>
+                            <gpml:valueType xmlns:xsi="http://www.w3.org/XMLSchema-instance">xsi:double</gpml:valueType>
+                            <gpml:value>2</gpml:value>
+                        </gpml:KeyValueDictionaryElement>
+                    </gpml:element>
+                </gpml:KeyValueDictionary>
+            </gpml:shapefileAttributes>
+            <gpml:reconstructionPlateId>
+                <gpml:ConstantValue>
+                    <gpml:value>0</gpml:value>
+                    <gml:description></gml:description>
+                    <gpml:valueType xmlns:gpml="http://www.gplates.org/gplates">gpml:plateId</gpml:valueType>
+                </gpml:ConstantValue>
+            </gpml:reconstructionPlateId>
+            <gml:validTime>
+                <gml:TimePeriod>
+                    <gml:begin>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">3000</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:begin>
+                    <gml:end>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">0</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:end>
+                </gml:TimePeriod>
+            </gml:validTime>
+            <gml:description>s10mean (no mean) 2800 km -0.9% dVs  600.0 Ma &lt;identity&gt;Gplates-xxx&lt;/identity&gt;</gml:description>
+            <gpml:conjugatePlateId>1</gpml:conjugatePlateId>
+        </gpml:PassiveContinentalBoundary>
+    </gml:featureMember>
+    <gml:featureMember>
+        <gpml:PassiveContinentalBoundary>
+            <gpml:identity>GPlates-802f85fb-d5f9-4300-9766-cc58dc2c56f0</gpml:identity>
+            <gpml:revision>GPlates-7226baec-f919-4084-aa77-b19eaff191f6</gpml:revision>
+            <gpml:centerLineOf>
+                <gpml:ConstantValue>
+                    <gpml:value>
+                        <gml:OrientableCurve gml:orientation="+">
+                            <gml:baseCurve>
+                                <gml:LineString>
+                                    <gml:posList gml:dimension="2">46.083301544189453 -14.999999999999998 46.181499481201172 -14 46.222801208496101 -13 46.242900848388679 -12 46.269298553466797 -11 46.302600860595703 -10 46.300399780273438 -9 46.174400329589844 -8 45.999999999999993 -7.5097999572753906 45.77870178222657 -7 44.999999999999993 -6.0321998596191406 44.969699859619148 -6 44 -5.264699935913085 43.609500885009766 -5 43 -4.667600154876709 42 -4.261000156402587 41 -4.0687999725341797 39.999999999999993 -4.0623002052307138 39 -4.1321001052856445 38 -4.1641998291015616 37 -4.0890002250671396 36.516399383544922 -4.0000000000000009 36 -3.8919999599456792 35 -3.5824999809265141 34 -3.1505000591278081 33.749500274658203 -3.0000000000000004 33 -2.4289000034332275 32.591899871826172 -1.9999999999999996 32 -1.2582000494003296 31.814699172973633 -1 31.228500366210938 0 31 0.59140002727508556 30.812900543212891 1 30.546100616455082 2 30.377399444580078 3.0000000000000004 30.185300827026367 4.0000000000000009 29.999999999999996 4.5982999801635742 29.491500854492191 5 29.000000000000004 5.2333998680114746 28.486799240112308 4.9999999999999991 28.000000000000004 4.8178000450134286 26.999999999999996 4.2680001258850098 26.445999145507812 4.0000000000000009 26 3.8499999046325684 25 3.550800085067749 24.000000000000004 3.2595999240875249 23.318799972534176 3.0000000000000004 23 2.890700101852417 22 2.3761000633239742 21.450199127197266 1.9999999999999996 21 1.7367000579833987 20 1.1495000123977663 19.707500457763672 0.99999999999999978 19 0.74459999799728382 18 0.4562000036239624 17 0.19560000300407407 16.308000564575195 0 16 -0.080700002610683441 14.999999999999998 -0.37999999523162842 14 -0.6801999807357787 13 -0.91360002756118797 12.207400321960449 -0.99999999999999978 12.000000000000002 -1.0212999582290652 11.279000282287598 -1 11 -0.99029999971389771 10 -0.80110001564025879 9 -0.41679999232292175 8.3199996948242188 0 8 0.27419999241828918 7.3422999382019043 1 7 1.4742000102996828 6.6559000015258789 2 6.064000129699707 3.0000000000000004 6.0000000000000009 3.1224000453948979 5.5852999687194824 4.0000000000000009 5.2888998985290527 5 5.2044000625610352 6.0000000000000009 5.3217000961303711 7 5.6034002304077148 7.9999999999999982 5.9972000122070312 9 6.0000000000000009 9.0059995651245117 6.4835000038146973 10 7 10.958700180053711 7.0244998931884775 11 7.6928000450134286 12 8 12.401200294494629 8.5150995254516602 13 9 13.527099609375002 9.4917001724243164 14 10 14.519700050354004 10.545299530029297 14.999999999999998 11 15.491200447082521 11.572099685668945 16 12.000000000000002 16.540100097656246 12.445799827575684 17.000000000000004 12.982500076293945 18 13 18.080400466918949 13.210200309753418 19 13.145000457763672 20 13 20.538999557495117 12.900699615478516 21 12.536199569702148 22 12.078300476074219 23 12.000000000000002 23.153799057006836 11.578499794006348 24.000000000000004 11.068200111389162 25 11 25.143199920654297 10.570799827575684 26 10.065999984741211 26.999999999999996 10 27.123399734497067 9.527099609375 28 9 28.831600189208981 8.8952999114990234 29.000000000000011 8.1739997863769531 29.999999999999996 8 30.209699630737305 7.2586998939514169 30.999999999999993 7 31.231500625610355 6.0000000000000009 31.914600372314453 5.8393998146057129 32 5 32.397098541259766 4 32.802101135253913 3.4821999073028564 33 3.0000000000000004 33.175800323486328 2 33.488201141357422 1 33.701000213623047 0 33.824600219726562 -1 33.921699523925781 -1.5815000534057617 34.000000000000007 -2 34.053398132324219 -3.0000000000000004 34.224098205566406 -4 34.37950134277343 -5 34.433101654052741 -6.0000000000000009 34.346401214599616 -7 34.166999816894531 -7.9223999977111816 34.000000000000007 -8 33.984401702880852 -9 33.848899841308594 -10 33.76210021972657 -11 33.666698455810547 -12.000000000000002 33.536800384521484 -13 33.432998657226562 -14 33.457099914550788 -14.999999999999998 33.630199432373047 -16 33.876998901367188 -16.506999969482422 34 -17 34.135898590087891 -18 34.402400970458984 -19 34.745498657226555 -19.47920036315918 35 -20 35.452800750732422 -20.433399200439453 36 -20.807600021362305 37 -20.942499160766602 38 -21 38.901798248291009 -21.006000518798828 39 -21.090200424194339 40 -21.208700180053711 41 -21.337099075317379 42 -21.446399688720703 43 -21.522199630737305 44 -21.563800811767578 45 -21.57349967956543 46 -21.547700881958008 47 -21.478099822998047 48.000000000000007 -21.360799789428711 49 -21.208499908447266 49.999999999999993 -21.055099487304688 51 -21 51.521999359130859 -20.957099914550781 52 -20.949300765991211 53 -21 53.479801177978516 -21.069999694824219 54 -21.385799407958988 55 -21.917800903320312 56 -22 56.110698699951172 -22.822900772094727 57.000000000000007 -23 57.157798767089844 -23.986499786376953 58.000000000000007 -24.000000000000004 58.010898590087898 -25 58.920700073242188 -25.075700759887695 59.000000000000007 -25.944900512695312 59.999999999999993 -26 60.073799133300788 -26.629299163818359 61 -26.999999999999996 61.661098480224609 -27.18079948425293 62 -27.647600173950195 63 -28.000000000000004 63.854000091552734 -28.057399749755859 64 -28.414699554443359 65 -28.732999801635742 66 -29.000000000000004 66.942398071289062 -29.014999389648434 67 -29.250999450683594 68 -29.467300415039062 69 -29.666799545288086 70 -29.849899291992188 71 -29.999999999999996 71.879898071289062 -30.019500732421882 72 -30.185199737548821 73 -30.369199752807621 74 -30.590799331665039 75 -30.862100601196286 76 -31 76.442596435546875 -31.187700271606445 77 -31.536600112915043 78 -31.866600036621104 79 -32 79.449096679687514 -32.172401428222656 80 -32.461700439453125 81 -32.761600494384766 82 -33 82.700897216796875 -33.113201141357422 83 -33.551898956298828 84 -34 84.874198913574219 -34.076900482177734 85 -34.750598907470703 86 -35 86.329696655273438 -35.70989990234375 87 -36 87.236503601074219 -37 87.676498413085938 -38 87.77130126953125 -39 87.639602661132812 -39.999999999999993 87.374000549316406 -41 87.019798278808594 -41.048198699951172 87 -42 86.614997863769545 -43 86.174797058105469 -43.419601440429695 86 -44 85.768997192382812 -44.999999999999993 85.45379638671875 -45.999999999999993 85.256698608398438 -47 85.191902160644531 -48.000000000000007 85.261398315429688 -49.000000000000007 85.472396850585938 -50 85.836601257324219 -50.349700927734368 86 -51 86.339202880859375 -52.000000000000007 86.89129638671875 -52.263500213623047 87 -53 87.316703796386719 -54.000000000000007 87.415397644042969 -54.99259948730468 87 -55 86.996498107910156 -55.865699768066406 86 -56.000000000000007 85.819000244140625 -56.386100769042976 85 -56.776901245117188 84 -57.000000000000007 83.309898376464844 -57.076198577880859 83 -57.289299011230476 82 -57.46760177612304 81 -57.614601135253906 80 -57.731498718261719 79 -57.818000793457031 78 -57.873500823974609 77 -57.89739990234375 76 -57.890701293945312 75 -57.855400085449219 74 -57.794498443603516 73 -57.710700988769531 72 -57.605800628662116 71 -57.479301452636719 70 -57.329200744628906 69 -57.151798248291009 68 -57.000000000000007 67.272003173828125 -56.943599700927727 67 -56.707401275634766 66 -56.446701049804688 65 -56.16600036621093 64 -56.000000000000007 63.441398620605469 -55.873500823974609 63 -55.578300476074219 62 -55.276500701904297 61 -55 60.128898620605469 -54.958400726318366 59.999999999999993 -54.604000091552734 59.000000000000007 -54.206501007080078 58.000000000000007 -54.000000000000007 57.544898986816413 -53.730098724365241 57 -53.178199768066406 56.000000000000007 -53 55.701999664306641 -52.55690002441407 55 -52.000000000000007 54.110500335693366 -51.931598663330085 54 -51.352001190185547 53 -51 52.323501586914062 -50.839900970458984 52 -50.385101318359382 51 -50 50.110198974609375 -49.952701568603516 50 -49.512199401855469 49.000000000000007 -49.042499542236328 48.000000000000007 -49.000000000000007 47.915500640869141 -48.538398742675781 46.999999999999993 -48.022499084472656 46 -48.000000000000007 45.955501556396484 -47.523899078369134 45 -47.070301055908203 44 -47 43.826499938964844 -46.65480041503907 43 -46.285198211669922 42.000000000000007 -45.999999999999993 41.148799896240241 -45.944400787353516 41 -45.595100402832031 40 -45.264999389648438 39 -44.999999999999993 38.135799407958984 -44.954601287841797 38 -44.659198760986328 37 -44.416801452636719 36 -44.229400634765632 35 -44.090999603271484 34.000000000000007 -44 33.129299163818359 -43.986598968505859 33 -43.896598815917976 31.999999999999993 -43.805698394775384 31 -43.708198547363281 29.999999999999996 -43.611198425292969 29.000000000000004 -43.532100677490234 28 -43.490798950195312 26.999999999999996 -43.498500823974609 26 -43.547500610351562 25.000000000000004 -43.609699249267585 24.000000000000004 -43.650501251220696 23 -43.651500701904304 22 -43.625900268554688 21.000000000000004 -43.617198944091797 19.999999999999996 -43.684101104736328 19 -43.877998352050781 18 -44 17.644899368286133 -44.246200561523438 17.000000000000004 -44.758399963378906 16 -44.999999999999993 15.574500083923336 -45.332500457763679 14.999999999999998 -45.858100891113274 14.000000000000002 -45.999999999999993 13.665200233459473 -46.266300201416016 13 -46.553199768066406 12.000000000000002 -46.751800537109368 11 -46.902500152587891 10 -47 9.2966995239257795 -47.04010009765625 8.9999999999999982 -47.181598663330078 8 -47.322898864746094 7 -47.443000793457038 6.0000000000000009 -47.518299102783203 5 -47.529998779296868 4 -47.465301513671875 3.0000000000000004 -47.315799713134766 2 -47.076499938964837 1 -47 0.7473999857902528 -46.721000671386719 0 -46.258499145507812 -1 -45.999999999999993 -1.511199951171875 -45.732498168945312 -2 -45.203601837158203 -3.0000000000000004 -44.999999999999993 -3.4033999443054199 -44.751800537109375 -4 -44.338001251220696 -5 -44 -5.744500160217286 -43.900100708007812 -6.0000000000000009 -43.440799713134773 -7 -43 -7.7937002182006818 -42.879600524902344 -8 -42.201499938964844 -9 -42 -9.2658996582031232 -41.311599731445312 -10 -41 -10.319100379943848 -40.128398895263679 -10.999999999999998 -39.999999999999993 -11.106100082397461 -39 -11.790300369262695 -38.668300628662102 -12.000000000000002 -38 -12.48490047454834 -37.233001708984375 -13 -37 -13.176600456237791 -36 -13.761199951171873 -35.257099151611328 -14.000000000000002 -35 -14.082799911499023 -34 -14.141099929809572 -33 -14.06659984588623 -32 -14.082599639892576 -31 -14.387599945068358 -30.049699783325195 -14.999999999999998 -29.999999999999996 -15.028900146484375 -29.000000000000004 -15.838199615478517 -28.811700820922855 -15.999999999999996 -28.000000000000004 -16.686500549316406 -27.549699783325195 -17 -26.999999999999996 -17.394100189208984 -26 -17.811199188232422 -25 -17.978799819946289 -24.7677001953125 -18 -24.000000000000004 -18.070100784301754 -23 -18.222700119018558 -22 -18.499799728393551 -21 -18.898199081420902 -20.784700393676758 -19 -20 -19.422599792480469 -19 -19.981100082397461 -18.962400436401367 -20 -18 -20.536699295043949 -17 -20.963399887084961 -16.852100372314453 -21 -16 -21.21829986572266 -14.999999999999998 -21.24900054931641 -14 -21.05470085144043 -13.859000205993652 -20.999999999999996 -13 -20.661199569702148 -12.000000000000002 -20.12660026550293 -11.783900260925295 -20 -11 -19.506599426269531 -10.175000190734863 -19 -10 -18.886299133300781 -9 -18.317899703979492 -8.2821998596191406 -18 -8 -17.874300003051758 -7 -17.585199356079102 -6.0000000000000009 -17.463800430297848 -5 -17.500400543212891 -4 -17.677400588989258 -3.0000000000000004 -17.965400695800781 -2.8924999237060547 -18 -2 -18.294200897216797 -1 -18.612699508666989 0 -18.922100067138672 0.2223999947309494 -19 1 -19.278799057006836 2 -19.799100875854492 2.2644999027252197 -20 3.0000000000000004 -20.652900695800781 3.2743000984191895 -21 4 -21.931100845336914 4.0419998168945312 -22 4.802299976348877 -23 5 -23.20359992980957 5.7013998031616211 -24 6.0000000000000009 -24.271099090576172 6.8537001609802255 -25 7 -25.102800369262692 8 -25.64640045166016 9 -25.95359992980957 9.3130998611450195 -26 10 -26.090700149536133 11 -26.157499313354492 12.000000000000002 -26.225000381469727 13 -26.320999145507812 14 -26.438999176025394 14.999999999999998 -26.568000793457035 16 -26.716499328613281 17 -26.907499313354492 17.373899459838867 -26.999999999999996 18 -27.156900405883793 19 -27.431900024414062 20 -27.680999755859375 21 -27.870500564575195 21.991500854492188 -28.000000000000004 22 -28.001100540161133 23 -28.096700668334961 24.000000000000004 -28.192499160766602 25 -28.274900436401367 26 -28.272699356079102 26.999999999999996 -28.081399917602536 27.193399429321289 -28.000000000000004 28.000000000000004 -27.610000610351562 28.908399581909176 -27 29.000000000000004 -26.934799194335941 29.999999999999996 -26.22559928894043 30.361000061035153 -26 31 -25.59480094909668 32 -25.010599136352539 32.018199920654297 -25.000000000000004 33 -24.3656005859375 33.562400817871101 -24.000000000000004 34 -23.68440055847168 35 -23.10569953918457 35.327899932861328 -23 36 -22.778299331665039 37 -22.675300598144531 38 -22.635900497436523 39 -22.482500076293945 39.999999999999993 -22.118299484252933 40.235500335693359 -22 41 -21.563400268554688 41.927600860595703 -20.999999999999996 42 -20.950899124145504 43 -20.321800231933594 43.432300567626953 -20 44 -19.526699066162109 44.447898864746101 -19 44.999999999999993 -18.234800338745117 45.127399444580085 -18 45.567100524902344 -17 45.887199401855469 -15.999999999999996 45.999999999999993 -15.445400238037106 46.083301544189453 -14.999999999999998 </gml:posList>
+                                </gml:LineString>
+                            </gml:baseCurve>
+                        </gml:OrientableCurve>
+                    </gpml:value>
+                    <gml:description></gml:description>
+                    <gpml:valueType xmlns:gml="http://www.opengis.net/gml">gml:OrientableCurve</gpml:valueType>
+                </gpml:ConstantValue>
+            </gpml:centerLineOf>
+            <gpml:shapefileAttributes>
+                <gpml:KeyValueDictionary>
+                    <gpml:element>
+                        <gpml:KeyValueDictionaryElement>
+                            <gpml:key>REGION</gpml:key>
+                            <gpml:valueType xmlns:xsi="http://www.w3.org/XMLSchema-instance">xsi:double</gpml:valueType>
+                            <gpml:value>99</gpml:value>
+                        </gpml:KeyValueDictionaryElement>
+                    </gpml:element>
+                    <gpml:element>
+                        <gpml:KeyValueDictionaryElement>
+                            <gpml:key>REFNO</gpml:key>
+                            <gpml:valueType xmlns:xsi="http://www.w3.org/XMLSchema-instance">xsi:double</gpml:valueType>
+                            <gpml:value>99</gpml:value>
+                        </gpml:KeyValueDictionaryElement>
+                    </gpml:element>
+                    <gpml:element>
+                        <gpml:KeyValueDictionaryElement>
+                            <gpml:key>STRNO</gpml:key>
+                            <gpml:valueType xmlns:xsi="http://www.w3.org/XMLSchema-instance">xsi:double</gpml:valueType>
+                            <gpml:value>9999</gpml:value>
+                        </gpml:KeyValueDictionaryElement>
+                    </gpml:element>
+                    <gpml:element>
+                        <gpml:KeyValueDictionaryElement>
+                            <gpml:key>DESCR</gpml:key>
+                            <gpml:valueType xmlns:xsi="http://www.w3.org/XMLSchema-instance">xsi:string</gpml:valueType>
+                            <gpml:value>s10mean (no mean) 2800 km -0.9% dVs  600.0 Ma &lt;identity&gt;Gplates-xxx&lt;/identity&gt;</gpml:value>
+                        </gpml:KeyValueDictionaryElement>
+                    </gpml:element>
+                    <gpml:element>
+                        <gpml:KeyValueDictionaryElement>
+                            <gpml:key>PLATEID1</gpml:key>
+                            <gpml:valueType xmlns:xsi="http://www.w3.org/XMLSchema-instance">xsi:double</gpml:valueType>
+                            <gpml:value>0</gpml:value>
+                        </gpml:KeyValueDictionaryElement>
+                    </gpml:element>
+                    <gpml:element>
+                        <gpml:KeyValueDictionaryElement>
+                            <gpml:key>FROMAGE</gpml:key>
+                            <gpml:valueType xmlns:xsi="http://www.w3.org/XMLSchema-instance">xsi:double</gpml:valueType>
+                            <gpml:value>3000</gpml:value>
+                        </gpml:KeyValueDictionaryElement>
+                    </gpml:element>
+                    <gpml:element>
+                        <gpml:KeyValueDictionaryElement>
+                            <gpml:key>TOAGE</gpml:key>
+                            <gpml:valueType xmlns:xsi="http://www.w3.org/XMLSchema-instance">xsi:double</gpml:valueType>
+                            <gpml:value>0</gpml:value>
+                        </gpml:KeyValueDictionaryElement>
+                    </gpml:element>
+                    <gpml:element>
+                        <gpml:KeyValueDictionaryElement>
+                            <gpml:key>TYPE</gpml:key>
+                            <gpml:valueType xmlns:xsi="http://www.w3.org/XMLSchema-instance">xsi:string</gpml:valueType>
+                            <gpml:value>CO</gpml:value>
+                        </gpml:KeyValueDictionaryElement>
+                    </gpml:element>
+                    <gpml:element>
+                        <gpml:KeyValueDictionaryElement>
+                            <gpml:key>TYPENO</gpml:key>
+                            <gpml:valueType xmlns:xsi="http://www.w3.org/XMLSchema-instance">xsi:double</gpml:valueType>
+                            <gpml:value>0</gpml:value>
+                        </gpml:KeyValueDictionaryElement>
+                    </gpml:element>
+                    <gpml:element>
+                        <gpml:KeyValueDictionaryElement>
+                            <gpml:key>PLATEID2</gpml:key>
+                            <gpml:valueType xmlns:xsi="http://www.w3.org/XMLSchema-instance">xsi:double</gpml:valueType>
+                            <gpml:value>1</gpml:value>
+                        </gpml:KeyValueDictionaryElement>
+                    </gpml:element>
+                    <gpml:element>
+                        <gpml:KeyValueDictionaryElement>
+                            <gpml:key>COLOUR</gpml:key>
+                            <gpml:valueType xmlns:xsi="http://www.w3.org/XMLSchema-instance">xsi:double</gpml:valueType>
+                            <gpml:value>1</gpml:value>
+                        </gpml:KeyValueDictionaryElement>
+                    </gpml:element>
+                    <gpml:element>
+                        <gpml:KeyValueDictionaryElement>
+                            <gpml:key>NPTS</gpml:key>
+                            <gpml:valueType xmlns:xsi="http://www.w3.org/XMLSchema-instance">xsi:double</gpml:valueType>
+                            <gpml:value>495</gpml:value>
+                        </gpml:KeyValueDictionaryElement>
+                    </gpml:element>
+                    <gpml:element>
+                        <gpml:KeyValueDictionaryElement>
+                            <gpml:key>SHP</gpml:key>
+                            <gpml:valueType xmlns:xsi="http://www.w3.org/XMLSchema-instance">xsi:double</gpml:valueType>
+                            <gpml:value>3</gpml:value>
+                        </gpml:KeyValueDictionaryElement>
+                    </gpml:element>
+                </gpml:KeyValueDictionary>
+            </gpml:shapefileAttributes>
+            <gpml:reconstructionPlateId>
+                <gpml:ConstantValue>
+                    <gpml:value>0</gpml:value>
+                    <gml:description></gml:description>
+                    <gpml:valueType xmlns:gpml="http://www.gplates.org/gplates">gpml:plateId</gpml:valueType>
+                </gpml:ConstantValue>
+            </gpml:reconstructionPlateId>
+            <gml:validTime>
+                <gml:TimePeriod>
+                    <gml:begin>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">3000</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:begin>
+                    <gml:end>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">0</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:end>
+                </gml:TimePeriod>
+            </gml:validTime>
+            <gml:description>s10mean (no mean) 2800 km -0.9% dVs  600.0 Ma &lt;identity&gt;Gplates-xxx&lt;/identity&gt;</gml:description>
+            <gpml:conjugatePlateId>1</gpml:conjugatePlateId>
+        </gpml:PassiveContinentalBoundary>
+    </gml:featureMember>
+    <gml:featureMember>
+        <gpml:PassiveContinentalBoundary>
+            <gpml:identity>GPlates-fa3f2b9a-6fe2-4d18-b075-cdc5b1009808</gpml:identity>
+            <gpml:revision>GPlates-fc2af99e-97c6-4416-a0de-1523cf69c8f8</gpml:revision>
+            <gpml:centerLineOf>
+                <gpml:ConstantValue>
+                    <gpml:value>
+                        <gml:OrientableCurve gml:orientation="+">
+                            <gml:baseCurve>
+                                <gml:LineString>
+                                    <gml:posList gml:dimension="2">18.171199798583984 154 18.419200897216797 155 18.565000534057617 156 18.644500732421875 157 18.664899826049805 158 18.616899490356445 159 18.492700576782227 160 18.298900604248047 161 18.059799194335938 162 18 162.23410034179688 17.794900894165039 163 17.532199859619141 164 17.267999649047852 165 17 165.92219543457031 16.974899291992188 166 16.619600296020508 167 16.231199264526367 168 16 168.59480285644531 15.831899642944336 169 15.45829963684082 170 15.108099937438965 171 14.999999999999998 171.31700134277344 14.75879955291748 172 14.405900001525877 173 14.080900192260742 174 14 174.33740234375 13.833100318908691 175 13.697999954223633 176 13.674200057983398 177 13.74269962310791 178 13.886899948120117 179 14 179.56489562988281 14.095199584960938 180 14.369099617004396 -179 14.709199905395508 -178 14.999999999999998 -177.22610473632812 15.091400146484375 -177 15.477399826049806 -176 15.808899879455566 -175 16 -174.29440307617188 16.070899963378906 -174 16.300500869750977 -173 16.548599243164062 -172 16.829700469970703 -171 17 -170.43620300292969 17.123199462890625 -170 17.400299072265621 -169 17.648500442504883 -168 17.864700317382812 -167 18 -166.26409912109375 18.052400588989258 -166 18.20050048828125 -165 18.251499176025391 -164 18.111299514770508 -163 18 -162.70269775390625 17.731199264526367 -162 17.127300262451172 -161 17 -160.82229614257812 16.489700317382812 -160 16 -159.21670532226562 15.89039993286133 -159 15.436200141906735 -158 15.002599716186523 -157 14.999999999999998 -156.99429321289065 14.61929988861084 -156 14.165399551391602 -155 14 -154.69819641113281 13.642399787902832 -154 13.031599998474121 -153 13 -152.9530029296875 12.433199882507324 -152 12.000000000000002 -151.27110290527344 11.862500190734863 -151 11.397600173950195 -150 11 -149.01910400390625 10.993200302124025 -149 10.696599960327148 -148 10.471199989318848 -147 10.329700469970703 -146 10.274700164794922 -145 10.283499717712402 -144 10.30679988861084 -143 10.284000396728516 -142 10.164400100708008 -141 10 -140.31050109863281 9.9156999588012695 -140 9.5088996887207031 -139 9 -138.110595703125 8.9117002487182617 -138 8 -137.14920043945312 7.6795001029968271 -137 7 -136.74079895019531 6.0000000000000009 -136.62249755859375 5 -136.65199279785156 4 -136.74380493164062 3.0000000000000004 -136.83979797363281 2 -136.89799499511719 1 -136.88340759277344 0 -136.76080322265625 -1 -136.49229431152344 -2 -136.0487060546875 -2.0815000534057617 -136 -3.0000000000000004 -135.47219848632812 -3.7234001159667969 -135 -4 -134.81790161132812 -5 -134.15890502929688 -5.2582001686096191 -134 -6.0000000000000009 -133.47120666503906 -6.6579999923706064 -133 -7 -132.68589782714844 -7.6838998794555664 -132 -8 -131.61970520019531 -8.4786996841430664 -131 -9 -130.34449768066406 -9.2719001770019531 -130 -10 -129.11619567871094 -10.096699714660645 -129 -10.747699737548828 -128 -10.988100051879883 -127.00000000000001 -10.818900108337402 -126 -10.443300247192383 -125.00000000000001 -10.127900123596191 -124 -10.026700019836426 -123.00000000000001 -10.104900360107422 -122 -10.208399772644043 -121 -10.194800376892092 -119.99999999999999 -10.009499549865723 -119 -10 -118.97170257568359 -9.6894998550415039 -118.00000000000001 -9.3144998550415039 -117 -9 -116.16600036621094 -8.9380998611450195 -116.00000000000001 -8.5647001266479492 -115 -8.1371002197265625 -114.00000000000001 -8 -113.74749755859375 -7.5486998558044434 -113 -7 -112.31790161132812 -6.7083001136779785 -112 -6.0000000000000009 -111.35829925537109 -5.5563998222351074 -111 -5 -110.58670043945312 -4.1493000984191895 -110 -4 -109.89810180664062 -3.0000000000000004 -109.22409820556641 -2.677299976348877 -109 -2 -108.50589752197267 -1.3538999557495117 -108 -1 -107.71479797363281 -0.15379999577999115 -107 0 -106.86620330810548 0.98259997367858898 -106 1 -105.98190307617188 1.9328999519348142 -105.00000000000001 2 -104.88200378417969 2.4927000999450684 -104 2.5722999572753911 -103 2.1853001117706299 -102 2 -101.76609802246094 1.3763999938964844 -101 1 -100.66950225830078 0.24670000374317172 -100 0 -99.821502685546875 -1 -99.021896362304702 -1.0234999656677246 -99 -2 -98.272598266601562 -2.3197999000549316 -98 -3.0000000000000004 -97.55419921875 -3.787100076675415 -97 -4 -96.878997802734375 -5 -96.298896789550781 -5.5267000198364258 -96.000000000000014 -6.0000000000000009 -95.753799438476562 -7 -95.247100830078139 -7.4988999366760254 -95 -8 -94.743301391601562 -9 -94.239601135253906 -9.4857997894287109 -94 -10 -93.726799011230469 -11 -93.22650146484375 -11.484000205993652 -93 -12.000000000000002 -92.745796203613281 -13 -92.292396545410156 -13.675700187683105 -92 -14 -91.851997375488281 -14.999999999999998 -91.421203613281264 -16 -91.036300659179688 -16.124700546264648 -91 -17 -90.733901977539062 -18 -90.579902648925781 -19 -90.578201293945312 -20 -90.695396423339858 -21 -90.894302368164062 -21.408300399780273 -91 -22 -91.163200378417969 -23 -91.490997314453125 -24.000000000000004 -91.857597351074219 -24.372400283813477 -92 -25 -92.281997680664062 -26 -92.760498046875 -26.450399398803711 -93 -26.999999999999996 -93.393096923828125 -27.703399658203125 -94 -28.000000000000004 -94.407302856445312 -28.373399734497074 -95 -28.716199874877926 -96.000000000000014 -28.88800048828125 -97 -28.978000640869144 -98 -29.000000000000004 -98.464401245117188 -29.025699615478516 -99 -29.033199310302738 -100 -29.000000000000004 -100.76139831542969 -28.989400863647461 -101 -28.889600753784183 -102 -28.750999450683594 -103 -28.605499267578125 -104 -28.476699829101562 -105.00000000000001 -28.362600326538086 -106 -28.236299514770511 -107 -28.062200546264648 -108 -28.000000000000004 -108.2615966796875 -27.816200256347656 -109 -27.523799896240238 -110 -27.237499237060547 -111 -27.009300231933594 -112 -26.999999999999996 -112.06870269775391 -26.879199981689453 -113 -26.837099075317386 -114.00000000000001 -26.857900619506839 -115 -26.899299621582031 -116.00000000000001 -26.910100936889648 -117 -26.856300354003906 -118.00000000000001 -26.744100570678711 -119 -26.614700317382816 -119.99999999999999 -26.518600463867191 -121 -26.491899490356445 -122 -26.542499542236328 -123.00000000000001 -26.653299331665039 -124 -26.802099227905273 -125.00000000000001 -26.985799789428711 -126 -26.999999999999996 -126.05809783935548 -27.250900268554684 -127.00000000000001 -27.583799362182617 -128 -27.975700378417969 -129 -28.000000000000004 -129.05450439453125 -28.395599365234375 -130 -28.803499221801758 -131 -29.000000000000004 -131.47109985351562 -29.210300445556641 -132 -29.648700714111332 -133 -29.999999999999996 -133.67849731445312 -30.187599182128906 -134 -30.885799407958984 -135 -31 -135.14349365234375 -31.826900482177738 -136 -32 -136.18130493164062 -32.876399993896484 -137 -33 -137.13470458984375 -33.746700286865234 -138 -34 -138.36729431152344 -34.38600158691407 -139 -34.924800872802734 -140 -35 -140.13670349121094 -35.478000640869141 -141 -36 -141.91160583496094 -36.056301116943359 -142 -36.731899261474609 -143 -37 -143.40310668945312 -37.469799041748047 -144 -38 -144.72500610351562 -38.234298706054688 -145 -38.984699249267578 -146 -39 -146.022705078125 -39.689201354980469 -147 -39.999999999999993 -147.51080322265625 -40.291599273681641 -148 -40.830799102783203 -149 -41 -149.32710266113281 -41.345199584960938 -150 -41.857101440429688 -151 -42 -151.27099609375 -42.387901306152344 -152 -42.921199798583984 -153 -43 -153.15060424804688 -43.428298950195305 -154 -43.876598358154297 -155 -44 -155.32179260253906 -44.239498138427741 -156 -44.520198822021484 -157 -44.726398468017571 -158 -44.865001678466797 -159 -44.944400787353516 -160 -44.972801208496087 -161 -44.958301544189453 -162 -44.907600402832031 -163 -44.824199676513679 -164 -44.707199096679688 -165 -44.549900054931648 -166 -44.340499877929688 -167 -44.064098358154297 -168 -44 -168.18280029296875 -43.698699951171875 -169 -43.234001159667969 -170 -43 -170.41920471191406 -42.650901794433594 -171 -42 -171.91729736328125 -41.933498382568366 -172 -41 -172.97970581054688 -40.975700378417969 -173 -39.999999999999993 -173.681396484375 -39.345699310302734 -174 -39 -174.14639282226562 -38 -174.410400390625 -37 -174.54289245605469 -36 -174.56610107421875 -35 -174.47520446777344 -34 -174.18380737304688 -33.700901031494141 -174 -33 -173.37539672851562 -32.756401062011719 -173 -32.155498504638672 -172 -32 -171.77250671386719 -31.525100708007812 -171 -31 -170.31930541992188 -30.738399505615234 -170 -29.999999999999996 -169.28309631347656 -29.637300491333008 -169 -29.000000000000004 -168.5906982421875 -28.000000000000004 -168.14630126953125 -27.500799179077148 -168 -26.999999999999996 -167.87550354003906 -26 -167.71299743652344 -25 -167.63180541992188 -24.000000000000004 -167.69650268554688 -23.127899169921875 -168 -23 -168.06619262695312 -22.149200439453125 -169 -22 -169.25439453125 -21.682399749755863 -170 -21.371500015258789 -171 -21.180500030517578 -172 -21.18339920043945 -173 -21.48900032043457 -174 -22 -174.73829650878906 -22.24370002746582 -175 -23 -175.564697265625 -23.810199737548828 -176 -24.000000000000004 -176.08700561523438 -25 -176.44020080566406 -26 -176.72889709472656 -26.999999999999996 -176.99749755859375 -27.009700775146484 -177 -28.000000000000004 -177.27609252929688 -29.000000000000004 -177.65010070800781 -29.588600158691406 -178 -29.999999999999996 -178.37150573730469 -30.4193000793457 -179 -30.806200027465817 180 -31 179.19920349121094 -31.037900924682614 179 -31.16939926147462 178 -31.212299346923828 177 -31.167800903320312 176 -31.043699264526367 175 -31 174.78080749511719 -30.844200134277344 174 -30.588600158691406 173 -30.29570007324218 172 -29.999999999999996 171.07989501953125 -29.973100662231445 171 -29.609600067138672 170 -29.226200103759766 169 -29.000000000000004 168.44599914550781 -28.811000823974609 168 -28.380899429321289 167 -28.000000000000004 166.09599304199219 -27.959600448608398 166 -27.575300216674805 165 -27.238700866699222 164 -26.999999999999996 163.17280578613281 -26.947999954223633 163 -26.684000015258789 162 -26.409099578857422 161 -26.081199645996097 160 -26 159.79510498046878 -25.637699127197269 159 -25.089199066162109 158 -25 157.85069274902344 -24.50160026550293 157 -24.000000000000004 156.12539672851562 -23.932399749755859 156 -23.410299301147461 155 -23 154.21279907226562 -22.888299942016602 154 -22.333900451660156 153 -22 152.45399475097656 -21.706100463867188 152 -21 151.02259826660156 -20.982799530029297 151 -20.150100708007812 150 -20 149.83450317382815 -19.21929931640625 149 -19 148.77909851074219 -18.268499374389648 148 -18 147.71400451660156 -17.408700942993164 147 -17 146.47509765625 -16.674400329589844 146 -16.052700042724609 145 -16 144.91029357910156 -15.525500297546387 144 -15.024999618530273 143 -14.999999999999998 142.95640563964844 -14.509900093078615 142 -14 141.1842041015625 -13.890299797058105 141 -13.114899635314941 140 -13 139.87710571289062 -12.110699653625488 139 -12.000000000000002 138.89939880371094 -11 138.09390258789062 -10.87399959564209 138 -10 137.30160522460938 -9.637700080871582 137 -9 136.42050170898438 -8.5471000671386719 136 -8 135.52020263671875 -7.2929000854492179 135 -7 134.81689453125 -6.0000000000000009 134.397705078125 -5 134.21820068359375 -4 134.21539306640625 -3.0000000000000004 134.32090759277344 -2 134.47779846191406 -1 134.65580749511719 0 134.86039733886719 0.5406000018119812 135 1 135.14469909667969 2 135.55389404296875 2.8961000442504883 136 3.0000000000000004 136.06440734863281 4 136.71009826660156 4.4661002159118652 137 5 137.3927001953125 5.9454998970031738 138 6.0000000000000009 138.03970336914062 7 138.66709899902344 7.594900131225585 139 8 139.24420166015625 9 139.83619689941406 9.2589998245239258 140 10 140.5751953125 10.479399681091309 141 11 141.63009643554688 11.265299797058105 142 11.843899726867676 143 12.000000000000002 143.28059387207031 12.373700141906738 144 12.940400123596191 145 13 145.10879516601562 13.444199562072754 146 13.91479969024658 147 14 147.18330383300781 14.344400405883791 148 14.893600463867188 149 14.999999999999998 149.143798828125 15.592900276184084 150 16 150.48680114746094 16.406299591064453 151 17 151.76420593261719 17.172000885009769 152 17.766899108886719 153 18 153.55650329589844 18.171199798583984 154 </gml:posList>
+                                </gml:LineString>
+                            </gml:baseCurve>
+                        </gml:OrientableCurve>
+                    </gpml:value>
+                    <gml:description></gml:description>
+                    <gpml:valueType xmlns:gml="http://www.opengis.net/gml">gml:OrientableCurve</gpml:valueType>
+                </gpml:ConstantValue>
+            </gpml:centerLineOf>
+            <gpml:shapefileAttributes>
+                <gpml:KeyValueDictionary>
+                    <gpml:element>
+                        <gpml:KeyValueDictionaryElement>
+                            <gpml:key>REGION</gpml:key>
+                            <gpml:valueType xmlns:xsi="http://www.w3.org/XMLSchema-instance">xsi:double</gpml:valueType>
+                            <gpml:value>99</gpml:value>
+                        </gpml:KeyValueDictionaryElement>
+                    </gpml:element>
+                    <gpml:element>
+                        <gpml:KeyValueDictionaryElement>
+                            <gpml:key>REFNO</gpml:key>
+                            <gpml:valueType xmlns:xsi="http://www.w3.org/XMLSchema-instance">xsi:double</gpml:valueType>
+                            <gpml:value>99</gpml:value>
+                        </gpml:KeyValueDictionaryElement>
+                    </gpml:element>
+                    <gpml:element>
+                        <gpml:KeyValueDictionaryElement>
+                            <gpml:key>STRNO</gpml:key>
+                            <gpml:valueType xmlns:xsi="http://www.w3.org/XMLSchema-instance">xsi:double</gpml:valueType>
+                            <gpml:value>9999</gpml:value>
+                        </gpml:KeyValueDictionaryElement>
+                    </gpml:element>
+                    <gpml:element>
+                        <gpml:KeyValueDictionaryElement>
+                            <gpml:key>DESCR</gpml:key>
+                            <gpml:valueType xmlns:xsi="http://www.w3.org/XMLSchema-instance">xsi:string</gpml:valueType>
+                            <gpml:value>s10mean (no mean) 2800 km -0.9% dVs  600.0 Ma &lt;identity&gt;Gplates-xxx&lt;/identity&gt;</gpml:value>
+                        </gpml:KeyValueDictionaryElement>
+                    </gpml:element>
+                    <gpml:element>
+                        <gpml:KeyValueDictionaryElement>
+                            <gpml:key>PLATEID1</gpml:key>
+                            <gpml:valueType xmlns:xsi="http://www.w3.org/XMLSchema-instance">xsi:double</gpml:valueType>
+                            <gpml:value>0</gpml:value>
+                        </gpml:KeyValueDictionaryElement>
+                    </gpml:element>
+                    <gpml:element>
+                        <gpml:KeyValueDictionaryElement>
+                            <gpml:key>FROMAGE</gpml:key>
+                            <gpml:valueType xmlns:xsi="http://www.w3.org/XMLSchema-instance">xsi:double</gpml:valueType>
+                            <gpml:value>3000</gpml:value>
+                        </gpml:KeyValueDictionaryElement>
+                    </gpml:element>
+                    <gpml:element>
+                        <gpml:KeyValueDictionaryElement>
+                            <gpml:key>TOAGE</gpml:key>
+                            <gpml:valueType xmlns:xsi="http://www.w3.org/XMLSchema-instance">xsi:double</gpml:valueType>
+                            <gpml:value>0</gpml:value>
+                        </gpml:KeyValueDictionaryElement>
+                    </gpml:element>
+                    <gpml:element>
+                        <gpml:KeyValueDictionaryElement>
+                            <gpml:key>TYPE</gpml:key>
+                            <gpml:valueType xmlns:xsi="http://www.w3.org/XMLSchema-instance">xsi:string</gpml:valueType>
+                            <gpml:value>CO</gpml:value>
+                        </gpml:KeyValueDictionaryElement>
+                    </gpml:element>
+                    <gpml:element>
+                        <gpml:KeyValueDictionaryElement>
+                            <gpml:key>TYPENO</gpml:key>
+                            <gpml:valueType xmlns:xsi="http://www.w3.org/XMLSchema-instance">xsi:double</gpml:valueType>
+                            <gpml:value>0</gpml:value>
+                        </gpml:KeyValueDictionaryElement>
+                    </gpml:element>
+                    <gpml:element>
+                        <gpml:KeyValueDictionaryElement>
+                            <gpml:key>PLATEID2</gpml:key>
+                            <gpml:valueType xmlns:xsi="http://www.w3.org/XMLSchema-instance">xsi:double</gpml:valueType>
+                            <gpml:value>1</gpml:value>
+                        </gpml:KeyValueDictionaryElement>
+                    </gpml:element>
+                    <gpml:element>
+                        <gpml:KeyValueDictionaryElement>
+                            <gpml:key>COLOUR</gpml:key>
+                            <gpml:valueType xmlns:xsi="http://www.w3.org/XMLSchema-instance">xsi:double</gpml:valueType>
+                            <gpml:value>1</gpml:value>
+                        </gpml:KeyValueDictionaryElement>
+                    </gpml:element>
+                    <gpml:element>
+                        <gpml:KeyValueDictionaryElement>
+                            <gpml:key>NPTS</gpml:key>
+                            <gpml:valueType xmlns:xsi="http://www.w3.org/XMLSchema-instance">xsi:double</gpml:valueType>
+                            <gpml:value>473</gpml:value>
+                        </gpml:KeyValueDictionaryElement>
+                    </gpml:element>
+                    <gpml:element>
+                        <gpml:KeyValueDictionaryElement>
+                            <gpml:key>SHP</gpml:key>
+                            <gpml:valueType xmlns:xsi="http://www.w3.org/XMLSchema-instance">xsi:double</gpml:valueType>
+                            <gpml:value>4</gpml:value>
+                        </gpml:KeyValueDictionaryElement>
+                    </gpml:element>
+                </gpml:KeyValueDictionary>
+            </gpml:shapefileAttributes>
+            <gpml:reconstructionPlateId>
+                <gpml:ConstantValue>
+                    <gpml:value>0</gpml:value>
+                    <gml:description></gml:description>
+                    <gpml:valueType xmlns:gpml="http://www.gplates.org/gplates">gpml:plateId</gpml:valueType>
+                </gpml:ConstantValue>
+            </gpml:reconstructionPlateId>
+            <gml:validTime>
+                <gml:TimePeriod>
+                    <gml:begin>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">3000</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:begin>
+                    <gml:end>
+                        <gml:TimeInstant>
+                            <gml:timePosition gml:frame="http://gplates.org/TRS/flat">0</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:end>
+                </gml:TimePeriod>
+            </gml:validTime>
+            <gml:description>s10mean (no mean) 2800 km -0.9% dVs  600.0 Ma &lt;identity&gt;Gplates-xxx&lt;/identity&gt;</gml:description>
+            <gpml:conjugatePlateId>1</gpml:conjugatePlateId>
+        </gpml:PassiveContinentalBoundary>
+    </gml:featureMember>
+</gpml:FeatureCollection>

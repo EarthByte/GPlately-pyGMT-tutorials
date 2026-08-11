@@ -1,0 +1,22 @@
+#
+# Colormap used in the ETOPO1 global relief map:
+# http://ngdc.noaa.gov/mgg/global/global.html
+#
+# Above sea level is a modified version of GMT_globe.cpt,
+# Designed by Lester M. Anderson (CASP, UK) lester.anderson@casp.cam.ac.uk,
+# Modified by Jesse Varner and Elliot Lim (NOAA/NGDC) with a smaller band of white for the highest elevations.
+# The ocean colors are adapted from GMT_haxby.cpt, popularized by Bill Haxby, LDEO
+# COLOR_MODEL = RGB
+
+# 30 58 234  Deep Marine
+# 55 211 255     Shallow Marine
+# 255 255 0      Land
+# 255 165 0  Mountains
+
+-11000	skyblue	-2000	skyblue
+-2000	skyblue	-0.001	skyblue
+-0.001	yellow	1000	yellow
+1000	orange	8500	orange
+F	255	255	255
+B	10	0	121
+N	128	128	128
