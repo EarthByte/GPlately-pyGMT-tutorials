@@ -61,7 +61,7 @@ datasets behind T69–T71. Extract it as `zenodo_data/` at the repo root (see
 archive's own `README.md` and `DATA_INVENTORY.md` for the full manifest,
 provenance, and per-dataset citations.
 
-A handful of other notebooks (T34, T42, T62) need only a small, single-file
+A handful of other notebooks (T34, T41, T62) need only a small, single-file
 rotation model (`data/Zahirovic2022_with_gpmdb_frame.rot`, 2.8 MB) that's
 committed straight to the repo — no Zenodo download required for those.
 
@@ -144,14 +144,21 @@ external methodology or dataset it currently leans on, organised by cluster.
 **Cluster F — Paleomagnetism**
 - Rooted throughout in **PmagPy** (Tauxe, Shaar, Jonestrask et al. 2016,
   *G-cubed* 17(6), 2450–2463).
-- **T43** paleolatitude-via-reverse-reconstruction follows the approach of
+- **T42** paleolatitude-via-reverse-reconstruction follows the approach of
   Kocsis, Raja, Williams & Dowding (2024) and their
   [`rgplates`](https://github.com/GPlates/rgplates) R package.
 
 **Cluster G — Paleo-geography + paleo-topography + thermochronology**
-- **T44** geochemistry-corrected paleo-elevation (Zhou, Farahbakhsh,
+- **T43** geochemistry-corrected paleo-elevation (Zhou, Farahbakhsh,
   Williams, Li, Liu, Li & Müller 2025, *JGR Solid Earth* 130(5),
   e2024JB030404; Zhou et al. 2026, *Geology*).
+- **T44** Macrostrat lithology-styled paleogeologic maps — author-contributed
+  by **Daven Quinn** and **Shanan E. Peters** (University of Wisconsin-Madison),
+  creators of Macrostrat — adapted from their own
+  [UW-Macrostrat / GPlately + pyGMT demo](https://github.com/UW-Macrostrat/gplately-pygmt-demo),
+  following Peters, Husson & Czaplewski (2018, *G-cubed* 19, 1393-1409) and
+  Quinn, Czaplewski, Husson & Peters (2024, *Geoscience Data Journal* 11,
+  597-608).
 - **T46** highland-footprint DBSCAN analysis — author-contributed by
   **Jianping Zhou**, reproducing Fig. 4 of Zhou et al. (2026, *Geology*).
 - **T47, T48–T51** — the ThermoPlates thermochronology-on-paleo-Earth suite,

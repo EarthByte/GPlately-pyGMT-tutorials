@@ -1,5 +1,15 @@
 """Build Figure 1 — the tutorial suite organised by thematic cluster.
 
+Layout 2026-08-11b: T41 (Rotated paleo poles) withdrawn from cluster F as
+a low-value notebook -- moved to Notebooks_extras/, tile removed. T42 and
+T43 renumbered down to T41 and T42 to keep cluster F contiguous (now
+T33-T42, 10 tiles). A new notebook -- Macrostrat stratigraphic columns,
+lithology-styled paleogeologic maps, adapted from the UW-Macrostrat /
+GPlately + pyGMT demo -- takes the freed T44 slot, immediately before the
+existing T45 (Macrostrat Great Unconformity); old T44 (Geochem-corrected
+paleo-elevation) renumbered to T43. Cluster G becomes T43-T52 (10 tiles).
+Net effect: suite total stays at 80 notebooks, T01-T80 fully contiguous.
+
 Layout 2026-08-11: tile-label update only (no renumbering, no cluster
 size change). Cluster J's T69-T71 replaced a second time: the K-Pg
 cGENIE trio (added 2026-08-08) was withdrawn after its paleogeography
@@ -57,9 +67,15 @@ Cluster structure (2026-07-29 resequence, disk-verified):
     E : T26-T32        Mantle dynamics + dynamic topography
                               (T26-T27 REVEAL pair;
                                T32 = mantle-to-plate frame conversion)
-    F : T33-T43        Paleomagnetism (T42 = TPW decomposition)
-    G : T44-T52        Paleo-geography + paleo-topography + thermochronology
-                              (T44-T50 = ThermoPlates suite;
+    F : T33-T42        Paleomagnetism (T41 = TPW decomposition; old T41
+                               "Rotated paleo poles" withdrawn 2026-08-11b)
+    G : T43-T52        Paleo-geography + paleo-topography + thermochronology
+                              (T43 = Geochem-corrected paleo-elevation;
+                               T44 = Macrostrat lithology-styled paleomaps,
+                               added 2026-08-11b, adapted from the
+                               UW-Macrostrat / GPlately + pyGMT demo;
+                               T45 = Macrostrat Great Unconformity;
+                               T46-T50 = ThermoPlates suite;
                                T51 = North American thermochron;
                                T52 = ophiolite paleo-map)
     H : T53-T55        Sedimentary basins (Evenick 2021 global compilation)
@@ -140,12 +156,12 @@ CLUSTERS = [
         ("T38", "Osler" + NL + "1.1 Ga"),
         ("T39", "Phaner." + NL + "APWP on" + NL + "Laurentia"),
         ("T40", "SVEI" + NL + "shallowing"),
-        ("T41", "Rotated" + NL + "poles"),
-        ("T42", "TPW" + NL + "decomp."),
-        ("T43", "Paleolat." + NL + "reverse" + NL + "reconstr."),
+        ("T41", "TPW" + NL + "decomp."),
+        ("T42", "Paleolat." + NL + "reverse" + NL + "reconstr."),
     ]),
     ("G", "Paleo-geography +" + NL + "paleo-topography", "#16A085", [
-        ("T44", "Geochem-" + NL + "corrected" + NL + "paleo-elev"),
+        ("T43", "Geochem-" + NL + "corrected" + NL + "paleo-elev"),
+        ("T44", "Macrostrat" + NL + "lithology" + NL + "styling"),
         ("T45", "Macrostrat" + NL + "Great" + NL + "Unconf."),
         ("T46", "Highland" + NL + "footprints"),
         ("T47", "C. Asia" + NL + "thermo-" + NL + "chron."),
@@ -204,7 +220,7 @@ FS_LABEL  = 9.8
 FS_HEADER = 15.0
 
 # 9 rows for 11 clusters — less material per row so boxes/text can be bigger.
-# Cluster sizes: A(7), B(9), C(4), D(5), E(7), F(11), G(9), H(3), I(6), J(11), K(8)
+# Cluster sizes: A(7), B(9), C(4), D(5), E(7), F(10), G(10), H(3), I(6), J(11), K(8)
 ROWS = [
     ["A"],               # A(7) alone
     ["B"],               # B(9) alone

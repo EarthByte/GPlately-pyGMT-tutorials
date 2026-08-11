@@ -127,7 +127,15 @@ If you're new to plate reconstructions in Python, a good entry sequence is:
 ## Themes
 
 The suite is organised into **11 thematic clusters, A-K**, fully contiguous as
-of the **2026-07-30 T63 addition** (which folded in Ehsan Farahbakhsh's kinematic-
+of the **2026-08-11 T41 withdrawal + Macrostrat T44 addition** (T41 "Rotated
+paleo poles" was withdrawn to `Notebooks_extras/` as a low-value notebook;
+T42 and T43 renumbered down to T41 and T42 to keep cluster F contiguous
+(now T33-T42); a new notebook, "Macrostrat stratigraphic columns:
+lithology-styled paleogeologic maps" -- adapted from the UW-Macrostrat /
+GPlately + pyGMT demo -- took the freed T44 slot immediately before the
+existing T45, extending cluster G to T43-T52. Net effect: suite total
+stays at 80 notebooks. Before that, fully contiguous as of the
+**2026-07-30 T63 addition** (which folded in Ehsan Farahbakhsh's kinematic-
 feature-extraction notebook as T15, cluster B, on 2026-07-27; moved T72
 "Carbonate-platform arc degassing" from cluster K into cluster J on 2026-07-28,
 since it is a paleoclimate-forcing notebook rather than a mineral-prospectivity
@@ -165,19 +173,22 @@ inside each notebook for the authoritative cluster assignment.
   transects, clustering of plate-frame dynamic-topography histories,
   dynamic-topography vs sediment flux, dynamic-topography change rate through
   deep time, and the mantle-to-plate frame conversion walkthrough.
-- **Cluster F — Paleomagnetism (T33-T43).** Building a paleomagnetic reference
+- **Cluster F — Paleomagnetism (T33-T42).** Building a paleomagnetic reference
   frame from GPMDB, comparing alternative reference frames, plate-mantle
   reference-frame uncertainty, continent rotation with GPlately, predicted vs
   observed paleomagnetic directions, single-key-pole case studies, full
   Phanerozoic apparent polar wander, inclination-shallowing corrections, pole
   rotation utilities, true polar wander decomposition, paleolatitude via
   reverse reconstruction.
-- **Cluster G — Paleo-geography + paleo-topography (T44-T52).**
-  Geochemistry-corrected paleo-elevation, Macrostrat sedimentary units in
-  paleo-position, highland-footprint detection in deep time, ophiolite
-  emplacement, and the full ThermoPlates suite of thermochronology-on-paleo-Earth
-  workflows (cooling rates on Earth-system overlays, against plate kinematics
-  and fault databases, and as correlation/time-series analyses).
+- **Cluster G — Paleo-geography + paleo-topography (T43-T52).**
+  Geochemistry-corrected paleo-elevation, Macrostrat stratigraphic columns
+  progressively styled by lithology (flat API colour, mixed-lithology colour
+  blending, GMT pattern fills — adapted from the UW-Macrostrat / GPlately +
+  pyGMT demo), Macrostrat sedimentary units in paleo-position, highland-footprint
+  detection in deep time, ophiolite emplacement, and the full ThermoPlates
+  suite of thermochronology-on-paleo-Earth workflows (cooling rates on
+  Earth-system overlays, against plate kinematics and fault databases, and
+  as correlation/time-series analyses).
 - **Cluster H — Sedimentary basins (T53-T55).** Evenick (2021) global
   sedimentary-basin compilation: basin inventory + thickness + paleogeographic
   reconstruction, crustal stretching factor (β), individual rift-basin
