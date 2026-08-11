@@ -5,7 +5,7 @@ notebooks in `Notebooks/`) that's too large, or licensed separately, to
 bundle on GitHub. It does not ship in the git repo (gitignored except
 this README) — download it from Zenodo instead:
 
-**Zenodo DOI: [10.5281/zenodo.21664075](https://doi.org/10.5281/zenodo.21664075)**
+**Zenodo DOI: [10.5281/zenodo.21836196](https://doi.org/10.5281/zenodo.21836196)**
 
 ## How to use this archive
 
@@ -30,7 +30,6 @@ GPlately-pyGMT_tutorials/
     ├── thermochronology_precomputed_cache_CentralAsia/
     ├── thermochronology_faults_Boone/
     ├── thermochronology_geochronology_USGS_NorthAmerica/
-    ├── ICONS_sedimentary_basins_Heine/
     ├── sediment_thickness_BirdMooney/
     └── crustal_thickness_Afonso/
 ```
@@ -61,7 +60,6 @@ the expected path.
 | `thermochronology_faults_Boone_core.zip` | `thermochronology_faults_Boone/` | 145 MB | T49 |
 | `AFEAD_faults_Boone.zip` | `thermochronology_faults_Boone/` (same folder as above) | 1.8 GB | T49 |
 | `thermochronology_geochronology_USGS_NorthAmerica.zip` | `thermochronology_geochronology_USGS_NorthAmerica/` | 192 KB | T51 |
-| `ICONS_sedimentary_basins_Heine.zip` | `ICONS_sedimentary_basins_Heine/` | 9.1 MB | T53, T54, T55 |
 | `sediment_thickness_BirdMooney.zip` | `sediment_thickness_BirdMooney/` | 9.1 MB | T53, T55 |
 | `crustal_thickness_Afonso.zip` | `crustal_thickness_Afonso/` | 3.1 MB | T53, T54, T55 |
 
@@ -169,11 +167,6 @@ files (both required by T49) — extract both into the same
 - **Source:** Hillenbrand et al. (2023, rev. 2025), USGS Geochron v4.0
   — DOI 10.5066/P9RZNPIF (public domain).
 
-### ICONS_sedimentary_basins_Heine
-- **Used by:** T53, T54, T55
-- **Contents:** `BasinsMay2012.shp` (+ sidecar files) — Heine (2007)
-  ICONS Atlas, 870 sedimentary basins.
-
 ### sediment_thickness_BirdMooney
 - **Used by:** T53, T55
 - **Contents:** `Bird_Mooney_GST14_WGS84.nc` — 0.125° global sediment
@@ -185,3 +178,12 @@ files (both required by T49) — extract both into the same
 - **Contents:** `crustal-thickness-gmt-surface.nc` — 0.25° global
   crustal thickness.
 - **Source:** Afonso et al. (2019).
+
+**Note on basin polygons (T53/T54/T55):** these three notebooks also load
+a global basin-polygon shapefile, but it is NOT part of this Zenodo
+archive — it's `data/evenick_2021_basins/` (Evenick 2021, CC BY-NC-ND
+4.0), small enough to ship directly in the git repo. See
+`data/evenick_2021_basins/README.md`. (An earlier version of this
+archive staged a Heine/ICONS Atlas basin shapefile here; it was dropped
+because its redistribution rights could not be verified — see
+`CHANGELOG.md` in the main repo.)

@@ -212,8 +212,8 @@ data/Young2022_dynamic_topo/
 data/gld428-MantleFrame-0-250Ma.zip
 data/gld428_mantle_frame_grids.zip
 
-# === T75/T76/T77 ICONS Atlas + Bird&Mooney + Afonso (Zenodo) ===
-data/basins_icons_heine/
+# === T53/T54/T55 Bird&Mooney + Afonso (Zenodo) — basin polygons are now
+# data/evenick_2021_basins/, git-tracked directly, not gitignored ===
 data/sediment_thickness_bird_mooney/
 data/crustal_thickness_afonso/
 
@@ -224,3 +224,4 @@ data/crustal_thickness_afonso/
 /Notebook_corrections/
 /_backups/
 /_to_delete/
+**/_to_delete/

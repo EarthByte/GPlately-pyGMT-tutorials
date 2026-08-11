@@ -178,8 +178,8 @@ inside each notebook for the authoritative cluster assignment.
   emplacement, and the full ThermoPlates suite of thermochronology-on-paleo-Earth
   workflows (cooling rates on Earth-system overlays, against plate kinematics
   and fault databases, and as correlation/time-series analyses).
-- **Cluster H — Sedimentary basins (T53-T55).** Christian Heine's ICONS Atlas:
-  global sedimentary-basin inventory + thickness + paleogeographic
+- **Cluster H — Sedimentary basins (T53-T55).** Evenick (2021) global
+  sedimentary-basin compilation: basin inventory + thickness + paleogeographic
   reconstruction, crustal stretching factor (β), individual rift-basin
   syn-rift/post-rift analysis.
 - **Cluster I — Paleo-biogeography (T56-T61).** Paleobiology Database ×
@@ -193,10 +193,11 @@ inside each notebook for the authoritative cluster assignment.
   community contribution), deep-time paleoclimate model snapshots
   regridded onto reconstructed coastlines, model-vs-proxy SST comparisons,
   end-Permian CO2-sensitivity ensembles, full-Phanerozoic biogeochemistry,
-  reference-frame uncertainty in reconstructed paleoclimate, ocean-gateway
-  timing through frames, multi-study GMST comparison, proxy validation of
-  reference-frame choice, and (T72) continental-arc CO2 degassing driven by
-  subducted carbonate-platform decarbonation.
+  reference-frame uncertainty in reconstructed paleoclimate, a K-Pg
+  (Chicxulub impact) cGENIE trio -- ocean biogeochemistry collapse, plankton
+  trait-based extinction selectivity, and fossil-record extinction
+  selectivity tested against the model -- and (T72) continental-arc CO2
+  degassing driven by subducted carbonate-platform decarbonation.
 - **Cluster K — Mineral exploration (T73-T80).** SW-Pacific porphyry-Cu-Au
   paleo-prospectivity, global porphyry kinematics envelope, seafloor age-grid
   anomalies as porphyry-Cu predictors, sediment-hosted Cu deposits, deep-time

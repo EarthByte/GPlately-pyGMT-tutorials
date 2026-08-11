@@ -1,5 +1,14 @@
 """Build Figure 1 — the tutorial suite organised by thematic cluster.
 
+Layout 2026-08-08: tile-label update only (no renumbering, no cluster
+size change). Cluster J's T69-T71 were replaced: co-author Jonathon
+Leonard objected to the original T69-T71 (all downstream of the
+Leonard 2025 reference-frame archive T68 also draws on) and asked for
+them to be removed; T68 itself was not objected to and is unchanged.
+Replaced with a K-Pg (Chicxulub impact) cGENIE trio: T69 ocean
+biogeochemistry collapse, T70 plankton trait-based extinction
+selectivity, T71 fossil-record extinction selectivity vs the model.
+
 Layout 2026-07-30: **80 notebooks across 11 clusters (A-K), fully contiguous**.
 New T63 (Reconstructing plant-fossil occurrences and Early Triassic
 super-greenhouse climate; Xu & Mills community contribution) was inserted
@@ -39,10 +48,13 @@ Cluster structure (2026-07-29 resequence, disk-verified):
                               (T44-T50 = ThermoPlates suite;
                                T51 = North American thermochron;
                                T52 = ophiolite paleo-map)
-    H : T53-T55        Sedimentary basins (Heine ICONS Atlas trio)
+    H : T53-T55        Sedimentary basins (Evenick 2021 global compilation)
     I : T56-T61        Paleobiogeography
     J : T62-T72        Paleoclimate (T63 = plant-fossil paleoclimate, Xu/Mills;
-                               T64-T71 = Leonard 2025 quartet + others;
+                               T68 = Leonard 2025 reference-frame paleoclimate
+                               (sole survivor of the former T68-T71 quartet);
+                               T69-T71 = K-Pg cGENIE trio, replaced 2026-08-08
+                               after co-author objection to the prior trio;
                                T72 = carbonate-platform arc degassing,
                                reclassified from cluster K 2026-07-28)
     K : T73-T80        Mineral exploration
@@ -127,7 +139,7 @@ CLUSTERS = [
         ("T52", "Ophiolite" + NL + "paleo-map"),
     ]),
     ("H", "Sedimentary basins", "#8E44AD", [
-        ("T53", "Global" + NL + "basins" + NL + "ICONS"),
+        ("T53", "Global" + NL + "basins" + NL + "inventory"),
         ("T54", "Crustal" + NL + "stretching" + NL + "factor β"),
         ("T55", "Individual" + NL + "rift" + NL + "analysis"),
     ]),
@@ -147,9 +159,9 @@ CLUSTERS = [
         ("T66", "PLASIM" + NL + "CO2" + NL + "sensitivity"),
         ("T67", "pySCION" + NL + "Phanerozoic"),
         ("T68", "Ref-frame" + NL + "paleoclim."),
-        ("T69", "Ocean" + NL + "gateways" + NL + "vs frame"),
-        ("T70", "Multi-study" + NL + "GMST"),
-        ("T71", "Proxy" + NL + "validation" + NL + "of frames"),
+        ("T69", "K-Pg" + NL + "biogeochem." + NL + "collapse"),
+        ("T70", "K-Pg" + NL + "plankton" + NL + "selectivity"),
+        ("T71", "K-Pg" + NL + "fossil" + NL + "selectivity"),
         ("T72", "Carbonate" + NL + "platform" + NL + "degassing"),
     ]),
     ("K", "Mineral exploration", "#7D6608", [

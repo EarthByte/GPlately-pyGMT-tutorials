@@ -28,7 +28,7 @@ cd GPlately-pyGMT-tutorials
 
 # 2. Get the large-data companion archive (~12 GB) from Zenodo
 #    (only needed for ~10 of the 72 notebooks — see below)
-wget https://zenodo.org/records/<ID>/files/GPlately-pyGMT-tutorial-data-v1.zip
+wget https://zenodo.org/records/21836196/files/GPlately-pyGMT-tutorial-data-v1.zip
 unzip GPlately-pyGMT-tutorial-data-v1.zip
 rsync -av GPlately-pyGMT-tutorial-data/data/ ./data/
 
@@ -50,7 +50,7 @@ tabular datasets, palette files) or auto-fetched at runtime via
 **~10 notebooks** in the thermochronology + mantle-dynamics clusters lean on
 larger datasets that would push the repo past 100 MB per file / into the
 multi-GB range on disk. Those datasets ship in a single **Zenodo companion
-archive** at DOI [10.5281/zenodo.XXXXXXX](https://doi.org/10.5281/zenodo.XXXXXXX)
+archive** at DOI [10.5281/zenodo.21836196](https://doi.org/10.5281/zenodo.21836196)
 (~12 GB compressed): AFEAD + GEM fault databases, gmcm9 dynamic topography,
 Dhungana + Flament mantle temperature/velocity fields, and per-continent
 thermochronology compilations. See the archive's `README.md` and

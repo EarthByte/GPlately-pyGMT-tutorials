@@ -40,7 +40,7 @@ from __future__ import annotations
 import os
 from pathlib import Path
 
-ZENODO_DOI = "https://doi.org/10.5281/zenodo.21664075"
+ZENODO_DOI = "https://doi.org/10.5281/zenodo.21836196"
 
 
 def _repo_root() -> Path:
