@@ -1,5 +1,19 @@
 """Build Figure 1 — the tutorial suite organised by thematic cluster.
 
+Layout 2026-08-11: tile-label update only (no renumbering, no cluster
+size change). Cluster J's T69-T71 replaced a second time: the K-Pg
+cGENIE trio (added 2026-08-08) was withdrawn after its paleogeography
+was traced to Markwick & Valdes (2004), not a `gplately`-reconstructable
+plate model -- GPlately's role in those three notebooks was either
+decorative or, for T71, actively inconsistent with the underlying data
+grid. Replaced with three notebooks on verified, load-bearing GPlately
+usage on a published plate model: T69 Devonian paleogeography and
+climatology (FOAM/cGENIE, Scotese & Wright 2018), T70 PhanSST deep-time
+SST proxy reconstruction (Scotese & Wright 2018, the exact model the
+database's own authors used), T71 Cenozoic ocean gateways (Straume et
+al. 2020 paleobathymetry cross-checked against Seton et al. 2012
+plate-boundary reconstruction).
+
 Layout 2026-08-08: tile-label update only (no renumbering, no cluster
 size change). Cluster J's T69-T71 were replaced: co-author Jonathon
 Leonard objected to the original T69-T71 (all downstream of the
@@ -53,8 +67,11 @@ Cluster structure (2026-07-29 resequence, disk-verified):
     J : T62-T72        Paleoclimate (T63 = plant-fossil paleoclimate, Xu/Mills;
                                T68 = Leonard 2025 reference-frame paleoclimate
                                (sole survivor of the former T68-T71 quartet);
-                               T69-T71 = K-Pg cGENIE trio, replaced 2026-08-08
-                               after co-author objection to the prior trio;
+                               T69-T71 = Devonian paleogeography/climatology,
+                               PhanSST SST proxies, Cenozoic ocean gateways
+                               (replaced 2026-08-11 -- superseded a K-Pg
+                               cGENIE trio whose paleogeography turned out
+                               to not be gplately-reconstructable);
                                T72 = carbonate-platform arc degassing,
                                reclassified from cluster K 2026-07-28)
     K : T73-T80        Mineral exploration
@@ -159,9 +176,9 @@ CLUSTERS = [
         ("T66", "PLASIM" + NL + "CO2" + NL + "sensitivity"),
         ("T67", "pySCION" + NL + "Phanerozoic"),
         ("T68", "Ref-frame" + NL + "paleoclim."),
-        ("T69", "K-Pg" + NL + "biogeochem." + NL + "collapse"),
-        ("T70", "K-Pg" + NL + "plankton" + NL + "selectivity"),
-        ("T71", "K-Pg" + NL + "fossil" + NL + "selectivity"),
+        ("T69", "Devonian" + NL + "paleogeog." + NL + "+ climate"),
+        ("T70", "PhanSST" + NL + "SST" + NL + "proxies"),
+        ("T71", "Cenozoic" + NL + "ocean" + NL + "gateways"),
         ("T72", "Carbonate" + NL + "platform" + NL + "degassing"),
     ]),
     ("K", "Mineral exploration", "#7D6608", [

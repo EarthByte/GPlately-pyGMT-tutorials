@@ -193,11 +193,14 @@ inside each notebook for the authoritative cluster assignment.
   community contribution), deep-time paleoclimate model snapshots
   regridded onto reconstructed coastlines, model-vs-proxy SST comparisons,
   end-Permian CO2-sensitivity ensembles, full-Phanerozoic biogeochemistry,
-  reference-frame uncertainty in reconstructed paleoclimate, a K-Pg
-  (Chicxulub impact) cGENIE trio -- ocean biogeochemistry collapse, plankton
-  trait-based extinction selectivity, and fossil-record extinction
-  selectivity tested against the model -- and (T72) continental-arc CO2
-  degassing driven by subducted carbonate-platform decarbonation.
+  reference-frame uncertainty in reconstructed paleoclimate, Devonian
+  paleogeography and climatology (FOAM GCM on Scotese & Wright 2018),
+  deep-time SST proxy reconstruction (PhanSST, verified against the
+  database's own published paleo-coordinate method), Cenozoic ocean-gateway
+  bathymetry cross-checked against independently reconstructed plate
+  boundaries (Fram Strait, Greenland-Scotland Ridge, Central American
+  Seaway, Tethyan Seaway) -- and (T72) continental-arc CO2 degassing driven
+  by subducted carbonate-platform decarbonation.
 - **Cluster K — Mineral exploration (T73-T80).** SW-Pacific porphyry-Cu-Au
   paleo-prospectivity, global porphyry kinematics envelope, seafloor age-grid
   anomalies as porphyry-Cu predictors, sediment-hosted Cu deposits, deep-time

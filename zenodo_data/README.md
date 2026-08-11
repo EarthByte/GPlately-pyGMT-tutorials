@@ -31,7 +31,10 @@ GPlately-pyGMT_tutorials/
     ├── thermochronology_faults_Boone/
     ├── thermochronology_geochronology_USGS_NorthAmerica/
     ├── sediment_thickness_BirdMooney/
-    └── crustal_thickness_Afonso/
+    ├── crustal_thickness_Afonso/
+    ├── foam_devonian_climatology_Pohl/
+    ├── phansst_proxy_database_Judd2022/
+    └── gateway_reconstruction_Straume2020/
 ```
 
 Every folder name follows the same pattern — `<what it is>_<who made
@@ -50,7 +53,7 @@ the expected path.
 |---|---|---|---|
 | `zircon_geochronology_Wu2023.zip` | `zircon_geochronology_Wu2023/` | 2.1 MB | T21, T22, T23, T24 |
 | `REVEAL_mantle_tomography.zip` | `REVEAL_mantle_tomography/` | 225 MB | T27 |
-| `paleoDEM_ScoteseWright2018.zip` | `paleoDEM_ScoteseWright2018/` | 4.1 MB | T47, T67 |
+| `paleoDEM_ScoteseWright2018.zip` | `paleoDEM_ScoteseWright2018/` | 4.1 MB | T47, T67, T69 |
 | `pySCION_biogeochemistry_model.zip` | `pySCION_biogeochemistry_model/` | 12 MB | T67 |
 | `dynamic_topography_Dhungana.zip` | `dynamic_topography_Dhungana/` | 449 MB | T28, T29, T30 |
 | `dynamic_topography_Young2022.zip` | `dynamic_topography_Young2022/` | 193 MB | T31, T32, T51 |
@@ -62,6 +65,9 @@ the expected path.
 | `thermochronology_geochronology_USGS_NorthAmerica.zip` | `thermochronology_geochronology_USGS_NorthAmerica/` | 192 KB | T51 |
 | `sediment_thickness_BirdMooney.zip` | `sediment_thickness_BirdMooney/` | 9.1 MB | T53, T55 |
 | `crustal_thickness_Afonso.zip` | `crustal_thickness_Afonso/` | 3.1 MB | T53, T54, T55 |
+| `foam_devonian_climatology_Pohl.zip` | `foam_devonian_climatology_Pohl/` | 578 MB | T69 |
+| `phansst_proxy_database_Judd2022.zip` | `phansst_proxy_database_Judd2022/` | 41 MB | T70 |
+| `gateway_reconstruction_Straume2020.zip` | `gateway_reconstruction_Straume2020/` | 241 MB | T71 |
 
 `thermochronology_faults_Boone` is the one dataset split across two zip
 files (both required by T49) — extract both into the same
@@ -88,13 +94,16 @@ files (both required by T49) — extract both into the same
   smaller product from the same model; do not confuse the two).
 
 ### paleoDEM_ScoteseWright2018
-- **Used by:** T47, T67 (T51 instead uses the smaller, already
+- **Used by:** T47, T67, T69 (T51 instead uses the smaller, already
   git-bundled `data/paleotopo_scotese/corrected_SW/` — no download
   needed for T51)
 - **Contents:** all 109 Scotese & Wright (2018) PaleoDEM `.nc` grids,
-  1-degree resolution, full 0–540 Ma.
+  1-degree resolution, full 0–540 Ma, single `z` variable (elevation, m;
+  negative = submerged), already in the paleo (reconstructed) reference
+  frame. T69 uses just the two grids at 420 Ma and 360 Ma.
 - **Source:** Scotese, C.R. & Wright, N.M. (2018). PaleoDEM resource.
-  https://www.earthbyte.org/paleodem-resource-scotese-and-wright-2018/
+  https://www.earthbyte.org/paleodem-resource-scotese-and-wright-2018/.
+  Archived at https://doi.org/10.5281/zenodo.5460860
 
 ### pySCION_biogeochemistry_model
 - **Used by:** T67
@@ -178,6 +187,54 @@ files (both required by T49) — extract both into the same
 - **Contents:** `crustal-thickness-gmt-surface.nc` — 0.25° global
   crustal thickness.
 - **Source:** Afonso et al. (2019).
+
+### foam_devonian_climatology_Pohl
+- **Used by:** T69
+- **Contents:** 8 NetCDF files, `{360,380,400,420}rd_1368W_EccN_{atmos,ocean}_2240ppm.nc`
+  — FOAM GCM Devonian climatology at 420 Ma and 360 Ma. Atmosphere files
+  include `TS1` (K, surface air temperature), `T`/`U`/`V`/`Z3`
+  (time=12, lev=18, lat=40, lon=48). Ocean files include `TEMP` (°C, sea
+  surface temperature), `S`/`U`/`V`/`W` (time=12, lev=24, lat=128, lon=128;
+  `lev` is depth in metres, index -1 = shallowest). Subset of a much larger
+  archive (102 files, 4.9 GB, full 0-540 Ma coverage at 20 Myr steps) — only
+  the 8 files at 360/380/400/420 Ma are bundled here.
+- **Source:** Pohl, A. (2021). *Phanerozoic global climatic fields simulated
+  using the FOAM ocean-atmosphere general circulation model* [Data set].
+  Zenodo. https://doi.org/10.5281/zenodo.5780097, CC BY 4.0. This is the
+  literal upstream boundary-condition input to the cGENIE Devonian/
+  Carboniferous ocean-oxygenation config family (Pohl et al. 2022, *Nature*
+  608, 523-527, https://doi.org/10.1038/s41586-022-05018-z).
+- **To obtain locally:** download the 8 files named above from
+  https://zenodo.org/records/5780097 and place them directly in this
+  folder — each individual file is available for direct download from the
+  record page (no need to fetch the full 4.9 GB archive). Too large to
+  transfer via the device bridge's per-file cap (files up to 124 MB each).
+
+### phansst_proxy_database_Judd2022
+- **Used by:** T70
+- **Contents:** `PhanSST_v001.csv` (150,691 rows, 55 columns, 1,241 unique
+  site names, full Phanerozoic 540 Ma-present) + `PhanSST_ReadMe.md`.
+- **Source:** Judd, E.J., Tierney, J.E. et al. (2022). The PhanSST global
+  database of Phanerozoic sea surface temperature proxy data. *Scientific
+  Data* 9, 753. https://doi.org/10.1038/s41597-022-01826-0. The exact
+  `PhanSST_v001.csv` used here ships inside the author's GitHub repo
+  (https://github.com/EJJudd/PhanSST) and its Zenodo snapshot, v0.0.1-beta,
+  https://doi.org/10.5281/zenodo.7275402 (concept DOI, always resolves to
+  the latest archived version: https://doi.org/10.5281/zenodo.7049233), CC
+  BY 4.0.
+
+### gateway_reconstruction_Straume2020
+- **Used by:** T71
+- **Contents:** 15 NetCDF files, `paleobathy-topo_{1,5,10,15,20,25,30,34,
+  35,40,45,50,55,60,65}.00Ma_Straume_et_al.nc`, each a single `z` variable
+  (paleobathymetry/topography, m; negative = below sea level) on a 0.1°
+  global grid (lat: 1801, lon: 3601), already expressed in the paleo
+  (reconstructed) reference frame.
+- **Source:** Straume, E.O., Gaina, C., Medvedev, S. et al. (2020). Global
+  Cenozoic paleobathymetry with a focus on the Northern Hemisphere oceanic
+  gateways. *Global and Planetary Change* 194, 103297.
+  https://doi.org/10.1016/j.gloplacha.2020.103297. Data (v2.0) archived at
+  https://doi.org/10.5281/zenodo.4193576, CC BY 4.0.
 
 **Note on basin polygons (T53/T54/T55):** these three notebooks also load
 a global basin-polygon shapefile, but it is NOT part of this Zenodo
