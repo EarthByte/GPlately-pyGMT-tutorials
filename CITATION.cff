@@ -1,0 +1,130 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the accompanying paper and this repository."
+title: "Extending pyGMT into Deep Time via GPlately"
+abstract: >-
+  An open, reproducible tutorial suite of eighty Jupyter notebooks that couples
+  GPlately plate-tectonic reconstructions with pyGMT publication-quality maps,
+  charts, and scientific plots. The suite is organised into eleven thematic
+  clusters -- foundational paleo-Earth cartography; plate kinematics and
+  tectonics; plate-model quality-control diagnostics; zircon-based tectonic-
+  setting analyses; mantle dynamics and dynamic topography; paleomagnetism;
+  paleo-geography, paleo-topography and thermochronology; sedimentary-basin
+  architecture; paleo-biogeography; paleoclimate; and reconstruction-driven
+  exploration for Earth resources -- and progresses within each cluster from an
+  introductory single-concept example to a research-grade workflow. The suite
+  executes on a laptop, ships with executed outputs preserved for instant visual
+  feedback on GitHub, and is accompanied by per-notebook learning objectives,
+  references, and an "Extend this" section. Nine of the eighty notebooks
+  additionally depend on a large companion data archive distributed separately
+  via Zenodo.
+type: software
+license: BSD-3-Clause
+version: "1.0.0"
+date-released: "2026-08-11"
+repository-code: "https://github.com/EarthByte/GPlately-pyGMT-tutorials"
+url: "https://github.com/EarthByte/GPlately-pyGMT-tutorials"
+keywords:
+  - plate tectonics
+  - paleogeography
+  - GPlates
+  - GPlately
+  - pyGMT
+  - Generic Mapping Tools
+  - paleoclimate
+  - paleomagnetism
+  - deep time
+  - Jupyter notebooks
+  - geoscience
+  - Python
+authors:
+  - family-names: Müller
+    given-names: "R. Dietmar"
+    affiliation: "EarthByte Group, School of Geosciences, The University of Sydney, NSW 2006, Australia"
+  - family-names: Williams
+    given-names: "Simon E."
+    affiliation: "Institute for Marine and Antarctic Studies, University of Tasmania, Hobart, TAS 7001, Australia"
+  - family-names: Merdith
+    given-names: "Andrew"
+    affiliation: "Department of Earth Sciences, Adelaide University, SA 5005, Australia"
+  - family-names: Leonard
+    given-names: "Jonathon"
+    affiliation: "EarthByte Group, School of Geosciences, The University of Sydney, NSW 2006, Australia"
+  - family-names: Boone
+    given-names: "Samuel C."
+    affiliation: "EarthByte Group, School of Geosciences, The University of Sydney, NSW 2006, Australia"
+  - family-names: Zhou
+    given-names: "Jianping"
+    affiliation: "Frontiers Science Center for Deep Ocean Multispheres and Earth System, Key Lab of Submarine Geosciences and Prospecting Techniques (MOE), College of Marine Geosciences, Ocean University of China, Qingdao, China; Laoshan Laboratory, Laboratory for Marine Mineral Resources, Qingdao Marine Science and Technology Center, Qingdao, China"
+  - family-names: Mather
+    given-names: "Ben R."
+    affiliation: "School of Geography, Earth and Atmospheric Sciences, The University of Melbourne, VIC 3010, Australia"
+  - family-names: Farahbakhsh
+    given-names: "Ehsan"
+    affiliation: "EarthByte Group, School of Geosciences, The University of Sydney, NSW 2006, Australia"
+  - family-names: Heine
+    given-names: "Christian"
+    affiliation: "EarthByte Group, School of Geosciences, The University of Sydney, NSW 2006, Australia"
+  - family-names: Brune
+    given-names: "Sascha"
+    affiliation: "GFZ Helmholtz Centre for Geosciences, Potsdam, Germany"
+  - family-names: Flament
+    given-names: "Nicolas"
+    affiliation: "School of Earth, Atmospheric and Life Sciences, University of Wollongong, NSW 2522, Australia"
+  - family-names: Dhungana
+    given-names: "Santosh"
+    affiliation: "School of Earth, Atmospheric and Life Sciences, University of Wollongong, NSW 2522, Australia"
+  - family-names: Fichtner
+    given-names: "Andreas"
+    affiliation: "Department of Earth and Planetary Sciences, ETH Zürich, 8092 Zürich, Switzerland"
+  - family-names: Quinn
+    given-names: "Daven"
+    affiliation: "Department of Geoscience, University of Wisconsin-Madison, Madison, WI 53706, USA"
+  - family-names: Peters
+    given-names: "Shanan E."
+    affiliation: "Department of Geoscience, University of Wisconsin-Madison, Madison, WI 53706, USA"
+  - family-names: Kocsis
+    given-names: "Ádám T."
+    affiliation: "GeoZentrum Nordbayern, Friedrich-Alexander-Universität Erlangen-Nürnberg, 91054 Erlangen, Germany"
+  - family-names: Xu
+    given-names: "Zhen"
+    affiliation: "School of Earth and Environment, University of Leeds, Leeds LS2 9JT, United Kingdom"
+  - family-names: Mills
+    given-names: "Benjamin J.W."
+    affiliation: "School of Earth and Environment, University of Leeds, Leeds LS2 9JT, United Kingdom"
+  - family-names: Singh
+    given-names: "Utpal"
+    affiliation: "EarthByte Group, School of Geosciences, The University of Sydney, NSW 2006, Australia; Geonome, Sydney, NSW, Australia"
+  - family-names: Singh
+    given-names: "Satyam"
+    affiliation: "Geonome, Sydney, NSW, Australia"
+  - family-names: Shirmard
+    given-names: "Hojat"
+    affiliation: "EarthByte Group, School of Geosciences, The University of Sydney, NSW 2006, Australia"
+  - family-names: Jian
+    given-names: "Dongchuan"
+    affiliation: "State Key Laboratory of Continental Evolution and Early Life, NWU-HKU Joint Center of Earth and Planetary Sciences, Department of Geology, Northwest University, Xi'an, China"
+  - family-names: Vaes
+    given-names: "Bram"
+    affiliation: "Department of Earth and Environmental Sciences, University of Milano-Bicocca, Milan, Italy"
+  - family-names: Davies
+    given-names: "D. Rhodri"
+    affiliation: "Research School of Earth Sciences, Australian National University, Canberra, ACT 2601, Australia"
+  - family-names: Ghelichkhan
+    given-names: "Sia"
+    affiliation: "Research School of Earth Sciences, Australian National University, Canberra, ACT 2601, Australia"
+  - family-names: Wright
+    given-names: "Nicky M."
+    affiliation: "EarthByte Group, School of Geosciences, The University of Sydney, NSW 2006, Australia"
+  - family-names: Qin
+    given-names: "Xiaodong"
+    affiliation: "EarthByte Group, School of Geosciences, The University of Sydney, NSW 2006, Australia"
+  - family-names: Cannon
+    given-names: "John"
+    affiliation: "EarthByte Group, School of Geosciences, The University of Sydney, NSW 2006, Australia"
+references:
+  - type: dataset
+    title: "GPlately-pyGMT-tutorial-data-v1 (companion large-data archive)"
+    doi: "10.5281/zenodo.21836196"
+    url: "https://zenodo.org/records/21836196"
+# A Zenodo DOI for this software will be added on first GitHub release (replace the placeholder below):
+# doi: 10.5281/zenodo.XXXXXXX

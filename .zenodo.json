@@ -1,0 +1,143 @@
+{
+  "title": "Extending pyGMT into Deep Time via GPlately",
+  "version": "1.0.0",
+  "upload_type": "software",
+  "license": "BSD-3-Clause",
+  "access_right": "open",
+  "description": "An open, reproducible tutorial suite of eighty Jupyter notebooks that couples GPlately plate-tectonic reconstructions with pyGMT publication-quality maps, charts, and scientific plots. The suite is organised into eleven thematic clusters -- foundational paleo-Earth cartography; plate kinematics and tectonics; plate-model quality-control diagnostics; zircon-based tectonic-setting analyses; mantle dynamics and dynamic topography; paleomagnetism; paleo-geography, paleo-topography and thermochronology; sedimentary-basin architecture; paleo-biogeography; paleoclimate; and reconstruction-driven exploration for Earth resources -- and progresses within each cluster from an introductory single-concept example to a research-grade workflow. The suite executes on a laptop, ships with executed outputs preserved for instant visual feedback on GitHub, and is accompanied by per-notebook learning objectives, references, and an \"Extend this\" section. Nine of the eighty notebooks additionally depend on a large companion data archive distributed separately via Zenodo.",
+  "keywords": [
+    "plate tectonics",
+    "paleogeography",
+    "GPlates",
+    "GPlately",
+    "pyGMT",
+    "Generic Mapping Tools",
+    "paleoclimate",
+    "paleomagnetism",
+    "deep time",
+    "Jupyter notebooks",
+    "geoscience",
+    "Python"
+  ],
+  "creators": [
+    {
+      "name": "Müller, R. Dietmar",
+      "affiliation": "EarthByte Group, School of Geosciences, The University of Sydney, NSW 2006, Australia"
+    },
+    {
+      "name": "Williams, Simon E.",
+      "affiliation": "Institute for Marine and Antarctic Studies, University of Tasmania, Hobart, TAS 7001, Australia"
+    },
+    {
+      "name": "Merdith, Andrew",
+      "affiliation": "Department of Earth Sciences, Adelaide University, SA 5005, Australia"
+    },
+    {
+      "name": "Leonard, Jonathon",
+      "affiliation": "EarthByte Group, School of Geosciences, The University of Sydney, NSW 2006, Australia"
+    },
+    {
+      "name": "Boone, Samuel C.",
+      "affiliation": "EarthByte Group, School of Geosciences, The University of Sydney, NSW 2006, Australia"
+    },
+    {
+      "name": "Zhou, Jianping",
+      "affiliation": "Frontiers Science Center for Deep Ocean Multispheres and Earth System, Key Lab of Submarine Geosciences and Prospecting Techniques (MOE), College of Marine Geosciences, Ocean University of China, Qingdao, China; Laoshan Laboratory, Laboratory for Marine Mineral Resources, Qingdao Marine Science and Technology Center, Qingdao, China"
+    },
+    {
+      "name": "Mather, Ben R.",
+      "affiliation": "School of Geography, Earth and Atmospheric Sciences, The University of Melbourne, VIC 3010, Australia"
+    },
+    {
+      "name": "Farahbakhsh, Ehsan",
+      "affiliation": "EarthByte Group, School of Geosciences, The University of Sydney, NSW 2006, Australia"
+    },
+    {
+      "name": "Heine, Christian",
+      "affiliation": "EarthByte Group, School of Geosciences, The University of Sydney, NSW 2006, Australia"
+    },
+    {
+      "name": "Brune, Sascha",
+      "affiliation": "GFZ Helmholtz Centre for Geosciences, Potsdam, Germany"
+    },
+    {
+      "name": "Flament, Nicolas",
+      "affiliation": "School of Earth, Atmospheric and Life Sciences, University of Wollongong, NSW 2522, Australia"
+    },
+    {
+      "name": "Dhungana, Santosh",
+      "affiliation": "School of Earth, Atmospheric and Life Sciences, University of Wollongong, NSW 2522, Australia"
+    },
+    {
+      "name": "Fichtner, Andreas",
+      "affiliation": "Department of Earth and Planetary Sciences, ETH Zürich, 8092 Zürich, Switzerland"
+    },
+    {
+      "name": "Quinn, Daven",
+      "affiliation": "Department of Geoscience, University of Wisconsin-Madison, Madison, WI 53706, USA"
+    },
+    {
+      "name": "Peters, Shanan E.",
+      "affiliation": "Department of Geoscience, University of Wisconsin-Madison, Madison, WI 53706, USA"
+    },
+    {
+      "name": "Kocsis, Ádám T.",
+      "affiliation": "GeoZentrum Nordbayern, Friedrich-Alexander-Universität Erlangen-Nürnberg, 91054 Erlangen, Germany"
+    },
+    {
+      "name": "Xu, Zhen",
+      "affiliation": "School of Earth and Environment, University of Leeds, Leeds LS2 9JT, United Kingdom"
+    },
+    {
+      "name": "Mills, Benjamin J.W.",
+      "affiliation": "School of Earth and Environment, University of Leeds, Leeds LS2 9JT, United Kingdom"
+    },
+    {
+      "name": "Singh, Utpal",
+      "affiliation": "EarthByte Group, School of Geosciences, The University of Sydney, NSW 2006, Australia; Geonome, Sydney, NSW, Australia"
+    },
+    {
+      "name": "Singh, Satyam",
+      "affiliation": "Geonome, Sydney, NSW, Australia"
+    },
+    {
+      "name": "Shirmard, Hojat",
+      "affiliation": "EarthByte Group, School of Geosciences, The University of Sydney, NSW 2006, Australia"
+    },
+    {
+      "name": "Jian, Dongchuan",
+      "affiliation": "State Key Laboratory of Continental Evolution and Early Life, NWU-HKU Joint Center of Earth and Planetary Sciences, Department of Geology, Northwest University, Xi'an, China"
+    },
+    {
+      "name": "Vaes, Bram",
+      "affiliation": "Department of Earth and Environmental Sciences, University of Milano-Bicocca, Milan, Italy"
+    },
+    {
+      "name": "Davies, D. Rhodri",
+      "affiliation": "Research School of Earth Sciences, Australian National University, Canberra, ACT 2601, Australia"
+    },
+    {
+      "name": "Ghelichkhan, Sia",
+      "affiliation": "Research School of Earth Sciences, Australian National University, Canberra, ACT 2601, Australia"
+    },
+    {
+      "name": "Wright, Nicky M.",
+      "affiliation": "EarthByte Group, School of Geosciences, The University of Sydney, NSW 2006, Australia"
+    },
+    {
+      "name": "Qin, Xiaodong",
+      "affiliation": "EarthByte Group, School of Geosciences, The University of Sydney, NSW 2006, Australia"
+    },
+    {
+      "name": "Cannon, John",
+      "affiliation": "EarthByte Group, School of Geosciences, The University of Sydney, NSW 2006, Australia"
+    }
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.21836196",
+      "relation": "isSupplementedBy",
+      "resource_type": "dataset"
+    }
+  ]
+}
