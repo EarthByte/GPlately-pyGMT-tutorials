@@ -126,5 +126,4 @@ references:
     title: "GPlately-pyGMT-tutorial-data-v1 (companion large-data archive)"
     doi: "10.5281/zenodo.21836196"
     url: "https://zenodo.org/records/21836196"
-# A Zenodo DOI for this software will be added on first GitHub release (replace the placeholder below):
-# doi: 10.5281/zenodo.XXXXXXX
+doi: 10.5281/zenodo.21895853
