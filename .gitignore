@@ -158,6 +158,10 @@ Notebooks/kimmeridgian_figs/
 # Per-notebook PMM caches (e.g. _pmm_cache_t38_src/) — auto-populated, never commit
 _pmm_cache*/
 **/_pmm_cache*/
+# plate_model_manager's own default cache dir (data/pmm_cache/<model>/...) — same
+# story, different naming pattern (no leading underscore), missed by the rule above.
+data/pmm_cache/
+**/data/pmm_cache/
 highland_dbscan_figs/
 
 # 2026-06-24 — ThermoPlates expansion data (too big for git; planned Zenodo deposit)
