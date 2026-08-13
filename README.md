@@ -4,7 +4,7 @@
 
 # Extending pyGMT into Deep Time via GPlately
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21895853.svg)](https://doi.org/10.5281/zenodo.21895853)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21925240.svg)](https://doi.org/10.5281/zenodo.21925240)
 
 An open, reproducible tutorial suite of **Jupyter notebooks** that couples
 [GPlately](https://github.com/GPlates/gplately) (plate-tectonic reconstructions)
