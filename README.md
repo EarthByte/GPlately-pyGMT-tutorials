@@ -2,9 +2,16 @@
   <img src="docs/images/GPlately%2BpyGMT.png" alt="GPlately + pyGMT" width="360">
 </p>
 
+<p align="center">
+  <img src="docs/images/AuScope_NCRIS_logos.png" alt="AuScope and NCRIS logos" width="360">
+</p>
+
 # Extending pyGMT into Deep Time via GPlately
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21925240.svg)](https://doi.org/10.5281/zenodo.21925240)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21977669.svg)](https://doi.org/10.5281/zenodo.21977669)
+
+*This research was supported by AuScope and the Australian Government's
+National Collaborative Research Infrastructure Strategy (NCRIS).*
 
 An open, reproducible tutorial suite of **Jupyter notebooks** that couples
 [GPlately](https://github.com/GPlates/gplately) (plate-tectonic reconstructions)

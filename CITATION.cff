@@ -20,7 +20,7 @@ abstract: >-
 type: software
 license: BSD-3-Clause
 version: "1.0.0"
-date-released: "2026-08-13"
+date-released: "2026-08-17"
 repository-code: "https://github.com/EarthByte/GPlately-pyGMT-tutorials"
 url: "https://github.com/EarthByte/GPlately-pyGMT-tutorials"
 keywords:
@@ -126,4 +126,4 @@ references:
     title: "GPlately-pyGMT-tutorial-data-v1 (companion large-data archive)"
     doi: "10.5281/zenodo.21836196"
     url: "https://zenodo.org/records/21836196"
-doi: 10.5281/zenodo.21925240
+doi: 10.5281/zenodo.21977669
