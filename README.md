@@ -28,6 +28,10 @@ the GitHub directory listing for the always-current notebook inventory — each
 notebook's first markdown cell names its cluster and runs you through what it
 produces.
 
+This suite is the companion repository to *Extending pyGMT into Deep Time
+with GPlately* (Müller et al.), currently in review at *Geochemistry,
+Geophysics, Geosystems* (G3).
+
 ## Quick start
 
 ```bash
