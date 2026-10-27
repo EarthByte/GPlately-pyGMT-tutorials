@@ -32,6 +32,15 @@ This suite is the companion repository to *Extending pyGMT into Deep Time
 with GPlately* (Müller et al.), currently in review at *Geochemistry,
 Geophysics, Geosystems* (G3).
 
+**Live repository versus archived snapshot.** This GitHub repository is the
+living version of the suite and will keep changing (new notebooks, fixes,
+renumbering). The Zenodo record
+[10.5281/zenodo.21977669](https://doi.org/10.5281/zenodo.21977669) is a frozen
+snapshot of the suite as it stood when the companion paper was published and is
+not updated afterwards; if something here differs from what the paper describes,
+the Zenodo snapshot is the version the paper refers to. Cite the Zenodo DOI to
+refer to the exact version described in the paper.
+
 ## Quick start
 
 ```bash
@@ -83,6 +92,12 @@ If you skip step 2, the notebooks that depend on the Zenodo archive raise
 nothing runs silently against missing inputs. The other 71 notebooks work
 regardless.
 
+## Working without the plate-model server
+
+`plate_model_manager` contacts `repo.gplates.org` every time `PlateModelManager()` is created, even when a model is already cached, so cells can hang or fail when the server is down or blocked (VPN, firewall). All notebooks therefore use `LocalFirstPMM` from `Notebooks/pmm_local.py` instead. It checks once per session (5 s timeout) whether the server answers. If it does, it behaves exactly like `PlateModelManager`; if it does not, it loads the model from the local cache folder (`gplately_data/<model name in lower case>/`) in read-only mode and prints a message. A model that has never been downloaded cannot be loaded offline; the error names the missing folder. Set `PMM_OFFLINE=1` to skip the server check and always use the cache.
+
+If a corporate VPN does the TLS inspection and Python reports certificate errors, point `SSL_CERT_FILE` and `REQUESTS_CA_BUNDLE` to a CA bundle that contains the organisation's root certificate.
+
 ## Layout
 
 ```
@@ -106,6 +121,20 @@ Contributions welcome via pull request. See [`Notebooks/README.md`](Notebooks/RE
 for the conventions every notebook follows (executed outputs preserved,
 three-section header, `# === USER CONFIGURATION ===` block, in-frame age stamp,
 closing *Extend this* section).
+
+**How contributions are reviewed.** Every pull request is reviewed by the
+maintainers (EarthByte Group) against the checklist in
+[`.github/PULL_REQUEST_TEMPLATE.md`](.github/PULL_REQUEST_TEMPLATE.md) before it
+is merged: the notebook follows the structure above; it runs top-to-bottom in
+the `environment.yml` environment (any new dependency is added there); any data
+beyond the plate models is either bundled in `data/` or declared as a Zenodo
+dependency with a clear error message when it is missing; every method and
+dataset is cited with a DOI that has been checked to resolve to the cited work;
+contributed methodology is credited in the notebook header, in
+[`CONTRIBUTORS.md`](CONTRIBUTORS.md) and in the Attribution section below; and
+the change is recorded in [`CHANGELOG.md`](CHANGELOG.md). The maintainers
+re-execute contributed notebooks before merging so that the preserved outputs
+match the committed code. Tagged releases are archived on Zenodo.
 
 Author-contributed notebooks from co-authors building on their own published or
 in-preparation workflows are explicitly welcome — the contributor goes in a

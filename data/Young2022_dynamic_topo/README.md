@@ -62,7 +62,7 @@ topo = [pygplates.FeatureCollection(f)
 
 - **Young, A., Flament, N., Williams, S.E., Merdith, A., Cao, X., Müller, R.D. & Zahirovic, S. (2022)**. Long-term Phanerozoic sea level change from solid Earth processes. *Earth and Planetary Science Letters* 584, 117451. [doi:10.1016/j.epsl.2022.117451](https://doi.org/10.1016/j.epsl.2022.117451) — the geodynamic model that produced `gld428`.
 - **Merdith, A.S., Williams, S.E., Collins, A.S., Tetley, M.G., Mulder, J.A., Blades, M.L., Young, A., Armistead, S.E., Cannon, J., Zahirovic, S. & Müller, R.D. (2021)**. Extending full-plate tectonic models into deep time: Linking the Neoproterozoic and the Phanerozoic. *Earth-Science Reviews* 214, 103477. [doi:10.1016/j.earscirev.2020.103477](https://doi.org/10.1016/j.earscirev.2020.103477) — the M21 plate model; the NNR variant here is the same kinematics rotated into a no-net-rotation absolute frame used to drive the geodynamic simulation.
-- **Mather, B.R., Müller, R.D., Zahirovic, S., et al. (2024)**. Deep time spatio-temporal data analysis using GPlately. *Geoscience Data Journal* 11, 3-10. [doi:10.1002/gdj3.185](https://doi.org/10.1002/gdj3.185) — the toolkit used by all consumer notebooks.
+- **Mather, B.R., Müller, R.D., Zahirovic, S., et al. (2024)**. Deep time spatio-temporal data analysis using pyGPlates with PlateTectonicTools and GPlately. *Geoscience Data Journal* 11, 3-10. [doi:10.1002/gdj3.185](https://doi.org/10.1002/gdj3.185) — the toolkit used by all consumer notebooks.
 
 ## Consumer notebooks
 

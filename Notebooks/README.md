@@ -1,9 +1,19 @@
 # GPlately × pyGMT tutorials
 
-A growing collection of Jupyter notebooks that demonstrate how to combine
+A collection of Jupyter notebooks that demonstrate how to combine
 [GPlately](https://github.com/GPlates/gplately) (plate reconstructions) with
 [pyGMT](https://www.pygmt.org/) (publication-quality maps, charts, and
 scientific plots).
+
+> **Live repository versus archived snapshot.** This GitHub repository is the
+> living version of the suite: notebooks are added, corrected and renumbered
+> over time. The Zenodo record
+> ([10.5281/zenodo.21977669](https://doi.org/10.5281/zenodo.21977669)) is a
+> frozen snapshot of the suite as it stood at the time the companion paper
+> (Müller et al., *Geochemistry, Geophysics, Geosystems*) was published; it is
+> not updated afterwards. If notebook numbers, contents or environments here
+> differ from what the paper describes, the Zenodo snapshot is the version the
+> paper refers to.
 
 ## How to find what you want
 
@@ -49,6 +59,12 @@ Every notebook in this folder follows the same conventions:
    top of all coast/grdimage layers.
 6. **Closing "Extend this" section.** Suggestions for follow-up
    modifications.
+
+## Working without the plate-model server
+
+`plate_model_manager` contacts `repo.gplates.org` every time `PlateModelManager()` is created, even when a model is already cached, so cells can hang or fail when the server is down or blocked (VPN, firewall). All notebooks therefore use `LocalFirstPMM` from `Notebooks/pmm_local.py` instead. It checks once per session (5 s timeout) whether the server answers. If it does, it behaves exactly like `PlateModelManager`; if it does not, it loads the model from the local cache folder (`gplately_data/<model name in lower case>/`) in read-only mode and prints a message. A model that has never been downloaded cannot be loaded offline; the error names the missing folder. Set `PMM_OFFLINE=1` to skip the server check and always use the cache.
+
+If a corporate VPN does the TLS inspection and Python reports certificate errors, point `SSL_CERT_FILE` and `REQUESTS_CA_BUNDLE` to a CA bundle that contains the organisation's root certificate.
 
 ## Recommended environment
 
