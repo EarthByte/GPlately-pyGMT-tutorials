@@ -17,21 +17,18 @@ scientific plots).
 
 ## How to find what you want
 
-Notebooks are filename-prefixed with a stable T-number (`T01_…`, `T02_…`, …) and
+Notebooks are filename-prefixed with an ID (`A01_…`, `A02_…`, …, `K08_…`): a
+cluster letter (A-K) followed by the notebook's index within that cluster, then
 a short topical slug. The full, always-current list is just the directory
 listing — browse it on
 [GitHub](https://github.com/EarthByte/GPlately-pyGMT-tutorials/tree/main/Notebooks)
 or in JupyterLab's file sidebar. Each filename's slug is descriptive enough to
 hint at the topic without a separate index.
 
-T-numbers are clustered by theme — see *Themes* below — but they don't reset
-between clusters: as the suite grows, new notebooks pick up the next free
-T-number rather than slotting into the middle of an existing cluster. A
-follow-up paragraph in the relevant cluster description below tells you which
-T-number ranges sit in which cluster at the time of writing; if you need exact
-mapping, the cluster header in each notebook's *first markdown cell* is the
-authoritative source (it says e.g. *"Cluster F: paleo-geography + paleo-
-topography"*).
+IDs are grouped by theme — see *Themes* below. Numbering restarts within each
+cluster, so a new notebook is appended to the end of the cluster it belongs to.
+The cluster header in each notebook's *first markdown cell* is the
+authoritative source for its cluster assignment.
 
 ## Conventions
 
@@ -125,78 +122,65 @@ through Zenodo, since they're small enough that git is simpler for everyone.)
 
 If you're new to plate reconstructions in Python, a good entry sequence is:
 
-- **T01 — Hello, deep time.** Your first pyGMT paleo-map; introduces the
+- **A01 — Hello, deep time.** Your first pyGMT paleo-map; introduces the
   GPlately + pyGMT plumbing.
-- **T02 — GPlates Web Service from Python.** Pure HTTP-REST workflow: reconstruct
+- **A02 — GPlates Web Service from Python.** Pure HTTP-REST workflow: reconstruct
   modern-city paleo-positions through deep time using nothing more than
   `requests` + `pygmt`. Doesn't require a local `pygplates` install, which makes
   it the lowest-barrier entry point in the suite — excellent for a teaching lab
   where install friction is the bottleneck.
-- **T03 — Projection cookbook.** The cartographic foundation the rest of the
+- **A03 — Projection cookbook.** The cartographic foundation the rest of the
   suite leans on.
-- **T04 — Plate model comparison** and **T05 — Comparing rotation models**, once
-  T01-T03 are comfortable — these show how to reason about model choice
+- **A04 — Plate model comparison** and **A05 — Comparing rotation models**, once
+  A01-A03 are comfortable — these show how to reason about model choice
   rather than treat any one model as ground truth.
-- **T10 — Paleobathymetry profile across the Atlantic at 50 Ma** as the first
+- **B03 — Paleobathymetry profile across the Atlantic at 50 Ma** as the first
   application notebook that turns the workflow into a concrete cross-section.
 
 ## Themes
 
-The suite is organised into **11 thematic clusters, A-K**, fully contiguous as
-of the **2026-08-11 T41 withdrawal + Macrostrat T44 addition** (T41 "Rotated
-paleo poles" was withdrawn to `Notebooks_extras/` as a low-value notebook;
-T42 and T43 renumbered down to T41 and T42 to keep cluster F contiguous
-(now T33-T42); a new notebook, "Macrostrat stratigraphic columns:
-lithology-styled paleogeologic maps" -- adapted from the UW-Macrostrat /
-GPlately + pyGMT demo -- took the freed T44 slot immediately before the
-existing T45, extending cluster G to T43-T52. Net effect: suite total
-stays at 80 notebooks. Before that, fully contiguous as of the
-**2026-07-30 T63 addition** (which folded in Ehsan Farahbakhsh's kinematic-
-feature-extraction notebook as T15, cluster B, on 2026-07-27; moved T72
-"Carbonate-platform arc degassing" from cluster K into cluster J on 2026-07-28,
-since it is a paleoclimate-forcing notebook rather than a mineral-prospectivity
-one; moved T16 "Subducted-slab flux inventory" from cluster E into cluster
-B on 2026-07-29, directly after T15, since it is a per-trench kinematic-flux
-notebook rather than a mantle-dynamics one; then added T63 "Reconstructing
-plant-fossil occurrences and Early Triassic super-greenhouse climate" -- a
-community contribution from Zhen Xu and Benjamin J.W. Mills -- to cluster J
-directly after T62 on 2026-07-30, the last notebook added before paper
-submission). Each cluster has its own opening
-sentence below with its current T-number range. Re-read the cluster header
-inside each notebook for the authoritative cluster assignment.
+The suite is organised into **11 thematic clusters, A-K**, containing 80
+notebooks in total. Every notebook has an ID made of its cluster letter and its
+index within the cluster (for example **F03**), and the notebook file names
+start with that ID. Numbering is contiguous within each cluster, so adding a
+notebook extends one cluster without disturbing the others. Re-read the cluster
+header inside each notebook for the authoritative cluster assignment. Notebooks
+that were numbered `T01`-`T80` in earlier versions of the suite (and in the
+review-stage manuscript) are listed in
+[`docs/NOTEBOOK_IDS.md`](../docs/NOTEBOOK_IDS.md).
 
-- **Cluster A — Getting started + core workflows (T01-T07).** First paleo-maps,
+- **Cluster A — Getting started + core workflows (A01-A07).** First paleo-maps,
   projection choices, model-comparison patterns, animations, interactive Panel
   views.
-- **Cluster B — Plate kinematics + tectonics (T08-T16).** Plate-tectonic
+- **Cluster B — Plate kinematics + tectonics (B01-B09).** Plate-tectonic
   diagnostics, age-of-subducting-crust, paleo-bathymetry profiles, strain-rate
   maps, lithospheric-thickness retrodeformation, paleo-stress along
   subduction zones, rift obliquity, kinematic feature extraction at
-  subduction zones through time (T15) — convergence rate/obliquity, trench
-  velocity, and derived slab-flux proxies on an interactive map — and (T16)
+  subduction zones through time (B08) — convergence rate/obliquity, trench
+  velocity, and derived slab-flux proxies on an interactive map — and (B09)
   subducted-slab flux inventory: a deep-time budget of subducted slab volume,
   sediment, carbonate, and water mass.
-- **Cluster C — Plate-model debugging (T17-T20).** Divergence/convergence sign
+- **Cluster C — Plate-model debugging (C01-C04).** Divergence/convergence sign
   anomalies at plate boundaries, MOR velocity-magnitude anomalies, topology
   construction anomalies (gaps/overlaps/non-unique sections), subduction-zone
   feature-extractability diagnostics.
-- **Cluster D — Zircons + tectonic-setting predictors (T21-T25).** Detrital /
+- **Cluster D — Zircons + tectonic-setting predictors (D01-D05).** Detrital /
   igneous / metamorphic zircons reconstructed through deep time, paleo-distance
   to the nearest subduction zone as a tectonic-setting predictor, Hf-Nd
   isotope terrane mapping.
-- **Cluster E — Mantle dynamics + dynamic topography (T26-T32).** REVEAL
+- **Cluster E — Mantle dynamics + dynamic topography (E01-E07).** REVEAL
   tomography overlain with reconstructed plate boundaries, deep-time mantle
   transects, clustering of plate-frame dynamic-topography histories,
   dynamic-topography vs sediment flux, dynamic-topography change rate through
   deep time, and the mantle-to-plate frame conversion walkthrough.
-- **Cluster F — Paleomagnetism (T33-T42).** Building a paleomagnetic reference
+- **Cluster F — Paleomagnetism (F01-F10).** Building a paleomagnetic reference
   frame from GPMDB, comparing alternative reference frames, plate-mantle
   reference-frame uncertainty, continent rotation with GPlately, predicted vs
   observed paleomagnetic directions, single-key-pole case studies, full
   Phanerozoic apparent polar wander, inclination-shallowing corrections, pole
   rotation utilities, true polar wander decomposition, paleolatitude via
   reverse reconstruction.
-- **Cluster G — Paleo-geography + paleo-topography (T43-T52).**
+- **Cluster G — Paleo-geography + paleo-topography (G01-G10).**
   Geochemistry-corrected paleo-elevation, Macrostrat stratigraphic columns
   progressively styled by lithology (flat API colour, mixed-lithology colour
   blending, GMT pattern fills — adapted from the UW-Macrostrat / GPlately +
@@ -205,17 +189,17 @@ inside each notebook for the authoritative cluster assignment.
   suite of thermochronology-on-paleo-Earth workflows (cooling rates on
   Earth-system overlays, against plate kinematics and fault databases, and
   as correlation/time-series analyses).
-- **Cluster H — Sedimentary basins (T53-T55).** Evenick (2021) global
+- **Cluster H — Sedimentary basins (H01-H03).** Evenick (2021) global
   sedimentary-basin compilation: basin inventory + thickness + paleogeographic
   reconstruction, crustal stretching factor (β), individual rift-basin
   syn-rift/post-rift analysis.
-- **Cluster I — Paleo-biogeography (T56-T61).** Paleobiology Database ×
+- **Cluster I — Paleo-biogeography (I01-I06).** Paleobiology Database ×
   Macrostrat joins in paleo-coordinates, fossil corals through deep time, Late
   Jurassic dinosaur distributions on a reconstructed climate, Cenozoic
   planktonic foraminifera on reconstructed paleo-latitude, PBDB
   paleobiogeography live-API workflow, H3 hexagonal-grid bioregionalisation.
-- **Cluster J — Paleoclimate (T62-T72).** Phanerozoic climate-sensitive
-  lithologies on reconstructed plates, (T63) plant-fossil occurrences
+- **Cluster J — Paleoclimate (J01-J11).** Phanerozoic climate-sensitive
+  lithologies on reconstructed plates, (J02) plant-fossil occurrences
   reconstructed onto Early Triassic super-greenhouse climate fields (Xu & Mills
   community contribution), deep-time paleoclimate model snapshots
   regridded onto reconstructed coastlines, model-vs-proxy SST comparisons,
@@ -226,9 +210,9 @@ inside each notebook for the authoritative cluster assignment.
   database's own published paleo-coordinate method), Cenozoic ocean-gateway
   bathymetry cross-checked against independently reconstructed plate
   boundaries (Fram Strait, Greenland-Scotland Ridge, Central American
-  Seaway, Tethyan Seaway) -- and (T72) continental-arc CO2 degassing driven
+  Seaway, Tethyan Seaway) -- and (J11) continental-arc CO2 degassing driven
   by subducted carbonate-platform decarbonation.
-- **Cluster K — Mineral exploration (T73-T80).** SW-Pacific porphyry-Cu-Au
+- **Cluster K — Mineral exploration (K01-K08).** SW-Pacific porphyry-Cu-Au
   paleo-prospectivity, global porphyry kinematics envelope, seafloor age-grid
   anomalies as porphyry-Cu predictors, sediment-hosted Cu deposits, deep-time
   porphyry-Cu deposit trajectories, continent-scale prospectivity maps,

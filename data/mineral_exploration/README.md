@@ -2,7 +2,7 @@
 
       **Provenance:** Mutschler porphyry compilation + SW-Pacific curated
 
-      Two hand-curated deposit CSVs used by cluster L mineral-exploration tutorials: (1) Mutschler global porphyry-Cu compilation (Americas subset); (2) SW-Pacific porphyry-Cu deposit list.
+      Two hand-curated deposit CSVs used by cluster K mineral-exploration tutorials: (1) Mutschler global porphyry-Cu compilation (Americas subset); (2) SW-Pacific porphyry-Cu deposit list.
 
       ## Contents
 
@@ -15,7 +15,7 @@ sw_pacific_porphyries.csv
 
       ## Consumer notebooks
 
-      **T64**
+      **K01**
 
       ## References
 

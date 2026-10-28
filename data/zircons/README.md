@@ -2,7 +2,7 @@
 
       **Provenance:** Wu et al. (2023) — global zircon compilation
 
-      Wu et al. (2023) global zircon U-Pb geochronology database, split by rock type into three separate GPMLZ files: sedimentary (detrital), igneous, metamorphic. Used by the T19/T20/T21 zircon trio (all three structurally identical, differing only by which file they load).
+      Wu et al. (2023) global zircon U-Pb geochronology database, split by rock type into three separate GPMLZ files: sedimentary (detrital), igneous, metamorphic. Used by the D01/D02/D03 zircon trio (all three structurally identical, differing only by which file they load).
 
       ## Contents
 
@@ -16,7 +16,7 @@ zircons_sedimentary_Wu2023.gpmlz (0.4 MB)
 
       ## Consumer notebooks
 
-      **T19**, **T20**, **T21**, **T22**
+      **D01**, **D02**, **D03**, **D04**
 
       ## References
 

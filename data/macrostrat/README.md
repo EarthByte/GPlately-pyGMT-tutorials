@@ -2,7 +2,7 @@
 
         **Provenance:** Macrostrat.org (Peters et al.)
 
-        Macrostrat column and unit CSV extracts for the paleogeographic-reconstruction workflows in T42 (Great Unconformity) and T50 (litho-facies from PBDB × Macrostrat). Includes column centroids and unit-level records with age intervals and lithology tags.
+        Macrostrat column and unit CSV extracts for the paleogeographic-reconstruction workflows in G03 (Great Unconformity) and I01 (litho-facies from PBDB × Macrostrat). Includes column centroids and unit-level records with age intervals and lithology tags.
 
         ## Contents
 
@@ -16,7 +16,7 @@
 
         ## Consumer notebooks
 
-        **T42**, **T50**
+        **G03**, **I01**
 
         ## References
 

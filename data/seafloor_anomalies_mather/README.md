@@ -2,7 +2,7 @@
 
       **Provenance:** Whittaker et al. + Mather et al.
 
-      GPML feature collections + a base-metal-deposit compilation used by T66 (seafloor geochemical anomalies) to test whether porphyry-Cu deposits cluster near seafloor spreading anomalies at their formation age.
+      GPML feature collections + a base-metal-deposit compilation used by K03 (seafloor geochemical anomalies) to test whether porphyry-Cu deposits cluster near seafloor spreading anomalies at their formation age.
 
       ## Contents
 
@@ -16,7 +16,7 @@ base_metal_deposit_compilation.xls (0.4 MB)
 
       ## Consumer notebooks
 
-      **T66**
+      **K03**
 
       ## References
 

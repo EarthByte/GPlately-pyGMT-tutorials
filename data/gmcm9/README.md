@@ -201,7 +201,7 @@ PlateFrame/
 
       ## Consumer notebooks
 
-      **T29**, **T45**, **T46**, **T47**, **T78**
+      **G06**, **G08**
 
       ## References
 

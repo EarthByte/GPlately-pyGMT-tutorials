@@ -2,7 +2,7 @@
 
       **Provenance:** Ronov (1993) — classic per-continent sediment volumes
 
-      Ronov (1993) classic compilation of sedimentary rock volumes per continent per period, used as a reference dataset in T28 (dynamic topography vs sediment flux).
+      Ronov (1993) classic compilation of sedimentary rock volumes per continent per period, used as a reference dataset in E05 (dynamic topography vs sediment flux).
 
       ## Contents
 
@@ -14,7 +14,7 @@ ronov_per_continent.csv
 
       ## Consumer notebooks
 
-      **T28**
+      **E05**
 
       ## References
 

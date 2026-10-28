@@ -25,7 +25,7 @@ uncompacted_carbonate_thickness_58Ma.nc (7.7 MB)
 
       ## Consumer notebooks
 
-      **T68**, **T69**
+      **K05**, **K06**
 
       ## References
 

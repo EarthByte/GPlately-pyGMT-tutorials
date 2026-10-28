@@ -1,4 +1,4 @@
-"""Display-only helpers for the paleoclimate cluster (cluster J: T61-T69).
+"""Display-only helpers for the paleoclimate cluster (cluster J: J03-J08).
 
 Three functions that fix the Mollweide/global-map rendering artefacts common
 to coarse GCM outputs — grey seam at the antimeridian, NaN slivers at the

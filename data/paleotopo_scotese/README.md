@@ -2,7 +2,7 @@
 
       **Provenance:** Scotese & Wright (2018) with Zhou geochemistry correction
 
-      Scotese & Wright (2018) paleo-DEMs in two flavours: (a) `corrected_SW/` — the Zhou-geochemistry-corrected variant that fixes the top-1% land amplitude bias, and (b) `geochem_samples_slim.csv` — the geochemistry-derived crustal-thickness sample compilation used in the assimilation. Used by T41 and T42.
+      Scotese & Wright (2018) paleo-DEMs in two flavours: (a) `corrected_SW/` — the Zhou-geochemistry-corrected variant that fixes the top-1% land amplitude bias, and (b) `geochem_samples_slim.csv` — the geochemistry-derived crustal-thickness sample compilation used in the assimilation. Used by G01, G06 and G09.
 
       ## Contents
 
@@ -31,7 +31,7 @@ corrected_SW/
 
       ## Consumer notebooks
 
-      **T41**, **T42**
+      **G01**, **G06**, **G09**
 
       ## References
 

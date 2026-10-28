@@ -14,7 +14,7 @@ courtillot_2003_table1.csv
 
       ## Consumer notebooks
 
-      **T25**
+      **E02**
 
       ## References
 

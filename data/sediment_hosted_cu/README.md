@@ -1,8 +1,8 @@
       # sediment_hosted_cu — Sediment-hosted Cu deposit compilation
 
-      **Provenance:** Curated for T67
+      **Provenance:** Curated for K04
 
-      CSV compilation of sediment-hosted copper deposit locations + ages, used by T67 (sediment-hosted Cu reconstructed to formation-age paleogeography) with the Central African Copperbelt as the primary target.
+      CSV compilation of sediment-hosted copper deposit locations + ages, used by K04 (sediment-hosted Cu reconstructed to formation-age paleogeography) with the Central African Copperbelt as the primary target.
 
       ## Contents
 
@@ -14,7 +14,7 @@ sediment_hosted_cu.csv
 
       ## Consumer notebooks
 
-      **T67**
+      **K04**
 
       ## References
 

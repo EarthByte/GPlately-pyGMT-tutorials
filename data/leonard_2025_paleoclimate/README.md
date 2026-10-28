@@ -2,7 +2,7 @@
 
       **Provenance:** Leonard et al. (2025), Zenodo 15628277
 
-      Compact subset of Leonard et al.'s (2025) PLASIM paleoclimate simulations run under three different reference frames (Merdith 2021 paleomag, Müller 2016 mantle, Torsvik 2019 paleomag). Three variables (SAT, GMST, landsea) × 26 ages (0-540 Ma at 20-Myr cadence) × 3 frames. Used to quantify reference-frame uncertainty in reconstructed paleoclimate (T60-T63).
+      Compact subset of Leonard et al.'s (2025) PLASIM paleoclimate simulations run under three different reference frames (Merdith 2021 paleomag, Müller 2016 mantle, Torsvik 2019 paleomag). Three variables (SAT, GMST, landsea) × 26 ages (0-540 Ma at 20-Myr cadence) × 3 frames. Used to quantify reference-frame uncertainty in reconstructed paleoclimate (J07).
 
       ## Contents
 
@@ -90,11 +90,11 @@ torsvik2019_paleomag/
   240Ma.nc
   250Ma.nc
       ```
-      **Size note:** ~1.9 MB — full 384 MB Leonard archive is on Zenodo; only the compact subset used by T60-T63 is bundled here.
+      **Size note:** ~1.9 MB — full 384 MB Leonard archive is on Zenodo; only the compact subset used by J07 is bundled here.
 
       ## Consumer notebooks
 
-      **T60**, **T61**, **T62**, **T63**
+      **J07**
 
       ## References
 

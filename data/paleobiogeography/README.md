@@ -2,7 +2,7 @@
 
       **Provenance:** Version 5p1 curated compilation
 
-      Cambrian-Ordovician cryptospore (early land-plant spore) occurrence spreadsheet used in T54 paleobiogeography live-API demonstration.
+      Cambrian-Ordovician cryptospore (early land-plant spore) occurrence spreadsheet used in I05 paleobiogeography live-API demonstration.
 
       ## Contents
 
@@ -14,7 +14,7 @@ Version5p1_Cambrian_Ordovician_Cryptospores.xlsx
 
       ## Consumer notebooks
 
-      **T54**
+      **I05**
 
       ## References
 

@@ -14,7 +14,7 @@ levels (only the surface and 2D bathymetry are bundled here).
 - `plasim_genie_252Ma_bathymetry.nc` — GOLDSTEIN bathymetry per CO2. Identical
   across CO2 levels (same input geography); bundled per-CO2 for symmetry.
 - `plasim_genie_252Ma_spinup.nc` — (co2_ppm, year) energy-balance time series for
-  the model-stability / spin-up curves (T41 cell 5). 30 yearly steps per
+  the model-stability / spin-up curves (J05 cell 5). 30 yearly steps per
   CO2 level (years 100..3000 in steps of 100).
 
 ## CO2 levels
@@ -25,7 +25,7 @@ End-Permian best-estimate ~1120 ppm; runaway scenarios up to 35840 ppm.
 ## Size
 
 Full bundle ~50 KB compressed (vs 1.5 GB for the raw model output).
-That covers everything T41 + T42 need.
+That covers everything J05 needs.
 
 ## Provenance
 

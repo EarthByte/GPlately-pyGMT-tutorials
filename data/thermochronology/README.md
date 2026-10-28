@@ -2,7 +2,7 @@
 
 **Provenance:** Boone, S.C., re-processed from multiple public sources
 
-**LARGE (~10 GB)** auxiliary data collection assembled by Sam Boone for the ThermoPlates cooling-rate + tectonic-forcing analysis. Only the notebooks that specifically depend on this bundle (T44, T45, T46, T47) should be run against it. On disk-constrained machines, extract only the subset relevant to your consumer notebook.
+**LARGE (~10 GB)** auxiliary data collection assembled by Sam Boone for the ThermoPlates cooling-rate + tectonic-forcing analysis. Only the notebooks that specifically depend on this bundle (G05, G06, G07, G08) should be run against it. On disk-constrained machines, extract only the subset relevant to your consumer notebook.
 
 ## Contents (top level)
 
@@ -20,7 +20,7 @@ All faults were pre-reconstructed by Boone under the Zahirovic 2022 plate model 
 
 ## Consumer notebooks
 
-**T44**, **T45**, **T46**, **T47** — the ThermoPlates cluster F expansion.
+**G05**, **G06**, **G07**, **G08** — the ThermoPlates thermochronology notebooks.
 
 ## References
 

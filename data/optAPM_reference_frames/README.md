@@ -2,7 +2,7 @@
 
       **Provenance:** EarthByte + optAPM outputs
 
-      Optimised absolute-plate-motion (optAPM) rotation files for the Zahirovic 2022 plate model in various flavours: paleomag frame (NNR), Torsvik-hotspot frame, and diagnostics CSVs from the optimisation runs. Used in T31/T32/T33 reference-frame comparison tutorials.
+      Optimised absolute-plate-motion (optAPM) rotation files for the Zahirovic 2022 plate model in various flavours: paleomag frame (NNR), Torsvik-hotspot frame, and diagnostics CSVs from the optimisation runs. Used in the F03 reference-frame comparison tutorial.
 
       ## Contents
 
@@ -19,7 +19,7 @@ Zahirovic2022_optimised_mean_NR_diagnostics.csv
 
       ## Consumer notebooks
 
-      **T31**, **T32**, **T33**
+      **F03**
 
       ## References
 

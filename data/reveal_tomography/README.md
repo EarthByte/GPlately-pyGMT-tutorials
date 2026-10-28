@@ -2,7 +2,7 @@
 
       **Provenance:** Fichtner et al. — REVEAL model
 
-      REVEAL global tomographic model — dvs (S-wave velocity anomaly) at 10 depth slices from 100 km to 2400 km. Used to render mantle plume conduits in cross-section (T24, T25) and to visualise mantle heterogeneity beneath specific paleo-reconstructions.
+      REVEAL global tomographic model — dvs (S-wave velocity anomaly) at 10 depth slices from 100 km to 2400 km. Used to render mantle plume conduits in cross-section (E01, E02) and to visualise mantle heterogeneity beneath specific paleo-reconstructions.
 
       ## Contents
 
@@ -23,7 +23,7 @@ REVEAL_dvs_850km.nc (0.8 MB)
 
       ## Consumer notebooks
 
-      **T24**, **T25**
+      **E01**, **E02**
 
       ## References
 

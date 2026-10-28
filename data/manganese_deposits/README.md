@@ -2,7 +2,7 @@
 
       **Provenance:** Müller et al. (2026, in review)
 
-      Global compilation of manganese deposits + 5/10-Myr binned deposit counts for the 1.8 Ga paleogeography of Müller et al. (2026, in review). Used by T71.
+      Global compilation of manganese deposits + 5/10-Myr binned deposit counts for the 1.8 Ga paleogeography of Müller et al. (2026, in review). Used by K07.
 
       ## Contents
 
@@ -18,7 +18,7 @@ mn_deposits_reconstructed_geochem.csv
 
       ## Consumer notebooks
 
-      **T71**
+      **K07**
 
       ## References
 

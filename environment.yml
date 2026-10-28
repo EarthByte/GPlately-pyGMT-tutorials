@@ -7,6 +7,7 @@ dependencies:
   - pygmt
   - jupyterlab
   - panel
+  - pyviz_comms     # Panel <-> JupyterLab bridge; needed for the A07 slider
   - matplotlib
   - cartopy
   - xarray
@@ -14,7 +15,7 @@ dependencies:
   - numpy
   - shapely
   - geopandas
-  - pyarrow         # for parquet caches (T10)
-  - imageio         # for T03 animations
-  - ffmpeg          # for T03 MP4 encoding
+  - pyarrow         # for parquet caches (G06-G08)
+  - imageio         # for A06 animations
+  - ffmpeg          # for A06 MP4 encoding
   - pip

@@ -2,7 +2,7 @@
 
       **Provenance:** Heidbach et al. (WSM Consortium)
 
-      World Stress Map 2025 release — global compilation of contemporary crustal stress orientations (SH_max azimuths) from focal mechanisms, borehole breakouts, drilling-induced fractures, and hydraulic fracture tests. Used by T13 (paleo-SH_max at subduction margins).
+      World Stress Map 2025 release — global compilation of contemporary crustal stress orientations (SH_max azimuths) from focal mechanisms, borehole breakouts, drilling-induced fractures, and hydraulic fracture tests. Used by B06 (paleo-SH_max at subduction margins).
 
       ## Contents
 
@@ -15,7 +15,7 @@ WSM_Database_2025.csv (14.2 MB)
 
       ## Consumer notebooks
 
-      **T13**
+      **B06**
 
       ## References
 

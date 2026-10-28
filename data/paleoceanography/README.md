@@ -2,7 +2,7 @@
 
       **Provenance:** cGENIE example run + Eocene proxy synthesis
 
-      Compact example dataset for T57 (cGENIE SST vs proxy comparison): one cGENIE Eocene SST NetCDF + one CSV of Eocene SST proxy points (TEX86, Mg/Ca, δ18O).
+      Compact example dataset for J04 (cGENIE SST vs proxy comparison): one cGENIE Eocene SST NetCDF + one CSV of Eocene SST proxy points (TEX86, Mg/Ca, δ18O).
 
       ## Contents
 
@@ -15,7 +15,7 @@ eocene_proxy_sst.csv
 
       ## Consumer notebooks
 
-      **T57**
+      **J04**
 
       ## References
 

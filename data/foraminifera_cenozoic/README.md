@@ -2,7 +2,7 @@
 
         **Provenance:** Curated compilation from PBDB + Neptune database extracts
 
-        Cenozoic planktonic foraminifera occurrence CSV (age, lat, lon, genus, species) compiled from the Paleobiology Database and Neptune Sandbox for reconstruction to paleo-latitude in T53.
+        Cenozoic planktonic foraminifera occurrence CSV (age, lat, lon, genus, species) compiled from the Paleobiology Database and Neptune Sandbox for reconstruction to paleo-latitude in I04.
 
         ## Contents
 
@@ -14,7 +14,7 @@
 
         ## Consumer notebooks
 
-        **T53**
+        **I04**
 
         ## References
 

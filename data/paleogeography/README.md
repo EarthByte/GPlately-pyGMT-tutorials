@@ -2,7 +2,7 @@
 
       **Provenance:** Merdith et al. (2020) global paleogeographic reconstruction
 
-      Single-file M2020 merged paleogeographic reconstruction (GPML), used as a paleo-basemap layer for various cluster A/E/H tutorials.
+      Single-file M2020 merged paleogeographic reconstruction (GPML), used as a paleo-basemap layer for various tutorials.
 
       ## Contents
 
@@ -14,7 +14,7 @@ M2020-merge.gpml
 
       ## Consumer notebooks
 
-      **T04**, **T05**
+      **A04**, **A05**
 
       ## References
 

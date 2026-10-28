@@ -1,14 +1,14 @@
 """plate_model_debug — helpers for diagnosing plate-model artefacts.
 
-Bundled with the GPlately x pyGMT tutorial suite for notebooks T15-T18 (cluster C: plate-model debugging).
+Bundled with the GPlately x pyGMT tutorial suite for notebooks C01-C04 (cluster C: plate-model debugging).
 
 The four notebooks that consume this package:
 
-- T15  Diagnosing-negative-divergence-and-convergence (MORs, SZs, transforms)
-- T16  Diagnosing velocity magnitude at MORs (via PlateTectonicTools)
-- T17  Topology construction anomalies (gaps/overlaps, non-unique sections,
+- C01  Diagnosing-negative-divergence-and-convergence (MORs, SZs, transforms)
+- C02  Diagnosing velocity magnitude at MORs (via PlateTectonicTools)
+- C03  Topology construction anomalies (gaps/overlaps, non-unique sections,
        missing polarity)
-- T18  Feature extractability at subduction zones (buffer zones, convergence
+- C04  Feature extractability at subduction zones (buffer zones, convergence
        rates)
 
 Upstream repo: https://github.com/EarthByte/plate-model-debug (made public

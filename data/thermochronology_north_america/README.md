@@ -2,7 +2,7 @@
 
       **Provenance:** USGS Geochron v4.0 (Naeser et al.) — North America subset
 
-      North American thermochronology sample compilation for T48. Includes `na_thermal_histories.csv` (flat sample-history file) and `dyntopo_master/` (per-age Parquet caches joining thermochron samples to reconstructed DT values).
+      North American thermochronology sample compilation for G09. Includes `na_thermal_histories.csv` (flat sample-history file) and `dyntopo_master/` (per-age Parquet caches joining thermochron samples to reconstructed DT values).
 
       ## Contents
 
@@ -31,7 +31,7 @@ usgs_geochron_v4/
 
       ## Consumer notebooks
 
-      **T48**
+      **G09**
 
       ## References
 

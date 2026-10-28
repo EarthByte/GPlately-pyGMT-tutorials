@@ -1,6 +1,6 @@
 # Young 2022 dynamic topography (gld428) + M21 NNR plate model
 
-This folder contains the mantle-flow-derived dynamic topography (DT) grids of **Young, Flament, Williams, Merdith, Cao, Müller & Zahirovic (2022)** in their two production cadences and both reference frames, plus the **M21 NNR** (Merdith 2021 no-net-rotation) plate model that the geodynamic simulation ran in. It is the input substrate for tutorial **T78** (mantle → plate → difference walkthrough) and is the same product referenced by **T29** (deep-time DT change) and **T48** (North America thermochronology). Total footprint ≈ 1 GB.
+This folder contains the mantle-flow-derived dynamic topography (DT) grids of **Young, Flament, Williams, Merdith, Cao, Müller & Zahirovic (2022)** in their two production cadences and both reference frames, plus the **M21 NNR** (Merdith 2021 no-net-rotation) plate model that the geodynamic simulation ran in. It is the input substrate for tutorial **E07** (mantle → plate → difference walkthrough) and is the same product referenced by **E06** (deep-time DT change) and **G09** (North America thermochronology). Total footprint ≈ 1 GB.
 
 ## Layout
 
@@ -23,7 +23,7 @@ Young2022_dynamic_topo/
 
 - **Mantle frame** — DT at a fixed position in the mantle. This is what the convection model outputs directly. Differencing two mantle-frame grids at the same (lon, lat) compares *different crustal columns* at the two times, because the plate slides over the mantle. Correct use: single-snapshot maps only.
 
-- **Plate frame** — DT rotated so that each plate's DT is attached to its present-day position. Now the (lon, lat) of a cell is a fixed piece of continental crust across time. Differencing two plate-frame grids gives the actual DT change *each crustal column* experienced. Correct use: differencing, per-column history, tectonic-substrate reasoning. T78 walks through the mantle → plate rotation step-by-step.
+- **Plate frame** — DT rotated so that each plate's DT is attached to its present-day position. Now the (lon, lat) of a cell is a fixed piece of continental crust across time. Differencing two plate-frame grids gives the actual DT change *each crustal column* experienced. Correct use: differencing, per-column history, tectonic-substrate reasoning. E07 walks through the mantle → plate rotation step-by-step.
 
 ## Filename conventions
 
@@ -66,9 +66,9 @@ topo = [pygplates.FeatureCollection(f)
 
 ## Consumer notebooks
 
-- **T29** — Dynamic-topography change through deep time (differencing in plate frame).
-- **T48** — North America thermochronology with DT overlay.
-- **T78** — Mantle → plate → difference reference-frame walkthrough (this tutorial explains, step-by-step, the rotation the other two apply silently).
+- **E06** — Dynamic-topography change through deep time (differencing in plate frame).
+- **G09** — North America thermochronology with DT overlay.
+- **E07** — Mantle → plate → difference reference-frame walkthrough (this tutorial explains, step-by-step, the rotation the other two apply silently).
 
 ## License
 

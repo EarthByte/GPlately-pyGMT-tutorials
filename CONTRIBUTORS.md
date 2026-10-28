@@ -46,17 +46,17 @@ lives in that notebook's own *Contributed by* line and in the README's
 - **Andrew Merdith** — submitted PR #1 (`palaeoclimate-cluster-fixes`),
   fixing Mollweide seam/pole-slivers rendering, PLASIM-GENIE vs.
   cGENIE/SCION naming, and a years-to-Ma bug across the paleoclimate cluster
-  (T45–T48).
-- **Ehsan Farahbakhsh** — T15 kinematic-feature-extraction workflow, ported
+  (J03–J06).
+- **Ehsan Farahbakhsh** — B08 kinematic-feature-extraction workflow, ported
   from his own
   [GPlates_Workflows](https://github.com/e-farahbakhsh/GPlates_Workflows) repo.
-- **Daven Quinn & Shanan E. Peters** — T44 Macrostrat lithology-styled
+- **Daven Quinn & Shanan E. Peters** — G02 Macrostrat lithology-styled
   paleogeologic maps, adapted from their own
   [UW-Macrostrat / GPlately + pyGMT demo](https://github.com/UW-Macrostrat/gplately-pygmt-demo).
-- **Jianping Zhou** — T46 highland-footprint DBSCAN analysis, reproducing
+- **Jianping Zhou** — G04 highland-footprint DBSCAN analysis, reproducing
   Fig. 4 of Zhou et al. (2026, *Geology*), and the chemical-mohometry
-  paleo-elevation correction underlying T43.
-- **Zhen Xu & Benjamin J.W. Mills** — T63 plant-fossil / Early Triassic
+  paleo-elevation correction underlying G01.
+- **Zhen Xu & Benjamin J.W. Mills** — J02 plant-fossil / Early Triassic
   super-greenhouse notebook.
 
 ## Other contributions

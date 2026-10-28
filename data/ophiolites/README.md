@@ -2,7 +2,7 @@
 
       **Provenance:** Furnes, Dilek & Wakabayashi (2014)
 
-      Curated CSV of Phanerozoic + Precambrian ophiolite emplacement ages and locations, extracted from Furnes et al.'s (2014) 500+ ophiolite catalogue. Used to reconstruct ophiolites to their emplacement-age paleo-position and compute an emplacement-rate time series in T49.
+      Curated CSV of Phanerozoic + Precambrian ophiolite emplacement ages and locations, extracted from Furnes et al.'s (2014) 500+ ophiolite catalogue. Used to reconstruct ophiolites to their emplacement-age paleo-position and compute an emplacement-rate time series in G10.
 
       ## Contents
 
@@ -14,7 +14,7 @@ ophiolites_furnes2014_curated.csv
 
       ## Consumer notebooks
 
-      **T49**
+      **G10**
 
       ## References
 

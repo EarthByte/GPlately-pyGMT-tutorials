@@ -2,7 +2,7 @@
 
         **Provenance:** Multiple curators
 
-        Paleomagnetic data used by cluster F reference-frame + paleomagnetism tutorials: (1) `gpmdb_2022.csv` — 2022 snapshot of the Global Paleomagnetic Database (Torsvik + Van der Voo curators); (2) `vaes2023_global_apwp.csv` — global APWP of Vaes et al. (2023) in the South African frame (33 poles, 1.4–320.2 Ma; used by T37 and T39); (3) `gilder2001_xishuigou_directions.csv` — specimen-level directions of the Oligo-Miocene Xishuigou section (Gilder et al. 2001, MagIC contribution 20098) for the inclination-shallowing tutorial T40, built by `build_gilder2001_csv.py`; (4) `osler_upper_sites_*` — Osler VGP compilation; (5) `torsvik2012_laurentia_apwp.csv` — rounded tutorial values, no longer used by any notebook (superseded by the Vaes 2023 APWP); (6) rotation files with GPMDB-frame anchors.
+        Paleomagnetic data used by cluster F reference-frame + paleomagnetism tutorials: (1) `gpmdb_2022.csv` — 2022 snapshot of the Global Paleomagnetic Database (Torsvik + Van der Voo curators); (2) `vaes2023_global_apwp.csv` — global APWP of Vaes et al. (2023) in the South African frame (33 poles, 1.4–320.2 Ma; used by F05 and F07); (3) `gilder2001_xishuigou_directions.csv` — specimen-level directions of the Oligo-Miocene Xishuigou section (Gilder et al. 2001, MagIC contribution 20098) for the inclination-shallowing tutorial F08, built by `build_gilder2001_csv.py`; (4) `osler_upper_sites_*` — Osler VGP compilation; (5) `torsvik2012_laurentia_apwp.csv` — rounded tutorial values, no longer used by any notebook (superseded by the Vaes 2023 APWP); (6) rotation files with GPMDB-frame anchors.
 
         ## Contents
 
@@ -20,7 +20,7 @@
 
         ## Consumer notebooks
 
-        **T33**, **T34**, **T37**, **T38**, **T39**, **T40**, **T62**
+        **F01**, **F02**, **F05**, **F06**, **F07**, **F08**, **J01**
 
         ## References
 

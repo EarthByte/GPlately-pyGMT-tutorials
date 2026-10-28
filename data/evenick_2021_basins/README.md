@@ -4,7 +4,7 @@
 
 A revised global compilation of 768 sedimentary basin polygons, each carrying rich per-basin attributes: basin type (passive margin, rift, foreland, forearc, backarc, strike-slip, intracratonic, fold-and-thrust belt), region, sediment-thickness statistics from two independent sources (Straume et al. 2019 and Laske et al. 2013), Moho-depth statistics, and evaporite (salt) presence/style. The companion `mmc1` spreadsheet lists 368 individually dated evaporite occurrences across 217 of these basins (formation name, period, age range), joinable back onto the shapefile via `Basin UBI`. `mmc2` is Evenick's own column data-dictionary for the shapefile's attribute table.
 
-All three files are the **unmodified originals** from the article's ScienceDirect supplementary material (only renamed for repo-naming consistency — byte content is untouched). Every derived artifact used in the tutorial notebook — GPML conversion, reconstruction plate-ID assignment, `.gpmlz` export — is generated **at runtime** by T53, not pre-baked and redistributed here (see License below).
+All three files are the **unmodified originals** from the article's ScienceDirect supplementary material (only renamed for repo-naming consistency — byte content is untouched). Every derived artifact used in the tutorial notebook — GPML conversion, reconstruction plate-ID assignment, `.gpmlz` export — is generated **at runtime** by H01, not pre-baked and redistributed here (see License below).
 
 ## Contents
 
@@ -22,7 +22,7 @@ Evenick2021_mmc2_column_dictionary.xlsx (10 KB) — data dictionary for the shap
 
 ## Consumer notebooks
 
-**T53**
+**H01**
 
 ## References
 
@@ -34,4 +34,4 @@ Laske, G., Masters, G., Ma, Z. & Pasyanos, M. (2013). Update on CRUST1.0 — A 1
 
 ## License
 
-**CC BY-NC-ND 4.0** (verified via the article's Crossref record). These three files are redistributed **verbatim and unmodified**, which trivially satisfies the license's NoDerivatives (ND) term. Because ND prohibits redistributing an *adapted* version, this repo does not bundle any pre-converted or pre-joined form of this data (e.g. a `.gpmlz` conversion, or a shapefile pre-joined to the evaporite list) — T53 builds those at runtime from these originals, on demand, for the end user. The NonCommercial (NC) term is not a concern for this non-commercial teaching repo but is noted for completeness. Attribution: Evenick (2021), full citation above.
+**CC BY-NC-ND 4.0** (verified via the article's Crossref record). These three files are redistributed **verbatim and unmodified**, which trivially satisfies the license's NoDerivatives (ND) term. Because ND prohibits redistributing an *adapted* version, this repo does not bundle any pre-converted or pre-joined form of this data (e.g. a `.gpmlz` conversion, or a shapefile pre-joined to the evaporite list) — H01 builds those at runtime from these originals, on demand, for the end user. The NonCommercial (NC) term is not a concern for this non-commercial teaching repo but is noted for completeness. Attribution: Evenick (2021), full citation above.

@@ -14,11 +14,11 @@ cd paper/figures
 python build_fig1_suite_ladder.py
 ```
 
-The script has a built-in sanity check that fails loudly if T-numbers go non-contiguous or a notebook is missing from the ladder — so it doubles as a rendering test.
+The script has a built-in sanity check that fails loudly if the notebook IDs within a cluster go non-contiguous or a notebook is missing from the ladder — so it doubles as a rendering test.
 
 ## Layout convention
 
-The cluster ladder is organised by **thematic cluster (A-K)**, not by T-number order, fully contiguous as of the 2026-07-28 reclassification (which folds any same-day tail additions back into their target cluster's contiguous range, and also corrects any notebook that turns out to be mis-classified into the wrong cluster, so the ladder should never show a tail tile or an out-of-theme notebook for long). When a new notebook lands between deliberate resequences, its tile sits at the RIGHT end of its target cluster's tile row until the next resequence folds it in.
+The cluster ladder is organised by **thematic cluster (A-K)**; tiles are labelled with the notebook ID (cluster letter + index within the cluster, e.g. F03) and each cluster is contiguous.
 
 If a new notebook is added, edit the `CLUSTERS` list in `build_fig1_suite_ladder.py`, add the tile to the target cluster, re-run, commit.
 

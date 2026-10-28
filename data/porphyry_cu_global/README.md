@@ -2,7 +2,7 @@
 
       **Provenance:** Curated global compilation
 
-      Single CSV of global porphyry-copper deposit locations + ages, used by T65 (global kinematic envelope) and T66-T69 as a cross-check target for prospectivity predictions.
+      Single CSV of global porphyry-copper deposit locations + ages, used by K02 (global kinematic envelope) and as a cross-check target for the prospectivity notebooks in cluster K.
 
       ## Contents
 
@@ -14,7 +14,7 @@ global_porphyry_cu.csv
 
       ## Consumer notebooks
 
-      **T65**, **T66**, **T68**, **T69**
+      **J04**, **J05**, **J07**, **J08**
 
       ## References
 

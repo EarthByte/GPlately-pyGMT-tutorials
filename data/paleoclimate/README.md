@@ -2,7 +2,7 @@
 
         **Provenance:** Boucot 2022 Köppen compilation + PLASIM-GENIE snapshot
 
-        Deep-time paleoclimate reference data: (a) Boucot 2022 Köppen-zone Phanerozoic attributions in `boucot2022_koppen_phanerozoic/`, (b) end-Permian PLASIM-GENIE SAT snapshot at 252 Ma, 8960 ppm CO2. Used by T56 (deep-time SAT), T58 (PLASIM CO2 sensitivity), and T61 (ocean gateways vs frame).
+        Deep-time paleoclimate reference data: (a) Boucot 2022 Köppen-zone Phanerozoic attributions in `boucot2022_koppen_phanerozoic/`, (b) end-Permian PLASIM-GENIE SAT snapshot at 252 Ma, 8960 ppm CO2. Used by J03 (deep-time SAT), J05 (PLASIM CO2 sensitivity), and J10 (ocean gateways vs frame).
 
         ## Contents
 
@@ -44,7 +44,7 @@
 
         ## Consumer notebooks
 
-        **T56**, **T58**, **T61**
+        **J03**, **J05**, **J10**
 
         ## References
 

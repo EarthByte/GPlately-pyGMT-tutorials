@@ -2,7 +2,7 @@
 
       **Provenance:** Afonso, Salajegheh, Szwillus, Ebbing & Gaina (2019)
 
-      Global 0.25° × 0.25° continental crustal thickness grid from Afonso et al.'s joint inversion of gravity, elevation, receiver-function, surface-wave and long-period MT constraints. **Values stored in METRES** (not km) — divide by 1000 at load. Used for the McKenzie β = t_c0 / t_c stretching-factor calculation (T76) and for basin-interior crustal-thickness statistics (T75, T77).
+      Global 0.25° × 0.25° continental crustal thickness grid from Afonso et al.'s joint inversion of gravity, elevation, receiver-function, surface-wave and long-period MT constraints. **Values stored in METRES** (not km) — divide by 1000 at load. Used for the McKenzie β = t_c0 / t_c stretching-factor calculation (H02) and for basin-interior crustal-thickness statistics (H01, H03).
 
       ## Contents
 
@@ -14,7 +14,7 @@ crustal-thickness-gmt-surface.nc (4.0 MB)
 
       ## Consumer notebooks
 
-      **T75**, **T76**, **T77**
+      **H01**, **H02**, **H03**
 
       ## References
 

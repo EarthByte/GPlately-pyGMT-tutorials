@@ -2,7 +2,7 @@
 
         **Provenance:** Curated multi-source compilation
 
-        Small hand-curated CSV of terrane-scale Hf and Nd isotope averages for terrane-mapping in T23. Not a comprehensive database — a demonstration subset. Contains sample_id, terrane_name, lon, lat, age_ma, initial_epsilon_hf, initial_epsilon_nd, source.
+        Small hand-curated CSV of terrane-scale Hf and Nd isotope averages for terrane-mapping in D05. Not a comprehensive database — a demonstration subset. Contains sample_id, terrane_name, lon, lat, age_ma, initial_epsilon_hf, initial_epsilon_nd, source.
 
         ## Contents
 
@@ -14,7 +14,7 @@
 
         ## Consumer notebooks
 
-        **T23**
+        **D05**
 
         ## References
 

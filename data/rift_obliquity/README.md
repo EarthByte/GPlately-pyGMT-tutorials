@@ -2,7 +2,7 @@
 
       **Provenance:** Brune, Williams, Butterworth & Müller (2016)
 
-      Rift-obliquity dataset used by T14 (rift-obliquity through time). Contains the Brune 2016 GPlates rotation file and continent-ocean-boundary polygons for computing extension-direction obliquity along rift segments over the past 230 Myr.
+      Rift-obliquity dataset used by B07 (rift-obliquity through time). Contains the Brune 2016 GPlates rotation file and continent-ocean-boundary polygons for computing extension-direction obliquity along rift segments over the past 230 Myr.
 
       ## Contents
 
@@ -23,7 +23,7 @@ brune_cob_polygons/
 
       ## Consumer notebooks
 
-      **T14**
+      **B07**
 
       ## References
 

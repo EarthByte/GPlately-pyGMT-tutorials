@@ -51,32 +51,32 @@ the expected path.
 
 | Zip file | Extracts to | Size | Used by |
 |---|---|---|---|
-| `zircon_geochronology_Wu2023.zip` | `zircon_geochronology_Wu2023/` | 2.1 MB | T21, T22, T23, T24 |
-| `REVEAL_mantle_tomography.zip` | `REVEAL_mantle_tomography/` | 225 MB | T27 |
-| `paleoDEM_ScoteseWright2018.zip` | `paleoDEM_ScoteseWright2018/` | 4.1 MB | T47, T67, T69 |
-| `pySCION_biogeochemistry_model.zip` | `pySCION_biogeochemistry_model/` | 12 MB | T67 |
-| `dynamic_topography_Dhungana.zip` | `dynamic_topography_Dhungana/` | 449 MB | T28, T29, T30 |
-| `dynamic_topography_Young2022.zip` | `dynamic_topography_Young2022/` | 193 MB | T31, T32, T51 |
-| `gmcm9_dynamic_topography_Braz.zip` | `gmcm9_dynamic_topography_Braz/` | 129 MB | T48, T50 |
-| `paleo_elevation_Zhou.zip` | `paleo_elevation_Zhou/` | 6.1 MB | T46 |
-| `thermochronology_precomputed_cache_CentralAsia.zip` | `thermochronology_precomputed_cache_CentralAsia/` | 576 KB | T48, T49, T50 (optional time-saver) |
-| `thermochronology_faults_Boone_core.zip` | `thermochronology_faults_Boone/` | 145 MB | T49 |
-| `AFEAD_faults_Boone.zip` | `thermochronology_faults_Boone/` (same folder as above) | 1.8 GB | T49 |
-| `thermochronology_geochronology_USGS_NorthAmerica.zip` | `thermochronology_geochronology_USGS_NorthAmerica/` | 192 KB | T51 |
-| `sediment_thickness_BirdMooney.zip` | `sediment_thickness_BirdMooney/` | 9.1 MB | T53, T55 |
-| `crustal_thickness_Afonso.zip` | `crustal_thickness_Afonso/` | 3.1 MB | T53, T54, T55 |
-| `foam_devonian_climatology_Pohl.zip` | `foam_devonian_climatology_Pohl/` | 578 MB | T69 |
-| `phansst_proxy_database_Judd2022.zip` | `phansst_proxy_database_Judd2022/` | 41 MB | T70 |
-| `gateway_reconstruction_Straume2020.zip` | `gateway_reconstruction_Straume2020/` | 241 MB | T71 |
+| `zircon_geochronology_Wu2023.zip` | `zircon_geochronology_Wu2023/` | 2.1 MB | D01, D02, D03, D04 |
+| `REVEAL_mantle_tomography.zip` | `REVEAL_mantle_tomography/` | 225 MB | E02 |
+| `paleoDEM_ScoteseWright2018.zip` | `paleoDEM_ScoteseWright2018/` | 4.1 MB | G05, J06, J08 |
+| `pySCION_biogeochemistry_model.zip` | `pySCION_biogeochemistry_model/` | 12 MB | J06 |
+| `dynamic_topography_Dhungana.zip` | `dynamic_topography_Dhungana/` | 449 MB | E03, E04, E05 |
+| `dynamic_topography_Young2022.zip` | `dynamic_topography_Young2022/` | 193 MB | E06, E07, G09 |
+| `gmcm9_dynamic_topography_Braz.zip` | `gmcm9_dynamic_topography_Braz/` | 129 MB | G06, G08 |
+| `paleo_elevation_Zhou.zip` | `paleo_elevation_Zhou/` | 6.1 MB | G04 |
+| `thermochronology_precomputed_cache_CentralAsia.zip` | `thermochronology_precomputed_cache_CentralAsia/` | 576 KB | G06, G07, G08 (optional time-saver) |
+| `thermochronology_faults_Boone_core.zip` | `thermochronology_faults_Boone/` | 145 MB | G07 |
+| `AFEAD_faults_Boone.zip` | `thermochronology_faults_Boone/` (same folder as above) | 1.8 GB | G07 |
+| `thermochronology_geochronology_USGS_NorthAmerica.zip` | `thermochronology_geochronology_USGS_NorthAmerica/` | 192 KB | G09 |
+| `sediment_thickness_BirdMooney.zip` | `sediment_thickness_BirdMooney/` | 9.1 MB | H01, H03 |
+| `crustal_thickness_Afonso.zip` | `crustal_thickness_Afonso/` | 3.1 MB | H01, H02, H03 |
+| `foam_devonian_climatology_Pohl.zip` | `foam_devonian_climatology_Pohl/` | 578 MB | J08 |
+| `phansst_proxy_database_Judd2022.zip` | `phansst_proxy_database_Judd2022/` | 41 MB | J09 |
+| `gateway_reconstruction_Straume2020.zip` | `gateway_reconstruction_Straume2020/` | 241 MB | J10 |
 
 `thermochronology_faults_Boone` is the one dataset split across two zip
-files (both required by T49) — extract both into the same
+files (both required by G07) — extract both into the same
 `zenodo_data/thermochronology_faults_Boone/` folder.
 
 ## Dataset details
 
 ### zircon_geochronology_Wu2023
-- **Used by:** T21, T22, T23, T24
+- **Used by:** D01, D02, D03, D04
 - **Contents:** `zircons_sedimentary_Wu2023.gpmlz`,
   `zircons_igneous_Wu2023.gpmlz`, `zircons_metamorphic_Wu2023.gpmlz`
 - **Source:** Wu, Y., Fang, X. & Ji, J. (2023). A global zircon U–Th–Pb
@@ -85,30 +85,30 @@ files (both required by T49) — extract both into the same
   at https://doi.org/10.5281/zenodo.7387566
 
 ### REVEAL_mantle_tomography
-- **Used by:** T27
+- **Used by:** E02
 - **Contents:** `REVEAL.nc` — full-resolution 3-D global mantle
   tomography grid.
 - **Source:** REVEAL global mantle tomography model.
 - **Distinct from:** `data/reveal_tomography/` (already bundled in git,
-  7.8 MB, pre-sliced horizontal depth grids used by T26 — a different,
+  7.8 MB, pre-sliced horizontal depth grids used by E01 — a different,
   smaller product from the same model; do not confuse the two).
 
 ### paleoDEM_ScoteseWright2018
-- **Used by:** T47, T67, T69 (T51 instead uses the smaller, already
+- **Used by:** G05, J06, J08 (G09 instead uses the smaller, already
   git-bundled `data/paleotopo_scotese/corrected_SW/` — no download
-  needed for T51)
+  needed for G09)
 - **Contents:** all 109 Scotese & Wright (2018) PaleoDEM `.nc` grids,
   1-degree resolution, full 0–540 Ma, single `z` variable (elevation, m;
   negative = submerged), already in the paleo (reconstructed) reference
-  frame. T69 uses just the two grids at 420 Ma and 360 Ma.
+  frame. J08 uses just the two grids at 420 Ma and 360 Ma.
 - **Source:** Scotese, C.R. & Wright, N.M. (2018). PaleoDEM resource.
   https://www.earthbyte.org/paleodem-resource-scotese-and-wright-2018/.
   Archived at https://doi.org/10.5281/zenodo.5460860
 
 ### pySCION_biogeochemistry_model
-- **Used by:** T67
+- **Used by:** J06
 - **Contents:** a minimal runnable subset of Mills & Gurung's pySCION
-  Earth-evolution model — the 5 Python modules T67 actually imports and
+  Earth-evolution model — the 5 Python modules J06 actually imports and
   runs, plus the forcing-data files they read (21 MB total, vs. ~103 MB
   for the full upstream checkout, which also includes an unused
   reconstruction-model cache and unused data files).
@@ -116,7 +116,7 @@ files (both required by T49) — extract both into the same
   https://doi.org/10.5281/zenodo.7940113 · https://github.com/bjwmills/pySCION
 
 ### dynamic_topography_Dhungana
-- **Used by:** T28, T29, T30
+- **Used by:** E03, E04, E05
 - **Contents:** per-(continent, age) dynamic-topography grids
   (`DTvsSediment/`), per-(age, depth) mantle-temperature grids
   (`Temperature_and_Velocity/`), and supporting reconstruction files
@@ -125,38 +125,38 @@ files (both required by T49) — extract both into the same
   Great Unconformity*. https://doi.org/10.5281/zenodo.17773494
 
 ### dynamic_topography_Young2022
-- **Used by:** T31, T32, T51
+- **Used by:** E06, E07, G09
 - **Contents:** `plate_frame/` dynamic-topography grids (two age
   cadences) and `plate_model/` (M21 NNR rotation + topology files).
 - **Source:** Young, A. et al. (2022). *Earth and Planetary Science
   Letters* 584, 117451.
 
 ### gmcm9_dynamic_topography_Braz
-- **Used by:** T48, T50
+- **Used by:** G06, G08
 - **Contents:** `MantleFrame/`, `PlateFrame/` mantle-flow
   dynamic-topography grids, 0–150 Ma at ~5-Myr cadence.
 - **Source:** Braz, C. et al. (2021) — EarthByte dynamic-topography
   archive ("gmcm9" model run).
 
 ### paleo_elevation_Zhou
-- **Used by:** T46
+- **Used by:** G04
 - **Contents:** geochemistry-corrected paleo-elevation compilation
   (`global_crustal_thickness_with_paleo_coords.csv` + supporting
   age-temperature CSVs).
 - **Source:** Zhou et al. — geochemistry-corrected paleo-elevation.
 
 ### thermochronology_precomputed_cache_CentralAsia
-- **Used by:** T48 (writes), T49 (writes), T50 (reads) — an optional
-  time-saver, not a hard dependency: T48/T49 rebuild these caches
+- **Used by:** G06 (writes), G07 (writes), G08 (reads) — an optional
+  time-saver, not a hard dependency: G06/G07 rebuild these caches
   automatically on first run (a few minutes) if this folder is absent.
-  T47 does not need this download; it reads the smaller, already
+  G05 does not need this download; it reads the smaller, already
   git-bundled CSVs at `data/thermochronology_central_asia/` directly.
-- **Contents:** `thermochron_master/*.parquet` (written by T48),
-  `kinematics_master/*.parquet` (written by T49) — precomputed per-age
+- **Contents:** `thermochron_master/*.parquet` (written by G06),
+  `kinematics_master/*.parquet` (written by G07) — precomputed per-age
   cache tables.
 
 ### thermochronology_faults_Boone (two zips, one folder)
-- **Used by:** T49
+- **Used by:** G07
 - **Contents:** `Southern_Margin_Polygons_V4/` (Boone's per-age Eurasian
   margin polygon), `Faults/` (GEM Global Active Faults Database,
   pre-reconstructed), `AFEAD_Faults/AFEAD_v2022/` (Active Faults of
@@ -166,7 +166,7 @@ files (both required by T49) — extract both into the same
   re-processed from AFEAD / GEM Foundation public sources.
 
 ### thermochronology_geochronology_USGS_NorthAmerica
-- **Used by:** T51
+- **Used by:** G09
 - **Contents:** `dyntopo_master/` — precomputed per-age
   dynamic-topography cache (same pattern as the Central Asia cache
   above). The raw USGS Geochron CSVs and flat thermal-history reduction
@@ -177,19 +177,19 @@ files (both required by T49) — extract both into the same
   — DOI 10.5066/P9RZNPIF (public domain).
 
 ### sediment_thickness_BirdMooney
-- **Used by:** T53, T55
+- **Used by:** H01, H03
 - **Contents:** `Bird_Mooney_GST14_WGS84.nc` — 0.125° global sediment
   thickness.
 - **Source:** Bird & Mooney (2026) GST-1.
 
 ### crustal_thickness_Afonso
-- **Used by:** T53, T54, T55
+- **Used by:** H01, H02, H03
 - **Contents:** `crustal-thickness-gmt-surface.nc` — 0.25° global
   crustal thickness.
 - **Source:** Afonso et al. (2019).
 
 ### foam_devonian_climatology_Pohl
-- **Used by:** T69
+- **Used by:** J08
 - **Contents:** 8 NetCDF files, `{360,380,400,420}rd_1368W_EccN_{atmos,ocean}_2240ppm.nc`
   — FOAM GCM Devonian climatology at 420 Ma and 360 Ma. Atmosphere files
   include `TS1` (K, surface air temperature), `T`/`U`/`V`/`Z3`
@@ -211,7 +211,7 @@ files (both required by T49) — extract both into the same
   transfer via the device bridge's per-file cap (files up to 124 MB each).
 
 ### phansst_proxy_database_Judd2022
-- **Used by:** T70
+- **Used by:** J09
 - **Contents:** `PhanSST_v001.csv` (150,691 rows, 55 columns, 1,241 unique
   site names, full Phanerozoic 540 Ma-present) + `PhanSST_ReadMe.md`.
 - **Source:** Judd, E.J., Tierney, J.E. et al. (2022). The PhanSST global
@@ -224,7 +224,7 @@ files (both required by T49) — extract both into the same
   BY 4.0.
 
 ### gateway_reconstruction_Straume2020
-- **Used by:** T71
+- **Used by:** J10
 - **Contents:** 15 NetCDF files, `paleobathy-topo_{1,5,10,15,20,25,30,34,
   35,40,45,50,55,60,65}.00Ma_Straume_et_al.nc`, each a single `z` variable
   (paleobathymetry/topography, m; negative = below sea level) on a 0.1°
@@ -236,7 +236,7 @@ files (both required by T49) — extract both into the same
   https://doi.org/10.1016/j.gloplacha.2020.103297. Data (v2.0) archived at
   https://doi.org/10.5281/zenodo.4193576, CC BY 4.0.
 
-**Note on basin polygons (T53/T54/T55):** these three notebooks also load
+**Note on basin polygons (H01/H02/H03):** these three notebooks also load
 a global basin-polygon shapefile, but it is NOT part of this Zenodo
 archive — it's `data/evenick_2021_basins/` (Evenick 2021, CC BY-NC-ND
 4.0), small enough to ship directly in the git repo. See

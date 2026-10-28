@@ -2,7 +2,7 @@
 
       **Provenance:** Boone et al. (2025) — the central-Asia core dataset of ThermoPlates
 
-      The canonical Central Asia thermochronology compilation of Boone et al. (2025), with the flat per-sample thermal-history CSV and per-snapshot Parquet caches produced by T45/T46 (writers) and consumed by T47 (reader). The `TempDiff` column is the authoritative per-sample cooling rate in °C/Myr — do NOT recompute from OnlyCooling.
+      The canonical Central Asia thermochronology compilation of Boone et al. (2025), with the flat per-sample thermal-history CSV and per-snapshot Parquet caches produced by G06/G07 (writers) and consumed by G08 (reader). The `TempDiff` column is the authoritative per-sample cooling rate in °C/Myr — do NOT recompute from OnlyCooling.
 
       ## Contents
 
@@ -49,7 +49,7 @@ thermochron_master/
 
       ## Consumer notebooks
 
-      **T44**, **T45**, **T46**, **T47**
+      **G05**, **G06**, **G07**, **G08**
 
       ## References
 

@@ -1,4 +1,4 @@
-# Mantle / dynamic-topography data — required by T24, T25, T27, T28
+# Mantle / dynamic-topography data — required by E03, E04, E05
 
 Time-dependent mantle netCDF cubes from Dhungana & Flament's
 *Deep Earth Origin of the Great Unconformity* online supplement.
@@ -19,8 +19,8 @@ Santosh's source repo uses Git LFS, so cloning needs LFS support:
 
 After cloning, copy these out of his repo and into this directory:
 
-    muller2019_T_anomaly_subsampled.nc     used by T24
-    muller2019_DT_cube.nc                  used by T25, T27, T28
+    muller2019_T_anomaly_subsampled.nc     used by E03
+    muller2019_DT_cube.nc                  used by E03, E04, E05
 
 The notebooks' Configuration cell uses `MANTLE_NCFILE` / `DT_NCFILE`
 constants — point those at the local path of whichever cube you want

@@ -2,7 +2,7 @@
 
         **Provenance:** Shirmard, Mather, Farahbakhsh, Czarnota & Müller (2025, in review)
 
-        Author-contributed data for T72 — six horizontal shear-wave-velocity (VSH) tomography GeoTIFFs at 150-200 km depth (SL2013sv reference), a continental-polygon shapefile, and the All_Deposits mineral-deposit shapefile used to compute ore-tonnage-weighted CDFs of distance to craton boundaries.
+        Author-contributed data for K08 — six horizontal shear-wave-velocity (VSH) tomography GeoTIFFs at 150-200 km depth (SL2013sv reference), a continental-polygon shapefile, and the All_Deposits mineral-deposit shapefile used to compute ore-tonnage-weighted CDFs of distance to craton boundaries.
 
         ## Contents
 
@@ -37,7 +37,7 @@
 
         ## Consumer notebooks
 
-        **T72**
+        **K08**
 
         ## References
 
