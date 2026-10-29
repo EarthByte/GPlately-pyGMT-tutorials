@@ -18,4 +18,5 @@ dependencies:
   - pyarrow         # for parquet caches (G06-G08)
   - imageio         # for A06 animations
   - ffmpeg          # for A06 MP4 encoding
+  - xlrd            # reads the .xls deposit compilations (H01, K03)
   - pip
