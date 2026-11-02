@@ -9,6 +9,7 @@ dependencies:
   - panel
   - pyviz_comms     # Panel <-> JupyterLab bridge; needed for the A07 slider
   - matplotlib
+  - cmcrameri
   - cartopy
   - xarray
   - pandas
