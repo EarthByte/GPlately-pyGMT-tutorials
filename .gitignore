@@ -202,14 +202,14 @@ author_contributed_scripts/
 # inspiration, never pushed.
 pyDTDM-main/
 
-# T59-T62 debug-notebook frame directories (auto-populated on video build).
-Notebooks/T59_debug_divergence_frames/
-Notebooks/T60_debug_mor_velocity_frames/
-Notebooks/T61_debug_topology_frames/
-Notebooks/T62_debug_extractability_frames/
+# C01-C04 debug-notebook frame directories (auto-populated on video build).
+Notebooks/C01_debug_divergence_frames/
+Notebooks/C02_debug_mor_velocity_frames/
+Notebooks/C03_debug_topology_frames/
+Notebooks/C04_debug_extractability_frames/
 
-# T72 Craton Boundary Framework working directory
-Notebooks/T72_cbf_outputs/
+# K08 Craton Boundary Framework working directory
+Notebooks/K08_cbf_outputs/
 
 # === T29 + T48 + T78 Young 2022 dynamic topography + M21 NNR plate model (~1 GB, Zenodo) ===
 data/Young2022_dynamic_topo/

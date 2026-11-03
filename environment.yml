@@ -18,5 +18,12 @@ dependencies:
   - pyarrow         # for parquet caches (G06-G08)
   - imageio         # for A06 animations
   - ffmpeg          # for A06 MP4 encoding
+  - imageio-ffmpeg  # imageio MP4 writer backend (C01-C04 videos)
+  - cmcrameri       # Crameri scientific colour maps (B07, E02, J05)
+  - coloraide       # colour conversion for lithology styling (G02)
+  - h3-py           # H3 hexagonal grid (I06). No Python 3.15 build on conda-forge
+                    # yet, so the environment resolves to Python 3.14. Kept here
+                    # because PyPI has no 3.15 wheels either: on 3.15,
+                    # `pip install h3` would try to compile it from source.
   - xlrd            # reads the .xls deposit compilations (H01, K03)
   - pip
