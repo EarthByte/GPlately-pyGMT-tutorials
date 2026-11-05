@@ -1,7 +1,8 @@
 # Mantle / dynamic-topography data — required by E03, E04, E05
 
-Time-dependent mantle netCDF cubes from Dhungana & Flament's
-*Deep Earth Origin of the Great Unconformity* online supplement.
+Time-dependent mantle netCDF cubes from the online supplement of Dhungana, S. & Flament, N. (2026).
+The deep Earth origin of the Great Unconformity. *Nature* 659, 106–112.
+https://doi.org/10.1038/s41586-026-11156-5
 Each cube is typically 100+ MB, so they are **not bundled** here.
 
 ## How to get them

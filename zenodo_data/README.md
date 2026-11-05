@@ -123,6 +123,8 @@ files (both required by G07) — extract both into the same
   (`Reconstructions/`).
 - **Source:** Dhungana, S. & Flament, N. — *Dynamic Topography and
   Great Unconformity*. https://doi.org/10.5281/zenodo.17773494
+- **Paper:** Dhungana, S. & Flament, N. (2026). The deep Earth origin of the Great
+  Unconformity. *Nature* 659, 106–112. https://doi.org/10.1038/s41586-026-11156-5
 
 ### dynamic_topography_Young2022
 - **Used by:** E06, E07, G09
