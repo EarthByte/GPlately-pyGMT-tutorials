@@ -26,6 +26,6 @@ dependencies:
                     # yet, so the environment resolves to Python 3.14. Kept here
                     # because PyPI has no 3.15 wheels either: on 3.15,
                     # `pip install h3` would try to compile it from source.
-  - xlrd            # reads the .xls deposit compilations (H01, K03)
+  - xlrd            # reads the .xls files (H01, K03, E05)
   - openpyxl        # reads the .xlsx forcings that pySCION loads via pandas (J06)
   - pip
