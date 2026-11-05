@@ -30,7 +30,7 @@ author group:
 - Satyam Singh — Geonome, Sydney
 - Hojat Shirmard — EarthByte Group, School of Geosciences, The University of Sydney
 - Dongchuan Jian — Department of Geology, Northwest University, Xi'an
-- Bram Vaes — Department of Earth and Environmental Sciences, University of Milano-Bicocca
+- Bram Vaes — Aix Marseille University, CNRS, IRD, INRAE, CEREGE, Aix-en-Provence, France
 - D. Rhodri Davies — Research School of Earth Sciences, Australian National University
 - Sia Ghelichkhan — Research School of Earth Sciences, Australian National University
 - Nicky M. Wright — EarthByte Group, School of Geosciences, The University of Sydney
