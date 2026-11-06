@@ -19,8 +19,8 @@ abstract: >-
   via Zenodo.
 type: software
 license: BSD-3-Clause
-version: "1.0.0"
-date-released: "2026-08-17"
+version: "1.1.0"
+date-released: "2026-11-06"
 repository-code: "https://github.com/EarthByte/GPlately-pyGMT-tutorials"
 url: "https://github.com/EarthByte/GPlately-pyGMT-tutorials"
 keywords:
@@ -123,7 +123,7 @@ authors:
     affiliation: "EarthByte Group, School of Geosciences, The University of Sydney, NSW 2006, Australia"
 references:
   - type: dataset
-    title: "GPlately-pyGMT-tutorial-data-v1 (companion large-data archive)"
-    doi: "10.5281/zenodo.21836196"
-    url: "https://zenodo.org/records/21836196"
+    title: "GPlately-pyGMT tutorial suite: companion data archive, v1.1"
+    doi: "10.5281/zenodo.23992244"
+    url: "https://zenodo.org/records/23992244"
 doi: 10.5281/zenodo.21977669

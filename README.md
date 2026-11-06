@@ -48,11 +48,13 @@ refer to the exact version described in the paper.
 git clone https://github.com/EarthByte/GPlately-pyGMT-tutorials.git
 cd GPlately-pyGMT-tutorials
 
-# 2. Get the large-data companion archive (~12 GB) from Zenodo
-#    (only needed for 23 of the 80 notebooks — see below)
-wget https://zenodo.org/records/21836196/files/GPlately-pyGMT-tutorial-data-v1.zip
-unzip GPlately-pyGMT-tutorial-data-v1.zip
-rsync -av GPlately-pyGMT-tutorial-data/zenodo_data/ ./zenodo_data/
+# 2. Get the datasets you need from the Zenodo companion archive
+#    (only needed for 23 of the 80 notebooks — see below). One zip per
+#    dataset, 17 in all (3.7 GB); each extracts into zenodo_data/, e.g.
+cd zenodo_data
+wget https://zenodo.org/records/23992244/files/zircon_geochronology_Wu2023.zip
+unzip zircon_geochronology_Wu2023.zip
+cd ..
 
 # 3. Install the environment
 conda env create -f environment.yml
@@ -77,11 +79,13 @@ grids, PaleoDEMs, gmcm9 dynamic topography, fault databases and thermochronology
 compilations), H01–H03 (sediment and crustal thickness grids), J06 (pySCION) and
 J08–J10 (FOAM Devonian climate, PhanSST, Cenozoic ocean gateways). Those datasets
 ship in the **Zenodo companion archive** at DOI
-[10.5281/zenodo.21836196](https://doi.org/10.5281/zenodo.21836196)
-(~12 GB compressed). Extract it as `zenodo_data/` at the repo root (see
-[`Notebooks/README.md`](Notebooks/README.md) for the exact layout). See the
-archive's own `README.md` and `DATA_INVENTORY.md` for the full manifest,
-provenance, and per-dataset citations.
+[10.5281/zenodo.23992244](https://doi.org/10.5281/zenodo.23992244)
+(version 1.1; 17 zips, 3.7 GB in all; the DOI for all versions,
+which always resolves to the latest, is
+[10.5281/zenodo.21836195](https://doi.org/10.5281/zenodo.21836195)). Download only the zips your notebooks need and
+extract each inside `zenodo_data/` at the repo root. The table in
+[`zenodo_data/README.md`](zenodo_data/README.md) lists which notebooks use
+each zip, with provenance and per-dataset citations.
 
 A handful of other notebooks (F02, F09, J01) need only a small, single-file
 rotation model (`data/Zahirovic2022_with_gpmdb_frame.rot`, 2.8 MB) that's

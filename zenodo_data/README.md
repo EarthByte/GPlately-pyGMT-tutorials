@@ -5,7 +5,7 @@ notebooks in `Notebooks/`) that's too large, or licensed separately, to
 bundle on GitHub. It does not ship in the git repo (gitignored except
 this README) — download it from Zenodo instead:
 
-**Zenodo DOI: [10.5281/zenodo.21836196](https://doi.org/10.5281/zenodo.21836196)**
+**Zenodo DOI: [10.5281/zenodo.23992244](https://doi.org/10.5281/zenodo.23992244)** (version 1.1)
 
 ## How to use this archive
 
@@ -52,22 +52,24 @@ the expected path.
 | Zip file | Extracts to | Size | Used by |
 |---|---|---|---|
 | `zircon_geochronology_Wu2023.zip` | `zircon_geochronology_Wu2023/` | 2.1 MB | D01, D02, D03, D04 |
-| `REVEAL_mantle_tomography.zip` | `REVEAL_mantle_tomography/` | 225 MB | E02 |
-| `paleoDEM_ScoteseWright2018.zip` | `paleoDEM_ScoteseWright2018/` | 4.1 MB | G05, J06, J08 |
-| `pySCION_biogeochemistry_model.zip` | `pySCION_biogeochemistry_model/` | 12 MB | J06 |
-| `dynamic_topography_Dhungana.zip` | `dynamic_topography_Dhungana/` | 449 MB | E03, E04, E05 |
-| `dynamic_topography_Young2022.zip` | `dynamic_topography_Young2022/` | 193 MB | E06, E07, G09 |
-| `gmcm9_dynamic_topography_Braz.zip` | `gmcm9_dynamic_topography_Braz/` | 129 MB | G06, G08 |
-| `paleo_elevation_Zhou.zip` | `paleo_elevation_Zhou/` | 6.1 MB | G04 |
-| `thermochronology_precomputed_cache_CentralAsia.zip` | `thermochronology_precomputed_cache_CentralAsia/` | 576 KB | G06, G07, G08 (optional time-saver) |
-| `thermochronology_faults_Boone_core.zip` | `thermochronology_faults_Boone/` | 145 MB | G07 |
-| `AFEAD_faults_Boone.zip` | `thermochronology_faults_Boone/` (same folder as above) | 1.8 GB | G07 |
-| `thermochronology_geochronology_USGS_NorthAmerica.zip` | `thermochronology_geochronology_USGS_NorthAmerica/` | 192 KB | G09 |
-| `sediment_thickness_BirdMooney.zip` | `sediment_thickness_BirdMooney/` | 9.1 MB | H01, H03 |
-| `crustal_thickness_Afonso.zip` | `crustal_thickness_Afonso/` | 3.1 MB | H01, H02, H03 |
-| `foam_devonian_climatology_Pohl.zip` | `foam_devonian_climatology_Pohl/` | 578 MB | J08 |
-| `phansst_proxy_database_Judd2022.zip` | `phansst_proxy_database_Judd2022/` | 41 MB | J09 |
-| `gateway_reconstruction_Straume2020.zip` | `gateway_reconstruction_Straume2020/` | 241 MB | J10 |
+| `REVEAL_mantle_tomography.zip` | `REVEAL_mantle_tomography/` | 230.8 MB | E02 |
+| `paleoDEM_ScoteseWright2018.zip` | `paleoDEM_ScoteseWright2018/` | 4.3 MB | G05, J06, J08 |
+| `pySCION_biogeochemistry_model.zip` | `pySCION_biogeochemistry_model/` | 10.7 MB | J06 |
+| `dynamic_topography_Dhungana.zip` | `dynamic_topography_Dhungana/` | 470.8 MB | E03, E04, E05 |
+| `dynamic_topography_Young2022.zip` | `dynamic_topography_Young2022/` | 196.4 MB | E06, E07, G09 |
+| `gmcm9_dynamic_topography_Braz.zip` | `gmcm9_dynamic_topography_Braz/` | 125.6 MB | G06, G08 |
+| `paleo_elevation_Zhou.zip` | `paleo_elevation_Zhou/` | 5.6 MB | G04 |
+| `thermochronology_precomputed_cache_CentralAsia.zip` | `thermochronology_precomputed_cache_CentralAsia/` | 558 kB | G06, G07, G08 (optional time-saver) |
+| `thermochronology_faults_Boone_core.zip` | `thermochronology_faults_Boone/` | 146.0 MB | G07 |
+| `AFEAD_faults_Boone.zip` | `thermochronology_faults_Boone/` (same folder as above) | 1.9 GB | G07 |
+| `thermochronology_geochronology_USGS_NorthAmerica.zip` | `thermochronology_geochronology_USGS_NorthAmerica/` | 179 kB | G09 |
+| `sediment_thickness_BirdMooney.zip` | `sediment_thickness_BirdMooney/` | 8.7 MB | H01, H03 |
+| `crustal_thickness_Afonso.zip` | `crustal_thickness_Afonso/` | 2.5 MB | H01, H02, H03 |
+| `foam_devonian_climatology_Pohl.zip` | `foam_devonian_climatology_Pohl/` | 329.6 MB | J08 |
+| `phansst_proxy_database_Judd2022.zip` | `phansst_proxy_database_Judd2022/` | 2.5 MB | J09 |
+| `gateway_reconstruction_Straume2020.zip` | `gateway_reconstruction_Straume2020/` | 251.6 MB | J10 |
+
+Seventeen zip files, 3.7 GB in all.
 
 `thermochronology_faults_Boone` is the one dataset split across two zip
 files (both required by G07) — extract both into the same
