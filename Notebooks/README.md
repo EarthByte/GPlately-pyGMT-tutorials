@@ -81,7 +81,8 @@ Macrostrat APIs, plate-tectonic information via the GPlates Web Service,
 etc. — so cloning this repo and `conda`-installing the environment above is
 enough to run them.
 
-A small number of notebooks pull in larger companion datasets (mantle-
+Twenty-three notebooks (D01–D04, E02–E07, G04–G09, H01–H03, J06, J08–J10)
+pull in larger companion datasets (detrital zircons, tomography, mantle-
 convection NetCDFs, paleotopography assimilations, the pySCION repository, …)
 that are too large or licensed separately to bundle here. These all live in
 **one place**: download the suite's companion Zenodo archive and extract it

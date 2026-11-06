@@ -14,7 +14,7 @@ abstract: >-
   introductory single-concept example to a research-grade workflow. The suite
   executes on a laptop, ships with executed outputs preserved for instant visual
   feedback on GitHub, and is accompanied by per-notebook learning objectives,
-  references, and an "Extend this" section. Nine of the eighty notebooks
+  references, and an "Extend this" section. Twenty-three of the eighty notebooks
   additionally depend on a large companion data archive distributed separately
   via Zenodo.
 type: software

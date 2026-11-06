@@ -49,7 +49,7 @@ git clone https://github.com/EarthByte/GPlately-pyGMT-tutorials.git
 cd GPlately-pyGMT-tutorials
 
 # 2. Get the large-data companion archive (~12 GB) from Zenodo
-#    (only needed for 9 of the 80 notebooks — see below)
+#    (only needed for 23 of the 80 notebooks — see below)
 wget https://zenodo.org/records/21836196/files/GPlately-pyGMT-tutorial-data-v1.zip
 unzip GPlately-pyGMT-tutorial-data-v1.zip
 rsync -av GPlately-pyGMT-tutorial-data/zenodo_data/ ./zenodo_data/
@@ -64,21 +64,21 @@ Or use the official [`gplates/gplately` Docker image](https://hub.docker.com/r/g
 
 ### About the Zenodo companion archive
 
-**71 of the 80 notebooks** run purely from what's in this repo — everything
+**57 of the 80 notebooks** run purely from what's in this repo — everything
 they need is either bundled in `data/` (small paleo-DEM subsets, published
 tabular datasets, palette files) or auto-fetched at runtime via
 `plate_model_manager` (Cao 2024, Zahirovic 2022, Merdith 2021, Müller 2022).
 
-**9 notebooks** — the thermochronology + mantle-dynamics group (E03, G04,
-G06–G09) and the Devonian / PhanSST / Cenozoic-gateway paleoclimate trio
-(J08–J10) — lean on larger datasets that would push the repo past 100 MB per
-file / into the multi-GB range on disk. Those datasets ship in a single
-**Zenodo companion archive** at DOI
+**23 notebooks** lean on larger datasets that would push the repo past 100 MB per
+file / into the multi-GB range on disk: D01–D04 (detrital zircons), E02 (REVEAL
+tomography), E03–E05 (Dhungana + Flament mantle temperature, velocity and dynamic
+topography), E06–E07 (Young et al. dynamic topography), G04–G09 (paleo-elevation
+grids, PaleoDEMs, gmcm9 dynamic topography, fault databases and thermochronology
+compilations), H01–H03 (sediment and crustal thickness grids), J06 (pySCION) and
+J08–J10 (FOAM Devonian climate, PhanSST, Cenozoic ocean gateways). Those datasets
+ship in the **Zenodo companion archive** at DOI
 [10.5281/zenodo.21836196](https://doi.org/10.5281/zenodo.21836196)
-(~12 GB compressed): AFEAD + GEM fault databases, gmcm9 dynamic topography,
-Dhungana + Flament mantle temperature/velocity fields, per-continent
-thermochronology compilations, and the FOAM / PhanSST / gateway-bathymetry
-datasets behind J08–J10. Extract it as `zenodo_data/` at the repo root (see
+(~12 GB compressed). Extract it as `zenodo_data/` at the repo root (see
 [`Notebooks/README.md`](Notebooks/README.md) for the exact layout). See the
 archive's own `README.md` and `DATA_INVENTORY.md` for the full manifest,
 provenance, and per-dataset citations.
@@ -89,7 +89,7 @@ committed straight to the repo — no Zenodo download required for those.
 
 If you skip step 2, the notebooks that depend on the Zenodo archive raise
 `FileNotFoundError` on their first cell with a pointer to the Zenodo DOI —
-nothing runs silently against missing inputs. The other 71 notebooks work
+nothing runs silently against missing inputs. The other 57 notebooks work
 regardless.
 
 ## Working without the plate-model server
