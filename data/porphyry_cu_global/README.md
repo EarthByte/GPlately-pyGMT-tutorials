@@ -32,7 +32,7 @@ Tonnage and grades are empty for the 205 deposits without a reported tonnage. Wh
 
 ## References
 
-Singer, D.A., Berger, V.I. & Moring, B.C. (2008). Porphyry copper deposits of the world: database and grade and tonnage models, 2008. *U.S. Geological Survey Open-File Report* 2008-1155. https://pubs.usgs.gov/of/2008/1155/
+Singer, D.A., Berger, V.I. & Moring, B.C. (2008). Porphyry copper deposits of the world: database and grade and tonnage models, 2008. *U.S. Geological Survey Open-File Report* 2008-1155. https://doi.org/10.3133/ofr20081155 (data: https://pubs.usgs.gov/of/2008/1155/)
 
 ## License
 

@@ -30,7 +30,7 @@ The database gives the age of the host rocks, not a dated age of mineralisation.
 
 ## References
 
-Cox, D.P., Lindsey, D.A., Singer, D.A., Moring, B.C. & Diggles, M.F. (2003, rev. 2007). Sediment-hosted copper deposits of the world: deposit models and database. *U.S. Geological Survey Open-File Report* 03-107, version 1.3. https://pubs.usgs.gov/of/2003/of03-107/
+Cox, D.P., Lindsey, D.A., Singer, D.A., Moring, B.C. & Diggles, M.F. (2003, rev. 2007). Sediment-hosted copper deposits of the world: deposit models and database. *U.S. Geological Survey Open-File Report* 03-107, version 1.3. https://doi.org/10.3133/ofr2003107 (data: https://pubs.usgs.gov/of/2003/of03-107/)
 
 ## License
 
