@@ -16,12 +16,17 @@ Puetz et al. (2024), who recalculated them for every analysis with one set of co
 Files written (data/hf_nd_isotopes/)
   hf_zircon_grains.csv.gz   every zircon analysis with a U-Pb age (0-4500 Ma): sample_key, age_ma, eps_hf_t,
                             tdm2_ma, rock_class (igneous / detrital / miscellaneous)
-  hf_zircon_samples.csv.gz  one row per sample: sample_key, country, continent, geol_unit, lon, lat,
-                            rock_class, rock_type, mafic_felsic, n_grains and the medians of the sample's grains
-                            (age_ma, eps_hf_t, tdm2_ma); the medians characterise an igneous sample, not a detrital one
+  hf_zircon_samples.csv.gz  one row per sample: sample_key, country, continent, geol_unit, geol_subunit, ophiolite,
+                            lon, lat, rock_class, rock_type, mafic_felsic, n_grains and the medians of the sample's
+                            grains (age_ma, eps_hf_t, tdm2_ma); the medians characterise an igneous sample, not a
+                            detrital one
   nd_whole_rock.csv.gz      every whole-rock Sm-Nd analysis: sample_key, sample_id, country, continent, geol_unit,
-                            lon, lat, rock_class, rock_type, mafic_felsic, age_ma (crystallisation or assumed age),
-                            sm147_nd144, nd143_nd144, eps_nd_t, tdm2_ma
+                            geol_subunit, ophiolite, lon, lat, rock_class, rock_type, mafic_felsic, age_ma
+                            (crystallisation or assumed age), sm147_nd144, nd143_nd144, eps_nd_t, tdm2_ma
+
+`ophiolite` names the ophiolite a sample belongs to, taken from the database's own fields: the first of the minor
+geologic unit, the locality (Hf only) and the major geographic-geologic description that contains "ophiolit", or,
+where only the rock type is "ophiolite", the minor unit. It is empty for all other samples.
 """
 import argparse
 import hashlib
@@ -55,6 +60,15 @@ def workbook(name, local_dir):
 
 def text(s):
     return s.astype(str).str.split().str.join(" ").replace({"nan": "", "None": ""})
+
+
+def ophiolite(names, rock_type):
+    """Ophiolite name from the first of the name fields that mentions one, else from the rock type."""
+    out = pd.Series("", index=rock_type.index)
+    for col in reversed(names):                      # the first field in `names` wins
+        out = col.where(col.str.contains("ophiolit", case=False), out)
+    only_rock = (out == "") & rock_type.str.contains("ophiolit", case=False)
+    return out.where(~only_rock, names[0].where(names[0] != "", names[-1]))
 
 
 def write(df, path, what):
@@ -99,6 +113,9 @@ def main():
         "sample_key": grains["sample_key"],
         "country": text(hf["Country/Small Region"]), "continent": text(hf["Continent"]),
         "geol_unit": text(hf["Major Geographic-Geologic Description"]),
+        "geol_subunit": text(hf["Minor Geologic-Geographic Unit"]),
+        "ophiolite": ophiolite([text(hf["Minor Geologic-Geographic Unit"]), text(hf["Locality"]),
+                                text(hf["Major Geographic-Geologic Description"])], text(hf["Class-3 Rock Type"])),
         "lon": grains["lon"].round(5), "lat": grains["lat"].round(5), "rock_class": grains["rock_class"],
         "rock_type": text(hf["Class-3 Rock Type"]), "mafic_felsic": text(hf["Mafic_Felsic"]),
     }).drop_duplicates("sample_key").set_index("sample_key")
@@ -126,6 +143,9 @@ def main():
         "sample_key": text(nd["Sample-Ref Key"]), "sample_id": text(nd["Sample ID"]),
         "country": text(nd["Country/Small Region"]), "continent": text(nd["Continent"]),
         "geol_unit": text(nd["Major Geographic-Geologic Description"]),
+        "geol_subunit": text(nd["Minor Geologic-Geographic Unit"]),
+        "ophiolite": ophiolite([text(nd["Minor Geologic-Geographic Unit"]),
+                                text(nd["Major Geographic-Geologic Description"])], text(nd["Rock-Type-3"])),
         "lon": n("GPS Longitude").round(5), "lat": n("GPS Latitude").round(5),
         "rock_class": text(nd["Rock-Type-1"]), "rock_type": text(nd["Rock-Type-3"]),
         "mafic_felsic": text(nd["Felsic or Mafic ?"]),

@@ -7,14 +7,14 @@ Three tables built from two workbooks of the Figshare record of Puetz et al. (20
 ## Contents
 
 ```
-hf_nd_isotopes/  (2.4 MB)
+hf_nd_isotopes/  (2.5 MB)
 ├── README.md
 ├── hf_zircon_grains.csv.gz    210,064 zircon analyses with a U-Pb age between 0 and 4500 Ma
 ├── hf_zircon_samples.csv.gz   7,061 samples (3,266 igneous, 3,791 detrital, 4 miscellaneous)
 └── nd_whole_rock.csv.gz       22,019 whole-rock analyses (19,039 igneous, 2,980 detrital)
 ```
 
-Each file starts with three `#` comment lines (read with `pd.read_csv(path, comment="#")`).
+Each file starts with three `#` header lines; read with `pd.read_csv(path, skiprows=3)`. (Do not use `comment="#"`: some borehole names in `geol_subunit` contain `#`.)
 
 **hf_zircon_grains.csv.gz**
 
@@ -31,7 +31,8 @@ Each file starts with three `#` comment lines (read with `pd.read_csv(path, comm
 | Column | Meaning |
 |---|---|
 | `sample_key` | as above |
-| `country`, `continent`, `geol_unit` | location as given in the database (`geol_unit`: its major geographic-geologic description) |
+| `country`, `continent`, `geol_unit`, `geol_subunit` | location as given in the database (`geol_unit`: its major geographic-geologic description; `geol_subunit`: its minor geologic-geographic unit) |
+| `ophiolite` | name of the ophiolite the sample belongs to (see below); empty otherwise |
 | `lon`, `lat` | sample location (WGS84 decimal degrees) |
 | `rock_class`, `rock_type`, `mafic_felsic` | Class-1 and Class-3 rock types; mafic/felsic class |
 | `n_grains` | number of analyses of the sample in `hf_zircon_grains` |
@@ -42,13 +43,15 @@ Each file starts with three `#` comment lines (read with `pd.read_csv(path, comm
 | Column | Meaning |
 |---|---|
 | `sample_key`, `sample_id` | Puetz et al. sample key and published sample ID |
-| `country`, `continent`, `geol_unit` | as above |
+| `country`, `continent`, `geol_unit`, `geol_subunit`, `ophiolite` | as above |
 | `lon`, `lat` | sample location (decimal degrees) |
 | `rock_class`, `rock_type`, `mafic_felsic` | as above |
 | `age_ma` | crystallisation age, or the assumed age used for εNd(t) (Ma) |
 | `sm147_nd144`, `nd143_nd144` | measured ¹⁴⁷Sm/¹⁴⁴Nd and ¹⁴³Nd/¹⁴⁴Nd |
 | `eps_nd_t` | εNd(t) at `age_ma` |
 | `tdm2_ma` | two-stage depleted-mantle Nd model age (Ma), the authors' preferred model age; empty for 500 analyses |
+
+**Ophiolite samples.** `ophiolite` is taken from the database's own fields: the first of the minor geologic unit, the locality (Lu-Hf only) and the major geographic-geologic description that contains "ophiolit", or the minor unit where only the rock type is "ophiolite". It marks 27 Lu-Hf samples from 11 ophiolites (17 of them igneous, from 8 ophiolites; the others are ophiolitic mélange sediments) and 81 whole-rock analyses from 12 ophiolites (79 of them igneous). D05 draws the igneous ones as the oceanic end-member.
 
 ## Consumer notebooks
 
