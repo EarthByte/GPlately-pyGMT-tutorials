@@ -7,8 +7,8 @@ scientific plots).
 
 > **Live repository versus archived snapshot.** This GitHub repository is the
 > living version of the suite: notebooks are added, corrected and renumbered
-> over time. The Zenodo record of release 1.1.0
-> ([10.5281/zenodo.23993421](https://doi.org/10.5281/zenodo.23993421)) is a
+> over time. The Zenodo record of release 1.1.3
+> ([10.5281/zenodo.24147776](https://doi.org/10.5281/zenodo.24147776)) is a
 > frozen snapshot of the suite as it stood at the time the companion paper
 > (Müller et al., *Geochemistry, Geophysics, Geosystems*) was published; it is
 > not updated afterwards. If notebook numbers, contents or environments here
