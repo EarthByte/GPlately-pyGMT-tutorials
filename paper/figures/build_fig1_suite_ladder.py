@@ -117,7 +117,7 @@ CLUSTERS = [
         ("J01", "Boucot" + NL + "climate" + NL + "lithos"),
         ("J02", "Plant-fossil" + NL + "paleoclim." + NL + "(Xu/Mills)"),
         ("J03", "Deep-time" + NL + "paleoclim." + NL + "snapshots"),
-        ("J04", "cGENIE" + NL + "SST vs" + NL + "proxies"),
+        ("J04", "GENIE" + NL + "SST vs" + NL + "proxies"),
         ("J05", "PLASIM" + NL + "CO2" + NL + "sensitivity"),
         ("J06", "pySCION" + NL + "Phanerozoic"),
         ("J07", "Ref-frame" + NL + "paleoclim."),

@@ -118,7 +118,7 @@ Earlier versions of the suite (including the review-stage manuscript and the Zen
 | J01 | T62 | `J01_Boucot_Climate_Sensitive_Lithologies` |
 | J02 | T63 | `J02_Paleo_Plant_Climate` |
 | J03 | T64 | `J03_Deep_Time_Paleoclimate_Snapshots` |
-| J04 | T65 | `J04_cGENIE_SST_vs_Proxies` |
+| J04 | T65 | `J04_GENIE_SST_vs_DeepMIP_Proxies` |
 | J05 | T66 | `J05_PLASIM_GENIE_CO2_Sensitivity_252Ma` |
 | J06 | T67 | `J06_pySCION_Phanerozoic_Biogeochemistry` |
 | J07 | T68 | `J07_Reference_Frame_Paleoclimate` |

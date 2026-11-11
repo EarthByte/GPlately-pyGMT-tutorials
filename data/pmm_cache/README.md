@@ -20,7 +20,7 @@ Each model folder holds the layers the notebooks use: `Rotations/`, `Topologies/
 
 ## Consumer notebooks
 
-**B09**, **D05**, **F09**, **F10**, **G10**, **H01**, **H02**, **H03**, **I05**, **I06**, **J08**, **J09**, **J10**, **J11**, **K07**, **K08**
+**B09**, **D05**, **F09**, **F10**, **G10**, **H01**, **H02**, **H03**, **I05**, **I06**, **J04**, **J08**, **J09**, **J10**, **J11**, **K07**, **K08**
 
 ## References
 

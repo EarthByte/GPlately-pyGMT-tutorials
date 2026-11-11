@@ -1,24 +1,790 @@
-# Sediment-hosted Cu deposits — intracontinental Cu provinces.
-# These deposits formed in cratonic basin settings, NOT at active subduction zones.
-# Major districts: Central African Copperbelt, Kupferschiefer (Europe), Udokan,
-# Dzhezkazgan, Midcontinent Rift (USA), Corocoro, plus Proterozoic Mt Isa-style.
-# For full inventories: Hitzman et al. (2010), Brown (2014) IAGOD compilation.
-name,lon,lat,age_ma,country,host_formation
-Konkola,27.85,-12.41,880.0,Zambia,Roan Group
-Nchanga,27.86,-12.52,880.0,Zambia,Roan Group
-Mufulira,28.27,-12.55,880.0,Zambia,Roan Group
-Kolwezi,25.48,-10.71,880.0,DRC,Roan Group
-Tenke-Fungurume,26.32,-10.6,880.0,DRC,Roan Group
-Mutanda,26.83,-10.85,880.0,DRC,Roan Group
-Lubin,16.2,51.4,257.0,Poland,Kupferschiefer
-Polkowice,16.13,51.5,257.0,Poland,Kupferschiefer
-Mansfeld,11.45,51.55,257.0,Germany,Kupferschiefer
-Sangerhausen,11.3,51.47,257.0,Germany,Kupferschiefer
-Udokan,118.3,55.95,1860.0,Russia,Udokan Formation
-Dzhezkazgan,67.71,47.78,305.0,Kazakhstan,Zhezkazgan Suite
-White Pine,-89.59,46.75,1075.0,USA,Nonesuch Shale
-Keweenaw,-88.16,47.3,1090.0,USA,Portage Lake Volcanics
-Corocoro,-68.31,-17.18,30.0,Bolivia,Beleño Sandstone
-Khetri,75.78,27.96,1000.0,India,Delhi Supergroup
-Mount Isa,139.5,-20.72,1670.0,Australia,Urquhart Shale
-Dugald River,139.99,-20.62,1640.0,Australia,Pmh Group
+# Sediment-hosted copper deposits of the world: all 785 deposits of Cox, D.P., Lindsey, D.A., Singer, D.A.,
+# Moring, B.C. & Diggles, M.F. (2003, rev. 2007), U.S. Geological Survey Open-File Report 03-107, v1.3,
+# https://pubs.usgs.gov/of/2003/of03-107/ (public domain). host_age_ma is the age of the host rocks.
+# Built by tools/build_sediment_hosted_cu.py; see README.md in this folder for the columns.
+deposit_id,name,other_names,country,lon,lat,host_age_ma,host_age,deposit_type,ore_mt,cu_pct,co_pct,ag_ppm,cu_mt,host_rocks,geol_province
+1,Mehirize,,Algeria,-0.34167,33.84722,115.0,"Cretaceous, Lower Aptian",Redbed Cu,,,,,,"Green argillite, sandstone",2053
+2,Tansrift,Tamarift,Morocco,-4.25,33.0,120.0,Cretaceous,Redbed Cu,1.0,1.3,,,0.013,Red sandstone,2061
+3,Tiloula,,Algeria,-0.45,32.85,115.0,"Cretaceous, L.Aptian",Redbed Cu,,,,,,"Green argillite, sandstone",2053
+4,Djebel Djara,,Algeria,-0.24167,32.83333,115.0,"Cretaceous, L.Aptian",Redbed Cu,,,,,,"Green argillite, sandstone",2053
+5,Garat Debba,,Algeria,-0.66667,32.77,115.0,"Cretaceous, L.Aptian",Redbed Cu,,,,,,"Green argillite, sandstone",2053
+6,Ain Sefra,,Algeria,-0.58333,32.75,115.0,"Cretaceous, L.Aptian",Redbed Cu,,,,,,"Green argillite, sandstone",2053
+7,Merija,Meridja,Algeria,-2.96667,31.5,120.0,Cretaceous,Redbed Cu,,,,,,"Conglomerate, white sandstone, siltstone",2058
+8,Argana,,Morocco,-9.1,30.78333,225.0,Triassic,Redbed Cu,,,,,,"Red argillaceous sandstone, bleached",2053
+9,Tirzzitt,,Morocco,-7.5,30.46667,900.0,U. Proterozoic,Redbed Cu,,,,,,Red and green sandstone and mudstone,2061
+10,Talat n Ouamane,,Morocco,-8.35,30.09444,900.0,U. Proterozoic,Reduced-facies Cu,3.0,1.5,,,0.045,siltstone,2061
+11,Iminirfi,,Morocco,-8.40833,30.0625,900.0,U. Proterozoic,Reduced-facies Cu,,,,,,"Dolomite, limestone",2061
+12,Agoujgal,,Morocco,-9.03333,29.38333,900.0,U. Proterozoic,Unclassified,0.8,1.7,,,0.0136,Arkose,2061
+13,W Araba,,Egypt,32.46667,29.25,320.0,Caboniferous,Unclassified,,,,,,Sandstone,2036
+14,Sarabit Al Khadin,,Egypt,32.46667,28.96667,340.0,L. Carboniferous,Unclassified,,,,,,"Sandstone, clay",2033
+15,Adrar Ouanas,,Morocco,-9.23333,28.26667,560.0,L. Cambrian,Reduced-facies Cu,,,,,,"Dolomite, calcareous shale, mudstone",2061
+16,Ras Banas,,Egypt,35.66667,23.98333,12.0,Miocene,Unclassified,,,,,,Sandstone,2073
+17,Agadez,,Nigeria,7.93333,16.98333,130.0,L. Cretaceous,Redbed Cu,,,,,,"Conglomerate, argillite, sandstone",7066
+18,Niami,,Mali,-9.98333,15.16667,560.0,L.Cambrian,Redbed Cu,,,,,,Sandstone,7035
+19,Gangontery,,Mali,-9.75,14.08333,560.0,L.Cambrian,Reduced-facies Cu,,,,,,Black shale,7035
+20,Falea,,Mali,-11.35,12.26667,900.0,U. Proterozoic,Unclassified,,,,,,Sandstone,7021
+21,N’ Toum,,Gabon,9.98333,1.08333,115.0,"Cretaceous, L.Aptian",Unclassified,,,,,,,7211
+22,Kilembe,,Uganda,30.05,0.21667,2000.0,L. Proterozoic,Unclassified,19.5,1.87,0.15,,0.36465,Meta dolomitic shale. Banded oligoclase-hornblende-biotite-epidote-quartz granulite,7246
+23,Minduli,,Congo Brazzaville,15.23333,-4.23333,1500.0,Proterozoic,Redbed Cu,,,,,,"Sandstone, shale",
+24,Dikulushi,,Democratic Republic of Congo,28.25,-9.16667,,,Reduced-facies Cu,1.94,8.59,,266.0,0.166646,"silstone, dolomite",
+25,Tenke,,Democratic Republic of Congo,26.15333,-10.58,900.0,U. Proterozoic,Reduced-facies Cu,195.0,3.3,0.37,,6.435,"Dolomitic, carbonaceous, pyritic shale and siltstone",7246
+26,Fungurume,,Democratic Republic of Congo,26.30083,-10.6,900.0,U. Proterozoic,Reduced-facies Cu,1370.0,2.68,0.3,,36.716,"Dolomitic, carbonaceous, pyritic shale and siltstone",7246
+27,Mutoshi,,Democratic Republic of Congo,25.51667,-10.66667,900.0,U. Proterozoic,Reduced-facies Cu,80.0,1.95,,,1.56,"Dolomitic, carbonaceous, pyritic shale and siltstone",7246
+28,Kakanda,,Democratic Republic of Congo,26.40694,-10.725,900.0,U. Proterozoic,Reduced-facies Cu,30.0,3.7,0.2,,1.11,"Dolomitic, carbonaceous, pyritic shale and siltstone",7246
+29,Kolwezi,Kolwezi Dome,Democratic Republic of Congo,25.41667,-10.73333,900.0,U. Proterozoic,Reduced-facies Cu,761.0,4.4,0.3,,33.484,"Dolomitic, carbonaceous, pyritic shale and siltstone",7291
+30,Kamfundwa,,Democratic Republic of Congo,26.59056,-10.80833,900.0,U. Proterozoic,Reduced-facies Cu,10.0,2.75,0.3,,0.275,,7246
+31,Kabolela,,Democratic Republic of Congo,26.48056,-10.84,900.0,U. Proterozoic,Reduced-facies Cu,5.0,4.1,1.07,,0.205,,7246
+32,Sesa,Msesa,Democratic Republic of Congo,26.61861,-10.845,900.0,U. Proterozoic,Reduced-facies Cu,8.0,5.75,0.2,,0.46,,7246
+33,Kambove,,Democratic Republic of Congo,26.60639,-10.87917,900.0,U. Proterozoic,Reduced-facies Cu,35.0,7.0,0.4,,2.45,"Dolomitic, carbonaceous, pyritic shale and siltstone",7246
+34,Kamatanda,,Democratic Republic of Congo,26.77667,-10.94972,900.0,U. Proterozoic,Reduced-facies Cu,10.0,5.0,,,0.5,Dolomitic shale,7246
+35,Menda Mendipe,,Democratic Republic of Congo,25.925,-10.97667,900.0,U. Proterozoic,Unclassified,30.0,3.0,0.2,,0.9,"Dolomitic, carbonaceous, pyritic shale and siltstone",7291
+36,Novo Redondo,,Angola,14.5,-11.00833,115.0,"Cretaceous, Lower Aptian",Redbed Cu,,,,,,Conglomeratic arkosic sandstone,7203
+37,Kalongwe,,Democratic Republic of Congo,25.20833,-11.02667,600.0,U. Proterozoic,Unclassified,,,,,,Siliceous dolomite,7291
+38,Cachoeiras de Binga,,Angola,14.09444,-11.08333,115.0,"Cretaceous, L.Aptian",Reduced-facies Cu,7.0,2.0,,,0.14,"Fine sandstone, siltstone, argillite, coal",7203
+39,Kimbwe,,Democratic Republic of Congo,27.51056,-11.14167,900.0,U. Proterozoic,Reduced-facies Cu,50.0,4.0,,,2.0,Dolomitic shale,7246
+40,Luishia,,Democratic Republic of Congo,27.00917,-11.16889,900.0,U. Proterozoic,Reduced-facies Cu,43.0,4.21,0.2,,1.8103,Dolomitic shale,7246
+41,Lukuni,,Democratic Republic of Congo,27.42056,-11.51389,900.0,U. Proterozoic,Reduced-facies Cu,10.0,4.86,0.1,,0.486,Dolomitic shale,7246
+42,Lupato,,Democratic Republic of Congo,27.26167,-11.62111,900.0,U. Proterozoic,Reduced-facies Cu,5.0,4.0,0.2,,0.2,Dolomitic shale,7246
+43,Etoile,"l’Etoile, Star of the Congo",Democratic Republic of Congo,27.57722,-11.64833,900.0,U. Proterozoic,Reduced-facies Cu,40.0,4.375,0.5,,1.75,"Laminated siltstone, dolomitic shale",7246
+44,Kipapila,,Democratic Republic of Congo,27.91667,-12.01667,900.0,U. Proterozoic,Reduced-facies Cu,,,,,,,7246
+45,Lubwe,,Zambia,25.95833,-12.05167,900.0,U. Proterozoic,Unclassified,70.0,0.8,,,0.56,,7291
+46,Kansanshi,,Zambia,26.41667,-12.08333,512.0,Cambrian,Unclassified,3.4,2.75,,,0.0935,"Quartz-biotite schist, biotite-garnet schist, carbonaceous phyllite, marble",7291
+47,Malundwe-Lumwana,,Zambia,25.75417,-12.16167,900.0,U. Proterozoic,Unclassified,125.0,1.03,,,1.2875,,7291
+48,Chimiwungo-Lumwana,,Zambia,25.85139,-12.17889,900.0,U. Proterozoic,Unclassified,953.0,0.64,,,6.0992,,7291
+49,Musoshi (see Konkola),,Democratic Republic of Congo,27.71361,-12.26583,900.0,U. Proterozoic,Reduced-facies Cu,,,,,,Black biotite silstone,
+50,Kinsenda,,Democratic Republic of Congo,27.96722,-12.27528,900.0,U. Proterozoic,Reduced-facies Cu,31.75,5.5,,,1.74625,Gritty arkose,7246
+51,Konkola-Kirila Bombwe,Bancroft,Zambia,27.82639,-12.39,900.0,U. Proterozoic,Reduced-facies Cu,584.5,2.95,0.07,,17.24275,"Siltstone, shale, feldspathic arenite",7291
+52,Luansobe,,Zambia,28.31472,-12.43167,900.0,U. Proterozoic,Redbed Cu,8.4,1.6,,,0.1344,,7246
+53,Mokambo,,Zambia,28.37972,-12.47722,900.0,U. Proterozoic,Reduced-facies Cu,12.2,1.8,,,0.2196,,7246
+54,English Mine,Benguela,Angola,13.51667,-12.51111,115.0,"Cretaceous, L.Aptian",Reduced-facies Cu,,,,,,"Fine sandstone, siltstone, argillite, coal",7203
+55,Mufulira,,Zambia,28.23611,-12.52278,900.0,U. Proterozoic,Reduced-facies Cu,294.9,3.36,,,9.90864,Carbonaceous graywacke,7246
+56,Chingola,,Zambia,27.83056,-12.55,900.0,U. Proterozoic,Reduced-facies Cu,31.9,3.52,,,1.12288,,7291
+57,Nchanga,,Zambia,27.86667,-12.525,900.0,U. Proterozoic,Reduced-facies Cu,400.0,3.64,,,14.56,"Carbonaceous shale, feldspathic quartzite",7291
+58,Lubembe,,Zambia,28.36556,-12.58639,900.0,U. Proterozoic,Redbed Cu,,,,,,,7246
+59,Mimbula,,Zambia,27.86556,-12.64556,900.0,U. Proterozoic,Reduced-facies Cu,9.0,2.7,,,0.243,,7246
+60,Pitanda,,Zambia,27.98667,-12.65833,900.0,U. Proterozoic,Redbed Cu,15.0,1.7,,,0.255,,5042
+61,Chambishi,,Zambia,28.04583,-12.67778,900.0,U. Proterozoic,Reduced-facies Cu,362.5,2.87,,,10.40375,"Carbonaceous shale, siltstone, argillite, dolomite",7291
+62,Fitula,,Zambia,27.91667,-12.68194,900.0,U. Proterozoic,Reduced-facies Cu,4.1,5.28,,,0.21648,,7246
+63,Pitanda South,,Zambia,27.97667,-12.71333,900.0,U. Proterozoic,Redbed Cu,0.4,1.68,,,0.00672,,7291
+64,Kasaria,,Zambia,28.10639,-12.74083,900.0,U. Proterozoic,Redbed Cu,5.0,2.51,,,0.1255,,7291
+65,Mwambashi,,Zambia,28.00472,-12.75917,900.0,U. Proterozoic,Redbed Cu,7.9,2.72,0.8,,0.21488,,7291
+66,Mindola-Nkana N-S,,Zambia,28.17139,-12.80444,900.0,U. Proterozoic,Reduced-facies Cu,259.9,3.06,0.14,,7.95294,"Argillite, dolomite, cherty argillite",7291
+67,Mwerkera,,Zambia,28.5,-12.80444,900.0,U. Proterozoic,Redbed Cu,7.1,1.53,,,0.10863,,7246
+68,Chibuluma-Chibuluma West,,Zambia,28.125,-12.825,900.0,U. Proterozoic,Reduced-facies Cu,26.7,3.79,0.21,,1.01193,Sericitic arkose,7291
+69,Nkana North Limb,,Zambia,27.175,-12.83194,900.0,U. Proterozoic,Redbed Cu,51.7,2.44,,,1.26148,,7246
+70,Chibuluma South,,Zambia,28.05,-12.83333,900.0,U. Proterozoic,Reduced-facies Cu,11.1,4.33,,,0.48063,,7291
+71,Nkana South Limb,,Zambia,28.21111,-12.85917,900.0,U. Proterozoic,Redbed Cu,,,,,,Argillite,
+72,Chifupu,,Zambia,28.05417,-12.91667,900.0,U. Proterozoic,Redbed Cu,0.2,2.79,,,0.00558,,7291
+73,Itawa,,Zambia,28.61111,-13.0,900.0,U. Proterozoic,Redbed Cu,40.0,0.76,,,0.304,,7246
+74,Bwana Mkubwa,,Zambia,28.68528,-13.02083,900.0,U. Proterozoic,Reduced-facies Cu,17.6,3.24,,,0.57024,"Feldspathic sandstone, graywacke, dolomitic siltstone",7246
+75,Baluba (see Luanshya),,Zambia,28.37778,-13.05,900.0,U. Proterozoic,Reduced-facies Cu,,,,,,Silty argillite,7246
+76,Muliashi (see Luanshiya),Roan extension,Zambia,28.275,-13.07917,900.0,U. Proterozoic,Reduced-facies Cu,,,,,,Silty argillite,7246
+77,Luanshya,Roan Antelope,Zambia,28.38333,-13.13056,900.0,U. Proterozoic,Reduced-facies Cu,306.7,2.79,,,8.55693,Silty argillite,7246
+78,Kalengwa,,Zambia,25.0,-13.41667,900.0,U. Proterozoic,Unclassified,4.0,8.7,,20.0,0.348,Conglomerate,7291
+79,Mufumbwe,,Zambia,24.78333,-13.625,900.0,U. Proterozoic,Unclassified,5.2,2.3,,,0.1196,,7291
+80,Mangula,,Zimbabwe,30.15,-16.87944,1250.0,Mid Proterozoic,Unclassified,62.0,1.2,,12.0,0.744,"Calcareous argillite, arkose",7331
+81,Norah,,Zimbabwe,30.15,-16.92722,1250.0,Mid Proterozoic,Unclassified,10.0,1.2,,,0.12,"Chloritic quartzite, arkose, argillite, anhydrite",7331
+82,Silverside,,Zimbabwe,30.27083,-16.94444,1250.0,Mid Proterozoic,Unclassified,0.9,1.8,,,0.0162,"Calcareous argillite, arkose",7331
+83,Avondale-(see Shackelton),,Zimbabwe,30.05,-17.26111,1250.0,Mid Proterozoic,Unclassified,,,,,,"Calcareous argillite, arkose",
+84,Shackleton,,Zimbabwe,30.04444,-17.26556,1250.0,Mid Proterozoic,Unclassified,3.4,1.2,,,0.0408,"Calcareous argillite, arkose",7331
+85,Alaska,,Zimbabwe,30.00833,-17.43028,1250.0,Mid Proterozoic,Unclassified,0.5,1.11,,,0.00555,"Calcareous argillite, arkose",7331
+86,Bushman Group,,Botswana,26.55833,-20.5,900.0,U. Proterozoic,Unclassified,2.0,2.0,,,0.04,Graphitic quartzite and schist,7325
+87,Ngwako Pan,Lake Ngami,Botswana,23.1,-20.75,900.0,U. Proterozoic,Redbed Cu,80.0,2.0,,40.0,1.6,Calcareous argillite,7325
+88,Matsitama,,Botswana,26.75,-21.08333,900.0,U. Proterozoic,Unclassified,8.0,2.0,,,0.16,"Siliceous limestone, calcareous quartzite, phyllite",7331
+89,Ghanzi,,Botswana,21.61667,-21.71667,900.0,U. Proterozoic,Redbed Cu,,,,,,Sandstone,7311
+90,Witvlei,"Pos , Copper Causeway, Malachite Pan prospects",Namibia,18.53333,-22.38333,900.0,U. Proterozoic,Reduced-facies Cu,6.0,2.0,,30.0,0.12,"Argillite, greenish gray to dull red, calcareous silty shale",7311
+91,Dordabis,,Namibia,17.68333,-22.95833,1200.0,M.Proterozoic,Redbed Cu,,,,,,"argillite, calcareous argillite",7311
+92,Oamites,,Namibia,17.1,-22.98333,900.0,U. Proterozoic,Reduced-facies Cu,6.1,1.33,,12.3,0.08113,"Biotite schist, amphibole schist, quartzite, conglomerate (Hakos Subgroup)",7311
+93,Klein Aub,,Namibia,16.63333,-23.8,900.0,U. Proterozoic,Reduced-facies Cu,18.0,2.0,,45.0,0.36,Green argillite,7311
+94,Duitschland,Nederland,South Africa,29.0,-24.33333,2000.0,L. Proterozoic,Unclassified,,,,,,"Stromatolitic dolomite, limestone, chert, conglomerate",7331
+95,Chernorechenskaya,,Russia,87.25,68.25,600.0,U. Proterozoic,Unclassified,,,,,,"Limestone, argillite",
+96,Mount Sauri Pe,,Russia,66.83333,68.0,505.0,Cambrian-Ordovician,Redbed Cu,,,,,,Sandstone,
+97,Rudnii,,Russia,86.8,67.83333,600.0,U. Proterozoic,Unclassified,,,,,,"Limestone, siltstone",
+98,Sukharikha,,Russia,87.0,67.66667,600.0,U. Proterozoic,Unclassified,,,,,,"Sandstone, siltstone",
+99,Izluchinsk,,Russia,86.75,67.6,600.0,U. Proterozoic,Unclassified,,,,,,"Conglomerate, siltstone",
+100,Pad-Yaga Musyur Range,,Russia,65.5,67.5,505.0,Cambrian-Ordovician,Redbed Cu,,,,,,Sandstone,
+101,Padyagin,,Russia,65.0,67.0,505.0,Cambrian-Ordovician,Unclassified,,,,,,"Sandstone, shale",
+102,Graviisk,Gravyisk,Russia,87.55,66.51667,600.0,U. Proterozoic,Reduced-facies Cu,,,,,,"Arkose, conglomerate, siltstone",
+103,Igadei-Yugan River,,Russia,60.5,65.5,480.0,L. Ordovician,Unclassified,,,,,,"Arkose, phyllite, conglomerate",
+104,Nidysei Syncline,,Russia,60.0,65.25,570.0,L. Cambrian,Unclassified,,,,,,"Sandstone, shale",
+105,Kurpandzha,,Russia,137.5,61.25,345.0,Devonian Carboniferous,Reduced-facies Cu,,,,,,"dolomitic sandstone, dolomite breccia",
+106,Velmo River,,Russia,92.5,60.75,540.0,Cambrian,Reduced-facies Cu,,,,,,"Limestone, sandstone",
+107,Kamo River,,Russia,97.5,60.5,530.0,Cambrian,Reduced-facies Cu,,,,,,"Limestone, dolomite",
+108,Irkineeva River,,Russia,98.25,59.5,530.0,Cambrian,Reduced-facies Cu,,,,,,"Algal limestone, dolomite",
+109,Katanga-Chadobets,,Russia,100.75,59.5,530.0,Cambrian,Reduced-facies Cu,,,,,,"Algal limestone, dolomite",
+110,Ugui Graben,,Russia,119.98333,59.0,2000.0,L. Proterozoic,Reduced-facies Cu,,,,,,"dolomitic sandstone, dolomite breccia",
+111,Bedoba River,,Russia,97.25,58.83333,530.0,Cambrian,Reduced-facies Cu,,,,,,"Algal limestone, sandstone, silstone, dolomite",
+112,Lena,,Russia,106.5,58.76667,520.0,U. Cambrian,Reduced-facies Cu,,,,,,Sandstone,
+113,Bilyakchan Series,,Russia,139.0,58.75,2000.0,L. Proterozoic,Unclassified,,,,,,"Siltstone, sandstone",
+114,Yenisei Ridge,,Russia,94.0,58.5,580.0,Proterozoic-Vendian,Redbed Cu,,,,,,"Sandstone, siltstone",
+115,Kirov Region,,Russia,49.83333,58.33333,250.0,U. Permian,Reduced-facies Cu,,,,,,"Shale, claystone, dolomite",
+116,Irkutsk Amphitheater,,Russia,107.5,58.0,460.0,M.Ordovician,Unclassified,,,,,,"Silstone, sandstone",
+117,Kan-Taseyeva Basin,,Russia,95.0,57.5,520.0,U. Cambrian,Reduced-facies Cu,,,,,,"Sandstone, siltstone, dolomite gypsum",
+118,Krasnoye,,Russia,119.2,56.75,2000.0,L. Proterozoic,Reduced-facies Cu,,,,,,Sandstone,
+119,Olekma Branch,,Russia,119.91667,57.33333,2000.0,L. Proterozoic,Reduced-facies Cu,,,,,,Sandstone,
+120,South Muya Range,,Russia,113.5,57.25,2000.0,L. Proterozoic,Unclassified,,,,,,"Sandstone, siltstone",
+121,Kukurunde,,Russia,117.08333,56.78333,2000.0,L. Proterozoic,Reduced-facies Cu,,,,,,"Siltstone, sandstone",
+122,Perm Vyatka,,Russia,50.75,56.5,250.0,U. Permian,Redbed Cu,,,,,,Sandstone,
+123,Burpalin,,Russia,119.91667,56.5,2000.0,L. Proterozoic,Reduced-facies Cu,,,,,,Sandstone,
+124,Udokan,,Russia,118.5,56.58333,2100.0,L. Proterozoic,Reduced-facies Cu,1200.0,2.0,,,24.0,"argillite, silty sandstone, sandy limestone",1216
+125,Pravo-Ingamakitsk,,Russia,118.66667,56.41667,2000.0,L. Proterozoic,Reduced-facies Cu,,,,,,Siltstone,
+126,Bryansk Rapids,,Russia,103.75,55.5,480.0,L. Ordovician,Reduced-facies Cu,,,,,,"Algal limestone, dolomite",
+127,Kandrykul,,Russia,53.0,55.41667,250.0,U. Permian,Reduced-facies Cu,,,,,,"Sandstone, limestone",
+128,Unkursk,,Russia,118.33333,56.75,2000.0,L. Proterozoic,Reduced-facies Cu,,,,,,Siltstone,
+129,Bugulma,Bugu’lminskaya,Russia,52.76667,54.53333,250.0,U. Permian,Reduced-facies Cu,,,,,,"Claystone, marl, dolomite",
+130,Belebey,"Belebeevskaya, Belebei, Kursak Rudniki",Russia,54.11667,54.08333,250.0,U. Permian,Reduced-facies Cu,,,,,,"Sandstone, limestone",
+131,Aksakovskaya,,Russia,54.23333,54.0,250.0,U. Permian,Reduced-facies Cu,,,,,,"Sandstone, limestone",
+132,Tagul-Uda Rivers,,Russia,98.0,54.0,580.0,U. Proterozoic-Vendian,Reduced-facies Cu,,,,,,"Sandstone, shale",
+133,Urshak,"Belebei, Kursak Rudniki",Russia,54.91667,53.91667,250.0,U. Permian,Reduced-facies Cu,,,,,,"Sandstone, limestone",
+134,Malokos,,Russia,108.0,53.75,1800.0,L. Proterozoic,Unclassified,,,,,,"Sandstone, conglomerate",
+135,Baza,,Russia,96.8,53.66667,385.0,Devonian,Unclassified,,,,,,Sandstone,
+136,Bulgin Shiver,,Mongolia,92.4,50.7,350.0,Devonian,Redbed Cu,,,,,,Sandstone,
+137,Baruun Termis Uul,,Mongolia,91.5,50.5,350.0,Devonian,Redbed Cu,,,,,,,
+138,Baruun Turaag Uul,,Mongolia,91.47917,50.14444,350.0,Devonian,Redbed Cu,,,,,,,
+139,Federovo Sterlibasevo,,Russia,55.08333,53.5,250.0,U. Permian,Reduced-facies Cu,,,,,,"Sandstone, limestone",
+140,Atbasar-3,,Kazakstan,68.66667,52.16667,320.0,M. Carboniferous,Revett Cu,,,,,,Sandstone,
+141,Iliktinsk Suite,,Russia,107.91667,53.5,1800.0,L. Proterozoic,Unclassified,,,,,,Black phyllite,
+142,Sakmara,,Russia,55.33333,52.0,250.0,U. Permian,Redbed Cu,,,,,,Sandstone,
+143,Salmysh,,Russia,55.11667,52.5,250.0,U. Permian,Reduced-facies Cu,,,,,,Sandstone,
+144,Atbasar-2,,Kazakstan,68.03333,51.91667,370.0,U. Devonian,Revett Cu,,,,,,Sandstone,
+145,Ushkarasu,,Kazakstan,67.0,51.83333,320.0,Carboniferous,Revett Cu,,,,,,Sandy shale,
+146,Atbasar-1,,Kazakstan,68.45,51.83056,320.0,M. Carboniferous,Revett Cu,,,,,,Sandstone,
+147,Vyasovka,,Russia,55.85,51.78333,250.0,U. Permian,Redbed Cu,,,,,,"Sandstone, graywacke",
+148,Kargala,,Russia,56.85,51.75,250.0,U. Permian,Redbed Cu,,,,,,Sandstone,
+149,Bolshoi Bogdo Mountains,,Russia,55.0,51.25,220.0,Triassic,Unclassified,,,,,,Sandy clay,
+150,Turgan Gulf,,Kazakstan,67.71667,51.16667,250.0,L. Permian,Revett Cu,,,,,,Sandstone,
+151,Olenty River,,Kazakstan,73.5,50.91667,370.0,U. Devonian,Redbed Cu,,,,,,Sandstone,
+152,Kyzyloba,,Kazakstan,68.43333,50.825,320.0,Carboniferous,Revett Cu,,,,,,Sandy shale,
+153,Kokpekty,,Kazakstan,68.16667,50.80333,320.0,Carboniferous,Revett Cu,,,,,,Sandy shale,
+154,Akken,,Kazakstan,68.5,50.75,320.0,Carboniferous,Revett Cu,,,,,,Sandy shale,
+155,Kopkazgen,,Kazakstan,68.13333,50.625,320.0,Carboniferous,Revett Cu,,,,,,Sandy shale,
+156,Aschilin Bay,,Kazakstan,68.11667,50.5,250.0,L. Permian,Revett Cu,,,,,,Sandy shale,
+157,Teniz-Sarysu Divide,,Kazakstan,67.88333,50.41667,370.0,U. Devonian,Revett Cu,,,,,,Sandstone,
+158,Akmolynsk-Ishim,,Kazakstan,67.88333,50.41667,370.0,Upper Devonian,Revett Cu,,,,,,Sandstone,
+159,Kenen,,Kazakstan,68.0,50.34167,320.0,M. Carboniferous,Revett Cu,,,,,,Sandy shale,
+160,Aktubinsk,,Kazakstan,57.33333,50.26667,250.0,L. Permian,Redbed Cu,,,,,,Sandstone,
+161,Ulutau North,,Kazakstan,67.0,49.1,370.0,U. Devonian,Revett Cu,,,,,,Sandstone,
+162,Ulutau South,,Kazakstan,67.0,48.51667,370.0,U. Devonian,Revett Cu,,,,,,Sandstone,
+163,Karashoshak,,Kazakstan,67.72361,48.34111,300.0,U. Carboniferous,Revett Cu,47.45,1.04,,,0.49348,Sandstone,
+164,Kipshakpay,,Kazakstan,67.56667,48.3,300.0,U. Carboniferous,Revett Cu,,,,,,Sandstone,
+165,Sarioba,,Kazakstan,67.43333,48.28333,300.0,U. Carboniferous,Revett Cu,177.7,0.87,,,1.54599,"Sandstone, silstone conglomerate",
+166,Itauz,,Kazakstan,67.33333,48.26667,300.0,U. Carboniferous,Revett Cu,77.15,0.83,,,0.640345,"Sandstone, silstone conglomerate",
+167,Kengir,,Kazakstan,68.0,48.19333,370.0,U. Devonian,Revett Cu,,,,,,Sandstone,
+168,Dzhartas,,Kazakstan,67.54167,48.12667,300.0,U. Carboniferous,Revett Cu,,,,,,Sandstone,
+169,Sorkuduk,,Kazakstan,67.54028,48.01667,320.0,Carboniferous,Revett Cu,,,,,,Sandstone,
+170,Dzhezkazgan,"Jeskesgan, Zhezkazgan",Kazakstan,67.39194,48.12222,320.0,Carboniferous,Revett Cu,439.0,1.54,,,6.7606,"Sandstone, siltstone, conglomerate",Chu Sari Su Basin 1168
+171,Spasski,,Kazakstan,67.3,47.81667,320.0,Carboniferous,Revett Cu,,,,,,"Sandstone, silstone, conglomerate",
+172,Shipisai,,Kazakstan,67.13333,47.8,320.0,Carboniferous,Revett Cu,,,,,,"Sandstone, silstone, conglomerate",
+173,Dzhezdy,,Kazakstan,66.86667,47.58333,320.0,Carboniferous,Revett Cu,,,,,,"Sandstone, silstone, conglomerate",
+174,Chu River,,Kazakstan,70.0,45.0,340.0,L. Carboniferous,Redbed Cu,,,,,,Sandstone,
+175,Naukatski,,Kazakstan,65.46667,44.86667,30.0,Tertiary,Redbed Cu,,,,,,Sandstone,
+176,Mangyshlak Peninsula-Karaduan,,Kazakstan,51.0,44.5,220.0,M. Triassic,Unclassified,,,,,,"Conglomerate, sandstone, limestone, siltstone",
+177,Mangyshlak Peninsula-Tartala,,Kazakstan,50.75,44.46667,220.0,L. Triassic,Reduced-facies Cu,,,,,,"Calcareous sandstone, limestone, siltstone",
+178,Urup Sandstone,,Russia,40.96667,43.7,180.0,Jurassic,Reduced-facies Cu,,,,,,"Siltstone, sandstone",
+179,Zhanatas,,Kazakstan,69.83333,43.5,340.0,L. Carboniferous,Redbed Cu,,,,,,Sandstone,
+180,Mirgalim-Sai,,Kazakstan,68.48333,43.45,340.0,"L, Carboniferous",Unclassified,,,,,,,
+181,Dzhambul,,Kazakstan,71.5,42.75,340.0,L. Carboniferous,Redbed Cu,,,,,,Sandstone,
+182,Northern Kirgizia,,Kyrgyzstan,75.23333,42.63333,340.0,L. Carboniferous,Reduced-facies Cu,,,,,,"Conglomerate, sandstone, siltstone, argillite",
+183,Dzhergalansk,,Kyrgyzstan,79.0,42.63333,320.0,Carboniferous,Reduced-facies Cu,,,,,,Sandstone,
+184,Frunzeul,,Kyrgyzstan,74.91667,42.53333,320.0,Carboniferous,Redbed Cu,,,,,,Sandstone,
+185,Przheval,,Kyrgyzstan,78.66667,42.525,320.0,Carboniferous,Redbed Cu,,,,,,Sandstone,
+186,Kara Balty,,Kyrgyzstan,73.83333,42.51667,320.0,Carboniferous,Redbed Cu,,,,,,Sandstone,
+187,Kyzyl-Bel,,Kyrgyzstan,72.0,42.5,700.0,U. Proterozic,Redbed Cu,,,,,,Argillite,
+188,Rybachye,,Kyrgyzstan,75.66667,42.5,320.0,Carboniferous,Redbed Cu,,,,,,Sandstone,
+189,Talas Alatau,,Kyrgyzstan,72.5,42.25,560.0,L. Cambrian,Unclassified,,,,,,Schist,
+190,Dschurger,,China,81.83333,41.8,60.0,L. Tertiary,Redbed Cu,,,,,,"Shale, sandstone",3154
+191,Kucha,Kuqa,China,82.75,41.75,60.0,L. Tertiary,Redbed Cu,,,,,,Sandstone,3154
+192,Aksu,,China,80.3,41.6,60.0,L. Tertiary,Redbed Cu,,,,,,Sandstone,
+193,Disue-2,,China,82.0,41.56667,12.0,Miocene-Pliocene,Redbed Cu,,,,,,Sandstone,3154
+194,Disue-1,,China,81.25,41.5,12.0,Miocene-Pliocene,Redbed Cu,,,,,,Sandstone,3154
+195,Naukat,,Uzbekistan,71.6,40.83333,12.0,Neogene,Redbed Cu,,,,,,Sandstone,
+196,Chimbai-Saluk,,Kyrghyzstan,73.0,40.25,12.0,Neogene,Redbed Cu,,,,,,Sandstone,
+197,Ravinou,,Kyrghyzstan,72.4,40.2,260.0,U. Permian,Reduced-facies Cu,,,,,,Sandstone,
+198,Naykatskoye,,China,74.75,40.0,60.0,L. Tertiary,Redbed Cu,,,,,,Sandstone,
+199,Kungitang,,China,74.03333,39.73333,60.0,L. Tertiary,Redbed Cu,,,,,,Sandstone,3154
+200,Gaudan,,China,74.03333,39.71667,60.0,L. Tertiary,Redbed Cu,,,,,,Sandstone,1158
+201,Daraitang,,Tajikistan,72.5,39.33333,260.0,U. Permian,Reduced-facies Cu,,,,,,Sandstone,
+202,Khozretishi,,Tajikistan,68.0,39.25,120.0,L. Cretaceous,Unclassified,,,,,,"Sandstone, conglomerate",
+203,Gissar Range,,Tajikistan,68.0,39.0,120.0,L. Cretaceous,Unclassified,,,,,,Sandstone,
+204,Vakhsh Range,,Tajikistan,69.16667,38.25,120.0,L. Cretaceous,Unclassified,,,,,,"Sandstone, conglomerate",
+205,Hadilik,KuQa,China,87.0,37.63333,60.0,L. Tertiary,Redbed Cu,,,,,,Sandstone,3118
+206,Lake Ayakkum,KuQa,China,89.16667,37.58333,60.0,L. Tertiary,Redbed Cu,,,,,,Sandstone,3117
+207,West Sinkiang,,China,111.25,35.58333,,,Unclassified,,,,,,"Sandstone, shale",
+208,Surkh-i-Parso,,Afganistan,68.65,34.85,286.0,Carbonif.- L. Permian,Unclassified,,,,,,"Marble, limestone",8001
+209,Taghar,,Afganistan,69.37861,34.43139,570.0,Vendian-Cambrian,Unclassified,,,,,,"Micaceous carbonate, phyllite",8001
+210,Ghuldarra,,Afganistan,69.30556,34.39806,570.0,Vendian-Cambrian,Unclassified,,,,,,Marble,8002
+211,Khurdkabul,,Afganistan,69.37778,34.37222,570.0,Vendian-Cambrian,Unclassified,,,,,,"Carbonate-phyllite, garnet-mica schist, marble",8002
+212,Zakhel,,Afganistan,69.26667,34.33472,570.0,Vendian-Cambrian,Unclassified,,,,,,Marble,8002
+213,Jawkhar,,Afganistan,69.30278,34.31583,570.0,Vendian-Cambrian,Unclassified,,,,,,"Calcareous sedimentary rocks, amphibolite, quartzite",8002
+214,Darband,,Afganistan,69.4,34.26667,570.0,Vendian-Cambrian,Unclassified,1.0,1.0,,,0.01,"Micaceous marble, biotite-amphibole schist",8002
+215,Aynak,,Afganistan,69.30056,34.26611,570.0,Vendian-Cambrian,Unclassified,350.0,2.0,,,7.0,"Sandstone, dolomite, carbonaceous shale",8002
+216,Khundara,,Afganistan,69.26111,34.23194,570.0,Vendian-Cambrian,Unclassified,,,,,,"Slate, marble",8002
+217,Jhakkar Kot,,Pakistan,72.46667,32.55917,260.0,L. Permian,Redbed Cu,,,,,,"Arkose, conglomerate, coal",
+218,TungKung,HsiKu,China,111.76667,31.36667,225.0,Triassic,Redbed Cu,,,,,,Limestone,3168
+219,Qamdo,Zhangdu,China,97.23333,31.16667,220.0,Triassic,Reduced-facies Cu,,,,,,Sandstone,3137
+220,DaTongChang,,China,105.06667,30.66667,100.0,Cretaceous,Redbed Cu,,,,,,"Purple and gray mudstone, sandstone",3142
+221,ChienChupa,,China,103.0,30.0,220.0,Triassic,Redbed Cu,,,,,,Gray-black sandy shale,3142
+222,OmeiHsien,,China,106.2,29.28333,220.0,Triassic,Redbed Cu,,,,,,Sandy shale,3142
+223,Weining,,China,104.2,26.85,100.0,Cretaceous,Redbed Cu,,,,,,Shale,3161
+224,Tang tang,,China,104.2,26.48333,220.0,Triassic,Redbed Cu,,,,,,Red sandstone,3161
+225,CheJiang,,China,112.56667,26.78333,75.0,Cretaceous,Redbed Cu,,,,,,Purple and gray sandstone,3146
+226,HuiLi,Luchang,China,102.25,26.68333,1500.0,Mid Proterozoic,Reduced-facies Cu,,,,,,"Gray-green shale, sandstone",3157
+227,YinMin,Dongchuan (Tungchuan) District,China,102.33333,26.32222,1500.0,Mid Proterozoic,Reduced-facies Cu,40.0,1.0,,,0.4,"Stromatolitic dolomite, argillic-arenaceous dolomite",3157
+228,LaoXue,Dongchuan (Tungchuan) District,China,102.33333,26.29167,1500.0,Mid Proterozoic,Reduced-facies Cu,50.0,1.0,,,0.5,"Stromatolitic dolomite, argillic-arenaceous dolomite",3157
+229,LaoBeiChung,Dongchuan (Tungchuan) District,China,102.33333,26.25,1500.0,Mid Proterozoic,Reduced-facies Cu,,,,,,"Stromatolitic dolomite, argillic-arenaceous dolomite",3157
+230,TianZhong,Dianzhong,China,104.01667,26.26667,70.0,U. Cretaceous,Redbed Cu,,,,,,"Violet-gray mudstone, siltstone, sandstone, conglomerate",3161
+231,TangDan,Dongchuan (Tungchuan) District,China,102.66667,26.25,1500.0,Mid Proterozoic,Reduced-facies Cu,100.0,1.0,,,1.0,"Stromatolitic dolomite, argillic-arenaceous dolomite",3157
+232,TongGuTang,CheJiang Area,China,112.16667,26.25,64.0,L. Paleocene,Redbed Cu,,,,,,Sandstone,3146
+233,JiuQuiWan,JiuQuWan JinQuWan,China,113.08333,26.25,75.0,Cretaceous,Redbed Cu,,,,,,Purple and gray sandstone,3146
+234,TuanShan,,China,103.11667,26.0,70.0,U. Cretaceous,Redbed Cu,,,,,,"Sandstone, black shale",3157
+235,Dacun,,China,103.0,25.75,70.0,U. Cretaceous,Redbed Cu,,,,,,Sandstone,3157
+236,Niutoushan,KuQa,China,111.5,25.75,60.0,L. Tertiary,Redbed Cu,,,,,,Sandstone,3146
+237,LiuZu,,China,103.25,25.41667,70.0,U. Cretaceous,Redbed Cu,,,,,,"Gray sandstone, purple sandstone, mudstone",3157
+238,KuangTung,,China,102.68333,25.06667,100.0,Cretaceous,Redbed Cu,,,,,,Shale,3157
+239,TongChangQing,,China,103.55,24.33333,70.0,U. Cretaceous,Redbed Cu,,,,,,"Sandstone, phyllite",3125
+240,ShiZhiShan,Yimen District,China,102.16667,24.18333,1500.0,Mid Proterozoic,Reduced-facies Cu,15.0,0.92,,,0.138,Dolomite,
+241,FengShan,Yimen District,China,102.16667,24.15,1500.0,Mid Proterozoic,Reduced-facies Cu,29.0,1.2,,,0.348,Dolomite,5201
+242,ShiShan,Yimen District,China,102.16667,24.11667,1500.0,Mid Proterozoic,Reduced-facies Cu,52.0,1.09,,,0.5668,Dolomite,3107
+243,Dahu,,China,114.0,24.0,65.0,U. Cretaceous,Redbed Cu,,,,,,Sandstone,3146
+244,HaoJiaHe,,China,103.58333,23.75,70.0,U. Cretaceous,Redbed Cu,,,,,,Purple sandstone,3125
+245,GeYiZha,,China,104.08333,23.58333,70.0,U. Cretaceous,Redbed Cu,,,,,,Sandstone,3125
+246,LaoQingShan,,China,103.91667,23.5,70.0,U. Cretaceous,Redbed Cu,,,,,,"Bluish gray sandstone, dolomite",3146
+247,Netanar,,India,82.05,18.86667,700.0,U. Proterozoic,Unclassified,,,,,,Shale,8003
+248,Nan,,Thailand,100.83333,18.75,150.0,Jurassic,Redbed Cu,,,,,,"Sandstone, shale",
+249,Lampang,,Thailand,99.91667,18.56667,220.0,Triassic,Redbed Cu,,,,,,Sandstone,
+250,Nam Phat,,Thailand,100.8,18.0,150.0,Jurassic,Unclassified,,,,,,Sandstone,
+251,Phu Wiang,Pratu Teema,Thailand,102.25,16.66667,150.0,U. Jurassic,Redbed Cu,,,,,,"Arkose, siltstone, mudstone",
+252,Houei Phai,,Laos,105.68333,14.46667,160.0,Jurassic,Unclassified,,,,,,"Green sandstone, shale",
+253,Nong Khoum Thong,,Laos,105.63333,14.33333,160.0,Jurassic,Unclassified,,,,,,"Green and red sandstone, andesite",
+254,Bagacay,,Philippines,125.25,11.83333,7.0,Pliocene,Redbed Cu,2.9,3.5,,,0.1015,"Sandstone, carbonaceous shale, coal",
+255,Wave Hill,,Australia,131.03333,-17.33333,630.0,U. Proterozoic,Unclassified,,,,,,"Chert, conglomerate",
+256,Owen Springs,Waterhouse Range,Australia,133.26667,-24.05,550.0,Cambrian,Redbed Cu,,,,,,Siltstone,
+257,Boorloo,,Australia,137.91667,-29.66667,630.0,U. Proterozoic,Redbed Cu,,,,,,"Conglomerate, sandstone, siltstone",
+258,Warra Warra,,Australia,137.81667,-29.88333,630.0,U.Proterozoic,Unclassified,,,,,,"Shale, sandstone, dolomitic siltstone",
+259,Yudnamutana,,Australia,139.33333,-30.0,630.0,U. Proterozoic,Unclassified,,,,,,"amphibolite, meta dolomite",
+260,Mount Coffin,,Australia,138.5,-30.6,630.0,U.Proterozoic,Redbed Cu,,,,,,"Siltstone, breccia, dolomite",
+261,Blinman,,Australia,138.75,-31.1,630.0,U. Proterozoic,Reduced-facies Cu,4.0,1.0,,,0.04,Dolomite and shale,
+262,Mount Gunson,,Australia,137.25,-31.45,630.0,U. Proterozoic,Reduced-facies Cu,5.5,2.1,,7.7,0.1155,"Mudstone, sandstone, breccia",3957
+263,Yadlamalka,,Australia,137.3,-31.75,630.0,U. Proterozoic,Reduced-facies Cu,,,,,,Arkose,
+264,Cattle Grid,,Australia,137.13333,-31.43889,,,Reduced-facies Cu,7.5,1.7,,8.3,0.1275,sandstone,
+265,Dutchmans,,Australia,137.75,-31.75,630.0,U. Proterozoic,Redbed Cu,,,,,,Sandstone,
+266,Myall Creek,,Australia,137.6,-32.25,630.0,U. Proterozoic,Redbed Cu,,,,,,Carbonaceous dolomite,
+267,Red Hill,,Australia,138.75,-32.33333,630.0,U.Proterozoic,Unclassified,,,,,,"Siltstone, shale",
+268,Kanyaka,,Australia,138.3,-32.41667,630.0,U.Proterozoic,Unclassified,,,,,,"Siltstone, shale",
+269,Prince Alfred,,Australia,138.56667,-32.41667,630.0,U.Proterozoic,Unclassified,,,,,,"Siltstone, shale",
+270,Burra,Burra Burra,Australia,138.83333,-33.66667,630.0,U. Proterozoic,Reduced-facies Cu,3.55,3.0,,,0.1065,"Limestone, marble breccia, dolomite",
+271,Copper Claim,,Australia,138.25,-34.0,630.0,U. Proterozoic,Unclassified,,,,,,"Carbonaceous dolomite, siltstone, arkose, chert",
+272,Kapunda,,Australia,138.68333,-34.45,650.0,Upper Proterozoic,Reduced-facies Cu,,,,,,"Carbonaceous, dolomitic siltstone",
+273,Kanmantoo,,Australia,139.0,-35.1,530.0,Cambrian,Unclassified,12.0,1.0,,,0.12,"Garnet andalusite schist, quartz-feldspar schist, quartz-mica schist",
+274,Gippsland,,Australia,147.5,-37.75,345.0,Devonian-Carboniferous,Redbed Cu,,,,,,,
+275,Repparfjord,,Norway,24.21667,70.43333,1000.0,U. Proterozoic,Redbed Cu,3.06,0.663,,70.0,0.0202878,"Sandstone, conglomerate",
+276,Aitik,,Sweden,21.0,67.11667,1500.0,Proterozoic,Unclassified,1066.0,0.4,,0.3,4.264,"Biotite schist, amphibolite",
+277,Stora Strand,,Sweden,12.5,58.98333,1200.0,Proterozoic,Unclassified,,,,,,"Mica-chlorite schist, amphibolite",
+278,Burray Island,,Scotland,-2.93333,58.85,370.0,U. Devonian,Unclassified,,,,,,"Sandstone, algal dolomite",
+279,Visingso,,Sweden,14.5,58.38333,550.0,L. Cambrian,Redbed Cu,,,,,,Sandstone,
+280,Firth of Forth,,Scotland,-3.225,56.06333,340.0,L. Carboniferous,Redbed Cu,,,,,,Algal limestone,
+281,Drumshantie,Gourock,Scotland,-4.78333,55.93333,340.0,L. Carboniferous,Redbed Cu,,,,,,Sandstone,
+282,Larkfield,Gourock,Scotland,-4.7,55.88333,340.0,L. Carboniferous,Redbed Cu,,,,,,Sandstone,
+283,Well 41/25A-1,,England,5.5,54.25,260.0,Permian,Reduced-facies Cu,,,,,,Mudstone,
+284,Helgoland,,Germany,7.86667,54.15,220.0,L. Triassic,Redbed Cu,,,,,,Red sandstone,
+285,Well 48/12-2,,England,1.28333,53.51667,260.0,Permian,Reduced-facies Cu,,,,,,Mudstone,
+286,Well 49/20-1,,England,2.9,53.4,260.0,Permian,Reduced-facies Cu,,,,,,Mudstone,
+287,Alderly Edge,,England,-2.25,53.3,220.0,Triassic,Reduced-facies Cu,0.15,2.1,,,0.00315,,
+288,Mottram -St.Andews,,England,-2.21667,53.3,220.0,Triassic,Redbed Cu,,,,,,Gray sandstone,
+289,Ballyvergin,,Ireland,-8.91667,52.88333,340.0,L. Carboniferous,Unclassified,0.136,1.0,,17.1,0.00136,"Limestone, shale",
+290,Eardiston,,England,-2.98333,52.83333,220.0,Triassic,Reduced-facies Cu,,,,,,White sandstone,
+291,Grinshill,,England,-2.66667,52.75,220.0,Triassic,Reduced-facies Cu,,,,,,Gray sandstone,
+292,Shore Hill,,England,-2.01667,52.75,220.0,Triassic,Unclassified,,,,,,Gray sandstone,
+293,Ballymacarbry,,Ireland,-7.2,52.26667,380.0,Devonian,Redbed Cu,,,,,,Sandstone,
+294,Mallow,,Ireland,-8.65,52.11667,340.0,L. Carboniferous,Unclassified,3.6,0.7,,27.4,0.0252,"Limestone, shale",
+295,Hahausen,,Germany,10.20833,51.98333,260.0,Permian,Reduced-facies Cu,,,,,,shale,4038
+296,Wild Goat,,Ireland,-9.95,51.88333,370.0,U. Devonian,Redbed Cu,,,,,,Sandstone,
+297,Osterode,,Germany,10.26667,51.73333,260.0,Permian,Reduced-facies Cu,,,,,,Calcareous clay,4038
+298,Southwest Cork,,Ireland,-8.86667,51.66667,370.0,U. Devonian,Redbed Cu,,,,,,Sandstone,
+299,Zary,,Poland,15.09167,51.64167,270.0,L.Permian,Redbed Cu,,,,,,"Sandstone, coal, shale",
+300,Mansfeld,,Germany,11.46667,51.6,260.0,Permian,Reduced-facies Cu,75.0,2.9,,150.0,2.175,,4046
+301,Spremberg,,Germany,14.36667,51.58333,260.0,Permian,Reduced-facies Cu,,,,,,"Bituminous clay, marl",4038
+302,Sierozovice,,Poland,15.9,51.55,260.0,Permian,Reduced-facies Cu,,,,,,Limestone. sandstone,4033
+303,Polkovice,,Poland,16.04167,51.49167,260.0,Permian,Reduced-facies Cu,,,,,,Limestone. sandstone,4033
+304,Sangerhausen,,Germany,11.28,51.49,260.0,Permian,Reduced-facies Cu,,,,,,,4038
+305,Marsberg,,Germany,8.8875,51.46667,260.0,U. Permian,Unclassified,4.0,1.5,,,0.06,"Marl, bituninous limestone",4038
+306,Leitmar,,Germany,8.85,51.4,260.0,Permian,Reduced-facies Cu,,,,,,Clay,4038
+307,Udersleben,,Germany,10.25667,51.4,260.0,Permian,Reduced-facies Cu,,,,,,,4038
+308,Lubin,,Poland,16.13333,51.4,260.0,Permian,Reduced-facies Cu,2600.0,2.0,,30.0,52.0,"Shale, siltstone, sandstone",4033
+309,Malomice,,Poland,16.18333,51.38333,260.0,Permian,Reduced-facies Cu,,,,,,Limestone. sandstone,4033
+310,Witzenhausen,,Germany,9.86667,51.33333,260.0,Permian,Reduced-facies Cu,,,,,,Calcareous clay,4038
+311,Lubichow,,Poland,15.56667,51.275,260.0,Permian,Reduced-facies Cu,,,,,,"Bituminous marly shale, limestone",
+312,Konrad,,Poland,13.71667,51.25,260.0,Permian,Reduced-facies Cu,182.5,0.7,,,1.2775,"Shale, siltstone",4033
+313,Korbach,,Germany,8.78333,51.21667,260.0,Permian,Reduced-facies Cu,,,,,,"Marl, limestone",4038
+314,Lena,,Poland,15.81667,51.10833,260.0,Permian,Reduced-facies Cu,,,,,,"Marl, limestone",4033
+315,Nowy Kosciol,,Poland,15.9,51.1,260.0,Permian,Reduced-facies Cu,,,,,,Limestone. sandstone,4033
+316,Geismar,,Germany,8.86667,51.08333,260.0,Permian,Reduced-facies Cu,,,,,,Calcareous clay,4038
+317,Richelsdorf,,Germany,9.9,50.98333,260.0,Permian,Reduced-facies Cu,42.0,0.99,,25.0,0.4158,Sandstone and slate,4039
+318,Schweina,,Germany,10.3,50.83,260.0,Permian,Reduced-facies Cu,,,,,,,4038
+319,Ilmenau,,Germany,10.89,50.7,260.0,Permian,Reduced-facies Cu,,,,,,"Bituminous clay, marl",4038
+320,Kostalov,,Czech Republic,15.66667,50.61667,280.0,Permian,Redbed Cu,,,,,,Siltstone,
+321,Okrzeszyn,,Poland,16.5,50.55417,270.0,L.Permian,Redbed Cu,,,,,,"Sandstone, coal, shale",
+322,Horni Vernerovice,Wernersdorf,Czech Republic,16.16667,50.56667,260.0,Permian,Redbed Cu,,,,,,Claystone,
+323,Dolembreux,,Belgium,5.61667,50.53333,385.0,M. Devonian,Unclassified,,,,,,Limestone,
+324,Exmouth,,England,-3.5,50.51667,260.0,U. Permian,Unclassified,,,,,,Sandstone,
+325,Horni Kalna,Wernersdorf,Czech Republic,15.53333,50.46667,260.0,Permian,Redbed Cu,,,,,,"Clay, siltstone",
+326,Rouveroy,,Belgium,4.06667,50.36667,390.0,L. Devonian,Unclassified,,,,,,"Shale, sandstone, conglomerate",
+327,Huttengesass,,Germany,9.16667,50.25,260.0,Permian,Reduced-facies Cu,,,,,,Calcareous clay,4038
+328,Bieber,,Germany,9.33333,50.16667,260.0,Permian,Reduced-facies Cu,,,,,,Calcareous clay,4038
+329,Artemovsk Basin,,Ukraine,38.03333,48.6,,,Unclassified,,,,,,Sandy clay,
+330,Sankovce,,Slovak Republic,20.3,48.56667,225.0,Permian-Triassic,Unclassified,,,,,,"Marl, schist, sandstone, gypsum, anhydrite",
+331,Dnestr,,Ukraine,27.0,48.5,390.0,L. Devonian,Redbed Cu,,,,,,"Sandstone, carbonaceous shale",
+332,Bakhmut Basinn,,Ukraine,36.0,48.5,280.0,L. Permian,Redbed Cu,,,,,,"Sandstone, siltstone, conglomerate",
+333,Donbass,,Ukraine,38.11667,48.36667,280.0,L. Permian,Redbed Cu,,,,,,"Sandstone, mudstone, silty carbonate",
+334,Darno-Hegy,,Hungary,21.5,48.33333,200.0,L. Mesozoic,Unclassified,,,,,,Shale,
+335,Kal Mius,Torets Basin,Ukraine,37.5,47.5,280.0,L. Permian,Redbed Cu,,,,,,"Argillite, siltstone, sandstone",
+336,Murtschenalp,,Switzerland,9.25,47.06667,260.0,Permian,Redbed Cu,,,,,,"Breccia, sandstone, siltstone",
+337,South Tyrol,,Italy,11.43333,46.38333,260.0,M. Permian,Redbed Cu,,,,,,Sandstone,
+338,Leysin,,Switzerland,7.01667,46.35,60.0,Paleocene,Unclassified,,,,,,Marl,
+339,Ubine,,France,6.73333,46.30417,60.0,Paleocene,Redbed Cu,,,,,,Marl,
+340,Le Biot,,France,6.65,46.25,60.0,Paleocene,Unclassified,,,,,,"Marl, limestone, calcareous sandstone",
+341,Jambaz,,France,6.51667,46.20833,60.0,Paleocene,Unclassified,,,,,,"Marl, limestone, calcareous sandstone",
+342,La Riolle,,France,6.54167,46.085,60.0,Paleocene,Unclassified,,,,,,Marl,
+343,Skofje,,Slovenia,14.25,45.08333,260.0,Permian,Redbed Cu,,,,,,"Gray sandstone, siltstone, shale",
+344,Pont des Roberts,,France,6.85833,44.06667,225.0,L. Triassic,Redbed Cu,,,,,,Conglomerate,
+345,Bancairon,,France,6.86,44.05417,225.0,L. Triassic,Redbed Cu,,,,,,Conglomerate,
+346,Giordannet,,France,6.85833,44.03333,260.0,Permian,Redbed Cu,,,,,,,
+347,Liouc,,France,6.83333,44.02917,225.0,L. Triassic,Redbed Cu,,,,,,"Conglomerate, sandstone",
+348,Cerisier,,France,6.89167,43.98667,225.0,L. Triassic,Redbed Cu,,,,,,Conglomerate,
+349,Lodeve,,France,3.31667,43.73333,220.0,Triassic,Unclassified,,,,,,"Conglomerate, sandstone",
+350,Suva Planina Mountain,,Yugoslavia,22.25,43.16667,260.0,Permian,Redbed Cu,,,,,,"Arkose, siltstone",
+351,Cap Garonne,,France,6.31667,43.06667,225.0,L. Triassic,Redbed Cu,,,,,,"Conglomerate, sandstone",
+352,Zaragoza,,Spain,-0.91667,41.58333,30.0,Oligocene,Unclassified,,,,,,Sandstone,
+353,Menorca Island,,Spain,4.08333,39.98333,220.0,L Triassic,Unclassified,,,,,,Marl,
+354,Santomera,,Spain,-1.05,38.05,260.0,Triassic,Reduced-facies Cu,,,,,,Limestone,
+355,Granada,,Spain,-1.36667,37.55,260.0,Triassic,Redbed Cu,,,,,,"Marl, sandstone",
+356,Nasar,,Iran,59.83556,35.58722,40.0,Eocene,Unclassified,,,,,,Tuffaceous sandstone,
+357,Nuqeib,,Israel,35.66667,32.75,12.0,Neogene,Redbed Cu,,,,,,Conglomerate,
+358,Khanega,,Iran,51.335,31.00056,520.0,Upper Cambrian,Unclassified,,,,,,Limestone and dolomite,
+359,Fenan,,Jordan,35.41667,30.6,560.0,L. Cambrian,Unclassified,65.0,1.2,,,0.78,"Clay, siltstone",
+360,Abu Kashabia,,Jordan,35.25,30.41667,560.0,L.r Cambrian,Unclassified,,,,,,Arkose,
+361,Chehel Kureh,,Iran,59.99861,30.18333,30.0,Tertiary,Unclassified,,,,,,Sandstone,
+362,Har Timna,,Israel,34.975,29.78333,560.0,L. Cambrian,Unclassified,,,,,,"Sandstone and shale, phosphorite, Mn-rich shale",
+363,Timna,,Israel,34.95,29.76667,560.0,L. Cambrian,Unclassified,18.1,1.6,,,0.2896,"Sandstone and shale, phosphorite, Mn-rich shale",
+364,Hare Hakhlil,,Israel,34.96667,29.73333,124.0,Lower Cretaceous,Redbed Cu,,,,,,White kaolinitic sandstone,
+365,Kuhne Mes,,Iran,53.75,29.25,55.0,Paleocene-Eocene,Redbed Cu,,,,,,"Sandstone, grit, conglomerate",
+366,Jabal Murryyi,,Saudi Arabia,41.56556,20.11417,800.0,U. Proterozoic,Redbed Cu,0.35,1.69,,22.7,0.005915,Feldspathic sandstone,2101
+367,Umm ar Rummf,Um ar Rumf,Saudi Arabia,41.38,19.15889,800.0,U. Proterozoic,Unclassified,,,,,,"Feldspathic, chloritic, ankeritic quartzite",2101
+368,Wadi Yiba,,Saudi Arabia,41.81583,19.15611,800.0,U. Proterozoic,Redbed Cu,,,,,,Albite-chlorite hornfels,2101
+369,Al Mehdadah,,Saudi Arabia,41.81,19.12667,800.0,U. Proterozoic,Unclassified,0.45,1.1,,7.0,0.00495,quartz-sericite-biotite-garnet schist,
+370,Al Munayzir,"Sharbon, Sarbon",Saudi Arabia,41.9175,18.94722,800.0,U. Proterozoic,Redbed Cu,,,,,,"Feldspathic quartzite, cross-bedded",
+371,Jabal Sa'aban,"Sharbon, Sarbon",Saudi Arabia,41.94361,18.87806,800.0,U. Proterozoic,Unclassified,,,,,,Quartz-biotite-garnet schist,2101
+372,Wadi Baqarah,"RR Horizon, Wadi Hali",Saudi Arabia,41.95778,18.78111,800.0,U. Proterozoic,Redbed Cu,,,,,,"Metasandstone, crossbedded",2101
+373,South Wadi Baqarah,"GT Horizon, Wadi Hali",Saudi Arabia,41.97111,18.73944,800.0,U. Proterozoic,Unclassified,,,,,,Dolomitic marble,2101
+374,Wadi Raysh,,Saudi Arabia,42.0,18.68333,800.0,U. Proterozoic,Unclassified,,,,,,"Calcareous green chlorite-sericite schist , dolomitic marble.",2101
+375,Wadi Shinika,Jabal Sawdah,Saudi Arabia,42.01861,18.45889,800.0,U. Proterozoic,Unclassified,,,,,,Dolomitic marble,2101
+376,Ladderbjerg,,Greenland,-22.02917,73.49583,260.0,Permian,Redbed Cu,2.5,0.15,,,0.00375,,5201
+377,Brodeur Peninsula,,Canada,-86.0,73.8,420.0,Middle Silurian (Niagaran),Unclassified,,,,,,Breccias (microcrystalline dolomite and limest),
+378,Rubjerg Knude,,Greenland,-23.68056,72.61722,260.0,U. Permian,Redbed Cu,5.0,0.3,,,0.015,"Conglomerate, sandstone",5201
+379,Kent Peninsula-1,,Canada,-108.18306,68.2,1000.0,Proterozoic (Helikian),Unclassified,,,,,,"Black mudstone, shale",
+380,"Escape Rapids (esc 37, 38)",,Canada,-115.54972,67.58472,800.0,Proterozoic (hadrynian),Redbed Cu,,,,,,Grey glauconitic sandstone and black shale,
+381,Bud 942-947,,Canada,-115.89556,67.53472,1000.0,Middle Proterozoic,Redbed Cu,,,,,,"Sandst, qtzite, siltst, pebble conglom, mudstone",
+382,Dumas Lake,,Canada,-116.2,66.49889,1900.0,Lower Proterozoic,Redbed Cu,,,,,,"Qtz wacke, maroon mudst, lithic wacke, conglom",
+383,Cc Lake,,Canada,-118.87639,65.40944,540.0,Paleozoic (Cambrian?),Unclassified,,,,,,Sandstone,
+384,Tawu Anticline,,Canada,-131.69972,65.31667,1000.0,Proterozoic,Redbed Cu,,,,,,Sandstone,
+385,Hottah Lake (fns),,Canada,-118.58306,64.875,450.0,Paleozoic (Ordovician?),Reduced-facies Cu,,,,,,Bituminous dolomite,
+386,Gillespie Lake,,Canada,-133.93083,64.78333,1000.0,Middle Proterozoic,Unclassified,,,,,,Dolosiltstone,
+387,Frank,,Canada,-128.09639,63.87583,1200.0,Upper Proterozoic,Reduced-facies Cu,,,,,,Dolostone,
+388,June Creek,Keele River,Canada,-127.97222,63.82167,750.0,U. Proterozoic,Reduced-facies Cu,0.25,3.4,,,0.0085,Algal dolostone,5246
+389,Nite,,Canada,-128.19972,63.81667,1000.0,Upper Proterozoic,Reduced-facies Cu,,,,,,Limestone,
+390,Hutch East,,Canada,-127.71667,63.81667,1200.0,Upper Proterozoic,Reduced-facies Cu,,,,,,Cryptalgal laminites,
+391,"Fa gp-3, strat section bb 76-1",,Canada,-127.46667,63.78778,1200.0,Upper Proterozoic,Reduced-facies Cu,,,,,,"Siltstone, limestone",
+392,"Scholtes-2, 3, 4",,Canada,-127.43306,63.775,1200.0,Upper Proterozoic,Reduced-facies Cu,,,,,,Dolostone,
+393,Jay,Keele River,Canada,-127.82972,63.77222,750.0,U. Proterozoic,Reduced-facies Cu,1.2,2.7,,,0.0324,Algal dolostone,5246
+394,Lisa,Keele River,Canada,-127.30306,63.72222,1200.0,Upper Proterozoic,Reduced-facies Cu,,,,,,Cryptalgal laminites,
+395,Lucky Joe,,Canada,-139.5,63.58333,480.0,Lower Cambrian to middle Devonian,Unclassified,,,,,,Quartz-muscovite and biotite schists,
+396,Hayhook,,Canada,-127.06833,63.46944,1000.0,Upper Proterozoic,Reduced-facies Cu,,,,,,Cryptalgal laminites,
+397,Cap Mountain,,Canada,-123.22472,63.42222,1400.0,Upper Proterozoic (Helikian?),Unclassified,,,,,,"Ss, dolomitic siltstone, hematitic mudstones",
+398,18 miles nw of Dal Lake,,Canada,-127.04694,63.26389,1000.0,Upper Proterozoic,Reduced-facies Cu,,,,,,"Siltstone, slate, conglomerate, limestone, dlmt",
+399,Ut Group-1,,Canada,-127.02611,63.24944,1200.0,Upper Proterozoic,Reduced-facies Cu,,,,,,"Siltstone, slate, conglomerate, limestone, dlmt",
+400,Sh Group-5,,Canada,-126.86667,63.12083,1200.0,Upper Proterozoic,Reduced-facies Cu,,,,,,"Siltstone, slate, conglomerate, limestone, dlmt",
+401,Sh Group-3,,Canada,-126.89139,63.1,1200.0,Upper Proterozoic,Reduced-facies Cu,,,,,,"Siltstone, slate, conglomerate, limestone, dolom",
+402,Reg (central Redstone),,Canada,-126.76667,63.05,1000.0,Upper Proterozoic,Unclassified,,,,,,"Siltstone, mudstone, conglomerate",
+403,Extension (kvale),,Canada,-126.60528,62.89167,1000.0,Upper Proterozoic,Reduced-facies Cu,,,,,,Siltstone,
+404,Coates Lake,Redstone,Canada,-126.62,62.69417,750.0,U. Proterozoic,Reduced-facies Cu,37.0,3.9,,11.3,1.443,"Algal laminated dolomite, fine sandstone, siltstone",5246
+405,Thundercloud Creek,,Canada,-126.63306,62.66806,1000.0,Upper Proterozoic,Reduced-facies Cu,,,,,,"Pink slaty siltstone, minor shale, gypsum",
+406,Y-12,,Canada,-98.80611,62.56944,2000.0,Proterozoic (Aphebian),Unclassified,,,,,,Quartzite,
+407,Thundercloud Range,,Canada,-126.21194,62.51306,1000.0,Upper Proterozoic,Unclassified,,,,,,"Mudstone, siltstone, conglom, ss, dolomite, limest",
+408,Stark Lake-Wilson Lake,,Canada,-110.15806,62.46667,2000.0,Lower Proterozoic (Aphebian),Unclassified,,,,,,Light grey dolomite,
+409,Flat River,,Canada,-127.08306,61.26667,540.0,Cambrian,Unclassified,,,,,,"Phyllite, slate, quartzite, siltstone, argillite",
+410,Ennadai Lake,Nueltin project,Canada,-101.2,60.61389,2000.0,Lower Proterozoic (Aphebian),Unclassified,,,,,,Greywacke,
+411,Poorfish Lake(Nueltin project),Nueltin projec,Canada,-100.52333,60.18556,2000.0,Lower Proterozoic (Aphebian),Redbed Cu,,,,,,"Argillite, phyllite, greywacke, minor dolomite",
+412,Ramah,Blow-Me-Down Mountain,Canada,-63.11417,58.73889,1000.0,Proterozoic (NeoHelikian),Unclassified,,,,,,"Slate, quartzite, mica schist, arkose, conglomerate, dlmt",
+413,Callison,,Canada,-124.54194,58.33917,1000.0,Proterozoic,Unclassified,,,,,,Feldspathic quartzites,
+414,Nekweaga Bay,,Canada,-103.73306,57.78333,2000.0,Lower Proterozoic (Aphebian),Unclassified,,,,,,Grey meta-quartzite,
+415,Johnson Lake area,,Canada,-104.16917,57.45833,2000.0,Lower Proterozoic (Aphebian),Unclassified,,,,,,Quartzite,
+416,Rafuse Lake,,Canada,-104.94306,56.90833,2000.0,Lower Proterozoic (Aphebian),Redbed Cu,,,,,,Meta-conglomerate,
+417,Juno Lake,,Canada,-104.91583,56.87722,2000.0,Lower Proterozoic (Aphebian),Redbed Cu,,,,,,Meta-arkose,
+418,Janice Lake,,Canada,-104.97333,56.875,2000.0,Lower Proterozoic (Aphebian),Redbed Cu,,,,,,Meta-conglomerate (ss pebbles in arkose matri,
+419,Swampy Bay River,,Canada,-68.58306,56.65556,1900.0,Lower Proterozoic,Unclassified,,,,,,Dolomite,
+420,Richmond Gulf-1,,Canada,-76.43306,56.44167,1900.0,Lower Proterozoic (Upper Aphebian),Reduced-facies Cu,,,,,,"Carbonate, quartz arenite, arkose, shale",
+421,Richmond Gulf-3,,Canada,-76.46361,56.40556,1900.0,Lower Proterozoic (Upper Aphebian),Reduced-facies Cu,,,,,,"Dolomite, quartz arenite, arkose, shale",
+422,Romanet River,Canada Tungsten,Canada,-67.89417,56.39333,1900.0,Lower Proterozoic,Unclassified,,,,,,Dolomite,
+423,La Loche,,Canada,-109.25,56.36667,540.0,Cambrian,Unclassified,,,,,,Grey fine to v coarse quartzose sandstone,
+424,Copper cove,Richmond Gulf,Canada,-76.44861,56.35,1900.0,Lower Proterozoic (Upper Aphebian),Redbed Cu,,,,,,Arkose,
+425,Richmond Gulf-2,,Canada,-76.4275,56.34583,1900.0,Lower Proterozoic (Upper Aphebian),Redbed Cu,,,,,,"Grey pyritic sandstone, chloritic arkose",
+426,Richmond Gulf-4,,Canada,-76.41667,56.31667,1900.0,Lower Proterozoic (Upper Aphebian),Redbed Cu,,,,,,Sandstone,
+427,Romanet Lake,,Canada,-67.83167,56.28222,1900.0,Lower Proterozoic,Unclassified,,,,,,Dolomite,
+428,Tosi,,Canada,-105.71667,56.23333,2000.0,Lower Proterozoic (Aphebian),Unclassified,,,,,,Graphitic quartzite,
+429,Bacon Lake,,Canada,-67.79556,56.27111,1900.0,Lower Proterozoic,Unclassified,,,,,,Dolomite,
+430,Dunphy Lake,,Canada,-67.71667,56.05833,1900.0,Lower Proterozoic,Unclassified,,,,,,Dolomite,
+431,Northstar Main,,Canada,-126.26667,56.05,220.0,Triassic,Reduced-facies Cu,,,,,,Siltstone,
+432,Elizabeth Lake,,Canada,-105.36667,55.33111,2000.0,Lower Proterozoic (Aphebian),Unclassified,,,,,,"Metased gneiss band, mainly biotite gneiss",
+433,Ellis Pond mineral occ no 26,,Canada,-61.96611,54.31389,1000.0,Middle Proterozoic (NeoHelikian),Reduced-facies Cu,,,,,,Green-grey shale interlensed with quartzite,
+434,Spriggs Lake,,Canada,-61.68306,54.49306,1100.0,Proterozoic (NeoHelikian),Reduced-facies Cu,,,,,,Quartzite,
+435,Duck Lake south,,Canada,-61.79472,54.30694,1100.0,Proterozoic (NeoHelikian),Reduced-facies Cu,,,,,,Grey shale,
+436,Brandy Lake prospect,,Canada,-61.60028,54.30306,1100.0,Proterozoic (NeoHelikian),Reduced-facies Cu,,,,,,Shlae,
+437,Gull Lake,,Canada,-61.89278,54.31111,1100.0,Proterozoic (NeoHelikian),Reduced-facies Cu,,,,,,"Shale, slate",
+438,Duck Lake east showing,,Canada,-61.75806,54.30417,1100.0,Proterozoic (NeoHelikian),Reduced-facies Cu,,,,,,"Grey shale, quartzite",
+439,Seal Lake-19,,Canada,-61.69083,54.30278,1100.0,Proterozoic (NeoHelikian),Reduced-facies Cu,,,,,,Grey shale,
+440,Adeline Lake-3,,Canada,-62.03028,54.3,1000.0,Proterozoic (NeoHelikian),Reduced-facies Cu,,,,,,"Grey shale, slate",
+441,Adeline Island prospect,,Canada,-62.05806,54.29806,1000.0,Proterozoic (NeoHelikian),Reduced-facies Cu,,,,,,"Grey shale, quartzite",
+442,Seal Lake-18,,Canada,-61.68028,54.29583,1100.0,Proterozoic (NeoHelikian),Reduced-facies Cu,,,,,,Grey shale,
+443,Adeline Lake east-showing no 7,,Canada,-61.99472,54.28056,1100.0,Proterozoic (NeoHelikian),Reduced-facies Cu,,,,,,Argillite,
+444,No Mans Lake-2,,Canada,-61.77611,54.26694,1100.0,Proterozoic (NeoHelikian),Reduced-facies Cu,,,,,,"Quartzite, argillite",
+445,Whiskey Lake south showing,,Canada,-61.57139,54.25833,1100.0,Proterozoic (NeoHelikian),Reduced-facies Cu,,,,,,Green-grey quartzite,
+446,Ml,,Canada,-121.7775,52.59139,180.0,Lower Jurassic,Unclassified,,,,,,"Limestone, maroon to grey sandstone",
+447,Panther Creek,,Canada,-115.86667,51.46667,550.0,Cambrian,Unclassified,,,,,,Dolomite-mottled limestone,
+448,North Kootenay Pass area-6,,Canada,-114.57278,49.44639,1400.0,Middle Proterozoic (Helikian),Unclassified,,,,,,Quartzite,
+449,North Kootenay Pass area-4,,Canada,-114.56833,49.43722,1400.0,Middle Proterozoic (Helikian),Unclassified,,,,,,Quartzite,
+450,North Kootenay Pass area-3,,Canada,-114.575,49.42194,1400.0,Middle Proterozoic (Helikian),Unclassified,,,,,,Quartzites,
+451,North Kootenay Pass area-2,,Canada,-114.56444,49.40583,1400.0,Middle Proterozoic (Helikian),Unclassified,,,,,,Quartzites,
+452,North Kootenay Pass area-1,,Canada,-114.56361,49.39611,1400.0,Middle Proterozoic (Helikian),Unclassified,,,,,,Quartzites,
+453,North Kootenay Pass,,Canada,-114.57556,49.38639,1400.0,Middle Proterozoic (Helikian),Reduced-facies Cu,,,,,,Argillite,
+454,Table Mountain,,Canada,-114.25,49.36667,1400.0,Middle Proterozoic,Reduced-facies Cu,,,,,,Silty dolomite,
+455,Barnaby Ridge,,Canada,-114.36583,49.3325,1400.0,Middle Proterozoic,Reduced-facies Cu,,,,,,Arenite,
+456,Whistler Mountain-1,,Canada,-114.30444,49.3325,1400.0,Middle Proterozoic,Redbed Cu,,,,,,Quartz arenite within red siltstone,
+457,Whistler Mountain-2,,Canada,-114.30861,49.32972,1400.0,Middle Proterozoic,Redbed Cu,,,,,,"Argillite, sandstone, siltstone, quartzite",
+458,Whistler Mountain-3,,Canada,-114.3025,49.32861,1400.0,Middle Proterozoic,Redbed Cu,,,,,,"Argillite, sandstone, siltstone, quartzite",
+459,Grizzly Creek,,Canada,-114.34306,49.30806,1400.0,Middle Proterozoic,Redbed Cu,,,,,,Quartzite,
+460,Drywood Creek,,Canada,-114.0375,49.29639,1400.0,Middle Proterozoic,Redbed Cu,,,,,,Sandstone,
+461,Middle Kootenay Pass,,Canada,-114.37472,49.25,1400.0,Middle Proterozoic,Redbed Cu,,,,,,"Quartz arenite, sandstone",
+462,West Castle River-2,,Canada,-114.33778,49.27389,1400.0,Middle Proterozoic,Reduced-facies Cu,,,,,,"Limest, dolomite, argillite, stromatolitic lmsn",
+463,Spionkop Creek 1,Spionkop Ridge,Canada,-114.00417,49.22667,1000.0,Middle Proterozoic,Redbed Cu,,,,,,"White and green quartzite, green argillite",
+464,Spionkop Creek 2,,Canada,-114.01667,49.22778,1000.0,Middle Proterozoic,Redbed Cu,,,,,,"Argillite, sandstone",
+465,Bovin Lake,,Canada,-114.13694,49.22083,1000.0,Middle Proterozoic,Reduced-facies Cu,,,,,,Argillite,
+466,Loaf Mountain,,Canada,-114.12472,49.21583,1000.0,Middle Proterozoic,Reduced-facies Cu,,,,,,Argillite,
+467,Blind Canyon-2,,Canada,-114.00417,49.215,1000.0,Middle Proterozoic,Redbed Cu,,,,,,"Argillite, sandstone",
+468,West Castle River-1,,Canada,-114.35,49.20861,1000.0,Middle Proterozoic,Reduced-facies Cu,,,,,,"Sandstone, dolomite, argillite, siltstone",
+469,Yarrow Creek,,Canada,-113.98222,49.20111,1400.0,Middle Proterozoic,Redbed Cu,,,,,,Quartzite,
+470,Yarrow Creek-main zone,,Canada,-113.99806,49.19528,1400.0,Middle Proterozoic,Redbed Cu,,,,,,"Quartzite, sandstone",
+471,"Castle River, Loaf Mountain-2",,Canada,-114.09667,49.18556,1000.0,Middle Proterozoic,Reduced-facies Cu,,,,,,"Argillite, siltstone, dolomite, dolomitic sandstone",
+472,"Castle River, Loaf Mountain-3",,Canada,-114.10278,49.1925,1000.0,Middle Proterozoic,Reduced-facies Cu,,,,,,"Argillite, siltstone, dolomite, dolomitic sandstone",
+473,"Castle River, Loaf Mountain-1",,Canada,-114.11139,49.18028,1000.0,Middle Proterozoic,Reduced-facies Cu,,,,,,"Argillite, siltstone, dolomite, dolomitic sandstone",
+474,Commerce Creek,,Canada,-114.38778,49.16972,1500.0,Middle Proterozoic,Redbed Cu,,,,,,Arenite,
+475,Sage Creek 1,Commerce Peak,Canada,-114.34556,49.15278,1500.0,Middle Proterozoic,Reduced-facies Cu,,,,,,"Gray argillite, siltst, sandstone, dolomite, arenites",
+476,Sage Creek 2,,Canada,-114.28583,49.15,1500.0,Middle Proterozoic,Reduced-facies Cu,,,,,,"Gray argillite, siltst, sandstone, dolomite, arenite",
+477,Disraeli Lake,Commerce,Canada,-88.99139,49.14861,2000.0,Middle Proterozoic,Reduced-facies Cu,,,,,,"Dolomite, limestone",
+478,Sage Creek 4,Langemarck Mtn-2,Canada,-114.33444,49.1375,1500.0,Middle Proterozoic,Reduced-facies Cu,,,,,,"Limestone, dolomite, argillite, arenites",
+479,Sage Creek 3,Langemarck Mtn-1,Canada,-114.3775,49.13333,1500.0,Middle Proterozoic,Redbed Cu,,,,,,"Argillite, sandstone, siltstone, qtzite, arenites",
+480,Blakiston Creek,,Canada,-114.01556,49.1325,1000.0,Middle Proterozoic,Redbed Cu,,,,,,"Argillite, sandstone",
+481,Mount Lineham,,Canada,-114.0075,49.08083,1000.0,Middle Proterozoic,Redbed Cu,,,,,,"Argillites, sandstones",
+482,Cameron Brook,,Canada,-114.01472,49.065,1000.0,Middle Proterozoic,Redbed Cu,,,,,,"Argillite, sandstone",
+483,"Akamina, Flathead Valley",,Canada,-114.26806,49.04,1400.0,Helikian,Redbed Cu,,,,,,Quartzite (sandstone),
+484,Kishinena Creek,,Canada,-114.27194,49.03333,1500.0,Middle Proterozoic,Unclassified,,,,,,"Argillite, sandstone, siltstone, arenite",
+485,Wall Lake 1,,Canada,-114.09556,49.01389,1500.0,Middle Proterozoic,Reduced-facies Cu,,,,,,"Quartzitic and dolomitic sandstone, dolomite",
+486,Wall Lake 2,Akamina Creek,Canada,-114.06667,49.025,1500.0,Middle Proterozoic,Reduced-facies Cu,,,,,,"Calcareous siltstone, argillite, dolomite",
+487,Starvation Creek-1,,Canada,-114.22194,49.01,1500.0,Middle Proterozoic,Redbed Cu,,,,,,"Arenite, argillite, sandstone, siltstone, qtzite",
+488,Starvation Creek-2,,Canada,-114.16667,49.00833,1500.0,Middle Proterozoic,Unclassified,,,,,,"Limestone, dolomite, argillite, sandy limestone",
+489,Boswarlos,Port au Port Penin,Canada,-58.81389,48.56861,340.0,Mississippian,Reduced-facies Cu,,,,,,"Fossiliferous buff limestone, gypsum, sandstone",
+490,Fischells Brook,,Canada,-58.54972,48.30389,320.0,Carboniferous,Redbed Cu,,,,,,"Green-grey and red sandstone, pebbly ss, siltst",
+491,Jeffreys Village,,Canada,-58.82306,48.24222,340.0,Mississippian,Redbed Cu,,,,,,"Red siltstone, red and grey sandstone",
+492,JF,,United States,-115.895,48.19861,1500.0,M. Proterozoic,Revett Cu,13.6,0.4,,44.6,0.0544,,5027
+493,Rock Creek,,United States,-115.67667,48.07944,1500.0,M. Proterozoic,Revett Cu,299.0,0.81,,71.0,2.4219,Quartzite,5027
+494,Bald Mountain,,Canada,-58.85583,48.025,340.0,Mississippian,Reduced-facies Cu,,,,,,Limestone,
+495,Grand Codroy River -S branch,,Canada,-59.07306,47.90611,340.0,Mississippian,Redbed Cu,,,,,,Micaceous sandstone,
+496,Grand Codroy River-highway one,,Canada,-59.11528,47.86889,340.0,Mississippian,Redbed Cu,,,,,,"Mudstone, siltstone, arkosic pebbly grit, ss",
+497,Vermillion River,,United States,-115.36972,47.85111,1500.0,M. Proterozoic,Revett Cu,13.6,0.5,,30.8,0.068,Quartzite,5027
+498,Grand Codroy River-on railway,,Canada,-59.18444,47.84722,340.0,Mississippian,Redbed Cu,,,,,,Grey sandstone with abundant grey mudclasts,
+499,Searston,,Canada,-59.32972,47.82361,320.0,Carboniferous,Redbed Cu,,,,,,Green-grey and red sandstone,
+500,Daisy Creek,,United States,-115.33306,47.81667,1400.0,Middle Proterozoic (Helikian),Redbed Cu,,,,,,Grey to white feldspathic quartzites,
+501,Niagara,,United States,-115.86056,47.68306,1500.0,M. Proterozoic,Revett Cu,15.0,0.47,,16.0,0.0705,Quartzite,5027
+502,Nepisiguit River copper,,Canada,-65.62056,47.57083,320.0,Carboniferous,Redbed Cu,,,,,,Sandstone,
+503,Missoula National,,United States,-115.74361,47.50444,1500.0,M. Proterozoic,Revett Cu,4.5,0.5,,34.0,0.0225,Quartzite,5027
+504,Mission Mountains,,United States,-114.08306,47.5,1400.0,Middle Proterozoic (Helikian),Redbed Cu,,,,,,Siltite and quartzite,
+505,Snowstorm,,United States,-115.72472,47.4825,1500.0,M. Proterozoic,Revett Cu,0.75,3.33,,169.0,0.024975,Quartzite,5027
+506,Scapegoat Wilderness,Red Ridge,United States,-112.76667,47.23333,1400.0,Middle Proterozoic (Helikian),Unclassified,,,,,,"Argillite, siltite, quartzite",
+507,Dingwall,,Canada,-60.49806,46.93,340.0,Lower Carboniferous,Unclassified,,,,,,Argillite,
+508,"Canyon Creek, Rogers Pass",,United States,-112.08306,46.91667,2000.0,Proterozoic,Redbed Cu,,,,,,"White feldspathic qzite, green argl and siltite",
+509,Wolf Creek,,United States,-112.11667,46.86667,1400.0,Middle Proterozoic,Unclassified,,,,,,"Limestone, green and red siltstone, sandstone",
+510,White Pine,,United States,-89.56667,46.76667,1100.0,M. Proterozoic,Reduced-facies Cu,688.0,1.2,,40.0,8.256,Shale,5051
+511,Presque Isle,,United States,-89.98333,46.68333,1500.0,M. Proterozoic,Reduced-facies Cu,90.7,1.3,,5.0,1.1791,"Siltstone, sandstone",5051
+512,Cobre Lake,,Canada,-81.2,46.62917,,L. Proterozoic,Redbed Cu,,,,,,Sandstone,
+513,Flack Lake area,,Canada,-82.76667,46.6,1900.0,Lower Proterozoic (Lower Aphebian),Reduced-facies Cu,,,,,,"Sandstone, siltstone, qaurtz arenite",
+514,Stag Lake,,Canada,-82.60417,46.58611,,L. Proterozoic,Redbed Cu,,,,,,"Quartzite, argillite",
+515,Kona Dolomite,,United States,-87.45,46.53333,2000.0,L. Proterozoic,Reduced-facies Cu,907.0,0.3,,,2.721,Dolomitic quartzite,
+516,Desbarats,,Canada,-83.96667,46.35917,2400.0,Proterozoic (Huronian),Redbed Cu,,,,,,Pink and purple quartzites,
+517,Watersmeet,,United States,-89.31667,46.35,2000.0,Lower Proterozoic,Unclassified,,,,,,Vitreous white orthoquartzite,
+518,Highway showing,,Canada,-60.26667,46.23778,300.0,Upper Carboniferous,Reduced-facies Cu,,,,,,Sandstone,
+519,Mcleod Point,,Canada,-60.61111,46.23528,330.0,Lower Carboniferous,Reduced-facies Cu,,,,,,Conglomerate,
+520,Gillis Dale,,Canada,-61.14806,46.22861,330.0,Lower Carboniferous,Reduced-facies Cu,,,,,,Limestone,
+521,Squire Point,,Canada,-60.58944,46.21778,330.0,Lower Carboniferous,Reduced-facies Cu,,,,,,"Limestone, conglomerate",
+522,Point Edward,,Canada,-60.27194,46.16722,330.0,Lower Carboniferous,Reduced-facies Cu,,,,,,Limestone,
+523,Kirkwood,,Canada,-61.14972,46.16667,340.0,Lower Carboniferous,Unclassified,,,,,,Arkose sandstone,
+524,Frenchvale,Leitches Creek,Canada,-60.29972,46.16667,330.0,Lower Carboniferous,Reduced-facies Cu,,,,,,Limestone,
+525,Mabou,,Canada,-61.43611,46.16472,340.0,Lower Carboniferous,Unclassified,,,,,,"Sandstone, conglomerate",
+526,Yankee Line Road,,Canada,-60.91667,46.13306,340.0,Lower Carboniferous,Reduced-facies Cu,,,,,,"Conglomerate, limestone",
+527,Gallas Point,,Canada,-62.96556,46.1325,,,Redbed Cu,,,,,,Sandstone,
+528,Finlay Beach,,Canada,-61.46028,46.13139,330.0,Lower Carboniferous,Reduced-facies Cu,,,,,,Conglomerate,
+529,Musgrave showing,,Canada,-60.34139,46.13,340.0,Lower Carboniferous,Reduced-facies Cu,,,,,,"Limestone, conglomerate",
+530,Mackay showing,,Canada,-60.35639,46.12,340.0,Lower Carboniferous,Reduced-facies Cu,,,,,,Limestone,
+531,Macmullin Brook,,Canada,-60.38444,46.10389,340.0,Lower Carboniferous,Reduced-facies Cu,,,,,,"Limestone, congloemrate",
+532,Washabuck-1,Crow Point,Canada,-60.76667,46.075,340.0,Lower Carboniferous,Reduced-facies Cu,,,,,,Conglomerate,
+533,Washabuck-2,,Canada,-60.80194,46.05417,330.0,Lower Carboniferous,Reduced-facies Cu,,,,,,"Limestone, conglomerate",
+534,Macbeth Brook,,Canada,-60.32694,46.07222,340.0,Lower Carboniferous,Reduced-facies Cu,,,,,,Limestone,
+535,Coxheath-contact zone,,Canada,-60.38583,46.07139,340.0,Lower Carboniferous,Reduced-facies Cu,,,,,,Grey conglomerate,
+536,Moredolphton Warehouse and Landing,,Canada,-81.78528,46.06556,540.0,Paleozoic (Cambrian),Unclassified,,,,,,Quartz sandstone,
+537,Carr Brook,,Canada,-60.35194,46.05667,340.0,Lower Carboniferous,Reduced-facies Cu,,,,,,Limestone,
+538,Steele Crossing,,Canada,-60.46667,46.04167,320.0,Carboniferous,Reduced-facies Cu,,,,,,Limestone,
+539,Campbell's Brook,,Canada,-61.46806,46.03667,340.0,Lower Carboniferous,Reduced-facies Cu,,,,,,"Shale, sandstone",
+540,Bois Dale,,Canada,-60.44472,46.02667,320.0,Carboniferous,Reduced-facies Cu,,,,,,Limestone,
+541,Lewis Lake,,Canada,-81.80028,46.01444,470.0,Ordovician(?),Unclassified,,,,,,Dolomite,
+542,East Bay,,Canada,-60.42694,46.00083,330.0,Lower Carboniferous,Reduced-facies Cu,,,,,,"Limestone, conglomerate",
+543,Catalone Lake,,Canada,-59.99139,45.99028,330.0,Lower Carboniferous,Reduced-facies Cu,,,,,,Limestone,
+544,Southwest Mabou River,,Canada,-61.41472,45.99,330.0,Carboniferous,Redbed Cu,,,,,,Sandy limestone,
+545,Glen Morrison (gm-1),,Canada,-60.31667,45.98333,330.0,Lower Carboniferous,Reduced-facies Cu,,,,,,"Limestone, conglomerate",
+546,Christmas Island-1,,Canada,-60.73917,45.97528,330.0,Lower Carboniferous,Reduced-facies Cu,,,,,,"Limestone, conglomerate",
+547,Iona,,Canada,-60.80972,45.9625,340.0,Lower Carboniferous,Reduced-facies Cu,,,,,,Limestone,
+548,Whycocomagh,,Canada,-61.10111,45.96194,330.0,Lower Carboniferous,Reduced-facies Cu,,,,,,"Limestone, conglomerate",
+549,Christmas Island-2,,Canada,-60.77889,45.96194,330.0,Lower Carboniferous,Reduced-facies Cu,,,,,,"Limestone, conglomerate",
+550,Dorchester,Colonial Copper,Canada,-64.47639,45.92861,300.0,U. Carboniferous,Redbed Cu,2.3,2.0,,,0.046,"Sandstone, conglomerate",5221
+551,Little Judique,,Canada,-61.43722,45.92472,320.0,Carboniferous,Redbed Cu,,,,,,"Sandstone, shale",
+552,Salmon River,,Canada,-60.30806,45.9125,340.0,Lower Carboniferous,Reduced-facies Cu,,,,,,Limestone,
+553,Ballantynes Cove,,Canada,-61.91806,45.84611,380.0,Devonian,Unclassified,,,,,,Conglomerate,
+554,"South Pugwash, no 3",,Canada,-63.635,45.82806,290.0,Upper Carboniferous,Redbed Cu,,,,,,Sandstone,
+555,Hopewell Cape,The Rocks,Canada,-64.58167,45.825,320.0,Carboniferous,Reduced-facies Cu,,,,,,"Stromatolitic and oolitic limestone, sandstone",
+556,South Pugwash-1,,Canada,-63.66111,45.8225,290.0,Upper Carboniferous,Redbed Cu,,,,,,Sandstone,
+557,South Pugwash-2,,Canada,-63.68639,45.81944,290.0,Upper Carboniferous,Redbed Cu,,,,,,Sandstone,
+558,Rockley,,Canada,-63.75389,45.81833,290.0,Upper Carboniferous,Redbed Cu,,,,,,"Sandstone, siltstone, mudstone",
+559,Garbarus Lake,,Canada,-60.21667,45.81667,330.0,Lower Carboniferous,Reduced-facies Cu,,,,,,Limestone,
+560,Treen Point,,Canada,-63.29611,45.80944,290.0,Upper Carboniferous,Redbed Cu,,,,,,Greyish sandstone,
+561,Johnstown,,Canada,-60.72139,45.805,340.0,Lower Carboniferous,Reduced-facies Cu,,,,,,Limestone,
+562,Malagash Point,,Canada,-63.23972,45.80389,290.0,Upper Carboniferous,Redbed Cu,,,,,,Greenish-grey coarse sandstone,
+563,Malagash (north shore),,Canada,-63.34861,45.79889,290.0,Upper Carboniferous,Redbed Cu,,,,,,"Sandstone, arkose, greywacke, quartzite",
+564,Mcintyre Lake,,Canada,-60.25639,45.79,290.0,Carboniferous,Reduced-facies Cu,,,,,,Conglomerate,
+565,Lakevale,,Canada,-61.91028,45.78667,330.0,Lower Carboniferous,Reduced-facies Cu,,,,,,Limestone,
+566,Kerrs Mills,,Canada,-63.57056,45.77278,290.0,Upper Carboniferous,Redbed Cu,,,,,,Sandstone,
+567,Malagash centre,,Canada,-63.32333,45.76944,290.0,Upper Carboniferous,Redbed Cu,,,,,,Grey sandstone,
+568,Goshen,,Canada,-65.16667,45.76667,320.0,Carboniferous,Redbed Cu,,,,,,Conglomerate,
+569,Canfield Dome,,Canada,-63.66667,45.76667,300.0,U. Carboniferous,Redbed Cu,0.3,1.2,,,0.0036,,
+570,Waterside,,Canada,-62.78306,45.75278,290.0,Upper Carboniferous,Redbed Cu,,,,,,"Sandstone, conglomerate",
+571,King mine,,Canada,-63.17,45.75056,290.0,Upper Carboniferous,Redbed Cu,,,,,,Grey slaty sandstone,
+572,Caribou River,,Canada,-62.80417,45.75056,290.0,Upper Carboniferous,Redbed Cu,,,,,,Sandstone,
+573,Riverside mine,,Canada,-63.84528,45.74972,290.0,Upper Carboniferous,Redbed Cu,,,,,,Conglomerate,
+574,Grant Brook,,Canada,-63.57306,45.74056,290.0,Upper Carboniferous,Redbed Cu,,,,,,"Sandstone, arkose, greywacke, quartzite",
+575,Big Marsh,,Canada,-62.00556,45.73944,330.0,Lower Carboniferous,Reduced-facies Cu,,,,,,"Limestone, conglomerate",
+576,Blockhouse Point,,Canada,-63.33889,45.73833,290.0,Upper Carboniferous,Redbed Cu,,,,,,Grey sandstone,
+577,Nappan,,Canada,-64.25,45.73333,330.0,Upper Carboniferous,Redbed Cu,,,,,,Grey sandstone,
+578,Knoydart Point and Brook,,Canada,-62.23583,45.72194,340.0,Upper Mississippian,Redbed Cu,,,,,,Shale limy sandstone,
+579,French River mouth,,Canada,-63.30167,45.71917,290.0,Upper Carboniferous,Redbed Cu,,,,,,"Sandstone, shale",
+580,Fleming Brook mine,,Canada,-63.56111,45.71861,290.0,Upper Carboniferous,Redbed Cu,,,,,,"Blue-grey shale, silty shale",
+581,Soldier Cove north,,Canada,-60.74667,45.71667,330.0,Lower Carboniferous,Reduced-facies Cu,,,,,,Limestone,
+582,Tatamagouche,,Canada,-63.28056,45.69639,290.0,Upper Carboniferous,Redbed Cu,,,,,,Shale,
+583,River john (east branch),,Canada,-63.04722,45.69556,290.0,Upper Carboniferous,Redbed Cu,,,,,,Grey sandstone,
+584,Biz Brook,,Canada,-63.16917,45.69528,290.0,Upper Carboniferous,Redbed Cu,,,,,,Siltstone,
+585,Bear Cove,,Canada,-60.35583,45.69444,300.0,Carboniferous,Reduced-facies Cu,,,,,,"Limestone, sandstone",
+586,Scotch Hill,,Canada,-62.82889,45.69306,290.0,Upper Carboniferous,Redbed Cu,,,,,,Sandstone,
+587,Midway Copper Belt-occ 7,,Canada,-64.74167,45.69194,320.0,Carboniferous,Redbed Cu,,,,,,"Sandstone, conglomerate",
+588,Feeley mine,,Canada,-63.55222,45.69,290.0,Upper Carboniferous,Redbed Cu,,,,,,"Grey sandstone, grey-green siltstone",
+589,Cape Jack,,Canada,-61.56194,45.68889,340.0,Lower Carboniferous,Reduced-facies Cu,,,,,,"Limestone, sandstone, siltstone",
+590,Matheson prospect,,Canada,-63.23861,45.6875,290.0,Upper Carboniferous,Redbed Cu,,,,,,"Conglomerate, shale",
+591,New Horton mine,,Canada,-64.71139,45.68667,320.0,Carboniferous,Redbed Cu,,,,,,"Sandstone, conglomerate",
+592,Mine hole Brook,,Canada,-63.24722,45.67972,290.0,Upper Carboniferous,Redbed Cu,,,,,,Sandstone,
+593,Black River-1,,Canada,-61.12917,45.69028,340.0,Lower Carboniferous,Reduced-facies Cu,,,,,,Limestone,
+594,Black River-2,,Canada,-63.21,45.67722,290.0,Upper Carboniferous,Redbed Cu,,,,,,Sandstone,
+595,Balfron,,Canada,-63.22472,45.67361,290.0,Upper Carboniferous,Redbed Cu,,,,,,Siltstone,
+596,Midway Copper Belt-shaft no 1,,Canada,-64.78528,45.6725,320.0,Carboniferous,Redbed Cu,,,,,,"Sandstone, conglomerate",
+597,Midway Copper Belt-pit 3,,Canada,-64.78972,45.67,320.0,Carboniferous,Redbed Cu,,,,,,"Sandstone, conglomerate",
+598,Cape Blue,,Canada,-61.59194,45.66889,330.0,Lower Carboniferous,Reduced-facies Cu,,,,,,Limestone,
+599,Oliver,,Canada,-63.32194,45.66833,290.0,Upper Carboniferous,Redbed Cu,,,,,,"Grey sandstone, conglomerate",
+600,Palmer mine,,Canada,-63.605,45.66722,290.0,Upper Carboniferous,Redbed Cu,,,,,,Grey shales,
+601,Oliver-no 1,,Canada,-63.32583,45.66222,290.0,Upper Carboniferous,Redbed Cu,,,,,,"Sandstone, conglomerate",
+602,Yellow Brook,,Canada,-63.18778,45.66083,290.0,Upper Carboniferous,Redbed Cu,,,,,,"Sandstone, arkose, greywacke, quartzite",
+603,Midway Copper Belt-pit 2,,Canada,-64.80167,45.65667,320.0,Carboniferous,Redbed Cu,,,,,,"Sandstone, conglomerate",
+604,Scotsburn Brook,,Canada,-62.87861,45.65611,290.0,Upper Carboniferous,Redbed Cu,,,,,,Sandstone,
+605,Balmoral Brook,,Canada,-63.22028,45.65222,290.0,Upper Carboniferous,Redbed Cu,,,,,,Sandstone,
+606,Midway Copper Belt-pit 1,,Canada,-64.80972,45.65139,320.0,Carboniferous,Redbed Cu,,,,,,"Sandstone, conglomerate",
+607,Little Ridge-pit 13,,Canada,-64.73722,45.64722,320.0,Carboniferous,Redbed Cu,,,,,,"Sandstone, conglomerate",
+608,Lower North Grant,,Canada,-61.99028,45.64694,330.0,Lower Carboniferous,Reduced-facies Cu,,,,,,Limestone,
+609,Oliver south,,Canada,-63.31333,45.64556,290.0,Upper Carboniferous,Redbed Cu,,,,,,"Grey sandstone, conglomerate, shale",
+610,Plainfield Brook,,Canada,-62.95722,45.63417,370.0,Devonian,Redbed Cu,,,,,,"Sandstone, arkose, greywacke, quartzite",
+611,Willies Brook,,Canada,-62.05,45.63389,330.0,Devonian-Carboniferous,Redbed Cu,,,,,,Conglomerate,
+612,Rights River-main showing,,Canada,-62.02,45.63333,330.0,Lower Carboniferous,Reduced-facies Cu,,,,,,"Dark grey limestone, green conglomerate",
+613,Durham,,Canada,-62.79556,45.63222,290.0,Upper Carboniferous,Redbed Cu,,,,,,"Greenish grey conglom, red sandstone",
+614,East Wallace River,,Canada,-63.52222,45.63194,290.0,Upper Carboniferous,Redbed Cu,,,,,,Grey sandstone,
+615,Rights River-railway showing,,Canada,-62.03333,45.62944,330.0,Lower Carboniferous,Reduced-facies Cu,,,,,,"Conglomerate, limestone",
+616,Keaton Point,,Canada,-61.38917,45.62639,330.0,Lower Carboniferous,Reduced-facies Cu,,,,,,Limestone,
+617,Brierly Brook-2,,Canada,-62.0625,45.61222,330.0,Lower Carboniferous,Reduced-facies Cu,,,,,,"Argillaceous limestone, grey-red boulder congl",
+618,Monastery,,Canada,-61.64556,45.59722,340.0,Lower Carboniferous,Reduced-facies Cu,,,,,,"Sandstone, limestone",
+619,Telford,,Canada,-62.48917,45.58111,320.0,Carboniferous,Redbed Cu,,,,,,"Greywacke, sandstone",
+620,James River station,,Canada,-62.12056,45.57778,340.0,Mississippian,Unclassified,,,,,,Argillaceous limestone,
+621,Pomquet River,,Canada,-61.83194,45.57056,320.0,Carboniferous,Reduced-facies Cu,,,,,,Mottled pale to dark brown oolitic limestone,
+622,Steep Creek,,Canada,-61.35444,45.56611,330.0,Lower Carboniferous,Reduced-facies Cu,,,,,,Limestone,
+623,Glen Road,,Canada,-62.0275,45.55111,320.0,Lower Carboniferous,Unclassified,,,,,,"Green conglomerate, breccia, anhydrite, gypsum",
+624,Meadow Green,Kennco hole 6,Canada,-61.81361,45.55111,330.0,Lower Carboniferous,Reduced-facies Cu,,,,,,Limestone,
+625,Limerock,,Canada,-62.85,45.55,320.0,Carboniferous,Reduced-facies Cu,,,,,,Dark grey fenestral and black fossiliferous ls,
+626,Union Centre,,Canada,-62.75472,45.54833,340.0,Mississippian,Redbed Cu,,,,,,"Sandstone, arkose, greywacke, quartzite",
+627,St Joseph,,Canada,-62.09722,45.54194,340.0,Lower Carboniferous,Reduced-facies Cu,,,,,,Limestone,
+628,Mclellan Brook,Stewart Brook,Canada,-62.59694,45.53833,320.0,Carboniferous,Reduced-facies Cu,,,,,,Dark grey oolitic and stromatolitic limestone,
+629,Pitchers Farm-1,,Canada,-61.98472,45.53722,290.0,Carboniferous,Unclassified,,,,,,"Sandstone, shale",
+630,Pitchers Farm-2,,Canada,-61.96222,45.53444,330.0,Carboniferous,Unclassified,,,,,,"Shale, sandstone",
+631,Mcpherson,,Canada,-61.90694,45.52833,330.0,Lower Carboniferous,Reduced-facies Cu,,,,,,Limestone,
+632,Mclellan Brook holes 1 2 and 3,,Canada,-62.61389,45.52444,320.0,Carboniferous,Reduced-facies Cu,,,,,,"Oolitic limestone, stromatolitic limestone",
+633,Churchville Road,,Canada,-62.64806,45.50944,320.0,Carboniferous,Reduced-facies Cu,,,,,,Black and dark grey oolitic limestone,
+634,Ohio,,Canada,-62.07722,45.50917,340.0,Lower Carboniferous,Reduced-facies Cu,,,,,,"Limestone, conglomerate",
+635,Eureka,Ferrona Junction,Canada,-62.67889,45.50306,320.0,Carboniferous,Reduced-facies Cu,,,,,,"Crystalline dolomite, dolomitic shale",
+636,Hopewell,,Canada,-62.665,45.48222,340.0,Mississippian,Redbed Cu,,,,,,"Sandstone, arkose, greywacke, quartzite",
+637,Springhill,,Canada,-62.61056,45.46083,330.0,Lower Carboniferous,Reduced-facies Cu,,,,,,Limestone,
+638,Guysborough area 2-03-f,,Canada,-61.56778,45.43889,345.0,Devonian-Carboniferous,Unclassified,,,,,,"Slate, quartzite",
+639,Lochaber Lake,,Canada,-62.05,45.40417,380.0,Devonian,Reduced-facies Cu,5.0,0.33,,,0.0165,Siltstone,5219
+640,"Elgin, Black Rock",,Canada,-62.63306,45.4,340.0,Mississippian,Reduced-facies Cu,,,,,,Argillacious limestone,
+641,Guysborough area 2-03-abcd,,Canada,-61.58861,45.37639,345.0,Devonian-Carboniferous,Unclassified,,,,,,"Slate, quartzite",
+642,South March-3,,Canada,-75.97083,45.37444,470.0,Palaeozoic (Ordovician),Unclassified,,,,,,"Sandstone, sandy dolomite",
+643,South March-1,,Canada,-75.93306,45.35,470.0,Paleozoic (Ordovician),Unclassified,,,,,,"Sandstone, sandy dolomite",
+644,Brookfield copper showing,,Canada,-63.21833,45.27556,340.0,Lower Carboniferous (Mississippian),Reduced-facies Cu,,,,,,Carbonaceous limestone,
+645,Middle Stewiacke,,Canada,-63.19778,45.19472,290.0,Carboniferous (Pennsylvanian),Redbed Cu,,,,,,"Sandstone, arkose, greywacke, quartzite",
+646,Pope-Shenon,,United States,-113.84972,45.06667,1400.0,Middle Proterozoic (Helikian),Unclassified,,,,,,Quartzite,
+647,Sloop Cove,,Canada,-66.87306,44.68639,220.0,Triassic,Reduced-facies Cu,,,,,,"Grey green and red shales, gypsum, anhydrite",
+648,Hot Brook Canyon,,United States,-103.5,43.43333,300.0,Pennsylvanian,Reduced-facies Cu,,,,,,Black sapropelic shale,
+649,Watercress Canyon,,United States,-110.75,43.0,300.0,Pennsylvanian (?),Unclassified,,,,,,Quartzite,
+650,Jasper,,United States,-105.83306,42.73333,540.0,Cambrian,Unclassified,,,,,,Sandstone,
+651,Montpelier,,United States,-111.25,42.33333,220.0,Upper Triassic,Unclassified,,,,,,Grit,
+652,Newgate Prison,,United States,-72.75,41.91667,220.0,Triassic,Redbed Cu,,,,,,Grey sandstone btwn greenish-grey mudstone,
+653,New Albany area,,United States,-76.45806,41.58333,370.0,Upper Devonian,Redbed Cu,,,,,,"Greenish-grey sandstone, siltstone, shale",
+654,Forkston,,United States,-76.11667,41.5,370.0,Upper Devonian,Redbed Cu,,,,,,Grey sandstone and shale,
+655,Elk Ridge,,United States,-111.54139,41.35417,220.0,Upper Triassic,Redbed Cu,,,,,,Sandstone,
+656,Beaver Lake area,,United States,-76.59972,41.29167,370.0,Upper Devonian,Redbed Cu,,,,,,"Greenish-grey sandstone, siltstone, shale",
+657,Grassmere Park area,,United States,-76.38306,41.275,370.0,Upper Devonian,Redbed Cu,,,,,,"Greenish-grey sandstone, siltstone, shale",
+658,Pahaquarry,,United States,-75.03306,41.03333,420.0,Silurian,Unclassified,,,,,,Grey sandstone within red shale,
+659,Glen Ridge,,United States,-74.16667,40.8,220.0,Triassic,Redbed Cu,,,,,,Grey sandstone,
+660,Schuyler,,United States,-74.13306,40.78333,220.0,Triassic,Unclassified,,,,,,Sandstone,
+661,East Orange,,United States,-74.2,40.75,220.0,Triassic,Redbed Cu,,,,,,Sandstone,
+662,Uinta,,United States,-111.51667,40.61667,30.0,Cenozoic,Unclassified,,,,,,Limestone,
+663,Steamboat Ssprings,,United States,-106.75,40.53333,100.0,Cretaceous,Unclassified,,,,,,,
+664,Spar Lake,Troy Mine,United States,-115.90528,40.23028,1500.0,M. Proterozoic,Revett Cu,58.0,0.8,,58.0,0.464,Quartzite,5027
+665,Lisbon Valley,,United States,-109.1,39.15,100.0,Cretaceous,Revett Cu,34.0,0.53,,10.0,0.1802,Arkosic sandstone,5021
+666,Chantilly,,United States,-77.31667,38.87917,220.0,Triassic,Redbed Cu,,,,,,Grey sandstone in redbed sequence,
+667,Copper Globe,,United States,-110.9,38.8,180.0,Jurassic,Redbed Cu,,,,,,Sandstone,
+668,Lyons Fm.,,United States,-104.75,38.75,260.0,Permian,Unclassified,,,,,,Sandstone,
+669,Cotopaxi Cordova,,United States,-105.5,38.5,300.0,Pennsylvanian,Unclassified,,,,,,Undivided,
+670,Adak,,United States,-108.82056,38.43056,180.0,Jurassic,Redbed Cu,,,,,,Interstratified units of sandstone and mudstone,
+671,Copper King,,United States,-108.43139,38.3925,100.0,Cretaceous,Unclassified,,,,,,,
+672,Cutler,,United States,-109.73306,38.36111,260.0,Permian,Unclassified,,,,,,Sandstone,
+673,Cashin,,United States,-108.95,38.3,220.0,Triassic,Revett Cu,10.0,0.62,,,0.062,Sandstone,
+674,Big Indian,,United States,-109.21667,38.23333,100.0,Cretaceous,Revett Cu,0.15,1.5,,,0.00225,Sandstone,
+675,Western Star,,United States,-109.13306,38.15,330.0,Pennsylvanian,Unclassified,,,,,,Sandstone,
+676,Cougar,,United States,-107.88306,38.0,180.0,Jurassic,Redbed Cu,,,,,,Sandstone,
+677,Happy jack,,United States,-110.43306,37.80833,220.0,Upper Triassic,Redbed Cu,,,,,,"Conglom ss, coalified woody material, mudstone",
+678,Lamotte Sandstone,,United States,-91.08306,37.73333,520.0,Upper Cambrian,Unclassified,,,,,,Sandstone,
+679,Sedgwick County occurrences,,United States,-97.66667,37.66667,280.0,Lower Permian,Reduced-facies Cu,,,,,,"Grey shale with thin limestone, dolomite units",
+680,Hideout no 1,,United States,-110.00806,37.65417,220.0,Triassic,Redbed Cu,,,,,,Sandstone,
+681,W N1,,United States,-110.04833,37.64028,220.0,Upper Triassic,Redbed Cu,,,,,,Sandstone,
+682,Bear Creek,,United States,-108.16667,37.61667,220.0,Upper Triassic,Unclassified,,,,,,,
+683,Mcguire,,United States,-105.01667,37.5,260.0,Permian,Unclassified,,,,,,Undivided,
+684,Independence,,United States,-102.23306,37.46667,130.0,Lower Cretaceous,Redbed Cu,,,,,,"Light, crossbedded, porous arkosic sandstone",
+685,Dunlap Ranch,,United States,-102.23306,37.45,180.0,Jurassic,Unclassified,,,,,,Sandstone,
+686,Runnymede,,United States,-97.93306,37.33333,260.0,Permian,Reduced-facies Cu,,,,,,"Argillaceous dolomite, shale, siltstone",
+687,Sumner County occurrences,,United States,-97.66667,37.08333,280.0,Lower Permian,Reduced-facies Cu,,,,,,"Grey shale with thin limestone, dolomite units",
+688,Wiggins,,United States,-103.08306,36.93333,180.0,Jurassic,Redbed Cu,,,,,,Sandstone,
+689,Peacock Canyon,,United States,-103.43306,36.91667,260.0,Triassic,Redbed Cu,,,,,,Sandstone,
+690,Grant County,,United States,-97.83306,36.75,280.0,Lower Permian,Unclassified,,,,,,Shale,
+691,White Mesa district,,United States,-111.38306,36.66667,180.0,Jurassic,Unclassified,,,,,,Sandstone,
+692,Lee Uto,,United States,-96.97472,36.4,260.0,Permian,Unclassified,,,,,,Sandstone,
+693,National,,United States,-112.75,36.33333,260.0,Permian,Reduced-facies Cu,,,,,,Limestone,
+694,Pajarito azule,,United States,-106.83306,36.25,245.0,Pennsylvanian,Unclassified,,,,,,Arkosic limestone,
+695,Ridenour,,United States,-113.16667,36.16667,290.0,Permian-Pennsylvanian,Unclassified,,,,,,,
+696,Coyote Creek,,United States,-105.16667,36.1,245.0,Permo-Pennsylvanian,Redbed Cu,,,,,,"Arkoses, arkosic ss, red and greyish-green shales",
+697,Nacimiento,,United States,-106.88333,36.00833,220.0,Triassic,Redbed Cu,10.0,0.67,,2.4,0.067,"Sandstone, conglomerate",5023
+698,Bronze Lake,,United States,-114.16667,35.98333,340.0,Mississippian,Unclassified,,,,,,Limestone,
+699,Hunters Point,,United States,-109.25,35.75,260.0,Permian,Unclassified,,,,,,Sandstone,
+700,Hacks Canyon,,United States,-113.5,35.41667,260.0,Permian,Unclassified,,,,,,Shale,
+701,Mirabal,,United States,-108.09972,35.2,260.0,Permian,Redbed Cu,,,,,,"Shale, conglomerate, sandstone",
+702,Byars,,United States,-97.5,35.0,,,Unclassified,,,,,,Red sandstone and shale (locally bleached white,
+703,Rome Sandstone,,United States,-84.5,35.0,550.0,Lower Cambrian,Redbed Cu,,,,,,Quartzitic sandstone,
+704,Sunlite and Moonlite,,United States,-110.71667,34.98333,220.0,Upper Triassic,Redbed Cu,,,,,,"Ss contain pebbles of ss, chert, quartzite, ls, siltst",
+705,Pintada,,United States,-104.86667,34.93333,260.0,Permian,Redbed Cu,,,,,,"Massive gypsiferous unit, middle and upper ss units",
+706,Mangum,,United States,-99.5,34.88333,270.0,L. Permian,Reduced-facies Cu,7.2,1.0,,2.4,0.072,,5058
+707,Stauber,,United States,-104.84972,34.85,220.0,Upper Triassic,Redbed Cu,0.24,2.57,,5.5,0.006168,3 sandstone units separated by clay or shale,
+708,Paoli,,United States,-97.28306,34.78333,260.0,Permian,Redbed Cu,,,,,,Sandstone,
+709,Creta,,United States,-99.35,34.65,270.0,L. Permian,Reduced-facies Cu,5.4,1.9,,5.5,0.1026,Shale,5045
+710,Scholle District,,United States,-106.41667,34.5,260.0,Permian,Redbed Cu,0.12,3.85,,23.0,0.00462,Shale overlain by red shale capped by ss,
+711,Abiquiu,,United States,-106.29972,34.43333,220.0,Triassic,Redbed Cu,,,,,,"Fairly fine-grained ss, grit, conglomerate",
+712,Parker-Doyle,,United States,-106.46667,34.26667,260.0,Permian,Redbed Cu,,,,,,Light-coloured sandstone,
+713,Mogollon Rim,,United States,-111.0,34.25,290.0,Permian-Pennsylvanian,Unclassified,,,,,,"Micrite, qtz arenite, limestone pebble congl",
+714,Broome,,United States,-106.5,34.25,260.0,Permian,Redbed Cu,,,,,,Sandstone,
+715,Benson Farm,,United States,-98.29972,34.2,260.0,Permian,Unclassified,,,,,,Sandstone,
+716,Gibbs,,United States,-99.51667,34.16667,260.0,Permian,Redbed Cu,,,,,,"Dark red and grey sandstone, siltstone, mudstone",
+717,Mcclellan,,United States,-99.83306,34.08333,260.0,Permian,Redbed Cu,,,,,,"Sandstone horizons in dolomite, mudstone, shale",
+718,Pyron,Crowell (?),United States,-99.9,33.75,260.0,Permian,Redbed Cu,,,,,,"Sandstone, siltstone, mudstone",
+719,Smelter,,United States,-99.98306,33.55,260.0,Permian,Redbed Cu,,,,,,"Sandstone, siltstone, mudstone",
+720,Buzzard Peak,,United States,-100.03306,33.5,260.0,Permian,Reduced-facies Cu,,,,,,"Dolomite, mudstone and shale",
+721,Alexander Ranch,,United States,-99.75,33.5,260.0,Permian,Redbed Cu,,,,,,Red-bed sequence of oxidized ss and mudstone,
+722,Mcfaddin,,United States,-99.95,33.48333,260.0,Permian,Redbed Cu,,,,,,"Sandstone, siltstone, mudstone",
+723,Brazos-Wichita,,United States,-100.04972,33.4,260.0,Permian,Redbed Cu,,,,,,"Sandstone, siltstone, mudstone",
+724,Hugh-Rogers,,United States,-100.05806,33.33333,260.0,Permian,Redbed Cu,,,,,,"Sandstone, siltstone, mudstone",
+725,Tularosa,,United States,-105.83306,33.21667,1.0,Quaternary,Redbed Cu,,,,,,Gypsum,
+726,Wiley Ranch,,United States,-100.16667,33.08333,260.0,Permian,Reduced-facies Cu,,,,,,"Dolomite, mudstone, shale just below gypsum bed",
+727,Copper Queen,,United States,-100.08306,33.02917,260.0,Permian,Redbed Cu,,,,,,"Sandstone, siltstone, mudstone",
+728,Farris,,United States,-100.08306,33.02917,260.0,Permian,Redbed Cu,,,,,,Sandstone,
+729,Courtney,,United States,-105.78306,32.95833,260.0,Permian,Redbed Cu,,,,,,"Arkosic gray shale, arkose",
+730,Warnock,,United States,-105.79972,32.91667,260.0,Permian,Redbed Cu,,,,,,Cream-coloured arkoses of the middle unit,
+731,Lone Eagle,,United States,-104.25,32.43333,260.0,Permian,Unclassified,,,,,,Sandstone,
+732,Boleo,,Mexico,-112.5,27.16667,3.0,L. Pliocene,Reduced-facies Cu,18.7,3.4,,9.0,0.6358,"Clay-rich tuff, gypsum",5333
+733,Las Vigas,Vigas,Mexico,-105.06944,29.36333,135.0,L. Cretaceous,Redbed Cu,0.225,3.2,,9.0,0.0072,"Sandstone, shale, limestone",
+734,Ugly River,,Jamaica,-76.71667,18.24167,53.0,L. Eocene,Redbed Cu,,,,,,"Arkose, siltstone",
+735,Phillips Gully,,Jamaica,-76.63333,18.13333,53.0,L. Eocene,Redbed Cu,,,,,,"Sandstone, mudstone, tuff",
+736,Barbeque River,,Jamaica,-76.61667,18.1,53.0,L. Eocene,Redbed Cu,,,,,,Sandstone,
+737,Serrania de Perija,,Colombia,-72.83333,10.66667,180.0,Jurassic,Redbed Cu,,,,,,"Sandstone, conglomerate, basalt",
+738,Seboruco,,Venezuela,-72.0,8.0,260.0,Permian,Redbed Cu,,,,,,"Sandstone, conglomerate, lignite",
+739,Fazenda Boa Vista,,Brazil,-40.55,-3.18333,1000.0,Proterozoic,Unclassified,,,,,,Meta sedimentary rocks,
+740,Pedra Verde,,Brazil,-41.11667,-3.5,1000.0,Proterozoic,Unclassified,8.2,0.8,,,0.0656,"Meta graywacke, phillite",
+741,Serra do Diamante,,Brazil,-38.91667,-6.91667,1000.0,Proterozoic,Unclassified,22.0,0.8,,,0.176,"Phyllite, schist",
+742,Araripe,,Brazil,-40.16667,-7.13333,120.0,L. Cretaceous,Reduced-facies Cu,,,,,,Marine sedimentary rocks,
+743,Sucunduri River,,Brazil,-59.0,-8.75,1000.0,M.Proterozoic,Unclassified,,,,,,Stromatolitic dolomite,
+744,Sacsallac,,Peru,-75.83333,-9.71667,260.0,Permian,Redbed Cu,,,,,,Sandstone,
+745,Negra Huanusha,,Peru,-75.85,-11.3,260.0,Permian,Redbed Cu,,,,,,"Red arkose, mudstone",
+746,Doña Basilia,,Peru,-75.70833,-12.21667,50.0,L.Teriary,Redbed Cu,,,,,,Sandstone,
+747,Rosario,,Peru,-74.33333,-12.71667,260.0,Permian,Redbed Cu,,,,,,Sandstone,
+748,Maria Magdalena,,Peru,-72.0,-13.33333,260.0,Permian,Redbed Cu,,,,,,Sandstone,
+749,Andarapa,,Peru,-73.375,-13.50056,260.0,Permian,Redbed Cu,,,,,,Sandstone,
+750,Desaguadero,,Peru,-70.6,-14.08333,260.0,Permian,Redbed Cu,,,,,,Sandstone,
+751,San Silvestre,,Bolivia,-68.8875,-16.60833,45.0,L. Tertiary,Redbed Cu,,,,,,Sandstone,
+752,Chacoma,,Bolivia,-68.42028,-16.80056,45.0,L. Tertiary,Redbed Cu,,,,,,Red sandstone,
+753,Corocoro,,Bolivia,-68.45111,-17.16417,45.0,Eocene,Redbed Cu,7.8,7.1,,106.0,0.5538,Red sandstone and mudstone,6065
+754,Paracatu,,Brazil,-46.86667,-17.23333,1000.0,U. Proterozoic,Reduced-facies Cu,,,,,,Calareous siltstone,
+755,Veta Verde,,Bolivia,-68.40139,-17.36056,45.0,L. Tertiary,Redbed Cu,,,,,,Red sandstone,
+756,Callapa,,Bolivia,-68.35556,-17.4,45.0,L. Tertiary,Redbed Cu,,,,,,Red sandstone,
+757,Chacarilla,,Bolivia,-68.2,-17.58333,45.0,L. Tertiary,Redbed Cu,2.6,2.78,,15.0,0.07228,"sandstone, conglomerate",6065
+758,Chuquichambi,,Bolivia,-67.73917,-17.98861,45.0,L. Tertiary,Redbed Cu,,,,,,Red sandstone,
+759,Turco,,Bolivia,-68.06444,-18.26528,45.0,L. Tertiary,Redbed Cu,0.14,2.1,,,0.00294,"Arkose, tuffaceous sandstone, basalt",
+760,Sevaruyo,,Bolivia,-66.91889,-19.37333,45.0,L. Tertiary,Redbed Cu,,,,,,"Arkose, tuffaceous sandstone, basalt",
+761,Uyuni,,Bolivia,-67.21,-20.99361,45.0,L. Tertiary,Redbed Cu,0.39,0.79,,,0.003081,"Sandstone, conglomerate",
+762,Esmeralda,,Bolivia,-66.56889,-21.39167,45.0,L. Tertiary,Redbed Cu,,,,,,"Sandstone, conglomerate",
+763,Avaroa,,Bolivia,-67.04528,-21.6075,35.0,Oligocene,Redbed Cu,0.43,4.9,,,0.02107,"Sandstone, conglomerate",
+764,San Bartolo,Artola mine,Chile,-68.23333,-22.73333,24.0,Oligocene-Miocene,Redbed Cu,1.5,2.0,,,0.03,"Arkose, red mudstone",6006
+765,Serranía de las Minas,,Bolivia,-67.46306,-21.71583,45.0,L. Tertiary,Redbed Cu,,,,,,"Sandstone, conglomerate",
+766,Caleta Coloso,,Chile,-70.5,-23.74944,160.0,U. Jurssic,Redbed Cu,0.185,3.0,,,0.00555,"Conglomerate, sandstone",
+767,Martín Bronce,,Argentina,-64.41667,-24.0,90.0,U.Cretaceous,Redbed Cu,3.235,2.41,,,0.0779635,"Sandstone , conglomerate",
+768,Juaramento,,Argentina,-65.15,-25.21667,90.0,U.Cretaceous,Reduced-facies Cu,59.2,0.83,,19.2,0.49136,"Sandstone , conglomerate",
+769,Perau,,Brazil,-49.0,-25.5,1000.0,U. Proterozoic,Unclassified,,,,,,Calareous siltstone,
+770,Jardin,,Chile,-70.19167,-27.75833,60.0,Paleocene,Unclassified,2.0,1.75,,140.0,0.035,"Tuff, siltstone, carbonaceous shale, ignimbrite",
+771,Salsinho,,Brazil,-53.3,-30.5,700.0,U. Proterozoic,Unclassified,,,,,,"sandstone, conglomerate",
+772,Cerro dos Martíns,,Brazil,-53.45,-30.71667,700.0,U. Proterozoic,Unclassified,1.5,0.89,,,0.01335,"sandstone, andesite",
+773,Camaquã District,,Brazil,-53.43333,-30.91667,700.0,U. Proterozoic,Unclassified,31.0,1.06,,,0.3286,"Conglomerate, sandstone, siltstone",
+774,Casa de Pedra,,Brazil,-53.56667,-30.98333,700.0,U. Proterozoic,Unclassified,,,,,,"Sandstone, siltstone",
+775,Rusa,,Chile,-71.08333,-32.35,120.0,L. Cretaceous,Unclassified,,,,,,Shaley limestone,
+776,Veta Negra,,Chile,-71.1,-32.48333,120.0,L. Cretaceous,Unclassified,,,,,,Black shale,
+777,Carmen,,Chile,-71.0,-32.5,120.0,L. Cretaceous,Unclassified,,,,,,Laminated black limestone,
+778,Cerro Negro,,Argentina,-70.08333,-32.56667,80.0,U. Cretaceous,Unclassified,,,,,,"Breccia, clastic sediments",
+779,Campesino Norte,,Argentina,-69.05,-38.3,90.0,U.Cretaceous,Redbed Cu,,,,,,Sandstone,
+780,San Romeleo,,Argentina,-69.45,-36.58333,90.0,U.Cretaceous,Redbed Cu,0.257,1.29,,,0.0033153,"Feldspathic sandstone, calcareous, gypsiferous, bituminous",
+781,Sausal Bonita,,Argentina,-69.18333,-38.63333,90.0,U.Cretaceous,Redbed Cu,,,,,,Sandstone,
+782,Cerro Mesa,,Argentina,-69.6,-38.68333,90.0,U.Cretaceous,Redbed Cu,,,,,,Sandstone,
+783,Barda González,,Argentina,-68.98333,-38.88333,90.0,U.Cretaceous,Redbed Cu,35.5,0.368,,2.5,0.13064,Sandstone,
+784,Cerro Granito,El Porvenir,Argentina,-69.81667,-39.21667,90.0,U.Cretaceous,Redbed Cu,2.0,0.5,,,0.01,Sandstone,
+785,Kennecott,,United States,-142.86667,61.53333,,Triassic,Unclassified,4.0,13.0,,,0.52,"Stromatolitic limestone, dolomite, microbial mats.",
