@@ -1,13 +1,13 @@
-      # reveal_tomography — REVEAL global full-waveform tomography (dvs at 10 depth slices)
+# reveal_tomography — REVEAL global full-waveform tomography (dvs at 10 depth slices)
 
-      **Provenance:** Fichtner et al. — REVEAL model
+**Provenance:** Fichtner et al. — REVEAL model
 
-      REVEAL global tomographic model — dvs (S-wave velocity anomaly) at 10 depth slices from 100 km to 2400 km. Used to render mantle plume conduits in cross-section (E01, E02) and to visualise mantle heterogeneity beneath specific paleo-reconstructions.
+REVEAL global tomographic model — dvs (S-wave velocity anomaly) at 10 depth slices from 100 km to 2400 km. Used to render mantle plume conduits in cross-section (E01, E02) and to visualise mantle heterogeneity beneath specific paleo-reconstructions.
 
-      ## Contents
+## Contents
 
-      ```
-      reveal_tomography/  (7.7 MB)
+```
+reveal_tomography/  (7.7 MB)
 REVEAL_dvs_1000km.nc (0.8 MB)
 REVEAL_dvs_1250km.nc (0.8 MB)
 REVEAL_dvs_1500km.nc (0.8 MB)
@@ -18,17 +18,16 @@ REVEAL_dvs_2500km.nc (0.8 MB)
 REVEAL_dvs_500km.nc (0.8 MB)
 REVEAL_dvs_650km.nc (0.8 MB)
 REVEAL_dvs_850km.nc (0.8 MB)
-      ```
+```
 
+## Consumer notebooks
 
-      ## Consumer notebooks
+**E01**, **E02**
 
-      **E01**, **E02**
+## References
 
-      ## References
+Fichtner, A. et al. (2018). The Collaborative Seismic Earth Model: Generation 1. *Geophysical Research Letters* 45, 4007-4016. [doi:10.1029/2018GL077338](https://doi.org/10.1029/2018GL077338)
 
-      Fichtner, A. et al. (2018). The Collaborative Seismic Earth Model: Generation 1. *Geophysical Research Letters* 45, 4007-4016. [doi:10.1029/2018GL077338](https://doi.org/10.1029/2018GL077338)
+## License
 
-      ## License
-
-      CC BY 4.0.
+CC BY 4.0.

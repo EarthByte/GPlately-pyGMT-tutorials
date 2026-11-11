@@ -1,13 +1,13 @@
-      # paleotopo_scotese — Scotese & Wright 2018 paleo-DEMs (corrected + slim geochem sample set)
+# paleotopo_scotese — Scotese & Wright 2018 paleo-DEMs (corrected + slim geochem sample set)
 
-      **Provenance:** Scotese & Wright (2018) with Zhou geochemistry correction
+**Provenance:** Scotese & Wright (2018) with Zhou geochemistry correction
 
-      Scotese & Wright (2018) paleo-DEMs in two flavours: (a) `corrected_SW/` — the Zhou-geochemistry-corrected variant that fixes the top-1% land amplitude bias, and (b) `geochem_samples_slim.csv` — the geochemistry-derived crustal-thickness sample compilation used in the assimilation. Used by G01, G06 and G09.
+Scotese & Wright (2018) paleo-DEMs in two flavours: (a) `corrected_SW/` — the Zhou-geochemistry-corrected variant that fixes the top-1% land amplitude bias, and (b) `geochem_samples_slim.csv` — the geochemistry-derived crustal-thickness sample compilation used in the assimilation. Used by G01, G06 and G09.
 
-      ## Contents
+## Contents
 
-      ```
-      paleotopo_scotese/  (20.2 MB)
+```
+paleotopo_scotese/  (20.2 MB)
 geochem_samples_slim.csv (2.1 MB)
 corrected_SW/
   0Ma_corrected_SW.nc (1.1 MB)
@@ -26,17 +26,16 @@ corrected_SW/
   500Ma_corrected_SW.nc (1.1 MB)
   50Ma_corrected_SW.nc (1.1 MB)
   75Ma_corrected_SW.nc (1.1 MB)
-      ```
+```
 
+## Consumer notebooks
 
-      ## Consumer notebooks
+**G01**, **G06**, **G09**
 
-      **G01**, **G06**, **G09**
+## References
 
-      ## References
+Scotese, C.R. & Wright, N.M. (2018). PALEOMAP paleodigital elevation models (PaleoDEMs). Zenodo. [doi:10.5281/zenodo.5460860](https://doi.org/10.5281/zenodo.5460860)
 
-      Scotese, C.R. & Wright, N.M. (2018). PALEOMAP paleodigital elevation models (PaleoDEMs). Zenodo. [doi:10.5281/zenodo.5460860](https://doi.org/10.5281/zenodo.5460860)
+## License
 
-      ## License
-
-      CC BY 4.0.
+CC BY 4.0.

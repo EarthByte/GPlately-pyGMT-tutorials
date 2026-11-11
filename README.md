@@ -250,7 +250,9 @@ external methodology or dataset it currently leans on, organised by cluster.
 - **K01–K06** porphyry-Cu paleo-prospectivity workflows draw on Farahbakhsh
   et al. (2025), Mather et al. (2025), and the Norbisrath, Singh, Singh &
   Müller (submitted, *Geology*) plate-reorganisation / carbonate-subduction
-  fertility-window study, built on Satyam Singh's Geonome archive.
+  fertility-window study, built on Satyam Singh's Geonome archive. K02
+  applies the subduction-kinematics approach of Butterworth et al. (2016) to
+  the USGS global porphyry copper database (Singer, Berger & Moring, 2008).
 - **K08** craton-boundary framework (REVEAL VSH vs mineral deposits) follows
   Shirmard et al. (2025).
 - Underlying reference datasets credited throughout the cluster: **PALEOMAP

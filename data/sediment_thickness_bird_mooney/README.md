@@ -1,25 +1,25 @@
-      # sediment_thickness_bird_mooney — Bird & Mooney 2014 GST-14 global sediment thickness (compressed NetCDF)
+# sediment_thickness_bird_mooney — Bird & Mooney 2014 GST-14 global sediment thickness (compressed NetCDF)
 
-      **Provenance:** Bird, D.E. & Mooney, W.D. (2014)
+**Provenance:** Bird, D.E. & Mooney, W.D. (2014)
 
-      Global sediment thickness on the ~5-arcminute (~9 km) GST-14 grid of Bird & Mooney. **The original release is a 4.15M-point point-cloud (~460 MB); we ship a compressed NetCDF that resamples the point cloud onto a regular grid (~8.4 MB)** for direct pyGMT/xarray consumption. Used by H01 (Panel B raster) and H03 (wedge+drape decomposition of per-basin thickness profiles).
+Global sediment thickness on the ~5-arcminute (~9 km) GST-14 grid of Bird & Mooney. **The original release is a 4.15M-point point-cloud (~460 MB); we ship a compressed NetCDF that resamples the point cloud onto a regular grid (~8.4 MB)** for direct pyGMT/xarray consumption. Used by H01 (Panel B raster) and H03 (wedge+drape decomposition of per-basin thickness profiles).
 
-      ## Contents
+## Contents
 
-      ```
-      sediment_thickness_bird_mooney/  (8.4 MB)
+```
+sediment_thickness_bird_mooney/  (8.4 MB)
 Bird_Mooney_GST14_WGS84.nc (8.4 MB)
-      ```
-      **Size note:** 8.4 MB compressed NetCDF (from a 460 MB point-cloud upstream release).
+```
+**Size note:** 8.4 MB compressed NetCDF (from a 460 MB point-cloud upstream release).
 
-      ## Consumer notebooks
+## Consumer notebooks
 
-      **H01**, **H03**
+**H01**, **H03**
 
-      ## References
+## References
 
-      Bird, D.E. & Mooney, W.D. (2014). GST-14: A global 5-arcmin (~9 km resolution) sedimentary thickness compilation. *AAPG Bulletin* 98(10), 2131-2149.
+Bird, D.E. & Mooney, W.D. (2014). GST-14: A global 5-arcmin (~9 km resolution) sedimentary thickness compilation. *AAPG Bulletin* 98(10), 2131-2149.
 
-      ## License
+## License
 
-      CC BY 4.0.
+CC BY 4.0.

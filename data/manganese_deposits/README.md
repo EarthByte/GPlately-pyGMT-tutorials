@@ -1,29 +1,28 @@
-      # manganese_deposits — Müller 2026 Mn 1.8 Ga deposit compilation
+# manganese_deposits — Müller 2026 Mn 1.8 Ga deposit compilation
 
-      **Provenance:** Müller et al. (2026, in review)
+**Provenance:** Müller et al. (2026, in review)
 
-      Global compilation of manganese deposits + 5/10-Myr binned deposit counts for the 1.8 Ga paleogeography of Müller et al. (2026, in review). Used by K07.
+Global compilation of manganese deposits + 5/10-Myr binned deposit counts for the 1.8 Ga paleogeography of Müller et al. (2026, in review). Used by K07.
 
-      ## Contents
+## Contents
 
-      ```
-      manganese_deposits/  (67.2 KB)
+```
+manganese_deposits/  (67.2 KB)
 deposit_counts_10Myr.csv
 deposit_counts_5Myr.csv
 mn_deeptime_paleolat_Q3.csv
 mn_deposit_database.csv
 mn_deposits_reconstructed_geochem.csv
-      ```
+```
 
+## Consumer notebooks
 
-      ## Consumer notebooks
+**K07**
 
-      **K07**
+## References
 
-      ## References
+Müller, R.D. et al. (2026). Manganese deposition through deep time — a 1.8 Ga paleogeographic perspective. *In review*.
 
-      Müller, R.D. et al. (2026). Manganese deposition through deep time — a 1.8 Ga paleogeographic perspective. *In review*.
+## License
 
-      ## License
-
-      Redistribution with permission, CC BY 4.0.
+Redistribution with permission, CC BY 4.0.

@@ -1,13 +1,13 @@
-      # gmcm9 — Braz 2021 gmcm9 dynamic-topography grids (0-150 Ma, 5-Myr cadence)
+# gmcm9 — Braz 2021 gmcm9 dynamic-topography grids (0-150 Ma, 5-Myr cadence)
 
-      **Provenance:** Braz, Zahirovic, Salles, Flament, Harrington & Müller (2021)
+**Provenance:** Braz, Zahirovic, Salles, Flament, Harrington & Müller (2021)
 
-      Dynamic topography from the gmcm9 mantle-convection model of Braz et al. (2021), bundled here in both **MantleFrame** and **PlateFrame** flavours over 0-150 Ma at 5-Myr cadence (31 NCs per frame). gmcm9 was calibrated against sediment thickness and coupled with the Zahirovic 2022 plate model — do NOT mix with any other plate model for point reconstructions overlaid on these grids.
+Dynamic topography from the gmcm9 mantle-convection model of Braz et al. (2021), bundled here in both **MantleFrame** and **PlateFrame** flavours over 0-150 Ma at 5-Myr cadence (31 NCs per frame). gmcm9 was calibrated against sediment thickness and coupled with the Zahirovic 2022 plate model — do NOT mix with any other plate model for point reconstructions overlaid on these grids.
 
-      ## Contents
+## Contents
 
-      ```
-      gmcm9/  (122.8 MB)
+```
+gmcm9/  (122.8 MB)
 MantleFrame/
   0.00.jpg (0.5 MB)
   104.00.jpg (0.5 MB)
@@ -196,17 +196,17 @@ PlateFrame/
   Masked_94.00.nc (0.1 MB)
   Masked_99.00.jpg (0.3 MB)
   Masked_99.00.nc (0.1 MB)
-      ```
-      **Size note:** ~124 MB total; `Masked_*.nc` variants in PlateFrame/ are ocean-masked siblings of the canonical `XX.XX.nc` files — skip them when scanning by age.
+```
+**Size note:** ~124 MB total; `Masked_*.nc` variants in PlateFrame/ are ocean-masked siblings of the canonical `XX.XX.nc` files — skip them when scanning by age.
 
-      ## Consumer notebooks
+## Consumer notebooks
 
-      **G06**, **G08**
+**G06**, **G08**
 
-      ## References
+## References
 
-      Braz, C., Zahirovic, S., Salles, T., Flament, N., Harrington, L. & Müller, R.D. (2021). Modeling the drivers of vertical motion of the Australian continent through geological time. *Basin Research* 33(6), 3378-3405. [doi:10.1111/bre.12578](https://doi.org/10.1111/bre.12578)
+Braz, C., Zahirovic, S., Salles, T., Flament, N., Harrington, L. & Müller, R.D. (2021). Modeling the drivers of vertical motion of the Australian continent through geological time. *Basin Research* 33(6), 3378-3405. [doi:10.1111/bre.12578](https://doi.org/10.1111/bre.12578)
 
-      ## License
+## License
 
-      CC BY 4.0.
+CC BY 4.0.

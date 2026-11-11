@@ -1,13 +1,13 @@
-      # thermochronology_north_america — North America thermochronology (USGS Geochron v4.0 subset)
+# thermochronology_north_america — North America thermochronology (USGS Geochron v4.0 subset)
 
-      **Provenance:** USGS Geochron v4.0 (Naeser et al.) — North America subset
+**Provenance:** USGS Geochron v4.0 (Naeser et al.) — North America subset
 
-      North American thermochronology sample compilation for G09. Includes `na_thermal_histories.csv` (flat sample-history file) and `dyntopo_master/` (per-age Parquet caches joining thermochron samples to reconstructed DT values).
+North American thermochronology sample compilation for G09. Includes `na_thermal_histories.csv` (flat sample-history file) and `dyntopo_master/` (per-age Parquet caches joining thermochron samples to reconstructed DT values).
 
-      ## Contents
+## Contents
 
-      ```
-      thermochronology_north_america/  (36.4 MB)
+```
+thermochronology_north_america/  (36.4 MB)
 na_thermal_histories.csv (0.1 MB)
 dyntopo_master/
   dyntopo_master_020Ma.parquet
@@ -26,17 +26,16 @@ usgs_geochron_v4/
   fissiontrack_USGS_data_release_v4.csv (2.6 MB)
   samples_USGS_data_release_v4.csv (31.6 MB)
   uthhe_USGS_data_release_v4.csv (1.9 MB)
-      ```
+```
 
+## Consumer notebooks
 
-      ## Consumer notebooks
+**G09**
 
-      **G09**
+## References
 
-      ## References
+Naeser, C.W. et al. USGS Geochron Database v4.0.
 
-      Naeser, C.W. et al. USGS Geochron Database v4.0.
+## License
 
-      ## License
-
-      Public data (USGS).
+Public data (USGS).

@@ -1,13 +1,13 @@
-      # Boucot2013_Lithology_Data_Tables — Boucot 2013 Phanerozoic climate-sensitive lithologies
+# Boucot2013_Lithology_Data_Tables — Boucot 2013 Phanerozoic climate-sensitive lithologies
 
-      **Provenance:** Boucot, Chen & Scotese (2013), Phanerozoic Paleoclimate atlas
+**Provenance:** Boucot, Chen & Scotese (2013), Phanerozoic Paleoclimate atlas
 
-      Digitised map-by-map lithology occurrence tables from the Boucot, Chen & Scotese (2013) atlas of climate-sensitive Phanerozoic lithologies (evaporites, coals, tillites, bauxites, laterites, red beds, glendonites, oolites, phosphorites, tropical reefs, etc.). 28 CSV tables covering the Cambrian through Neogene.
+Digitised map-by-map lithology occurrence tables from the Boucot, Chen & Scotese (2013) atlas of climate-sensitive Phanerozoic lithologies (evaporites, coals, tillites, bauxites, laterites, red beds, glendonites, oolites, phosphorites, tropical reefs, etc.). 28 CSV tables covering the Cambrian through Neogene.
 
-      ## Contents
+## Contents
 
-      ```
-      Boucot2013_Lithology_Data_Tables/  (1.1 MB)
+```
+Boucot2013_Lithology_Data_Tables/  (1.1 MB)
 Map01 LCamb v5.csv
 Map02 MUCamb v5.csv
 Map03 LOrdo v5.csv
@@ -36,17 +36,16 @@ Map25 LEocene v4.csv
 Map26 MUEocene v4.csv
 Map27 Oligocene v4.csv
 Map28 Miocene v4.csv
-      ```
+```
 
+## Consumer notebooks
 
-      ## Consumer notebooks
+**J01**
 
-      **J01**
+## References
 
-      ## References
+Boucot, A.J., Chen, X. & Scotese, C.R. (2013). *Phanerozoic Paleoclimate: An Atlas of Lithologic Indicators of Climate*. SEPM Concepts in Sedimentology and Paleontology No. 11.
 
-      Boucot, A.J., Chen, X. & Scotese, C.R. (2013). *Phanerozoic Paleoclimate: An Atlas of Lithologic Indicators of Climate*. SEPM Concepts in Sedimentology and Paleontology No. 11.
+## License
 
-      ## License
-
-      Fair-use redistribution of the SEPM digital appendix.
+Fair-use redistribution of the SEPM digital appendix.

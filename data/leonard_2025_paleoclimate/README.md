@@ -1,13 +1,13 @@
-      # leonard_2025_paleoclimate — Leonard 2025 reference-frame paleoclimate outputs
+# leonard_2025_paleoclimate — Leonard 2025 reference-frame paleoclimate outputs
 
-      **Provenance:** Leonard et al. (2025), Zenodo 15628277
+**Provenance:** Leonard et al. (2025), Zenodo 15628277
 
-      Compact subset of Leonard et al.'s (2025) PLASIM paleoclimate simulations run under three different reference frames (Merdith 2021 paleomag, Müller 2016 mantle, Torsvik 2019 paleomag). Three variables (SAT, GMST, landsea) × 26 ages (0-540 Ma at 20-Myr cadence) × 3 frames. Used to quantify reference-frame uncertainty in reconstructed paleoclimate (J07).
+Compact subset of Leonard et al.'s (2025) PLASIM paleoclimate simulations run under three different reference frames (Merdith 2021 paleomag, Müller 2016 mantle, Torsvik 2019 paleomag). Three variables (SAT, GMST, landsea) × 26 ages (0-540 Ma at 20-Myr cadence) × 3 frames. Used to quantify reference-frame uncertainty in reconstructed paleoclimate (J07).
 
-      ## Contents
+## Contents
 
-      ```
-      leonard_2025_paleoclimate/  (1.9 MB)
+```
+leonard_2025_paleoclimate/  (1.9 MB)
 merdith2021_paleomag/
   000Ma.nc
   010Ma.nc
@@ -89,17 +89,17 @@ torsvik2019_paleomag/
   230Ma.nc
   240Ma.nc
   250Ma.nc
-      ```
-      **Size note:** ~1.9 MB — full 384 MB Leonard archive is on Zenodo; only the compact subset used by J07 is bundled here.
+```
+**Size note:** ~1.9 MB — full 384 MB Leonard archive is on Zenodo; only the compact subset used by J07 is bundled here.
 
-      ## Consumer notebooks
+## Consumer notebooks
 
-      **J07**
+**J07**
 
-      ## References
+## References
 
-      Leonard, J., Farnsworth, A., Valdes, P.J., Lunt, D.J. & Merdith, A. (2025). Polar wander leads to large differences in past climate. *Communications Earth & Environment* 6, 15. [Zenodo: 10.5281/zenodo.15628277](https://doi.org/10.5281/zenodo.15628277)
+Leonard, J., Farnsworth, A., Valdes, P.J., Lunt, D.J. & Merdith, A. (2025). Polar wander leads to large differences in past climate. *Communications Earth & Environment* 6, 15. [Zenodo: 10.5281/zenodo.15628277](https://doi.org/10.5281/zenodo.15628277)
 
-      ## License
+## License
 
-      CC BY 4.0 (Leonard et al. supplementary material).
+CC BY 4.0 (Leonard et al. supplementary material).

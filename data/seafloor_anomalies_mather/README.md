@@ -1,27 +1,26 @@
-      # seafloor_anomalies_mather — Seafloor geochemistry-anomaly features (Whittaker + Mather)
+# seafloor_anomalies_mather — Seafloor geochemistry-anomaly features (Whittaker + Mather)
 
-      **Provenance:** Whittaker et al. + Mather et al.
+**Provenance:** Whittaker et al. + Mather et al.
 
-      GPML feature collections + a base-metal-deposit compilation used by K03 (seafloor geochemical anomalies) to test whether porphyry-Cu deposits cluster near seafloor spreading anomalies at their formation age.
+GPML feature collections + a base-metal-deposit compilation used by K03 (seafloor geochemical anomalies) to test whether porphyry-Cu deposits cluster near seafloor spreading anomalies at their formation age.
 
-      ## Contents
+## Contents
 
-      ```
-      seafloor_anomalies_mather/  (684.6 KB)
+```
+seafloor_anomalies_mather/  (684.6 KB)
 Hotspots_Compilation_Whittaker_etal.gpmlz
 Whittaker_etal_2015_LIPs.gpmlz (0.3 MB)
 base_metal_deposit_compilation.xls (0.4 MB)
-      ```
+```
 
+## Consumer notebooks
 
-      ## Consumer notebooks
+**K03**
 
-      **K03**
+## References
 
-      ## References
+Whittaker, J.M., Afonso, J.C., Masterton, S., Müller, R.D., Wessel, P., Williams, S.E. & Seton, M. (2015). Long-term interaction between mid-ocean ridges and mantle plumes. *Nature Geoscience* 8, 479-483.
 
-      Whittaker, J.M., Afonso, J.C., Masterton, S., Müller, R.D., Wessel, P., Williams, S.E. & Seton, M. (2015). Long-term interaction between mid-ocean ridges and mantle plumes. *Nature Geoscience* 8, 479-483.
+## License
 
-      ## License
-
-      CC BY 4.0.
+CC BY 4.0.

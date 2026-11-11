@@ -1,13 +1,13 @@
-      # thermochronology_central_asia — Boone Central Asia thermochronology (flat sample-history CSV + Parquet caches)
+# thermochronology_central_asia — Boone Central Asia thermochronology (flat sample-history CSV + Parquet caches)
 
-      **Provenance:** Boone et al. (2025) — the central-Asia core dataset of ThermoPlates
+**Provenance:** Boone et al. (2025) — the central-Asia core dataset of ThermoPlates
 
-      The canonical Central Asia thermochronology compilation of Boone et al. (2025), with the flat per-sample thermal-history CSV and per-snapshot Parquet caches produced by G06/G07 (writers) and consumed by G08 (reader). The `TempDiff` column is the authoritative per-sample cooling rate in °C/Myr — do NOT recompute from OnlyCooling.
+The canonical Central Asia thermochronology compilation of Boone et al. (2025), with the flat per-sample thermal-history CSV and per-snapshot Parquet caches produced by G06/G07 (writers) and consumed by G08 (reader). The `TempDiff` column is the authoritative per-sample cooling rate in °C/Myr — do NOT recompute from OnlyCooling.
 
-      ## Contents
+## Contents
 
-      ```
-      thermochronology_central_asia/  (1.9 MB)
+```
+thermochronology_central_asia/  (1.9 MB)
 central_asia_regions.csv
 central_asia_thermal_histories.csv (1.2 MB)
 kinematics_master/
@@ -44,17 +44,16 @@ thermochron_master/
   thermochron_master_140Ma.parquet
   thermochron_master_145Ma.parquet
   thermochron_master_150Ma.parquet
-      ```
+```
 
+## Consumer notebooks
 
-      ## Consumer notebooks
+**G05**, **G06**, **G07**, **G08**
 
-      **G05**, **G06**, **G07**, **G08**
+## References
 
-      ## References
+Boone, S.C., Kohn, B.P., Gleadow, A.J.W. et al. (2025). ThermoPlates: linking thermochronology to plate tectonics. *Communications Earth & Environment* 6, 1015.
 
-      Boone, S.C., Kohn, B.P., Gleadow, A.J.W. et al. (2025). ThermoPlates: linking thermochronology to plate tectonics. *Communications Earth & Environment* 6, 1015.
+## License
 
-      ## License
-
-      CC BY 4.0.
+CC BY 4.0.

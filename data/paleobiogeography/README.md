@@ -1,25 +1,24 @@
-      # paleobiogeography — Paleobiogeography — cryptospore occurrences (Cambrian-Ordovician)
+# paleobiogeography — Paleobiogeography — cryptospore occurrences (Cambrian-Ordovician)
 
-      **Provenance:** Version 5p1 curated compilation
+**Provenance:** Version 5p1 curated compilation
 
-      Cambrian-Ordovician cryptospore (early land-plant spore) occurrence spreadsheet used in I05 paleobiogeography live-API demonstration.
+Cambrian-Ordovician cryptospore (early land-plant spore) occurrence spreadsheet used in I05 paleobiogeography live-API demonstration.
 
-      ## Contents
+## Contents
 
-      ```
-      paleobiogeography/  (46.1 KB)
+```
+paleobiogeography/  (46.1 KB)
 Version5p1_Cambrian_Ordovician_Cryptospores.xlsx
-      ```
+```
 
+## Consumer notebooks
 
-      ## Consumer notebooks
+**I05**
 
-      **I05**
+## References
 
-      ## References
+Various sources compiled per Kocsis et al. bioregionalisation demo.
 
-      Various sources compiled per Kocsis et al. bioregionalisation demo.
+## License
 
-      ## License
-
-      Fair-use redistribution.
+Fair-use redistribution.

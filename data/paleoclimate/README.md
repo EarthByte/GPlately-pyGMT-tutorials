@@ -1,56 +1,33 @@
-        # paleoclimate — Paleoclimate deep-time snapshots (Boucot + PLASIM-GENIE)
+# paleoclimate — Paleoclimate model snapshots
 
-        **Provenance:** Boucot 2022 Köppen compilation + PLASIM-GENIE snapshot
+**Provenance:** HadCM3 (BRIDGE, Valdes et al.), PLASIM-GENIE, PALEOMAP PaleoDEM (Scotese & Wright)
 
-        Deep-time paleoclimate reference data: (a) Boucot 2022 Köppen-zone Phanerozoic attributions in `boucot2022_koppen_phanerozoic/`, (b) end-Permian PLASIM-GENIE SAT snapshot at 252 Ma, 8960 ppm CO2. Used by J03 (deep-time SAT), J05 (PLASIM CO2 sensitivity), and J10 (ocean gateways vs frame).
+Small climate-model and paleotopography grids: the end-Permian PLASIM-GENIE surface-air-temperature snapshot at 252 Ma and 8960 ppm CO2, modern and Pliocene HadCM3 annual-mean temperature, and the Scotese & Wright (2018) PaleoDEM at 150 Ma.
 
-        ## Contents
+## Contents
 
-        ```
-        paleoclimate/  (725.0 KB)
-  cgenie_plasim_endpermian_252Ma_8960ppm_sat.nc
-  hadcm3_modern_mat.nc
-  hadcm3_pliocene_mat.nc
-  koppen_palette.cpt
-  scotese_wright_paleoDEM_150Ma.nc
-  boucot2022_koppen_phanerozoic/
-    koppen_0Ma.csv
-    koppen_100Ma.csv
-    koppen_10Ma.csv
-    koppen_120Ma.csv
-    koppen_145Ma.csv
-    koppen_170Ma.csv
-    koppen_200Ma.csv
-    koppen_20Ma.csv
-    koppen_230Ma.csv
-    koppen_260Ma.csv
-    koppen_290Ma.csv
-    koppen_320Ma.csv
-    koppen_350Ma.csv
-    koppen_35Ma.csv
-    koppen_380Ma.csv
-    koppen_410Ma.csv
-    koppen_440Ma.csv
-    koppen_470Ma.csv
-    koppen_500Ma.csv
-    koppen_50Ma.csv
-    koppen_520Ma.csv
-    koppen_540Ma.csv
-    koppen_5Ma.csv
-    koppen_65Ma.csv
-    koppen_80Ma.csv
-        ```
+```
+paleoclimate/  (0.2 MB)
+├── README.md
+├── cgenie_plasim_endpermian_252Ma_8960ppm_sat.nc   (J03)
+├── hadcm3_modern_mat.nc                            (J03)
+├── hadcm3_pliocene_mat.nc                          (not read by the current notebooks)
+├── koppen_palette.cpt                              (not read by the current notebooks)
+└── scotese_wright_paleoDEM_150Ma.nc                (I03, J06)
+```
 
+## Consumer notebooks
 
-        ## Consumer notebooks
+**I03**, **J03**, **J06**
 
-        **J03**, **J05**, **J10**
+## References
 
-        ## References
-
-        Boucot, A.J. et al. (2022). Digital Köppen climate attribution through the Phanerozoic.
 Holden, P.B. et al. (2016). PLASIM-GENIE v1.0: a new intermediate complexity AOGCM. *Geoscientific Model Development* 9, 3347-3361. [doi:10.5194/gmd-9-3347-2016](https://doi.org/10.5194/gmd-9-3347-2016)
 
-        ## License
+Valdes, P.J. et al. (2017). The BRIDGE HadCM3 family of climate models. *Geoscientific Model Development* 10, 3715–3743.
 
-        CC BY 4.0.
+Scotese, C.R. & Wright, N. (2018). PALEOMAP Paleodigital Elevation Models (PaleoDEMS) for the Phanerozoic. https://www.earthbyte.org/paleodem-resource-scotese-and-wright-2018/
+
+## License
+
+CC BY 4.0.
