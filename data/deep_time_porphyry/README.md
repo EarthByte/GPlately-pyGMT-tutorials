@@ -1,8 +1,8 @@
-# deep_time_porphyry — Norbisrath 2025 porphyry-Cu prospectivity + trajectories
+# deep_time_porphyry — Norbisrath et al. porphyry-Cu prospectivity + trajectories
 
-**Provenance:** Norbisrath, Singh, Singh & Müller (2025, submitted *Geology*)
+**Provenance:** Norbisrath, Singh, Singh & Müller (submitted, *Geology*); deposit inventory from USGS compilations (Mihalasky et al. 2011, rev. 2013; USGS National Mineral Resource Assessment Team 2002; Hammarstrom et al. 2010)
 
-Predictive porphyry-Cu prospectivity NetCDFs from Norbisrath et al.'s PU-bagging pipeline, plus per-deposit trajectory CSVs for the Safford (Arizona) and Glacier Peak (Washington) case studies. Three prospectivity fields: spatial, spatiotemporal, and integrated hyperdimensional. 31 tectonic/geodynamic features per cell.
+Predictive porphyry-Cu prospectivity NetCDFs from Norbisrath et al.'s positive-unlabelled bagging workflow, the North American porphyry-Cu deposit inventory (`porphyry_copper_deposits.csv`), plus per-deposit trajectory CSVs for the Safford (Arizona) and Glacier Peak (Washington) case studies. Three prospectivity fields: spatial, spatiotemporal, and integrated hyperdimensional. 31 tectonic/geodynamic features per cell.
 
 ## Contents
 
@@ -29,8 +29,8 @@ uncompacted_carbonate_thickness_58Ma.nc (7.7 MB)
 
 ## References
 
-Norbisrath, N., Singh, S., Singh, R. & Müller, R.D. (2025). Plate reorganisation and carbonate subduction create transient porphyry copper fertility windows. *Geology* [in review].
+Norbisrath, J.H., Singh, S.P., Singh, U. & Müller, R.D. (submitted). Plate reorganisation and carbonate subduction create transient porphyry copper fertility windows. *Geology*.
 
 ## License
 
-CC BY-NC 4.0 (Norbisrath et al., in-review supplementary material).
+CC BY-NC 4.0 (Norbisrath et al.); the deposit inventory is public-domain USGS data.

@@ -1,31 +1,18 @@
-# thermochronology_north_america — North America thermochronology (USGS Geochron v4.0 subset)
+# thermochronology_north_america — USGS Geochron v4.0, fission-track and (U-Th)/He subset
 
-**Provenance:** USGS Geochron v4.0 (Naeser et al.) — North America subset
+**Provenance:** Hillenbrand et al. (2023, rev. 2025), USGS Geochron v4.0
 
-North American thermochronology sample compilation for G09. Includes `na_thermal_histories.csv` (flat sample-history file) and `dyntopo_master/` (per-age Parquet caches joining thermochron samples to reconstructed DT values).
+The three USGS Geochron v4.0 tables G09 needs: sample metadata, apatite/zircon fission-track dates, and (U-Th)/He dates. On first run G09 reduces them to a flat thermal-history table, `na_thermal_histories.csv`, which it writes to `zenodo_data/thermochronology_geochronology_USGS_NorthAmerica/`. That Zenodo folder also holds G09's precomputed per-age dynamic-topography cache, `dyntopo_master/` (see `zenodo_data/README.md`).
 
 ## Contents
 
 ```
-thermochronology_north_america/  (36.4 MB)
-na_thermal_histories.csv (0.1 MB)
-dyntopo_master/
-  dyntopo_master_020Ma.parquet
-  dyntopo_master_040Ma.parquet
-  dyntopo_master_060Ma.parquet
-  dyntopo_master_080Ma.parquet
-  dyntopo_master_100Ma.parquet
-  dyntopo_master_120Ma.parquet
-  dyntopo_master_140Ma.parquet
-  dyntopo_master_160Ma.parquet
-  dyntopo_master_180Ma.parquet
-  dyntopo_master_200Ma.parquet
-  dyntopo_master_220Ma.parquet
-  dyntopo_master_240Ma.parquet
-usgs_geochron_v4/
-  fissiontrack_USGS_data_release_v4.csv (2.6 MB)
-  samples_USGS_data_release_v4.csv (31.6 MB)
-  uthhe_USGS_data_release_v4.csv (1.9 MB)
+thermochronology_north_america/  (36 MB)
+├── README.md
+└── usgs_geochron_v4/
+    ├── fissiontrack_USGS_data_release_v4.csv   (2.6 MB)
+    ├── samples_USGS_data_release_v4.csv        (31.6 MB)
+    └── uthhe_USGS_data_release_v4.csv          (1.9 MB)
 ```
 
 ## Consumer notebooks
@@ -34,8 +21,8 @@ usgs_geochron_v4/
 
 ## References
 
-Naeser, C.W. et al. USGS Geochron Database v4.0.
+Hillenbrand, I.W., et al. (2023, rev. 2025). *USGS Geochron: A Database of Geochronological and Thermochronological Dates and Data (ver. 4.0)*. U.S. Geological Survey data release. https://doi.org/10.5066/P9RZNPIF
 
 ## License
 
-Public data (USGS).
+Public domain (U.S. Geological Survey).

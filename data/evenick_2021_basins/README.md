@@ -22,7 +22,7 @@ Evenick2021_mmc2_column_dictionary.xlsx (10 KB) — data dictionary for the shap
 
 ## Consumer notebooks
 
-**H01**
+**H01**, **H02**, **H03**
 
 ## References
 

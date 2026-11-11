@@ -1,50 +1,19 @@
-# thermochronology_central_asia — Boone Central Asia thermochronology (flat sample-history CSV + Parquet caches)
+# thermochronology_central_asia — Central Asia thermal-history compilation
 
-**Provenance:** Boone et al. (2025) — the central-Asia core dataset of ThermoPlates
+**Provenance:** Nixon et al. (2025), Central Asia thermochronology compilation (EarthBank); workflow of Boone et al. (2025)
 
-The canonical Central Asia thermochronology compilation of Boone et al. (2025), with the flat per-sample thermal-history CSV and per-snapshot Parquet caches produced by G06/G07 (writers) and consumed by G08 (reader). The `TempDiff` column is the authoritative per-sample cooling rate in °C/Myr — do NOT recompute from OnlyCooling.
+Per-sample inverse thermal-history models for Central Asia used by Boone et al. (2025), from the ThermoPlates example data (https://github.com/samuelcboone/ThermoPlates, `Example_data_Central_Asia.csv`), downsampled to a 5-Myr cadence. The `TempDiff` column is the per-sample cooling rate in °C/Myr. `central_asia_regions.csv` names the region and sub-region codes.
 
 ## Contents
 
 ```
 thermochronology_central_asia/  (1.9 MB)
-central_asia_regions.csv
-central_asia_thermal_histories.csv (1.2 MB)
-kinematics_master/
-  kinematics_master_100Ma.parquet
-thermochron_master/
-  thermochron_master_000Ma.parquet
-  thermochron_master_005Ma.parquet
-  thermochron_master_010Ma.parquet
-  thermochron_master_015Ma.parquet
-  thermochron_master_020Ma.parquet
-  thermochron_master_025Ma.parquet
-  thermochron_master_030Ma.parquet
-  thermochron_master_035Ma.parquet
-  thermochron_master_040Ma.parquet
-  thermochron_master_045Ma.parquet
-  thermochron_master_050Ma.parquet
-  thermochron_master_055Ma.parquet
-  thermochron_master_060Ma.parquet
-  thermochron_master_065Ma.parquet
-  thermochron_master_070Ma.parquet
-  thermochron_master_075Ma.parquet
-  thermochron_master_080Ma.parquet
-  thermochron_master_085Ma.parquet
-  thermochron_master_090Ma.parquet
-  thermochron_master_095Ma.parquet
-  thermochron_master_100Ma.parquet
-  thermochron_master_105Ma.parquet
-  thermochron_master_110Ma.parquet
-  thermochron_master_115Ma.parquet
-  thermochron_master_120Ma.parquet
-  thermochron_master_125Ma.parquet
-  thermochron_master_130Ma.parquet
-  thermochron_master_135Ma.parquet
-  thermochron_master_140Ma.parquet
-  thermochron_master_145Ma.parquet
-  thermochron_master_150Ma.parquet
+├── README.md
+├── central_asia_regions.csv
+└── central_asia_thermal_histories.csv   (1.2 MB)
 ```
+
+The per-age Parquet caches that G06 and G07 write (`thermochron_master/`, `kinematics_master/`) are not part of this folder: they are rebuilt on first run, or can be downloaded as `thermochronology_precomputed_cache_CentralAsia.zip` from the Zenodo companion archive (see `zenodo_data/README.md`).
 
 ## Consumer notebooks
 
@@ -52,7 +21,9 @@ thermochron_master/
 
 ## References
 
-Boone, S.C., Kohn, B.P., Gleadow, A.J.W. et al. (2025). ThermoPlates: linking thermochronology to plate tectonics. *Communications Earth & Environment* 6, 1015.
+Boone, S.C. et al. (2025). Deciphering mantle, tectonic and climatic drivers of exhumation. *Communications Earth & Environment* 6, 1015. https://doi.org/10.1038/s43247-025-03005-6
+
+Nixon, A., Glorie, S., Boone, S.C., Kohlmann, F. et al. (2025). Central Asia thermochronology compilation. AusGeochem/EarthBank. https://doi.org/10.58024/AGUA6E7B32B9
 
 ## License
 

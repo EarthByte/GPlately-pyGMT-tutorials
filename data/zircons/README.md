@@ -1,8 +1,8 @@
 # zircons — Wu 2023 global zircon U-Pb geochronology (three tectonic subsets)
 
-**Provenance:** Wu et al. (2023) — global zircon compilation
+**Provenance:** Wu, Fang & Ji (2023) — global zircon U–Th–Pb database
 
-Wu et al. (2023) global zircon U-Pb geochronology database, split by rock type into three separate GPMLZ files: sedimentary (detrital), igneous, metamorphic. Used by the D01/D02/D03 zircon trio (all three structurally identical, differing only by which file they load).
+Wu, Fang & Ji (2023) global zircon U–Th–Pb geochronology database, split by rock type into three separate GPMLZ files: sedimentary (detrital), igneous, metamorphic. Used by the zircon notebooks D01–D04.
 
 ## Contents
 
@@ -19,7 +19,7 @@ zircons_sedimentary_Wu2023.gpmlz (0.4 MB)
 
 ## References
 
-Wu, L., Murphy, J.B., Quesada, C., Li, Z.-X., Waldron, J.W.F., Williams, S., Pisarevsky, S. & Collins, W.J. (2023). A global compilation of published U-Pb zircon geochronology data.
+Wu, Y., Fang, X. & Ji, J. (2023). A global zircon U–Th–Pb geochronological database. *Earth System Science Data* 15(11), 5171–5181. https://doi.org/10.5194/essd-15-5171-2023 — data archived at https://doi.org/10.5281/zenodo.7387566
 
 ## License
 

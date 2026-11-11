@@ -1,96 +1,22 @@
 # leonard_2025_paleoclimate — Leonard 2025 reference-frame paleoclimate outputs
 
-**Provenance:** Leonard et al. (2025), Zenodo 15628277
+**Provenance:** Leonard et al. (2025), *Communications Earth & Environment*; data archive Zenodo 10.5281/zenodo.15628277
 
-Compact subset of Leonard et al.'s (2025) PLASIM paleoclimate simulations run under three different reference frames (Merdith 2021 paleomag, Müller 2016 mantle, Torsvik 2019 paleomag). Three variables (SAT, GMST, landsea) × 26 ages (0-540 Ma at 20-Myr cadence) × 3 frames. Used to quantify reference-frame uncertainty in reconstructed paleoclimate (J07).
+Compact subset of Leonard et al.'s (2025) PLASIM paleoclimate simulations run under three different reference frames (Merdith 2021 paleomag, Müller 2016 mantle, Torsvik 2019 paleomag). Three variables (SAT, GMST, landsea) × 26 ages (0–250 Ma at 10-Myr cadence) × 3 frames. Used to quantify reference-frame uncertainty in reconstructed paleoclimate (J07).
 
 ## Contents
 
 ```
-leonard_2025_paleoclimate/  (1.9 MB)
-merdith2021_paleomag/
-  000Ma.nc
-  010Ma.nc
-  020Ma.nc
-  030Ma.nc
-  040Ma.nc
-  050Ma.nc
-  060Ma.nc
-  070Ma.nc
-  080Ma.nc
-  090Ma.nc
-  100Ma.nc
-  110Ma.nc
-  120Ma.nc
-  130Ma.nc
-  140Ma.nc
-  150Ma.nc
-  160Ma.nc
-  170Ma.nc
-  180Ma.nc
-  190Ma.nc
-  200Ma.nc
-  210Ma.nc
-  220Ma.nc
-  230Ma.nc
-  240Ma.nc
-  250Ma.nc
-muller2016_mantle/
-  000Ma.nc
-  010Ma.nc
-  020Ma.nc
-  030Ma.nc
-  040Ma.nc
-  050Ma.nc
-  060Ma.nc
-  070Ma.nc
-  080Ma.nc
-  090Ma.nc
-  100Ma.nc
-  110Ma.nc
-  120Ma.nc
-  130Ma.nc
-  140Ma.nc
-  150Ma.nc
-  160Ma.nc
-  170Ma.nc
-  180Ma.nc
-  190Ma.nc
-  200Ma.nc
-  210Ma.nc
-  220Ma.nc
-  230Ma.nc
-  240Ma.nc
-  250Ma.nc
-torsvik2019_paleomag/
-  000Ma.nc
-  010Ma.nc
-  020Ma.nc
-  030Ma.nc
-  040Ma.nc
-  050Ma.nc
-  060Ma.nc
-  070Ma.nc
-  080Ma.nc
-  090Ma.nc
-  100Ma.nc
-  110Ma.nc
-  120Ma.nc
-  130Ma.nc
-  140Ma.nc
-  150Ma.nc
-  160Ma.nc
-  170Ma.nc
-  180Ma.nc
-  190Ma.nc
-  200Ma.nc
-  210Ma.nc
-  220Ma.nc
-  230Ma.nc
-  240Ma.nc
-  250Ma.nc
+leonard_2025_paleoclimate/  (190 MB)
+merdith2021_paleomag/      26 NetCDF files, 000Ma.nc ... 250Ma.nc
+muller2016_mantle/         26 NetCDF files
+torsvik2019_paleomag/      26 NetCDF files
+plate_reconstructions/     the plate models behind the three frames (188 MB):
+  CITATIONS.txt            citations of the plate models
+  Torsvik_etal_2019/       Torsvik et al. (2019) model, with its mantle and paleomagnetic frames
+  Zahirovic_etal_2022_GDJ_NNR/   Zahirovic et al. (2022) relative motions used with the other frames
 ```
-**Size note:** ~1.9 MB — full 384 MB Leonard archive is on Zenodo; only the compact subset used by J07 is bundled here.
+The climate fields are a compact subset (about 2 MB) of the 384 MB Leonard et al. archive on Zenodo.
 
 ## Consumer notebooks
 
@@ -98,7 +24,9 @@ torsvik2019_paleomag/
 
 ## References
 
-Leonard, J., Farnsworth, A., Valdes, P.J., Lunt, D.J. & Merdith, A. (2025). Polar wander leads to large differences in past climate. *Communications Earth & Environment* 6, 15. [Zenodo: 10.5281/zenodo.15628277](https://doi.org/10.5281/zenodo.15628277)
+Leonard, J., Zahirovic, S., Holden, P.B., Salles, T., Edwards, N.R. & Mallard, C.A. (2025). Polar wander leads to large differences in past climate reconstructions. *Communications Earth & Environment* 6, 508. https://doi.org/10.1038/s43247-025-02485-w — data: https://doi.org/10.5281/zenodo.15628277
+
+The plate-model citations are in `plate_reconstructions/CITATIONS.txt`.
 
 ## License
 

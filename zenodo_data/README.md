@@ -132,22 +132,35 @@ files (both required by G07) — extract both into the same
 - **Used by:** E06, E07, G09
 - **Contents:** `plate_frame/` dynamic-topography grids (two age
   cadences) and `plate_model/` (M21 NNR rotation + topology files).
-- **Source:** Young, A. et al. (2022). *Earth and Planetary Science
-  Letters* 584, 117451.
+- **Source:** Young, A., Flament, N., Williams, S.E., Merdith, A., Cao, X. &
+  Müller, R.D. (2022). Long-term Phanerozoic sea level change from solid
+  Earth processes. *Earth and Planetary Science Letters* 584, 117451.
+  https://doi.org/10.1016/j.epsl.2022.117451
 
 ### gmcm9_dynamic_topography_Braz
 - **Used by:** G06, G08
 - **Contents:** `MantleFrame/`, `PlateFrame/` mantle-flow
   dynamic-topography grids, 0–150 Ma at ~5-Myr cadence.
-- **Source:** Braz, C. et al. (2021) — EarthByte dynamic-topography
-  archive ("gmcm9" model run).
+- **Source:** the gmcm9 mantle-flow model of Braz, C., Zahirovic, S.,
+  Salles, T., Flament, N., Harrington, L. & Müller, R.D. (2021). Modelling
+  the role of dynamic topography and eustasy in the evolution of the Great
+  Artesian Basin. *Basin Research* 33, 3378–3405.
+  https://doi.org/10.1111/bre.12606
 
 ### paleo_elevation_Zhou
 - **Used by:** G04
 - **Contents:** geochemistry-corrected paleo-elevation compilation
   (`global_crustal_thickness_with_paleo_coords.csv` + supporting
   age-temperature CSVs).
-- **Source:** Zhou et al. — geochemistry-corrected paleo-elevation.
+- **Source:** Zhou, J., Farahbakhsh, E., Li, S., Liu, Y., Sun, G., Cao, X.,
+  Suo, Y. & Müller, R.D. (2026). Recurrent super highlands since 2.1 Ga
+  reveal rhythmic coupling between deep Earth and surface evolution.
+  *Geology*. https://doi.org/10.1130/G54718.1 — with the crustal-thickness
+  inversions of Zhou, J., Farahbakhsh, E., Williams, S., Li, X., Liu, Y.,
+  Li, S. & Müller, R.D. (2025). Machine learning and big data mining reveal
+  Earth's deep time crustal thickness and tectonic evolution: A new chemical
+  mohometry approach. *Journal of Geophysical Research: Solid Earth* 130(5),
+  e2024JB030404.
 
 ### thermochronology_precomputed_cache_CentralAsia
 - **Used by:** G06 (writes), G07 (writes), G08 (reads) — an optional
@@ -184,13 +197,19 @@ files (both required by G07) — extract both into the same
 - **Used by:** H01, H03
 - **Contents:** `Bird_Mooney_GST14_WGS84.nc` — 0.125° global sediment
   thickness.
-- **Source:** Bird & Mooney (2026) GST-1.
+- **Source:** Bird, D.E. & Mooney, W.D. (2026). GST-1: A high-resolution
+  global sediment thickness model. *Tectonophysics* 929, 231175.
+  https://doi.org/10.1016/j.tecto.2026.231175
 
 ### crustal_thickness_Afonso
 - **Used by:** H01, H02, H03
 - **Contents:** `crustal-thickness-gmt-surface.nc` — 0.25° global
   crustal thickness.
-- **Source:** Afonso et al. (2019).
+- **Source:** Afonso, J.C., Salajegheh, F., Szwillus, W., Ebbing, J. &
+  Gaina, C. (2019). A global reference model of the lithosphere and upper
+  mantle from joint inversion and analysis of multiple data sets.
+  *Geophysical Journal International* 217(3), 1602–1628.
+  https://doi.org/10.1093/gji/ggz094. Values are in metres.
 
 ### foam_devonian_climatology_Pohl
 - **Used by:** J08
@@ -234,10 +253,10 @@ files (both required by G07) — extract both into the same
   (paleobathymetry/topography, m; negative = below sea level) on a 0.1°
   global grid (lat: 1801, lon: 3601), already expressed in the paleo
   (reconstructed) reference frame.
-- **Source:** Straume, E.O., Gaina, C., Medvedev, S. et al. (2020). Global
-  Cenozoic paleobathymetry with a focus on the Northern Hemisphere oceanic
-  gateways. *Global and Planetary Change* 194, 103297.
-  https://doi.org/10.1016/j.gloplacha.2020.103297. Data (v2.0) archived at
+- **Source:** Straume, E.O., Gaina, C., Medvedev, S. & Nisancioglu, K.
+  (2020). Global Cenozoic paleobathymetry with a focus on the Northern
+  Hemisphere oceanic gateways. *Gondwana Research* 86, 126–143.
+  https://doi.org/10.1016/j.gr.2020.05.011. Data (v2.0) archived at
   https://doi.org/10.5281/zenodo.4193576, CC BY 4.0.
 
 **Note on basin polygons (H01/H02/H03):** these three notebooks also load

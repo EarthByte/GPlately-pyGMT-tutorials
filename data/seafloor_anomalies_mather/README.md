@@ -19,7 +19,9 @@ base_metal_deposit_compilation.xls (0.4 MB)
 
 ## References
 
-Whittaker, J.M., Afonso, J.C., Masterton, S., Müller, R.D., Wessel, P., Williams, S.E. & Seton, M. (2015). Long-term interaction between mid-ocean ridges and mantle plumes. *Nature Geoscience* 8, 479-483.
+Mather, B.R., Müller, R.D., Alfonso, C.P., Wright, N.M. & Seton, M. (2025). Subducting seafloor anomalies promote porphyry copper formation. *International Geology Review* 67(19), 2170-2186. https://doi.org/10.1080/00206814.2025.2508791
+
+Whittaker, J.M., Afonso, J.C., Masterton, S., Müller, R.D., Wessel, P., Williams, S.E. & Seton, M. (2015). Long-term interaction between mid-ocean ridges and mantle plumes. *Nature Geoscience* 8, 479-483. https://doi.org/10.1038/ngeo2437
 
 ## License
 

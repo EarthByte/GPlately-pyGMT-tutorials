@@ -1,46 +1,32 @@
-# PLASIM-GENIE (Holden et al. 2016) end-Permian (252 Ma) CO2-sensitivity ensemble — compact bundle
+# plasim_genie_permian — End-Permian (252 Ma) PLASIM-GENIE CO2-sensitivity ensemble
 
-Source: Andrew Merdith's PLASIM-GENIE (Holden et al. 2016) coupled-model output, version `MER25rev6` (2025-08-01).
-PLASIM-GENIE (Holden et al. 2016) = cGENIE + PLASIM + GOLDSTEIN. PLASIM atmosphere is T21 (64 lon x 32 lat,
-~5.625 deg). GOLDSTEIN ocean is on a 64 lon x 32 lat C-grid with 16 depth
-levels (only the surface and 2D bathymetry are bundled here).
+**Provenance:** model runs by Andrew Merdith with the SCION-coupled PLASIM-GENIE climate model (run MER25rev6, 1 August 2025), computed for the GPlately-pyGMT tutorials
 
-## Files
+Ten PLASIM-GENIE simulations at the 252 Ma paleogeography, one per atmospheric CO2 level (140, 280, 560, 1120, 2240, 3360, 4480, 8960, 17920 and 35840 ppm). PLASIM-GENIE couples the PLASIM atmosphere (T21, 64 × 32 grid) to the GOLDSTEIN ocean (Holden et al., 2016). The files keep the last model year (year 3000) of each run, the spin-up time series and the input bathymetry; the full model output (about 1.5 GB) is held by the model author.
 
-- `plasim_genie_252Ma_equilibrium.nc` — last-year (year 3000) snapshot per CO2 level.
-  Dims (co2_ppm: 10, latitude: 32, longitude: 64). Variables: SAT, surface_T,
-  sea_ice_cover, sea_ice_thickness, snow_depth, surface_albedo, landsea_mask,
-  orography, top_thermal, top_solar.
-- `plasim_genie_252Ma_bathymetry.nc` — GOLDSTEIN bathymetry per CO2. Identical
-  across CO2 levels (same input geography); bundled per-CO2 for symmetry.
-- `plasim_genie_252Ma_spinup.nc` — (co2_ppm, year) energy-balance time series for
-  the model-stability / spin-up curves (J05 cell 5). 30 yearly steps per
-  CO2 level (years 100..3000 in steps of 100).
+## Contents
 
-## CO2 levels
+```
+plasim_genie_permian/  (0.4 MB)
+├── README.md
+├── plasim_genie_252Ma_equilibrium.nc   year-3000 fields per CO2 level (co2_ppm 10 × latitude 32 × longitude 64):
+│                                       SAT, surface_T, sea_ice_cover, sea_ice_thickness, snow_depth,
+│                                       surface_albedo, landsea_mask, orography, top_thermal, top_solar
+├── plasim_genie_252Ma_spinup.nc        energy-balance time series per CO2 level, years 100–3000 in 100-yr steps:
+│                                       GAST, top_thermal_abs, top_solar_abs, min_seaice_lat
+└── plasim_genie_252Ma_bathymetry.nc    GOLDSTEIN input bathymetry (identical for all CO2 levels)
+```
 
-140, 280, 560, 1120, 2240, 3360, 4480, 8960, 17920, 35840 ppm.
-End-Permian best-estimate ~1120 ppm; runaway scenarios up to 35840 ppm.
+## Consumer notebooks
 
-## Size
+**J05**
 
-Full bundle ~50 KB compressed (vs 1.5 GB for the raw model output).
-That covers everything J05 needs.
+## References
 
-## Provenance
+Holden, P.B. et al. (2016). PLASIM-GENIE v1.0: a new intermediate complexity AOGCM. *Geoscientific Model Development* 9, 3347-3361. https://doi.org/10.5194/gmd-9-3347-2016
 
-Original output lives at
-`/Users/dietmar/Documents/Software/paleoclimate_notebooks/scion_stacks_2025_MER25rev6_252_Ma/`.
-For the full model output (every yearly snapshot, every variable, all of
-cGENIE biogeochemistry), contact Andrew Merdith.
+Mills, B.J.W., Donnadieu, Y. & Goddéris, Y. (2021). Spatial continuous integration of Phanerozoic global biogeochemistry and climate. *Gondwana Research* 100, 73-86. https://doi.org/10.1016/j.gr.2021.02.011 — the SCION model.
 
-## Citation
+## License
 
-For now, cite the PLASIM-GENIE (Holden et al. 2016) model description:
-
-  Mills, B.J.W., Donnadieu, Y., Godderis, Y. (2021). Spatial continuous
-  integration of Phanerozoic global biogeochemistry and climate. *Gondwana
-  Research* 100, 73-86.
-
-And acknowledge Andrew Merdith's 252 Ma ensemble as personal communication
-pending publication.
+CC BY 4.0.

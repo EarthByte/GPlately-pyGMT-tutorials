@@ -2,7 +2,7 @@
 
 **Provenance:** Singer, Berger & Moring (2008), U.S. Geological Survey Open-File Report 2008-1155
 
-`global_porphyry_cu.csv` holds the 576 deposits with a published age of mineralisation among the 690 deposits of the USGS database *Porphyry copper deposits of the world: database and grade and tonnage models, 2008* (https://pubs.usgs.gov/of/2008/1155/). `tools/build_porphyry_cu_global.py` rebuilds it from the database's Excel table (`PorCuEX2008.xls`), downloaded from the USGS. K02 reconstructs the 539 deposits younger than 410 Ma, the span of the Zahirovic et al. (2022) plate model, to their mineralisation ages.
+`global_porphyry_cu.csv` holds the 576 deposits with a published age of mineralisation among the 690 deposits of the USGS database *Porphyry copper deposits of the world: database and grade and tonnage models, 2008* (https://pubs.usgs.gov/of/2008/1155/). `tools/build_porphyry_cu_global.py` rebuilds it from the database's Excel table (`PorCuEX2008.xls`), downloaded from the USGS. K02 reconstructs the 539 deposits younger than 410 Ma, the span of the Zahirovic et al. (2022) plate model, to their mineralisation ages; K01 uses the 22 Cenozoic deposits of New Guinea and the Solomon Islands.
 
 ## Contents
 
@@ -28,7 +28,7 @@ Tonnage and grades are empty for the 205 deposits without a reported tonnage. Wh
 
 ## Consumer notebooks
 
-**K02**
+**K01**, **K02**
 
 ## References
 

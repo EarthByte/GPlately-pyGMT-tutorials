@@ -11,17 +11,17 @@ paleomag/  (4.0 MB)
 ├── README.md
 ├── build_gilder2001_csv.py
 ├── gilder2001_xishuigou_directions.csv   (F08; built by the script)
-├── gpmdb_2022.csv                        (F01, F02, F06, J01)
+├── gpmdb_2022.csv                        (F01; F02 and J01 use the rotation file F01 derives from it)
 └── vaes2023_global_apwp.csv              (F05, F07)
 ```
 
 ## Consumer notebooks
 
-**F01**, **F02**, **F05**, **F06**, **F07**, **F08**, **J01**
+**F01**, **F05**, **F07**, **F08**
 
 ## References
 
-Torsvik, T.H., Van der Voo, R., Preeden, U. et al. (2012). Phanerozoic polar wander, palaeogeography and dynamics. *Earth-Science Reviews* 114, 325-368.
+Torsvik, T.H., Van der Voo, R., Preeden, U. et al. (2012). Phanerozoic polar wander, palaeogeography and dynamics. *Earth-Science Reviews* 114, 325-368. https://doi.org/10.1016/j.earscirev.2012.06.007
 
 Vaes, B., van Hinsbergen, D.J.J., van de Lagemaat, S.H.A. et al. (2023). A global apparent polar wander path for the last 320 Ma calculated from site-level paleomagnetic data. *Earth-Science Reviews* 245, 104547. https://doi.org/10.1016/j.earscirev.2023.104547
 

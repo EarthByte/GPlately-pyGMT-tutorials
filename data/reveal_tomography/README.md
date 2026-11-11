@@ -1,8 +1,8 @@
 # reveal_tomography — REVEAL global full-waveform tomography (dvs at 10 depth slices)
 
-**Provenance:** Fichtner et al. — REVEAL model
+**Provenance:** Thrastarson et al. (2024) — REVEAL global full-waveform inversion model
 
-REVEAL global tomographic model — dvs (S-wave velocity anomaly) at 10 depth slices from 100 km to 2400 km. Used to render mantle plume conduits in cross-section (E01, E02) and to visualise mantle heterogeneity beneath specific paleo-reconstructions.
+REVEAL global full-waveform inversion model — dvs (S-wave velocity anomaly) at 10 depth slices from 500 km to 2500 km. E01 compares these slices with reconstructed paleo-trenches; E02 uses them for plume cross-sections. The full 3-D model for E02 is in the Zenodo companion archive (`REVEAL_mantle_tomography`).
 
 ## Contents
 
@@ -26,7 +26,7 @@ REVEAL_dvs_850km.nc (0.8 MB)
 
 ## References
 
-Fichtner, A. et al. (2018). The Collaborative Seismic Earth Model: Generation 1. *Geophysical Research Letters* 45, 4007-4016. [doi:10.1029/2018GL077338](https://doi.org/10.1029/2018GL077338)
+Thrastarson, S., van Herwaarden, D.-P., Noe, S., Schiller, C.J. & Fichtner, A. (2024). REVEAL: A global full-waveform inversion model. *Bulletin of the Seismological Society of America* 114, 1392–1406. https://doi.org/10.1785/0120230273
 
 ## License
 

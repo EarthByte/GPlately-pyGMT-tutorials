@@ -2,7 +2,7 @@
 
 **Provenance:** Keller, C.B., Husson, J.M., Mitchell, R.N., Bottke, W.F., Gernon, T.M., Boehnke, P., Bell, E.A., Swanson-Hysell, N.L. & Peters, S.E. (2019). Neoproterozoic glacial origin of the Great Unconformity. *Proceedings of the National Academy of Sciences* 116(4), 1136–1145. https://doi.org/10.1073/pnas.1804350116 (published online December 2018).
 
-Supporting information of the article, as downloaded from PNAS.
+Datasets S1 and S2 of the article's supporting information, as downloaded from PNAS. The SI Appendix (methods; its Fig. S1 shows the Dataset S2 volumes in km³/yr) is available from the article page.
 
 ## Contents
 
@@ -14,7 +14,6 @@ Keller_PNAS_2018/
                                                 compiled by Ronov and coauthors (sheet "corr"; columns interval, b_age,
                                                 t_age, Ronov_globe, Ronov_CC, Ronov_Eur, Ronov_NAm, Ronov_SAm,
                                                 Ronov_Afr, Ronov_Aus, Reference); each row names its original source
-  Keller_PNAS_2018_pnas.1804350116.sapp.pdf    SI Appendix (methods, Fig. S1 shows the Dataset S2 volumes in km³/yr)
 ```
 
 Ages are in Ma. Dividing a volume by the length of its interval (b_age − t_age) gives the preserved-sediment
