@@ -28,6 +28,8 @@ from pathlib import Path
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 
+plt.rcParams["font.family"] = "DejaVu Sans"   # matplotlib's bundled font, so the figure is the same on every machine
+
 HERE = Path(__file__).parent
 
 NL = "\n"
