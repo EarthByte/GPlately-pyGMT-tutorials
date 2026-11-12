@@ -8,7 +8,7 @@
 
 # Extending pyGMT into Deep Time via GPlately
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24147776.svg)](https://doi.org/10.5281/zenodo.24147776)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24149239.svg)](https://doi.org/10.5281/zenodo.24149239)
 
 *This research was supported by AuScope and the Australian Government's
 National Collaborative Research Infrastructure Strategy (NCRIS).*
@@ -34,8 +34,8 @@ Geophysics, Geosystems* (G3).
 
 **Live repository versus archived snapshot.** This GitHub repository is the
 living version of the suite and will keep changing (new notebooks, fixes,
-renumbering). The Zenodo record of release 1.1.3,
-[10.5281/zenodo.24147776](https://doi.org/10.5281/zenodo.24147776), is a frozen
+renumbering). The Zenodo record of release 1.1.5,
+[10.5281/zenodo.24149239](https://doi.org/10.5281/zenodo.24149239), is a frozen
 snapshot of the suite as it stood when the companion paper was published and is
 not updated afterwards; if something here differs from what the paper describes,
 the Zenodo snapshot is the version the paper refers to. Cite the Zenodo DOI to
