@@ -1,0 +1,83 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Hobart"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     147.33,
+     -42.88
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Sydney"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     151.21,
+     -33.87
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Broken Hill"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.47,
+     -31.95
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Mount Isa"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.49,
+     -20.73
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Kalgoorlie"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.47,
+     -30.75
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "name": "Ediacara Hills"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.13,
+     -30.8
+    ]
+   }
+  }
+ ]
+}

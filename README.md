@@ -41,6 +41,8 @@ not updated afterwards; if something here differs from what the paper describes,
 the Zenodo snapshot is the version the paper refers to. Cite the Zenodo DOI to
 refer to the exact version described in the paper.
 
+**Short course.** The materials of the two-hour course *GPlates and Beyond: Reproducible Workflows to Investigate Deep Time Earth Evolution* (SGESS 2027, Hobart), with installation steps, a setup check and step-by-step tutorial notes, are in [`course/`](course/README.md).
+
 ## Quick start
 
 ```bash
