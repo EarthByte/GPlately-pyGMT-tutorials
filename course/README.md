@@ -2,6 +2,8 @@
 
 Short course at the meeting of the Geological Society of Australia Specialist Group in Earth Systems Science (SGESS), Hobart, February 2027. Two hours, hands-on, on your own laptop.
 
+Taught by R. Dietmar Müller (EarthByte Group, School of Geosciences, The University of Sydney) and Simon E. Williams (Institute for Marine and Antarctic Studies, University of Tasmania).
+
 The course starts with a brief demonstration of GPlates, the desktop application for plate reconstructions, and then moves to Python, where GPlately and pyGMT turn the same plate models into scripted, repeatable workflows. You run ready-made notebooks from the GPlately-pyGMT tutorial suite, change a few settings in each, and see how geological, climate, ocean and mineral-deposit data look when they are carried back in time with the plates. No Python experience beyond the basics is assumed: every notebook runs from top to bottom as it is, and each step below tells you which single line to edit.
 
 ## Before the course
